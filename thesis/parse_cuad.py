@@ -25,12 +25,21 @@ except Exception as e:
     print(f"Failed to open the dataset at {args.original_path}: {e}")
     sys.exit(1)
 
+# Normalize accidental whitespace in column names (e.g., " index")
+data.columns = data.columns.str.strip()
+
 ####################
 # Extract features #
 ####################
 
-# contract text
-data["text"] = data["contract_text"].astype(str)
+# contract text (supports both old and new CUAD schemas)
+if "text" in data.columns:
+    data["text"] = data["text"].astype(str)
+elif "contract_text" in data.columns:
+    data["text"] = data["contract_text"].astype(str)
+else:
+    print("Dataset must contain either 'text' or 'contract_text' column.")
+    sys.exit(1)
 
 # contract length (character count)
 data["x1"] = data["text"].map(lambda x: len(x))
