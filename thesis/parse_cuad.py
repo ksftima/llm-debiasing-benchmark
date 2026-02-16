@@ -32,36 +32,21 @@ data.columns = data.columns.str.strip()
 # Extract features #
 ####################
 
-# contract text (supports both old and new CUAD schemas)
-if "text" in data.columns:
-    data["text"] = data["text"].astype(str)
-elif "contract_text" in data.columns:
-    data["text"] = data["contract_text"].astype(str)
-else:
-    print("Dataset must contain either 'text' or 'contract_text' column.")
-    sys.exit(1)
-
-# contract length (character count)
+# text length (character count)
 data["x1"] = data["text"].map(lambda x: len(x))
 
-# sentence length (average character count per sentence)
-def avg_sentence_length(text):
-    sentences = [s.strip() for s in re.split(r"[.!?]+", text) if s.strip()]
-    if not sentences:
+# average word length
+def avg_word_length(text):
+    words = text.split()
+    if not words:
         return 0.0
-    return sum(len(s) for s in sentences) / len(sentences)
+    return sum(len(w) for w in words) / len(words)
+data["x2"] = data["text"].map(avg_word_length)
 
-data["x2"] = data["text"].map(avg_sentence_length)
-
-# number of sections/articles (Section, Article, numbered clauses)
-def section_article_count(text):
-    count_section = len(re.findall(r"\bsection\b", text, flags=re.IGNORECASE))
-    count_article = len(re.findall(r"\barticle\b", text, flags=re.IGNORECASE))
-    # Count only top-level numbered clauses like "1.", "2.", "3." (not "1.2", "1.3", etc.)
-    count_numbered = len(re.findall(r"(?m)^\s*\d+\.(?!\d)", text))
-    return count_section + count_article + count_numbered
-
-data["x3"] = data["text"].map(section_article_count)
+# punctuation count
+def count_punctuation(text):
+    return sum(1 for c in text if c in ".,;:!?()-\"'")
+data["x3"] = data["text"].map(count_punctuation)
 
 # legal jargon density proxy (count of common legal terms)
 legal_terms = [
