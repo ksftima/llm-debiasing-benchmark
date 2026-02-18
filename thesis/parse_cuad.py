@@ -32,10 +32,10 @@ data.columns = data.columns.str.strip()
 # Extract features #
 ####################
 
-# text length (character count)
+# x1: text length (character count)
 data["x1"] = data["text"].map(lambda x: len(x))
 
-# average word length
+# x2: average word length
 def avg_word_length(text):
     words = text.split()
     if not words:
@@ -43,12 +43,20 @@ def avg_word_length(text):
     return sum(len(w) for w in words) / len(words)
 data["x2"] = data["text"].map(avg_word_length)
 
-# punctuation count
-def count_punctuation(text):
-    return sum(1 for c in text if c in ".,;:!?()-\"'")
-data["x3"] = data["text"].map(count_punctuation)
+# x3: capitalization ratio
+def capitalization_ratio(text):
+    words = text.split()
+    if not words:
+        return 0.0
+    # Count words that start with capital letter (excluding first word)
+    if len(words) == 1:
+        return 0.0
+    capitalized = sum(1 for w in words[1:] if w and w[0].isupper())
+    return capitalized / (len(words) - 1)
 
-# legal jargon density proxy (count of common legal terms)
+data["x3"] = data["text"].map(capitalization_ratio)
+
+# x4: legal jargon density proxy (count of common legal terms)
 legal_terms = [
     "shall", "hereby", "pursuant", "thereof", "therein",
     "hereunder", "herein", "hereof", "provisions", "obligations",
@@ -61,7 +69,7 @@ def legal_jargon_count(text):
 
 data["x4"] = data["text"].map(legal_jargon_count)
 
-# licensing keyword presence/intensity
+# x5: licensing keyword presence/intensity
 licensing_terms = [
     "license", "licensed", "licensee", "licensor",
     "grant", "granted", "rights", "right",
@@ -89,3 +97,6 @@ print(data.head())
 
 data.to_json(args.parsed_path)
 print(f"\nSaved data to {args.parsed_path}")
+
+data.to_csv(args.parsed_path.with_suffix(".csv"), index=False)
+print(f"Saved data to {args.parsed_path.with_suffix('.csv')}")
