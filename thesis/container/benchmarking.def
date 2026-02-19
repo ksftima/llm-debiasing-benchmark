@@ -10,9 +10,7 @@ From: python:3.11-slim
 # Section 2: Files
 # This sections copies files from my machine into the container at build time
 %files
-    requirements_container.txt /tmp/requirements_container.txt
-
-
+    requirements_container.txt /opt/requirements_container.txt
 # left side: req...txt — the file on my machine (relative to where the .def file lives)
 # right side: /tmp/req...txt — where it lands inside the container
 # NOTE: %files runs before %post. apptainer copies files in first and then installs commands
@@ -37,7 +35,7 @@ From: python:3.11-slim
     # Section 2.1 Pip Installs
     pip install --upgrade pip
     pip install torch --index-url https://download.pytorch.org/whl/cpu
-    pip install -r /tmp/requirements_container.txt
+    pip install -r /opt/requirements_container.txt
 
     # 1. --upgrade pip: updates pip itself first, good practice
     # 2. torch --index-url ..: installs torch separately since transformers depend on it 
