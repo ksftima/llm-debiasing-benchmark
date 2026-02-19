@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+pandas
+tqdm
+seaborn
+matplotlib
+transformers
+datasets
+openai
+ppi-python
+accelerate
+anthropic
+statsmodels
