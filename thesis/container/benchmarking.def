@@ -10,7 +10,7 @@ From: python:3.11-slim
 # Section 2: Files
 # This sections copies files from my machine into the container at build time
 %files
-    /Users/kesafatima/llm-debiasing-benchmark/thesis/container/requirements_container.txt /tmp/requirements_container.txt
+    requirements_container.txt /tmp/requirements_container.txt
 
 
 # left side: req...txt — the file on my machine (relative to where the .def file lives)
