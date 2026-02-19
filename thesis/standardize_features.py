@@ -5,9 +5,9 @@ import numpy as np
 # Dataset paths
 datasets = {
     'CUAD': 'parsed_datasets/parsed_csv/parsed_cuad.csv',
-    #'FOMC': 'parsed_datasets/parsed_csv/parsed_fomc.csv',
-    #'Misogynistic': 'parsed_datasets/parsed_csv/parsed_misogynistic.csv',
-    #'PubMedQA': 'parsed_datasets/parsed_csv/parsed_pubmedqa.csv'
+    'FOMC': 'parsed_datasets/parsed_csv/parsed_fomc.csv',
+    'Misogynistic': 'parsed_datasets/parsed_csv/parsed_misogynistic.csv',
+    'PubMedQA': 'parsed_datasets/parsed_csv/parsed_pubmedqa.csv'
 }
 
 # Feature columns to standardize

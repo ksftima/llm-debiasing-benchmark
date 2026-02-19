@@ -25,3 +25,4 @@ paper
 .DS_Store
 lib/dsl_use.egg-info
 correlations.csv
+*.sif
