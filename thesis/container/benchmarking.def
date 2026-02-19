@@ -1,0 +1,83 @@
+# Section 1: The header
+# when building, apptainer downloads this image and uses it as a starting point
+
+# go fetch base image from docker hub
+Bootstrap: docker 
+
+# the image name
+From: python:3.11-slim 
+
+# Section 2: Files
+# This sections copies files from my machine into the container at build time
+%files
+    /Users/kesafatima/llm-debiasing-benchmark/thesis/container/requirements_container.txt /tmp/requirements_container.txt
+
+
+# left side: req...txt — the file on my machine (relative to where the .def file lives)
+# right side: /tmp/req...txt — where it lands inside the container
+# NOTE: %files runs before %post. apptainer copies files in first and then installs commands
+
+# Section 3: %post
+# %post is where we install things, bunch of shell commands running once, 
+# at build time inside the container
+
+%post
+       
+    apt-get update && apt-get install -y --no-install-recommends \
+        gcc \
+        g++ 
+    rm -rf /var/lib/apt/lists/*
+
+    # 1. apt-get update: refreshes the list of available packages
+    # 2. apt-get install -y: -y means yes to all prompts so we don't have manually check that
+    # 3.  --no-install-recommends: only installs what's asked not anything more
+    # 4. gcc/g++: c compilers needed for python packages
+    # 5. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
+
+    # Section 2.1 Pip Installs
+    pip install --upgrade pip
+    pip install torch --index-url https://download.pytorch.org/whl/cpu
+    pip install -r /tmp/requirements_container.txt
+
+    # 1. --upgrade pip: updates pip itself first, good practice
+    # 2. torch --index-url ..: installs torch separately since transformers depend on it 
+    # + also only installs the cpu version that is lighter than GPU 2GB vs 200MB
+    # 3. -r/tmp/requ...txt: installs everythin in the req file. 
+    # /tmp/ path is where we put that file in the container
+    # NOTE: the order matters!! torch first then everything else
+
+# Section 4: Environment
+# This section sets the environment vars that are active every time the container runs!!
+%environment
+    export LC_ALL=C
+    export PYTHONUNBUFFERED=1
+
+# 1. LC_ALL=C: sets local to safe default to avoid locale files errors
+# 2. PYTHONUNBUFFERED=1: set to =1 means that log output prints immediately 
+# instead of chunks!! imp when watching logs
+
+# Section 5: Labels
+# Metadata that is baked into the image
+
+%labels 
+    Author Kesa Fatima
+    Version 0.1
+    Description LLM debiasing benchmark
+
+# Section 6: Help
+# This is guideline for running the container
+
+%help 
+    Development usage (bind-mound code and data at runtime):
+        apptainer exec \
+            --bind /path/to/thesis:/code \
+            --bind /path/to/datasets:/data\
+            thesis.sif python /code/script.py
+
+    Interactive shell inside the container:
+        apptainer shell --bind /path/to/thesis:/code thesis.sif
+
+# this .def file will create a .sif file. a sif file is the output
+# of the build, the frozen finished container- its immutable!
+# its portable, we can scp it to Vera
+# do not commit the sif, only commit the .def! 
