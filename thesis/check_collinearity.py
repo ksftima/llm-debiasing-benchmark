@@ -6,10 +6,10 @@ import os
 
 # Dataset paths (scaled versions)
 datasets = {
-    'CUAD': 'parsed_datasets/parsed_scaled_datasets/parsed_cuad_scaled.csv',
-    'FOMC': 'parsed_datasets/parsed_scaled_datasets/parsed_fomc_scaled.csv',
-    'Misogynistic': 'parsed_datasets/parsed_scaled_datasets/parsed_misogynistic_scaled.csv',
-    'PubMedQA': 'parsed_datasets/parsed_scaled_datasets/parsed_pubmedqa_scaled.csv'
+    'CUAD': 'parsed_datasets/parsed_scaled_datasets/cuad.csv',
+    'FOMC': 'parsed_datasets/parsed_scaled_datasets/fomc.csv',
+    'Misogynistic': 'parsed_datasets/parsed_scaled_datasets/misogynistic.csv',
+    'PubMedQA': 'parsed_datasets/parsed_scaled_datasets/pubmedqa.csv'
 }
 
 # Feature columns
