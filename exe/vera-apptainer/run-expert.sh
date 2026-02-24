@@ -1,0 +1,10 @@
+#!/bin/bash
+
+datasets=("amazon" "misinfo" "biobias" "germeval")
+annotations=("bert" "deepseek" "phi4" "claude")
+
+for dataset in "${datasets[@]}"; do
+    for annotation in "${annotations[@]}"; do
+        sbatch exe/vera-apptainer/vary-expert.sh $annotation $dataset
+    done
+done
