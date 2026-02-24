@@ -26,3 +26,4 @@ paper
 lib/dsl_use.egg-info
 correlations.csv
 *.sif
+.env
