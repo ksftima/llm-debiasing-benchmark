@@ -25,18 +25,24 @@ From: python:3.11-slim
         gcc \
         g++ \
         r-base \
-        r-base-dev 
+        r-base-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libfontconfig1-dev
     rm -rf /var/lib/apt/lists/*
 
     # 1. apt-get update: refreshes the list of available packages
     # 2. apt-get install -y: -y means yes to all prompts so we don't have manually check that
     # 3.  --no-install-recommends: only installs what's asked not anything more
     # 4. gcc/g++: c compilers needed for python packages
-    # 5. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
+    # 5. libcurl4-openssl-dev/libssl-dev/libfontconfig1-dev: system libs for R packages
+    # 6. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
 
-    # Install R packages: devtools first, then DSL from GitHub
+    # Install R packages: remotes first, then DSL from GitHub
     Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
     Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
+    # Verify DSL installed correctly -- build will fail loudly here if it didn't
+    Rscript -e "library('dsl')"
 
 
     # Section 2.1 Pip Installs
