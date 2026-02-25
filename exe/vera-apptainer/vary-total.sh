@@ -23,7 +23,7 @@ DATASET=$2
 
 # Paths for your setup
 CONTAINER_PATH="$HOME/benchmarking.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 MIMER_PATH="/mimer/NOBACKUP/groups/ci-nlp-alvis/dsl-use"
 DATA_DIR="$MIMER_PATH/experiments/no-collinear-90/vary-num-total/data/$DATASET/$ANNOTATION"
 

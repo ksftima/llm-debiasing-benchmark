@@ -17,7 +17,7 @@
 
 # Paths for your setup
 CONTAINER_PATH="$HOME/benchmarking.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 DATA_DIR="/mimer/NOBACKUP/groups/ci-nlp-alvis/dsl-use/experiments/vary-num-expert/simulation/data"
 
 mkdir -p $DATA_DIR

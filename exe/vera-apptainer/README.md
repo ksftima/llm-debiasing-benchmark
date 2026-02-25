@@ -10,7 +10,7 @@ These scripts assume your container is at: `~/benchmarking.sif`
 If it's elsewhere, update the `CONTAINER_PATH` variable in each script.
 
 ### 2. Code Location
-Scripts assume code is at: `/cephyr/users/kesaf/Vera/llm-debiasing-benchmark`
+Scripts assume code is at: `/cephyr/users/$USER/Vera/llm-debiasing-benchmark` (automatically uses your username)
 
 Update `CODE_DIR` if your path is different.
 
