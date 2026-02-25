@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=vary-expert-apptainer
-#SBATCH --account=C3SE2025-1-14
+#SBATCH --account=C3SE2026-1-12
 #SBATCH --partition=vera
 
 #SBATCH --nodes=1
