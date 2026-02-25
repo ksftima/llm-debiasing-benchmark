@@ -1,6 +1,6 @@
 import numpy as np
 import scipy
-from fitting import logit_fit, logit_fit_ppi
+from fitting import logit_fit, logit_fit_ppi, logit_fit_dsl
 
 
 def generate(num_samples, prediction_accuracy):
@@ -52,3 +52,8 @@ print(np.round(coeffs_exp, 4))
 coeffs_ppi = logit_fit_ppi(X, Y_true, Y_pred, selected)
 print("\nCoefficients (PPI):")
 print(np.round(coeffs_ppi, 4))
+
+# Method 4: DSL (uses expert labels + all LLM predictions via R package)
+coeffs_dsl = logit_fit_dsl(X, Y_true, Y_pred, selected_idx)
+print("\nCoefficients (DSL):")
+print(np.round(coeffs_dsl, 4))
