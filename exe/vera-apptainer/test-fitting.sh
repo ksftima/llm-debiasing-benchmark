@@ -20,7 +20,7 @@ CONTAINER_PATH="$HOME/benchmarking.sif"
 CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 echo "================================"
-echo "Testing fitting.py methods"
+echo "Testing test_fitting.py methods"
 echo "Job ID: $SLURM_JOB_ID"
 echo "Started at: $(date)"
 echo "================================"
@@ -30,7 +30,7 @@ apptainer exec \
     --bind ${CODE_DIR}:/code \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python /code/tests/test_fitting.py
+    python /code/thesis/test_fitting.py
 
 EXIT_CODE=$?
 
