@@ -12,3 +12,4 @@ ppi-python
 accelerate
 anthropic
 statsmodels
+rpy2

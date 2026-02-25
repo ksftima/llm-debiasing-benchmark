@@ -24,6 +24,8 @@ From: python:3.11-slim
     apt-get update && apt-get install -y --no-install-recommends \
         gcc \
         g++ 
+        r-base \
+        r-base-dev
     rm -rf /var/lib/apt/lists/*
 
     # 1. apt-get update: refreshes the list of available packages
@@ -31,6 +33,10 @@ From: python:3.11-slim
     # 3.  --no-install-recommends: only installs what's asked not anything more
     # 4. gcc/g++: c compilers needed for python packages
     # 5. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
+
+    # Install R packages: devtools first, then DSL from GitHub
+    Rscript -e "install.packages('devtools', repos='https://cloud.r-project.org')"
+    Rscript -e "devtools::install_github('naoki-egami/dsl', dependencies=TRUE)"
 
     # Section 2.1 Pip Installs
     pip install --upgrade pip
