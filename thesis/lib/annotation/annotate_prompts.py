@@ -114,13 +114,13 @@ CLASSIFICATION:
 """
 
 def make_user_prompt(dataset, text, examples):
-    if dataset == "amazon":
+    if dataset == "fomc":
         return fomc_prompt(text, examples)
-    elif dataset == "misinfo":
+    elif dataset == "pubmedqa":
         return pubmedqa_prompt(text, examples)
-    elif dataset == "biobias":
+    elif dataset == "cuad":
         return cuad_prompt(text, examples)
-    elif dataset == "germeval":
+    elif dataset == "misogynistic":
         return misogynistic_prompt(text, examples)
     else:
         raise ValueError(f"'{dataset}' is not one of the known datasets.")
