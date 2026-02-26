@@ -27,10 +27,10 @@ echo "================================"
 
 # Run test with Apptainer
 apptainer exec \
-    --bind ${CODE_DIR}:/code \
-    --pwd /code \
+    --bind ${CODE_DIR}:/repo \
+    --pwd /repo \
     ${CONTAINER_PATH} \
-    python /code/thesis/test_fitting.py
+    python3 /repo/thesis/test_fitting.py
 
 EXIT_CODE=$?
 
