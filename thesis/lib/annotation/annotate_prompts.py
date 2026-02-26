@@ -83,17 +83,6 @@ Classify the following contract clauses as either:
 
 Give no other explanation for your classification, only output the label.
 
-Here are two examples of the formatting I would like you use, where
-< CLAUSE_TEXT > is a stand-in for the contract-clause text:
-
-< CLAUSE_TEXT  >
-
-CLASSIFICATION: 0
-
-< CLAUSE_TEXT >
-
-CLASSIFICATION: 1
-
 Here's the clause I would like you to classify:
 
 {text}
@@ -115,17 +104,6 @@ Classify the text as one of the following:
     or derogatory attitudes toward women)
 
 Give no other explanation for your classification, only output the label.
-
-Here are two examples of the formatting I would like you to use, 
-where <ONLINE_POST> is a stand-in for the Reddit post:
-
-<ONLINE_POST>
-
-CLASSIFICATION: 0
-
-<ONLINE_POST>
-
-CLASSIFICATION: 1
 
 Here's the text I would like you to classify:
 
