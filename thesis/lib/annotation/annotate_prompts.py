@@ -30,129 +30,120 @@ def make_examples(examples):
         lines.append("---")
         return "\n".join(lines)
 
+def fomc_prompt(text, examples):
+    return f"""
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+{text}
+
+CLASSIFICATION:
+"""
+
 def pubmedqa_prompt(text, examples):
     return f"""
-Classify the following review as either:
-- POSITIVE if the review indicates an overall positive sentiment
-- NEGATIVE if the review indicates an overall negative sentiment
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
 
 Give no other explanation for your classification, only output the label.
 
-Here are two examples of the formatting I would like you use, where <
-REVIEW_TEXT > is a stand-in for the article text:
-
-< REVIEW_TEXT >
-
-CLASSIFICATION: POSITIVE
-
-< REVIEW_TEXT >
-
-CLASSIFICATION: NEGATIVE
-
-{make_examples(examples)}
-
-Here's the review to classify:
+Here's the text I would like you to classify:
 
 {text}
 
 CLASSIFICATION: 
 """
 
-def misinfo_prompt(text, examples):
+def cuad_prompt(text, examples):
     return f"""
-Classify the following article as either:
-- THESUN if it is likely to have been published in the British tabloid newspaper
-  The Sun
-- THEGUARDIAN if it is likely to have been published in the British daily
-  newspaper The Guardian
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
 
 Give no other explanation for your classification, only output the label.
 
-Here are two examples of the formatting I would like you use, where <
-ARTICLE_TEXT > is a stand-in for the article text:
+Here are two examples of the formatting I would like you use, where
+< CLAUSE_TEXT > is a stand-in for the contract-clause text:
 
-< ARTICLE_TEXT >
+< CLAUSE_TEXT  >
 
-CLASSIFICATION: THESUN
+CLASSIFICATION: 0
 
-< ARTICLE_TEXT >
+< CLAUSE_TEXT >
 
-CLASSIFICATION: THEGUARDIAN
+CLASSIFICATION: 1
 
-{make_examples(examples)}
-
-Here's the article I would like you to classify:
+Here's the clause I would like you to classify:
 
 {text}
 
-CLASSIFICATION: 
+CLASSIFICATION:
+ 
 """
 
-def biobias_prompt(text, examples):
+def misogynistic_prompt(text, examples):
     return f"""
-Classify the following textual biographies as either:
-- MALE if the subject is likely to be male
-- FEMALE if the subject is likely to be female
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
 
 Give no other explanation for your classification, only output the label.
 
-Here are two examples of the formatting I would like you use, where < BIOGRAPHY_TEXT >
-is a stand-in for the textual biography:
+Here are two examples of the formatting I would like you to use, 
+where <ONLINE_POST> is a stand-in for the Reddit post:
 
-< BIOGRAPHY_TEXT >
+<ONLINE_POST>
 
-CLASSIFICATION: MALE
+CLASSIFICATION: 0
 
-< BIOGRAPHY_TEXT >
+<ONLINE_POST>
 
-CLASSIFICATION: FEMALE
+CLASSIFICATION: 1
 
-{make_examples(examples)}
-
-Here's the textual biography I would like you to classify:
+Here's the text I would like you to classify:
 
 {text}
 
-CLASSIFICATION: 
-"""
+CLASSIFICATION:
 
-def germeval_prompt(text, examples):
-    return f"""
-Classify the following German tweets as either:
-- OFFENSIVE if the tweet is likely to contain an offense or be offensive
-- OTHER if the tweet is _not_ likely to contain an offense of be offensive
-
-Give no other explanation for your classification, only output the label.
-
-Here are two examples of the formatting I would like you use, where < TWEET_TEXT >
-is a stand-in for the text of the tweet:
-
-< TWEET_TEXT >
-
-CLASSIFICATION: OFFENSIVE
-
-< BIOGRAPHY_TEXT >
-
-CLASSIFICATION: OTHER
-
-{make_examples(examples)}
-
-Here's the German tweet I would like you to classify:
-
-{text}
-
-CLASSIFICATION: 
 """
 
 def make_user_prompt(dataset, text, examples):
     if dataset == "amazon":
-        return amazon_prompt(text, examples)
+        return fomc_prompt(text, examples)
     elif dataset == "misinfo":
-        return misinfo_prompt(text, examples)
+        return pubmedqa_prompt(text, examples)
     elif dataset == "biobias":
-        return biobias_prompt(text, examples)
+        return cuad_prompt(text, examples)
     elif dataset == "germeval":
-        return germeval_prompt(text, examples)
+        return misogynistic_prompt(text, examples)
     else:
         raise ValueError(f"'{dataset}' is not one of the known datasets.")
 
@@ -163,7 +154,7 @@ if __name__ == "__main__":
         ("I hate you", "NEGATIVE"),
     ]
 
-    print(amazon_prompt("I kind of like you", examples))
-    print(misinfo_prompt("I kind of like you", examples))
-    print(biobias_prompt("I kind of like you", examples))
-    print(germeval_prompt("I kind of like you", examples))
+    print(fomc_prompt("I kind of like you", examples))
+    print(pubmedqa_prompt("I kind of like you", examples))
+    print(cuad_prompt("I kind of like you", examples))
+    print(misogynistic_prompt("I kind of like you", examples))
