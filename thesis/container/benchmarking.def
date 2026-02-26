@@ -5,7 +5,7 @@
 Bootstrap: docker 
 
 # the image name
-From: python:3.11-slim 
+From: rocker/r-base:4.4.2 
 
 # Section 2: Files
 # This sections copies files from my machine into the container at build time
@@ -22,21 +22,18 @@ From: python:3.11-slim
 %post
        
     apt-get update && apt-get install -y --no-install-recommends \
+        python3.11 \
+        python3-pip \
         gcc \
-        g++ \
-        r-base \
-        r-base-dev \
-        libcurl4-openssl-dev \
-        libssl-dev \
-        libfontconfig1-dev
+        g++
     rm -rf /var/lib/apt/lists/*
+
 
     # 1. apt-get update: refreshes the list of available packages
     # 2. apt-get install -y: -y means yes to all prompts so we don't have manually check that
     # 3.  --no-install-recommends: only installs what's asked not anything more
     # 4. gcc/g++: c compilers needed for python packages
-    # 5. libcurl4-openssl-dev/libssl-dev/libfontconfig1-dev: system libs for R packages
-    # 6. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
+    # 5. rm -rf /var/lib/apt/lists/* : deletes the package list cache to save mem
 
     # Install R packages: remotes first, then DSL from GitHub
     Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
@@ -46,9 +43,9 @@ From: python:3.11-slim
 
 
     # Section 2.1 Pip Installs
-    pip install --upgrade pip
-    pip install torch --index-url https://download.pytorch.org/whl/cpu
-    pip install -r /opt/requirements_container.txt
+    pip3 install --upgrade pip
+    pip3 install torch --index-url https://download.pytorch.org/whl/cpu
+    pip3 install -r /opt/requirements_container.txt
 
     # 1. --upgrade pip: updates pip itself first, good practice
     # 2. torch --index-url ..: installs torch separately since transformers depend on it 
