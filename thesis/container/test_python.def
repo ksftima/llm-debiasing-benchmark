@@ -1,0 +1,45 @@
+# Stage 2: Python environment
+# Builds on top of test_r.sif which already has R + DSL installed
+# Only rebuild this when Python dependencies change
+
+Bootstrap: localimage
+From: /cephyr/users/kesaf/Vera/test_r.sif
+
+%files
+    requirements_container.txt /opt/requirements_container.txt
+
+%environment
+    export DEBIAN_FRONTEND=noninteractive
+    export LC_ALL=C
+    export PYTHONUNBUFFERED=1
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+
+    # Install Python and build tools
+    apt-get update && apt-get install -y --no-install-recommends \
+        python3-dev \
+        python3-pip \
+        gcc \
+        g++
+    rm -rf /var/lib/apt/lists/*
+
+    # Install PyTorch CPU-only first (transformers depends on it)
+    pip3 install --upgrade pip
+    pip3 install torch --index-url https://download.pytorch.org/whl/cpu
+    pip3 install -r /opt/requirements_container.txt
+
+%labels
+    Author Kesa Fatima
+    Version 0.1
+    Description LLM debiasing benchmark - full environment (R + DSL + Python)
+
+%help
+    Development usage (bind-mount code and data at runtime):
+        apptainer exec \
+            --bind /path/to/thesis:/code \
+            --bind /path/to/datasets:/data \
+            benchmarking.sif python3 /code/script.py
+
+    Interactive shell inside the container:
+        apptainer shell --bind /path/to/thesis:/code benchmarking.sif
