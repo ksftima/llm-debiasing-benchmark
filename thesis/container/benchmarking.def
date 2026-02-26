@@ -25,7 +25,9 @@ From: rocker/r-base:4.4.2
         python3.11 \
         python3-pip \
         gcc \
-        g++
+        g++ \
+        liblapack-dev \
+        libblas-dev
     rm -rf /var/lib/apt/lists/*
 
 
