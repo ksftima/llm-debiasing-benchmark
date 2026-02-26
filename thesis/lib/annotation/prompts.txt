@@ -1,0 +1,79 @@
+1. PubMedQA
+
+Evaluate whether the following biomedical text adequately answers the question posed at its beginning.
+
+Classify the text as one of the following:
+- 0 if the text does NOT provide a clear answer to the question
+- 1 if the text DOES provide a clear and direct answer to the question  
+- 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+{text}
+CLASSIFICATION:
+
+
+2. CUAD
+
+Classify the following contract clauses as either:
+- 0 if the clause DOES NOT include a license grant
+- 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here are two examples of the formatting I would like you use, where
+< CLAUSE_TEXT > is a stand-in for the contract-clause text:
+
+< CLAUSE_TEXT  >
+CLASSIFICATION: 0
+
+< CLAUSE_TEXT >
+CLASSIFICATION: 1
+
+Here's the clause I would like you to classify:
+{text}
+CLASSIFICATION:
+
+
+
+3. FOMC
+
+Evaluate the monetary policy stance expressed in the following statement from Federal Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+- 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+- 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, such as higher interest rates, concerns about inflation, or strong economic growth)
+- 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+{text}
+CLASSIFICATION:
+
+
+
+4. Misogynistic
+
+Evaluate whether the following online post expresses misogynistic content.
+
+Misogynistic content includes text that expresses hatred, hostility, prejudice, or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+- 0 if the text is NOT misogynistic (neutral discussion, general content, or respectful commentary about gender)
+- 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here are two examples of the formatting I would like you to use, where <ONLINE_POST> is a stand-in for the Reddit post:
+
+<ONLINE_POST>
+CLASSIFICATION: 0
+
+<ONLINE_POST>
+CLASSIFICATION: 1
+
+Here's the text I would like you to classify:
+{text}
+CLASSIFICATION:
