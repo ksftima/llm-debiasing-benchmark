@@ -28,5 +28,5 @@ apptainer exec \
     --bind ${DATA_DIR}:/data \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python /code/lib/vary_expert_simulation.py \
+    python3 /code/lib/vary_expert_simulation.py \
         "/data/data_simulation_${SLURM_ARRAY_TASK_ID}.npz"

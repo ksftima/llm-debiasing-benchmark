@@ -30,7 +30,7 @@ apptainer exec \
     --bind ${CODE_DIR}:/code \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python /code/thesis/test_fitting.py
+    python3 /code/thesis/test_fitting.py
 
 EXIT_CODE=$?
 

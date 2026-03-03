@@ -65,7 +65,7 @@ apptainer exec \
     --bind $(dirname "$RESULTS_FILE"):/data \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python /code/thesis/lib/plot_test_fitting.py \
+    python3 /code/thesis/lib/plot_test_fitting.py \
         "/data/$(basename "$RESULTS_FILE")" \
         --output /data
 
