@@ -34,7 +34,7 @@ for n in "${num_expert[@]}"; do
         --bind ${BASE_DATA_DIR}:/data \
         --pwd /code \
         ${CONTAINER_PATH} \
-        python3 /code/lib/vary_total_simulation.py \
+        python3 /code/original/lib/vary_total_simulation.py \
             "/data/n$n/data_simulation_${SLURM_ARRAY_TASK_ID}.npz" \
             "$n"
 done

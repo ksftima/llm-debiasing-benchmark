@@ -35,7 +35,7 @@ apptainer exec \
     --bind ${MIMER_PATH}:/mimer \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python3 /code/lib/vary_expert_realworld.py \
+    python3 /code/original/lib/vary_expert_realworld.py \
         "logistic" \
         "/mimer/annotations/$DATASET/annotated_$ANNOTATION.json" \
         "/mimer/experiments/no-collinear-90/vary-num-expert/data/$DATASET/$ANNOTATION/data_${SLURM_ARRAY_TASK_ID}.npz" \

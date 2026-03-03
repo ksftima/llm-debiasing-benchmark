@@ -40,7 +40,7 @@ for n in "${num_expert[@]}"; do
         --bind ${MIMER_PATH}:/mimer \
         --pwd /code \
         ${CONTAINER_PATH} \
-        python3 /code/lib/vary_total_realworld.py \
+        python3 /code/original/lib/vary_total_realworld.py \
             "$n" \
             "/mimer/annotations/$DATASET/annotated_$ANNOTATION.json" \
             "$DATA_DIR_N/data_${SLURM_ARRAY_TASK_ID}.npz" \
