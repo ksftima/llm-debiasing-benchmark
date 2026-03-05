@@ -1,8 +1,8 @@
 import sys
 from pathlib import Path
 
-# Add lib directory to Python path
-lib_path = Path(__file__).parent.parent / "lib"
+# Add original/lib directory to Python path
+lib_path = Path(__file__).parent.parent.parent / "original" / "lib"
 sys.path.insert(0, str(lib_path))
 
 import numpy as np
