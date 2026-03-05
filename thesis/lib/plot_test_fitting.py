@@ -155,7 +155,7 @@ def main():
         ax,
         results,
         results["num_expert_samples"],
-        N=results["coeffs_all"].shape[0],  # Total samples
+        N=int(results["N"]),  # Total samples
     )
 
     fig.tight_layout()

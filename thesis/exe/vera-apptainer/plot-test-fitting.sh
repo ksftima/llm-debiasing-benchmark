@@ -28,16 +28,17 @@ CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 # Get results file from command line argument or use default
 if [ -z "$1" ]; then
-    # Default: look for most recent test_fitting output
-    RESULTS_FILE=$(find /mimer/NOBACKUP/groups/ci-nlp-alvis/dsl-use/experiments -name "test_fitting_*.npz" | sort | tail -1)
+    # Default: look for results saved by test_fitting.py
+    RESULTS_FILE="${CODE_DIR}/thesis/results/test_fitting_results.npz"
 
-    if [ -z "$RESULTS_FILE" ]; then
-        echo "ERROR: No results file found. Please provide path as argument:"
+    if [ ! -f "$RESULTS_FILE" ]; then
+        echo "ERROR: No results file found at: $RESULTS_FILE"
+        echo "Run test-fitting.sh first, or provide path as argument:"
         echo "  sbatch plot-test-fitting.sh /path/to/results.npz"
         exit 1
     fi
 
-    echo "Using most recent results file: $RESULTS_FILE"
+    echo "Using results file: $RESULTS_FILE"
 else
     RESULTS_FILE="$1"
     echo "Using specified results file: $RESULTS_FILE"
@@ -56,18 +57,20 @@ echo "Results file: $RESULTS_FILE"
 echo "Started at: $(date)"
 echo "================================"
 
-# Create output directory in same location as results
+# Output plots alongside the results file
 OUTPUT_DIR=$(dirname "$RESULTS_FILE")
+
+# Rewrite RESULTS_FILE as container path (everything under CODE_DIR maps to /code)
+CONTAINER_RESULTS="/code/${RESULTS_FILE#${CODE_DIR}/}"
 
 # Run plotting with Apptainer
 apptainer exec \
     --bind ${CODE_DIR}:/code \
-    --bind $(dirname "$RESULTS_FILE"):/data \
     --pwd /code \
     ${CONTAINER_PATH} \
     python3 /code/thesis/lib/plot_test_fitting.py \
-        "/data/$(basename "$RESULTS_FILE")" \
-        --output /data
+        "${CONTAINER_RESULTS}" \
+        --output "$(dirname "${CONTAINER_RESULTS}")"
 
 EXIT_CODE=$?
 

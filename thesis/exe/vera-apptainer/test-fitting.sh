@@ -7,7 +7,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
-#SBATCH --time=0-00:05:00
+#SBATCH --time=0-01:00:00
 
 #SBATCH --output=test_fitting_%j.log
 #SBATCH --error=test_fitting_%j.err
