@@ -60,14 +60,12 @@ From: ubuntu:22.04
 
     # Section 2.1 Pip Installs
     pip3 install --upgrade pip
-    pip3 install torch --index-url https://download.pytorch.org/whl/cpu
+    pip3 install torch --index-url https://download.pytorch.org/whl/cu124
     pip3 install -r /opt/requirements_container.txt
 
     # 1. --upgrade pip: updates pip itself first, good practice
-    # 2. torch --index-url ..: installs torch separately since transformers depend on it 
-    # + also only installs the cpu version that is lighter than GPU 2GB vs 200MB
-    # 3. -r/tmp/requ...txt: installs everythin in the req file. 
-    # /tmp/ path is where we put that file in the container
+    # 2. torch --index-url ..: installs torch with CUDA 12.4 support for GPU inference on Vera
+    # 3. -r/opt/requirements_container.txt: installs everything in the req file.
     # NOTE: the order matters!! torch first then everything else
 
 # 1. LC_ALL=C: sets local to safe default to avoid locale files errors
