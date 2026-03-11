@@ -43,6 +43,10 @@ DATASETS = {
     "misogynistic (deepseek)":        Path("thesis/annotations/misogynistic/misogynistic_deepseek_annotated.csv"),
     "misogynistic (gpt54)":           Path("thesis/annotations/misogynistic/misogynistic_gpt54_annotated.csv"),
     "misogynistic (fewshot-gpt54)":   Path("thesis/annotations/misogynistic/misogynistic_fewshot_gpt54_annotated.csv"),
+    "misogynistic (mistral)":         Path("thesis/annotations/misogynistic/misogynistic_mistral_annotated.csv"),
+    "fomc (mistral)":                 Path("thesis/annotations/fomc/fomc_mistral_annotated.csv"),
+    "pubmedqa (mistral)":             Path("thesis/annotations/pubmedqa/pubmedqa_mistral_annotated.csv"),
+    "cuad (mistral)":                 Path("thesis/annotations/cuad/cuad_mistral_annotated.csv"),
 }
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)

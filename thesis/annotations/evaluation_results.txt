@@ -487,3 +487,133 @@ Per-class metrics:
    macro avg     0.6997    0.6787    0.6698       998
 weighted avg     0.6999    0.6784    0.6697       998
 
+============================================================
+DATASET: MISOGYNISTIC (MISTRAL)
+============================================================
+Rows:          997
+Accuracy:      0.8084
+Cohen's kappa: 0.6170
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         500          447  50.2     44.8
+1         497          550  49.8     55.2
+
+Mean y (expert):  0.4985
+Mean y_hat (LLM): 0.5517
+Shift:            +0.0532
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     378     122
+true=1      69     428
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.8456    0.7560    0.7983       500
+           1     0.7782    0.8612    0.8176       497
+
+    accuracy                         0.8084       997
+   macro avg     0.8119    0.8086    0.8079       997
+weighted avg     0.8120    0.8084    0.8079       997
+
+============================================================
+DATASET: FOMC (MISTRAL)
+============================================================
+Rows:          1184
+Accuracy:      0.6419
+Cohen's kappa: 0.4019
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         311          295  26.3     24.9
+1         295          152  24.9     12.8
+2         578          737  48.8     62.2
+
+Mean y (expert):  1.2255
+Mean y_hat (LLM): 1.3733
+Shift:            +0.1478
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0     171      12     128
+true=1      49     113     133
+true=2      75      27     476
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.5797    0.5498    0.5644       311
+           1     0.7434    0.3831    0.5056       295
+           2     0.6459    0.8235    0.7240       578
+
+    accuracy                         0.6419      1184
+   macro avg     0.6563    0.5855    0.5980      1184
+weighted avg     0.6528    0.6419    0.6276      1184
+
+============================================================
+DATASET: PUBMEDQA (MISTRAL)
+============================================================
+Rows:          1000
+Accuracy:      0.5190
+Cohen's kappa: 0.2266
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         338           94  33.8      9.4
+1         552          558  55.2     55.8
+2         110          348  11.0     34.8
+
+Mean y (expert):  0.7720
+Mean y_hat (LLM): 1.2540
+Shift:            +0.4820
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0      75      89     174
+true=1      10     406     136
+true=2       9      63      38
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.7979    0.2219    0.3472       338
+           1     0.7276    0.7355    0.7315       552
+           2     0.1092    0.3455    0.1659       110
+
+    accuracy                         0.5190      1000
+   macro avg     0.5449    0.4343    0.4149      1000
+weighted avg     0.6833    0.5190    0.5394      1000
+
+============================================================
+DATASET: CUAD (MISTRAL)
+============================================================
+Rows:          1391
+Accuracy:      0.9209
+Cohen's kappa: 0.8418
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         697          697  50.1     50.1
+1         694          694  49.9     49.9
+
+Mean y (expert):  0.4989
+Mean y_hat (LLM): 0.4989
+Shift:            +0.0000
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     642      55
+true=1      55     639
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.9211    0.9211    0.9211       697
+           1     0.9207    0.9207    0.9207       694
+
+    accuracy                         0.9209      1391
+   macro avg     0.9209    0.9209    0.9209      1391
+weighted avg     0.9209    0.9209    0.9209      1391
+
