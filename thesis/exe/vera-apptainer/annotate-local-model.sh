@@ -7,7 +7,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --gpus-per-node=A40:1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=16
 #SBATCH --time=0-06:00:00
 
 #SBATCH --output=annotate_local_%j.log
@@ -38,6 +38,7 @@ fi
 
 CONTAINER_PATH="$HOME/benchmarking.sif"
 CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
+MODELS_DIR="/mimer/NOBACKUP/groups/ci-nlp-alvis/theat/models"
 
 MODEL_NAME=$(basename "$MODEL")
 ANN_DIR="${CODE_DIR}/thesis/annotations/${DATASET}/local/${MODEL_NAME}"
@@ -56,6 +57,7 @@ mkdir -p "$ANN_DIR"
 
 apptainer exec --nv \
     --bind ${CODE_DIR}:/code \
+    --bind ${MODELS_DIR}:${MODELS_DIR} \
     --pwd /code \
     ${CONTAINER_PATH} \
     python3 /code/thesis/lib/annotation/annotate_local_model.py \
