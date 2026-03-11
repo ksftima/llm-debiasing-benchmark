@@ -13,7 +13,7 @@ dataset_labels = {
 }
 
 def make_examples(examples):
-    if examples == None:
+    if not examples:
         return ""
     else:
         lines = [
@@ -32,21 +32,23 @@ def make_examples(examples):
 
 def fomc_prompt(text, examples):
     return f"""
-Evaluate the monetary policy stance expressed in the following statement from Federal 
+Evaluate the monetary policy stance expressed in the following statement from Federal
 Open Market Committee (FOMC) communications.
 
 Classify the text as one of the following:
 
-    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing,
 such as lower interest rates, concerns about slow growth, or desire to raise inflation)
 
-    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening,
 such as higher interest rates, concerns about inflation, or strong economic growth)
 
-    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones,
 or is purely descriptive without clear policy implications)
 
 Give no other explanation for your classification, only output the label.
+
+{make_examples(examples)}
 
 Here's the text I would like you to classify:
 
@@ -57,22 +59,24 @@ CLASSIFICATION:
 
 def pubmedqa_prompt(text, examples):
     return f"""
-Evaluate whether the following biomedical text adequately answers the question 
+Evaluate whether the following biomedical text adequately answers the question
 posed at its beginning.
 
 Classify the text as one of the following:
 
     - 0 if the text does NOT provide a clear answer to the question
-    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 1 if the text DOES provide a clear and direct answer to the question
     - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
 
 Give no other explanation for your classification, only output the label.
+
+{make_examples(examples)}
 
 Here's the text I would like you to classify:
 
 {text}
 
-CLASSIFICATION: 
+CLASSIFICATION:
 """
 
 def cuad_prompt(text, examples):
@@ -83,27 +87,31 @@ Classify the following contract clauses as either:
 
 Give no other explanation for your classification, only output the label.
 
+{make_examples(examples)}
+
 Here's the clause I would like you to classify:
 
 {text}
 
 CLASSIFICATION:
- 
+
 """
 
 def misogynistic_prompt(text, examples):
     return f"""
 Evaluate whether the following online post expresses misogynistic content.
-Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
 or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
 
 Classify the text as one of the following:
-    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
     or respectful commentary about gender)
-    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
     or derogatory attitudes toward women)
 
 Give no other explanation for your classification, only output the label.
+
+{make_examples(examples)}
 
 Here's the text I would like you to classify:
 

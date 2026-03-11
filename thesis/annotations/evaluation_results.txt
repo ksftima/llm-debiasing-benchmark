@@ -1,0 +1,489 @@
+============================================================
+DATASET: FOMC (DEEPSEEK)
+============================================================
+Rows:          1184
+Accuracy:      0.6529
+Cohen's kappa: 0.4166
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         311          157  26.3     13.3
+1         295          264  24.9     22.3
+2         578          763  48.8     64.4
+
+Mean y (expert):  1.2255
+Mean y_hat (LLM): 1.5118
+Shift:            +0.2863
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0     116      36     159
+true=1      10     169     116
+true=2      31      59     488
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.7389    0.3730    0.4957       311
+           1     0.6402    0.5729    0.6047       295
+           2     0.6396    0.8443    0.7278       578
+
+    accuracy                         0.6529      1184
+   macro avg     0.6729    0.5967    0.6094      1184
+weighted avg     0.6658    0.6529    0.6362      1184
+
+============================================================
+DATASET: FOMC (GPT4OMINI)
+============================================================
+Rows:          1184
+Accuracy:      0.6309
+Cohen's kappa: 0.3486
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         311          153  26.3     12.9
+1         295          127  24.9     10.7
+2         578          904  48.8     76.4
+
+Mean y (expert):  1.2255
+Mean y_hat (LLM): 1.6343
+Shift:            +0.4088
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0     110      11     190
+true=1      14     102     179
+true=2      29      14     535
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.7190    0.3537    0.4741       311
+           1     0.8031    0.3458    0.4834       295
+           2     0.5918    0.9256    0.7220       578
+
+    accuracy                         0.6309      1184
+   macro avg     0.7046    0.5417    0.5598      1184
+weighted avg     0.6779    0.6309    0.5974      1184
+
+============================================================
+DATASET: FOMC (GPT54)
+============================================================
+Rows:          1184
+Accuracy:      0.6791
+Cohen's kappa: 0.4762
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         311          285  26.3     24.1
+1         295          231  24.9     19.5
+2         578          668  48.8     56.4
+
+Mean y (expert):  1.2255
+Mean y_hat (LLM): 1.3235
+Shift:            +0.0980
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0     187      21     103
+true=1      23     162     110
+true=2      75      48     455
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.6561    0.6013    0.6275       311
+           1     0.7013    0.5492    0.6160       295
+           2     0.6811    0.7872    0.7303       578
+
+    accuracy                         0.6791      1184
+   macro avg     0.6795    0.6459    0.6579      1184
+weighted avg     0.6796    0.6791    0.6748      1184
+
+============================================================
+DATASET: FOMC (FEWSHOT-GPT54)
+============================================================
+Rows:          1181
+Accuracy:      0.4505
+Cohen's kappa: 0.1292
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         311          308  26.3     26.1
+1         293          299  24.8     25.3
+2         577          574  48.9     48.6
+
+Mean y (expert):  1.2252
+Mean y_hat (LLM): 1.2252
+Shift:            +0.0000
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0     112      64     135
+true=1      66     104     123
+true=2     130     131     316
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.3636    0.3601    0.3619       311
+           1     0.3478    0.3549    0.3514       293
+           2     0.5505    0.5477    0.5491       577
+
+    accuracy                         0.4505      1181
+   macro avg     0.4207    0.4209    0.4208      1181
+weighted avg     0.4510    0.4505    0.4507      1181
+
+============================================================
+DATASET: PUBMEDQA (DEEPSEEK)
+============================================================
+Rows:          1000
+Accuracy:      0.5810
+Cohen's kappa: 0.1835
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         338          127  33.8     12.7
+1         552          787  55.2     78.7
+2         110           86  11.0      8.6
+
+Mean y (expert):  0.7720
+Mean y_hat (LLM): 0.9590
+Shift:            +0.1870
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0      81     217      40
+true=1      30     488      34
+true=2      16      82      12
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.6378    0.2396    0.3484       338
+           1     0.6201    0.8841    0.7289       552
+           2     0.1395    0.1091    0.1224       110
+
+    accuracy                         0.5810      1000
+   macro avg     0.4658    0.4109    0.3999      1000
+weighted avg     0.5732    0.5810    0.5336      1000
+
+============================================================
+DATASET: PUBMEDQA (GPT4OMINI)
+============================================================
+Rows:          1000
+Accuracy:      0.3850
+Cohen's kappa: 0.1036
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         338           53  33.8      5.3
+1         552          434  55.2     43.4
+2         110          513  11.0     51.3
+
+Mean y (expert):  0.7720
+Mean y_hat (LLM): 1.4600
+Shift:            +0.6880
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0      29      86     223
+true=1      18     300     234
+true=2       6      48      56
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.5472    0.0858    0.1483       338
+           1     0.6912    0.5435    0.6085       552
+           2     0.1092    0.5091    0.1798       110
+
+    accuracy                         0.3850      1000
+   macro avg     0.4492    0.3795    0.3122      1000
+weighted avg     0.5785    0.3850    0.4058      1000
+
+============================================================
+DATASET: PUBMEDQA (GPT54)
+============================================================
+Rows:          1000
+Accuracy:      0.5110
+Cohen's kappa: 0.0362
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         338           13  33.8      1.3
+1         552          859  55.2     85.9
+2         110          128  11.0     12.8
+
+Mean y (expert):  0.7720
+Mean y_hat (LLM): 1.1150
+Shift:            +0.3430
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0       7     282      49
+true=1       3     487      62
+true=2       3      90      17
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.5385    0.0207    0.0399       338
+           1     0.5669    0.8822    0.6903       552
+           2     0.1328    0.1545    0.1429       110
+
+    accuracy                         0.5110      1000
+   macro avg     0.4127    0.3525    0.2910      1000
+weighted avg     0.5096    0.5110    0.4102      1000
+
+============================================================
+DATASET: PUBMEDQA (FEWSHOT-GPT54)
+============================================================
+Rows:          997
+Accuracy:      0.4814
+Cohen's kappa: 0.0398
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         336           43  33.7      4.3
+1         551          766  55.3     76.8
+2         110          188  11.0     18.9
+
+Mean y (expert):  0.7733
+Mean y_hat (LLM): 1.1454
+Shift:            +0.3721
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1  pred=2
+true=0      15     254      67
+true=1      23     436      92
+true=2       5      76      29
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.3488    0.0446    0.0792       336
+           1     0.5692    0.7913    0.6621       551
+           2     0.1543    0.2636    0.1946       110
+
+    accuracy                         0.4814       997
+   macro avg     0.3574    0.3665    0.3120       997
+weighted avg     0.4491    0.4814    0.4141       997
+
+============================================================
+DATASET: CUAD (DEEPSEEK)
+============================================================
+Rows:          1396
+Accuracy:      0.9398
+Cohen's kappa: 0.8797
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         698          738  50.0     52.9
+1         698          658  50.0     47.1
+
+Mean y (expert):  0.5000
+Mean y_hat (LLM): 0.4713
+Shift:            -0.0287
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     676      22
+true=1      62     636
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.9160    0.9685    0.9415       698
+           1     0.9666    0.9112    0.9381       698
+
+    accuracy                         0.9398      1396
+   macro avg     0.9413    0.9398    0.9398      1396
+weighted avg     0.9413    0.9398    0.9398      1396
+
+============================================================
+DATASET: CUAD (GPT4OMINI)
+============================================================
+Rows:          1396
+Accuracy:      0.9434
+Cohen's kappa: 0.8868
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         698          705  50.0     50.5
+1         698          691  50.0     49.5
+
+Mean y (expert):  0.5000
+Mean y_hat (LLM): 0.4950
+Shift:            -0.0050
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     662      36
+true=1      43     655
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.9390    0.9484    0.9437       698
+           1     0.9479    0.9384    0.9431       698
+
+    accuracy                         0.9434      1396
+   macro avg     0.9435    0.9434    0.9434      1396
+weighted avg     0.9435    0.9434    0.9434      1396
+
+============================================================
+DATASET: CUAD (GPT54)
+============================================================
+Rows:          1396
+Accuracy:      0.9448
+Cohen's kappa: 0.8897
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         698          721  50.0     51.6
+1         698          675  50.0     48.4
+
+Mean y (expert):  0.5000
+Mean y_hat (LLM): 0.4835
+Shift:            -0.0165
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     671      27
+true=1      50     648
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.9307    0.9613    0.9457       698
+           1     0.9600    0.9284    0.9439       698
+
+    accuracy                         0.9448      1396
+   macro avg     0.9453    0.9448    0.9448      1396
+weighted avg     0.9453    0.9448    0.9448      1396
+
+============================================================
+DATASET: CUAD (FEWSHOT-GPT54)
+============================================================
+Rows:          1394
+Accuracy:      0.9426
+Cohen's kappa: 0.8852
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         696          696  49.9     49.9
+1         698          698  50.1     50.1
+
+Mean y (expert):  0.5007
+Mean y_hat (LLM): 0.5007
+Shift:            +0.0000
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     656      40
+true=1      40     658
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.9425    0.9425    0.9425       696
+           1     0.9427    0.9427    0.9427       698
+
+    accuracy                         0.9426      1394
+   macro avg     0.9426    0.9426    0.9426      1394
+weighted avg     0.9426    0.9426    0.9426      1394
+
+============================================================
+DATASET: MISOGYNISTIC (DEEPSEEK)
+============================================================
+Rows:          1000
+Accuracy:      0.8060
+Cohen's kappa: 0.6120
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         500          412  50.0     41.2
+1         500          588  50.0     58.8
+
+Mean y (expert):  0.5000
+Mean y_hat (LLM): 0.5880
+Shift:            +0.0880
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     359     141
+true=1      53     447
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.8714    0.7180    0.7873       500
+           1     0.7602    0.8940    0.8217       500
+
+    accuracy                         0.8060      1000
+   macro avg     0.8158    0.8060    0.8045      1000
+weighted avg     0.8158    0.8060    0.8045      1000
+
+============================================================
+DATASET: MISOGYNISTIC (GPT54)
+============================================================
+Rows:          1000
+Accuracy:      0.7880
+Cohen's kappa: 0.5760
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         500          672  50.0     67.2
+1         500          328  50.0     32.8
+
+Mean y (expert):  0.5000
+Mean y_hat (LLM): 0.3280
+Shift:            -0.1720
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     480      20
+true=1     192     308
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.7143    0.9600    0.8191       500
+           1     0.9390    0.6160    0.7440       500
+
+    accuracy                         0.7880      1000
+   macro avg     0.8267    0.7880    0.7815      1000
+weighted avg     0.8267    0.7880    0.7815      1000
+
+============================================================
+DATASET: MISOGYNISTIC (FEWSHOT-GPT54)
+============================================================
+Rows:          998
+Accuracy:      0.6784
+Cohen's kappa: 0.3571
+
+Class distribution (count):
+   y (expert)  y_hat (LLM)  y %   y_hat %
+0         498          661  49.9     66.2
+1         500          337  50.1     33.8
+
+Mean y (expert):  0.5010
+Mean y_hat (LLM): 0.3377
+Shift:            -0.1633
+
+Confusion matrix (rows=true, cols=predicted):
+        pred=0  pred=1
+true=0     419      79
+true=1     242     258
+
+Per-class metrics:
+              precision    recall  f1-score   support
+
+           0     0.6339    0.8414    0.7230       498
+           1     0.7656    0.5160    0.6165       500
+
+    accuracy                         0.6784       998
+   macro avg     0.6997    0.6787    0.6698       998
+weighted avg     0.6999    0.6784    0.6697       998
+

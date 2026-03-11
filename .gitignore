@@ -8,7 +8,11 @@ __pycache__
 amazon_annotated.pkl
 run-overnight.sh
 .deepseek_api_key
-annotations
+# Raw annotation files (thousands of txt files, not tracked)
+thesis/annotations/**/prompts/
+thesis/annotations/**/responses/
+thesis/annotations/**/errors/
+thesis/annotations/**/*.jsonl
 .$pipeline.drawio.bkp
 logs
 venv
