@@ -126,7 +126,7 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         device_map=device,
-        torch_dtype=torch.float16,
+        dtype=torch.float16,
     )
 
     generator = pipeline(
@@ -134,7 +134,6 @@ if __name__ == "__main__":
         model=model,
         tokenizer=tokenizer,
         max_new_tokens=10,
-        num_return_sequences=1,
     )
 
     system_prompt = system_prompts[args.dataset]
@@ -146,7 +145,11 @@ if __name__ == "__main__":
         ]
 
     # Run inference in batches
-    from itertools import batched
+    def batched(iterable, n):
+        lst = list(iterable)
+        for i in range(0, len(lst), n):
+            yield lst[i:i + n]
+
     total = len(data)
     done = 0
 
