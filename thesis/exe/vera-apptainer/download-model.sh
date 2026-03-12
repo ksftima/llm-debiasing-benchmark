@@ -29,9 +29,10 @@
 #   sbatch download-model.sh meta-llama/Llama-3.1-8B-Instruct
 
 MODEL_ID=$1
+HF_TOKEN=$2
 
 if [ -z "$MODEL_ID" ]; then
-    echo "ERROR: Usage: sbatch download-model.sh <hf_model_id>"
+    echo "ERROR: Usage: sbatch download-model.sh <hf_model_id> [hf_token]"
     exit 1
 fi
 
@@ -67,6 +68,7 @@ else:
         repo_id=model_id,
         local_dir=model_path,
         local_dir_use_symlinks=False,
+        token='${HF_TOKEN}' if '${HF_TOKEN}' else None,
     )
     print(f'Downloaded {model_id}')
 
