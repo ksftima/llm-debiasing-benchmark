@@ -48,7 +48,7 @@ def run_one(N, n_expert, prediction_accuracy, rng):
 
 
 N = 10000
-NUM_REPS = 10
+NUM_REPS = 100
 PREDICTION_ACCURACY = 0.9
 NUM_EXPERT_SAMPLES = np.array([200, 500, 1000, 2000, 3000])
 
