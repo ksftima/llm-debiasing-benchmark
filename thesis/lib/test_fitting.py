@@ -7,6 +7,7 @@ sys.path.insert(0, str(lib_path))
 
 import numpy as np
 import scipy
+from multiprocessing import Pool, cpu_count
 from fitting import logit_fit, logit_fit_ppi, logit_fit_dsl
 
 
@@ -32,7 +33,9 @@ def generate(num_samples, prediction_accuracy, rng):
     return X_train, Y_true, Y_pred
 
 
-def run_one(N, n_expert, prediction_accuracy, rng):
+def run_one(args):
+    N, n_expert, prediction_accuracy, seed = args
+    rng = np.random.default_rng(seed)
     X, Y_true, Y_pred = generate(N, prediction_accuracy, rng)
 
     selected_idx = rng.choice(N, size=n_expert, replace=False)
@@ -51,8 +54,7 @@ N = 10000
 NUM_REPS = 100
 PREDICTION_ACCURACY = 0.9
 NUM_EXPERT_SAMPLES = np.array([200, 500, 1000, 2000, 3000])
-
-rng = np.random.default_rng(42)
+NUM_WORKERS = 32
 
 all_coeffs_all = []
 all_coeffs_exp = []
@@ -60,15 +62,17 @@ all_coeffs_ppi = []
 all_coeffs_dsl = []
 
 for n_expert in NUM_EXPERT_SAMPLES:
-    print(f"\nRunning n_expert={n_expert} ({NUM_REPS} reps)...")
-    rep_all, rep_exp, rep_ppi, rep_dsl = [], [], [], []
-    for rep in range(NUM_REPS):
-        c_all, c_exp, c_ppi, c_dsl = run_one(N, n_expert, PREDICTION_ACCURACY, rng)
-        rep_all.append(c_all)
-        rep_exp.append(c_exp)
-        rep_ppi.append(c_ppi)
-        rep_dsl.append(c_dsl)
-        print(f"  rep {rep + 1}/{NUM_REPS} done")
+    print(f"\nRunning n_expert={n_expert} ({NUM_REPS} reps, {NUM_WORKERS} workers)...")
+    args = [(N, n_expert, PREDICTION_ACCURACY, 42 * 1000 + rep) for rep in range(NUM_REPS)]
+
+    with Pool(NUM_WORKERS) as pool:
+        results = pool.map(run_one, args)
+
+    rep_all = [r[0] for r in results]
+    rep_exp = [r[1] for r in results]
+    rep_ppi = [r[2] for r in results]
+    rep_dsl = [r[3] for r in results]
+    print(f"  {NUM_REPS}/{NUM_REPS} done")
 
     all_coeffs_all.append(np.mean(rep_all, axis=0))
     all_coeffs_exp.append(np.mean(rep_exp, axis=0))
