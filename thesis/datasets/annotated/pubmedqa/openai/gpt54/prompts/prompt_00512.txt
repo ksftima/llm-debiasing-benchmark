@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the histidine triad nucleotide-binding protein 1 (HINT1) gene a candidate for schizophrenia? : The histidine triad nucleotide-binding protein 1, HINT1, hydrolyzes adenosine 5'-monophosphoramidate substrates such as AMP-morpholidate. The human HINT1 gene is located on chromosome 5q31.2, a region implicated in linkage studies of schizophrenia. HINT1 had been shown to have different expression in postmortem brains between schizophrenia patients and unaffected controls. It was also found to be associated with the dysregulation of postsynaptic dopamine transmission, thus suggesting a potential role in several neuropsychiatric diseases. : In this work, we studied 8 SNPs around the HINT1 gene region using the Irish study of high density schizophrenia families (ISHDSF, 1350 subjects and 273 pedigrees) and the Irish case control study of schizophrenia (ICCSS, 655 affected subjects and 626 controls). The expression level of HINT1 was compared between the postmortem brain cDNAs from schizophrenic patients and unaffected controls provided by the Stanley Medical Research Institute. : We found nominally significant differences in allele frequencies in several SNPs for both ISHDSF and ICCSS samples in sex-stratified analyses. However, the sex effect differed between the two samples. In expression studies, no significant difference in expression was observed between patients and controls. However, significant interactions amongst sex, diagnosis and rs3864283 genotypes were observed.
+
+CLASSIFICATION: 

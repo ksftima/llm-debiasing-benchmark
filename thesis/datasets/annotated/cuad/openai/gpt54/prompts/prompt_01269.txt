@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NEITHER PARTY SHALL BE LIABLE FOR LOST PROFITS OR SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (HOWEVER ARISING, INCLUDING<omitted>NEGLIGENCE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF THE PARTIES ARE AWARE OF THE POSSIBILITY OF SUCH DAMAGES.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither the Company nor any of its Affiliates shall in any manner, directly or indirectly, in any capacity or manner, make or cause to be made, or in any way encourage any other person to make or cause to be made, any public statement or public announcement, including in any document or report filed with or furnished to the SEC or through the press, media, analysts or other persons, that constitutes an ad hominem attack on or otherwise disparages, defames or slanders the Farids Group or any of its Affiliates or any of their respective successors or current or former members, partners, officers, directors or employees (it being understood and agreed that the restrictions in this Section 8.8(a) shall not apply to any member of the Board of Directors based upon discussions solely among other members of the Board of Directors and/or management of the Company); provided, that the limitations set forth in this Section 8.8(a) shall not prevent the Company or any of its Affiliates from (i) responding to any public statement or announcement made by the Farids Group or any of its Affiliates that was made in breach of Section 8.8(b) below or (ii) if solicited by a Third Party, making objective statements that reflect the Company's view with respect to factual matters concerning specific acts or determinations of the Farids Group or any of its Affiliates (or their respective current or former representatives) occurring after the date hereof.
+
+CLASSIFICATION:
+ 

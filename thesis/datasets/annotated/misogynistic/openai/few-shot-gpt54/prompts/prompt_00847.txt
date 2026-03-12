@@ -1,0 +1,66 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Ugly men who want sympathy for having to date ugly women are fucking retardedwha wha i'll never be CHAD. wha wha I can't pull models from tinder whaaaaaaa. 
+
+ Like why should anyone give a fuck?
+
+I'll never be a billionaire but you don't see me bitching and crying 
+
+
+
+You're 5ft5 which is literally bottom 10% of height. You're ugly and you have short dick. 
+
+You're not average in anyway shape or form . You aren't fun to be around, you aren't fun to talk to, you don't do sports hence you're not fit, you have no fashion sense, you're such a nervous wreck you can't approach your crush, and even if you did you can't flirt.
+
+There's nothing positive about you.  Any average woman who gives you a chance is settling hard as fuck 
+
+
+Any ugly women that gives you a chance is probably doing themselves a disservice . But ugly women will still probably give you chance because they're desperate for love. 
+
+Go to any walmart and you'll see fat ugly people happily coupled  with each other. 
+
+Why is that so many ugly people can find happiness with each other yet the ones in these online spaces can't?
+
+These guys can have a fuck ton of sex and even  children with their ugly wives but noooooooo. They want stacy. 
+
+Spamming every fucking thread that they deserve sympathy. Why the fuck do you expect sympathy from random strangers in a debate sub. Do you not have family and friends?  
+
+You won't improve ,you won't settle , you won't fuck a whore. What the fuck do you expect us to do? 
+
+Fucking idiots. They want to wallow in their misery. And  they get off on pity. 
+
+Please fuck off nobody wants you here and the sub was funner before you guys took over
+
+CLASSIFICATION:
+

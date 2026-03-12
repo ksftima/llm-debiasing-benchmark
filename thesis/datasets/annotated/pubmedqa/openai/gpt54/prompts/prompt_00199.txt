@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Attenuation of ischemia/reperfusion-induced ovarian damage in rats: does edaravone offer protection? Twenty-eight female Sprague Dawley rats were allocated randomly to 4 groups. The sham group (group 1) was only subjected to catheter insertion, not to pneumoperitoneum. Group 2 received a 1 mg/kg dose of 0.9% sodium chloride by the intraperitoneal route for 10 min before pneumoperitoneum. Groups 3 and 4 received 6 and 12 mg/kg edaravone, respectively, by the intraperitoneal route for 10 min before pneumoperitoneum. After 60 min of pneumoperitoneum, the gas was deflated. Immediately after the reperfusion period, both ovaries were excised for histological scoring, caspase-3 immunohistochemistry and biochemical evaluation including glutathione (GSH) and malondialdehyde (MDA) levels. Also, total antioxidant capacity (TAC) was measured in plasma samples to evaluate the antioxidant effect of edaravone. Ovarian sections in the saline group revealed higher scores for follicular degeneration and edema (p<0.0001) when compared with the sham group. Administration of different doses of edaravone in rats significantly prevented degenerative changes in the ovary (p<0.0001). Caspase-3 expression was only detected in the ovarian surface epithelium in all groups, and there was a significant difference between the treatment groups and the saline group (p<0.0001). Treatment of rats with edaravone reduced caspase-3 expression in a dose-dependent manner. Moreover, biochemical measurements of oxidative stress markers (MDA, GSH and TAC) revealed that prophylactic edaravone treatment attenuated oxidative stress induced by I/R injury.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Equifax hereby grants, and will cause each member of the Equifax Group to grant, to Certegy and each member of the Certegy Group a fully paid, non- exclusive, worldwide, non-transferable right to continue to use the Equifax Marks employed in the Certegy Business, but only to the extent such Equifax Marks were displayed by the Certegy Group prior to the Distribution Date (i) on the Transferred Equifax Assets, (ii) on premises jointly occupied with Equifax, and (iii) on letterhead, product and services documentation, invoices, software programs, packaging and similar materials used by the members of the Certegy Group, and such Equifax Marks are used in accordance with the guidelines for usage of the Equifax Marks published and amended by Equifax from time to time.
+
+CLASSIFICATION:
+ 

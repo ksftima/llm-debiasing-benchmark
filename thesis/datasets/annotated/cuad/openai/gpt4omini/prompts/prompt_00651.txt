@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Association Marks shall not be placed adjacent to the mark of another organization concerned with diabetes, or those of a company that manufactures products or provides services related to diabetes, without the Association's specific prior written consent, which may be withheld for any reason.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subcontractor, during the term of this Agreement and for a period of one year thereafter, shall not, directly or indirectly, for itself or on behalf of or in conjunction with any other person, partnership, corporation, business or organization, solicit, hire, contract with or engage the employment of an employee of EDGE with whom Subcontractor or its personnel have contact as a result of Subcontractor's performance of this Agreement, unless Subcontractor (i) obtains the written consent of EDGE, as applicable, and (ii) pays EDGE as applicable a fee to be mutually agreed upon
+
+CLASSIFICATION:
+ 

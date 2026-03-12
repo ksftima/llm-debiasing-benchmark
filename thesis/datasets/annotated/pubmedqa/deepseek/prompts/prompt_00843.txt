@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Should lower limb fractures be treated surgically in patients with chronic spinal injuries? To report the outcomes of surgical treatment of lower limb fractures in patients with chronic spinal cord injuries. A total of 37 lower limb fractures were treated from 2003 to 2010, of which 25 fractures were treated surgically and 12 orthopaedically. Patients of the surgical group had better clinical results, range of motion, bone consolidation, and less pressure ulcers and radiological misalignment. No differences were detected between groups in terms of pain, hospital stay, and medical complications. There is no currently consensus regarding the management of lower limb fractures in patients with chronic spinal cord injuries, but the trend has been conservative treatment due to the high rate of complications in surgical treatment.
+
+CLASSIFICATION: 

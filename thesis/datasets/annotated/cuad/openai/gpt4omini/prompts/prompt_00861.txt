@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither this Agreement nor any rights or obligations or licenses hereunder may be assigned, pledged, transferred or encumbered by either party without the express prior written approval of the other party, except that either HEMISPHERX or SCIEN may assign this Agreement to any successor by merger or sale of substantially all of its business or assets to which this Agreement pertains, without any such consent.
+
+CLASSIFICATION:
+ 

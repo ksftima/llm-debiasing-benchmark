@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Snapshots:
+
+1. Mother's ex believes I'm partly rel... - [archive.org](https://web.archive.org/20200409124938/http://old.reddit.com/r/badwomensanatomy/comments/fxru73/mothers_ex_believes_im_partly_related_to_him/), [archive.today](https://archive.today/wip)
+
+
+
+*I am just a simple bot, **not** a moderator of this subreddit* | [*bot subreddit*](/r/SnapshillBot) | [*contact the maintainers*](/message/compose?to=\/r\/SnapshillBot)
+
+CLASSIFICATION:
+

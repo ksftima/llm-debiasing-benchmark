@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Your eyes ever light up the moment you notice a pretty girl you havent met before? Or one you have thats just done herself up nicer? Its the same damn thing. Humans are hardwired to notice them. Men and women are no different in this. Similarly, men and women sometimes like to trade up so to speak. The self made millionaire who divorces his middle aged wife and marries a 22 year old art student? Its a trope for a reason. Men and women both are equally capable of being shitty human beings. What holds relationships together in the face of adversity and temptation are character traits like compassion, loyalty, communication, ethics, etc... 
+
+In other words, the same character traits that make any person a good partner in the first place, male or female. 
+
+Red pill will cherry pick statistics and deliberately obscure or ignore conflicting data in order to paint women as the villains, but its all a sham. Humans are shitty to each other, and its each of our individual responsibility to ensure were not continuing to be part of the problem.
+
+CLASSIFICATION:
+

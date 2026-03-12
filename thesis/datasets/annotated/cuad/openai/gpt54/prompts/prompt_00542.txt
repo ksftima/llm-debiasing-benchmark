@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+ETON, for itself and its Affiliates, hereby grants to Aucta in accordance with the terms and conditions of this Agreement, a right and license, to its trademark, including to its name and logo, that is owned or controlled by ETON or its Affiliates for Aucta (or its authorized Third Party) to make the packs, labels, and leaflets for the Products for sale in the Territory.
+
+CLASSIFICATION:
+ 

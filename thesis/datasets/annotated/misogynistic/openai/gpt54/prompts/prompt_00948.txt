@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This is because of the "lootpocolypse" that took place when the progression system changed from loot boxes to a seasonal battlepass. Not only were they very generous on the conversion for any currency you had, but also all rune challenges you had any progress in were automatically completed, currency rewarded, and generously converted.
+
+CLASSIFICATION:
+

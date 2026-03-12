@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Nuance agrees that it will not (i) oppose, challenge, petition to cancel, contest or threaten in any way, or assist another party in opposing, challenging, petitioning to cancel, contesting or threatening in any way, any application or registration by SpinCo or its Affiliates or their respective licensees for any SpinCo IP, (ii) engage in any act, or purposefully omit to perform any act, that impairs or adversely affects the rights of SpinCo or any member of the SpinCo Group in and to any SpinCo IP or (iii) apply for any registration (including federal, state and national registrations) with respect to the SpinCo IP.
+
+CLASSIFICATION:
+ 

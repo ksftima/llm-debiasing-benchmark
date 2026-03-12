@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Supplier hereby grants Bank of America a nonexclusive, worldwide, irrevocable, perpetual license to: (a) any patents related to or necessary or desirable to use the Software to the extent such patents are now held, licensed to or hereafter acquired by Supplier, for the purpose of allowing Bank of America and its Affiliates and permitted assigns to install, copy, use, execute, modify, distribute (as necessary or useful for Bank of America and its Affiliates and permitted assigns to enjoy their rights as set forth in the Agreement), make, have made, enhance, improve and alter the Software (both in Object Code and Source Code form) as necessary to conduct Bank of America business in accordance with the terms and restrictions or this Section; (b) any Copyrights now held, licensed to or hereafter acquired by Supplier in the Software for the purpose of allowing Bank of America and its Affiliates an permitted assigns to install, copy, use, execute, modify, distribute (as necessary or useful for Bank of America and its Affiliates and permitted assigns to enjoy their fights as set forth In the Agreement, produce derivative works from and<omitted>display such Software (both in Object Code and Source Code for ); any (c) other Intellectual Property Rights or Supplier in the Software as are necessary or useful for Bank of America, its Affiliates and permitted assigns to install, copy, use, execute, modify, distribute, enhance, improve and alter and copy the Software (both in Object Code and Source Code form) for the purpose of conducting Bank of America business in accordance with the terms and restrictions of this Section.
+
+CLASSIFICATION:
+

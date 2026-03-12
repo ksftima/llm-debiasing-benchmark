@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You also shall not use any Mark or any commercial symbol similar to the Marks in connection with the performance or sale of any unauthorized services or products, or in any other manner we have not expressly authorized in writing.
+
+CLASSIFICATION:
+ 

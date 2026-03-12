@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent needed to perfect AT&T's ownership in AT&T Derived Data, Vendor hereby assigns all right, title and interest in AT&T Derived Data to AT&T.
+
+CLASSIFICATION:
+ 

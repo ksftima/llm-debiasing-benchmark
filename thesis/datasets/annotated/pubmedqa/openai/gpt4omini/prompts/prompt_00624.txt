@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is aerobic workload positively related to ambulatory blood pressure? Cardiovascular disease is prevalent among workers with high levels of occupational physical activity. The increased risk may be due to a high relative aerobic workload, possibly leading to increased blood pressure. However, studies investigating the relation between relative aerobic workload and ambulatory blood pressure (ABP) are lacking. The aim was to explore the relationship between objectively measured relative aerobic workload and ABP. A total of 116 cleaners aged 18-65 years were included after informed consent was obtained. A portable device (Spacelabs 90217) was mounted for 24-h measurements of ABP, and an Actiheart was mounted for 24-h heart rate measurements to calculate relative aerobic workload as percentage of relative heart rate reserve. A repeated-measure multi-adjusted mixed model was applied for analysis. A fully adjusted mixed model of measurements throughout the day showed significant positive relations (p<0.001): a 1% increase in mean relative aerobic workload was associated with an increase of 0.42 ± 0.05 mmHg (95% CI 0.32-0.52 mmHg) in systolic ABP and 0.30 ± 0.04 mmHg (95% CI 0.22-0.38 mmHg) in diastolic ABP. Correlations between relative aerobic workload and ABP were significant.
+
+CLASSIFICATION: 

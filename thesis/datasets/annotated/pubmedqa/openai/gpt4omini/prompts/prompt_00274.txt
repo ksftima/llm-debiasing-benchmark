@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Delays in time to primary treatment after a diagnosis of breast cancer: does it impact survival? Treatment delays in breast cancer are generally thought to affect prognosis but the impact on survival remains unclear. Indicators for breast cancer care include time to primary treatment. The purpose of this study was to evaluate whether time to primary treatment (TPT) in breast cancer impacts survival. A total of 648 breast cancer patients treated in the University Malaya Medical Center (UMMC), Malaysia between 2004 and 2005 were included in the study. TPT was calculated from the date of pathological diagnosis to the date of primary treatment. Mortality data was obtained from the National Registry of Births and Deaths. Last date of follow-up was November 2010. Median TPT was 18 days. Majority 508 (69.1%) of the patients received treatment within 30 days after diagnosis. The majority was surgically treated. Ethnicity (p=0.002) and stage at presentation (p=0.007) were significantly associated with delayed TPT. Malay ethnicity had delayed TPT compared to the Chinese; Hazard Ratio (HR) 1.9 (Confidence Interval (CI) 1.237, 2.987). Delayed TPT did not affect overall survival on univariate and multivariate analyses.
+
+CLASSIFICATION: 

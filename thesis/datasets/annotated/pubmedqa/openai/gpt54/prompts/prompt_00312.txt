@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is half-dose contrast-enhanced three-dimensional MR angiography sufficient for the abdominal aorta and pelvis? To evaluate the usefulness of half-dose contrast-enhanced magnetic resonance (MR) angiography for depicting the abdominal aorta and its major branches. A total of 72 consecutive patients were randomly assigned to one of four groups that underwent MR angiography after receiving different concentrations (original or diluted to 50%) and total amounts (single or half-dose) of gadolinium chelate injected at different rates (1 or 0.5 mL/second). The signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR) of the abdominal aorta and of the common and external iliac arteries were calculated, and two blinded readers rated the respective image qualities. The SNR and CNR of the abdominal aorta and the common iliac artery in the 0.5 mL/second groups were statistically significantly lower than those in the 1 mL/second groups. The differences in overall image quality across the four groups were not statistically significant.
+
+CLASSIFICATION: 

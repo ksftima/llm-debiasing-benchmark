@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is resected stomach volume related to weight loss after laparoscopic sleeve gastrectomy? Laparoscopic sleeve gastrectomy (LSG) was initially performed as the first stage of biliopancreatic diversion with duodenal switch for the treatment of super-obese or high-risk obese patients but is now most commonly performed as a standalone operation. The aim of this prospective study was to investigate outcomes after LSG according to resected stomach volume. Between May 2011 and April 2013, LSG was performed in 102 consecutive patients undergoing bariatric surgery. Two patients were excluded, and data from the remaining 100 patients were analyzed in this study. Patients were divided into three groups according to the following resected stomach volume: 700-1,200 mL (group A, n = 21), 1,200-1,700 mL (group B, n = 62), and>1,700 mL (group C, n = 17). Mean values were compared among the groups by analysis of variance. The mean percentage excess body weight loss (%EBWL) at 3, 6, 12, and 24 months after surgery was 37.68 ± 10.97, 50.97 ± 13.59, 62.35 ± 11.31, and 67.59 ± 9.02 %, respectively. There were no significant differences in mean %EBWL among the three groups. Resected stomach volume was greater in patients with higher preoperative body mass index and was positively associated with resected stomach weight.
+
+CLASSIFICATION: 

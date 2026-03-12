@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Clause 11.6. SEV will indemnify and keep DCL indemnified in full against all Liabilities arising directly or indirectly in connection with: 11.5.1 any Employment Costs arising in relation to the Contracted Period in relation to the Employees;<omitted>11.5.2 the employment or termination of employment by SEV of any of the Employees (whether or not terminated by notice and, if so terminated, whenever that notice expires); and 11.5.3 any act, omission or default of SEV in respect of the employment by SEV of the Employees.
+
+CLASSIFICATION:
+ 

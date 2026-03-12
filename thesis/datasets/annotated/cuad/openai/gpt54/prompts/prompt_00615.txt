@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Sonos hereby authorizes IAC to use and to cause its Affiliates to use, the Marks as specified by Sonos on the Products and relevant documents solely for the purpose of this Agreement.
+
+CLASSIFICATION:
+ 

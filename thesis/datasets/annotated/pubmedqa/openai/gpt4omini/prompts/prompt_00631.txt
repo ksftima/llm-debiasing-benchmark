@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are virtual planning and guided surgery for head and neck reconstruction economically viable? Virtual planning and guided surgery with or without prebent or milled plates are becoming more and more common for mandibular reconstruction with fibular free flaps (FFFs). Although this excellent surgical option is being used more widely, the question of the additional cost of planning and cutting-guide production has to be discussed. In capped payment systems such additional costs have to be offset by other savings if there are no special provisions for extra funding. Our study was designed to determine whether using virtual planning and guided surgery resulted in time saved during surgery and whether this time gain resulted in self-funding of such planning through the time saved. All consecutive cases of FFF surgery were evaluated during a 2-year period. Institutional data were used to determine the price of 1 minute of operative time. The time for fibula molding, plate adaptation, and insetting was recorded. During the defined period, we performed 20 mandibular reconstructions using FFFs, 9 with virtual planning and guided surgery and 11 freehand cases. One minute of operative time was calculated to cost US $47.50. Multiplying this number by the time saved, we found that the additional cost of virtual planning was reduced from US $5,098 to US $1,231.50 with a prebent plate and from US $6,980 to US $3,113.50 for a milled plate.
+
+CLASSIFICATION: 

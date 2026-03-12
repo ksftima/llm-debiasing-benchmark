@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement, the Company hereby grants the Contractor a limited license to use the Company's logo, corporate colors, trademarks, trade names, fonts, and other aspects of corporate identity in advertisements and marketing materials related to the Notes and on the Contractor's website, subject to the Company's prior written approval of the specific use of these items in writing in each instance (which shall not be unreasonably withheld).
+
+CLASSIFICATION:
+ 

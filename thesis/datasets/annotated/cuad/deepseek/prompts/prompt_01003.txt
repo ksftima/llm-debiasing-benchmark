@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this agreement, and for a period of twenty four (24)months after Termination (the "Withholding Period"), Contractor may retain monies (collections in Accounts Receivable) against any reasonable anticipated deductions for product recalls, unsalables, rebates, allowances or any audits or other adjustments it deems necessary.
+
+CLASSIFICATION:
+ 

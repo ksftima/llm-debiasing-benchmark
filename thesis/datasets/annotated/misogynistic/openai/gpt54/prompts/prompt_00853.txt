@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+So the same boilerplate response used against the Aytu BioScience video. It wouldn't be surprising if the actual rationale used is [just as moronic as with justifying that particular case](http://archive.li/Xn863).
+
+Not to mention how authorities like the WHO aren't exactly the kind of authorities you'd want to defer to. Whether it's political motivations or in the WHO's case, pandering to the CCP.
+
+CLASSIFICATION:
+

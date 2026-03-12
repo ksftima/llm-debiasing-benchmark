@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Nothing in this Paragraph 8.02(a)(2) will create an obligation on the part of FCE to grant ExxonMobil a license or right under FCE Background Patents or FCE Background Information if the Parties do not agree on the terms and conditions of such license.
+
+CLASSIFICATION:
+ 

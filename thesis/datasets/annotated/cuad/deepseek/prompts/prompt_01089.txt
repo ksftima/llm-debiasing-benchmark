@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this Agreement, Impresse agrees to purchase from VerticalNet Banners and Newsletters for a total price of at least $[*] as set forth below in this Section 4.3 [BANNER/NEWSLETTER PURCHASE COMMITMENT].
+
+CLASSIFICATION:
+ 

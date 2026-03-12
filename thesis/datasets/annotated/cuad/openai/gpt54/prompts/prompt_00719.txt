@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any implied warranties of the Licensed Software are LIMITED to one year starting from the date it was shipped to the integrator or starting with the date specified as the starting date in the leasing and / or purchase agreement with the Integrator.
+
+CLASSIFICATION:
+ 

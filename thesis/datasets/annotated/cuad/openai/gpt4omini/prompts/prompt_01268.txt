@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 3.8.2(c), as between the Parties, each Party, or their respective Affiliates, shall own an equal, undivided interest in and to any and all (a) Information and inventions that are conceived, discovered, developed or otherwise made jointly by or on behalf of Harpoon or its Affiliates (including subcontractors thereof), on the one hand, and AbbVie or its Affiliates (including subcontractors thereof), on the other hand, in connection with the work conducted under or in connection with this Agreement, in each case whether or not patented or patentable (the "Joint Know-How"), and (b) Patents (the "Joint Patents") and other intellectual property rights with respect to the Information and inventions described in subclause (a) (together with Joint Know-How and Joint Patents, the "Joint Intellectual Property Rights").
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall inure to the benefit of and be binding upon the successors and assigns of the Parties hereto; provided, however, that neither Party shall transfer or assign this Agreement without the prior written consent of the other Party, such consent not to be unreasonably withheld, except where such assignment is by CPDC to any successor or subsidiary organization created within [***] of the Effective Date of this Agreement, which assignment may be completed without the prior written consent of FUSION.
+
+CLASSIFICATION:
+ 

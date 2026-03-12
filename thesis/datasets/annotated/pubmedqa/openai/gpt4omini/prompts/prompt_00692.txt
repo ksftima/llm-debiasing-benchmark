@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does normothermic normokalemic simultaneous antegrade/retrograde perfusion improve myocardial oxygenation and energy metabolism for hypertrophied hearts? Beating-heart valve surgery appears to be a promising technique for protection of hypertrophied hearts. Normothermic normokalemic simultaneous antegrade/retrograde perfusion (NNSP) may improve myocardial perfusion. However, its effects on myocardial oxygenation and energy metabolism remain unclear. The present study was to determine whether NNSP improved myocardial oxygenation and energy metabolism of hypertrophied hearts relative to normothermic normokalemic antegrade perfusion (NNAP). Twelve hypertrophied pig hearts underwent a protocol consisting of three 20-minute perfusion episodes (10 minutes NNAP and 10 minutes NNSP in a random order) with each conducted at a different blood flow in the left anterior descending coronary artery (LAD [100%, 50%, and 20% of its initial control]). Myocardial oxygenation was assessed using near-infrared spectroscopic imaging. Myocardial energy metabolism was monitored using localized phosphorus-31 magnetic resonance spectroscopy. With 100% LAD flow, both NNAP and NNSP maintained myocardial oxygenation, adenosine triphosphate, phosphocreatine, and inorganic phosphate at normal levels. When LAD flow was reduced to 50% of its control level, NNSP resulted in a small but significant decrease in myocardial oxygenation and phosphocreatine, whereas those measurements did not change significantly during NNAP. With LAD flow further reduced to 20% of its control level, both NNAP and NNSP caused a substantial decrease in myocardial oxygenation, adenosine triphosphate, and phosphocreatine with an increase in inorganic phosphate. However, the changes were significantly greater during NNSP than during NNAP.
+
+CLASSIFICATION: 

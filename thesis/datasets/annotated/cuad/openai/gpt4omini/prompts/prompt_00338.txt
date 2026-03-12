@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Customer grants to Philips, during the Term, a non-exclusive, royalty-free, non-transferrable right to make, have made, use, sell, reproduce, adapt, distribute, or otherwise use or practice Customer's Intellectual Property Rights solely in connection with manufacturing of the Products and packaging to Customer pursuant to this Agreement.
+
+CLASSIFICATION:
+ 

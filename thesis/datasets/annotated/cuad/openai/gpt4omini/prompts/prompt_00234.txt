@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement and Scope of Use and only within the Market and Territory, E.piphany grants HSNS a nonexclusive, nontransferable, non-sublicensable right to (i) use and combine the Application with the Outsourcing Application and other software products for the purpose of providing, to Outsourcing Customers, the services described in Exhibit B as the Outsourcing Services; and (ii) use the Documentation provided with the Application in support of the Application.
+
+CLASSIFICATION:
+ 

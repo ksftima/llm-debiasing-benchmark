@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+(A) 375 units in the first Product Year (1999) (B) 750 units in the next succeeding Product Year; (2000) (C) 937 units in the next succeeding Product Year; (2001) (D) 1,171 units in the next succeeding Product Year; (2002) (E) 1,463 units in the next succeeding Product Year; (2003) (F) 1,828 units in the next succeeding Product Year; (2004) (G) 2,285 units in the next succeeding Product Year; (2005) (H) 2,856 unit each in the lat three years of the initial Term of this Agreement and any renewals thereof.
+
+CLASSIFICATION:
+ 

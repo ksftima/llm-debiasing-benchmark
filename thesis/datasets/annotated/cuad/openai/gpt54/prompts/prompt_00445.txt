@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the avoidance of doubt, the Agent currently uses and/or may in the future use the Canada Marks on products in categories other than non-selective weedkillers for Lawn & Garden Use, and the license granted to Monsanto herein shall not affect or restrict the Agent's rights in such other categories.
+
+CLASSIFICATION:
+ 

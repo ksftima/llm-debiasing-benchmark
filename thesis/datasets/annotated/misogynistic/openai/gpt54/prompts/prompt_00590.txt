@@ -1,0 +1,27 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+>i said i hinted i wasnt looking for anything serious
+
+When you say something like this, a girl will by default feel like a loser if she's your something casual if she was raised even remotely decently. (Or even if like your girl, she was raised by the streets and is now wary of guys like you.)  
+
+Maybe you say it because you want to be honest, or maybe you say it because it gets you off to emulate some FR you read on here. 
+
+But realize that the game for a woman is commitment, and by outright shutting the possibility of her success down without supplanting it with a new fantasy (IE: How amazing being casual with you would be,) she ends up needing to do a lot of emotional labor to hamster what she's doing with you. 
+
+Tl;dr: Girls try to beta bux every guy they meet unless you give them another frame to operate in.
+
+CLASSIFICATION:
+

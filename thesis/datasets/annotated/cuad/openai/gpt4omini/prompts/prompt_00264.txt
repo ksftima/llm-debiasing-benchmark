@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this Agreement HCI shall:<omitted>l) grant to MLX, to the extent that MLX requires access to HCI logos and trademarks (collectively "HCI Marks") the use of certain HCI Marks as necessary for the purposes of fulfilling its obligations under this Agreement.
+
+CLASSIFICATION:
+ 

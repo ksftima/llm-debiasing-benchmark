@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do nontriploid partial hydatidiform moles exist? To study whether nontriploid partial hydatidiform moles truly exist. We conducted a reevaluation of pathology and ploidy in 19 putative nontriploid partial hydatidiform moles using standardized histologic diagnostic criteria and repeat flow cytometric testing by the Hedley technique. On review of the 19 moles, 53% (10/19) were diploid nonpartial moles (initially pathologically misclassified), and 37% (7/19) were triploid partial moles (initial ploidy misclassifications). One additional case (5%) was a diploid early complete mole (initially pathologically misclassified).
+
+CLASSIFICATION: 

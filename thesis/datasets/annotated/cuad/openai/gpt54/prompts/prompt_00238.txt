@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding any other provision of this Agreement, MD Anderson shall have the right to use results and Data of the Study for its internal research, academic, and patient care purposes and for publication in accordance with Section 12 below, save that no right or license is granted to MD Anderson under any of Adaptimmune's Background IP. Adaptimmune shall promptly disclose any Data it generates to MD Anderson.
+
+CLASSIFICATION:
+ 

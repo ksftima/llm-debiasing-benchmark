@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Programmer shall not separately sell advertising time on the HD2 Channel but may market the WLIB Programs as being rebroadcast on the HD2 Channel.
+
+CLASSIFICATION:
+ 

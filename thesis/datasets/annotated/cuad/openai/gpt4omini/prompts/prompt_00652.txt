@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+XENCOR hereby grants to BII and BII herewith accepts a non exclusive, worldwide, irrevocable, sublicensable (in several cascades), perpetual, royalty-free/fully paid up license under the XENCOR Intellectual Property to the extent it is generally applicable to the manufacturing of biopharmaceutical products, handling<omitted>of cell lines and/or development of manufacturing processes, to use such XENCOR Intellectual Property in for the manufacture of biopharmaceutical products, handling of cell lines and/or development of manufacturing processes, but excluding any use with respect to the Product (or any modification, derivative or fragment thereof).
+
+CLASSIFICATION:
+ 

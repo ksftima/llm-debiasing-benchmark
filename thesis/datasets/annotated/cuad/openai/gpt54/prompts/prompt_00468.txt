@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that such assignment would be unlawful, Vyera shall, and hereby does, grant to CytoDyn an exclusive, irrevocable, worldwide, sublicensable (including through multiple tiers), transferrable (without consent) royalty free license to any and all right, title and/or interest that it may have in or to an Invention.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Following the expiration of such 10-day period, Moelis Holdings shall have one hundred and eighty- (180-) days to sell or enter into an agreement to sell the Additional Units with respect to which SMBC's right of first refusal was not exercised, at a price and upon terms no more favorable to the purchasers of such securities than specified in Moelis Holdings' notice.
+
+CLASSIFICATION:
+ 

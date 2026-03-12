@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without limiting the foregoing, Equifax hereby grants, and will cause the other members of the Equifax Group to grant, to Certegy a fully paid, non- exclusive, perpetual, worldwide, transferable license to use, modify, improve, create Derivative Works from, and sublicense, the Utility Software Programs (in both object and source code format) identified on Exhibit L as being owned by Equifax or a member of the Equifax Group for any and all fields of use and to any and all Persons.
+
+CLASSIFICATION:
+ 

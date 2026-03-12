@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Intellectual Property granted to Party B shall only be used to the scope of Party B's Business operated by Party B.
+
+CLASSIFICATION:
+ 

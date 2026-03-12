@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Immunohistochemical assessment of steroid hormone receptors in tissues of the anal canal. Implications for anal incontinence? A prerequisite for a hormonal influence on anal continence in women is the presence of hormone receptors in the tissues of the anal canal. Using immunohistochemical techniques, we demonstrated and localized estrogen and progesterone receptors (ER, PR) in tissue sections of the anal canal. Thirty-five specimens of the anorectal region from 21 patients (14 women, seven men) were examined histologically for smooth muscle (present in specimens from ten females and in seven males), striated muscle (present in three females and five males), and perimuscular connective tissue (present in 12 females and seven males). Immunostaining for ER and PR was then performed by incubating with primary anti-ER and anti-PR antibody and visualization of specific antibody binding by the ABC technique with DAB as chromogen. Positive staining for ER and PR was seen exclusively over cell nuclei. Estrogen receptors were found in the smooth muscle cells of the internal sphincter of all females (10/10) and in four of the seven males. Staining for ER was detected in the perimuscular connective tissue of all females (12/12) and in four of the seven males. No specific staining for ER or PR was found in the nuclei of striated muscle cells of the external sphincter in males or females (n = 8). In females, about 50% of the ER-positive tissues were also found to be positive for PR. Amongst the male patients, only one exhibited staining for PR, and this was confined to the smooth muscle.
+
+CLASSIFICATION: 

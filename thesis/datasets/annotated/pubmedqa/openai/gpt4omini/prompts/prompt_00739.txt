@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does oral α-galactosidase relieve irritable bowel symptoms? Abdominal bloating is reported by a majority of irritable bowel syndrome (IBS) patients. Excess colonic fermentation may cause gaseous symptoms. Several foodstuffs contain oligosaccharides with an α-galactosidic linkage that is resistant to mammalian hydrolases. Assisted hydrolysis by exogenous α-galactosidase enzyme (AG) could offer a way of controlling IBS symptoms by reducing colonic fermentation and gas production. The aim of this study was to assess the effect of AG on symptom severity and quality of life in IBS patients with abdominal bloating or flatulence. A total of 125 subjects with IBS received AG or placebo at meals for 12 weeks. IBS-Symptom Severity Score (IBS-SSS) and quality of life (QoL) were assessed at baseline, during the treatment and at 4-week follow-up. AG showed a trend toward a more prominent decrease in IBS-SSS. The responder rate at week 16 was higher for the AG group. No difference was detected in QoL between AG and placebo groups. A total of 25 patients (18 in AG group and 7 in placebo group, p = 0.016) withdrew from the study. Abdominal pain and diarrhea were more often reported as reason for withdrawal in AG group.
+
+CLASSIFICATION: 

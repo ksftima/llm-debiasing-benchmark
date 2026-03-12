@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement, subject to Manufacturer meeting EMV's requirements for quality, price and lead- time, EMV hereby grants Manufacturer an exclusive, non-transferable, license (without the right to sublicense) under EMV's Proprietary Rights in the Territory, during the term of this Agreement, to copy the EMV firmware as may be provided by EMV from time to time onto Product units in the manufacturing process at each EMV-approved Manufacturer manufacturing facility.
+
+CLASSIFICATION:
+ 

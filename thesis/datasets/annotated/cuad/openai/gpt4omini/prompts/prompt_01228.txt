@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Nothing in this Agreement shall exclude or limit either party's liability for: (a) death or personal injury resulting from the negligence of either party or their servants, agents or employees; (b) fraud or fraudulent misrepresentation;<omitted>(c) breach of any implied condition as to title or quiet enjoyment; and (d) misuse of confidential information.
+
+CLASSIFICATION:
+ 

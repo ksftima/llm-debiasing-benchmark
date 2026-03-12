@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are bipolar disorders underdiagnosed in patients with depressive episodes? Recent reports indicate that the prevalence of bipolar disorder (BD) in patients with an acute major depressive episode might be higher than previously thought. We aimed to study systematically all patients who sought therapy for major depressive episode (MDE) within the BRIDGE study in Germany, reporting on an increased number (increased from 2 in the international BRIDGE report to 5) of different diagnostic algorithms. A total of 252 patients with acute MDE (DSM-IV confirmed) were examined for the existence of BD (a) according to DSM-IV criteria, (b) according to modified DSM-IV criteria (without the exclusion criterion of 'mania not induced by substances/antidepressants'), (c) according to a Bipolarity Specifier Algorithm which expands the DSM-IV criteria, (d) according to HCL-32R (Hypomania-Checklist-32R), and (e) according to a criteria-free physician's diagnosis. The five different diagnostic approaches yielded immensely variable prevalences for BD: (a) 11.6; (b) 24.8%; (c) 40.6%; (d) 58.7; e) 18.4% with only partial overlap between diagnoses according to the physician's diagnosis or HCL-32R with diagnoses according to the three DSM-based algorithms.
+
+CLASSIFICATION: 

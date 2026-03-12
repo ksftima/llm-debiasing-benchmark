@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can dentists recognize manipulated digital radiographs? To determine the ability of dentists to recognize digitally manipulated radiographs. A poster was presented at the Annual Meeting of the German Society for Periodontology displaying the intra-oral radiographs of 12 different patients. Half of the radiographs were subjected to digital manipulation to add or remove specific features. Dentists were asked to identify these radiographs by means of a questionnaire. Thirty-nine dentists submitted usable questionnaires. Statistical evaluation revealed a distribution of hits similar to the random distribution. None of the dentists detected all the six manipulated radiographs; three dentists had five correct, but there were five with only one. An authentic radiograph scored highest as a manipulation.
+
+CLASSIFICATION: 

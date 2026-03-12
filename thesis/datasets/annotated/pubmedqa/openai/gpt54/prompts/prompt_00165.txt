@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the use of cyanoacrylate in intestinal anastomosis a good and reliable alternative? The present study aims to compare strength, healing, and operation time of experimental intestinal anastomoses performed by polyglactin 910 (Vicryl; Ethicon, Edinburgh, United Kingdom) sutures with ethyl-2-cyanoacrylate glue (Pattex; Henkel, Dusseldorf, Germany). Ninety-six Sprague-Dawley rats were divided into 2 (groups E and L). Each group was further subdivided into 6 subgroups (EA1, EA2, EA3, EB1, EB2, EB3, LA1, LA2, LA3, LB1, LB2, LB3), each containing 8 rats. Intestinal anastomosis was performed by polyglactin 910 sutures in A subgroups and with ethyl-2-cyanoacrylate in B subgroups. The anastomosis was end to end in A1 and B1, side to side in A2 and B2, and end to side in A3 and B3. Time for anastomosis performance (AT) was recorded. In group E, bursting pressures and hydroxyproline levels were determined on the second postoperative day, whereas in group L, the same measurements were made on the sixth postoperative day. One-way analysis of variance was used for analyses of variance in the groups. Quantitative data were analyzed with Student's t test. P value was considered significant at less than .05. There was no significant difference between bursting pressures of subgroup pairs on both postoperative days 2 and 6. Hydroxyproline levels and AT were significantly better in B subgroups.
+
+CLASSIFICATION: 

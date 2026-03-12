@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither party may assign this Agreement, in whole or in part, without the other party's written consent (which will not be unreasonably withheld or delayed), except that no such consent will be required in connection with (i) a merger, reorganization or sale of all, or substantially all, of such party's assets or its<omitted>Internet business assets (ii) either party's assignment and/or delegation of its rights and responsibilities hereunder to a wholly-owned subsidiary or affiliate or joint venture in which the assigning party holds an interest.
+
+CLASSIFICATION:
+ 

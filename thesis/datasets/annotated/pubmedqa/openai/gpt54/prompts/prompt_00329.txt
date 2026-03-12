@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is laparoscopic adrenalectomy safe and effective for adrenal masses larger than 7 cm? Laparoscopic adrenalectomy (LA) has become the gold standard treatment for small (less than 6 cm) adrenal masses. However, the role of LA for large-volume (more than 6 cm) masses has not been well defined. Our aim was to evaluate, retrospectively, the outcome of LA for adrenal lesions larger than 7 cm. 18 consecutive laparoscopic adrenalectomies were performed from 1996 to 2005 on patients with adrenal lesions larger than 7 cm. The mean tumor size was 8.3 cm (range 7-13 cm), the mean operative time was 137 min, the mean blood loss was 182 mL (range 100-550 mL), the rate of intraoperative complications was 16%, and in three cases we switched from laparoscopic procedure to open surgery.
+
+CLASSIFICATION: 

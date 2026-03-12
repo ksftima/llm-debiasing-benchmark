@@ -1,0 +1,47 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Make a few friends with some veterans - after Afghanistan and Iraq, theres a lot of men 25-40 that are veterans.
+
+Theres a major difference between listening to war stories around a fire, and being the emotional support for someone who has emotional trauma from combat. 
+
+Im not saying that ALL veterans have major emotional trauma, but a lot do, and regardless, having combat experience will most certainly augment your world view in some way.
+
+My dad is a combat veteran with drastic and life altering emotional trauma, and a lot of my friends have varying levels of these types of feelings from Iraq and Afghanistan, and I know it was (and is) extremely difficult for me to be the person my dad depended on. 
+
+Also, do understand the overall stereotypes and feelings that most military men have and propagate about women who are into military guys. You will need to be prepared to be subject to a lot of negativity from men who will say you are there for the benefits and the money. If you need to know where to start, try looking up the word dependa.
+
+TL:DR Im not here to say you shouldnt ever date military men, but I just want you to have a realistic idea of that means.
+
+CLASSIFICATION:
+

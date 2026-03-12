@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can the postoperative pain level be predicted preoperatively? We searched for factors present preoperatively which could be used to predict the intensity of postoperative pain. We undertook a prospective study among all patients aged over 18 years who underwent shoulder surgery from January to September 2004 in our unit. The study included 86 patients for which the following data were noted preoperatively: past history of pain, intensity and duration of prior pain, triggering factors, localization, psychological context. The intensity of the postoperative pain was measured on a visual analog scale (VAS); measurements were noted up to 24 hours postop then at one month. Data processing was performed with Statview5.5. Significant postoperative pain was correlated with a prior history of surgical pain, with duration of prior pain, with intensity of preoperative pain, and with depression. Significant sustained preoperative pain can favor memory of pain leading to postoperative sensitivization of nociception neurons. Intense postoperative pain can favor the development of refractory chronic pain.
+
+CLASSIFICATION: 

@@ -1,0 +1,49 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+OYS #10
+
+33, 69kg, 1m80, 17% bf, wife 35, married 4 years, together 6, 2 kids (f) 2,5 years old and 1 month old
+
+Lifts kg: Squat 100, Bench 73, Overhead 49, Row 72, Deadlift 122,5
+
+Reading: best of TRM, Heartiste, NMMNG, WISNIFG, MMSLP, Unchained Man, HTWFAIP, TWOTSM, Pook, currently rereading NMMNG
+
+My exchange with u/HornsOfApathy last week made me realize my nice guyness bleeds through even when participating in MRP. Instead of giving straight answers to simple questions, my brain gets automatically kicked into flight mode and tries to give the "right" answer instead of what I really think. As a result I vomit every marginally related thought, to make sure nobody misses out on any detail of my background story, hoping something sticks.
+
+Goal: mull over every question I receive on here before replying
+
+And for the record, I do like my wife, and I haven't been putting her on a pedestal for quite some time. She's alright.
+
+
+Reading:
+
+Stalled on NMMNG reread.
+
+Goal: read another 30% by next week
+
+
+STFU:
+
+Obviously my major red area, as pointed out by the replies to my previous OYS. If it's bad in MRP it's likely even worse IRL, even though I like to think I have made a lot of progress here, at least with the wife and daughter. Still failing with my parents, probably in their frame. I treat being around them as a safe space where I can vomit my thoughts and feelings, and I feel like a faggot afterwards.
+
+Goal: 
+
+Consciously STFU when seeing my parents next time.
+
+I actually saw them between writing this goal and posting this OYS. I did quite well. It's funny how when you create a void, people start justifying their actions to you.
+
+CLASSIFICATION:
+

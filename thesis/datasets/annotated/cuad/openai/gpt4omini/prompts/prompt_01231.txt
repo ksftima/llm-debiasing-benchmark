@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party, at its own expense, shall maintain comprehensive general liability, product liability and other appropriate insurance for the activities such Party undertakes pursuant to this Agreement, from reputable and financially secure insurance carriers in a form and at levels consistent with sound business practice and adequate in light of its obligations under this Agreement.
+
+CLASSIFICATION:
+ 

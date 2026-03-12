@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do patients with localized prostate cancer treatment really want more aggressive treatment? Examine whether patients with prostate cancer choose the more aggressive of two radiotherapeutic options, whether this choice is reasoned, and what the determinants of the choice are. One hundred fifty patients with primary prostate cancer (T(1-3)N(0)M(0)) were informed by means of a decision aid of two treatment options: radiotherapy with 70 Gy versus 74 Gy. The latter treatment is associated with more cure and more toxicity. The patients were asked whether they wanted to choose, and if so which treatment they preferred. They also assigned importance weights to the probability of various outcomes, such as survival, cure and adverse effects. Patients who wanted to choose their own treatment (n = 119) are described here. The majority of these patients (75%) chose the lower radiation dose. Their choice was highly consistent (P<or = .001), with the importance weights assigned to the probability of survival, cure (odds ratio [OR] = 6.7 and 6.9) and late GI and genitourinary adverse effects (OR = 0.1 and 0.2). The lower dose was chosen more often by the older patients, low-risk patients, patients without hormone treatment, and patients with a low anxiety or depression score.
+
+CLASSIFICATION: 

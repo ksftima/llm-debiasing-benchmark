@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is vitamin D insufficiency or deficiency related to the development of osteochondritis dissecans? The aetiology of osteochondritis dissecans is still unclear. The aim of this prospective pilot study was to analyse whether vitamin D insufficiency, or deficiency, might be a contributing etiological factor in the development of an OCD lesion. The serum level of vitamin D3 in 23 consecutive patients (12 male and 11 female) suffering from a stage III, or stages III and IV, OCD lesion (mostly stage III) admitted for surgery was measured. The patients' mean age was 31.3 years and most of them already exhibited closed epiphyseal plates. In the majority of patients (18/23), a distinct vitamin D3 deficiency was found, two patients were vitamin D3-insufficient and, in three patients, the vitamin D3 level reached the lowest normal value.
+
+CLASSIFICATION: 

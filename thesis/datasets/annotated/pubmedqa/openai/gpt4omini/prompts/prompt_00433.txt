@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cigarettes and cinema: does parental restriction of R-rated movie viewing reduce adolescent smoking susceptibility? To examine the relationship between exposure to pro-smoking messages in media and susceptibility to smoking adoption among middle school students. The hypothesis that parental restriction of R-rated movie viewing is associated with lower adolescent smoking susceptibility was tested. A sample of 1687 6th-, 7th-, and 8th-grade students from four Wisconsin middle schools were surveyed about their use of cigarettes, exposure to smoking in media, their views of smoking, and peer smoking behaviors. An index of smoking susceptibility was created using measures of cigarette use and future intention to smoke. A zero-order correlation for parental restriction of R-rated movie viewing and smoking susceptibility showed a strong association (r = -.36, p<.001). A hierarchical logistic regression yielded odds ratios (ORs) for being susceptible to or having tried smoking for three levels of parental R-rated movie restriction. Results show that compared to full restriction, respondents with partial or no restriction were more likely to be susceptible to smoking (partial restriction: OR = 2.1, 95% CI = 1.5-2.8; no restriction: OR = 3.3, 95% CI = 2.3-4.6), when controlling for demographic factors, and family and friend smoking. Analyses using a measure of smoking prevalence as the dependent variable yielded similar results (partial restriction: OR = 1.5, 95% CI = 1.0-2.2; no restriction: OR = 2.5, 95% CI = 1.7-3.7).
+
+CLASSIFICATION: 

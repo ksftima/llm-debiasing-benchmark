@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Emdeon's compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content by making such Content available to third parties verbatim or as source material via the Software.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Bitch and 'bitchy' are definitely gender-related insults, and at least that one *is* sexist. That said, because of its prevelance, it's not uncommon for women to worry (especially in circumstances where they are being assertive) about seeming 'bitchy'-- that's how we know that bitch and bitchiness is 1) negative and 2) something women want to avoid. 
+
+Some women embrace and are trying to reclaim bitch (being a 'Boss Ass Bitch' is very positive, for instance)-- personally I try to avoid using the term. I feel like it's derogatory and I don't have much interest in reclaiming it.
+
+CLASSIFICATION:
+

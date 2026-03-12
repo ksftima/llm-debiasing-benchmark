@@ -1,0 +1,49 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+I am certain that someone is going to chime in and ask you if this is really a big enough deal to make a fuss over... but that's really only up to you and maybe the answer is yes.
+
+My husband has such a strong personality that I sometimes feel like he steamrolls me and it most often manifests in his telling me we can't afford something that costs $20 and then buying himself a $20 bottle of whiskey. I am familiar with this disagreement. We've made progress, though. 
+
+> I really feel dismissed and I feel like he's prioritizing his desires over mine.
+
+First, it's irrelevant who makes more money, if you're not keeping your income separate. I make 20k more than my husband and I don't get to use that in arguments.
+
+Second, it feels like he's prioritizing his wants over yours, because it's true. He wants what he wants, not what you want and it's as simple as that. I highly doubt he sees this as a sign of disregard or dismissal. He just wants some blinds and you already have a table. 
+
+If you want to make progress on this issue, particularly if it's recurring and not just this one thing, you need to *calmly* explain how this makes you feel. This was his ex's table and you don't like it and have been wanting to replace it for years, to his refusal, and now you especially don't want to take it to a new house. You clearly have the expendable income and you've wanted to replace the table for longer than he's wanted blinds. You'd really like to get the table and make blinds the next big purchase. Perhaps you can sell the current table and put that money toward it. I also think it's worth mentioning that his response came off as really dismissive. 
+
+The key here is to politely refuse to go pick up the blinds before talking about it, so you don't just end up with new blinds. Then calmly tell him how you feel without assuming he intended any of it. Then work together to reach a compromise. If you can't get the table now, because there's some reason the blinds must come first, then when can you? Can you start setting money aside with his blessing?
+
+CLASSIFICATION:
+

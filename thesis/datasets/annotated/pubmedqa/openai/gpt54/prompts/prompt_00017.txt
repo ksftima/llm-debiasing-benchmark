@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do patterns of knowledge and attitudes exist among unvaccinated seniors? To examine patterns of knowledge and attitudes among adults aged>65 years unvaccinated for influenza. Surveyed Medicare beneficiaries in 5 areas; clustered unvaccinated seniors by their immunization related knowledge and attitudes. Identified 4 clusters: Potentials (45%) would receive influenza vaccine to prevent disease; Fearful Uninformeds (9%) were unsure if influenza vaccine causes illness; Doubters (27%) were unsure if vaccine is efficacious; Misinformeds (19%) believed influenza vaccine causes illness. More Potentials (75%) and Misinformeds (70%) ever received influenza vaccine than did Fearful Uninformeds (18%) and Doubters (29%).
+
+CLASSIFICATION: 

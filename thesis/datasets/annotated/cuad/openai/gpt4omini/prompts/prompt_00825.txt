@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the above, Pfizer agrees to invest its portion of Shared M&P Expense each Calendar Year subject to, (a) Exact spending at least twelve million dollars ($12,000,000) in Baseline M&P Expense each Calendar Quarter (provided, that notwithstanding Exact's quarterly spend for Baseline M&P Expense, Exact shall spend a total of eighty million dollars ($80,000,000) in Baseline M&P Expense each Calendar Year measured as of the end of each Calendar Year), (b) an amount equal to the total Shared M&P Expense contributed by both Parties is used for Marketing and Promotion and (c) a total sum of not less than eighty million dollars ($80,000,000) of Baseline M&P Expense is used for Marketing and Promotional activities, including the costs of Exact Sponsorships and Related Activities; provided, however, the Parties may agree to reallocate Shared M&P Expenses by 28 Source: EXACT SCIENCES CORP, 8-K, 8/22/2018 mutual written consent.
+
+CLASSIFICATION:
+ 

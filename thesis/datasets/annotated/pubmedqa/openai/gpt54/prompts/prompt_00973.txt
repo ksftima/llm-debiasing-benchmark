@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is endothelin-1 an aggravating factor in the development of acute pancreatitis? We have reported previously that cerulein-induced edematous pancreatitis would transform into hemorrhagic pancreatitis by administration of endothelin-1 in rats. In the present study, we tried to protect rat model from developing into hemorrhagic pancreatitis with BQ123 (an ETA receptor antagonist). The rat model was made by 5-hour restraint water-immersion stress and two intraperitoneal injections of cerulein (40 micrograms/kg) at hourly interval. BQ123 (3 or 6 mg/kg) was administered intravenously 30 minutes before and 2 hours after the first cerulein injection. Acute hemorrhagic pancreatitis was induced in all rats treated with cerulin + stress. The score for pancreatic hemorrhage was 2.4 +/- 0.2 in this group. In the rats pretreated with BQ123, the score was reduced to 1.0 +/- 0.0, pancreas wet weight and serum amylase activity were significantly reduced, and histologic alterations in the pancreas lightened, also the local pancreatic blood flow improved without affecting the systemic blood pressure.
+
+CLASSIFICATION: 

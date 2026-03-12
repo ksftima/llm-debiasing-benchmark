@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any transfer in violation hereof shall be deemed as a breach by Party B, for which Party B shall take relevant breaching liability and Party A may terminate this Agreement, suspend fee settlement and require Party B to undertake any direct or indirect loss thus caused.
+
+CLASSIFICATION:
+ 

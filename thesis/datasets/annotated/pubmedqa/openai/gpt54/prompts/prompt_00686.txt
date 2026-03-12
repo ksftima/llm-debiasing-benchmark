@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can common carotid intima media thickness serve as an indicator of both cardiovascular phenotype and risk among black Africans? It is not known whether common carotid intima media thickness (CIMT) can serve as a surrogate marker of cardiovascular risk among black Africans. Therefore, we examined whether CIMT differed significantly among individuals with distinct cardiovascular phenotype and correlated significantly with traditional cardiovascular risk factors in a black African population. CIMT was measured in 456 subjects with three distinct cardiovascular phenotypes - 175 consecutive Nigerian African stroke patients, 161 hypertensive patients without stroke and 120 normotensive non-smoking adults. For each pair of cardiovascular phenotypes, c-statistics were obtained for CIMT and traditional vascular risk factors (including age, gender, weight, waist circumference, smoking, alcohol, systolic and diastolic blood pressures, fasting plasma glucose, fasting total cholesterol). Pearson's correlation coefficients were calculated to quantify bivariate relationships. Bilaterally, CIMT was significantly different among the three cardiovascular phenotypes (right: p < 0.001, F = 33.8; left: p < 0.001, F = 48.6). CIMT had a higher c-statistic for differentiating stroke versus normotension (c = 0.78 right; 0.82 left, p < 0.001) and hypertension versus normotension (c = 0.65 right; 0.71 left, p < 0.001) than several traditional vascular risk factors. Bilaterally, combining all subjects, CIMT was the only factor that correlated significantly (right: 0.12 ≤ r ≤ 0.41, 0.018 ≤ p < 0.0001; left: 0.18 ≤ r ≤ 0.41, 0.005 ≤ p < 0.0001) to all the traditional cardiovascular risk factors assessed.
+
+CLASSIFICATION: 

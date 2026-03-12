@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 1.2, Franchisor hereby grants to Franchisee the exclusive right, (a) to establish and operate Smaaash Centres in the Territory, (b) to sub-license the right to establish and operate Smaaash Centres to third party franchisees in and for the Territory, (c) a license to use the products and other services developed by Franchisor with respect to the Smaaash Centres (including a right to authorise the use of products and services developed by the Franchisor by third party franchisees), in the Territory, and (d) to identify third party franchisees for the Smaaash Centres in the Territory.
+
+CLASSIFICATION:
+ 

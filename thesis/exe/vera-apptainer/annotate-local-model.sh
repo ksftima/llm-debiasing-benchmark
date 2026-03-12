@@ -41,7 +41,7 @@ CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 MODELS_DIR="/mimer/NOBACKUP/groups/ci-nlp-alvis/theat/models"
 
 MODEL_NAME=$(basename "$MODEL")
-ANN_DIR="${CODE_DIR}/thesis/annotations/${DATASET}/local/${MODEL_NAME}"
+ANN_DIR="${CODE_DIR}/thesis/datasets/annotated/${DATASET}/local/${MODEL_NAME}"
 
 echo "================================"
 echo "Annotating with local model"
@@ -62,8 +62,8 @@ apptainer exec --nv \
     ${CONTAINER_PATH} \
     python3 /code/thesis/lib/annotation/annotate_local_model.py \
         "$DATASET" \
-        "/code/thesis/parsed_datasets/parsed_scaled_datasets/${DATASET}.csv" \
-        "/code/thesis/annotations/${DATASET}/local/${MODEL_NAME}" \
+        "/code/thesis/datasets/parsed/${DATASET}.csv" \
+        "/code/thesis/datasets/annotated/${DATASET}/local/${MODEL_NAME}" \
         --model "$MODEL" \
         --num_examples "$NUM_EXAMPLES" \
         --batchsize 8

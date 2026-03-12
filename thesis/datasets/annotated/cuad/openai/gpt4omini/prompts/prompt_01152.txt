@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such inspections and audits by Sonos or a Sonos authorized audit firm will be limited to [*], except for any case of an identified quality issue whereby Sonos will have the right to inspect IAC's facility and to review applicable documentation and processes at any time, provided Sonos provides IAC with written notice [*] in advance of the Sonos inspection.
+
+CLASSIFICATION:
+ 

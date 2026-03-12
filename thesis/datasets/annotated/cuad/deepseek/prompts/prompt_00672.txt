@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Party A and Party B shall sign the Contract for Technology Investment simultaneously with the signature of this Contract, and pursuant to the Contract for Technology Investment shall license to the Joint Venture Company the right to utilize proprietary technology (including patented technology), related documentation and know-how for the production of the Joint Venture Products.
+
+CLASSIFICATION:
+ 

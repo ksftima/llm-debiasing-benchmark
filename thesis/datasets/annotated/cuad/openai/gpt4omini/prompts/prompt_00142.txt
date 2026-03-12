@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement (including all obligations to first obtain Franchisor's written approval), Franchisor hereby grants to Franchisee the right to use the Trademarks (the details of which are set out in Exhibit A to this Agreement) (including sub-licensing this right to third party franchisees with the approval of Franchisor), on a royalty-free basis, for the purpose of operating and promoting the Smaaash Centres in the Territory.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Secondhand smoke risk in infants discharged from an NICU: potential for significant health disparities? Secondhand smoke exposure (SHSe) threatens fragile infants discharged from a neonatal intensive care unit (NICU). Smoking practices were examined in families with a high respiratory risk infant (born at very low birth weight; ventilated>12 hr) in a Houston, Texas, NICU. Socioeconomic status, race, and mental health status were hypothesized to be related to SHSe and household smoking bans. Data were collected as part of The Baby's Breath Project, a hospital-based SHSe intervention trial targeting parents with a high-risk infant in the NICU who reported a smoker in the household (N = 99). Measures of sociodemographics, smoking, home and car smoking bans, and depression were collected. Overall, 26% of all families with a high-risk infant in the NICU reported a household smoker. Almost half of the families with a smoker reported an annual income of less than $25,000. 46.2% of families reported having a total smoking ban in place in both their homes and cars. Only 27.8% families earning less than $25,000 reported having a total smoking ban in place relative to almost 60% of families earning more (p<.01). African American and Caucasian families were less likely to have a smoking ban compared with Hispanics (p<.05). Mothers who reported no smoking ban were more depressed than those who had a household smoking ban (p<.02).
+
+CLASSIFICATION: 

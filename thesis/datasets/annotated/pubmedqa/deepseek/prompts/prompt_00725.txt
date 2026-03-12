@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does parity increase insulin resistance during pregnancy? To study the effect of parity on impairment of insulin sensitivity during pregnancy and on the risk of gestational diabetes (GDM). We studied the relationship between parity and peripheral insulin sensitivity index (ISI(OGTT)) or GDM in 1880 caucasian women, who underwent a 100-g, 3-h oral glucose tolerance test (OGTT) between the 24th and 28th gestational week and in 75 women who underwent an OGTT in two consecutive pregnancies. A proxy for beta-cell function (basal plasma C peptide/fasting plasma glucose; CP/FPG) was also measured. By univariate analysis parity was related to decreased ISI(OGTT) and to increased CP/FPG in those with parity>3 and likewise GDM, diagnosed in 124 women (6.58%), was linearly related to parity (P = 0.0034) and strongly age dependent. The relationships between parity and ISI(OGTT), CP/FPG and GDM were no longer significant after adjustment for age, pregestational body mass index (BMI), and weight gain. GDM was significantly related to age and pregestational weight, while ISI(OGTT) and CP/FPG were inversely related to prepregnancy BMI or weight gain. In comparison with the index pregnancy, the subsequent pregnancy was characterized by an increase in actual and prepregnancy BMI, in 2 h area under curve (AUC) glucose and by a decrease in ISI(OGTT) (P = 0.0001). The longer the time interval between pregnancies and the higher the increment in pregestational BMI or in weight gain during the pregnancy, the greater were the ISI(OGTT) decrease and 2-h AUC glucose increase.
+
+CLASSIFICATION: 

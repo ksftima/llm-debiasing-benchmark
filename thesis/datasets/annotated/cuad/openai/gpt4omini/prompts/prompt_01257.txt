@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier will provide reasonable access to Bank of America's federal and state governmental regulators (at a minimum, to the extent required by law), at Bank of America's expense, to Bank of America's Records held by Supplier and to the procedures and facilities of Supplier relating to the Products and services provided under this Agreement Pursuant to 12 U.S.C. 1867(c), the performance of such services will be subject to regulation and examination by the appropriate federal banking agency to the same extent as if the services were being performed by Bank of America itself. S
+
+CLASSIFICATION:
+ 

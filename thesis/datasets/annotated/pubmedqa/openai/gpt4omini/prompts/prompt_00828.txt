@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does use of hydrophilic guidewires significantly improve technical success rates of peripheral PTA? To determine whether the use of hydrophilic guidewires has increased the technical success rate of peripheral percutaneous transluminal angioplasty (PTA).MATERIAL/ We performed 125 procedures and analyzed the technical success rates of PTA using the conventional guidewire first and then if needed, the hydrophilic guidewire for iliac and SFA stenoses or occlusions. Angioplasty was performed on 25 stenosed, 25 occluded iliac arteries and 25 stenosed, 50 occluded femoral arteries. The result was defined as technical success when the lesion was crossed by a guidewire and balloon, then it was dilated with restoration of vessel lumen and less than 30% residual stenosis and the rise in ABI values was at least 0.15 after 24 hours. The technical success rate after PTA of stenosed iliac arteries was achieved in 96% (24/25) using conventional wires and 100% using hydrophilic guidewire; in iliac occlusions, the rates were 60% (15/25) and 96%, respectively; in femoral stenosis - 84% (21/25) and 100%; in occlusions in the first group: lesions<10 cm -64% (16/25) and 96%, in the second group: lesions>10 cm -48% (12/25) and 88%. In the iliac group, there was no significant difference in the success of iliac stenosis PTA. However, there were significant changes in the success rates of PTA performed for SFA stenosis and iliac and SFA occlusions.
+
+CLASSIFICATION: 

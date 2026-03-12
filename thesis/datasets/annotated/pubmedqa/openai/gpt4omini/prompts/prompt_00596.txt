@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can pictorial warning labels on cigarette packages address smoking-related health disparities? The objective of this study was to determine the most effective content of pictorial health warning labels (HWLs) and whether educational attainment moderates these effects. Field experiments were conducted with 529 adult smokers and 530 young adults (258 nonsmokers; 271 smokers). Participants reported responses to different pictorial HWLs printed on cigarette packages. One experiment involved manipulating textual form (testimonial narrative vs. didactic) and the other involved manipulating image type (diseased organs vs. human suffering). Tests of mean ratings and rankings indicated that pictorial HWLs with didactic textual forms had equivalent or significantly higher credibility, relevance, and impact than pictorial HWLs with testimonial forms. Results from mixed-effects models confirmed these results. However, responses differed by participant educational attainment: didactic forms were consistently rated higher than testimonials among participants with higher education, whereas the difference between didactic and testimonial narrative forms was weaker or not statistically significant among participants with lower education. In the second experiment, with textual content held constant, greater credibility, relevance, and impact was found for graphic imagery of diseased organs than imagery of human suffering.
+
+CLASSIFICATION: 

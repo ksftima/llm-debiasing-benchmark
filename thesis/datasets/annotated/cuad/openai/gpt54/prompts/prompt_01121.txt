@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Parties acknowledge that nothing in this Agreement shall limit or restrict XENCOR, itself or with or through any third party, from developing and using any process (except for the Process) for the manufacture of any of its products, including the Product, provided that no BII Confidential Information and Know-How is used and XENCOR adheres to its confidentiality and non-use obligations hereunder and complies with the ownership of intellectual property and Improvements as set forth in Section 8 below.
+
+CLASSIFICATION:
+ 

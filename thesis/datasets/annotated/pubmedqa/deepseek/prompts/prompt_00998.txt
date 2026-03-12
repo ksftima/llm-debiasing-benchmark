@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can autologous platelet-rich plasma gel enhance healing after surgical extraction of mandibular third molars? This investigation assesses the effect of platelet-rich plasma (PRP) gel on postoperative pain, swelling, and trismus as well as healing and bone regeneration potential on mandibular third molar extraction sockets. A prospective randomized comparative clinical study was undertaken over a 2-year period. Patients requiring surgical extraction of a single impacted third molar and who fell within the inclusion criteria and indicated willingness to return for recall visits were recruited. The predictor variable was application of PRP gel to the socket of the third molar in the test group, whereas the control group had no PRP. The outcome variables were pain, swelling, and maximum mouth opening, which were measured using a 10-point visual analog scale, tape, and millimeter caliper, respectively. Socket healing was assessed radiographically by allocating scores for lamina dura, overall density, and trabecular pattern. Quantitative data were presented as mean. Mann-Whitney test was used to compare means between groups for continuous variables, whereas Fischer exact test was used for categorical variables. Statistical significance was inferred at P<.05. Sixty patients aged 19 to 35 years (mean: 24.7 ± 3.6 years) were divided into both test and control groups of 30 patients each. The mean postoperative pain score (visual analog scale) was lower for the PRP group at all time points and this was statistically significant (P<.05). Although the figures for swelling and interincisal mouth opening were lower in the test group, this difference was not statistically significant. Similarly, the scores for lamina dura, trabecular pattern, and bone density were better among patients in the PRP group. This difference was also not statistically significant.
+
+CLASSIFICATION: 

@@ -1,0 +1,47 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+polarizing a woman I've known for a while - difficulty: lockdownHello everyone,
+
+>TL;DR A girl I've known for a while, with some common friends. How to contact her and chat a bit, making your intentions of going out after the lockdown clear but without sounding like a sex predator or something?
+
+I think this is something others are experiencing in this period too
+
+So, there is this girl I kinda like, but we have a basic "hello, how you doin'" relationship since a while and haven't seen each other in months
+
+Now, I'm thinking hell why not contact her, write a bit and polarize the thing, so when the lockdown is over we can go grab a coffee and you know.
+
+I can see 2 problems:
+
+\* I don't want to come off as creepy, contacting her now after months and we never talked much anyway. I really want a genuine connection
+
+BUT
+
+\* I don't want to come off as an uninterested friend neither. I mean, while I genuinely enjoy human contact and knowing people, regardless of everything, it should be clear that I am also looking for a more intimate thing, polarize it, that is.
+
+I would just invite her for a coffee... if things were normal. But now?
+
+Basic question you may ask me: why now after months?
+
+Well, I'm a bit insecure and now I'm working on that part of myself, and also yes, I'm bored. And she is cute, and smart.
+
+&#x200B;
+
+I also considered that now it's not the time in general, and I should just postpone everything to when it's going to be easy to go for a drink. But I would love your take on that
+
+Hope I managed to explain myself... texting is not my forte, obviously!
+
+CLASSIFICATION:
+

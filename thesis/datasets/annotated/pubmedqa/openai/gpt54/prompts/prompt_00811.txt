@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does prostate morphology affect outcomes after holmium laser enucleation? To determine whether prostate morphology or technique used has any effect on postoperative outcomes after holmium laser enucleation of the prostate. A retrospective review of prospectively collected data was completed for all patients undergoing a holmium laser enucleation of the prostate at our institution. Prostate morphology was classified as either "bilobar" or "trilobar" according to the cystoscopic appearance. The baseline characteristics, complications, and postoperative outcomes were collected. A total of 304 patients with either "bilobar" (n = 142) or "trilobar" (n = 162) prostate morphology were included. The trilobar group was more likely to have longer operative times (112 vs 100 minutes, P = .04), although this difference was not significant on multivariate analysis. The postoperative outcomes were similar between the 2 groups for American Urological Association symptom score, change in American Urological Association symptom score, bother score, maximal flow rate, change in maximal flow rate, postvoid residual urine volume, and complication rate. However, the trilobar group had a significantly greater decrease in their PVR urine volume (296 vs 176 mL, P = .01), a difference that persisted on multivariate analysis. A subset analysis of the trilobar prostates revealed that performing a 2-lobe technique achieved shorter operative and enucleation times, although the difference was not significant.
+
+CLASSIFICATION: 

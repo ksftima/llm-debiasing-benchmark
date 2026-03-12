@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does frozen section alter surgical management of multinodular thyroid disease? Frozen section (FS) evaluation during thyroid surgery is often used to guide intraoperative management. We sought to determine the utility of FS in patients undergoing thyroidectomy for multinodular thyroid disease. From May 1994 through November 2004, 236 patients with multinodular goiter underwent thyroidectomy at our institution. Patient data were retrospectively analyzed to see if a frozen section was performed during the procedure and whether it changed the patient's outcome. Of the 236 patients, 135 (57%) had intra-operative FS. There were no differences between patients who had FS analysis and those who did not with regard to age, gender, and the incidence of malignancy. Of the patients who had FS, 4/135 (3%) were subsequently diagnosed with thyroid cancer on permanent histology. Three of these FS were misread as benign. Therefore, the sensitivity of FS for the diagnosis of thyroid cancer was only 25%. Importantly, in none of the 135 patients did FS alter the intraoperative management.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition, Diversinet hereby grants to Reseller the right to use those Diversinet trademarks and copyrighted materials with respect to the Products solely for the purpose of marketing and distribution of the Products as authorized hereunder.
+
+CLASSIFICATION:
+ 

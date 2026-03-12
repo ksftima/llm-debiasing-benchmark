@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Its a good thing or bad thing depending on what you're looking for tbh, ie. Plating or LTR
+
+>shes afraid shell never meet someone else as good as me.
+
+This you gotta be careful about, don't take her words too literally, as women can say one thing, and say something totally different the next day.
+
+CLASSIFICATION:
+

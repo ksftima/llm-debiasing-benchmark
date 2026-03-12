@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The term of this Agreement shall be five years commencing on the Effective Date and ending at the close of business on the fifth anniversary of the Effective Date.
+
+CLASSIFICATION:
+ 

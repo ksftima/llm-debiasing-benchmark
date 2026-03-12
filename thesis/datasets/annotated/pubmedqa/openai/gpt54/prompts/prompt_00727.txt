@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is gastric cancer different in Korea and the United States? To compare the characteristics and prognoses of gastric cancers by tumor location in Korean and U.S. subjects after curative-intent (R0) resection for gastric cancer (GC). Data were collected for all patients who had undergone R0 resection at one U.S. institution (n = 567) and one South Korean institution (n = 1,620). Patients with gastroesophageal junction tumors or neoadjuvant therapy were excluded. Patient, surgical, and pathologic variables were compared by tumor location. Factors associated with disease-specific survival (DSS) were determined via multivariate analysis. In the Korean cohort, significantly more upper third GC (UTG) patients had undifferentiated, diffuse type, and advanced stage cancers compared to lower third GC (LTG) and middle third GC (MTG) patients. In the U.S. cohort, however, T stage was relatively evenly distributed among UTG, MTG, and LTG patients. The independent predictors of DSS in the Korean cohort were T stage, tumor size, retrieved and positive lymph node counts, and age, but in the U.S. cohort, the only independent predictors were T stage and positive lymph node count. Tumor size significantly affected DSS of Korean UTG patients but not U.S. UTG patients.
+
+CLASSIFICATION: 

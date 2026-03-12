@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does music influence stress in mechanically ventilated patients? Mechanically ventilated patients experience profound stress. Interventions are needed to ameliorate stress that does not cause adverse effects. The purpose of this study was to explore the influence of music on stress in a sample of patients over the duration of ventilatory support.RESEARCH METHODOLOGY/ Randomised controlled trial; randomised patients (56.8+16.9 years, 61% male, APACHE III 57.2+18.3) receiving ventilatory support to: (1) patient-directed music (PDM) where patients self-initiated music listening whenever desired from a preferred collection, (2) headphones only to block ICU noise, or (3) usual ICU care. Twenty-four hour urinary cortisol samples were collected from a sub-set of subjects with intact renal function and not receiving medications known to influence cortisol levels (n=65). 12 ICUs in the Midwestern United States. Urinary free cortisol (UFC), an integrative biomarker of stress. Controlling for illness severity, gender, and baseline UFC (29-45 mg/day), mixed models analysis revealed no significant differences among groups in UFC over the course of ventilatory support.
+
+CLASSIFICATION: 

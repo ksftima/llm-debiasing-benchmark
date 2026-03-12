@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as set forth herein, the parties shall not have any right or ability to assign, transfer, or sublicense any obligations or benefit under this Agreement without the prior written consent of the other party, which shall not be unreasonably withheld, except that, upon written notice to the other party, a party (i) may assign and transfer this Agreement and its rights and obligations hereunder to any third party who succeeds to substantially all its business, stock, or assets related to this Agreement, including, without limitation, to a Competitor (as defined below) (an "Acquisition"); and (ii) may assign or transfer any rights to receive payments hereunder.
+
+CLASSIFICATION:
+ 

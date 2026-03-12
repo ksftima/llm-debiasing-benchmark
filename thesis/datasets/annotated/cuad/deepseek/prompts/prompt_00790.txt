@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Franchisee assigns to Pretzel Time or its designee all of Franchisee's right, title and interest in and to any and all such Promotional Allowances and authorizes Pretzel Time or its designee to collect any such Promotional Allowances for remission to the general operating funds of Pretzel Time.
+
+CLASSIFICATION:
+ 

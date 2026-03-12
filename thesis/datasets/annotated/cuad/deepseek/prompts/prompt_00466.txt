@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term and subject to the terms, conditions, and limitations set forth in this Agreement, Client grants EFS a limited, non-exclusive, non-transferable, non-assignable (without any right to sublicense), world-wide license to use the Client trademarks and/or service marks as set forth on Part A of Exhibit 1 (the "Playboy Marks") solely in connection with the design, publication, distribution, operation and promotion of the Playboy Commerce Business.
+
+CLASSIFICATION:
+ 

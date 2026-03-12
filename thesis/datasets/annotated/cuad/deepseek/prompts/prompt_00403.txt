@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement, including without limitation Section 2.2, Theravance grants to GSK an exclusive license in the Field under the Theravance Patents, Theravance Know-How and Theravance's rights in the Joint Inventions to make and have made API Compound or formulated Collaboration Product in the Territory.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that Developer fails or refuses to obtain or maintain the required insurance coverage from an insurance carrier acceptable to El Pollo Loco, Franchisor may, as its sole and absolute right and without any obligations to do so, procure such coverage for Developer.
+
+CLASSIFICATION:
+ 

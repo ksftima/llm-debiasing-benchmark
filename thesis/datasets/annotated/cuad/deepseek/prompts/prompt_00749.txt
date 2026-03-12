@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon any termination or expiration of this Agreement: (a) All sums due to either party from the other shall be promptly paid; (b) Distributor orders received and accepted by STAAR prior to the effective date of the termination of this Agreement shall be fulfilled in accordance with their terms; (c) All property belonging to one party but in the custody of the other shall be returned; (d) STAAR shall have the option to repurchase any or all current and resalable Products in Distributor's inventory at eighty percent (80%) of Distributor's original net purchase price (reflecting a twenty percent (20%) restocking and administrative fee); (e) Distributor shall cease all display, advertising and use of STAAR trade names, trademarks (including the Trademarks), logos and designations, except uses on the Products which remain in Distributor's possession, and shall transfer all registrations and sponsorships for the Products to STAAR or its designee;
+
+CLASSIFICATION:
+ 

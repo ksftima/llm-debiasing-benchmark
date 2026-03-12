@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party shall maintain, through self-insurance or commercially-placed insurance, adequate commercial general liability and products liability insurance, including contractual liability coverage, necessary to satisfy its obligations hereunder and consistent with pharmaceutical and<omitted>diagnostic industry practices.
+
+CLASSIFICATION:
+ 

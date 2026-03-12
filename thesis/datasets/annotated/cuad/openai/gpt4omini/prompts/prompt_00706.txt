@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to compliance by Pfizer with the terms of this Section 3.2(d), during the Term, Exact agrees (A) not to enter into any new binding arrangement with any media vendor for Advertising of the Product without the written consent of Pfizer, which consent shall not be unreasonably withheld, (B) not to meet with any advertising agency or media vendor to discuss any Advertising proposals for content development and creative direction of the Product, without providing Pfizer with a reasonable opportunity for a representative of Pfizer present and participate and (C) to promptly inform Pfizer if it enters into any arrangement with any advertising agency with respect to the Product.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,67 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+There are a few ways to look at this, but there is not a lack of relevant research on this topic.
+
+___
+
+Women actively look for men who make more money.  Married men make more money not because the wife is cooking and cleaning which somehow helps them earn more, but because their wives saw that they were on promising career trajectories before marrying them:
+
+######Ludwig, V., & Brderl, J. (2018). Is there a male marital wage premium? New evidence from the United States. *American Sociological Review*, 83(4), 744-770. https://journals.sagepub.com/doi/abs/10.1177/0003122418784909?journalCode=asra&
+
+___
+
+A lack of high earning men will cause women to focus on their careers instead of finding a husband.  I believe this study was discussed here in the past:
+
+######Durante, K. M., Griskevicius, V., Simpson, J. A., Cant, S. M., & Tybur, J. M. (2012). Sex ratio and women's career choice: Does a scarcity of men lead women to choose briefcase over baby?. *Journal of personality and social psychology*, 103(1), 121. https://www.ncbi.nlm.nih.gov/pubmed/22468947
+
+___
+
+A man's wealth is directly correlated with how women rate him.  A similar effect the other way around is small to non existent.  Men select for looks and personality.  Women select, quite literally, for looks and money:
+
+######Wang, G., Cao, M., Sauciuvenaite, J., Bissland, R., Hacker, M., Hambly, C., ... & Speakman, J. R. (2018). Different impacts of resources on opposite sex ratings of physical attractiveness by males and females. *Evolution and Human Behavior*, 39(2), 220-225. https://www.sciencedirect.com/science/article/abs/pii/S109051381730315X
+
+___
+
+A loss of income is the single largest predictive factor for a wife wanting to divorce her husband.  The same is not true the other way around.  And interestingly, a wife's inability or refusal to "cook and clean" does not effect a husband's willingness to divorce her, either.  I'm not sure if this study goes into this, but my guess is personality issues, things like nagging and harassment, might be the biggest factor for husbands:
+
+######Killewalda, A. (2016). Money, Work, and Marital Stability: Assessing Change in the Gendered Determinants of Divorce. *American Sociological Review*, 81(4), 696-719. https://scholar.harvard.edu/files/akillewald/files/money_work_and_marital_stability.pdf
+
+___
+
+A few other sources that might be interesting...
+
+Public views on men having to provide for their family:
+
+######https://www.pewsocialtrends.org/2014/09/24/chapter-1-public-views-on-marriage
+
+Social stigmas in the dating market for unemployed and underemployed men:
+
+######https://www.prnewswire.com/news-releases/social-stigma-for-unemployed-men-75-of-women-are-unlikely-to-date-them-160378575.html
+
+In the Netherlands, an alimony reform bill caused the female initiated divorce rate to spike before it went into effect:
+
+######https://www.ad.nl/binnenland/nog-snel-even-scheiden-voor-het-einde-van-het-jaar-het-gaat-om-grote-bedragen~a9044021
+
+Multiple studies show that most women aspire to have easy careers, work part time, or otherwise be a stay at home mom supported by a husband.  I've seen estimates from ~65% and up.  This one is 84%:
+
+######https://www.forbes.com/sites/meghancasserly/2012/09/12/is-opting-out-the-new-american-dream-for-working-women/
+
+There is a study showing that most men (around 65%) would prefer to be stay at home dads / husbands, so there isn't much of a gender difference here.  Most people regardless of gender prefer to stay home over working a job.  Many would even call it a *privilege*.
+
+Women just have significantly more power and control in the dating and marriage market, so they tend to get their way more often.  In fact there's a plethora of research showing that wives and girlfriends command significantly more power in relationships than men do.  I'll leave those out for the sake of brevity (and for veering outside the scope of the OP) but I can post them if requested.
+
+CLASSIFICATION:
+

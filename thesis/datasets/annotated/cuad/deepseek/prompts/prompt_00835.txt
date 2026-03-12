@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+AbbVie may terminate this Agreement in its entirety, or on a country or other jurisdiction -by-country or other jurisdiction basis, for any or no reason, upon ninety (90) days' prior written notice to Harpoon.
+
+CLASSIFICATION:
+ 

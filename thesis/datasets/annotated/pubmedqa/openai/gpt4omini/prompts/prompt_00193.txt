@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Metered-dose inhalers. Do health care providers know what to teach? The specific aim of this investigation was to evaluate the proficiency of health care providers and patients in the proper use of metered-dose inhalers. Health care providers, which include house staff, nurses, and respiratory care practitioners who provide care to patients with asthma in the primary general medicine clinic or the pulmonary medicine clinic of a university-county hospital in which patients were referred, were surveyed and assigned a performance score regarding the knowledge base of the appropriate use of metered-dose inhalers. Patients who attended the primary care general medicine and pulmonary subspecialty clinic were also assessed as to their proficiency in the use of metered-dose inhalers. A significant percentage of patients had a poor understanding of the technique used with the metered-dose inhaler. House staff and nursing staff were also less proficient in the proper use of the metered-dose inhaler. The respiratory care practitioners were the most knowledgeable of the health care providers.
+
+CLASSIFICATION: 

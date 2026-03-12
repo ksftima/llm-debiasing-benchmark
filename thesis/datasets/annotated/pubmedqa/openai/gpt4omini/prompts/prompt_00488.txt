@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Preservation of the PCL when performing cruciate-retaining TKA: Is the tibial tuberosity a reliable predictor of the PCL footprint location? Reconstruction of the joint line is crucial in total knee arthroplasty (TKA). A routine height of tibial cut to maintain the natural joint line may compromise the preservation of the PCL. Since the PCL footprint is not accessible prior to tibial osteotomy, it seems beneficial to identify a reliable extraarticular anatomic landmark for predicting the PCL footprint and being visible within standard TKA approach. The fibula head predicts reliably the location of PCL footprint; however, it is not accessible during TKA. The aim of this study now was to analyze whether the tibial tuberosity can serve as a reliable referencing landmark to estimate the PCL footprint height prior to tibial cut. The first consecutive case series included 216 CR TKA. Standing postoperative lateral view radiographs were utilized to measure the vertical distance between tibial tuberosity and tibial osteotomy plane. In the second case series, 223 knee MRIs were consecutively analyzed to measure the vertical distance between tibial tuberosity and PCL footprint. The probability of partial or total PCL removal was calculated for different vertical distances between tibial tuberosity and tibial cutting surface. The vertical distance between the tibial tuberosity and tibial cut averaged 24.7 ± 4 mm. The average vertical distance from tibial tuberosity to proximal and to distal PCL footprint was found to be 22 ± 4.4 and 16 ± 4.4 mm, respectively. Five knees were considered at 50% risk of an entire PCL removal after CR TKA.
+
+CLASSIFICATION: 

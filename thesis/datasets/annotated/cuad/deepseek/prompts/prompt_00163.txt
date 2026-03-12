@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To facilitate the promotion and performance of Tests, during the Term Life Technologies hereby grants Biocept a non-exclusive, royalty-free, non-transferable license to use the Life Technologies Trademarks solely for use in connection with the promotion and performance of the Tests in the Territory.
+
+CLASSIFICATION:
+ 

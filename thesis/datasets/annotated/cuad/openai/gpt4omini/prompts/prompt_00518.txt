@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+WLI hereby grants to Power2Ship the non-exclusive right and license to distribute certain WLI's products and services (the "Products" or "Units") and software programs ("Licensed Programs") to Power2Ship's customers (which are end users) located in North America.
+
+CLASSIFICATION:
+ 

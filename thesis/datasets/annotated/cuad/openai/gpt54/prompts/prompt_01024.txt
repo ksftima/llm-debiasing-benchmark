@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without limiting the foregoing; Sutro is responsible for auditing the facilities of the suppliers of Components, if any, periodically, and Sutro agrees to provide SutroVax, upon SutroVax's request with a current copy of the audit report of such facilities and to incorporate SutroVax's comments with respect to any corrective action plan related to the Product.
+
+CLASSIFICATION:
+ 

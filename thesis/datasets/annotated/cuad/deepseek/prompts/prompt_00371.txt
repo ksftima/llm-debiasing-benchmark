@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, CONTENT PROVIDER hereby grants and assigns by means of present assignment to COMPANY and COMPANY hereby assumes for the Term of this Agreement (as set forth in paragraph 8, below), CONTENT PROVIDER'S rights and obligations regarding the Content from Licensors as set forth in Exhibit A with respect to the right and license for the territory of the People Republic of China to use, reproduce, distribute, transmit and publicly display the Current Content and the Future Content by means of the internet in accordance with Exhibit A and this Agreement.
+
+CLASSIFICATION:
+ 

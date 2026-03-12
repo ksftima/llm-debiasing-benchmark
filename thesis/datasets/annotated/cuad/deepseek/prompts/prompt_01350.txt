@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+WPD shall, and shall cause its respective affiliates, to permit CNS and its respective designated representatives, at reasonable times and upon reasonable prior notice to such parties, to review the books and records of WPD and any of its affiliates and to discuss the affairs, finances and condition of such party and any of its affiliates with the officers of such entities and any of their affiliates in relation to their compliance with this section, as applicable.
+
+CLASSIFICATION:
+ 

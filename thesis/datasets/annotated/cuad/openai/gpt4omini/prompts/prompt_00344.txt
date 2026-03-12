@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Valeant shall have the non-exclusive right to use the Dova Trademarks and Copyrights solely on Product Materials in order to perform the Valeant Activities and solely in accordance with the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

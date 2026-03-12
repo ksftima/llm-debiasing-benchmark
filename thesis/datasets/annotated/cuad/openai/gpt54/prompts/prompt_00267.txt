@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SCIEN shall not use HEMISPHERX Intellectual Property nor sell nor permit the sale of any products that use the HEMISPHERX Intellectual Property outside the Territory or knowingly sell or have sold any products that use the HEMISPHERX Intellectual Property to any party in or outside the Territory for export or sale outside the Territory, without HEMISPHERX's prior written consent.
+
+CLASSIFICATION:
+ 

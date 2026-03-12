@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is inhaled prophylactic heparin useful for prevention and Management of Pneumonia in ventilated ICU patients? To determine whether prophylactic inhaled heparin is effective for the prevention and treatment of pneumonia patients receiving mechanical ventilation (MV) in the intensive care unit. A phase 2, double blind randomized controlled trial stratified for study center and patient type (non-operative, post-operative) was conducted in three university-affiliated intensive care units. Patients aged ≥18years and requiring invasive MV for more than 48hours were randomized to usual care, nebulization of unfractionated sodium heparin (5000 units in 2mL) or placebo nebulization with 0.9% sodium chloride (2mL) four times daily with the main outcome measures of the development of ventilator associated pneumonia (VAP), ventilator associated complication (VAC) and sequential organ failure assessment scores in patients with pneumonia on admission or who developed VAP. Australian and New Zealand Clinical Trials Registry ACTRN12612000038897. Two hundred and fourteen patients were enrolled (72 usual care, 71 inhaled sodium heparin, 71 inhaled sodium chloride). There were no differences between treatment groups in terms of the development of VAP, using either Klompas criteria (6-7%, P=1.00) or clinical diagnosis (24-26%, P=0.85). There was no difference in the clinical consistency (P=0.70), number (P=0.28) or the total volume of secretions per day (P=.54). The presence of blood in secretions was significantly less in the usual care group (P=0.005).
+
+CLASSIFICATION: 

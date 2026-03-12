@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree that all other data that you create or collect in connection with the System, and in connection with your operation of the Franchised Business (including customer lists and transaction data), is and will be owned exclusively by us during the term of, and after termination or expiration of, this Agreement.
+
+CLASSIFICATION:
+ 

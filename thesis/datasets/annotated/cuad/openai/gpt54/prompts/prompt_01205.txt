@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, any assignment of the rights or obligations under this Agreement by a Party (i) to an Affiliate shall require such Party to guarantee the performance of such Affiliate's financial and performance obligations hereunder or (ii) in connection with the sale or other transfer of all or substantially all of such Party's business or assets to which this Agreement relates shall require the ultimate Affiliate controlling the other party in such transaction to guarantee such Party's financial and performance obligations hereunder and such Party shall remain liable for such financial and performance obligations notwithstanding such sale or other transfer of all or substantially all of such Party's business or assets to which this Agreement relates.
+
+CLASSIFICATION:
+ 

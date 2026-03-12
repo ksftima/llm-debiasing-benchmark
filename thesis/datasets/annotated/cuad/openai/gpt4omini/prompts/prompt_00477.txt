@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+copy and dub the Titles, and authorize any person to do the foregoing Licensee shall also have the right to make (or have made on its behalf) translations of the Titles with prior written approval by Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]; iii. promote each Title in any manner or media, including, without limitation, the right to use and license others to use Licensor's name, the title of, trailers created for and excerpts from such Title (including but not limited to audio portions only), Materials and the name, voice and likeness of and any biographical material concerning all persons appearing in or connected with such Title for the purpose of advertising, promoting and/or publicizing such Title, Licensee and the program service on which the Title is exhibited subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant] ; iv. use the Titles for (i) audience and marketing testing, (ii) sponsor/advertiser screening, and (iii) reference and file purposes, subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]; and v. include Licensee's name, trademark and logo in the Titles to identify Licensee as the exhibitor of the Titles.
+
+CLASSIFICATION:
+ 

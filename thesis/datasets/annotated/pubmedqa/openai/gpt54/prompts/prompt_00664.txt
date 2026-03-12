@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do people who were passive smokers during childhood have increased risk of long-term work disability? Regular inhalation of tobacco smoke, whether it be voluntary or not, may have profound negative effects on the body. Also intervertebral discs may be affected. The objective of the present study was to test the hypothesis that nurses' aides who were exposed to environmental tobacco smoke (ETS) at home during childhood have an increased risk of long-term sick leave. The sample comprised 5563 Norwegian nurses' aides, not on sick leave when they completed a mailed questionnaire in 1999. Of these, 4744 (85.3%) completed a second questionnaire 15 months later. The outcome measure was the incidence proportion of long-term sick leave during the 12 months prior to the follow-up. Respondents who reported at baseline that they had been exposed to ETS at home during childhood had increased risk of sick leave exceeding 14 days attributed to neck pain (odds ratio (OR) = 1.34; 95% confidence interval (CI): 1.04-1.73), high back pain (OR=1.49; CI: 1.07-2.06), low back pain (OR=1.21; CI: 0.97-1.50), and any illness (OR=1.23; CI: 1.07-1.42), after adjustments for demographic and familial characteristics, former smoking, current smoking, physical leisure-time activities, work factors, prior neck injury, and affective symptoms. They also had increased risk of sick leave exceeding 8 weeks (OR=1.29; CI: 1.08-1.55).
+
+CLASSIFICATION: 

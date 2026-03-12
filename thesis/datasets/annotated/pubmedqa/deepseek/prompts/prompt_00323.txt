@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can the condition of the cell microenvironment of mediastinal lymph nodes help predict the risk of metastases in non-small cell lung cancer? The aim of this study was to analyze the properties of the immune cell microenvironment of regional lymph nodes (LNs) positive for lung cancer. Twenty-four patients operated on for stages T1 and T2 of the NSCLC, were enrolled in the study. Peripheral blood and LN tissue were obtained from different lymph node sites and levels. As a control, LN tissue was taken from patients diagnosed with emphysema or pneumothorax. The cells from randomly chosen LN were tested by multi-color flow cytometry. Separate portions of LN were snap-frozen and examined for the presence of cytokeratin positive cells (CK). Propensity for apoptosis, level of TCR zeta chain expression of T cells and the number and maturation status of dendritic cells were confronted with the presence of CK-positive cells. The presence of metastases correlated with the downregulation of TCR zeta, especially CD8(+) T cells. The most striking feature was the reduction in the number of myeloid CD11c(+) dendritic cells in the LN of patients with LN metastases. This could be a reflection of the immunodeficient state observed in lung cancer patients. Even in the absence of metastases in the regional LN, the same type of changes in the LN microenvironment were observed in those LN located nearer the primary tumor.
+
+CLASSIFICATION: 

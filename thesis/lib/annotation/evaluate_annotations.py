@@ -9,7 +9,7 @@ Prints per-dataset summary including:
   - Confusion matrix
   - Per-class precision, recall, F1
 
-Output is written both to the terminal and to thesis/annotations/evaluation_results.txt.
+Output is written both to the terminal and to thesis/datasets/annotated/evaluation_results.txt.
 
 Usage:
     python evaluate_annotations.py
@@ -25,32 +25,32 @@ from sklearn.metrics import (
     classification_report,
 )
 
-OUTPUT_FILE = Path("thesis/annotations/evaluation_results.txt")
+OUTPUT_FILE = Path("thesis/datasets/annotated/evaluation_results.txt")
 
 DATASETS = {
-    "fomc (deepseek)":                Path("thesis/annotations/fomc/fomc_deepseek_annotated.csv"),
-    "fomc (gpt4omini)":               Path("thesis/annotations/fomc/fomc_gpt4omini_annotated.csv"),
-    "fomc (gpt54)":                   Path("thesis/annotations/fomc/fomc_gpt54_annotated.csv"),
-    "fomc (fewshot-gpt54)":           Path("thesis/annotations/fomc/fomc_fewshot_gpt54_annotated.csv"),
-    "pubmedqa (deepseek)":            Path("thesis/annotations/pubmedqa/pubmedqa_deepseek_annotated.csv"),
-    "pubmedqa (gpt4omini)":           Path("thesis/annotations/pubmedqa/pubmedqa_gpt4omini_annotated.csv"),
-    "pubmedqa (gpt54)":               Path("thesis/annotations/pubmedqa/pubmedqa_gpt54_annotated.csv"),
-    "pubmedqa (fewshot-gpt54)":       Path("thesis/annotations/pubmedqa/pubmedqa_fewshot_gpt54_annotated.csv"),
-    "cuad (deepseek)":                Path("thesis/annotations/cuad/cuad_deepseek_annotated.csv"),
-    "cuad (gpt4omini)":               Path("thesis/annotations/cuad/cuad_gpt4omini_annotated.csv"),
-    "cuad (gpt54)":                   Path("thesis/annotations/cuad/cuad_gpt54_annotated.csv"),
-    "cuad (fewshot-gpt54)":           Path("thesis/annotations/cuad/cuad_fewshot_gpt54_annotated.csv"),
-    "misogynistic (deepseek)":        Path("thesis/annotations/misogynistic/misogynistic_deepseek_annotated.csv"),
-    "misogynistic (gpt54)":           Path("thesis/annotations/misogynistic/misogynistic_gpt54_annotated.csv"),
-    "misogynistic (fewshot-gpt54)":   Path("thesis/annotations/misogynistic/misogynistic_fewshot_gpt54_annotated.csv"),
-    "misogynistic (mistral)":         Path("thesis/annotations/misogynistic/misogynistic_mistral_annotated.csv"),
-    "fomc (mistral)":                 Path("thesis/annotations/fomc/fomc_mistral_annotated.csv"),
-    "pubmedqa (mistral)":             Path("thesis/annotations/pubmedqa/pubmedqa_mistral_annotated.csv"),
-    "cuad (mistral)":                 Path("thesis/annotations/cuad/cuad_mistral_annotated.csv"),
-    "fomc (llama)":                   Path("thesis/annotations/fomc/fomc_llama_annotated.csv"),
-    "pubmedqa (llama)":               Path("thesis/annotations/pubmedqa/pubmedqa_llama_annotated.csv"),
-    "cuad (llama)":                   Path("thesis/annotations/cuad/cuad_llama_annotated.csv"),
-    "misogynistic (llama)":           Path("thesis/annotations/misogynistic/misogynistic_llama_annotated.csv"),
+    "fomc (deepseek)":                Path("thesis/datasets/annotated/fomc/fomc_deepseek_annotated.csv"),
+    "fomc (gpt4omini)":               Path("thesis/datasets/annotated/fomc/fomc_gpt4omini_annotated.csv"),
+    "fomc (gpt54)":                   Path("thesis/datasets/annotated/fomc/fomc_gpt54_annotated.csv"),
+    "fomc (fewshot-gpt54)":           Path("thesis/datasets/annotated/fomc/fomc_fewshot_gpt54_annotated.csv"),
+    "pubmedqa (deepseek)":            Path("thesis/datasets/annotated/pubmedqa/pubmedqa_deepseek_annotated.csv"),
+    "pubmedqa (gpt4omini)":           Path("thesis/datasets/annotated/pubmedqa/pubmedqa_gpt4omini_annotated.csv"),
+    "pubmedqa (gpt54)":               Path("thesis/datasets/annotated/pubmedqa/pubmedqa_gpt54_annotated.csv"),
+    "pubmedqa (fewshot-gpt54)":       Path("thesis/datasets/annotated/pubmedqa/pubmedqa_fewshot_gpt54_annotated.csv"),
+    "cuad (deepseek)":                Path("thesis/datasets/annotated/cuad/cuad_deepseek_annotated.csv"),
+    "cuad (gpt4omini)":               Path("thesis/datasets/annotated/cuad/cuad_gpt4omini_annotated.csv"),
+    "cuad (gpt54)":                   Path("thesis/datasets/annotated/cuad/cuad_gpt54_annotated.csv"),
+    "cuad (fewshot-gpt54)":           Path("thesis/datasets/annotated/cuad/cuad_fewshot_gpt54_annotated.csv"),
+    "misogynistic (deepseek)":        Path("thesis/datasets/annotated/misogynistic/misogynistic_deepseek_annotated.csv"),
+    "misogynistic (gpt54)":           Path("thesis/datasets/annotated/misogynistic/misogynistic_gpt54_annotated.csv"),
+    "misogynistic (fewshot-gpt54)":   Path("thesis/datasets/annotated/misogynistic/misogynistic_fewshot_gpt54_annotated.csv"),
+    "misogynistic (mistral)":         Path("thesis/datasets/annotated/misogynistic/misogynistic_mistral_annotated.csv"),
+    "fomc (mistral)":                 Path("thesis/datasets/annotated/fomc/fomc_mistral_annotated.csv"),
+    "pubmedqa (mistral)":             Path("thesis/datasets/annotated/pubmedqa/pubmedqa_mistral_annotated.csv"),
+    "cuad (mistral)":                 Path("thesis/datasets/annotated/cuad/cuad_mistral_annotated.csv"),
+    "fomc (llama)":                   Path("thesis/datasets/annotated/fomc/fomc_llama_annotated.csv"),
+    "pubmedqa (llama)":               Path("thesis/datasets/annotated/pubmedqa/pubmedqa_llama_annotated.csv"),
+    "cuad (llama)":                   Path("thesis/datasets/annotated/cuad/cuad_llama_annotated.csv"),
+    "misogynistic (llama)":           Path("thesis/datasets/annotated/misogynistic/misogynistic_llama_annotated.csv"),
 }
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)

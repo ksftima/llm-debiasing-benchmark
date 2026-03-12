@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Hijacking top comment to post her legal teams fundraising page. She may be out, but $256,000 in fines arent going away overnight. 
+
+And thats not even to mention the fact that the fascists have more than demonstrated they are willing to send her back to jail at a moments notice over nothing, or to bring up the financial help she could also doubtlessly use to address the unspeakable torture she has undergone over the past decades. 
+
+https://actionnetwork.org/fundraising/chelsea-manning-needs-legal-funds-to-resist-a-grand-jury-subpoena
+
+CLASSIFICATION:
+

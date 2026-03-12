@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Conformis agrees to assign and hereby assigns to Stryker all right, title and interest in and to all Improved Stryker Background IP in which ownership in same has vested in<omitted>Conformis by operation of law or by assignment by its employees or consultants; and to facilitate such assignment to Stryker, Conformis agrees (i) to regularly ensure that its employees and consultants timely make any appropriate assignments to it of that which constitutes Improved Stryker Background IP, and (ii) at Stryker's reasonable request, to execute and have its employees and consultants execute, as necessary, all assignments and any other documentation necessary to perfect title in Stryker of such Improved Stryker Background IP.
+
+CLASSIFICATION:
+ 

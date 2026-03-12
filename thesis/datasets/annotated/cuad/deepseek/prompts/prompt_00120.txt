@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Parties shall negotiate in good faith a royalty-bearing, perpetual, world-wide, non-exclusive license to any New Application Technology in which they acquire rights as set forth in Section 8.2.3 above. Royalties and other terms shall be commercially reasonable and negotiated by the Parties in good faith.
+
+CLASSIFICATION:
+ 

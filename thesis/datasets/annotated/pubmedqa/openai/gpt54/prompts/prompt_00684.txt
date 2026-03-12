@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do elderly cancer patients have different care needs compared with younger ones? The increasingly older population confronts oncologists with an imposing challenge: older cancer patients have specific healthcare needs both independent of and associated with the diagnosis of cancer. The aim of the present study is to examine whether elderly versus younger cancer patients have different needs with respect to attendance, treatment and information. This is an observational and cross-sectional study. Cancer patients aged 35 to 82 years were consecutively interviewed. The group was divided into two subgroups aged ≤65 and ≥66 years old. The Needs Evaluation Questionnaire (NEQ) was used to assess patients' needs and demographic variables were collected. Data analysis was carried out by means of cross-tabulation analyses and the chi-square test. The requests most frequently expressed by the older group concerned financial-insurance information (73.9%), the need to talk to people with the same illness (71.7%), the need to receive more comprehensible information from doctors and nurses (71.7%), and the need for a better dialogue with clinicians (69.6%). Few significant differences between the two age subgroups were found, with the exception of issues such as the need for intimacy and support.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is prophylactic fixation a cost-effective method to prevent a future contralateral fragility hip fracture? : A previous hip fracture more than doubles the risk of a contralateral hip fracture. Pharmacologic and environmental interventions to prevent hip fracture have documented poor compliance. The purpose of this study was to examine the cost-effectiveness of prophylactic fixation of the uninjured hip to prevent contralateral hip fracture. : A Markov state-transition model was used to evaluate the cost and quality-adjusted life-years (QALYs) for unilateral fixation of hip fracture alone (including internal fixation or arthroplasty) compared with unilateral fixation and contralateral prophylactic hip fixation performed at the time of hip fracture or unilateral fixation and bilateral hip pad protection. Prophylactic fixation involved placement of a cephalomedullary nail in the uninjured hip and was initially assumed to have a relative risk of a contralateral fracture of 1%. Health states included good health, surgery-related complications requiring a second operation (infection, osteonecrosis, nonunion, and malunion), fracture of the uninjured hip, and death. The primary outcome measure was the incremental cost-effectiveness ratio estimated as cost per QALY gained in 2006 US dollars with incremental cost-effectiveness ratios below $50,000 per QALY gained considered cost-effective. Sensitivity analyses evaluated the impact of patient age, annual mortality and complication rates, intervention effectiveness, utilities, and costs on the value of prophylactic fixation. : In the baseline analysis, in a 79-year-old woman, prophylactic fixation was not found to be cost-effective (incremental cost-effectiveness ratio = $142,795/QALY). However, prophylactic fixation was found to be a cost-effective method to prevent contralateral hip fracture in: 1) women 71 to 75 years old who had 30% greater relative risk for a contralateral fracture; and 2) women younger than age 70 years. Cost-effectiveness was greater when the additional costs of prophylaxis were less than $6000. However, for most analyses, the success of prophylactic fixation was highly sensitive to the effectiveness and the relative morbidity and mortality of the additional procedure.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Network hereby grants Affiliate during the Term a royalty-free, fully paid up, non-transferable, non-exclusive license to use the Marks (as defined in Section 8(e)) in any advertising and promotional materials undertaken in connection with Affiliate's transmission of the Service, provided that such use complies with the terms and conditions of Section 8(e).
+
+CLASSIFICATION:
+ 

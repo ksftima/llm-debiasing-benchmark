@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If a Release Condition (as defined in Section 12.2 of this Agreement) occurs and the Escrow Agent provides the Source Code to Corio under the escrow agreement, Corio agrees to hold the Source Code in confidence pursuant to the provisions contained in Section 10 of this Agreement, and not to use them for any purpose other than those purposes contemplated under Section 12.3 of this Agreement.
+
+CLASSIFICATION:
+ 

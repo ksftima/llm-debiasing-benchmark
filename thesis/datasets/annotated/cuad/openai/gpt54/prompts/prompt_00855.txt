@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Excite@Home will purchase in bulk a minimum of $3.75 million in e-centive packages from e-centives at the rate of $***** per e-centive delivered for the purpose of resale to Excite@Home's advertisers and partners. Within 5 days of Launch Date Excite@Home will pay e-centives a non-refundable minimum of $***** and will continue to pay a minimum of $***** each quarter, payable at the beginning of the quarter, during the Term of this Agreement for such packages.
+
+CLASSIFICATION:
+ 

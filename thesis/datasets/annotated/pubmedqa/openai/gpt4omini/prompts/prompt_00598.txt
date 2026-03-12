@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is fear of anaphylactic shock discouraging surgeons from more widely adopting percutaneous and laparoscopic techniques in the treatment of liver hydatid cyst? Sources of reports about laparoscopic and percutaneous treatment of liver hydatid cysts are limited to just a few countries. To address the reason behind this, we carried out a survey of 30 surgeons in northern Jordan. A questionnaire was distributed to collect data regarding the surgical technique preferred by each surgeon. Further information was collected from those not adopting minimal-access techniques to determine their reasons for not doing so. Only 3 surgeons (10%) considered laparoscopy as the first line of treatment. Of the 27 surgeons who did not consider percutaneous or laparoscopic treatment, fear of anaphylaxis and/or dissemination was the main reason given by 21 surgeons (78%) for not using minimal access techniques.
+
+CLASSIFICATION: 

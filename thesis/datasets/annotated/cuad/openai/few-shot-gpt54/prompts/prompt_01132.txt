@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+With respect to AT&T requests for audits or inspections of Vendor's Subcontractors, the following applies: (i) If Vendor's agreement with its applicable Subcontractor permits an AT&T Audit, AT&T shall be permitted to conduct such audit directly or through a third party representative. Vendor shall work with AT&T in facilitating the Subcontractor's cooperation for an expeditious and thorough audit or inspection. (ii) If Vendor's contract with its applicable Subcontractor precludes AT&T from directly conducting an audit or inspection, Vendor shall use reasonable best efforts to enable AT&T to perform an audit of the Subcontractor with Vendor coordinating the audit process. Failing those efforts, Vendor shall, upon AT&T's request and at AT&T's expense, conduct the audit or inspection on behalf of AT&T, subject to terms agreed to by Vendor and AT&T for the Subcontractor audit, such as areas to be audited, applicable fees, and the timeframe for reporting audit results to AT&T. If AT&T's request for a Vendor audit or inspection arises from, in AT&T's good faith opinion, materially or consistently deficient Service provided by the Subcontractor under AT&T's account, and the audit in both Parties' opinions confirms such deficiencies, Vendor shall not charge AT&T a fee for the Vendor's audit of its Subcontractor. (iii) If Vendor's contract with its applicable Subcontractor does not allow Vendor access to the facilities and systems of Subcontractor required to conduct the audit described in Subsection (b) above, then Vendor shall provide a list of such Subcontractors and the services being provided by such Subcontractor to AT&T for its review. To the extent AT&T deems it reasonably necessary to require such access, then Vendor will renegotiate its contract with the applicable Subcontractor in order to obtain the audit rights described in Subsection (b) above.
+
+CLASSIFICATION:
+

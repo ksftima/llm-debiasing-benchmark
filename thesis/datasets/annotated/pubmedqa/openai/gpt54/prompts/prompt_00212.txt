@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The Deformity Angular Ratio: Does It Correlate With High-Risk Cases for Potential Spinal Cord Monitoring Alerts in Pediatric 3-Column Thoracic Spinal Deformity Corrective Surgery? A retrospective analysis. The purpose of this study was to determine whether the deformity angular ratio (DAR) can reliably assess the neurological risks of patients undergoing deformity correction. Identifying high-risk patients and procedures can help ensure that appropriate measures are taken to minimize neurological complications during spinal deformity corrections. Subjectively, surgeons look at radiographs and evaluate the riskiness of the procedure. However, 2 curves of similar magnitude and location can have significantly different risks of neurological deficit during surgery. Whether the curve spans many levels or just a few can significantly influence surgical strategies. Lenke et al have proposed the DAR, which is a measure of curve magnitude per level of deformity. The data from 35 pediatric spinal deformity correction procedures with thoracic 3-column osteotomies were reviewed. Measurements from preoperative radiographs were used to calculate the DAR. Binary logistic regression was used to model the relationship between DARs (independent variables) and presence or absence of an intraoperative alert (dependent variable). In patients undergoing 3-column osteotomies, sagittal curve magnitude and total curve magnitude were associated with increased incidence of transcranial motor evoked potential changes. Total DAR greater than 45° per level and sagittal DAR greater than 22° per level were associated with a 75% incidence of a motor evoked potential alert, with the incidence increasing to 90% with sagittal DAR of 28° per level.
+
+CLASSIFICATION: 

@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Scared about not having enough/Getting more suppliesHi y'all. I live alone in an apartment. I started prepping in late Feburary when I panic-bought beans, toilet paper, and paper towels online. In retrospect, I should've been less embarrassed about prepping, and I should've bought more, but that's my fear right now.
+
+From my late-Feburary panic-buying, I have enough food + supplies to last 1.5-3 months. But I'm worried it's not going to be enough.
+
+How are y'all coping with the fear of not having enough food? Are you guys planning on restocking? If so, how?
+
+Thanks! And stay safe and healthy out there!
+
+CLASSIFICATION:
+

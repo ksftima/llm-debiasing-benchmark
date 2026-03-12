@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Smith hereby grants to TDA the following rights (the "Rights"): (a) the right to use and reuse Smith's name, voice, likeness, facsimile signature, personal statistics, biographical information and any reproduction or simulation thereof ("Smith's Likeness") in TDA's Golf Instruction Related Products and on packaging for TDA's Golf Instruction Related Products in any fashion, said grant of rights being limited to the world (the "Contract Territory")"; (b) the right to use and reuse Smith's Likeness in TDA's general internal, non-public corporate promotional materials (such as TDA's Annual Report), corporate advertising and in other forms of publicity; (c) the right to use and reuse Smith's Likeness in and in connection with the marketing, advertising, promoting and publicizing of TDA's Golf Instruction Related Products, by any and all means now known or hereafter developed; (d) the exclusive right to use and reuse the results and proceeds of the in connection with TDA's Golf Instruction Related Products; and (e) with Smith's prior reasonable approval, the right to license to third parties any of the foregoing rights but only in connection with or directly related to the marketing and sale of TDA's Golf Instruction Related Products.
+
+CLASSIFICATION:
+ 

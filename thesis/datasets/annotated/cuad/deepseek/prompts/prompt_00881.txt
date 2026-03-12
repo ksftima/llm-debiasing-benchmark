@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+if IGER would enter into any agreement (or amendment of an existing agreement including without limitation EXISTING AGREEMENTS) after the Effective Date with a not-for-profit third party with respect to research in the field of environmental impact, carbon sequestration, climate change mitigation, agronomy, or compositional or conversion analysis relating to COLLABORATION CROPS, such agreement must provide that (i) IGER will receive the exclusive right (subject to Articles 5.1.2(a) and 5.2) to use and exploit commercially the results obtained pursuant to such agreement for GERMPLASM IMPROVEMENT of COLLABORATION CROPS and (ii) CERES will have access to the results of such research programs to the extent allowed by the relevant agreement between IGER and the third party and IGER will use reasonable efforts to obtain such right for CERES.
+
+CLASSIFICATION:
+ 

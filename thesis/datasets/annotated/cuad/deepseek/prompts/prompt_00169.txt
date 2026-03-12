@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent that either party has licensed or will license Intellectual Property Rights from Third Parties related to specific biomarkers, targets, kits, dyes or technology utilized in the Assay other than for the capture and detection of CTCs, it will, to the extent it is able, grant, during the Term of the Agreement, a non-exclusive license to the other party, or ensure that the<omitted>other party is covered under its license, to practice these Intellectual Property Rights for the Assay.
+
+CLASSIFICATION:
+ 

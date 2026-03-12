@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do the changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 reflect the inflammatory activity in the patients with post-ERCP pancreatitis? Acute pancreatitis is the major complication of endoscopic retrograde cholangiopancreatography (ERCP) procedure and there are some reports showing cytokine changes in ERCP-induced pancreatits.GOALS: To investigate the association between early changes (within 24 hours) in the serum interleukin (IL)-2, IL-4, tumor necrosis factor (TNF)alpha, and IL-6 levels and the development of post-ERCP pancreatitis.STUDY: Forty five consecutive patients who underwent therapeutic ERCP and 10 patients with acute pancreatitis without ERCP were enrolled to the study. Serum concentrations of IL-2, IL-4, TNFalpha, and IL-6 were determined immediately before, 12 hours and 24 hours after ERCP. Seven of the 45 patients (15.5%) developed post-ERCP pancreatitis. The levels of IL-4 at 24 hours after ERCP were significantly lower in the patients with post-ERCP pancreatitis than in those without pancreatitis, while TNFalpha levels at 12 hours after ERCP were higher in the complicated group than those of the uncomplicated group. The ratios of TNFalpha/IL-4 at 12 and 24 hours after ERCP were found significantly higher in the patients with post-ERCP pancreatitis than in those without pancreatitis. IL-6 in the complicated patients was found significantly increased at 24 hours after ERCP.
+
+CLASSIFICATION: 

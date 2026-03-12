@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Upon the License Option Exercise Closing Date, Harpoon (on behalf of itself and its Affiliates) hereby grants to AbbVie: (a) an exclusive (including with regard to Harpoon and its Affiliates, except as provided in Section 5.6) license (or sublicense), with the right to grant sublicenses in accordance with Section 5.3, under the Harpoon Patents, the Harpoon Know-How, and Harpoon's interests in the Joint Patents and the Joint Know-How, to Exploit the Licensed Compounds and Licensed Products in the Field in the Territory; (b) an exclusive (including with regard to Harpoon and its Affiliates, except as provided in Section 5.6) license and right of reference, with the right to grant sublicenses and further rights of reference in accordance with Section 5.3, under the Regulatory Approvals and any other Regulatory Documentation that Harpoon or its Affiliates may Control with respect to the Licensed Compounds or Licensed Products solely for purposes of Exploiting the Licensed Compounds and Licensed Products in the Field in the Territory.
+
+CLASSIFICATION:
+

@@ -1,0 +1,26 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I completely agree that separation and unavailability can build attraction and interest, but I dont think it needs to be done via the method the original commenter mentioned. The method of purposefully making someone sad doesnt benefit the person thats being hurt, it only benefits the one doing the hurting and thats selfish
+
+
+It may not mean to hurt the person, but purposefully making someone else sad does hurt them and it taints their entire day
+
+You can still be a loving and supportive partner while being unavailable, you dont need to be cold or hurtful or closed off emotionally, and I dont agree that consistently showing someone you care about them is babying them, I think its the foundation to a secure and healthy relationship. 
+
+Would you want to be with someone that is overly affectionate and loving one day and the next it seems like they dont give a toss about you? It may make you want to be closer to your partner, but is that healthy?
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any display of Association Mark must be accompanied by one of the following relationship statements: a. "Freeze Tag is a national sponsor of Get Fit Don't Sit DayTM, a wellness engagement day of American Diabetes Association®" b. "Freeze Tag is a national sponsor of American Diabetes Association®"
+
+CLASSIFICATION:
+ 

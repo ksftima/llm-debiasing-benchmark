@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Company acknowledges that this Agreement does not grant Company any rights with respect to any other NFLA Marks (defined below), the name, likeness, signature, or other attributes of any NFLA member or other individual, or any audio or video of any NFLA event.
+
+CLASSIFICATION:
+ 

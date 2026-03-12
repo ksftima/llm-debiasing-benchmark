@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is human cytomegalovirus infection associated with hypertension? Recent studies have implicated the human cytomegalovirus (HCMV) as a possible pathogen for causing hypertension. We aimed to study the association between HCMV infection and hypertension in the United States National Health and Nutrition Examination Survey (NHANES). We analyzed data on 2979 men and 3324 women in the NHANES 1999-2002. We included participants aged 16-49 years who had valid data on HCMV infection and hypertension. Of the participants, 54.7% had serologic evidence of HCMV infection and 17.5% had hypertension. There were ethnic differences in the prevalence of HCMV infection (P<0.001) and hypertension (P<0.001). The prevalence of both increased with age (P<0.001). Before adjustment, HCMV seropositivity was significantly associated with hypertension in women (OR=1.63, 95% CI=1.25-2.13, P=0.001) but not in men. After adjustment for race/ethnicity, the association between HCMV seropositivity and hypertension in women remained significant (OR=1.55, 95% CI=1.20-2.02, P=0.002). Further adjustment for body mass index, diabetes status and hypercholesterolemia attenuated the association (OR=1.44, 95% CI=1.10-1.90, P=0.010). However, after adjusting for age, the association was no longer significant (OR=1.24, 95% CI=0.91-1.67, P=0.162).
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cardiovascular risk in a rural adult West African population: is resting heart rate also relevant? Elevated resting heart rate (RHR) is a neglected marker in cardiovascular risk factor studies of sub-Saharan African populations. This study aimed to determine the prevalence of elevated RHR and other risk factors for cardiovascular disease (CVD) and to investigate any associations between RHR and these risk factors in a rural population in Ghana. Cross-sectional analysis. A total of 574 adults aged between 18-65 years were randomly sampled from a population register. Data collected included those on sociodemographic variables and anthropometric, blood pressure (BP), and RHR measurements. Within-person variability in RHR was calculated using data from repeat measurements taken 2 weeks apart. Of study participants, 36% were male. Prevalence of casual high BP was 19%. In the population, 10% were current cigarette smokers and habitual alcohol use was high at 56%. As measured by body mass index, 2% were obese and 14% had abdominal obesity. RHR was elevated (>90 bpm) in 19%. Overall, 79% of study participants were found to have at least one CVD risk factor. RHR was significantly associated with age, waist circumference, and BP. Individuals with an elevated RHR had a higher risk (OR 1.94, 95% CI 1.15-3.26%, p = 0.013) of casual high BP compared with participants with normal RHR independently of several established CVD risk factors. The regression dilution ratio of RHR was 0.75 (95% CI 0.62-0.89).
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+A Termination Event shall have occurred if:<omitted>(c) Supplier either: (i) merges with another entity, (ii) suffers a transfer involving fifty (50%) percent or more of any class of its voting securities or (iii) transfers all, or substantially all, of its assets;
+
+CLASSIFICATION:
+ 

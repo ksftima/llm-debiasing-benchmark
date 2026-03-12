@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Aimmune hereby grants to Xencor an exclusive license under and with respect to Aimmune Patents, and a non-exclusive license under and with respect to Aimmune Know-How, in each case, where such license is an irrevocable, perpetual, royalty-bearing license, with the right to sublicense, to Develop, Manufacture and Commercialize the Product(s), as the Product(s) exist as of the effective date of such termination, or optimized versions thereof that are Products.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+In vivo visualization of pyloric mucosal hypertrophy in infants with hypertrophic pyloric stenosis: is there an etiologic role? Infantile hypertrophic pyloric stenosis (IHPS) is a common condition which presents in infants at 2-12 weeks of postnatal life, and whose cause remains obscure. Multiple associated abnormalities have been recognized within the external hypertrophied pyloric muscle layer, but the internal component of the pyloric mucosa has received scant attention in the literature to date. Our purpose in this study was to show that pyloric mucosal redundancy is a constant finding in infants with IHPS, to discuss its possible cause, and to explore the hypothesis of a relationship between pyloric mucosal redundancy and the development of IHPS. We identified 102 consecutive infants with surgically confirmed IHPS and determined the thickness of the pyloric mucosa compared with the thickness of the surrounding hypertrophied muscle. Fifty-one infants who did not have pyloric stenosis served as controls. Mean mucosal thickness in patients with IHPS approximated mean muscle thickness, with a ratio of 0.89. In infants with IHPS, the pyloric mucosa constitutes approximately one third of the cross-sectional diameter of the pyloric mass and fills and obstructs the pyloric canal.
+
+CLASSIFICATION: 

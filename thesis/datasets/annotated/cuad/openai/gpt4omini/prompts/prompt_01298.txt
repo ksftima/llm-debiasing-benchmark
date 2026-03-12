@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In connection with the execution of this Agreement, Consultant and Company shall enter into a Restricted Stock Agreement. Subject to approval of the Board of Directors of the Company, the Company shall issue and sell to the Consultant, and the Consultant shall purchase from the Company, subject to the terms and conditions set forth in this Agreement and the Restricted Stock Agreement, 1,990,000 shares (the "Shares") of common stock, $0.0001 par value, of the Company ("Common Stock"), at a purchase price of $0.0001 per share, for an aggregate purchase price of $190.
+
+CLASSIFICATION:
+ 

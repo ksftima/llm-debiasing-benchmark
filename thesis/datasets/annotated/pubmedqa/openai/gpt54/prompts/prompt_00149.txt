@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can normal knee kinematics be restored with unicompartmental knee replacement? Unicompartmental replacement can be an alternative to tibial osteotomy in younger, active patients with unicompartmental knee disease. In unicompartmental replacement, the other compartments and knee ligaments are largely untouched. Therefore, it was hypothesized that the knee kinematics after unicompartmental replacement may also be unchanged. To test this hypothesis, knee kinematics and quadriceps tension were recorded before and after replacement with a unicompartmental design and then with a tricompartmental design. Six human cadaver knees were tested before implantation, after implantation with a bicruciate-retaining unicompartmental knee prosthesis, and after implantation with a posterior cruciate-retaining tricompartmental knee prosthesis. The unicompartmental prosthesis was initially implanted, and it was then revised to a total condylar knee replacement. The knee kinematics were measured with use of an electromagnetic tracking device while the knee was put through dynamic simulated stair-climbing under peak flexion moments of approximately 40 N-m. Quadriceps tension was also measured for all three conditions. No significant differences in tibial axial rotation were noted between the intact and unicompartmental conditions. However, tricompartmental replacement significantly affected tibial axial rotation (p = 0.001). Femoral rollback was not significantly affected by either unicompartmental or tricompartmental arthroplasty. Quadriceps tension was also similar among all three conditions.
+
+CLASSIFICATION: 

@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I dated a very successful woman and it was enjoyable. I also have male friends that would/have reacted the same way as you have described.
+
+What worked for my relationship with the successful woman, is there was a sense of balance. Although she made more money than me. She'd "allow" (for lack of a better word) me to pay for things. I once had planned a trip for her birthday. I had bought tickets to a show and surprised her, but I hadn't purchased the plane tickets yet. We talked about it and decided she would pay for airfare and I would pay for the events, lodging, and majority of food. The trip was lovely.
+
+Throughout the relationship we had made a deal. Whoever has the idea, pays. For example if she wants to go to breakfast, she pays. If I mention us going to a movie, I pay. Things like that. 
+
+Although it isn't all about money. She also "let" me be dominant in the bedroom. It is important that men feel like we can be men. When a woman tries to stifle that or if we feel unable to provide. We end up lost.
+
+There are many ways other than financial to provide for someone. The men you dated may have been intimidated/insecure of your success. But did you allow them to be men in other situations?
+
+It's often small things. Letting us drive places, build things, take over in the bedroom, make decisions on what we do, etc. Even if you paid for majority of the things, we (men) need to feel some sense of control somewhere in the relationship. If you drive everywhere, if we always take your car, if you pay all the bills, buy all the food. It makes us feel unnecessary.
+
+CLASSIFICATION:
+

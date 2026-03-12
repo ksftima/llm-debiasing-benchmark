@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The Federal Reserve is taking action to keep inflation expectations anchored and bring inflation back to 2 percent over time.1 While last year's rapid pace of economic growth was boosted by accommodative fiscal and monetary policy as well as reopening, demand has moderated this year as those tailwinds have abated.
+
+CLASSIFICATION:

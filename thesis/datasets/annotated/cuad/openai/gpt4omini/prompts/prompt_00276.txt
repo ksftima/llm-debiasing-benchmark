@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, each Party hereby provides a worldwide, exclusive, royalty free, perpetual license of such Intellectual Property Rights for use by each licensee in its business in connection with the development and marketing and commercialization of the Product.
+
+CLASSIFICATION:
+ 

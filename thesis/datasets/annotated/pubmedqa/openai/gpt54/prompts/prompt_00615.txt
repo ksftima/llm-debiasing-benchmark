@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does ibuprofen increase perioperative blood loss during hip arthroplasty? To determine whether prior exposure of non-steroidal anti-inflammatory drugs increases perioperative blood loss associated with major orthopaedic surgery. Fifty patients scheduled for total hip replacement were allocated to two groups (double blind, randomized manner). All patients were pretreated for 2 weeks before surgery: Group 1 with placebo drug, Group 2 with ibuprofen. All patients were injected intrathecally with bupivacaine 20mg plus morphine 0.1 mg, in a total volume of 4 mL, to provide surgical anaesthesia. The presence of severe adverse effects caused eight patients in the ibuprofen group and six in the placebo group to terminate their participation in the trial. The perioperative blood loss increased by 45% in the ibuprofen group compared with placebo. The total (+/-SD) blood loss in the ibuprofen group was 1161 (+/-472) mL versus 796 (+/-337) mL in the placebo group.
+
+CLASSIFICATION: 

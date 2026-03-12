@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to XENCOR's confidentiality and non-use obligations hereunder and without affecting the ownership of Improvements as set forth in Section 8, BII hereby grants to XENCOR a non-exclusive, worldwide license to use and reproduce all such summaries and/or reports for all uses in connection with development activities relating to Product that do not involve manufacturing of Product (e.g., formulation work, toxicology studies or the development of a manufacturing process), regulatory activities relating to the Product and, to the extent necessary, any commercial activities relating to the Product, which XENCOR may sublicense in connection with any license of rights to the Product.
+
+CLASSIFICATION:
+ 

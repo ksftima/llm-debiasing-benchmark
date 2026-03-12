@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is intrapartum vibroacoustic stimulation an effective predictor of fetal acidosis? The hypothesis of this prospective study is that intrapartum vibroacoustic stimulation (VAS) is an effective predictor of fetal acidosis during labor. Various clinical conditions, such as term versus preterm gestation, first stage versus second stage of labor, and fetal heart rate (FHR) variable decelerations versus late decelerations will be tested. During the study period, 113 patients were studied prospectively in either active phase of first stage (n = 53) or during the second stage of labor (n = 60). They were selected from cases exhibiting moderate to severe FHR variable decelerations or late decelerations. The fetuses of study subjects received a VAS for three seconds and FHR changes were recorded. Fetal scalp blood pH or umbilical arterial blood pH was obtained within 15 minutes of VAS. The relationship between FHR responses to VAS and fetal blood pH in term and preterm gestations, the relationship of two tests (VAS and fetal blood pH) to type of FHR decelerations, and the predictability of neonatal morbidity by two tests were analyzed. Where appropriate, Fisher's exact test (p<0.05 was considered statistically different) and the odd ratio with 95% confidence intervals were used for statistical analyses. Excellent association between acceleration response to VAS and pH>or = 7.20, and between a negative response to VAS (no acceleration or decelerations) and pH<7.20 were found in the first stage of labor, the second stage of labor, and the combination of both stages together (p = 0.0001, OR = 10.6 [3.3-34.0]). It was observed that negative VAS responses for predicting fetal acidosis (pH<7.20) were comparable between term (>or = 37 weeks) and preterm (<37 weeks,>or = 34 weeks) fetuses. Since the preterm fetuses enrolled in the study were limited in number, it is difficult to draw adequate conclusions. The positive predictive value (PPV) of fetal acidosis was 67% in both groups of FHR variable decelerations and late decelerations, but the false negative rate of acceleration VAS response for predicting no acidosis was significantly higher in the group of late decelerations (29% vs 8%, p = 0.034). Finally, both a negative VAS response and fetal acidosis (pH<7.20) have equal predictability for neonatal morbidity. The PPV of NICU admission by a negative VAS response was two times higher than that of fetal acidosis (PPV = 61% vs 29%, p = 0.038).
+
+CLASSIFICATION: 

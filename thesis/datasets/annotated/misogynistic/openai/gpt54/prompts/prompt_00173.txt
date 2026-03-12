@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Good post. Touches on a point I don't think is made enough - men also have a dualistic mating strategy, and the times I've been most satisfied with my sex life were when I had both a madonna and whore in my roster. 
+
+Although would say its pretty damn near impossible to find them in the same woman these days. Finding girls who are LTR material these days is damn hard enough (<5% of girls I've fucked were anywhere even close), and with feminism now if a girl is a freak in the sheets she also gonna be a freak in the streets too lol
+
+CLASSIFICATION:
+

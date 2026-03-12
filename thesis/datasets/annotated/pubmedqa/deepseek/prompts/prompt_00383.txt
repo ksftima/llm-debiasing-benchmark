@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does delaying surgery in immature adolescent idiopathic scoliosis patients with progressive curve, lead to addition of fusion levels? To analyze the changes in the curve extent, pattern and the fusion level in adolescent idiopathic scoliosis (AIS) patients who undergo delayed surgery instead of early surgery. Thirty-five immature AIS patients whose radiographs demonstrated an initial primary curve of more than 40° with a subsequent increase of 10° before attaining skeletal maturity with brace were enrolled. The initial and the final radiographs taken before surgery were compared to assess the changes in curve extent, pattern and the fusion levels as recommended by King's, Lenke's and Suk's guidelines. The average age of 35 AIS patients was 12.7 ± 1.6 years. The time interval between initial and final radiography was 39.3 ± 20.2 months and the degree of progress of the primary curve was 13 ± 9.7°. Fusion levels changed in 33 (94.2%), 33 (94.2%) and 32 (91.4%) patients according to King's, Lenke's and Suk's guidelines, respectively. Curve pattern was changed in 2 (5.7%), 12 (34.3%) and 10 (28.6) patients by King's, Lenke's and Suk's guidelines. The mean number of levels requiring fusion increased from 9.4 ± 2.1 at initial visit to 11.1 ± 1.8 at the final follow-up using King's guidelines, 9.7 ± 2.2-11.6 ± 2.0 as per Lenke's guidelines and 9.1 ± 2.0-11.5 ± 2.3 when fusion was planned using Suk's guidelines (p<0.001 in all guidelines).
+
+CLASSIFICATION: 

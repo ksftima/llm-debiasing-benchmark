@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+After "Source Code Access Conditions" is met, LICENSEE shall have the right to use, modify, reproduce and have reproduced Object Code from Licensed Source Code to develop, use, market, distribute, and to maintain and support the Licensed Technology in the Licensee Product.
+
+CLASSIFICATION:
+ 

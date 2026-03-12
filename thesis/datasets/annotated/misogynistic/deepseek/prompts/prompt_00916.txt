@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+It's funny because they'd probably fund it.
+
+Even that dumb shit "Invisible Toxic Masculinity Rapist Man" movie has already grossed box office to cover its $9 million production cost.
+
+I guess they've learned that if you want o be profitable on man hating movies, you have to cut to the bone of expenses.
+
+Of course, I'm sure the movie is retarded, and since I'm told it's not a movie for me, I certainly won't pay to see it.  I doubt I'll steal it (I would download a car) as I don't give a shit about invisible people.
+
+CLASSIFICATION:
+

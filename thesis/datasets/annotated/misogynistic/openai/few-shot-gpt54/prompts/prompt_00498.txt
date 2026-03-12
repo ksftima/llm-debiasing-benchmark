@@ -1,0 +1,68 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Red Pill Rage makes you look petty.**Introduction**
+
+I recently had a young man send me a text saying how he is mad at the world, how women are a waste of time, F this F that. He lost his cool. As someone who is older than him and as someone he looks up to, I feel like I am personally responsible for not handling this. So I sat him down for a talk, to explain what he is going through. Red Pill Rage.
+
+**Body**
+
+This is a phase that many men go through after realizing how this world operates. We were once blue pilled simps who were shown the light (or found it/were driven to it). We are now in recovery mode to become who we were biologically born to be. This is a life long process, its slow, but if you are consistent, it will be steady up and up. It's the school of life. You will study, pass, and fail. Its normal.
+
+Someone going through red pill rage will exhibit symptoms including but not limited to:
+
+* Anger and disdain for women
+* Anger and disdain for the people who raised him
+* Depression and lack of motivation to proceed in the world
+* Confusion as to what to do next.
+
+The sidebar covers pretty much all the fundamentals that we must go out and practice through execution, but it is not a play by play. It is not a step by step instruction manual on what to do, and this is what frustrates people going through rage even more. And the younger and less based the person is, the worse and chaotic his rage will be. Let me explain why.
+
+The blue pilled betas can actually teach us something. Their life's goal is to succeed in this world. Have a "stable" career, have "retirement" savings, have a "normal" family, raise "normal" kids, etc. They want that blue pilled life dream, even if they have to work their ass off for it. They are WILLING (even if brainwashed) into giving up their lives to build this "stable" world around them. Sure there are always exceptions to this rule, but at least the more traditional men, will be chasing a stable career in medicine or engineering or something. This makes them at least well based in their own life. Even if they go through a divorce and realize how blue pilled they are, red pill rage will last a shorter amount of time for them, because they already have a financial and educational foundation. They have a resume, they just have to start their social/sexual life over, which, thanks to the sidebar, is as simple as going out into the real world and fucking up repeatedly until you get the hang of it (not really but you get the gist).
+
+A young man in his late teens or early college years who finds the red pill, and realizes why his young sexual life is absolute garbage, will have severe rage. This is because he has no existing foundation. He hasn't had a marriage/relationship that is long enough to give him some experience. He doesn't have the finances to be able to just move to a new city and start over. He doesn't have a "successful" resume. He goes into full panic mode, and eventually, just gives up. He knows he needs to get his shit together, but on top of his obligations to get his financial and practical life together, he is now bombarded with information on how to fix his still not fully developed sexual life.
+
+Again, there are plenty of exceptions to the rules. I have seen young men who found the red pill and immediately saw the mountain they must climb and proceeded to hatch multiple plans on how to do so. Others...fell into depression cursing the world they live in and becoming more reliant on spoon fed step by step instructions on how to proceed. This dependence on a play by play must be broken.
+
+So here I will leave some recommendations as to what to do if you find yourself in this situation. This is not a step by step instruction booklet. These are tips that will explain what you are feeling, why, and where to go.
+
+1. You are mad at women for being the way they are. Okay, and? Screw them. Focus on yourself and your individual happiness and satisfaction (in moderation) as well as making sure you have a solid foundation financially and educationally.
+2. "Everything we do is just to get laid, what is the point?!" This is where you need to change your mindset. Getting laid is a PERK of having a solid foundation as a MAN. Be a man first, slay pussy later. You need to understand that you do not revolve around women, they revolve around you. You must become a magnet, not be attracted to one. A magnet has scientific properties that make it attract all sorts of metals. IRL this is: Money, fame, good looks, reputation, success, status, masculine alpha behavior/mentality, an IDGAF mentality for sure. Magnets do not fucking care what you are, if you're within range, you will be attracted.
+3. You feel like you know more than the men around you so now you are acting petty and posting on your instagram story about how "women suck and man up and etc". Stop. Just stop. You are just like everyone else, we are just like you. We are all in the same boat, you are not special, and just because you know something someone else doesn't, doesn't mean you are better. Also, stop putting red pill stuff you read online on your instabooks, you will alienate anyone who sees it. Just get off social media period, stop texting women and being their little bitch, go to #1 on this list, go make your base. No not a pillow fort. A base, somewhere you live, somewhere you can go to when shit hits the fan and start over. 
+
+**Conclusion**
+
+Remember at least one thing from all of this: This is not an over night change. This will take years. Just like the gym wont turn you into the rock over night, reading trp content and practicing it wont make you an alpha over night. I know I am far from where I want to be, but I want to try, and I will try. So go cool off from the rage, accept the world as it is, and learn to use it to your advantage.
+
+CLASSIFICATION:
+

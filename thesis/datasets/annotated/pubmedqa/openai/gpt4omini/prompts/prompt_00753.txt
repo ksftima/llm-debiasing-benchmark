@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does laparoscopic cholecystectomy influence peri-sinusoidal cell activity? To investigate the influence of laparoscopic procedures on perisinusoidal cell function. In 31 patients who underwent laparoscopic cholecystectomy for symptomatic cholelithiasis, the serum levels of beta-N-acetyl hexosaminidase (beta-NAH) and hyaluronic acid (HA) were measured. Six female patients, who underwent other laparoscopic procedures, not involving the hepatobiliary system, served as controls. HA serum levels increased significantly in both study and control groups, while beta-NAH serum levels remained within normal values. Post-operative AST and ALT serum levels increased significantly only in the study group. No elevation of serum ALP was noted in any of our patients, and post-operative bilirubin levels did not increase in patients with normal pre-operative levels.
+
+CLASSIFICATION: 

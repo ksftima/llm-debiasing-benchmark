@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Great write up. It's great that you've Found a way to rebound from divorce. . That's an experience. I've never had. And don't envy anyone. . 
+
+My question is in regard to your mention of having 40 year old friendships. I have really struggled to find. Men, that would make good friends. . I had a few guys that I'd known for more than 20 years, but Those relationships fall apart when the females they are involved with pressure them to break contact with friends and family in the predictable way. They are too blue pilled to make their own decisions in this regard. 
+
+How do you suggest finding red pilled guys to bond with? Have you ever had to wait for the if and when of a former friend coming out of the blue pilled haze? Have you found a way to be friends with blue pilled guys despite the lack of common values and the obstacles females impose on them?
+
+I have no trouble spending time by myself But it would be great to have the kind of friendships that I used to. I'm just not sure that is possible. The guys on this sub are the closest I have to real friends.
+
+CLASSIFICATION:
+

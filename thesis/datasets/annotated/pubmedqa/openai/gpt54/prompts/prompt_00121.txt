@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can infundibular height predict the clearance of lower pole calyceal stone after extracorporeal shockwave lithotripsy? To evaluate the efficacy of extracorporeal shock wave lithotripsy (SWL) on lower calyceal calculi in relation to the renal anatomical factors and determine which of these factors can be used to select patients who will benefit from SWL. We analyzed retrospectively 78 patients with single radiopaque lower calyceal stones treated with SWL. The patients were evaluated 3 months after lithotripsy with a simple abdominal X-ray and a kidney ultrasound scan. The success of the treatment, removal of all fragments, was correlated with renal anatomical factors measured in the pre-treatment intravenous urography: infundibulopelvic angle, lower infundibulum width, lower infundibulum length, ratio length/width, infundibulum height, and number of minor calyces in the lower calyceal group. Three months after SWL treatment, 39 patients were stone-free (NR group) and 39 had residual fragments (R group). Both groups presented no differences in relation to infundibulopelvic angle, width and length of the lower calyceal infundibulum, length/width ratio of the lower infundibulum or number of lower calyces. Height of the infundibulum, described as the distance between the line passing through the lowest part of the calyx containing the calculus and the highest point of the lower lip of renal pelvis, was the only parameter in which significant differences (p = 0.002) were found between the NR and R groups.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is a specialised training of phonological awareness indicated in every preschool child? In a prospective study 218 preschool children were enrolled (stratified in 2 training programs, one specialized for phonologic awareness in order to prevent dyslexia, the other consisting in training of general perception) during the last year of kindergarten. After finishing the first grade 131 children were compared in their reading and writing abilities. In the whole group only a slight difference was found between both training modalities concerning their writing abilities. However, children with a history of hearing loss, actual hearing loss or pathologic middle ear findings profited most from the specialized training program compared to the control in their reading abilities.
+
+CLASSIFICATION: 

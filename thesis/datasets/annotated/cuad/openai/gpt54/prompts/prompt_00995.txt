@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+At least […***…] during the time a Work Stream remains in effect, unless otherwise agreed by the Parties, FMI shall have the obligation to prepare and provide to the JRDC a summary presentation on the progress of the work performed by FMI in the course of each Work Stream during the preceding […***…].
+
+CLASSIFICATION:
+ 

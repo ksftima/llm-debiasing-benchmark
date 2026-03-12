@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do general practitioner hospitals reduce the utilisation of general hospital beds? To assess whether populations with access to general practitioner hospitals (GP hospitals) utilise general hospitals less than populations without such access. Observational study comparing the total rates of admissions and of occupied bed days in general hospitals between populations with and without access to GP hospitals. Comparisons were also made separately for diagnoses commonly encountered in GP hospitals. Two general hospitals serving the population of Finnmark county in north Norway. 35,435 admissions based on five years' routine recordings from the two hospitals. The total rate of admission to general hospitals was lower in peripheral municipalities with a GP hospital than in central municipalities without this kind of institution, 26% and 28% lower for men and women respectively. The corresponding differences were 38% and 52%, when analysed for occupied bed days. The differences were most pronounced for patients with respiratory diseases, cardiac failure, and cancer who are primarily or intermediately treated or cared for in GP hospitals, and for patients with stroke and fractures, who are regularly transferred from general hospitals to GP hospitals for longer term follow up care.
+
+CLASSIFICATION: 

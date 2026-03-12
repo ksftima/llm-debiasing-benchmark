@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+On balance, while the business investment outlook seemed vulnerable to somewhat greater than projected weakness in the short run, the members were persuaded that, against the background of large continuing gains in structural productivity and cost savings from further investment in equipment and software, business firms were likely to accelerate their spending for new capital after a period of adjustment.
+
+CLASSIFICATION:

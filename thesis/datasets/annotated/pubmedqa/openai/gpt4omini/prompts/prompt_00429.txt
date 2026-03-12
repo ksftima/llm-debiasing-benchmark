@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Oral mucocele/ranula: Another human immunodeficiency virus-related salivary gland disease? To describe clinical characteristics of oral mucoceles/ranulas, with a focus on human immunodeficiency virus (HIV)-related salivary gland diseases. A descriptive and clinical study, with review of patient data. We reviewed 113 referred cases of oral mucocele. The following anatomical sites were identified: lip, tongue, and floor of the mouth (simple ranulas), as well as plunging ranulas. The age and gender data of the patients with oral mucoceles were recorded. The HIV status of the patients and other information were reviewed. There were 30 (26.5%) males and 83 (73.5%) females. Most patients were below 30 years of age, with the peak frequency in the first and second decade. Ranula (simple and plunging) represented 84.1% of the mucocele locations. Mucocele on the lips represented 10.6%. Seventy-two (63.7%) patients were HIV positive; and 97.2% of them had ranulas. Thirty-eight (33.6%) patients presented with plunging ranulas; and 92.1% of them were HIV positive, compared with two patients presenting with plunging ranulas in the HIV-negative group. These results strongly suggest that an HIV-positive patient is statistically (P<0.001) more at risk of presenting with not only a simple, but also a plunging ranula type.
+
+CLASSIFICATION: 

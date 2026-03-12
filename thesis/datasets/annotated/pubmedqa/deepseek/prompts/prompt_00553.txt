@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do elderly patients benefit from surgery in addition to radiotherapy for treatment of metastatic spinal cord compression? Treatment of elderly cancer patients has gained importance. One question regarding the treatment of metastatic spinal cord compression (MSCC) is whether elderly patients benefit from surgery in addition to radiotherapy? In attempting to answer this question, we performed a matched-pair analysis comparing surgery followed by radiotherapy to radiotherapy alone. Data from 42 elderly (age> 65 years) patients receiving surgery plus radiotherapy (S + RT) were matched to 84 patients (1:2) receiving radiotherapy alone (RT). Groups were matched for ten potential prognostic factors and compared regarding motor function, local control, and survival. Additional matched-pair analyses were performed for the subgroups of patients receiving direct decompressive surgery plus stabilization of involved vertebrae (DDSS, n = 81) and receiving laminectomy (LE, n = 45). Improvement of motor function occurred in 21% after S + RT and 24% after RT (p = 0.39). The 1-year local control rates were 81% and 91% (p = 0.44), while the 1-year survival rates were 46% and 39% (p = 0.71). In the matched-pair analysis of patients receiving DDSS, improvement of motor function occurred in 22% after DDSS + RT and 24% after RT alone (p = 0.92). The 1-year local control rates were 95% and 89% (p = 0.62), and the 1-year survival rates were 54% and 43% (p = 0.30). In the matched-pair analysis of patients receiving LE, improvement of motor function occurred in 20% after LE + RT and 23% after RT alone (p = 0.06). The 1-year local control rates were 50% and 92% (p = 0.33). The 1-year survival rates were 32% and 32% (p = 0.55).
+
+CLASSIFICATION: 

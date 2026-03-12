@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Inktomi will grant to Microsoft an irrevocable, non-exclusive, royalty-free license to use the Product (and all required underlying Inktomi Technology) solely in connection with Microsoft's operation of the Microsoft Search Engine (which license shall include the right to create enhancements and other derivative works based thereon for use in conjunction therewith) for such period as Microsoft may require to transition its search engine services to non-Inktomi technology (the "Transition Period"), and Inktomi will waive all royalties otherwise payable pursuant to the Software Development Agreement and/or the Information Services Agreement between the parties of even date herewith; for the purposes of this clause (iv), the Transition Period will commence at such time as Microsoft assumes control over said separate cluster and begins itself operating the Microsoft Search Engine, and will continue thereafter for eighteen months (18) or until the<omitted>termination of the Software Development Agreement and Information Services Agreement (whichever is longer);
+
+CLASSIFICATION:
+

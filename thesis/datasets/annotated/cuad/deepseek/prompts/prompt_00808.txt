@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Hydraspin hereby grants to Distributor an exclusive non-transferable and royalty-free right and license to use Hydraspin's Marks in connection with the advertising, promotion, marketing, distribution and sale of the Products in the Territory in accordance with Hydraspin's standards and instructions
+
+CLASSIFICATION:
+ 

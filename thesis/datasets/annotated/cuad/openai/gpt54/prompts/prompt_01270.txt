@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The 15% royalty payable on the first U.S. $3 Billion of total annual worldwide Net Sales under this Section 6.3 shall be reduced to 12% if all of the following occur: (i) all Theravance Compounds are discontinued by the collaboration for Technical Failure; (ii) Theravance only contributes one Theravance New Compound to the collaboration within 18 months following the Effective Date; and (iii) the Collaboration Product upon which the royalty is payable contains a LABA that is one of the GSK Initially Pooled Compounds.
+
+CLASSIFICATION:
+ 

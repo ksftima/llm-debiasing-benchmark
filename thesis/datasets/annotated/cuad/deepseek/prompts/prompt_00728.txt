@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Operator shall maintain Umbrella Liability Insurance coverage covering in excess of (a), (b), and (c) above, excluding Worker's Compensation, in the amount of ten million dollars ($10,000,000). Insurance, the applicable contractor shall be required to cause its insurers to wave all rights of recovery or subrogation against Owner and Operator, where not prohibited by law.
+
+CLASSIFICATION:
+ 

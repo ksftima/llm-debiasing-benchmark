@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+NBC has always, IMO had shit coverage of hockey.  It is jarring to go from commentators for a local hockey broadcast to NBC.  Suddenly instead of informatively talking about players and the game, there are constant stingers and stupid trivia filler like, "This is the 5th time in history that the away team has scored over 4 goals in the second game of the playoffs."
+
+And football-like yelling commentary with bullshit like "That's coach Hockeyman, you know he's going to want his players to be offensive and score goals.  He also isn't happy about the last penalty against his team.  Whoa, the center just missed a shot, you can see he meant to get it in the net, but he didn't!"
+
+EDIT:  The worst is during the "winter classic" bullshit where they're delirious with joy that the game is happening outside and have to mention it every 90 seconds.
+
+CLASSIFICATION:
+

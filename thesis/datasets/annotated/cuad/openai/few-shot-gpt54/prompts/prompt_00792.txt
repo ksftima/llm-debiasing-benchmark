@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+REVENUE SHARING FEES: 1. Corio Customer Application Management Revenue: Corio to pay Changepoint *** of all Application Management Revenue from Corio Customers for use of Changepoint Software subject to the following limitations. A. The Corio invoice amounts used to calculate the revenues subject to this revenue share shall not include Professional Service fees or Network access fees. B. These Application Management Revenue fees shall begin accruing when the Corio Customer first commences making payments to Corio for the Corio Services. Software support and maintenance fees are included in the 10% Revenue Sharing Fee.
+
+CLASSIFICATION:
+

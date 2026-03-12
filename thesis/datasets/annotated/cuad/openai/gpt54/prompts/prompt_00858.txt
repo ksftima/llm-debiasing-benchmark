@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing clauses (i) through (v) of this Section 5.2(e) or anything else contained in this Agreement or any Facility Addendum or Quality Agreement, Manufacturer shall have no liability under this Agreement (including under Section 4.11(b) or Section 10.1) or any Facility Addendum or Quality Agreement for any Non-Complying Product which is non-complying due to any Non-Complying Customer-Supplied Materials or Non-Complying Buy-Sell Materials.
+
+CLASSIFICATION:
+ 

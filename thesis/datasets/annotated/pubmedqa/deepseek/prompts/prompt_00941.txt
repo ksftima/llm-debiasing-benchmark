@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is laparoscopic sonography a reliable and sensitive procedure for staging colorectal cancer? Laparoscopic colectomy has developed rapidly with the explosion of technology. In most cases, laparoscopic resection is performed for colorectal cancer. Intraoperative staging during laparoscopic procedure is limited. Laparoscopic ultrasonography (LUS) represents the only real alternative to manual palpation during laparoscopic surgery. We evaluated the diagnostic accuracy of LUS in comparison with preoperative staging and laparoscopy in 33 patients with colorectal cancer. Preoperative staging included abdominal US, CT, and endoscopic US (for rectal cancer). Laparoscopy and LUS were performed in all cases. Pre- and intraoperative staging were related to definitive histology. Staging was done according to the TNM classification. LUS obtained good results in the evaluation of hepatic metastases, with a sensitivity of 100% versus 62.5% and 75% by preoperative diagnostic means and laparoscopy, respectively. Nodal metastases were diagnosed with a sensitivity of 94% versus 18% with preoperative staging and 6% with laparoscopy, but the method had a low specificity (53%). The therapeutic program was changed thanks to laparoscopy and LUS in 11 cases (33%). In four cases (12%), the planned therapeutic approach was changed after LUS alone.
+
+CLASSIFICATION: 

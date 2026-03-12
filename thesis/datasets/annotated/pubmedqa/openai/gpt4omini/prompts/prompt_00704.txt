@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the enteral feeding advancement affect short-term outcomes in very low birth weight infants? Controversy exists regarding the optimal enteral feeding regimen of very low birth weight infants (VLBW). Rapid advancement of enteral feeding has been associated with an increased rate of necrotizing enterocolitis. In contrast, delaying enteral feeding may have unfavorable effects on nutrition, growth, and neurodevelopment. The aim is to compare the short-term outcomes of VLBW infants in tertiary care centers according to their enteral feeding advancement. We prospectively studied the influence of center-specific enteral feeding advancement in 1430 VLBW infants recruited from 13 tertiary neonatal intensive care units in Germany on short-term outcome parameters. The centers were post hoc stratified to "rapid advancement to full enteral feeds" (median duration of advancement to full enteral feeds<or =12.5 days; 6 centers), that is, rapid advancement (RA), or "slow advancement to full enteral feeds" (median duration of advancement to full enteral feeds>12.5 days; 7 centers), that is, slow advancement (SA). VLBW infants born in centers with SA (n = 713) had a significantly higher rate of sepsis compared with VLBW infants born in centers with RA (n = 717), which was particularly evident for late-onset sepsis (14.0% vs 20.4%; P = 0.002). Furthermore, more central venous lines (48.6% vs 31.1%, P<0.001) and antibiotics (92.4% vs 77.7%, P<0.001) were used in centers with SA.
+
+CLASSIFICATION: 

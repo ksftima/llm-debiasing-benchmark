@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, during the Term, Ginkgo hereby grants and shall grant to BLI: 9.2.1 a [***] and this Section 9.2 (Grants to BLI)), [***] license in, to and under any Intellectual Property (a) Controlled by Ginkgo, (b) used by Ginkgo in the conduct of a Workflow Development Plan and (c) necessary for BLI to perform its obligations under this Agreement ((a)-(c) collectively, "Ginkgo Licensed IP"), solely to perform BLI's obligations under such Workflow Development Plan; and<omitted>9.2.2 after any applicable Headstart Period, with respect to any [***], a [***] license in, to and under any Ginkgo Licensed IP [***] necessary for the performance of, such [***], to make, have made, offer to sell, sell, have sold, import, use, commercialize or perform such [***] to or for Third Parties and to license such Third Parties to do the same.
+
+CLASSIFICATION:
+ 

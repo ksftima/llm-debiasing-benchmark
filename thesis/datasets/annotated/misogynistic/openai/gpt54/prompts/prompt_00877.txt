@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Actually the best day to hook up for a 'hit it and quit it' session is on Valentine's day. Women's ego's are at an all-time low because no sucker is wining and dining them. Especially if their friends are out being wined and dined after bragging about it all week. 
+
+Therefore, it's the perfect day/time/place to take advantage of desperate women with their self-esteem in the toilet.
+
+CLASSIFICATION:
+

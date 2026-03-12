@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event Customer shall utilize Kubient's ad serving technology as part of the Services, Kubient hereby grants to Customer a limited, royalty-free, non-exclusive, non-transferable, non-assignable, without right of sublicense, revocable license to access, participate in and use to the full extent the Auction Platform as hosted by Kubient, for the purpose of serving Inventory at Target Demand ("          ").
+
+CLASSIFICATION:
+ 

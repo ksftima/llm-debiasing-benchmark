@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does topical ropivacaine reduce the post-tonsillectomy morbidity in pediatric patients? To determine whether post-operative administration of topical ropivacaine hydrochloride decreases morbidity following adenotonsillectomy. Prospective, randomized, double-blind clinical trial. University referral center; ENT Department. Fourty one children, aged 4-16 years, undergoing tonsillectomy. Patients received 1.0% ropivacaine hydrochloride soaked swabs packed in their tonsillar fossae while the control group received saline-soaked swabs. Mc Grath's face scale was used to compare the two groups in respect of pain control. Chi-square and two-tailed unpaired Student's t-tests or Mann-Whitney-U-tests were used to compare the two independent groups. As 10 we made 11 comparison between groups, for Bonferroni correction, p<0.005 was accepted as statistically significant. Only first hour there was no significant pain-relieving effect seen in the ropivacaine group (p>0.05). The other hours and days there were statistically significance between the two groups (p<0.001). Also, the other post-operative parameters such as nausea, fever, vomiting, odor, bleeding, otalgia and trismus were not statistically different between the two groups. There were no complications associated with ropivacaine hydrochloride. No patients in this study suffered systemic side effects related to the use of this medication.
+
+CLASSIFICATION: 

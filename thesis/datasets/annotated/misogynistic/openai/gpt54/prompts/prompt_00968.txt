@@ -1,0 +1,22 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The successful post-thaw survival rate for eggs is quite high (85% for over 36s and 95% got unfrt 36s). The lower success rates that exist in general are for IVF. The complications that arise with successfully regaining fertility off of frozen eggs are not to do with the freezing procedure itself.  
+
+
+Also there are very small differences in IVF success rates when one uses fresh vs frozen eggs , so that adds further evidence to support the idea that the problem is not a suboptimal freezing process.
+
+CLASSIFICATION:
+

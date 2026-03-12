@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+WebMD agrees to grant, and Emdeon agrees to accept, a license to use the Content (as defined below) in connection with various software products it has all right title and interest to (the "Software") in accordance with the terms of this Agreement.
+
+CLASSIFICATION:
+ 

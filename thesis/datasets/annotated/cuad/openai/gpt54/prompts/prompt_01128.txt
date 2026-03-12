@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+c. Sponsor must obtain, and continuously maintain, at its own expense, the following insurance policies: 1. Workers' Compensation in compliance with California's laws, including Employers' Liability with minimum limits of: $ *** Each Accident; $ *** Disease - Each Employee; $ *** Disease - Policy Limit. 2. An Insurance Services Office occurrence based Commercial General Liability Insurance Policy, including contractual liability and products/completed operations liability coverage with minimum limits of: $ *** Each Occurrence; $ *** General Aggregate; $ *** Products/Completed Operations Aggregate.
+
+CLASSIFICATION:
+ 

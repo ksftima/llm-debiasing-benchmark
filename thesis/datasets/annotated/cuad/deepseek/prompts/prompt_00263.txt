@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+PACIFICAP ENTERTAINMENT agrees to also allow THE HENRY FILM AND ENTERTAINMENT CORPORATION the right to redistribute, reproduce, retransmit, disseminate, sell, publish, broadcast or circulate the information contained in such PACIFICAP ENTERTAINMENT Content.
+
+CLASSIFICATION:
+ 

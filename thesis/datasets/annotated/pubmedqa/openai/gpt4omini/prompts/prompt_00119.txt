@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do communication disorders extend to musical messages? Effective musical communication requires conveyance of the intended message in a manner perceptible to the receiver. Communication disorders that impair transmitting or decoding of structural features of music (e.g., pitch, timbre) and/or symbolic representation may result in atypical musical communication, which can have a negative impact on music therapy interventions. This study compared recognition of symbolic representation of emotions or movements in music by two groups of children with different communicative characteristics: severe to profound hearing loss (using cochlear implants [CI]) and autism spectrum disorder (ASD). Their responses were compared to those of children with typical-development and normal hearing (TD-NH). Accuracy was examined as a function of communicative status, emotional or movement category, and individual characteristics. Participants listened to recorded musical excerpts conveying emotions or movements and matched them with labels. Measures relevant to auditory and/or language function were also gathered. There was no significant difference between the ASD and TD-NH groups in identification of musical emotions or movements. However, the CI group was significantly less accurate than the other two groups in identification of both emotions and movements. Mixed effects logistic regression revealed different patterns of accuracy for specific emotions as a function of group.
+
+CLASSIFICATION: 

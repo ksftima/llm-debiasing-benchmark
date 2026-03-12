@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+A Participant will not be liable to the Joint Venture, or to any other Participant, for any mistake or error in judgment or for any act or omission done in good faith and believed to be within the scope of authority conferred or implied by this Agreement or the Joint Venture.
+
+CLASSIFICATION:
+ 

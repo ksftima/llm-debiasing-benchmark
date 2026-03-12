@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are there risk factors that increase the rate of staple line leakage in patients undergoing primary sleeve gastrectomy for morbid obesity? Laparoscopic sleeve gastrectomy (LSG) is currently being performed with increasing frequency worldwide. It offers an excellent weight loss and resolution of comorbidities in the short term with a very low incidence of complications. However, the ever present risk of a staple line leak is still a major concern. Since 2005, data from obese patients that undergo bariatric procedures in Germany are prospectively registered in an online database and analyzed at the Institute of Quality Assurance in Surgical Medicine. For the current analysis, all patients that had undergone primary sleeve gastrectomy for morbid obesity within a 7-year period were considered. Using the GBSR, data from 5.400 LSGs were considered for analysis. Staple line leak rate decreased during the study period from 6.5 to 1.4 %. Male gender, higher BMI, concomitant sleep apnea, conversion to laparotomy, longer operation time, use of both buttresses and oversewing, and the occurrence of intraoperative complications were associated with a significantly higher leakage rate. On multivariate analysis, operation time and year of procedure only had a significant impact on staple line leak rate.
+
+CLASSIFICATION: 

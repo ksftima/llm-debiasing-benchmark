@@ -1,0 +1,83 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Musings on a MSM's journey towards masculinity.Me: 26 years old, teacher, living in a big but not huge city.
+
+I am writing this post to share my experience as a 'gay' man, particularly my experience in the last couple years of beginning to embrace and explore my masculinity.
+
+I was an effeminate boy. I've pondered my upbringing and the origins of my homosexuality/my former gay-ness (I use homosexuality to refer to instincts, gayness to refer to identity and behavior). My father was not entirely absent, but he was an impulsive, self-centered, and often-absent alcoholic that in large degree parented by compensating with money, presents, and promises. My mother doted upon me and I was her little boy. Both of my parents loved me in their own way, but I had very little positive masculine guidance and role modeling in my youth.
+
+I had many friends, both male and female, in elementary school, though by sixth grade or so my associations with other males began decreasing, and after entering middle school essentially completely stopped. Once I entered puberty, all my friends were females or other gay/queer males. This state continued until about a year and a half ago.
+
+Beneath this was a troubled relationship with men and masculinity. I was sexually and emotionally drawn to masculinity, yet also afraid of most men (particularly masculine ones, and above all straight, masculine men). I experienced constant cognitive dissonance about my masculinity, femininity, and sexuality. I had lots of shame and self-loathing. I thought of myself as better than men I observed doing 'guy stuff' and had disdain for dudes being dudes, men being men.
+
+I began having sex at seventeen years old, primarily with older men I met on dating apps. I spent several years frequently having mostly mediocre to poor sex with older men (25-40) I today would have absolutely no interest in. I engaged in risky behaviors, put myself in dangerous situations repeatedly, and shied away from, botched, or rationalized away the majority of attempts with guys my own age I was genuinely interested in. Almost everyone I dated or fucked I met online. I watched lots of porn, sometimes quite extreme stuff, and spent years and years masturbating and ejaculating alone, daily.
+
+Of course, life is diverse and we traverse and are traversed by many different things. Despite and throughout a lot cognitive dissonance and confusion, in many ways I followed my passions and instincts, said fuck you to society's and everyone's expectations, and did what I wanted.
+
+A turning point came a couple years after graduating from university. I was living in Australia and had spent eight months living a lot of anger, jealousy, social incompetence, low self-esteem, etc. A few months before leaving I withdrew and reevaluated. For the first time in my life, I made fitness a priority. I also began two experiments that changed my life and brought me towards manhood: I began restoring my foreskin, and I stopped jerking off and cumming for the first time.
+
+I came back to the United States and spent a while confronting demons. In the past two years living here again, I've gone through professional, personal, romantic/sexual, and life experiences. I've fucked up and I've succeeded. A year and a half ago I began working as part of an all-male team, and six months ago began looking at the threads for Red Pill and Semen Retention. This was the first time in my adult life that I have socialized in all-male environments (outside the gay world). I have learned:
+
+\- There's no such thing as 'sheeple'/'woke', beta/alpha, basic/not-basic. There is passive, non-aware submission to the flow of the world, and active consciousness. We all embody both, just to different degrees. Everyone is moving at some pace or another either towards or away from more active consciousness.
+
+\- I am a man. I am sexually attracted to other men, but I am in a male body, not a female. My personality contains feminine elements. I spent many years pushing down, ignoring, and rejecting my masculinity.
+
+\- I wasted vast amounts of energy for years on bad sex, shooting my load onto my belly or a T-shirt, and fantasizing about the people I want to be. I am filled with creative, masculine, and powerful energy that I want to use to conceive of ideas, create things, improve myself, and realize goals with.
+
+\- Semen retention is a powerful way to cultivate and build energy to do things in life. Abstaining from sex, masturbation, and ejaculating has brought me emotional and physical growth, and the longer I go, the more I feel unexcited sexually and romantically by people not interested in self-improvement, goals, and big things, and the smaller grow my neediness for validation through emotional/romantic/sexual attention etc. The longer I go, the more I actively ask myself: Why? Why do you want to date/fuck/log onto a dating app/go to a bar etc? What are you looking for?, and the more I respond and act in a way that is in line with my principles.
+
+\- Fitness is a beautiful masculine pastime and is indispensable for all guys to explore manhood.
+
+\- I was traumatized by circumcision and tugging on the skin of my dick to grow a new foreskin has been a powerful way to claim autonomy, independence, and manhood.
+
+\- I no longer identify as gay. Neither do I identify as bisexual or queer. I feel sexually attracted to men in a more visceral, physical way than I am to women, but it is something deeper than the physical that truly draws me, and it is present in both men and women.
+
+\- It is not that I am not attracted to women, it is that 1) I am bored by overly-feminine women (and men) with unbalanced gender energy ie helpless woman with clown makeup, cloying mannerisms, and little to no initiative 2) my effeminacy, self-loathing, and socialization as a 'gay man' in my past led me to think of myself as incapable/unworthy of being masculine enough to be the man for a woman, to be her captain, to be the one in charge/stronger/more framed etc.
+
+\- Gay culture is filled with hyper-feminine, passive men out of touch with their masculinity. The gay world is filled with men that chase heterosexual traditions and norms to have kids, live in the suburbs, etc. There are also many masculine, well-rounded gay/bi/queer men that combine femininity and masculinity in their personalities.
+
+\- Gay relationships and sex ALWAYS include a masculine/feminine dynamic - submissive and dominant, bottoms and tops, male and female roles, listeners and talkers, etc.
+
+\- Successful and interesting women are not only excitingly, tantalizingly, and beautifully feminine, they also integrate and cultivate masculinity within themselves and use it when it necessary to make money, realize their goals, raise their children, and engage in great relationships. The best women do this so well that men don't even notice.
+
+\- The future belongs not to 'alpha' men or the most womanly of women, it belongs to independent minds that combine both genders into something greater, while playing masterfully the game their gender and body challenges them to play.
+
+\- On a biological level men and women engage in relationships to procreate. The rest is cultural and societal. If you're not fucking and dating to produce kids, what are you doing? If it's not about offspring, the best relationships are about exploring personality, learning, and combining forces to create things and achieve goals. It's fun to be the solid masculinity femininity leans on, and to be the pliant, social femininity for masculinity to explore itself with; I've done both. In the long run, though, if two minds want to build a life (or an interesting time) together, both have to grow out of such a gendered relationship and just be two individuals cooperating, to some extent within the gender of their body, but to a greater extent as something beyond a penis and a vagina.
+
+\- As a 'gay' man, there is no reason for me to chase heteronormative gender roles. There is no need for me to find a wife, have two kids, buy a house in the suburbs, and fuck men on the side every now and again. There is no need for me to perform the manly man for a submissive gay man (or vice versa), buy a house together and pretend to be man, wife, and kids et al., nor is there a need for us to buy an apartment together and spend our life trying to convince ourselves that we 'love' one another and that the romantic myths everyone else is chasing have come true for us.
+
+\- Masculinity isn't necessarily about fucking bitches/lots of guys, making lots of money, and being muscular, though for many it is, and will be. Masculinity is about being the fullest version of yourself as possible.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Parties acknowledge that effective upon the termination or expiration of the Transition Services and Inventory Agreement, PPI has<omitted>assigned to EKR all of PPI's right, title and interest under that certain Commercial Outsourcing Services Agreement between PPI (f/k/a SkyePharma, Inc.) and Integrated Commercialization Solutions, Inc. ("ICS") dated April 3, 2007 (the "ICS Agreement"), and EKR has assumed all obligations and liabilities under the ICS Agreement arising after the Effective Date.
+
+CLASSIFICATION:
+ 

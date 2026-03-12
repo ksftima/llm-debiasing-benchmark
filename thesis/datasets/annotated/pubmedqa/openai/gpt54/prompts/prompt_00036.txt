@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Prognosis of well differentiated small hepatocellular carcinoma--is well differentiated hepatocellular carcinoma clinically early cancer? The purpose of this study is to examine whether or not well differentiated (w-d) hepatocellular carcinoma (HCC) is indeed clinically early cancer. Seventy six patients with solitary small HCCs up to 3 cm in diameter, who underwent hepatectomy, were observed for at least 2 years for possible recurrence. These patients were divided into two groups: 10 patients with w-d HCCs (Edmondson and Steiner's grade I) and 66 patients with less differentiated (l-d) HCCs (Edmondson and Steiner's grade I-II, II-III, and III). The histological analysis revealed that w-d HCCs had lower incidences of fibrous capsule formation (P<0.01), when compared to l-d HCCs. There were no significant differences in the incidence of intrahepatic metastasis, or portal vein invasion. In a resected specimen of w-d HCC, barium sulfate and gelatin were injected into portal vein and a transparent specimen was made. The transparent specimen showed that the portal vein in the tumor seemed to be intact. Microscopically, cancer cell infiltration into the fibrous frame of the portal tract was present. There were no significant differences in the disease free survival between the two groups. An analysis of tumor volume doubling time in recurrent foci suggested that minute cancerous foci had been present at the time of operation.
+
+CLASSIFICATION: 

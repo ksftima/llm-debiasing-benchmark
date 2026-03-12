@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does route of delivery affect maternal and perinatal outcome in women with eclampsia? The route of delivery in eclampsia is controversial. We hypothesized that adverse maternal and perinatal outcomes may not be improved by early cesarean delivery. This was a randomized controlled exploratory trial carried out in a rural teaching institution. In all, 200 eclampsia cases, carrying ≥34 weeks, were allocated to either cesarean or vaginal delivery. Composite maternal and perinatal event rates (death and severe morbidity) were compared by intention-to-treat principle. Groups were comparable at baseline with respect to age and key clinical parameters. Maternal event rate was similar: 10.89% in the cesarean arm vs 7.07% for vaginal delivery (relative risk, 1.54; 95% confidence interval, 0.62-3.81). Although the neonatal event rate was less in cesarean delivery-9.90% vs 19.19% (relative risk, 0.52; 95% confidence interval, 0.25-1.05)-the difference was not significant statistically.
+
+CLASSIFICATION: 

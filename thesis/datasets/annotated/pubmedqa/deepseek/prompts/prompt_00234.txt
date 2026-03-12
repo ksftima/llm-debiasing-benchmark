@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does TDP-43 type confer a distinct pattern of atrophy in frontotemporal lobar degeneration? To determine whether TDP-43 type is associated with distinct patterns of brain atrophy on MRI in subjects with pathologically confirmed frontotemporal lobar degeneration (FTLD). In this case-control study, we identified all subjects with a pathologic diagnosis of FTLD with TDP-43 immunoreactive inclusions (FTLD-TDP) and at least one volumetric head MRI scan (n = 42). In each case we applied published criteria for subclassification of FTLD-TDP into FTLD-TDP types 1-3. Voxel-based morphometry was used to compare subjects with each of the different FTLD-TDP types to age- and gender-matched normal controls (n = 30). We also assessed different pathologic and genetic variants within, and across, the different types. Twenty-two subjects were classified as FTLD-TDP type 1, 9 as type 2, and 11 as type 3. We identified different patterns of atrophy across the types with type 1 showing frontotemporal and parietal atrophy, type 2 predominantly anterior temporal lobe atrophy, and type 3 predominantly posterior frontal atrophy. Within the FTLD-TDP type 1 group, those with a progranulin mutation had significantly more lateral temporal lobe atrophy than those without. All type 2 subjects were diagnosed with semantic dementia. Subjects with a pathologic diagnosis of FTLD with motor neuron degeneration had a similar pattern of atrophy, regardless of whether they were type 1 or type 3.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, Customer hereby grants to Supplier a paid-up, royalty-free, non-exclusive license, without the right to sublicense, to Customer's Confidential Information and the Customer Technology reasonably necessary to Manufacture and supply to Customer the Product hereunder, but only for such purposes.
+
+CLASSIFICATION:
+ 

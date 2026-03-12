@@ -1,0 +1,52 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+How To AMOG Beta MalesIt shouldn't surprise anyone here that the Red Pill is packed with Beta Males. In fact, it's absolutely crawling with them. The problem with any forum on masculinity is that it inevitably gets filled with unmasculine men who have their own theories on masculinity. Unavoidably the forum starts catering down to what the beta males already do and therefore want to hear. In other words, reductive power point style lists, conduct manuals, and explanations on why their current behavior is okay. What they desperately want to believe is that the behavior that they are forced to exhibit in their heavily taxed 9-5 corpo cuck job will magically get them laid, even though its not and is actually pulling them down into a soul draining spiral of depression.
+
+Sexual Selection is a means by which females chose exciting new phenotypes for the next generation. Females want the fastest antelope, the loudest songbird and the most obnoxious douchebag. They want the male who has what others don't and can thus disrupt the status quo. Beta Males are the status quo which is why their whole strategy is imitation. If you are using pickup lines you are by definition a beta male as you are sexually reliant on imitating the mating strategies of other males. You have admitted to yourself that you are uninteresting, incapable of becoming interesting and need to fool women into believing you are something that you are not. Alpha males win the race. Beta males buy trophies so they can trick people and themselves into thinking they won the race. If you are interested in seeing this latter behavior first hand, head over to the seduction subreddit. But I must warn you they are complete and utter fags.
+
+Next we should answer the question: When and why is it necessary to AMOG aka establish social dominance? First and foremost, we need a clear definition of what a beta male is. A beta male is a mushy turd that takes the shape of his immediate surroundings. Beta males prefer comfort over abstract freedom. They enjoy the warmth and security of the herd and spent their youth being molded into the perfect worker drone consumer by media and education system. They're comfortable with how things are and dislike change. Therefore if you are pushing for change or advocating for something that is different from the norm you must first break the will of the beta males so they stop clucking and shut the fuck up. Obviously the big picture of what you're trying to accomplish will remain a complete mystery to beta males because they are pragmatards who don't think top down or think in terms of potentiality. In other words, whenever you try to accomplish anything big you will be called an asshole, crazy or dismissed with an all-inclusive meaningless label. That's okay. No one accomplished anything meaningful without being hated on in the process, just ask Steve Jobs. Extraordinary men must give themselves permission to perform extraordinary acts so they can rise above the ordinary.
+
+**Write An Article On AMOGing Beta Males:** The easiest way to AMOG the most Beta Males is to write an article about AMOGing Beta Males. It's pretty simple and has an interesting element of recursion. The key takeaway is understanding why this works. Beta Males are insecure about an endless assortment of trivialities. These insecurities are then weaponized against beta males to make them compensate with overpriced GQ commodities, man up and get married and work a bullshit job until they die. Beta Male insecurities are like MKULTRA control words, they shut down thinking and induce compliance. My advice is to figure out what beta males are insecure about and mention it as casually as possible. Then when the beta male predictably spergs out, use their sperg out as an excuse to exclude them from the decision making process. In other words, exactly how I'm going to use this post to ban a bunch of sensitive losers.
+
+**Do You Even Lift Bro:** The easiest way to increase your SMV, become more confident and have a higher tolerance for stress is to put in serious work at the gym. It's never been easier to find a gym nearby because there's more of them than ever before. Gyms are far better equipped than even 10 years ago. Finally, Bodybuilding is no longer a secretive cult like it was in the 1960s-1990s. All the information you'll ever need is available on YouTube or Amazon bookstore. At this point there is literally no excuse beyond being lazy or retarded. Beta Males know looking like shit is their fault and their fault alone. Broaching the topic directly or just looking fit, is enough to remind them of this fact and send them into an AMOGed spiral. Every article on lifting has hordes of betas crying how jumping jacks in their mom's basement is a legitimate form of exercise. Blue checkmark Twitter is upset that Bronze Age Mindset and fans post physique. Lifting is the universal AMOG. When men feel insecure, their girlfriends notice and look to the source of the insecurity for an opportunity to branch swing. In my experience it's not muscularity itself that gets you laid it's the high stress tolerance gained from becoming muscular and women noticing how other men behave towards you.
+
+**ASStimidation:** while the previous sections explain general AMOGing principals, this section puts it all together in a practical way for a common place situation. Anyone who's spinning plates in 2020 knows that these tardettes are constantly on social media farming their orbiters for validation. What if I told you that there was an easy way to make the orbiters work in for you? Anyone who has been following Red Pill's lifting advice aka applying the Red Pill should have a thick muscular ass from squatting and deadlifting. Steal her phone and then Snapchat or Instagram story a pic of your ass to her orbiters with a flirty caption "feeling like a snack." Wait 20 minutes and send a second pic revealing whose ass it is captioned "y'all niggas gay". Within an hour her phone should be blowing up with angry ASStimidated beta males explaining how a mean Alpha hurt their *feeeelings* by AMOGing them. Beta males are two things: thirsty for sexy pics and on the brink of abandoning heterosexuality. If questioned tell her that you were feeling sexy and that you didn't know that all her guy friends are gay.
+
+A lot of men mistakenly believe that being Alpha is using cool tricks to feel confident. Alpha males don't act confident; they are confident because they defeated beta males in competition. Things work in the human world exactly how they work in the animal world. Competition can be physical, musical, financial, intellectual or psychological. Beta males hate competition and hide behind contrived morals to justify their uncompetitiveness. Masculinity is competition. The most masculine animals are the most competitive ones. There is no climbing the dominance hierarchy without competing against other men and AMOGing them in some way. If your goal is to get to the top, you can't just sit around defensively passing shit testsyou have to actively compete against other men.
+
+
+Since everything is currently going into lockdown now is the perfect time to focus on self improvement. I've mentored thousands of men through fitness and philosophy coaching, here are a few of their [experiences in their own words.](https://glophilosophy.org) You can contact me through that link or shoot me a PM if interested.
+
+CLASSIFICATION:
+

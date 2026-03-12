@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Commencing upon a notice of termination under Section 6.2 or 6.3 (including notice based upon default by TAG) and continuing for a period, designated by TAG, of up to twelve (12) months thereafter, LMG shall provide to TAG the reasonable termination assistance requested by TAG to allow the LMG Services to continue without interruption or adverse effect and to facilitate the orderly transfer of the LMG Services to TAG or its designee ("Termination Assistance").
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,45 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Your body count is quite low. The truth, it's about your physical attractiveness. Guys that seemingly do not have issues with getting women do not need to study seduction or any strategy, why is that? It's because there are a lot of women who enjoy what they are looking at, just like you enjoy what you are looking at when you date someone. 
+
+I don't know why it is that men think just because you have a good job, average in physical appearance and understand some strategy that they should be able to hook up with a woman. It doesn't work like this.. 
+
+Would you date a women who was a 2 in looks but had a great job? Why would a woman want to do that then?...  
+
+You likely have adequate exposure already, it's just that women don't seem to be drawn to you. No psychological strategy is going to work here. If you can humbly admit, that you are probably not the dream guy she has in mind when she thinks of being approached by a male, then you have a shot here. 
+
+You know what women want. The want a good looking guy. Do whatever you need to do to be a good looking guy. Women can put up with a shitty personality, but they will not put up with a an 'okay' looking dude... She only does this when she needs stability and has less options, by then, you have a woman who has goals for the relationship. The I need kids trap and the husband trap.
+
+CLASSIFICATION:
+

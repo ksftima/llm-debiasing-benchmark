@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Distributor shall only distribute or sell the Products to customers who are licensed health care professionals and meet the other requirements set forth in Exhibit B.
+
+CLASSIFICATION:
+ 

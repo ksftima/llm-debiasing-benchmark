@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such grant by PPI shall include the right of EKR to market the Product in the Territory during the Term as an EKR product using in addition to the Trademarks, EKR's own trademarks, trade dress, trade names and other proprietary designations in combination with the Trademarks.
+
+CLASSIFICATION:
+ 

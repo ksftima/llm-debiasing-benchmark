@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is being small for gestational age a risk factor for retinopathy of prematurity? To analyze prevalence and risk factors for retinopathy of prematurity (ROP) among preterm infants born small for gestational age (SGA) and appropriate for gestational age (AGA). A prospective cohort study included preterm infants with birth weight (BW)<or = 1,500 grams and gestational age (GA)<or = 32 weeks, divided into two groups: AGA or SGA. Prevalences and risk factors for ROP were determined in both groups. Logistic regression was used for the significant variables after univariate analysis. A total of 345 patients were examined: 199 included in the AGA group and 146 in the SGA. Mean BW and GA in the whole cohort (345 patients) were 1,128.12 grams (+/-239.9) and 29.7 weeks (+/-1.9), respectively. The prevalence of any stage ROP and severe ROP (needing treatment) was 29.6 and 7.0%, respectively. ROP in any evolutive stage developed in 66 AGA (33.2%) and in 36 SGA (24.7%) (p = 0.111). Severe ROP occurred in 15 AGA (7.5%) and in nine SGA (6.2%) (p = 0.779). After adjusted logistic regression, weight gain from birth to sixth week of life and need for blood transfusions were found to be significant risk factors for ROP in both groups.
+
+CLASSIFICATION: 

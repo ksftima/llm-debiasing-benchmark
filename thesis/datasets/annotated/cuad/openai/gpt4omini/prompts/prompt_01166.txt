@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this Agreement, *** shall, at no cost to the ***, maintain (or cause to be maintained) the following insurance coverage with insurers having a "Best's" rating of A­VIII or better: commercial general liability insurance, including coverage for bodily injury, property damage, personal and advertising injury, products/completed operations and contractual liability with a minimum amount of ten million US Dollars (USD $10,000,000.00) for each occurrence. *** shall furnish the other Party with a certificate of insurance evidencing such insurance coverage, which shall further contain a provision that the<omitted>policy or policies evidenced thereby shall not be canceled or modified without thirty (30) days advance written notice.
+
+CLASSIFICATION:
+ 

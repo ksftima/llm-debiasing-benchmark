@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+High n count and long term relationships. Red Pill truths confirmed by a plate.TL;DR: A plate of mine confirmed red pill truths about how her having a very high N count resulted in not a single meaningful long term relationship that she so wanted to have.
+
+We always read and its been posted many times here that a high N count in women rarely leads to any meaningful, bonding, long term relationships. Well, this time I heard it from the horse's mouth itself - one of my plates. Quick story.
+
+This girl, just turned 25, is a new plate I got from everyone's favorite toilet pastime - tinder. We've fucked a total of 2 times within a few days, both in my car as she lives with some relatives or whatever. Anyway, right before we smashed the second time, we were in the backseat just having some "heart to heart" i.e. her getting emotional and telling me her past experiences and spinning the hamster in overdrive. She tells me things about her past how she *went* through the "slut phase" (meanwhile her tinder profile still states something like "looking for fun, etc"), how she's been with many guys, how she doesn't care what the society thinks of her sexually liberating ways, and how she has attachment issues (shocker). 
+
+Then she hits me with "I think we should hold off on having sex". I asked what gives, especially since whe already smashed once? She says that she really likes me and is very attracted to me and that she feels we have a "special connection" (fuck them proper the first time, fellas) and that she's afraid that I would not stick around for long (ya think?). Now, since she just literally sucked me off for 15 minutes and I'm hard as a rock, I want to stop this hamster from burning out, so I try to salvage the situation. I ask her why she thinks this and that I agree that we do have a unique connection together (lol.. well, sexually anyway). She goes on telling me that she never really had a meaningful relationship (another shocker) and all she had was "a lot" of short lived, sexual in nature flings where the guy would just disappear after about a month or two while she would get attached easily, especially after great sex (here I thought she was about to become self aware, but.. nope). 
+
+At this point I said "Didn't your profile state you're looking for a fun time?" She replied something like "Yes, but somehow this particular relationship with you is different and I feel closer to you than to other men I've been with." I replied that while talking about a serious relationship at this stage is way too premature as we barely know each other at all, only time will tell if we end up getting closer or not. Another important thing I told her was that while the sex is definitely great and since we're in the infatuation stage with each other as it normally happens after two people first hook up, we should not get attached to the feeling and look at things from a practical standpoint. This seemed to calm her down a bit and I let her spin the hamster to a conclusion that all is good. After which we got down to business. 
+
+Obviously I did not want to get into a red pill TED talk with her about how banging every guy she meets is not a healthy way to build any sort of long lasting and bonding relationship, since that would take a few years to unpack fully and you also never want to go into these talks with them since these usually backfire on you (plenty of posts on this in the sub here).
+
+CLASSIFICATION:
+

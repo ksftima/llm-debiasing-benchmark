@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Lol of course.  That's why I made a new account and stopped subbing or posting on normie subs.  All they do is downvote the shit out of you until you're posting quota capped and/or shadow banned.  
+
+You don't even have to get formally banned, they just abuse the karma system to ensure that you never challenge their pathetic worldview.
+
+If you do ever want to argue with the opposing sides a little, you're better off posting on right wing subs because there will be just enough of an opposing side presence for you to have an argument, but, enough people will agree with you that you'll stay in positive karma and avoid being shut out.
+
+Or just post in places like this and forget these faggelas even exist at all.
+
+CLASSIFICATION:
+

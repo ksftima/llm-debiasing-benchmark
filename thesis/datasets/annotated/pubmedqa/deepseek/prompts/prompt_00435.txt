@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Steroids in aminoglycoside-containing ear drops: do they reduce cochlear toxicity? To determine whether betamethasone (BM) reduces the cochlear toxicity of otic gentamicin (GM) if given together. Controlled animal study. Thirty-four mice were assigned at random to receive intratympanic injections of either 0.1 % BM (11 mice), 0.3% GM (13 mice), or a combination of both (GM/BM) with benzalkonium chloride (10 mice) in the left ear (treated) and saline on the right (untreated). Six injections were given on alternate days. Auditory brainstem response thresholds were assessed at 1 month, 2 months, and>2 months. There was a significantly greater degree of hearing loss in the BM-treated ears compared to the untreated ears (6.48 dB hearing loss, P = .007) and in the GM-treated ears compared to untreated ears (6.59 dB hearing loss, P = .010,). However, otic GM/BM and benzalkonium chloride did not cause significant additional hearing loss compared with the untreated ears (3.56 dB hearing loss, P = .242).
+
+CLASSIFICATION: 

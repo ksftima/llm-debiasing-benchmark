@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can nonproliferative breast disease and proliferative breast disease without atypia be distinguished by fine-needle aspiration cytology? Cytologic criteria reported to be helpful in the distinction of proliferative breast disease without atypia (PBD) from nonproliferative breast disease (NPBD) have not been rigorously tested. Fifty-one air-dried, Diff-Quik-stained fine-needle aspirates (FNA) of palpable breast lesions with biopsy-proven diagnoses of NPBD (34 cases) or PBD (17 cases) were reviewed. The smears were evaluated for the cellularity, size, and architectural arrangement of the epithelial groups; the presence of single epithelial cells and myoepithelial cells; and nuclear characteristics. The only cytologic feature found to be significantly different between PBD and NPBD was a swirling pattern of epithelial cells. A swirling pattern was noted in 13 of 17 PBD cases (76%) and 12 of 34 NPBD cases (35%) (P = 0.008).
+
+CLASSIFICATION: 

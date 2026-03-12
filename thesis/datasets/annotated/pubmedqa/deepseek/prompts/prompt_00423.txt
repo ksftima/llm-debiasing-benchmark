@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the zeolite hemostatic agent beneficial in reducing blood loss during arterial injury? Uncontrolled hemorrhage is the leading cause of fatality. The aim of this study was to evaluate the effect of zeolite mineral (QuikClot - Advanced Clotting Sponge [QC-ACS]) on blood loss and physiological variables in a swine extremity arterial injury model. Sixteen swine were used. Oblique groin incision was created and a 5 mm incision was made. The animals were allocated to: control group (n: 6): Pressure dressing was applied with manual pressure over gauze sponge; or QC group (n: 10): QC was directly applied over lacerated femoral artery. Mean arterial pressure, blood loss and physiological parameters were measured during the study period. Application of QC led to a slower drop in blood pressure. The control group had a significantly higher increase in lactate within 60 minutes. The mean prothrombin time in the control group was significantly increased at 60 minutes. The application of QC led to decreased total blood loss. The QC group had significantly higher hematocrit levels. QC application generated a significant heat production. There were mild edematous and vacuolar changes in nerve samples.
+
+CLASSIFICATION: 

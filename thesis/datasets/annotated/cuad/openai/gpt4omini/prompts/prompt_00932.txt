@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of any breach of Sections 9.1 through 9.3, including without limitation, any actions by stockholders of Qualigen that result in a Sale Transaction without complying with Sections 9.1 through 9.3 above, or otherwise hinder the intent and purpose of the provisions of Sections 9.1 through 9.3 above, in addition to any other remedies available to Sekisui under the terms of this Agreement, including the right to specific performance and other equitable remedies, Sekisui shall be entitled to liquidated damages in the amount of three times any and all Financing Payments made to date.
+
+CLASSIFICATION:
+ 

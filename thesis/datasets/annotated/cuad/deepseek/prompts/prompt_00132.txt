@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Articles 5.1 and 5.2, IGER grants CERES an exclusive, world-wide license, with the right to grant sublicenses, to use and exploit commercially (a) IGER's interest in any JOINT INTELLECTUAL PROPERTY (including but not limited to RELEASED VARIETIES) and OTHER RESEARCH RESULTS; (b) IGER INTELLECTUAL PROPERTY and (c) when and only to the extent necessary for the commercialization or use of JOINT INTELLECTUAL PROPERTY and/or OTHER RESEARCH RESULTS and/or IGER INTELLECTUAL PROPERTY for the COLLABORATION CROPS, IGER BACKGROUND INTELLECTUAL PROPERTY, subject to paying IGER reasonable remuneration (whether as a royalty or in some other form as the Parties may agree) to be negotiated in good faith.
+
+CLASSIFICATION:
+ 

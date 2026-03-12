@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to any outstanding Guarantee payments which Licensee shall pay to Fox as set forth in Paragraph 3 of this Amendment below, Licensee shall pay to Fox a minimum recoupable guarantee of ***** dollars (US$*****) on or before ***** ("ICE AGE 2 Guarantee"), and ***** The omitted portions of this exhibit have been filed with the Securities and Exchange Commission pursuant to a request for confidential treatment under Rule 406 promulgated under the Securities Act of 1933. Source: GLU MOBILE INC, S-1/A, 3/19/2007 Fox shall earn, and Licensee shall pay the applicable Major Release Royalties as set forth in Paragraph 7(a)(i) of the Agreement in connection with the property "ICE AGE 2".
+
+CLASSIFICATION:
+ 

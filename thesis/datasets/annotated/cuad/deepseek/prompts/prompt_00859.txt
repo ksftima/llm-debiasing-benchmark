@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NOTWITHSTANDING THE FOREGOING, THESE LIMITATIONS SHALL NOT APPLY TO DAMAGES ARISING FROM A PARTY'S (I) INDEMNIFICATION OBLIGATIONS UNDER SECTION 11.1 OR SECTION 11.2 HEREOF, (II) GROSS NEGLIGENCE OR WILFUL MISCONDUCT, (III) BREACH OF ITS OBLIGATIONS UNDER SECTION 9 OR (IV) INFRINGEMENT OR MISAPPROPRIATION OF THE OTHER PARTY'S INTELLECTUAL PROPERTY.
+
+CLASSIFICATION:
+ 

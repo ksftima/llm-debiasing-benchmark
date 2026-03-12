@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there awareness of pharmaceutical expenditure in the reformed primary care system? To evaluate the effectiveness of feeding information on pharmacy back to primary care doctors in order to create awareness (knowledge) of pharmaceutical expenditure (PE). Retrospective cross-sectional study, through personal interview. Reformed PC, Sabadell, Barcelona. The 80 PC doctors working with primary care teams. As the personal feed-back on PE, each doctor was asked for the PE generated during 1997 and the mean cost of prescriptions to active and pensioner patients. The statistical test used was the t test to compare means for paired data, with p<0.05 the required level of significance. Out of the total doctors interviewed (80), 71 replies were obtained for the annual PE and 76 for the mean cost of prescriptions, for both active and pensioner patients. Significant differences were found between the annual PE in reality and doctors' estimates: around twelve million pesetas. The differences between the real mean costs of prescription and the estimates were also significant.
+
+CLASSIFICATION: 

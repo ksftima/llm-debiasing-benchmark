@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I remember having an existential meltdown once I had life served to me on a silver platter. Multiple girlfriends; I lived to fuck and smoke free weed these hoes were buying me. I was being worshipped like a god.
+
+I had never been so miserable in my life. Shattered it all so I can go back home and find my true passion. (Music) Having been fucked out and served all the female validation my little former beta self could ever ask for years, Ive got all the time and fuck all to care about girls. I just want to get educated as a backup plan and preform my own concerts.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Producer further grants to ConvergTV the right and license to create (re-edit), at its sole cost and expense, new and different versions of the Program, create foreign language, subtitled or translated versions of the Program as well as to create closed captioned versions of the Program, including NTCS, PAL, SEACAM standards, or other standards, including those yet to be developed.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You covenant that during the term of this Agreement, except as otherwise approved in writing by us, you will not, either directly or indirectly, for yourself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation or company:<omitted>3. Directly or indirectly, for yourself or through, on behalf of, or in conjunction with any person or entity, own, manage, operate, maintain, engage in, consult with or have any interest in: a) any restaurant business, b) any prepared food business, or c) any other business which sells or offers to dispense prepared food products the same as or similar to the type sold in the System.
+
+CLASSIFICATION:
+ 

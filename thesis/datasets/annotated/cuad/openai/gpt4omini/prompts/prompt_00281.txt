@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions set forth herein, Theismann hereby grants to Bizzingo and its affiliates the unlimited right and privilege during the Term (as defined herein) and within the Territory to use the Property (as defined herein) in connection with the advertisement, promotion, and sale of the Network in the Territory whether through film, television, radio, print and Internet media, including the right to use the Property in or on the Network. I
+
+CLASSIFICATION:
+ 

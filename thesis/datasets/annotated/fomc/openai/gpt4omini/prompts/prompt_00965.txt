@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Global factors may have put downward pressure on term premiums because of anxiety about the foreign outlook, which may have increased demand for U.S. assets, or because low rates abroad have depressed U.S. term premiums through a global portfolio balance channel.5 And real rates are quite low globally, reflecting the step-down of productivity growth over the past 10 years as well as shifts in savings and investment demand due to demographic change.6 The Core of the Financial System Is Much Stronger Before turning to the interplay between low rates and the financial system, I will simply point out that both improved risk management at the largest, most systemically important financial institutions (SIFIs) and stronger regulation have made the core of the system much stronger and more resilient than before the crisis.7 The SIFIs have more stable funding, hold much more capital and liquidity, are more conscious of their risks, and are far more resolvable should they fail.
+
+CLASSIFICATION:

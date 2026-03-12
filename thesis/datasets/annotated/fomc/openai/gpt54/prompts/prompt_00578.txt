@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Participants agreed to continue to explore ways to increase transparency and clarity in the Committee's policy communications, and they indicated a willingness to look into modifications to the SEP. At the end of the discussion, the Chairman asked the subcommittee on communications to explore potential approaches to providing more information about the Committee's collective judgment regarding the economic outlook and appropriate monetary policy through the SEP.
+
+CLASSIFICATION:

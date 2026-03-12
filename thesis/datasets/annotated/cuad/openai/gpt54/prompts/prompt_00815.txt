@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except for the subcontractors appointed by MMT as of the Effective Date as listed on Exhibit A attached hereto, MMT may not grant sublicenses of the rights and licenses granted to it in Section 2.1(a) to any Affiliate (including Pfizer or any Affiliate of Pfizer) or Third Party without the prior written approval of SIGA (such approval not to be unreasonably withheld).
+
+CLASSIFICATION:
+ 

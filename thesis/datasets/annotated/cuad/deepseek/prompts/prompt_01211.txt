@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall continue in effect for a period of one year from the date of its execution and from year to year thereafter provided such continuance is specifically approved by a majority of the trustees of the Trust who (i) are not "interested persons" of the Trust or any other party to this Agreement, as defined in the 1940 Act, and (ii) have no direct or indirect financial interest in the operation of this Agreement ("Non- Interested Trustees")
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the avoidance of doubt, DIALOG will be permitted to Sell Licensed Products for use in any or all of the Excluded Applications (A) at any time on or after [***] or, if earlier, (B) [***] that incorporates ENERGOUS wireless charging technology, or (C) upon the termination of ENERGOUS' exclusivity obligations to the Key Customer existing as of the Effective Date with respect to the above applications.
+
+CLASSIFICATION:
+ 

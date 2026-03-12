@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Thanks man. Reminders of why I adopted the whole TRP philosophy is exactly what I was aiming for with my post here.
+
+I actually just got out of a therapy appt (which prompted this post) and I did try to do that as best I could, because I KNOW how another woman typically reacts when they hear a mans perspective thats through a TRP lens. Theyre shameful and thats what I felt covertly during the appt. Women do not like to hear the truth of how they behave, thats for sure.
+
+CLASSIFICATION:
+

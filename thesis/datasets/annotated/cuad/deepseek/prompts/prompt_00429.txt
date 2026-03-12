@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Vyera shall not Commercialize nor shall it authorize the Commercialization of any Licensed Product outside of the Field or outside of the Territory.
+
+CLASSIFICATION:
+ 

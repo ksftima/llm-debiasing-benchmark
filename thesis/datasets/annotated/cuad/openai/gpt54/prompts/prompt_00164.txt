@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SpinCo (i) shall not use or exploit the Licensed SpinCo Intellectual Property in the RemainCo Core Field and (ii) shall not, and shall not permit any member of the SpinCo Group to, license, provide or otherwise grant to any Third Party the right to use, exploit or access any Licensed SpinCo Intellectual Property in the RemainCo Core Field.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the atopy patch test with house dust mites specific for atopic dermatitis? The atopy patch test (APT), namely the patch test with aeroallergens, is regarded as specific for patients with atopic dermatitis (AD), but small numbers of positive APT were reported in the past also in atopic subjects without dermatitis and in healthy persons. The aim of this study was to evaluate the response to the APT with house dust mites (HDM) in subjects nonaffected by AD and to compare the outcomes observed in these cases with those pointed out in AD patients, evaluating also the differences between two allergen extracts manufactured at different purifications and concentrations. Forty-seven atopic subjects without eczema (AWE), 33 nonatopic (NA) subjects and 77 adult AD patients were patch tested with an extract of purified bodies of HDM at 20% and with another extract of whole bodies of HDM at 30%, the latter corresponding to 300 microg/g of Der p 1. The reproducibility of APT was also tested in 8 AD patients, in 37 AWE subjects and in 19 NA subjects. Positive responses with extract at 20% were observed in 29 (37.7%) AD, in 5 (10.6%) AWE and in 4 (12.1%) NA subjects. The APT with HDM at 30% was positive in 32 (41.6%) AD, 9 (19.1%) AWE and 4 (12.1%) NA persons. The rates of positivity and the intensity scores of responses were significantly different between AD and non-AD subjects (p<0.01). The reproducibility of the APT in the three groups was satisfactory.
+
+CLASSIFICATION: 

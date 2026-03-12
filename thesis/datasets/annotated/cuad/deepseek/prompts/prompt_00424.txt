@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+iPass grants to Channel Partner a nonexclusive, terminable right to: (i) access and otherwise use the Licensed Software, and iPass Marks as provided in Exhibit F solely in furtherance of this Agreement and not for other internal business purposes, (ii) sell or re-license the Licensed Software, Documentation and Services to Business Entities and End Users, and (iii) install and execute the Server Software on up to three (3) designated servers and one backup server for Channel Partner and for each End User.
+
+CLASSIFICATION:
+ 

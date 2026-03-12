@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+eDiets hereby grants to Women.com, subject to the terms and conditions of this Agreement, a non-exclusive, nontransferable, worldwide, royalty-free license to use, copy, reproduce and display the editorial content and other data, branding and other identification provided by eDiets to Women.com in connection with this Agreement (the "eDiets Content") on the Women.com Sites: (i) for publication in the Diet Center and elsewhere throughout the Women.com Sites; (ii) for the promotion of eDiets and the Diet Center on the Women.com Sites and in collateral advertising materials; and (iii) for such other purposes as are consistent with or otherwise authorized under this Agreement.
+
+CLASSIFICATION:
+ 

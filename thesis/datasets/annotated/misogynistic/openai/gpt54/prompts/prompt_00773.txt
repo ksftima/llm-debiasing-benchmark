@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+There's a lot of layers to it to hate. I think what irritates me the most is the inferred superiority in it. There are circumstances where I can imagine the word 'slut' being used either between consenting adults into dirty talk, or even as a self-identifier used with pride. I can't imagine 'thot' being used in any such way, because its always about that girl over there whose a whore. I find something deeply offensive in the idea that you're better than a woman, because she's had sex, or more likely, feels any sort of ownership in her own sexuality.
+
+This tries directly into it being related to this fragile, bullshit macho attitude. There's a distinct component to toxic masculinity that is the idea that a man is inherently superior to a woman, and should have the pick of the litter for some idiot ideal of pure virgin waifu who's never so much as conceived of a dick and is outright terrified of masculine power.  Thot is an extension of this, a declaration of being above a woman who simply isn't some submissive, terrified maiden.
+
+Also I just think it sounds stupid if you say it out loud.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to the royalty provided in Article 4.2, CERES agrees to pay a royalty on NET SALES of the LICENSED VARIETY equal to the royalty due, on the basis of the Convention on Biological Diversity, by IGER to the country or countries where the material on which the LICENSED VARIETY is based has been collected, up to a maximum of [***] percent ([***]%) of NET SALES, and an equivalent additional royalty on LICENSE INCOME to be determined.
+
+CLASSIFICATION:
+ 

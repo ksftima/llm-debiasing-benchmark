@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Validation of the 2009 TNM version in a large multi-institutional cohort of patients treated for renal cell carcinoma: are further improvements needed? A new edition of the TNM was recently released that includes modifications for the staging system of kidney cancers. Specifically, T2 cancers were subclassified into T2a and T2b (<or =10 cm vs>10 cm), tumors with renal vein involvement or perinephric fat involvement were classified as T3a cancers, and those with adrenal involvement were classified as T4 cancers. Our aim was to validate the recently released edition of the TNM staging system for primary tumor classification in kidney cancer. Our multicenter retrospective study consisted of 5339 patients treated in 16 academic Italian centers. Patients underwent either radical or partial nephrectomy. Univariable and multivariable Cox regression models addressed cancer-specific survival (CSS) after surgery. In the study, 1897 patients (35.5%) were classified as pT1a, 1453 (27%) as pT1b, 437 (8%) as pT2a, 153 (3%) as pT2b, 1059 (20%) as pT3a, 117 (2%) as pT3b, 26 (0.5%) as pT3c, and 197 (4%) as pT4. At a median follow-up of 42 mo, 786 (15%) had died of disease. In univariable analysis, patients with pT2b and pT3a tumors had similar CSS, as did patients with pT3c and pT4 tumors. Moreover, both pT3a and pT3b stages included patients with heterogeneous outcomes. In multivariable analysis, the novel classification of the primary tumor was a powerful independent predictor of CSS (p for trend<0.0001). However, the substratification of pT1 tumors did not retain an independent predictive role. The major limitations of the study are retrospective design, lack of central pathologic review, and the small number of patients included in some substages.
+
+CLASSIFICATION: 

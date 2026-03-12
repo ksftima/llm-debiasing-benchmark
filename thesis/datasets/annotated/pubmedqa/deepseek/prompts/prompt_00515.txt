@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does higher body mass index contribute to worse asthma control in an urban population? Epidemiologic findings support a positive association between asthma and obesity. Determine whether obesity or increasing level of body mass index (BMI) are associated with worse asthma control in an ethnically diverse urban population. Cross-sectional assessment of asthma control was performed in patients with asthma recruited from primary care offices by using 4 different validated asthma control questionnaires: the Asthma Control and Communication Instrument (ACCI), the Asthma Control Test (ACT), the Asthma Control Questionnaire (ACQ), and the Asthma Therapy Assessment Questionnaire (ATAQ). Multiple linear regression analysis was performed to evaluate the association between obesity and increasing BMI level and asthma control. Of 292 subjects with a mean age of 47 years, the majority were women (82%) and African American (67%). There was a high prevalence of obesity with 63%, with only 15% normal weight. The mean score from all 4 questionnaires showed an average suboptimal asthma control (mean score/maximum possible score): ACCI (8.3/19), ACT (15.4/25), ACQ (2.1/6), and ATAQ (1.3/4). Regression analysis showed no association between obesity or increasing BMI level and asthma control using all 4 questionnaires. This finding persisted even after adjusting for FEV(1), smoking status, race, sex, selected comorbid illnesses, and long-term asthma controller use.
+
+CLASSIFICATION: 

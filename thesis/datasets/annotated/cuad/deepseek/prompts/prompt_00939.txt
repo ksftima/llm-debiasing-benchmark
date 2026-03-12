@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NEITHER PARTY SHALL NOT BE LIABLE TO THE OTHER FOR ANY DAMAGES, LOSSES OR EXPENSES RESULTING FROM ANY TERMINATION OR EXPIRATION OF THIS AGREEMENT ARISING FROM ANY CLAIMS ASSERTED WHICH ARE BASED UPON LOSS OF GOODWILL, PROSPECTIVE PROFITS OR ANTICIPATED ORDERS, OR ON ACCOUNT OF ANY EXPENDITURES, INVESTMENTS, LEASES OR COMMITMENTS MADE BY SUCH PARTY;
+
+CLASSIFICATION:
+ 

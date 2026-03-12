@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content); (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks); and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures); and (d) Client's Confidential Information (as defined below).
+
+CLASSIFICATION:
+

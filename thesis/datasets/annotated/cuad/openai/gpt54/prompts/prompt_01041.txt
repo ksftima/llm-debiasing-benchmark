@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+LEA and T&B shall jointly own all jointly-created work product including, but not limited to, ideas, any and all concepts, designs, Customer Data (including client lists) generated through the conduct of the Business, programs, software, reports, or other intellectual property and tangible work product, produced for the Business , regardless of whether such were incorporated into or used by the Business (collectively "Work Product"), shall be and remain the joint property of LEA and T&B when produced provided, however, (i) to the extent LEA has contributed distinct and divisible work product to the Business during the Term ("LEA Work Product"), such LEA Work Product shall remain frozen for a period not to exceed 90 days, during which time T&B may acquire a license for the LEA Work Product by reimbursing LEA direct and verifiable costs LEA incurred in producing the LEA Work Product during the Term and (ii) to the extent T&B has contributed distinct and divisible work product to the Business during the Term ("T&B Work Product"), such T&B Work Product shall remain frozen for a period not to exceed 90 days, during which time LEA may acquire license for the T&B Work Product by reimbursing T&B direct and verifiable costs T&B incurred in producing the T&B Work Product during the Term.
+
+CLASSIFICATION:
+ 

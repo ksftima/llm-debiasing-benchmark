@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do emergency ultrasound fellowship programs impact emergency medicine residents' ultrasound education? Recent years have seen a rapid proliferation of emergency ultrasound (EUS) programs in the United States. To date, there is no evidence supporting that EUS fellowships enhance residents' ultrasound (US) educational experiences. The purpose of this study was to determine the impact of EUS fellowships on emergency medicine (EM) residents' US education. We conducted a cross-sectional study at 9 academic medical centers. A questionnaire on US education and bedside US use was pilot tested and given to EM residents. The primary outcomes included the number of US examinations performed, scope of bedside US applications, barriers to residents' US education, and US use in the emergency department. The secondary outcomes were factors that would impact residents' US education. The outcomes were compared between residency programs with and without EUS fellowships. A total of 244 EM residents participated in this study. Thirty percent (95% confidence interval, 24%-35%) reported they had performed more than 150 scans. Residents in programs with EUS fellowships reported performing more scans than those in programs without fellowships (P = .04). Significant differences were noted in most applications of bedside US between residency programs with and without fellowships (P<.05). There were also significant differences in the barriers to US education between residency programs with and without fellowships (P<.05).
+
+CLASSIFICATION: 

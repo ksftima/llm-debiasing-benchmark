@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Staging laparoscopy in patients with hepatocellular carcinoma: is it useful? Staging laparoscopy (SL) is not regularly performed for patients with hepatocellular carcinoma (HCC). It may change treatment strategy, preventing unnecessary open exploration. An additional advantage of SL is possible biopsy of the nontumorous liver to assess fibrosis/cirrhosis. This study aimed to determine whether SL for patients with HCC still is useful. Patients with HCC who underwent SL between January 1999 and December 2011 were analyzed. Their demographics, preoperative imaging studies, surgical findings, and histology were assessed. The 56 patients (34 men and 22 women; mean age, 60 ± 14 years) in this study underwent SL for assessment of extensive disease or metastases. For two patients, SL was unsuccessful because of intraabdominal adhesions. For four patients (7.1 %), SL showed unresectability because of metastases (n = 1), tumor progression (n = 1), or severe cirrhosis in the contralateral lobe (n = 2). An additional five patients did not undergo laparotomy due to disease progression detected on imaging after SL. Exploratory laparotomy for the remaining 47 patients showed 6 (13 %) additional unresectable tumors due to advanced tumor (n = 5) or nodal metastases (n = 1). Consequently, the yield of SL was 7 % (95 % confidence interval (CI), 3-17 %), and the accuracy was 27 % (95 % CI, 11-52 %). A biopsy of the contralateral liver was performed for 45 patients who underwent SL, leading to changes in management for 4 patients (17 %) with cirrhosis.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+License Grants. 1. RevMed License to SHP2 Inhibitors. Sanofi shall, effective upon any such termination of this Agreement, and hereby does, grant to RevMed [***], under all [***], and [***], to [***]. Notwithstanding the foregoing, [***] shall not include [***], and [***] shall include [***] (to the extent [***]). 2. RevMed License to Practice Certain Combinations. Sanofi shall, effective upon any such termination of this Agreement, and hereby does, grant to RevMed [***], under [***], and [***] (but excluding [***]). For the avoidance of doubt, [***] licensed under this Section 12.3(c)(ii)(A)(2) do not [***]. 60 Source: REVOLUTION MEDICINES, INC., S-1, 1/17/2020 3. Sanofi License to Practice Certain Combinations. [***] RevMed shall, effective upon any such termination of this Agreement, and hereby does, grant to Sanofi [***], under [***], and [***]. For the avoidance of doubt, [***] licensed under this Section 12.3(c)(ii)(A)(3) do not [***]. If Sanofi [***], Sanofi shall so notify RevMed in writing, and [***].
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can echocardiography and ECG discriminate hereditary transthyretin V30M amyloidosis from hypertrophic cardiomyopathy? Hereditary transthyretin (ATTR) amyloidosis with increased left ventricular wall thickness could easily be misdiagnosed by echocardiography as hypertrophic cardiomyopathy (HCM). Our aim was to create a diagnostic tool based on echocardiography and ECG that could optimise identification of ATTR amyloidosis. Data were analysed from 33 patients with biopsy proven ATTR amyloidosis and 30 patients with diagnosed HCM. Conventional features from ECG were acquired as well as two dimensional and Doppler echocardiography, speckle tracking derived strain and tissue characterisation analysis. Classification trees were used to select the most important variables for differentiation between ATTR amyloidosis and HCM. The best classification was obtained using both ECG and echocardiographic features, where a QRS voltage>30 mm was diagnostic for HCM, whereas in patients with QRS voltage<30 mm, an interventricular septal/posterior wall thickness ratio (IVSt/PWt)>1.6 was consistent with HCM and a ratio<1.6 supported the diagnosis of ATTR amyloidosis. This classification presented both high sensitivity (0.939) and specificity (0.833).
+
+CLASSIFICATION: 

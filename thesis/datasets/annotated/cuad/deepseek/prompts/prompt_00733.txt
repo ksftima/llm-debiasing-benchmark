@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Party A shall not establish any same or similar cooperative relationship with any third party in respect of such businesses nor shall it make any same or similar arrangement, unless with the prior written consent of Party B.
+
+CLASSIFICATION:
+ 

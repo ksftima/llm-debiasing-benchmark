@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+THC will assign all right, title and interest in and to the THC ERB Domains (those domains owned by THC related to the ERB that do not incorporate the mark/name HERTZ) as set forth on Schedule H to HERC and as more fully set forth in the Domain Name Assignment attached hereto as Exhibit D.
+
+CLASSIFICATION:
+ 

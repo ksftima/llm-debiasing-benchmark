@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can p53 alterations be used to predict tumour response to pre-operative chemo-radiotherapy in locally advanced rectal cancer? To examine whether p53 tumour suppressor gene alterations can be used to predict tumour response to pre-operative chemo-radiation in locally advanced rectal cancer in terms of reduction in tumour size and local failure. p53 alterations were studied in pre-treatment biopsy specimens of rectal carcinomas from 48 patients by immunohistochemistry (IHC) and polymerase chain reaction/single strand conformation polymorphism (PCR-SSCP) gene mutation analysis. Pre-operative pelvic radiotherapy was delivered with four fields, 45 Gy to the ICRU point in 25 fractions over 5 weeks. A radio-sensitising dose of 5-fluorouracil (500 mg/m(2)) was delivered concurrently for 6 days of the 5-week schedule (days 1, 2, 3 and days 22, 23 and 24). Total meso-rectal excision was planned 4 to 6 weeks from completion of pre-operative treatment. Response to therapy was assessed by macroscopic measurement of the surgical specimen by a pathologist who was unaware of the pre-treatment tumour size or of the p53 status. IHC evidence of p53 protein accumulation was found in 40% of tumours, p53 gene mutation in 35% and p53 alteration (either or both changes) in 46%. The average reduction in tumour size was 53% in the group with 'wild-type' p53 (IHC-/SSCP-) and 63% in the group with altered p53 (either IHC+ or SSCP+; P=0.18). No significant differences in tumour size reduction or local failure were observed in the groups with p53 overexpression or p53 mutation compared with normal.
+
+CLASSIFICATION: 

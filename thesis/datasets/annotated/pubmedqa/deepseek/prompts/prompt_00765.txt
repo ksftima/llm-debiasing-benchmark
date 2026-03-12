@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Nutritional assessment of gluten-free diet. Is gluten-free diet deficient in some nutrient? The gluten-free diet has traditionally been accepted as a healthy diet, but there are articles advocating that it may have some nutritional deficiencies. The current study assesses whether there was any change in the contributions of calories, essential elements, proportion of fatty acids, vitamins, minerals and fiber in children who were diagnosed with celiac diseases, comparing the diet with gluten prior one year after diagnosis with the diet without gluten to the year of diagnosis. The level of clinical or analytical impact that nutritional deficits could have was also assessed. A prospective,descriptive, observational study in which information was collected from a dietary survey, anthropometric and analytical data at pre-diagnosis of celiac disease and following a gluten diet and one year after celiac disease diagnosis, under gluten-free diet. A total of 37 patients meet the study criteria. A decrease in the intake of saturated fatty acids was found, with an increase of monounsaturated fatty acids and an increase in the intake of phosphorus in the diet without gluten. A deficient intake of vitamin D was found in both diets. Clinically, at year of gluten-free diet there was an improvement in weight and size. Analytically, there was an improvement in hemoglobin, ferritin, vitamin D, and parathyroid hormone in plasma.
+
+CLASSIFICATION: 

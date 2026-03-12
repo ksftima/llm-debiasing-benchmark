@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 3.2, each Assignor Party, on behalf of itself and the other members of the Assignor Group, hereby irrevocably assigns to the applicable Assignee Party, and agrees to irrevocably assign to the applicable Assignee Party, all of its and the other members of the Assignor Group's rights, title and interest in and to any and all Intellectual Property Rights owned by the Assignor Party or another member of the Assignor Group that meets one or more of the following descriptions: (a) the Intellectual Property Rights are Requester Foreground IPR conceived or created in the course of services concerning which the Assignee Party or another member of the Assignee Group was the Requester, and the Assignor Party or another member of the Assignor Group was the Performer; or (b) the Intellectual Property Rights are Performer Foreground-Delivered IPR conceived or created in the course of services concerning which the Assignee Party or another member of the Assignee Group was the Requester, and the Assignor Party or another member of the Assignor Group was the Performer; or<omitted>(c) the Intellectual Property Rights are Performer Foreground-Undelivered IPR conceived or created in the course of services concerning which the Assignor Party or another member of the Assignor Group was the Requester, and the Assignee Party or another member of the Assignee Group was the Performer (collectively, "Assigned Intellectual Property Rights").
+
+CLASSIFICATION:
+ 

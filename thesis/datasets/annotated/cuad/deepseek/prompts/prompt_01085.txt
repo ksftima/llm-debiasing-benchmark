@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Sponsor decides not to be the category sponsor of the 2016 Event or fails to timely respond to the Notice, then ANTHEMIC may approach other parties to be the category sponsor.
+
+CLASSIFICATION:
+ 

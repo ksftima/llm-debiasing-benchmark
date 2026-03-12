@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The parties shall provide the medium on which the source code shall be supplied, which in default of agreement shall be such medium as the escrow agent NCC Escrow International Limited thinks fit.
+
+CLASSIFICATION:
+ 

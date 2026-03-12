@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Company hereby grants to MA the right to advertise, market and sell to corporate users, government agencies and educational facilities ("Clients") for their own internal language learning, soft skills and communication purposes only, and not for remarketing or redistribution, and not for use in a data center environment for multiple users Clients, unless otherwise agreed to by Company prior in writing, the Technology listed in Schedule A of this Agreement, and to sell and/or bundle Technology Maintenance for the Technology and to provide first line technical support and implementation services for the Technology in the territories listed in Schedule A of this Agreement, providing MA meets the criteria required for delivering services according to Schedule A.
+
+CLASSIFICATION:
+ 

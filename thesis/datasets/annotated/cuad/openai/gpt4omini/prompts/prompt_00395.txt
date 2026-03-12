@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+From and after the expiration of this Agreement, Ono shall have the exclusive, fully paid up, royalty- free right to use (i) Product Trademarks assigned to Ono under Section 12.2, and (ii) those Domain Names licensed to Ono under Section 12.6, in each case solely for purposes of, and to the extent necessary, for Ono to continue to Commercialize the Products in the Field in the Ono Territory.
+
+CLASSIFICATION:
+ 

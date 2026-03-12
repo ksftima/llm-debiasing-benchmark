@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can dobutamine stress echocardiography induce cardiac troponin elevation? Elevation of cardiac troponin (cTn) is considered specific for myocardial damage. Elevated cTn and echocardiogrpahic documentation of wall motion abnormalities (WMAs) that were recorded after extreme physical effort raise the question whether dobutamine stress echo (DSE), can also induce elevation of troponin. we prospective enrolled stable patients (age>18 years) referred to DSE. The exam was performed under standardized conditions. Blood samples for cTnI were obtained at baseline and 18-24 hours after the test. We aimed to compare between the clinical and echocardiographic features of patients with elevated cTnI and those without cTnI elevations. Fifty-seven consecutive patients were included. The average age was 64.4 ± 10.7, 73% of the patients were males, and nearly half of the patients were known to have ischemic heart disease. Two of the patients were excluded due to technical difficulty. No signs of ischemia were recorded in 25 (45.4%). Among the patients with established ischemia on DSE, 12 (22%) had mild ischemia, 13 (23.6%) had moderate and 5 (9%) had severe ischemia. Angiography was performed in 13 (26%) of the patients, of which 7 had PCI and one was referred to bypass surgery. None of the patients had elevated cTnI 18-24 hours after the DSE.
+
+CLASSIFICATION: 

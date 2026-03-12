@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, VerticalNet's activities in connection with its "Storefronts" and "E-Commerce Centers" (as conducted today, in a fashion substantially similar to the manner in which such activities are conducted today or as otherwise mutually agreed upon by the parties, which agreement shall not be unreasonably withheld or delayed) shall not be considered to be a breach of Section 2.1 [MEDICAL PRODUCTS], 2.2 [MEDICAL PRODUCTS] or 2.3 [MEDICAL PRODUCTS].
+
+CLASSIFICATION:
+ 

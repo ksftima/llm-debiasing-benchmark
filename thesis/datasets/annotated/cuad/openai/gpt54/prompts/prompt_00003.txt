@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Accuray hereby grants to Customers of Products a non-exclusive, non-transferable and royalty-free license under any Patents owned by Accuray or the licensing of which is controlled by Accuray that, but for this license, would be infringed by the use of such Products in accordance with the applicable Specification.
+
+CLASSIFICATION:
+ 

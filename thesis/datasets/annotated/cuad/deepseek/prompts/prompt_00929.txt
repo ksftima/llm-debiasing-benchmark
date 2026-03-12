@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Shipper shall be entitled to audit Carrier's applicable books and records for the limited purpose of determining if the amount of any increase pursuant to this Section 6.2 is justified by the actually-incurred and reasonable amount of the aggregate costs and/or expenses relating to the System; provided, however, such audit shall not require Carrier to disclose confidential information of any Person other than Shipper who is a shipper on the System
+
+CLASSIFICATION:
+ 

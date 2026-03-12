@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For clarity the grant of any license under any Invention or assignment of any Invention by either Party does not include any license under any of such Party's Background IP, even where such Background IP dominates or encompasses any Invention.
+
+CLASSIFICATION:
+ 

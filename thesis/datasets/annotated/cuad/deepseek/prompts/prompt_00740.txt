@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to the requirements under this Section 33.0 and upon Bank of America's request, Supplier shall deliver to Bank of America, within thirty (30) calendar days after its receipt by its board of directors or senior management. a copy of any preliminary or final report of audit of Supplier by any third-party auditors retained by Supplier, including any management letter such auditors submit, and on any other audit or inspection upon which Bank of America and Supplier may mutually agree.
+
+CLASSIFICATION:
+ 

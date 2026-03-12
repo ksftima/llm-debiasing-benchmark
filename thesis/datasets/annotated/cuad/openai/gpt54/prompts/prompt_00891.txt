@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, Manufacturer shall not be liable for Losses described in Section 10.1(a) to the extent such Losses are: (i) caused by the gross negligence, fraud or willful misconduct of a Customer Indemnified Party in connection with the performance or non-performance of this Agreement; (ii) caused by the breach of any of the terms of this Agreement or a Facility Addendum by a Customer Indemnified Party, including in connection with the performance or non-performance of this Agreement or (iii) subject to Customer's indemnification obligations pursuant to Section 10.2.
+
+CLASSIFICATION:
+ 

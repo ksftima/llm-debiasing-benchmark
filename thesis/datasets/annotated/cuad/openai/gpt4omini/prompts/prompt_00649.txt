@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The licenses granted in Articles 3.01 to 3.04 of this IP Agreement are subject to a reserved non-exclusive license in the Company to practice the methods described and claimed in the Patents and to make, have made, use, offer to sell, sell and import rare earth products made using such methods, and to use the Technical Information to practice the methods described and claimed in the Patents for such purposes. Such reserved non-exclusive license shall be solely for use by the Company and its Affiliates and shall not be transferable to any Third Party, except in connection with a merger, consolidation, or the sale or transfer of substantially all of the Company's assets associated with the performance of this IP Agreement.
+
+CLASSIFICATION:
+ 

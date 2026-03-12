@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If, within five (5) business days of receipt of such notice from Aura, Zanotti does not agree to match such price, the exclusive supplier rights granted pursuant to Article 2 above shall, upon Aura's sole election, immediately become non-exclusive with respect to such specific Product to which the lower price applies and Aura shall have full discretion to purchase or otherwise obtain such Product from sources other than Zanotti.
+
+CLASSIFICATION:
+ 

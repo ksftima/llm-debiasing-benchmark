@@ -1,0 +1,77 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+I Have Been Doing Cold Approach For 2 Years Now: This Is How I Went From Kissless Handholdless Virgin To 15 Lays In 1 Month&#x200B;
+
+About 3 years ago, I was a 29 year old Asian guy with only a couple months to go before I turned 30, working at a Big 3 Accounting Firm, and I was realizing that I was unhappy and miserable, working long hours at all times of the day and night and spending all my free time playing Overwatch, and Dota 2
+
+And despite earning good money, I had a house and some savings, I just knew my life was NOWHERE near where I wanted it to be or thought it SHOULD be, despite all the years of hard work because I was FOREVER ALONE. I was still a virgin at age 29. A kissless handholdless virgin I just wanted to take the time to finally get this off my chest since I have nothing better to do during the quarantine.
+
+I soon decided, with the help of an epiphany while reading an article on RedPill titled HOW TO GET LAID LIKE A WARLORD that this was not the life for me and that I would need to start approaching girls and learning game to have any hope of losing my virginity before 30
+
+I didn't want to become a 100+ lay gigachad like the article outlined:
+
+* I just wanted to experience what other guys experienced in college that I missed out on.
+* I just wanted to have someone I could share my hopes and struggles with, someone I could come home to and hug if I had a bad day.
+* I just wanted to have some fun before I get married and start a family
+
+Was that really too much to ask?
+
+So I quickly began to learn about game and seduction and browsed Reddit and other forums almost daily to get hyped up and learn how to do cold approach. I soon discovered, however, that I had bitten off far more than I could chew
+
+I met up with a white guy I met online who seemed equally as motivated as me to go out and approach and we went out to several bars and clubs together. Every time we went out, he would always go home with a new girl, mostly Asian girls Im not proud of it, but I was extremely jealous since none of these girls gave me any kind of IOIs or other signs of attraction when I approached, and stopped going out with him. Now, I realize it's because he went to the gym a lot and always had a nice haircut, but back then, It was kind of ridiculous how Id approach girl after girl and get one word answers and a GO AWAY vibe the entire conversation and he would come in a few minutes later and THE SAME GIRL would be smiling and asking him questions about himself, it felt like he didnt even need to do any work to get laid
+
+At this point, I was watching pickup videos from or reading articles on how to get girls on an almost daily basis, trying to study and learn all the latest game techniques. It felt like I hit a brick wall. This was SOOO much harder than I thought it would be. The HOW TO GET LAID LIKE A WARLORD article specifically said that women would rather fuck an ugly guy with a strong frame than a handsome guy with a weak one but that didnt seem to be the case. I was a 55 Asian guy competing with 60+ white guys at every club I went to and it felt like no matter what I said, no girls were even willing to have an actual conversation with me. This is after 100+ approaches so I knew that it wasnt just bad luck or lack of effort.
+
+So reluctantly, after learning some valuable lessons about the harsh nature of reality, I invested $2997 in a well known pickup bootcamp since I figured I was already watching so many of their videos, and its only fair that I pay them and hopefully learn how to break through my sticking points since my strategy of trying to learn everything by myself was clearly failing.
+
+For those of you thinking about going to a PUA Bootcamp, be very careful you don't waste all your money like I did. This particular company did not give a single FUCK about me other than my money. My instructor just kept telling me to approach and approach, which I already knew how to do, and every time I asked for feedback on why none of the girls seemed receptive, he would give some bullshit feedback on how my vibe was off. I asked him how to correct it and he never had any real answers, always giving some woo woo answer about how I needed to have outcome independence and have more fun. It was really weird that everyone who seemed to succeed seemed to be the type to go to the gym a lot and pay a lot of attention to their physical appearance, even though they teach that looks don't matter.
+
+I finally lost my virginity through sheer luck after over 500 approaches. It was a fat and ugly latina girl who was so drunk she didnt know where she was and I just happened to be there to help her home but it still counts. At this point, I was so desperate that I tried to go out on dates with her and become her boyfriend but she stopped responding to my texts after the second date Over the next couple of years, I became obsessed with getting good with girls, which certainly kept me going, but it also caused some problems
+
+I went out with so many wingmen, hoping to find that gold nugget, that shining piece of knowledge or wisdom that would finally catapult me past this unbreakable wall, but they would either be just as bad with girls as me or be over 5'10", no exceptions. I read an article on Reddit about how you had to talk louder and slower and that actually helped a lot. Girls would actually give me a chance to have a conversation with them instead of rejecting me immediately but they would still shake their head when I asked them to go home with me or even just grab a drink together. That's when it hit me that I didn't know as much as I thought I did and that there was a lot more to learn.
+
+The bad news is, all this rejection was not good for my mental health. I started to wonder if maybe a short Asian guy like myself is just not meant to procreate I was seriously considering moving to Thailand or The Philippines to try to at least find a gold digger wife
+
+But finally, I found one particular dating coach that really resonated with me and I immersed myself in his training He was 57 and Asian, so a short Asian like me.
+
+The first thing he told me was that my hairstyle, fashion, and body language were all shit and unless I fix them first, nothing else would work. Now this is completely contradictory to some of the other advice I read like the HOW TO GET LAID LIKE A WARLORD article which convinced me that looks dont matter but I decided to give it a shot. I got a blazer and chinos from Zara and got an undercut haircut with faded sides along with a gold watch. I didnt expect anything to happen right away but the difference in girls reactions really was noticeable IMMEDIATELY. Suddenly, they would hang in and listen to every word I had to say instead of just politely waiting for me to leave. One girl even started asking me questions about myself and followed me when I asked her to grab a drink with me! I was SOOO HAPPY, it felt like everything changed.
+
+Next, he told me to fix my posture and stand up perfectly straight with no neck or back tilt. This was really hard for me because I spent my entire adult life playing video games and working in front of a computer, always hunched over. I even had to go to a chiropractor to undo the years of bad habits and damage to my posture but it finally got fixed after I started wearing a back brace like they give to scoliosis patients. Again, I noticed immediate results. I actually pulled a girl home this time and got a blowjob! No lay thought because of last minute resistance
+
+The one thing that really transformed my results though was to speak to girls with vocal variety. I had a very monotone voice that didnt change in volume or pitch at all. He had me watch episodes of F.R.I.E.N.D.S and we noticed that every character spoke with such vocal variety and inflections that it sounded like they were speaking in color compared to my black and white. This did not come easy but I worked had on it until it was at least somewhat passable. This turned out to be the tipping point and I finally started getting laid regularly when I go out instead of once every 500 approaches like before. Overall, I'm very happy to have fucked 15 girls. I know that's not a lot compared to some other guys on here but it's a big improvement over ZERO.
+
+Thats kind of the level Im at right now. The girls arent like model level 9s or 10s yet but Ive gotten a 7 before, mostly 5s and 6s but its a massive improvement over nothing. The quarantine obviously put approaching on hold but luckily, I already had a plate I was regularly seeing before shit hit the fan, so Im not wanting for sex, just spending my days reading and learning as much as I can about working out and nutrition since I got fatter from the quarantine and plan on hitting the gym as soon as things open back up. Hope everyone reading this is safe and got some value from my post. Just needed to get this off my chest before work starts up again.
+
+CLASSIFICATION:
+

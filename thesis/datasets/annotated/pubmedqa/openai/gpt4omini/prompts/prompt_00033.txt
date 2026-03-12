@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is Acupuncture Efficacious for Treating Phonotraumatic Vocal Pathologies? To investigate the effectiveness of acupuncture in treating phonotraumatic vocal fold lesions.STUDY DESIGN/ A total of 123 dysphonic individuals with benign vocal pathologies were recruited. They were given either genuine acupuncture (n = 40), sham acupuncture (n = 44), or no treatment (n = 39) for 6 weeks (two 30-minute sessions/wk). The genuine acupuncture group received needles puncturing nine voice-related acupoints for 30 minutes, two times a week for 6 weeks, whereas the sham acupuncture group received blunted needles stimulating the skin surface of the nine acupoints for the same frequency and duration. The no-treatment group did not receive any intervention but attended just the assessment sessions. One-hundred seventeen subjects completed the study (genuine acupuncture = 40; sham acupuncture = 43; and no treatment = 34), but only 84 of them had a complete set of vocal functions and quality of life measures (genuine acupuncture = 29; sham acupuncture = 33; and no-treatment = 22) and 42 of them with a complete set of endoscopic data (genuine acupuncture = 16; sham acupuncture = 15; and no treatment = 11). Significant improvement in vocal function, as indicated by the maximum fundamental frequency produced, and also perceived quality of life, were found in both the genuine and sham acupuncture groups, but not in the no-treatment group. Structural (morphological) improvements were, however, only noticed in the genuine acupuncture group, which demonstrated a significant reduction in the size of the vocal fold lesions.
+
+CLASSIFICATION: 

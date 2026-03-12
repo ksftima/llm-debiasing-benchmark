@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event Cargill (i) is unable to achieve a given milestone described in Section 2.3 by the Target Date, or (ii) terminates this Agreement pursuant to Section 10.2, Bioamber shall have the option to obtain a license during the term of this Development Agreement to the patent applications and patents listed in Exhibit B (including any continuations, continued prosecutions, continuations- in-part, reissues, reexaminations, divisions or substitutions thereof) (collectively "Licensed Patents"), the tool kit listed in Exhibit C ("Licensed Tool Kit"), and Cargill Improvements if any (as defined in Section 5.2 below), for research use only and for additional monetary consideration ("Research License").
+
+CLASSIFICATION:
+ 

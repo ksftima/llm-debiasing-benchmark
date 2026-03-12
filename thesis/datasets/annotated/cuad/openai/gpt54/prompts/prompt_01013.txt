@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If, after the date of this Agreement and continuing as long as either Party is a partner, member, or shareholder of the Operating Company, such Party or any of its Affiliates receives or discovers any opportunity within the Field of Agreement, including without limitation developing or completing the development of, or discovering, or acquiring proprietary rights over, a product or process that falls within the Field of Agreement, the Operating Company then shall have exclusive rights to exploit such opportunity, but only within the Field of Agreement.
+
+CLASSIFICATION:
+ 

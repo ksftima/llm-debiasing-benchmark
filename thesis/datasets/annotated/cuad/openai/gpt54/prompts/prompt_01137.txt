@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Statutory workers' compensation insurance and employer's liability insurance for a minimum limit equal to at least the greater of One Hundred Thousand Dollars ($100,000) or the amounts required as underlying by your umbrella carrier, as well as such other disability benefits type insurance as may be required by statute or rule of the state in which the Franchised Business is located.
+
+CLASSIFICATION:
+ 

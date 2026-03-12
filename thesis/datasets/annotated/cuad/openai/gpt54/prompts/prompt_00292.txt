@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Green Cross hereby grants to MacroGenics a royalty-free, worldwide license during the Term, with the right to grant sublicenses, under the Green Cross Licensed Patents and Green Cross Know-how that is incorporated into any Product, and all other intellectual property Controlled by Green Cross that is specifically related to MGAH22 to the extent needed by MacroGenics to research, identify, develop, make, have made, use, sell, offer for sale and import Products, including, without limitation, as contemplated by Section 10.1(c) above, in all cases without any obligation to obtain Green Cross' prior consent.
+
+CLASSIFICATION:
+ 

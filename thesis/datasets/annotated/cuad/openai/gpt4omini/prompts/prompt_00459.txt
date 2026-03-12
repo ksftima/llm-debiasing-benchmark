@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Rubicon hereby grants to ISA during the Term and subject to the exclusions described in 2.4 below an exclusive, non-transferable license in the United States to grant licenses to use, display, perform and distribute the Rubicon Offerings and the Documentation to other resellers, including, but not limited to, distributors, Original Equipment Manufacturers, system integrators and Value-Added Resellers, for further sale and distribution to End Users for their use as described above, subject to the conditions set forth in this Agreement.
+
+CLASSIFICATION:
+ 

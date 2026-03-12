@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The licenses granted under this Agreement shall be subject to the following exclusions, conditions, restrictions, and limitations: 1. The "Field" shall exclude the following products and fields of use: a. Any Consumer Electronic Products (as defined below) or any components or sub-components suitable for use with any Consumer Electronic Products. For this purpose, "Consumer Electronic Products" means personal computers (portable and desktop); tablet or slate style computing devices; handheld electronic and/or communication devices (e.g., smartphones, digital music players, multi-function devices, etc.); any device whose function includes the creation, storage or consumption of digital media; any component or sub-component in any Consumer Electronic Product; and any accessory that is the same or similar (in the sole discretion of Apple, Inc.) to an accessory made or sold by or on behalf of Apple (regardless of when Apple sold or started to sell such accessory, including after date of the closing of the Proposed Transaction) that is suitable for use with any Consumer Electronic Product. b. Any watches or components for watches. c. Finished or semi-finished Jewelry, and also any other products that are sold under the name of a Luxury Brand or incorporated into products that are sold under the name of a Luxury Brand, including without limitation (a) buckles for belts, briefcases, handbags, and clothing; and (b) cigarette lighters and cigar cutters. For purposes hereof, the term "Jewelry" means rings, necklaces, pins, cufflinks, and other objects that are ornamental in nature and used for adornment of the human body. "Luxury Brands" shall not include brands owned or used by Nokia, Motorola, Samsung, LG, Sony-Ericsson, Apple, RIM, HTC or similar companies that supply mobile phones and accessories to the mass-market. Otherwise, "Luxury Brands" consist of the following brands and any other similar, renowned luxury brand which is used as the sole or primary brand on a competitive product sold at similar price point:
+
+CLASSIFICATION:
+ 

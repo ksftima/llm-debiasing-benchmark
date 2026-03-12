@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+So... Would you girls say that mentalcels are invalid, or at least not supposed to be here? I for example carry scars from my femcel days. Can't function normally and still involontary celibate because of it. I think that when i vent about it here, it is sometimes taken as an insult, or like i'm humblebragging.
+
+And a part of me completely understands, although i wish it weren't like that. Because i know if i had had this sub back when i was ugly and bullied, i would have been angry at Beckies and Stacies posting here as well. Most likely.
+
+ I am just asking a question, not trying to argue with anyone's feelings. I don't want to annoy anyone with my presence. I wonder if a sub for mentalcels would be better? Our struggles are different after all. I personally feel at home here, when i read femcels i see myself years ago, and i relate to the anger (i still have it in me). But i feel that i may ruin the feeling of being in a safe space for some girls. And i don't want that, obviously... I just don't know where else to talk.
+
+CLASSIFICATION:
+

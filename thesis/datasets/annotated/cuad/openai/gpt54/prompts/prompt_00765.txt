@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Insurance Subsidiary is in compliance with and conducts its businesses in conformity with all applicable insurance laws and regulations of its respective jurisdiction of incorporation and the insurance laws and regulations of other jurisdictions which are applicable to it, in each case with such exceptions as would not have, individually or in the aggregate, a Material Adverse Effect.
+
+CLASSIFICATION:
+ 

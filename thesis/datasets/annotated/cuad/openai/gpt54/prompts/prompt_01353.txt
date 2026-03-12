@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree, upon the reasonable request of Nationwide, to provide access during normal business hours to your facilities and records related to the services provided and the compensation payable hereunder, and to permit Nationwide to review the quality of such services provided and to respond to requests of the Trust's Board of Trustees.
+
+CLASSIFICATION:
+ 

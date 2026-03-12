@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Consultant hereby irrevocably transfers and assigns to the Company, and agrees to irrevocably transfer and assign to the Company, all right, title and interest in and to the Innovations, including all worldwide patent rights (including patent applications and disclosures), copyright rights, mask work rights, trade secret rights, know-how, and any and all other intellectual property or proprietary rights (collectively, "Intellectual Property Rights") therein.
+
+CLASSIFICATION:
+ 

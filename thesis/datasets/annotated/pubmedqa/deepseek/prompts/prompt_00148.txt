@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do all ethnic groups in New Zealand exhibit socio-economic mortality gradients? First, to establish whether a deprivation gradient in all-cause mortality exists for all ethnic groups within New Zealand; second, if such gradients do exist, whether their absolute slopes are the same; and third, if such gradients exist, what impact the unequal deprivation distributions of the different ethnic groups have on the observed ethnic inequalities in life expectancy at birth. Abridged lifetables for the period 1999-2003 were constructed using standard demographic methods for each of four ethnic groups (Asian, Pacific, Maori and European) by NZDep2001 quintile and sex. Gradients were estimated by fitting generalised linear models to the quintile-specific life expectancy estimates for each ethnic group (by sex). The contribution of variation in deprivation distributions to inter-ethnic inequalities in life expectancy was estimated by re-weighting the quintile-specific mortality rates for each ethnic group using weights derived from the European deprivation distribution and recalculating the lifetable. All four ethnic groups exhibit deprivation gradients in all-cause mortality (life expectancy). Maori show the steepest gradients, with slopes approximately 25% steeper than those of Europeans for both males and females. By contrast, gradients among Asian and Pacific peoples are shallower than those of their European counterparts.
+
+CLASSIFICATION: 

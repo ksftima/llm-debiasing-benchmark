@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Motor performance in chronic low back pain: is there an influence of pain-related cognitions? Chronic low back pain (CLBP) is often accompanied by an abnormal motor performance. However, it has not been clarified yet whether these deviations also occur during motor tasks not involving the back and whether the performance is influenced by pain and pain-related cognitions. Therefore, the aim of the present study is to get insight in the contribution of both pain experience and pain-related cognitions to general motor task performance in CLBP. 13 CLBP patients and 15 healthy subjects performed a hand-function task in three conditions: sitting, lying prone (lying) and lying prone without trunk support (provoking). The last condition was assumed to provoke pain-related cognitions, which was considered successful when a patients' pain expectancy on a numeric rating scale was at least 1 point higher than actual pain experienced. Subjects' performance was expressed in reaction time and movement time. Repeated measures analysis of variance was performed to detect main effect for group and condition. Special interest was given to group*condition interaction, since significant interaction would indicate that patients and healthy subjects performed differently throughout the three conditions. Patients were slower throughout all conditions compared to healthy subjects. With respect to the provoking condition, patients showed deteriorated performance compared to lying while healthy subjects' performance remained equal between these two conditions. Further analysis of patients' data showed that provocation was successful in 54% of the patients. Especially this group showed deteriorated performance in the provoking condition.
+
+CLASSIFICATION: 

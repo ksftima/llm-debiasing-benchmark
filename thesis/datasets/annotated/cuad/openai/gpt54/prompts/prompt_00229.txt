@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If Biocept does not obtain at least ten million dollars ($10,000,000) in equity financing by December 31, 2012, then Life Technologies shall have the non-exclusive option, exercisable by written notice to Biocept given no later than January 15, 2013, to negotiate with Biocept for a license (unless the parties mutually agree to a different transaction structure) to all necessary Intellectual Property<omitted>Rights and know-how to independently commercialize the Assay in accordance with applicable Laws.
+
+CLASSIFICATION:
+ 

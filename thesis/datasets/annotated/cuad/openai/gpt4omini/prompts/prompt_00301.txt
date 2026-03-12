@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If, following the Test, we determine that we will approve the tested item, then for so long as we deem that item to be an "approved item" under this Agreement, you will have the right to use that item under the terms of this Agreement; and we will have the right to use and market that item as we see fit, including but not limited to use in our own Restaurants as well as that of other licensees and franchisees, without compensation to you.
+
+CLASSIFICATION:
+ 

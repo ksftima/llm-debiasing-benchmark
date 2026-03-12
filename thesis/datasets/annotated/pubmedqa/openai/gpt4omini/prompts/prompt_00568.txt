@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Chemical shift MRI: is there any contribution to morphologic evaluation of solid breast masses? To investigate the contribution of chemical shift magnetic resonance imaging for assessment of the margins of solid breast masses by benefiting from India ink artifact. Eighty-eight masses in 64 patients were evaluated in T1- and T2-weighted images, dynamic contrast and chemical shift studies according to Breast Imaging Reporting and Data System magnetic resonance lexicon. Subtraction images were automatically obtained by chemical shift imaging and dynamic studies. Each sequence was scored using a scale of 1 to 5 according to its ability to demonstrate margins separate from surrounding parenchyma. Breast parenchyma was evaluated as fatty and dense. The results were compared with the histopathologic results. Twenty-eight (31.8%) of the lesions were localized in fatty breast, and the remaining 60 (68.2%) lesions were localized in dense breast. There were 34 (38.6%) benign and 54 (61.4%) malignant masses. In fatty breast, chemical shift subtraction and T1-weighted images were valuable both for the demonstration and differentiation of benign lesions (P<.05). None of the sequence was valuable for both the demonstration and differentiation of malignant lesions in fatty breasts (P>.05). In dense breasts, chemical shift subtraction and dynamic contrast subtraction images were valuable for both the demonstration and differentiation of benign and malignant lesions. Additional to these sequences, T2-weighted images was also valuable for benign lesions (P<.05).
+
+CLASSIFICATION: 

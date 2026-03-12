@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, the license set forth in Section 6.1 shall include the right of the Company to use the Arizona Domain Names solely in connection with the applicable Arizona Licensed Trademarks in the Company Field during the Arizona Trademark License Term, in the ordinary course of business in a manner generally consistent with the past practice of Arizona in the Company Field.
+
+CLASSIFICATION:
+ 

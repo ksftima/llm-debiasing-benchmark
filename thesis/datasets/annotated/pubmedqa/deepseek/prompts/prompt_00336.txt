@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+School food policy at Dutch primary schools: room for improvement? Schools can play an important role in the prevention of obesity, e.g. by providing an environment that stimulates healthy eating habits and by developing a food policy to provide such an environment. The effectiveness of a school food policy is affected by the content of the policy, its implementation and its support by parents, teachers and principals. The aim of this study is to detect opportunities to improve the school food policy and/or implementation at Dutch primary schools. Therefore, this study explores the school food policy and investigates schools' (teachers and principals) and parents' opinion on the school food policy. Data on the schools' perspective of the food policy was collected from principals and teachers by means of semi-structured interviews. In total 74 principals and 72 teachers from 83 Dutch primary schools were interviewed. Data on parental perceptions about the school food policy were based on a cross-sectional survey among 1,429 parents from the same schools. Most principals (87.1%) reported that their school had a written food policy; however in most cases the rules were not clearly defined. Most of the principals (87.8%) believed that their school paid sufficient attention to nutrition and health. Teachers and principals felt that parents were primarily responsible to encourage healthy eating habits among children, while 49.8% of the parents believed that it is also a responsibility of the school to foster healthy eating habits among children. Most parents reported that they appreciated the school food policy and comply with the food rules. Parents' opinion on the enforcement of the school food policy varied: 28.1% believed that the school should enforce the policy more strongly, 32.1% was satisfied, and 39.8% had no opinion on this topic.
+
+CLASSIFICATION: 

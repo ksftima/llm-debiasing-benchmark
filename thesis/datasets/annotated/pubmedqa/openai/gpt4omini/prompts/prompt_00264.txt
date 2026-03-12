@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cold knife conization vs. LEEP. Are they the same procedure? To prospectively evaluate the amount of tissue removed at loop electrosurgical excision procedure (LEEP) vs. cold knife conization. Forty consecutive LEEP or cold knife conization specimens were prospectively measured and weighed by a single pathology technician. Diameter, length and weight of the specimens were compared using Student's t test. Mean diameter of cold knife cone specimens was 2.6 vs. 2.2 cm for LEEP (P = .07). Mean length of cold knife cone specimens was 1.5 vs. 1.0 cm for LEEP (P = .001). Mean weight for cold knife cone specimens was 4.4 vs. 2.0 g for LEEP (P = .001).
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The following events shall constitute a default by Developer, which shall result in El Pollo Loco's right to declare the immediate termination of this Agreement.<omitted>b. Any assignment, transfer or sublicense of this Agreement by Developer without the prior written consent of El Pollo Loco.
+
+CLASSIFICATION:
+ 

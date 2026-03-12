@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Company hereby grants the Distributor the right to do business and use the name "Electric City of Illinois" or a similar variation thereof (collectively the "Names") for use under this Agreement.
+
+CLASSIFICATION:
+ 

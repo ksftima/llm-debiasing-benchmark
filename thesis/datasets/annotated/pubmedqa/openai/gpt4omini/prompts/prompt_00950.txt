@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do ART patients face higher C-section rates during their stage of delivery? The mode of delivery depends on multiple parameters. After assisted reproductive technology (ART), previous studies have shown elevated C-section rates but few studies differentiated between elective and emergency operations and different protocols of cryopreservation. Because these studies did not use multiparity as exclusion criteria which reduces confounding with previous pregnancies, aim of this study is to compare mode of delivery of different techniques of ART using data of primiparae only [1, 2]. Retrospective analysis of patient data treated at the university hospital of Luebeck in a period of 12 years. Patients were divided in different groups according to their way of conception: spontaneous conception and conception after ART. The group of ART was further divided into: (a) a group of fresh transferred embryos (IVF/ICSI), (b) vitrification and (c) slow freezing. Exclusion criteria were defined as: multiparity, delivery<24. + 0 p.m., incomplete data and treatment outside university of Luebeck. Main parameter of this study was mode of delivery which was divided into spontaneous delivery or C-section. C-sections were further differentiated into elective or emergency C-sections. The group of fresh transferred embryos and slow freezing showed higher risks for elective and emergency C-sections (elective C-sections odds ratio 2.0, CI 95% 1.6-2.6, emergency C-sections odds ratio 1.4, CI 95% 1.1-1.9). Moreover, all groups of ART show enhanced risk of significant perinatal bleeding.
+
+CLASSIFICATION: 

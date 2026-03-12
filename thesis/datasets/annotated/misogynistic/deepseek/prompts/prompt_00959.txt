@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Making male friends as an ugly woman is something that just doesn't seem to happen anywhere, but particularly around nerds. Contrary to popular belief, they are much more shallow than regular males and have extra misogyny as well for blaming all their own inadequacies on women. They tend to have more inadequacies than other males so more blame to externalize. 
+
+You're lucky you like video games though, that's way better as a form of initial, fun bonding than talking about the stuff in class which is all that I have. It's interesting to me but seemingly to nobody else:D
+
+CLASSIFICATION:
+

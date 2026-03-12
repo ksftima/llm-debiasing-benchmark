@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+All costs and expenses incurred in connection with performing any such audit shall be paid by Theravance unless the audit discloses at least a five percent (5%) shortfall, in which case the Recording Party will bear the full cost of the audit for such Calendar Year.
+
+CLASSIFICATION:
+ 

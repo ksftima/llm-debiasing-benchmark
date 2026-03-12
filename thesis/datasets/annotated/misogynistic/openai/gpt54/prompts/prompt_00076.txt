@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+1. If this is a recorded statement, then it should be used in the court.
+2. If the judge allows or agrees such a statement, then abetment to suicide is no more a crime.
+3. This can be now used in a lot of cases of one persuading another to a crime. If X keeps on telling Y to kill themselves or kill somebody else and this case was brought to court, then X can easily get off by saying "If Y can't handle the pressure, it's not my fault". Hired assassins and mercenaries will have a field day. 
+
+The danger of having a society and a constitution that bends to women is that it incentivises the women to be entitled, callous and evil.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Once a Delivery of Miltenyi Products is accepted or deemed accepted hereunder, Bellicum shall have no recourse against Miltenyi in the event any such Miltenyi Product is subsequently deemed unsuitable for use for any reason, except for Miltenyi Product that does not conform to the Miltenyi Product Warranty after said 30-day period due to a latent defect in the Miltenyi Product that could not be detected through the performance of the Testing Methods.
+
+CLASSIFICATION:
+ 

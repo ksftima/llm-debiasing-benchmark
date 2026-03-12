@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In consideration of the remuneration to be paid to the NFLA-NC pursuant to this Agreement, the NFLA grants to Company and to its authorized distributors and sublicenses the right and license during the Contract Period to use the NFLA Identification solely in connection with the advertisement, marketing and promotion of the Products within the Contract Territory as set forth in this Agreement.
+
+CLASSIFICATION:
+ 

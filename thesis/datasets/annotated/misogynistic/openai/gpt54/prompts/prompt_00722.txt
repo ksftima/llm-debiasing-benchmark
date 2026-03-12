@@ -1,0 +1,75 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+TRP was meant for Average Frustrated Chumps not Bottom Tier Omegas**Who is the Average Frustrated Chump?**
+
+The average frustrated chump aka our beloved beta has had a semi normal childhood. They know how to talk to people and make friends. They have a friend group that goes outs and meets girls. The average frustrated chumps has gotten girlfriends in the past and knows how to flirt(albeit badly). 
+
+Our AFC is a 5.
+
+The purpose of TRP was to teach 5's how to improve their looks to a 7.5 and how to act like a player.       
+ It also teaches men to take women off the pedestal. 
+
+Go to the gym, fix your wardrobe , get an awesome haircut.
+
+ Stop trying to be friends first.  Assume attraction. Kill approach anxiety. 
+
+2-3 years of consistent effort and you can go from a 5 to 7. It works for guys with a decent starting point.
+
+Another important note is that a 5 will see results faster. A wardrobe and hair cut can bring a 5 to 6. His friends will compliment his newbie gains. This postive feedback will motivate him to continue his journey.
+
+**However TRP was never meant for Bottom Tier Omegas**
+
+Omegas are guys who have no social life , no experience with women, are downright unattractive in multiple ways, and  are considers creeps by literally everyone who interacts with them. 
+
+
+Our Omega is a 2. TRP welcomes all men with open arms and will try to help them. 
+
+In theory TRP could work for them, but there no advice for guys who are starting from zero. 
+
+How do you teach someone how socialize and flirt through a Reddit post? It's almost impossible.  
+
+
+2-3 years of consistent effort and these guys will go from a 2 to 5. All that work to get mediocre women our AFC was running from . 
+
+And these guys will see no fast results. Girls don't care if the obese guy has swag. Your newbie gains can't compensate for your social anxiety  . They get no positive feedback until they reach the minimum of 5. 
+
+
+Any new trick or theory they learn from TRP can only be tested years after they see it. The AFC can test it out when he goes out or even on his GF/wife. Maybe an Omega can try it out some girl he's orbited but that's about it. It'll be months of improving himself and learning the basics before he can test TRP.
+
+Even on the topic orbiting the advice should differ. If the Omega has literally one girl in his life, maybe he shouldn't "next" her. That's the only socializing with a girl he has. He should practice what hes learnt on her. Our normal beta can find another girl hence he can "next" her. 
+
+You'd have to make an entirely new sub for guys who need to get from 2-5.  Then they can graduate to TRP.
+
+**Here I explain the rise of the Blackpill**
+
+The balding, 5'3,  Indian ~~janitor~~ programmer has found TRP. They've always been on Reddit. Reddit was built for these guys.  
+
+This guy will be never be Chad. But TRP will give him hope. And he will be disappointed.  
+
+The OG RP dude bros just didn't quite understand what they were dealing with when they tried to save Redditors . ECs would  tell them to talk to girls and these guys would ask how. "What do you mean how? Just flirt like you usually do". Poor asktrp ECs probably never realized they were talking to Omegas. 
+
+Eventually the manlets, autists and  indians/asians realized that even if they did everything TRP said they wouldn't get the results of someone with a better starting point. 
+
+Hence The BlackPill was born - Genetic Determinism the ideology. Some guys simply have lower ceilings.
+
+Some guys will never reach 7.5 and get to date stacies and plate beckies.  Some guys peak at 5. 
+
+"All that work just to be average? lol " These bottom tier guys all denounced TRP and made their own subs. However one thing they  took from TRP was pushing women off pedestal. They did that perfectly.
+
+This what ultimately lead to the death of TRP.  All the AFCs came improved and left, leaving the dregs of Reddit. The ECs struggled with the omegas who believed they had potential; who eventually graduated. And the omegas who felt they'd never make it  denounced The RedPill and took The BlackPill
+
+CLASSIFICATION:
+

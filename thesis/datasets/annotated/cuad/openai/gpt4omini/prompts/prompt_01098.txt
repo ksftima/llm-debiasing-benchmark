@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+LBIO agrees to commit funding in an amount not to exceed $14,211,864.00 for the performance of the Studies during the Term (collectively, "Initial Funding"), with the Initial Funding specifically allocated as follows: (a) $[* * *] for an upfront payment, and a minimum of $[* * *] for enrollment and treatment of a minimum of 40 patients in the Study described in Exhibit I (i.e., the Minimum Enrollment Target as defined in Exhibit 1) or up to $[* * *] (an "Individual Study Budget") for enrollment and treatment of up to 60 patients in the Study described in Exhibit I (i.e., the Maximum Enrollment Target as defined in Exhibit 1); (b) $[* * *] (which shall also be considered an Individual Study Budget) for enrollment, manufacturing of product, and treatment of 30 patients in the Study described in Exhibit II; and (c) $[* * *] for the Study described in Exhibit III.
+
+CLASSIFICATION:
+ 

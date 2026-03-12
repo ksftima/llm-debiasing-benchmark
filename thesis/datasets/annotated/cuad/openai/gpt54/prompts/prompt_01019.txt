@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+VerticalNet shall register and own the domain name and the URL used in connection with the Co-Branded Career Center, subject, however, to Neoforma's agreement on the name to be used for the URL, which domain name and URL shall be mutually agreed upon by the Parties.
+
+CLASSIFICATION:
+ 

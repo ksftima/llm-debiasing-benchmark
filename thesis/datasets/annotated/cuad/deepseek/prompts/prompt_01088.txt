@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The escrow agreement shall provide, among other terms, that the source code shall be released to Reseller if any of the following events (collectively the "Release Conditions") occurs: (i) Diversinet ceases to support services at levels as stated in Schedule 5 under this Agreement that is not remedied within sixty (60) days after receipt of written notice of such failure; (ii) Diversinet makes an assignment for the benefit of creditors, or becomes subject to direct control of a trustee, receiver or similar authority, or Diversinet becomes subject to any bankruptcy or insolvency proceeding under federal or state statutes; or (iii) Diversinet suspends or ceases to carry on its business and a receiver, trustee or assignee does not carry on the business.
+
+CLASSIFICATION:
+ 

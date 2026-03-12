@@ -1,0 +1,51 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Lessons from Documentary "Liberated: The New Sex Revolution"(Non-native here, Ignore grammatical mistakes)
+
+&#x200B;
+
+Hello Everyone,
+
+I have just watched this documentary which tends to show the reality of this hookup culture particularly focusing on graduates celeberating spring break on florida beaches. Some particular examples I would like to quote,
+
+"It is easier to find FWB than boyfriends" (girl 1)
+
+"Guys believe they are entitled to our bodies; there is almost this one guy in every party who try to rip off my clothes" (girl 2)
+
+"I had always felt pressure from woman magazines to look sexy for boys and engage in frequent sex to get the validation I wanted" (girl 3)
+
+"I have always felt pressurerized to lose my virginity" (Guy 1)
+
+"Sex is not about love anymore, its about pleasure only. I don't have to know a girl to get into her pants. Let me demonstrate you (goes to demonstrate it)... You see, its so easy, the more intoxicated she is, the more likely she will drop her panties" (Guy 2)
+
+"I have come with my girlfriend here and I don't mind if she hooks up somewhere \[lol a cuck\]" (Guy 3)
+
+I live in a conservative muslim country where sexual market is controlled and free sex is frowned upon but thanks to feminism it is quickly changing. I used to believe that I had a disadvantage by not being born into a western liberal country but I don't think its true anymore. Its not because the girls are magically better but its because feminism has still not been able to destroy the fabric of this society. A regulated sexual market is both good for men and women, women retain their pair bonding ability and men don't have to worry about being compared to past sexual partners. Its a win-win situation for almost everyone (almost). Most people confuse TRP with another form of seduction and alpha male to be just a fucking machine. However, the reality is that in a society having the concept of masculinity solely revolving around the number of sexual partners could (almost) never produce homely virgin girls (with few exceptoins). The rise of feminsim has seen the rise of pornification of society, single motherhood, divorce rates, false rape accusations and other social ills. Women are slowly turning into walking men with vaginas. They love to masculinize themsleves in order to get the dose of power which they could never taste even if they do they shall never be content because a woman's satisfaction lies in her being protected by a man. Being alpha is not about banging numerous women, this may have been an advantage during the dark ages but we are no longer in the dark ages and sticking to this dogma may damage male pysche as well e.g. depressing over not losing one's virginity due to peer pressure instead of working towards worthwhile goals. Is Dan Brazalian more alpha than an anverage guy who is working towards his goal and fortunately have a stable unicorn?. Hence, we should modify who really is  Alpha male:
+
+1. Always working on self improvment.
+2. Protecting his children and women (unicorn exists in controlled sexual markets).
+3. Resisting Feminism and porn culture.
+4. Achieving goals.
+5. (Add what you think is constructive).
+
+The degeneration of western society and downfall of fatherhood shall continue to move on if something is not done against this hedonistic feminsim. Although men have taken advantage from this hook up culture but the price which we are paying is far bigger than what can be put into words.  Banging multiple women cannot make our lives better, yes there is a burst of pleasure but its not good long term. I don't think a hook up culture and controlled sexual markets can co-exist ever.
+
+Most men here use TRP knowledge to get into panites which does work because we know the nature of women but to find a traditional homely women is almost impossible.  I utilize TRP knowledge to pass shit test of women and her attraction only grows when you pass her shit tests. I was one of the victims of plantation culture until I came to TRP and received salvation.
+
+let me know what do you say.
+
+CLASSIFICATION:
+

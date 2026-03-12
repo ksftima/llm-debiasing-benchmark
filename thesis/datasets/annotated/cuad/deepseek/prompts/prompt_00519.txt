@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Furthermore, Fox grants to Licensee a limited, exclusive (except as may otherwise be provided in this Agreement), non-transferable (except as permitted in Paragraph 17(d)) right and license to make, have made, reproduce, modify, create derivative works of, advertise, promote, distribute, sell and license the Wireless Products, including any PSM included therein, solely (i) for use on mobile or cellular telephones (the "Wireless Platform"); (ii) in the Territory (as defined in Paragraph 3), (iii) during the Term (as defined in Paragraph 4), (iv) for distribution by Licensee through the Distribution Channels (as defined in Paragraph 2(c)) granted herein; and (v) by means of periodic subscription fee, a per-download basis, or through a retail purchase.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You acknowledge that your right to use the Marks is derived solely from this Agreement, and is limited to your operation of the Franchise pursuant to and in compliance with this Agreement and all applicable standards, specifications, and operating procedures we prescribe from time to time during the term of the Franchise.
+
+CLASSIFICATION:
+ 

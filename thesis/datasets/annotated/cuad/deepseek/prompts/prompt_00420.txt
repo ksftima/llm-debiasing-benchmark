@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, for the activities described in this Agreement, IMNTV hereby grants Distributor non-exclusive rights and licenses necessary within the Territory to: (a) copy, store digitally, host and stream the Programming; (b) publicly perform, publicly display, electronically transmit, distribute and broadcast the Programming; (c) promote the Programming and use IMNTV Marks for Distributor's promotion of the Programming as activities described in Section 2.4 above; (d) archive the Programming on Distributor's servers; (e) encode, copy, and create continuous Programming excerpts of up to sixty (60) seconds and transmit, publicly perform, distribute, and redistribute such excerpts to end users via the Distributor's Portal for marketing purposes only(f) deep link to the Programming.
+
+CLASSIFICATION:
+ 

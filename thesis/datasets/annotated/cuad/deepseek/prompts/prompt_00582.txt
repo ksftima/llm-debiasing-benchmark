@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term and subject to the terms, conditions and limitations of this Agreement, Client hereby grants EFS, a limited, non-transferable, non-assignable (without any right to sublicense) world-wide license to use the Internet location or resource designators (URLs, domain names, etc.) set forth in Part B of Exhibit 1 hereto, and/or to the extent approved in advance in writing by Client, as the case may be, modifications thereof (the "Licensed Domain Names"), as the domain name(s) and Internet locators/designators for the Websites during the Term.
+
+CLASSIFICATION:
+ 

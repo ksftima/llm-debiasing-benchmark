@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Has the use of complementary and alternative medicine therapies by U.S. adults with chronic disease-related functional limitations changed from 2002 to 2007? This study examined changes in the use of complementary and alternative medicine (CAM) therapies by U.S. adults aged 18 years or older with chronic disease-related functional limitations between 2002 and 2007. The study was a cross-sectional survey.SETTING/ The study was conducted in the United States. The study comprised adults aged 18 years or older with chronic disease-related functional limitations. Data were obtained from the 2002 and 2007 U.S. National Health Interview Survey to compare the use of 22 CAM therapies (n=9313 and n=7014, respectively). Estimates were age adjusted to the year 2000 U.S. standard population. The unadjusted and age-standardized prevalence of overall CAM use (22 therapies comparable between both survey years) was higher in 2007 than in 2002 (30.6% versus 26.9%, p<0.001 and 34.4% versus 30.6%, p<0.001, respectively). Adults with functional limitations that included changing and maintaining body position experienced a significant increase in CAM use between 2002 and 2007 (31.1%-35.0%, p<0.01). The use of deep breathing exercises was the most prevalent CAM therapy in both 2002 and 2007 and increased significantly during this period (from 17.9% to 19.9%, p<0.05). The use of meditation, massage, and yoga also increased significantly from 2002 and 2007 (11.0%-13.5%, p<0.01; 7.0%-10.9%, p<0.0001; and 5.1% to 6.6%, p<0.05, respectively), while the use of the Atkins diet decreased (2.2%- 1.4%, p<0.01).
+
+CLASSIFICATION: 

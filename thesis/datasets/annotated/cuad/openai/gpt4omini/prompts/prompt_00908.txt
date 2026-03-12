@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding any provisions of this Agreement to the contrary, this Agreement shall terminate upon the Trust's payment to the Company of the sum of the aggregate amount of the premiums paid under the Policy since inception (which amount includes the outstanding principal balance of the Demand Note).
+
+CLASSIFICATION:
+ 

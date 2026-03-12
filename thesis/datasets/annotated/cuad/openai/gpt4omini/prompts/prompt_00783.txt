@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding anything to the contrary in this Agreement, if Company incurs any expenses, damages or other liabilities (including but not limited to reasonable attorney's fees) in connection with the performance or nonperformance of any term or provision of this Agreement, NFLA's liability to Company shall not exceed the remuneration, excluding reimbursement of expenses, actually paid to NFLA by Company
+
+CLASSIFICATION:
+ 

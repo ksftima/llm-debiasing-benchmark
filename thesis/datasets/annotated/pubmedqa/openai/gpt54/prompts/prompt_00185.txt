@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Chronic functional somatic symptoms: a single syndrome? Reliable longitudinal data of patients with functional somatic symptoms in general practice are lacking. To identify distinctive features in patients with chronic functional somatic symptoms, and to determine whether these symptoms support the hypothesis of the existence of specific somatic syndromes. Observational study, with a comparison control group. Four primary care practices affiliated with the University of Nijmegen in the Netherlands. One hundred and eighty-two patients diagnosed between 1998 and 2002 as having chronic functional somatic symptoms and 182 controls matched by age, sex, socioeconomic status, and practice were included. Data on comorbidity, referrals, diagnostic tests, and hospital admissions over a period of 10 years prior to the diagnosis were collected. Medication use and number of visits to the general practitioner (GP) were extracted from the moment computerised registration was started. In the 10 years before the diagnosis of chronic functional somatic symptoms, significantly more patients than controls presented functional somatic symptoms in at least two body systems, and used more somatic and psychotropic drugs. They visited the GP twice as much, statistically had significantly more psychiatric morbidity, and were referred more often to mental health workers and somatic specialists. The number of patients undergoing diagnostic tests was higher for patients with chronic functional somatic symptoms than for controls, but hospital admissions rates were equal.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does quilting suture prevent seroma in abdominoplasty? Seroma is the most frequent complication in abdominoplasty. Some patients are more prone to develop this complication. Ultrasound is a well-known method with which to diagnose seroma in the abdominal wall. The purpose of this study was to verify the efficacy of the use of quilting suture to prevent seroma. Twenty-one female patients who presented with abdominal deformity type III/A according to the authors' classification of abdominal skin and myoaponeurotic deformity had undergone abdominoplasty. The selected patients should have had at least one of the following characteristics: body mass index greater than 25 kg/m; weight loss greater than 10 kg; previous incision in the supraumbilical region; or present thinning of the subcutaneous in the area above the umbilicus. Ultrasound was performed for every patient from 15 to 18 days after the operation to search for fluid collection in the abdominal wall. The average fluid collection found was 8.2 cc per patient. Only two patients underwent aspiration because ultrasound showed greater than 20 cc collected above the fascial layer. These patients did not present with recurrence of seroma after aspiration.
+
+CLASSIFICATION: 

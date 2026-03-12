@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is duration of psychological treatment for depression related to return into treatment? There is increasing pressure on mental health providers to reduce the duration of treatments, while retaining level of quality and effectiveness. The risk is that the population is underserved and therefore needs new treatment episodes. The primary aim of this study was to investigate whether duration of treatment and return into mental health care were related. This study examined Dutch patients with an initial treatment episode in 2009 or 2010 in specialized mental health settings for depressive disorder (N = 85,754). Follow-up data about treatment episodes were available up until 2013. The data set included demographic (age, gender), and clinical factors (comorbidity with other DSM-IV Axis; scores on the 'Global Assessment of Functioning'). Cox regression analyses were used to assess whether duration of treatment and relapse into mental health care were related. The majority of patients did not return into mental health care (86 %). Patients with a shorter duration of treatment (5-250 min; 251-500 min and 751-1000 min) were slightly more likely to return (reference group:>1000 min) (HR 1.19 95 % CI 1.13-1.26; HR 1.11 95 % CI 1.06-1.17; HR 1.18 95 % CI 1.11-1.25), adjusted for demographic and clinical variables.
+
+CLASSIFICATION: 

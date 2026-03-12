@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent permitted by law you hereby irrevocably and unconditionally waive in favour of the Company, its licensees and successors in title, all existing and future Moral Rights (or similar rights existing in any part of the world) you may have in respect of any Works under Chapter IV of the Copyright Designs and Patents Act 1988 in England or any similar provisions of law in any jurisdiction, including (but without limitation) the right to be identified, the right of integrity and the right against false attribution, and agrees not to institute, support, maintain or<omitted>permit any action or claim to the effect that any treatment, exploitation or use of such Works, Inventions or other materials infringes the Consultant's Moral Rights.
+
+CLASSIFICATION:
+ 

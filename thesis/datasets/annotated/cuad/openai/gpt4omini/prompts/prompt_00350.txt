@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this agreement, Channel Partner grants to you a royalty-free, non-exclusive, non-transferable, limited license right exercisable solely during the term of this agreement to: (1) reproduce, exactly as provided by Channel Partner, object code copies of the Client Software, as needed for distribution to your End Users the iPass Software; and to install and use the iPass Licensed Software.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+AIRSOPURE grants to You, and You accept from AIRSOPURE, the right and license to operate an AIRSOPURE Center (or the "Franchise") for the sale or lease of AIRSOPURE's exclusive line of Products or at a location in the Exclusive Territory to be approved in writing by AIRSOPURE and listed in attached Exhibit A (the "Exclusive Territory and Center Location"), to purchase Products from AIRSOPURE or its affiliates for resale at the Center to customers in the Exclusive Territory, and to use the Licensed Marks only in connection with the operation of the Franchise in accordance with the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

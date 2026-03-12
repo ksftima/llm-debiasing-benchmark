@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without prejudice to either party's right to terminate this Agreement as set forth in sub​ sections 18.2 to 18.5 below, Cisco may, by written notice to Distributor, given at least thirty (30) days prior to the end of the then-current term of the Agreement, extend the term of the Agreement for the period set forth in such notice, up to a maximum of one (1) year beyond the then- current expiration date.
+
+CLASSIFICATION:
+ 

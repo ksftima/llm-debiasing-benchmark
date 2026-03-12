@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Subject to the provisions stated below, we hereby grant you a license to use the "Buffalo Wild Wings" Marks and System, and you undertake the obligation to operate a Buffalo Wild Wings restaurant facility featuring the Menu Items and providing sit-down, carry-out and other restaurant services ("Franchised<omitted>Restaurant"), and to use the Marks solely in connection with the System, as it is currently established, and as it may be changed, improved and further developed from time to time, at one (1) location only, such location to be: 1) ____________________________________________________________________________ ___________________________________________________________________________, or 2) at a location to be designated, as provided in Paragraph III within the area described on EXHIBIT B.
+
+CLASSIFICATION:
+

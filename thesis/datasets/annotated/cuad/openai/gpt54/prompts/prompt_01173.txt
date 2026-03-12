@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of the Agreement and subject to the terms and conditions of the Agreement, Imprimis shall pay to Surgical Sales Commissions equal to ten percent (10%) of the Net Sales for Product.
+
+CLASSIFICATION:
+ 

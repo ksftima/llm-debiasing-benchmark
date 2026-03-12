@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In consideration for such training, trade secrets and confidential information, you and your principals agree that during the term of this Agreement, and for a continuous uninterrupted period commencing upon expiration or termination of this Agreement, regardless of the cause for termination, and continuing for a period of three (3) years thereafter, neither you nor your principals shall, directly or indirectly, for themselves, or through, on behalf of, or in conjunction with any person, persons, partnership, limited liability company or corporation:<omitted>7.1.3 Own, maintain, operate, engage in, or have any interest in any business which is the same as or similar to the Franchised Business, or any other business which performs any type of child tutoring services, anywhere.
+
+CLASSIFICATION:
+ 

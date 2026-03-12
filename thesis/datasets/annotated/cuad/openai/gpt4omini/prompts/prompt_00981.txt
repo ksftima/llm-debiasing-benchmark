@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Todos shall ship ordered Products to the Reseller within ninety (90) days of Todos's acceptance of the applicable purchase order DAP Reseller's warehouse (Incoterms 2010), provided that Reseller's order for the Products does not deviate from the applicable Forecast by more than ten percent (10%).
+
+CLASSIFICATION:
+ 

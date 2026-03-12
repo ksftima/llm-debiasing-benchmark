@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MD Anderson also hereby grants to Adaptimmune Limited an exclusive option to negotiate an<omitted>exclusive (subject to MD Anderson's perpetual, irrevocable, no-cost right to use such Invention for non-commercial internal research, academic and patient care purposes), royalty-bearing license to any Invention in which MD Anderson has an ownership interest, provided that Adaptimmune Limited pays all reasonably incurred patent expenses for such Invention in the event Adaptimmune Limited exercises its option.
+
+CLASSIFICATION:
+ 

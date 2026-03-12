@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Eutectix hereby grants to Liquidmetal a fully-paid up, royalty-free, perpetual, world-wide, non-exclusive license to any New Process Technologies in which Eutectix acquires licensing rights pursuant to Section 8.2 above.
+
+CLASSIFICATION:
+ 

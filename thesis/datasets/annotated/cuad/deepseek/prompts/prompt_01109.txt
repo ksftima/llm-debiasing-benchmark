@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If government regulations prevent LeadersOnline from sharing any revenues associated with LeadersOnline Services, VerticalNet and LeadersOnline shall negotiate in good faith a compensation structure that seeks to provide VerticalNet with compensation equal to that set forth in Sections 6.3.1 [Revenue Sharing].
+
+CLASSIFICATION:
+ 

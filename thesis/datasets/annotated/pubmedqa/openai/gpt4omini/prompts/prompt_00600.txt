@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does β-catenin have a role in pathogenesis of sebaceous cell carcinoma of the eyelid? 48 cases of SbCC were analysed immunohistochemically using monoclonal β-catenin antibody and the results correlated with tumour size, histopathological differentiation, orbital invasion and pagetoid spread. Cytoplasmic overexpression of β-catenin was seen in 66% cases of SbCC which correlated positively with tumour size, orbital invasion and pagetoid spread. This correlation was found to be significant in tumour size>2 cm (p = 0.242). Nuclear staining was not observed in any of the cases.
+
+CLASSIFICATION: 

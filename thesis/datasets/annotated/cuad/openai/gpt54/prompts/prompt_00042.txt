@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+PPI hereby grants EKR the exclusive right and license (with the right to sublicense) to use, market, promote, sell, distribute and warehouse the Products (the "Distribution Rights") in the Field in the Territory during the Term, as well as to make or have made the Products anywhere in the world for import or sale in the Field in the Territory in each case, under the PPI IP provided that PPI retains all rights necessary to manufacture and supply the Products to EKR in accordance with this Agreement and the Supply Agreement.
+
+CLASSIFICATION:
+ 

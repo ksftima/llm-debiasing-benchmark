@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Should general practitioners call patients by their first names? To assess the acceptability to patients of the use of patients' first names by doctors and doctors' first names by patients in general practice. An administered questionnaire survey. 5 General practices in Lothian. 475 Patients consulting 30 general practitioners. Response by patients to questionnaire on attitude to use of first names. Most of the patients either liked (223) or did not mind (175) being called by their first names. Only 77 disliked it, most of whom were aged over 65. Most patients (324) did not, however, want to call the doctor by his or her first name.
+
+CLASSIFICATION: 

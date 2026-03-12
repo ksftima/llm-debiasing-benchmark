@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The English antibiotic awareness campaigns: did they change the public's knowledge of and attitudes to antibiotic use? To determine the effect of the 2008 English public antibiotic campaigns. English and Scottish (acting as controls) adults aged>or = 15 years were questioned face to face about their attitudes to and use of antibiotics, in January 2008 (1888) before and in January 2009 (1830) after the antibiotic campaigns. Among English respondents, there was a small increase in recollection of campaign posters (2009 23.7% versus 2008 19.2%; P = 0.03), but this increase was only 2.3% higher in England than in Scotland. We did not detect any improvement in either England or Scotland, or any differences between England and Scotland in the understanding of the lack of benefit of antibiotics for coughs and colds, and we found no improvement in antibiotic use. We detected a significant increase in respondents retaining leftover antibiotics. Over 20% reported discussing antibiotics with their general practitioner (GP) or nurse in the year to January 2009. The offer of a delayed antibiotic prescription was reported significantly more often by English respondents (19% versus 8% Scottish in 2009; P = 0.01), and English respondents were advised to use other remedies for coughs and colds significantly more often in the year to January 2009 (12.7% in 2009 versus 7.4% in 2008; P<0.001).
+
+CLASSIFICATION: 

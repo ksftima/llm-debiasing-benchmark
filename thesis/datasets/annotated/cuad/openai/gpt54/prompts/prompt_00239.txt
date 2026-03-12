@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the avoidance of doubt, Licensor also grants to Licensee and its subsidiaries and affiliates a non-exclusive, worldwide royalty-free license for continued use of the Licensed Mark for the production and sale of inventory containing the Licensed Mark applied to such products during the Transition Period as set forth in section 8.2 of the Separation and Distribution Agreement and in Schedule 2 of this Agreement.
+
+CLASSIFICATION:
+ 

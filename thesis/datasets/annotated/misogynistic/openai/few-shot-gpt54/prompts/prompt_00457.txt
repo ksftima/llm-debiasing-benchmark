@@ -1,0 +1,55 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Should I send my ex-boyfriends mom a thank you card? If so, how? Would love some help from the RP ladies!As I posted here before, I broke up with my semi-emotionally abusive ex for the final time, and Im determined to make it stick. While he rarely verbally assaulted me (sometimes would call me a bitch), he would constantly criticize me and tell me all the things about myself I needed to change.
+
+I made a list of everything he criticized me more than 3x about. There were 452 list items. One was touches lips to reusable water bottle, and another was wears pink coat that looks childish. He loves playing music and I do not (my mom tried to force me a lot as a kid and it literally makes me panic), and he got into an argument with me for over an hour, trying to make me play piano for/with him. I offered to do ballet (practiced for years as a kid) or write songs to it, but it was no good for him. He threw a tantrum over it once, and locked himself in his room for an hour.
+
+I told him I was sick of him degrading my self-esteem, and to find someone who better fit his needs. If youre wondering why I spent so much time with this guy, its because I have low self-esteem, and because it got especially bad over the last six months. 
+
+In addition, my little brother developed schizophrenia in October, and he was even more critical of me about stupid things, and it was made worse because, rather than take or accept it, I would get really mad at him and sometimes criticize him back (which I never ever did before.) I know thats not RPW, but it would be things like this: In December, as my little brother got sicker and no medication helped, I began the grieving process. I was crying all the time. He offered to fill up a bath. Sounds nice, right? Well, I accidentally drained it and didnt notice because I was crying over my little brother losing his future (which had looked so bright), and he came up to yell at me and put me down for that. I ended up breaking down crying.
+
+So. Not a good relationship. Learned many things and am working on my self-esteem before I get into a new one, otherwise Ill just end up with the same kind of Bad Captain.
+
+I got home today and found two cards with gifts from his sister and mom. 
+
+I knew they would send graduation gifts, so I bought each of them a $25 gift card to  a coffee shop and a store they like, respectively, and sent it to them as a sweet gift. I had hoped that would be taken as a thank-you, but because they were so close to Mothers Day, Im not sure.
+
+Should I send them a thank you note? I want to be no contact with the guy, Im so serious about ending it, but I dont want to be rude.
+
+If so, how do I do it?
+
+More background: The mom and I had a close relationship (she was really excited about me getting married/becoming a mom and that I was with him), while the sister was more like him (shes a GREAT wife and mother, but is not very friendly/personable. She and him would sometimes put my down together.)
+
+CLASSIFICATION:
+

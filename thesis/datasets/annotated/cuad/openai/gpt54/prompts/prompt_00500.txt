@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Pey Dirt also grants to Company, subject to all of the terms and conditions herein, the non-exclusive right to use the Manning Identification in connection with certain merchandise that may be featured on the back panel of the Endorsed Products packaging, said merchandise to be subject to Pey Dirt's sole and exclusive discretion and approval.
+
+CLASSIFICATION:
+ 

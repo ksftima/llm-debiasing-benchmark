@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MediWound hereby grants to Vericel an exclusive (even as to MediWound), sublicensable, royalty- free, fully paid-up, license in the Territory to use the Licensed Trademarks (as defined in the License Agreement) and a non- exclusive, sublicensable, royalty-free, fully paid-up, license to use the MediWound name and trademark, in<omitted>each case, in connection with the Manufacture of Licensed Products in or for the Territory.
+
+CLASSIFICATION:
+ 

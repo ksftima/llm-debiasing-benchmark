@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The parties acknowledge and agree that, as between the parties, all right, title and interest in and to the trademark or service mark "APPLY," as it relates to the APPLY software product, shall be and remain the sole and exclusive property of Certegy; provided, however, that Certegy shall grant to Equifax a perpetual, fully paid, world-wide, exclusive license to use the "APPLY" trademark or service mark solely for use in combination with the mark "Equifax" and solely in connection with the use of the APPLY software PRODUCT.
+
+CLASSIFICATION:
+ 

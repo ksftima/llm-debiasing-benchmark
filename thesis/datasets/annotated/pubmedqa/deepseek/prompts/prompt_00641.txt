@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Juvenile ankylosing spondylitis--is it the same disease as adult ankylosing spondylitis? Juvenile and adult forms of ankylosing spondylitis (AS) have been shown to have different clinical presentation and outcome in Caucasians. We did this retrospective analysis to see if similar differences exist in the Indian population. Case records of 210 Indian patients diagnosed with AS according to modified New York criteria were reviewed. Data were collected regarding age of onset, clinical features, drug treatment, and outcome at last follow-up. Patients with onset before 17 years of age were classified as having juvenile AS (JAS) and the rest with adult AS (AAS). There were 150 patients with AAS and 60 with JAS. The latter had higher male preponderance, more frequent onset with peripheral arthritis, and greater involvement of hip and knee joints. Valvular dysfunction was seen only in patients with JAS.
+
+CLASSIFICATION: 

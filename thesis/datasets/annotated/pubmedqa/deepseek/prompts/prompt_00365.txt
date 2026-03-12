@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there an intrauterine influence on obesity? It has been suggested that increasing obesity levels in young women lead to intrauterine environments that, in turn, stimulate increased obesity among their offspring, generating an intergenerational acceleration of obesity levels. If this mechanism is important, the association of maternal body mass index (BMI) with offspring BMI should be stronger than the association of paternal with offspring BMI. To compare the relative strengths of association of maternal and paternal BMI with offspring BMI at age 7.5, taking into account the possible effect of non-paternity. We compared strength of association for maternal-offspring and paternal-offspring BMI for 4654 complete parent-offspring trios in the Avon Longitudinal Study of Parents and Children (ALSPAC), using unstandardised and standardised regression analysis. We carried out a sensitivity analysis to investigate the influence of non-paternity on these associations. The strength of association between parental BMI and offspring BMI at age 7.5 was similar for both parents. Taking into account correlations between maternal and paternal BMI, performing standardised rather than unstandardised regression and carrying out a sensitivity analysis for non-paternity emphasised the robustness of the general similarity of the associations. The associations between high parental BMI (top decile) and offspring BMI are also similar for both parents.
+
+CLASSIFICATION: 

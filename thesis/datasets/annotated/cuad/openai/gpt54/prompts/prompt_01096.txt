@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party shall maintain (a) comprehensive general liability insurance (including without limitation, coverage for bodily injury, personal injury, property damage, casualty loss and contractual and trademark liability); and (b) product liability insurance, providing full indemnification and defense against claims, liabilities, damages, demands and causes of action, alleged or actual, arising out of any defects in or use of the Product under this Agreement (including manufacturing, design, warning, or instruction claims), in such amounts as it customarily maintains for similar products and activities, but in no event less than $5,000,000 per individual claim and $10,000,000 in the aggregate
+
+CLASSIFICATION:
+ 

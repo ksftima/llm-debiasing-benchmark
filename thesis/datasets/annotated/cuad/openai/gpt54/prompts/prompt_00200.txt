@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If we establish an Intranet, you shall have the privilege to use the Intranet, subject to your strict compliance with the standards and specifications, protocols and restrictions that we may establish from time to time.
+
+CLASSIFICATION:
+ 

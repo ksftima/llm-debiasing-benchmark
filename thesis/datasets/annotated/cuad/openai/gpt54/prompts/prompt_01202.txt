@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Throughout the Term, and thereafter to the extent relevant to calculations necessary for periods prior to the end of the Term and subject to any confidentiality obligation owed to any third party and/or any restrictions on the disclosure of information which may be subject to intellectual property rights restricting disclosure: (a) Owner shall grant Operator access to all data relating to the electricity production of each Bloom System, it being understood that it is Operator's responsibility to determine the performance of the Bloom System, and any other calculations as required under this Agreement, and that it is Owner's responsibility to handle all accounting and invoicing activities; and (b) Owner shall allow Operator access to all data from all Facility Meters.
+
+CLASSIFICATION:
+ 

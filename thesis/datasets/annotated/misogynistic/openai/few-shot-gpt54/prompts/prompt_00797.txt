@@ -1,0 +1,127 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+**OYS #4** 
+
+Country still has no lockdown.
+
+Stats: age mid 30, married to wife (mid 30), 3 kids (2, 5, 7). Height 5'9". Weight: 76 kg (167 lbs). Strong lift 5x5, B 55 kg,+5 OHP 45 kg, DL 70 kg, SQ 90 kg, ROW 50 kg.
+
+Still reading some of the sidebar, The Book of Pook, The seduction method. WISNIFG.
+
+**Physical/training**
+
+Finally got the form issue sorted with BP, hope to see more chest growth coming weeks. Compiled pictures of muscle development and see continuous progress since mid feb when I started. 
+
+Got private boxing training from a friend which was great. Hoping to do this every week.
+
+**Marriage/How not to do MRP**
+
+Blarg\_Risen gave good advice on previous OYS. He was also right I wasn't ready. In order to get out of wifes frame get to a better state in our communication I started acting as if wife was dead. The way I approached it trying to be as normal as possible when communication in logistical matters but neither initiate or be responsive to other social communication. First few days was I was riding high. Getting back the-world-is-my-oyster-feeling (is this abundance mentality?) I had from age 20 till I started my family. Went out and did stuff for my self and feeling good.
+
+After a couple of days wife started with shit test which turned in to comfort test with small brake down  (crying and  asking what she can do to fix things). Me being a faggot I respond to this and basically reseting myself to BetaMax. We make out and form a overt/covert contract to fuck later that night. Come night she falls a sleep and there is no fucking. I did well with OI and no butthurt. Watch some tv and fell a sleep. Next morning I get up for a walk to clear my head and when I get back wife supposedly got ready for morning sex. I lay down but don't feel like initiating which she doesn't either. Both gets pissed.
+
+Shit test day ensues in which I scoreboard argues (which I have been doing a lot) and she flippes out, and started with divorce threats. I start feeling beta nervous but then "Luke use the force" I remember my  worst case scenario-training and don't give a fuck. I go shopping for groceries while she is divorcing online on her phone. I get chirpy in the car and come back in a good mood which continues. Next day she asks for forgiveness for her behavior I accept still in my IDGAF mode. After that everything is kind of good.
+
+Failings:
+
+\- Thinking her small brake down/comfort test ment shit
+
+\- Breaking my social distancing (to wife lol)
+
+\-  Fucking score board mentality (put a fucking end to that)
+
+\- No real OI when facing denial/indifference.
+
+Success (I think)
+
+\- IDGAF in face of serious divorce threats.
+
+\- Learning how to access abundance mentality (If I understand it correctly)
+
+\- Recognizing when being in her frame and stopping it during week (need to inform, need for validation, need for approval)
+
+\- Killing oneitis and getting more signals of dread from wife ("using free time to get in shape is like me getting a boob job paid by joint account").
+
+**Mental**
+
+Even though the week had a lot of failures I learned a lot. About my weakness to emotional manipulation, how to access abundance mentality and that both wife and I now know who the prize is. Since basically no real gains have been made with wife regarding her behavior (except a lot less shit tests efter apology) the risk of dancing monkey seems little. The change I am making is more for me than her right now. Will be watchful regarding this if/when affirmation from wife comes.
+
+**Sex**
+
+After apology from wife we had decent sex. She was eager for me to come even though It wasn't a big deal for me (reading NMMNG). My current thinking is to lay low for a while and just focus on my mental state. I am making plans for gaming and dates later this month with focus on feeelz.   
+
+**Family**
+
+Continuous better relations with kids. Raised voice a couple of times but not needed so much because of increased compliance. Having a good time with all of them now which is great.
+
+**Social**
+
+Going great. Seen friends boxing, building stuff and made planes for walking later this week with three different friends.
+
+**Week goals**
+
+\- Go to gym three days (went 4 times, 2 week success)
+
+\- No losing calm at all (2 week success)
+
+\- No sweets or chips (birthday party fucked diet up during weekend)
+
+**Shit owning / Goals**
+
+\- Kill ego (def getting there, validation still issue)
+
+\- Kill the affirmation seeking faggot (getting there, stopped a lot of faggot-attempts during week)
+
+\- **STFU**, a lot of failings this week but at least learned a lot.
+
+~~- Stop being afraid (of failure, of relationship/divorce etc.)~~ Successful here.
+
+~~- Try no fap again went 6 days, didn't see any benifits as per above. Will try 10 days as an experiment.~~ Fuck it, will explore the concept of Health Mast. though.
+
+\- Keep building my frame: Finally recognize whats it like being in my frame and in the same time clamping down on being in her frame.
+
+~~- Stop being a lazy bastard by asking wife about issues. Just figure shit out.~~ (Continued gains, want to cement this as the new normal.)
+
+\- Go back to being the charming lover boy my wife fell in love with. (getting there)
+
+**Mission**
+
+*Not only star in the exciting film of life but direct it as well and make people want to co-cast.*
+
+\- Get ripped and then settle for an appropriate BF for lifestyle.
+
+\- Be financially independent before 60
+
+CLASSIFICATION:
+

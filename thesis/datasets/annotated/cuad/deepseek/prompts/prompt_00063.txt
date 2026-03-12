@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Solely to the extent necessary to enable Contractor to provide the Services in accordance with the terms herein, the Company hereby grants Contractor a royalty-free, non-exclusive sublicense, without the right to grant further sublicenses, under any and all applicable trademarks and other Intellectual Property owned or controlled by or licensed to the Company or any of its Affiliates to provide, during the Term of this Agreement, the Services in respect of the Products in the Territory.
+
+CLASSIFICATION:
+ 

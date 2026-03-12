@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can third trimester ultrasound predict the presentation of the first twin at delivery? To determine the ability of early sonogram to predict the presentation of twin A at birth. A retrospective cohort study was conducted on all twin pregnancies evaluated at our Fetal Evaluation Unit from 2007 to 2009. Sonogram records were reviewed for the presentation of twin A at seven gestational age intervals and inpatient medical records were reviewed for the presentation of twin A at delivery. The positive predictive value, sensitivity, and specificity of presentation as determined by ultrasound, at each gestational age interval, for the same presentation at delivery were calculated. Two hundred and thirty-eight twin pregnancies met inclusion criteria. A total of 896 ultrasounds were reviewed. The positive predictive value of cephalic presentation of twin A as determined by ultrasound for the persistence of cephalic presentation at delivery reached 95% after 28 weeks gestation. The positive predictive value for noncephalic presentation as established by sonogram for noncephalic at delivery was>90% after 32 weeks gestation.
+
+CLASSIFICATION: 

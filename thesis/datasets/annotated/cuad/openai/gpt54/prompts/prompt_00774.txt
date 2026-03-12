@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Within ninety (90) days of our receipt of your notice to renew, we will furnish you with written notice of: (i) reasons which could cause us not to grant a renewal to you including but not limited to any deficiencies which require correction and a schedule for correction by you; and (ii) our then-current requirements relating to the image, appearance, decoration, furnishing, equipping and stocking of Buffalo Wild Wings businesses, and a schedule for effecting upgrading or modifications in order to bring the Franchised Restaurant in compliance, as a condition of renewal. Renewal of the franchise shall be conditioned upon your compliance with such requirements and continued compliance with all the terms and conditions of this Agreement up to the date of termination of the initial term.
+
+CLASSIFICATION:
+ 

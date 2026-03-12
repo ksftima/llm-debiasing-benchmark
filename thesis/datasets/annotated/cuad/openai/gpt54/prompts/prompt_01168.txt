@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding anything to the contrary contained herein, NICE' liability to Contractor for any indirect, special, incidental, exemplary or consequential damages as a result of any claim arising under this Agreement or in connection therewith, regardless of whether NICE has been advised of the possibility of such damages, shall not exceed five million US dollars ($5,000,000) in the aggregate for all claims, except for infringement of Intellectual Property rights for which NICE is liable under Section 12.8.
+
+CLASSIFICATION:
+ 

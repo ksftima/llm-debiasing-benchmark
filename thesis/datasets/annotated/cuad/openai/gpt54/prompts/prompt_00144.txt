@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective as of the Initial Closing Date, the Seller hereby grants (and will cause each other Seller Party to grant following each applicable Closing Date) to the Purchaser Licensees: (A) for a period of one hundred eighty (180) days after the applicable Closing Date (the "Mobility Transition Period"), a fully paid-up, royalty-free, worldwide, non-transferable, non-exclusive sublicense to use any and all Mobility Trademarks, in accordance with the terms and conditions of the Mobility Trademark License; and (B) for a period of seven hundred thirty (730) days after the applicable Closing Date (the "Non-Mobility Transition Period"), a fully paid-up, royalty-free, irrevocable (except as expressly set forth herein), worldwide, non-transferable, non- exclusive license to use any and all Retained Seller Trademarks (other than the Mobility Trademarks and Licensed Trademarks) that are or have been, on or prior to the Initial Closing Date, used in connection with the Business or any product, service, or system in the Business (the "Non-Mobility Trademarks"), in each case of clauses (A) and (B), solely in connection with the operation of the Business or with the exercise of the licenses granted pursuant to Section 2.2(a) and Section 2.2(b), in a manner that is the same or substantially similar to the manner in which the Seller Entities used the Mobility Trademarks or Non-Mobility Trademarks, as applicable, in connection with the Business as of the Initial Closing Date, including with respect to existing signs and stocks of advertisements and promotional materials and items, inventory and packaging included in the Acquired Assets ("Existing Stock") containing any Mobility Trademark or Non- Mobility Trademark.
+
+CLASSIFICATION:
+ 

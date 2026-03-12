@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If Adaptimmune elects not to file in the United States or not to maintain an application or patent arising from any jointly-owned Invention, Adaptimmune will promptly notify MD Anderson within reasonable time for MD Anderson to file, prosecute or maintain such application or patent, and MD Anderson will have the right to file, prosecute or maintain such application or patent, at MD Anderson's expense.
+
+CLASSIFICATION:
+ 

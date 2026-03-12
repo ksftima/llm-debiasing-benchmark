@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Lloyd-Davies position with Trendelenburg--a disaster waiting to happen? Lower limb compartment syndrome has been reported to occur after colorectal, urological, and gynecological procedures during which the patient's lower limbs are elevated for prolonged periods of time. We investigated lower limb perfusion in a group of patients undergoing prolonged pelvic surgery both during and immediately after surgery, using intra-arterial blood pressure monitoring, laser doppler flowmetry, and pulse oximetry. Use of the modified lithotomy position was not associated with any demonstrable decrease in lower limb perfusion. The addition of 15 degrees head-down tilt, however, during pelvic dissection, led to an immediate and significant drop in lower limb perfusion (P<0.05; Mann-Whitney U test). The subgroup of patients analyzed postoperatively showed a ten-fold increase (P<0.01) in perfusion that was confined to the muscle compartment with no demonstrable increase in skin perfusion or intra-arterial pedal blood pressure.
+
+CLASSIFICATION: 

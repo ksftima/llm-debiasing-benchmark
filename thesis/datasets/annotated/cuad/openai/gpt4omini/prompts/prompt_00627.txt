@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Individual grants Lifeway together with its affiliates, subsidiaries, parent companies and their representatives and employees have an unlimited, perpetual, non-exclusive, worldwide and, except as set forth in Section 9, royalty-free, right to use, reuse, publish, reproduce, perform, copy, create derivative works, exhibit, broadcast, and display throughout the world the name, image and likeness of Individual in Marketing Materials (as defined below) in connection with marketing, advertising or otherwise promoting the Lifeway products and/or services and for historical reference and display purposes and other internal purposes, including without limitation, internal sales meetings.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Preoperative locoregional staging of gastric cancer: is there a place for magnetic resonance imaging? The aim of this study was to prospectively compare the diagnostic performance of magnetic resonance imaging (MRI), multidetector computed tomography (MDCT) and endoscopic ultrasonography (EUS) in the preoperative locoregional staging of gastric cancer. This study had Institutional Review Board approval, and informed consent was obtained from all patients. Fifty-two patients with biopsy-proven gastric cancer underwent preoperative 1.5-T MRI, 64-channel MDCT and EUS. All images were analysed blind, and the results were compared with histopathological findings according to the seventh edition of the TNM classification. After the population had been divided on the basis of the local invasion (T1-3 vs T4a-b) and nodal involvement (N0 vs N+), sensitivity, specificity, positive and negative predictive value, and accuracy were calculated and diagnostic performance measures were assessed using the McNemar test. For T staging, EUS showed higher sensitivity (94%) than MDCT and MRI (65 and 76%; p = 0.02 and p = 0.08). MDCT and MRI had significantly higher specificity (91 and 89%) than EUS (60%) (p = 0.0009 and p = 0.003). Adding MRI to MDCT or EUS did not result in significant differences for sensitivity. For N staging, EUS showed higher sensitivity (92%) than MRI and MDCT (69 and 73%; p = 0.01 and p = 0.02). MDCT showed better specificity (81%) than EUS and MRI (58 and 73%; p = 0.03 and p = 0.15).
+
+CLASSIFICATION: 

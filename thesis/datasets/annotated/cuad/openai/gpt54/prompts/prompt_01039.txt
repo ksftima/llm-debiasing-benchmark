@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, eDiets will not buy, sell, display or distribute advertising from (including, but not limited to, banner ads, buttons, badges, text links, hyperlinks or editorial mentions) or otherwise promote any Women.com Compettive Company on any page of the eDiets Site that is within two clicks from the Gateway Page of the Diet Center.
+
+CLASSIFICATION:
+ 

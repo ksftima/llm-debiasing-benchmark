@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For those countries where a specific license is required for a joint owner of a Joint Invention or Joint Improvement to practice such Joint Invention or Joint Improvement, in such country, each Party hereby grants to the other Party a perpetual, irrevocable, non-exclusive, worldwide, royalty-free, fully paid-up license, transferable and sublicensable, under such Party's right, title and interest in and to such Joint Invention or Joint Improvement to freely exploit such Joint Invention or Joint Improvement in such country, subject to the terms and conditions of this Agreement and the licenses granted hereunder.
+
+CLASSIFICATION:
+ 

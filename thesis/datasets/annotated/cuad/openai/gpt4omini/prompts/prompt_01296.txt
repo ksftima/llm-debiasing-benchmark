@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The benefits of the Agreement shall inure to the respective successors and assignees of the parties and assigns and representatives, and the obligations and liabilities assumed in this Agreement by the parties hereto shall be binding upon their respective successors and assigns; provided that the rights and obligations of UTK under this Agreement may not be assigned or delegated without the prior written consent of AVDU and any such purported assignment shall be null and void.
+
+CLASSIFICATION:
+ 

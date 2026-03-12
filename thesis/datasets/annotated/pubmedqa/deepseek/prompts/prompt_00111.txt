@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does microbial contamination influence the success of the hematopoietic cell transplantation outcomes? Microbial contamination can be a marker for faulty process and is assumed to play an important role in the collection of hematopoietic progenitor cell (HPC) and infusion procedure. We aimed to determine the microbial contamination rates and evaluate the success of hematopoietic cell transplantation (HCT) in patients who received contaminated products.PATIENTS- We analyzed microbial contamination records of HPC grafts between 2012 and 2015, retrospectively. Contamination rates of autologous donors were evaluated for at three steps: at the end of mobilization, following processing with dimethyl sulfoxide, and just before stem cell infusion. Grafts of allogeneic donors were assessed only before HCT. A total of 445 mobilization procedures were carried out on 333 (167 autologous and 166 allogeneic) donors. The microbiological contamination of peripheral blood (323/333 donations) and bone marrow (10/333 donations) products were analyzed. Bacterial contamination was detected in 18 of 1552 (1.15 %) culture bottles of 333 donors. During the study period 248 patients underwent HCT and among these patients microbial contamination rate on sample basis was 1.3 % (16/1212). Microbial contamination detected in nine patients (7 autologous; 2 allogeneic). In 8 of 9 patients, a febrile neutropenic attack was observed. The median day for the neutropenic fever was 4 days (0-9). None of the patients died within the post-transplant 30 days who received contaminated products.
+
+CLASSIFICATION: 

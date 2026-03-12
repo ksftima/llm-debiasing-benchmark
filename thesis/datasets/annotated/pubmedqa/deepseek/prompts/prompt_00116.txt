@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are physician estimates of asthma severity less accurate in black than in white patients? Racial differences in asthma care are not fully explained by socioeconomic status, care access, and insurance status. Appropriate care requires accurate physician estimates of severity. It is unknown if accuracy of physician estimates differs between black and white patients, and how this relates to asthma care disparities. We hypothesized that: 1) physician underestimation of asthma severity is more frequent among black patients; 2) among black patients, physician underestimation of severity is associated with poorer quality asthma care. We conducted a cross-sectional survey among adult patients with asthma cared for in 15 managed care organizations in the United States. We collected physicians' estimates of their patients' asthma severity. Physicians' estimates of patients' asthma as being less severe than patient-reported symptoms were classified as underestimates of severity. Frequency of underestimation, asthma care, and communication. Three thousand four hundred and ninety-four patients participated (13% were black). Blacks were significantly more likely than white patients to have their asthma severity underestimated (OR = 1.39, 95% CI 1.08-1.79). Among black patients, underestimation was associated with less use of daily inhaled corticosteroids (13% vs 20%, p<.05), less physician instruction on management of asthma flare-ups (33% vs 41%, p<.0001), and lower ratings of asthma care (p = .01) and physician communication (p = .04).
+
+CLASSIFICATION: 

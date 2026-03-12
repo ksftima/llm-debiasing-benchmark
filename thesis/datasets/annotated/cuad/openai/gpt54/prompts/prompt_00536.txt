@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the provisions of this Agreement, Miltenyi is willing to grant to Bellicum a non-exclusive sublicense to its rights obtained under the [...***...] License Agreement in the form of a separate agreement between Miltenyi and Bellicum, under such separate sublicense agreement Bellicum would agree to hold harmless and reimburse Miltenyi for the fees that are due to [...***...] based on Bellicum's use of the sublicense rights for Bellicum Products ("[...***...] Sublicense Agreement").
+
+CLASSIFICATION:
+ 

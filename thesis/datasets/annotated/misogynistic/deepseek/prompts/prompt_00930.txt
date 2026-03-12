@@ -1,0 +1,24 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+If I were the boys father Id release a short statement:
+>In a heated exchange with a Ms Clementine Ford online who on previous occasions has called for all men to be killed and said Have you killed a man today, and if not; why not? I understand that my teenage son responded said that the author should first use a shotgun to kill herself. 
+
+> On behalf of my son, and in light of the fact that XXX, all men, end their lives with a firearm each year, Id like to apologize for this crude and offensive language; not just to Miss Ford, but particularly to the many Australian families left in grief by suicide each year.
+
+Edit: If it was *me* Id laugh and tell the man-hating twat to suck my hairy balls, but Im old enough to handle it.
+
+CLASSIFICATION:
+

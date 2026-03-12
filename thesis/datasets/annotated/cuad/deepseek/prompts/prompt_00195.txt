@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CEIS hereby grants XFN and its Affiliates an exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the Territory:<omitted>(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates; (b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content; and (c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in media now or hereafter known.
+
+CLASSIFICATION:
+ 

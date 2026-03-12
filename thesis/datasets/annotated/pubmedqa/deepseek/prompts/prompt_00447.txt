@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Chemoradiotherapy in the management of locally advanced squamous cell carcinoma esophagus: is surgical resection required? The present study aims to evaluate benefit of adding surgery to chemoradiotherapy alone in management of carcinoma esophagus. We retrospectively analyzed 45 eligible patients of squamous cell esophageal carcinoma which were enrolled from February 2008 to April 2009. All patients were treated with chemoradiotherapy (50.40 Gy with 40 mg/m(2) of weekly cisplatin). Tumor response was assessed after 6 weeks of treatment. Patients with resectable disease were subjected to surgical resection (arm A) and remaining was kept on regular clinical follow-up (arm B). Overall survival (OS) was selected as the primary endpoint. The secondary end points were disease-free survival (DFS) and clinical toxicities. Median follow-up was 13.6 months. Pathological complete response was seen in 60.9 % patients in arm A. In arm B, 77.3 % patients attained radiological complete response (p = 0.194). The median OS was 16.4 and 19.1 months (p = 0.388) and median DFS was 5.8 and 4.1 months (p = 0.347) in arm A and B, respectively. The 2-year survival probability was 39.1 and 36.4 % (p = 0.387) in arm A and B, respectively. The recurrence probability was 56.5 % (SE = 5.6 %) and 45.5 % (SE = 4.2 %) (p = 0.328) in arm A and B, respectively. The probability of loco regional recurrence was more in arm B than in arm A (p = 0.002).
+
+CLASSIFICATION: 

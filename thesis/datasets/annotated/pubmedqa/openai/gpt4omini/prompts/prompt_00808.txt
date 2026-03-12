@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Multidisciplinary decisions in breast cancer: does the patient receive what the team has recommended? A multidisciplinary team (MDT) approach to breast cancer management is the gold standard. The aim is to evaluate MDT decision making in a modern breast unit. All referrals to the breast MDT where breast cancer was diagnosed from 1 July 2009 to 30 June 2011 were included. Multidisciplinary team decisions were compared with subsequent patient management and classified as concordant or discordant. Over the study period, there were 3230 MDT decisions relating to 705 patients. Overall, 91.5% (2956 out of 3230) of decisions were concordant, 4.5% (146 out of 3230), were discordant and 4% (128 out of 3230) had no MDT decision. Of 146 discordant decisions, 26 (17.8%) were considered 'unjustifiable' as there was no additional information available after the MDT to account for the change in management. The remaining 120 discordant MDT decisions were considered 'justifiable', as management was altered due to patient choice (n=61), additional information available after MDT (n=54) or MDT error (n=5).
+
+CLASSIFICATION: 

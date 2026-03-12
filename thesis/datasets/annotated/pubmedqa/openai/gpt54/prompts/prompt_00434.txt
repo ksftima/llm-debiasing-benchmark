@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are laboratories reporting serum quantitative hCG results correctly? Human chorionic gonadotropin (hCG) is a heterodimeric glycoprotein hormone that exists in multiple forms. Immunoassays commonly used in clinical laboratories measure intact hCG, total beta hCG (intact hCG + hCG free beta-subunit), and/or hCG free beta-subunit. Measurement of serum concentrations of hCG is useful for confirmation and monitoring of pregnancy, diagnosis of trophoblastic diseases and monitoring of the efficacy of treatment, and prenatal screening. Correctly reporting results for the various forms of hCG is clinically important. We prepared samples by addition of intact hCG and hCG free beta-subunit to an essentially hCG-free human serum matrix. The samples were analyzed by participant laboratories using various immunoassay methods. We identified errors in participant reporting of intact hCG results as total beta hCG (9.3%; 22 of 235 laboratories) and total beta hCG as intact hCG (13.1%; 8 of 61 laboratories).
+
+CLASSIFICATION: 

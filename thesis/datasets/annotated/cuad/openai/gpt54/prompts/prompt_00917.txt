@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither Party may assign or transfer this Supply Agreement, including by merger, operation of law, or otherwise, without the other Party's prior written consent (which shall not be withheld unreasonably) except each Party may assign this Supply Agreement without the other Party's consent in the case of assignment or transfer to a Third Party that succeeds to all or substantially all of the assigning Party's business and assets relating to the subject matter of this Supply Agreement, whether by sale, merger, operation of law or otherwise. Any attempted assignment by a Party in violation of this Section without the written consent of the other Party will be null and void.
+
+CLASSIFICATION:
+ 

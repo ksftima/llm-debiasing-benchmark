@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Blue Hills Parties carry, or are covered by, insurance in such amounts and covering such risks as is adequate for the conduct of their respective businesses and the value of their respective properties as is customary for companies engaged in a similar industry.
+
+CLASSIFICATION:
+ 

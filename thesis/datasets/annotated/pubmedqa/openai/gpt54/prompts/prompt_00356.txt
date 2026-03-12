@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do episodic migraineurs selectively attend to headache-related visual stimuli? To assess pain-related attentional biases among individuals with episodic migraine. Prior studies have examined whether chronic pain patients selectively attend to pain-related stimuli in the environment, but these studies have produced largely mixed findings and focused primarily on patients with chronic musculoskeletal pain. Limited research has implicated attentional biases among chronic headache patients, but no studies have been conducted among episodic migraineurs, who comprise the overwhelming majority of the migraine population. This was a case-control, experimental study. Three hundred and eight participants (mean age = 19.2 years [standard deviation = 3.3]; 69.5% female; 36.4% minority), consisting of 84 episodic migraineurs, diagnosed in accordance with International Classification of Headache Disorders (2(nd) edition) criteria using a structured diagnostic interview, and 224 non-migraine controls completed a computerized dot probe task to assess attentional bias toward headache-related pictorial stimuli. The task consisted of 192 trials and utilized 2 emotional-neutral stimulus pairing conditions (headache-neutral and happy-neutral). No within-group differences for reaction time latencies to headache vs happy conditions were found among those with episodic migraine or among the non-migraine controls. Migraine status was unrelated to attentional bias indices for both headache (F [1,306] = 0.56, P = .45) and happy facial stimuli (F [1,306] = 0.37, P = .54), indicating a lack of between-group differences. Lack of within- and between-group differences was confirmed with repeated measures analysis of variance.
+
+CLASSIFICATION: 

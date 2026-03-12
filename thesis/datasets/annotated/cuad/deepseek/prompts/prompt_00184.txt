@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Sanofi hereby grants to RevMed a non-exclusive, royalty-free sublicense (which shall only be further sub-licensable (a) to RevMed's Subsidiaries, (b) to the Permitted Contractors or Researchers, and (c) solely with Sanofi's prior written consent, such consent not to be unreasonably withheld, delayed or conditioned, to Third Parties who are not Permitted Contractors or Researchers) under the rights exclusively licensed to Sanofi pursuant to Section 3.1, solely to the extent necessary for RevMed to perform its obligations under this Agreement and the Ancillary Agreements.
+
+CLASSIFICATION:
+ 

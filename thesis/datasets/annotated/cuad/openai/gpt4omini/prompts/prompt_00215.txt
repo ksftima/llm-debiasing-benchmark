@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Garman hereby grants to Sparkling, a perpetual, fully paid, non-exclusive license entitling Sparkling to use and reproduce the Codes deposited with it pursuant to Section (a) to change, update, add to, or substitute the Codes, the Software or any part thereof, limited to Sparkling's needs for the use and improvement of the Software or Sparkling's operations, provided that Sparkling shall only be entitled to utilize such license if Sparkling terminates this Agreement pursuant to Section 17(c) due to Garman's default, or if Garman ceases to support the Software as required pursuant to this Agreement.
+
+CLASSIFICATION:
+ 

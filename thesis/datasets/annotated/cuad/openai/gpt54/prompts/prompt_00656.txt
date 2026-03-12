@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For clarity and without limiting Section 8.8.1 (Non-Exclusive Manufacturing License; Covenant), the licenses granted to Ginkgo in Section 9.1.1 (Scope of Grants) and Section 9.1.2 (License Grant to Exploit [***]) do not include the right to make, have made, offer to sell or sell Consumables, [***], to or for Third Parties or any Ginkgo Affiliate or Ginkgo Subcontractor that are [***] on the Beacon Platform [***].
+
+CLASSIFICATION:
+ 

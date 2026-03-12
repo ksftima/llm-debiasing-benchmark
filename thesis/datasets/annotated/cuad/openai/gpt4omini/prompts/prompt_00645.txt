@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+It being understood and agreed that Bizzingo shall have the right to exhibit commercials, infomercials, advertisements and otherwise make use of all Property on a worldwide basis and that Bizzingo and its affiliates shall be the sole owner of all commercials, promotional materials and other items produced or created hereunder and all related rights worldwide, including, without limitation, copyright, trademark and intellectual property rights, subject however to the terms and conditions herein.
+
+CLASSIFICATION:
+ 

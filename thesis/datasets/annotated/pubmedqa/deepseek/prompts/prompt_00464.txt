@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is acute fibrinous and organizing pneumonia the expression of immune dysregulation? Acute fibrinous and organizing pneumonia (AFOP) is a recently described histologic pattern of diffuse pulmonary disease. In children, all cases reported to date have been fatal. In this study, we describe the first nonfatal AFOP in a child and review the literature. A 10-year-old boy developed very severe aplastic anemia (VSAA) after being admitted to our hospital with a fulminant hepatic failure of unknown origin. A chest computed tomography scan revealed multiple lung nodules and a biopsy of a pulmonary lesion showed all the signs of AFOP. Infectious workup remained negative. We started immunosuppressive therapy with antithymocyte globulin and cyclosporine to treat VSAA. Subsequent chest computed tomography scans showed a considerable diminution of the lung lesions but the VSAA did not improve until we performed hematopoietic stem cell transplantation 5 months later.
+
+CLASSIFICATION: 

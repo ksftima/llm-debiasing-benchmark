@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Except as expressly provided herein, HSNS shall not (i) rent, lease, loan, sell or otherwise distribute the Application, or any modification thereto, in whole or in part; (ii) cause or permit reverse engineering, reverse compilation, unauthorized access or assembly of all or any portion of the Application; (iii) allow any outsourcing or application service providers to access and use the Application as Outsourcing Customers, (iv) publish the results of Application performance benchmarks to any third party without E.piphany's express written consent; (v) export the Application in violation of U.S. Department of Commerce export administration regulations; and (vi) except as otherwise expressly allowed herein, permit any third party or unlicensed user or computer system to access or use the Application.
+
+CLASSIFICATION:
+

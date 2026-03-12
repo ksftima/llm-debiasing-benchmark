@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Rectal cancer threatening or affecting the prostatic plane: is partial prostatectomy oncologically adequate? A multicentre, retrospective study was conducted of patients with rectal cancer threatening or affecting the prostatic plane, but not the bladder, judged by magnetic resonance imaging (MRI). The use of preoperative chemoradiotherapy and the type of urologic resection were correlated with the status of the pathological circumferential resection margin (CRM) and local recurrence. A consecutive series of 126 men with rectal cancer threatening (44) or affecting (82) the prostatic plane on preoperative staging and operated with local curative intent between 1998 and 2010 was analysed. In patients who did not have chemoradiotherapy but had a preoperative threatened anterior margin the CRM-positive rate was 25.0%. In patients who did not have preoperative chemoradiotherapy but did have an affected margin, the CRM-positive rate was 41.7%. When preoperative radiotherapy was given, the respective CRM infiltration rates were 7.1 and 20.7%. In patients having preoperative chemoradiotherapy followed by prostatic resection the rate of CRM positivity was 2.4%. Partial prostatectomy after preoperative chemoradiotherapy resulted in a free anterior CRM in all cases, but intra-operative urethral damage occurred in 36.4% of patients who underwent partial prostatectomy, resulting in a postoperative urinary fistula in 18.2% of patients.
+
+CLASSIFICATION: 

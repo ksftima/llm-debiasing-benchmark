@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is delayed gastric emptying following pancreaticoduodenectomy related to pylorus preservation? Delayed gastric emptying (DGE) is the most frequent postoperative complication after pylorus-preserving pancreaticoduodenectomy (PPPD). This prospective, non-randomized study was undertaken to determine whether the incidence of DGE may be reduced by modifying the original reconstructive anatomy with a retrocolic duodenojejunostomy towards an antecolic duodenojejunostomy. The study was comprised of 51 patients who underwent PPPD between August 1994 and November 1997. The operation was carried out as originally described but was modified by performing the duodenojejunostomy antecolically. Clinical data were recorded prospectively, with special regard to DGE. After PPPD, the nasogastric tube could be removed at a median of 2 days (range 1-22 days) postoperatively; in two patients, the nasogastric tube was reinserted because of vomiting and nausea. A liquid diet was started at a median of 5 days (3-11 days); the patients were able to tolerate a full, regular diet at a median of 10 days (7-28 days). The overall incidence of DGE was 12% (n=6). No postoperative complications other than DGE were exhibited by 36 patients (71%). In this group, DGE was only seen in one patient (3%). In the second group, where postoperative complications other than DGE occurred (n=15), five patients (30%) exhibited DGE (P=0.002).
+
+CLASSIFICATION: 

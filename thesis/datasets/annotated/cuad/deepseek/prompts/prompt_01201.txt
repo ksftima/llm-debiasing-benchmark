@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Assignment Without the express prior written consent of Diversinet (not to be unreasonably refused), Reseller may not assign this Agreement or its interest herein in whole or in part but Reseller shall continue to be responsible should the assignee fail to perform. Diversinet may assign this Agreement at any time and in such event, this Agreement shall continue in full force and effect as if the assignee were named as the licensor in the first instance but Diversinet shall continue to be responsible should the assignee fail to perform.
+
+CLASSIFICATION:
+ 

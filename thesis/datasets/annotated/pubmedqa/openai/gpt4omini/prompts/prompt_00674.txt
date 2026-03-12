@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the fibronectin-aggrecan complex present in cervical disk disease? To investigate the presence of inflammatory cytokines and the fibronectin-aggrecan complex (FAC) in persons undergoing surgical treatment for cervical radiculopathy caused by disk herniation. Single-center, prospective, consecutive case series. A single large academic institution. A total of 11 patients with radiculopathic pain and magnetic resonance imaging findings positive for disk herniation elected to undergo single-level cervical diskectomy. Lavage was performed by needle injection and aspiration upon entering the disk space for fluoroscopic localization before diskectomy. The lavage fluid was assayed for pH and the FAC, as well as for the cytokines interleukin-6 (IL-6), interferon-γ, monocyte chemotactic protein (MCP), and macrophage inhibitory protein-1β. The subjects were 7 women and 4 men with a mean age of 50.6 years (SE 9.7; range, 36-70 years). The mean concentrations (SE; range) in picograms per milliliter were 7.9 (4.4; 0-44) for IL-6, 25.3 (15.5; 0-159) for interferon-γ, 16.1 (11.9; 0-121) for MCP, and 6.1 (2.8; 0-29) for macrophage inhibitory protein-1β. The optical density of the FAC at 450 nm was 0.151 (0.036; 0.1-0.32), and the pH was 6.68 (0.1; 6.10-7.15). Statistically significant correlations were found between MCP and FAC (P = .036) and between FAC and pH (P = .008).
+
+CLASSIFICATION: 

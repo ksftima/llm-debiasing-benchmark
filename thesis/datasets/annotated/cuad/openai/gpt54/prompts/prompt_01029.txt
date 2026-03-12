@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+At the Supplier's option, on termination of this agreement: (a) the Supplier may buy from the Distributor all or any stocks of Products for the current market value for those Products. The Distributor must deliver such Products to the Supplier within 14 days of receiving the Supplier's notice, and the Supplier must pay for the Products in full within 30 days of their delivery. The Supplier shall be responsible for the costs of packaging, insurance and carriage of the Products; or (b) the Distributor may dispose of the balance of the Products in its possession and account to the Supplier for the Price for those Products;
+
+CLASSIFICATION:
+ 

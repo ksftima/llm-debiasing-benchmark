@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there a uniform basal endometrial gene expression profile during the implantation window in women who became pregnant in a subsequent ICSI cycle? To understand which genes are really involved in the implantation process, we planned to study the gene basal expression profile during the window of implantation (WOI) of patients who became pregnant in a subsequent ICSI cycle. Women attending their first ICSI cycle at ANDROS Day Surgery for severe male factor infertility were included in the study. An endometrial biopsy was performed during the WOI, in one of the last two cycles before the ICSI cycle. Forty-seven selected gene profiles were analyzed using Low Density Array technology. Only biopsies from women who subsequently became pregnant were evaluated, to exclude any bias regarding embryo viability and embryo transfer difficulties. Fifteen patients were included in the analysis as they became pregnant after ICSI procedure. Four of 47 selected genes were excluded from the analysis. Of the 43 genes analyzed, only 6 genes (VEGFA, PLA2G2A, ALPL, LIF, NNMT and STC1) showed a statistically uniform expression among patients who subsequently became pregnant. For all the other genes analyzed there were considerable differences in their expression levels amongst women who subsequently became pregnant.
+
+CLASSIFICATION: 

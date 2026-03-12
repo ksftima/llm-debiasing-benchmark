@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Constellation grants to the HOF Entities a nonexclusive, nontransferable, royalty-free license to use the marks set forth on Exhibit G ("Constellation's Marks") in the United States or online throughout the Term solely in connection with the Sponsorship Rights, the advertising and promotion of the Village, including any musical, athletic or other live performance events at the Village, in connection with the name of the Center for Excellence and/or any Co-Branded Center for Excellence Logos and otherwise as expressly contemplated by this Agreement.
+
+CLASSIFICATION:
+ 

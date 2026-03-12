@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier shall furnish Buyer with a certificate from its insurer verifying that it has the above insurance in effect during the duration of this Agreement and that insurer acknowledges (a) the contractual liability assumed by Supplier in this Agreement and (b) that Buyer is an additional insured on such policies and (c) Supplier's CGL policy is primary and Buyer's CGL policy is non-contributory and (d) a waiver of subrogation shall be provided in favor of Buyer on the CGL, Workers' Compensation and Auto policies.
+
+CLASSIFICATION:
+ 

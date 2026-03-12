@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as may be otherwise specified in its Trademark Consent, during the Term and subject to Section 9.02.5, the terms and conditions of the Trademark Consent and the Trademark License Terms, each of the PHL Parties or its Affiliates, as applicable, shall grant to ICC and their Affiliates, as applicable, a non-exclusive - 17 - limited license (a "License") to use the PHL Licensed Marks solely in connection with the performance of the duties and obligations of ICC and its Affiliates, as applicable, under the Transaction Documents.
+
+CLASSIFICATION:
+ 

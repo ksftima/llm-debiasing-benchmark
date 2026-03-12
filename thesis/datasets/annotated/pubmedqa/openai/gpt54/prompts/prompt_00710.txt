@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does menopausal transition affect the quality of life? The aim of this study was to investigate the role of menopausal transition and menopausal symptoms in relation to quality of life in a cohort of middle-aged women in Kinmen. A total of 734 premenopausal women participated in the baseline study, and 579 women (78.9%) completed a follow-up 2 years later. Quality of life was assessed by the Medical Outcomes Study Short Form-36. Participating women were asked for demographic data, about vasomotor symptoms, and to complete the Medical Outcomes Study Short Form-36 and the Hospital Anxiety and Depression Scale. There was no demographic difference between women who remained premenopausal and those who entered perimenopause except for age. Vitality deteriorated no matter whether the women stayed in premenopause or entered perimenopause. In multivariate analysis, only vasomotor symptoms had an adverse influence on role limitation of emotion after adjusting for age, education, menopausal status, baseline cognitive score, and Hospital Anxiety and Depression Scale score. The menopausal transition did not influence the eight domains of the Short Form-36 in the multivariate regression model.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can dose reduction to one parotid gland prevent xerostomia? Dryness of the mouth is one of the most distressing chronic toxicities of radiation therapy in head and neck cancers. In this study, parotid function was assessed in patients with locally advanced head and neck cancers undergoing intensity-modulated radiotherapy (IMRT) with or without chemotherapy. Parotid function was assessed with the help of a questionnaire and parotid scintigraphy, especially with regards to unilateral sparing of the parotid gland. In total, 19 patients were treated with compensator-based IMRT between February 2003 and March 2004. The dose to the clinical target volume ranged between 66 and 70 Gy in 30-35 fractions to 95% of the isodose volume. Ipsilateral high-risk neck nodes received an average dose of 60 Gy and the contralateral low-risk neck received a dose of 54-56 Gy. Eight of 19 patients also received concomitant chemotherapy. Subjective toxicity to the parotid glands was assessed with the help of a questionnaire at 0, 3 and 6 months and objective toxicity was assessed with parotid scintigraphy at 0 and 3 months. The mean dose to the ipsilateral parotid gland ranged from 19.5 to 52.8 Gy (mean 33.14 Gy) and the mean dose to the contralateral gland was 11.1-46.6 Gy (mean 26.85 Gy). At a median follow-up of 13 months, 9/19 patients had no symptoms of dryness of the mouth (grade I), 8/19 had mild dryness of the mouth (grade II) and only 2/19 had grade III xerostomia, although the parotid gland could only be spared on one side in most of the patients.
+
+CLASSIFICATION: 

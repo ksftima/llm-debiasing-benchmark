@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cervical spine fractures in geriatric blunt trauma patients with low-energy mechanism: are clinical predictors adequate? Studies have identified clinical predictors to guide radiologic evaluation of the cervical spine in geriatric patients. We hypothesized that clinical predictors are not adequate in the identification of cervical spine fractures in geriatric blunt trauma patients with low-energy mechanism. A retrospective case-control study was performed on geriatric blunt trauma patients sustaining low-energy trauma from January 2000 to January 2006. A data form including 8 clinical predictors was completed for each group. There were 35 study and 64 control patients identified. Both groups were similar in age (study 83.6 vs control 81.2) and injury severity score (study 9.06 vs control 9.61). Only neck tenderness exceeded the expected occurrence in the presence of a cervical spine injury (chi(2) = 18.1, P = .001) in just 45.5% of the study group.
+
+CLASSIFICATION: 

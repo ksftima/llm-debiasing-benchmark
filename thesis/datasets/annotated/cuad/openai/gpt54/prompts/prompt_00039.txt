@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Google grants to Distributor a [* ] license during the Term to: (a) bundle the Distribution Products, in machine-readable binary code format only, solely with Distributor App(s); (b) distribute Bundles directly (or indirectly, subject to Clause 2.2 (Third Party Distribution)) to End Users in the Territory; (c) when indicated by the applicable Criteria Checker and requested by the End User in accordance with clause 3.2 (Form of Distribution Offering), install the Chrome Browser or the Google Toolbar (as applicable) on the End User's system using the Google Installers; and (d) reproduce (or have reproduced by Third Party Distributors as defined in Clause 2.2 (Third Party Distribution)), the Distribution Products to the extent necessary to exercise the rights granted in (a), (b) and (c).
+
+CLASSIFICATION:
+ 

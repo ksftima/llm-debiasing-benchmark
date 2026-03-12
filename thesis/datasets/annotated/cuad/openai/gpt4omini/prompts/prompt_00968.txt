@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Distributor Share" means, with respect to Net Revenue, the percentage of Net Revenue that the Distributor is entitled to receive, as follows: (i) for the first ten (10) Products installed, 7.5% of Net Revenue, and (ii) for the eleventh (11th) Product installed and all Products installed thereafter, 15% of Net Revenue. Notwithstanding anything to the contrary contained herein, the 1 Source: WATER NOW, INC., 10-Q, 11/20/2019 Distributor Share with respect to the split of Net Revenue between Hydraspin and the Distributor with respect to any particular Production installation or group Product installation may be negotiated by Hydraspin and the Distributor and set forth in a separate written agreement between the Parties, and in such case, the Distributor Share set forth in the separate written agreement shall supersede and control over the Distributor Share set forth above.
+
+CLASSIFICATION:
+ 

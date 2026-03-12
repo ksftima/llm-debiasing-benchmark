@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+CBC's been pushing this narrative this year up north too. Granted, they also sacked one of their longest tenured commentators because he made some rather negative generalizations about immigrants not wearing poppies and supporting the Canadian forces by attending Remembrance Day events. Thankfully they've left the game broadcasting to people who (somewhat) know what they are doing and stuck the women on the intermission commentary behind the desk.
+
+CLASSIFICATION:
+

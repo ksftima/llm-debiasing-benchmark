@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NCM hereby grants to Network Affiliate at no cost a limited, non-exclusive, non-transferable, non-sublicenseable, royalty-free license in the Territory during the Term only to receive, store, convert or otherwise manage, display and exhibit the Service on the Equipment at Theatres solely in connection with its performance of and subject to all of the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

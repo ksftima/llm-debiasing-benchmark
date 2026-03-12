@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+All licenses and other rights granted to Sanofi under the RevMed Licensed Technology under this Agreement shall terminate (except as necessary to permit Sanofi to perform its surviving obligations under this Article XII) and all rights thereunder shall revert to RevMed; provided, however, RevMed shall, effective upon any such termination of this Agreement, and hereby does, grant to Sanofi a non- exclusive, worldwide license, with the right to grant sublicenses to contractors and otherwise only with RevMed's prior written consent, under each (1) RevMed Program Invention and (2) [***]. F
+
+CLASSIFICATION:
+ 

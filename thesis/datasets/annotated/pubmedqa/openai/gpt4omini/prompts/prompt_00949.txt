@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Resection of colorectal liver metastases after second-line chemotherapy: is it worthwhile? Patient outcome after resection of colorectal liver metastases (CLM) following second-line preoperative chemotherapy (PCT) performed for insufficient response or toxicity of the first-line, is little known and has here been compared to the outcome following first-line. From January 2005 to June 2013, 5624 and 791 consecutive patients of a prospective international cohort received 1 and 2 PCT lines before CLM resection (group 1 and 2, respectively). Survival and prognostic factors were analysed. After a mean follow-up of 30.1 months, there was no difference in survival from CLM diagnosis (median, 3-, and 5-year overall survival [OS]: 58.6 months, 76% and 49% in group 2 versus 58.9 months, 71% and 49% in group 1, respectively, P = 0.32). After hepatectomy, disease-free survival (DFS) was however shorter in group 2: 17.2 months, 27% and 15% versus 19.4 months, 32% and 23%, respectively (P = 0.001). Among the initially unresectable patients of group 1 and 2, no statistical difference in OS or DFS was observed. Independent predictors of worse OS in group 2 were positive primary lymph nodes, extrahepatic disease, tumour progression on second line, R2 resection and number of hepatectomies/year<50. Positive primary nodes, synchronous and bilateral metastases were predictors of shorter DFS. Initial unresectability did not impact OS or DFS in group 2.
+
+CLASSIFICATION: 

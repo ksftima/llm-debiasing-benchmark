@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+One thing that helps understanding women- they are always *always* concerned with themselves. Their husband, their parents, even their children always come second to their own interests. Even when it seems they are doing something charitable, it is always for what they get back. 
+
+I used to work with charities and women loved filling the roles as long as 1) the job was easy and especially 2) they get acknowledged for the job. They will never work anonymously. Ever. That is just how they are wired.
+
+CLASSIFICATION:
+

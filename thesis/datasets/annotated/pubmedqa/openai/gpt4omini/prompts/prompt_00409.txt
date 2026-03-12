@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Failed IUD insertions in community practice: an under-recognized problem? The data analysis was conducted to describe the rate of unsuccessful copper T380A intrauterine device (IUD) insertions among women using the IUD for emergency contraception (EC) at community family planning clinics in Utah. These data were obtained from a prospective observational trial of women choosing the copper T380A IUD for EC. Insertions were performed by nurse practitioners at two family planning clinics in order to generalize findings to the type of service setting most likely to employ this intervention. Adjuvant measures to facilitate difficult IUD insertions (cervical anesthesia, dilation, pain medication, and use of ultrasound guidance) were not utilized. The effect of parity on IUD insertion success was determined using exact logistic regression models adjusted for individual practitioner failure rates. Six providers performed 197 IUD insertion attempts. These providers had a mean of 14.1 years of experience (range 1-27, S.D. ±12.5). Among nulliparous women, 27 of 138 (19.6%) IUD insertions were unsuccessful. In parous women, 8 of 59 IUD insertions were unsuccessful (13.6%). The adjusted odds ratio (aOR) showed that IUD insertion failure was more likely in nulliparous women compared to parous women (aOR=2.31, 95% CI 0.90-6.52, p=.09).
+
+CLASSIFICATION: 

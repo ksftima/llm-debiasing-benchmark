@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Astellas shall have access to and the right to use solely for the purpose of this Agreement, any Data developed by or on behalf of FG or its Affiliates or Sublicensees with respect to Lead Compounds in connection with the Field (i) to the extent necessary to support the application to the regulatory authority in the Astellas Territory or to fulfill other Japanese Ministry of Health, Labor and Welfare regulatory requirements, or (ii) if not necessary to support such application or to fulfill such Japanese Ministry of Health, Labor and Welfare regulatory requirements, to the extent FG is permitted subject to FG's third party obligations; provided that FG shall [ * ] negotiate the availability of such Data to Astellas from such Sublicensee, and provided, further, that Astellas agrees not to use or disclose to third parties any such data for purposes outside the Field except as authorized under this Agreement.
+
+CLASSIFICATION:
+ 

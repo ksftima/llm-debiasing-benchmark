@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can continuous physical training counteract aging effect on myoelectric fatigue? To compare the myoelectric onset of muscle fatigue in physically active trained young skiers with respect to elderly skiers and to test whether continuous training can counteract the selective loss of type II muscle fibers usually observed with aging. An observational, cross-sectional study of the myoelectric onset of muscle fatigue in the left tibialis anterior muscles. Surface electromyography recorded with portable devices at a downhill ski rescue lodge in the Italian Alps. Fifty-four physically trained, active skiers (43 men, 11 women; age range, 24-85y). Questionnaire on physical activity and 2 sustained isometric voluntary contractions at 20% and 2 at 80% of the maximal voluntary contraction level. Isometric contractions and mean and median spectral frequencies calculated to monitor the myoelectric manifestations of muscle fatigue. Fatigue indices did not differ significantly between younger and older subjects and, thus, did not show a correlation between myoelectric manifestations of muscle fatigue and age in physically active subjects.
+
+CLASSIFICATION: 

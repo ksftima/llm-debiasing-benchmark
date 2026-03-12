@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is ankle/arm pressure predictive for cardiovascular mortality in older patients living in nursing homes? longitudinal descriptive study. 2 large nursing homes in Turin, Italy. 418 dependent elderly (83 males, 335 females, mean age 83.7+/-8.5 y, range 55-102) living in the nursing homes. the prevalence of peripheral arterial disease (PAD) was evaluated using a Doppler Ultrasound measurement of AAI (Ankle/Arm blood pressure Index). Death causes according to ICD-9-CM were ascertained on patient's clinical records. Diagnosis of PAD was made in 122 subjects (29.2%) with AAI<0.90. After a 3 year follow-up 203 patients (48.6%) died. The presence of PAD was not related to total mortality or to mortality for ischemic heart disease (IHD), cerebrovascular disease or other causes. IHD mortality was significantly and independently related to low haemoglobin values, previous cerebrovascular disease, polypharmacy and poor mobility conditions.
+
+CLASSIFICATION: 

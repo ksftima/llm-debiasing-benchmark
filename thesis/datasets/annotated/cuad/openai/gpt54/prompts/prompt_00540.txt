@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent necessary to effect the foregoing in a country other than the United States, each Party grants to the other Party a nonexclusive, irrevocable, perpetual, fully-paid, worldwide license, with the right to grant sublicenses, under the granting Party's interest in Joint Program Technology, for any and all purposes, provided that RevMed's interest therein shall be subject to the other terms and conditions of this Agreement, including the exclusive licenses granted herein (during the Term) and all payment obligations.
+
+CLASSIFICATION:
+ 

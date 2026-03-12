@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do approved doctors and medical referees in the UK agree when assessing a seafarer's fitness? The seafaring industry remains a hazardous occupation that requires sophisticated systems of risk and fitness assessment. This study aims to investigate the extent of agreement between Approved Doctors (ADs) and Medical Referees (MRs) when they assess a seafarer's fitness. Between 2003 and 2009 a total of 232,878 seafarer medical examinations were carried out by ADs, of which 465 were considered by the MRs because the seafarer appealed against the AD's decision. The extent of agreement between ADs and MRs was studied. Two hundred and sixty-eight (58%) cases seen by the ADs were classed as category 4 "permanently unfit"; the referees only placed 85 (18%) of them in this category. On the other hand, 252 (54%) cases seen by the MRs were classed as category 2 "fit with restrictions", while the ADs had only placed 111 (24%) in this category. The overall agreement between the assessors (AD vs. MR) was poor (Kappa K = 0.18). For cardiovascular diseases and for mental ill-health, access to additional information by the MR was the commonest reason for changing the fitness category, but for all other conditions factors such as the experience and knowledge of the MRs or their different interpretation of the standards were the most frequent reasons for a change to fitness category or to restrictions.
+
+CLASSIFICATION: 

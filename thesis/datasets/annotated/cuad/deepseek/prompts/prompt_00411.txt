@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except to the extent any jointly-owned inventions or intellectual property are included in subject matter licensed by one Party to the other Party under this Agreement, each Party may only practice any such jointly-owned inventions or intellectual property for its own internal purposes, and neither Party shall have the right to enforce, license, or assign such jointly- owned inventions or intellectual property, without the prior written consent of the other Party.
+
+CLASSIFICATION:
+ 

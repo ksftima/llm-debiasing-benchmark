@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+when a woman says "a man" it means a man she doesn't completely discount and ignore.
+
+Women have no empathy for majority of men and just flat out ignore them.
+
+Women consider only certain men as men at all. The rest of men have the same status as family or objects like telephone poles. They pay attention just enough to not walk into them and they vanish from their entire worldly thought.
+
+CLASSIFICATION:
+

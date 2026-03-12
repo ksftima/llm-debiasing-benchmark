@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Suturing of the nasal septum after septoplasty, is it an effective alternative to nasal packing? To discuss and compare the results of suturing the nasal septum after septoplasty with the results of nasal packing. A prospective study, which was performed at Prince Hashem Military Hospital in Zarqa, Jordan and Prince Rashed Military Hospital in Irbid, Jordan between September 2005 and August 2006 included 169 consecutive patients that underwent septoplasty. The patients were randomly divided into 2 groups. After completion of surgery, the nasal septum was sutured in the first group while nasal packing was performed in the second group. Thirteen patients (15.3%) in the first group and 11 patients (13%) in the second group had minor oozing in the first 24 hours, 4 patients (4.8%) had bleeding after removal of the pack in the second group. Four patients (4.8%) developed septal hematoma in the second group. Two patients (2.4%) had septal perforation in the second group. One patient (1.1%) in the first group, and 5 patients (5.9%) in the second group had postoperative adhesions. Five patients (5.9%) were found to have remnant deviated nasal septum in each group. The operating time was 4 minutes longer in the first group.
+
+CLASSIFICATION: 

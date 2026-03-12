@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to the Products, Calm shall have the right to identify up to five (5) additional products, with such products and the price thereof to be mutually agreed by the Parties, to be displayed, marketed, promoted, offered for sale and sold in the Stores in the Territory.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are wandering and physically nonaggressive agitation equivalent? The authors examined equivalence of wandering and physically nonaggressive agitation (PNA) as concepts. A cross-sectional correlational design was used. Participants were recruited from 22 nursing homes and 6 assisted living facilities in two states. Ambulatory residents meeting DSM-IV criteria for dementia (N = 181) were studied. Video-tapes for up to twelve 20-minute observations per participant were coded for wandering using an empirically derived taxonomy of ambulation patterns. Separate raters coded the same tapes for six PNA behaviors on the agitation behavior mapping instrument. Most participants (73.5%) wandered; all showed PNA behaviors. Factor analyses yielded an one-factor solution for wandering (explained variance = 43.66%) and a two-factor solution for PNA (explained variance = 53.45%). Overall wandering correlated significantly with PNA Factor 1 (df =179, r = 0.68, p<0.001) and Factor 2, but at a lower value (df = 179, r = 0.26, p<0.01).
+
+CLASSIFICATION: 

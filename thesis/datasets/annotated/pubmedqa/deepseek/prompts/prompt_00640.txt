@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do dermatomyositis and polymyositis affect similar thigh muscles? Dermatomyositis (DM) and polymyositis (PM) commonly cause weakness of the thigh muscles. However, it is debated whether DM and PM affect similar thigh muscles. Muscle oedema on fat-suppressed MRI sequences is thought to represent active inflammation. In this study, we aimed to assess which thigh muscle groups are preferentially inflamed in DM and PM, respectively, using short-tau inversion-recovery MRI sequences. We analysed 71 patients from 2 Rheumatology centres, 31 with DM and 40 with PM diagnosed according to the Bohan and Peter criteria. MRI oedema (1=present, 0=absent) was assessed bilaterally on fat-suppressed sequences in 17 pelvic floor and thigh muscles. An MRI oedema score (range 0-17) was calculated by adding the separate scores bilaterally and dividing them by two. Inter-rater variability was assessed by intraclass correlation coefficient. Fisher's exact test was used to compare binomial data. Age and gender ratio were similar in patients with DM and PM. Disease duration (months, mean±SD) was shorter (20±31) in DM than in PM (53±69) (p=0.02). The intraclass correlation coefficient between the radiologists involved was 0.78. Muscle oedema was more common in DM than in PM except in the posterior thigh muscles. In particular, 68% of patients with DM had involvement of at least one anterior thigh muscle versus 38% of patients with PM (p=0.02).
+
+CLASSIFICATION: 

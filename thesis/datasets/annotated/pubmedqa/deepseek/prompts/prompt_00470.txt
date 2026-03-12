@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does angiotensin-converting enzyme-1 (ACE-1) gene polymorphism lead to chronic kidney disease among hypertensive patients? Hypertension is one of the important contributing factors linked with both causation and development of kidney disease. It is a multifactorial, polygenic, and complex disorder due to interaction of several risk genes with environmental factors. The present study was aimed to explore genetic polymorphism in ACE-1 gene as a risk factor for CKD among hypertensive patients. Three hundred patients were enrolled in the study. Ninety were hypertensive patients with CKD taken as cases, whereas 210 hypertensive patients without CKD were taken as controls. Demographic data including age, sex, Body mass index (BMI), and other risk factors were also recorded. DNA was extracted from blood by salting out method. Genotyping of ACE gene was done by PCR technique. All the statistical analysis was done by using Epi Info and SPSS version 16 software (SPSS Inc., Chicago, IL). Mean age was higher in the control group (p < 0.05). Variables among two groups were compared out of which age, BMI, hemoglobin (Hb) was found to be statistically significant whereas other variables like systolic blood pressure, triglyceride and low-density lipoprotein were not. Blood urea and serum creatinine levels were statistically significant in the two genotypes (p < 0.05). Total and HDL cholesterol were statistically significant for DD genotype of ACE gene (OR = 1.42, 95% CI = 0.72-2.81). Similarly, the risk for CKD among hypertensive patients was also associated with D allele of ACE gene (OR = 1.25, 95% CI = 0.86-1.79).
+
+CLASSIFICATION: 

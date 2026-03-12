@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can mandibular depiction be improved by changing the thickness of double-oblique computed tomography images? Multislice helical computed tomography (CT), which can provide detailed 2-D and 3-D reconstructed images, is useful in imaging diagnosis for dental implant treatment. Therefore, in this study, it was performed to clarify the mandibular depiction of double-oblique reconstructed images when changing their thickness. A total of 38 sites in the mandibular molar region were examined using multislice helical CT. The thicknesses of the double-oblique images using multislice helical CT scans were reconstructed in 4 conditions: 0.3 mm, 0.9 mm, 1.6 mm, and 4.1 mm. In double-oblique images, mandibular depiction was evaluated by 5 oral radiologists using a subjective rating score. In the alveolar crest and the whole of the mandibular canal, the highest value was obtained with 0.9 mm-thick images; however, there was no significant difference between 0.3 mm and 0.9 mm-thick images.
+
+CLASSIFICATION: 

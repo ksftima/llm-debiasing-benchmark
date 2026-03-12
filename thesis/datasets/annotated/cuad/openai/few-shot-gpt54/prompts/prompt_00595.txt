@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Without limiting the foregoing, TDA shall, during the Term (and, Subject to the limitations and conditions on the Rights as set forth in this Agreement, thereafter) have the full and complete right to revise, telecast, broadcast, use, distribute, reproduce, record, publish, print, license, copyright and exhibit the contents of any Results and Proceeds, the Golf Instruction Related Products and any Advertising Materials and any versions or revisions thereof and, in TDA's sole discretion, the Results and Proceeds, the Golf Instruction Related Products and Advertising Materials may be make by any process, instrumentation or device now known or hereafter developed and may be made or adapted for use in any and all media now known or hereafter developed (although it is acknowledged and agreed by TDA that multi-media usage (except, of course, as incorporated into TDA's Golf Instruction Related Products) shall be strictly limited to advertising) provided that any and all such uses are directly related to the marketing, development and sale of TDA's Golf Instruction Related Products.
+
+CLASSIFICATION:
+

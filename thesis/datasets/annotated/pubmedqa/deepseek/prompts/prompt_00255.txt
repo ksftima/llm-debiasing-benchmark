@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are we seeing the effects of public awareness campaigns? The last 20 years has seen a marked improvement in skin cancer awareness campaigns. We sought to establish whether this has affected the presenting Breslow thickness of malignant melanoma in the South West. This is a retrospective study looking at the first presentation of melanomas from 2003 to 2011. Data was accessed using the local online melanoma database. A total of 2001 new melanomas presented from 2003 to 2012 (Male:Female = 1:1.062). The average yearly number of melanomas was 200.1 (range = 138-312). The mean age was 62.5 years (range 12-99). Data was analysed using a Chi² test. For 0-1 mm melanomas, there is a significant difference in the observed versus expected values over the 10 years (p = 0.0018). There is an increasing proportion of 0-1 mm (thin) melanomas presenting year on year, with a positive linear trend. This is very statistically significant (p<0.0001). The 1-2 mm melanomas are decreasing in proportion with a negative linear trend (p = 0.0013). The 2-4 mm are also decreasing in proportion (p = 0.0253). There is no significant change in the thick>4 mm melanomas (p = 0.1456).
+
+CLASSIFICATION: 

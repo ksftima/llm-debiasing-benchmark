@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EXCEPT AS OTHERWISE SET FORTH IN SECTION 23.2, THE TOTAL CUMULATIVE LIABILITY OF EITHER PARTY FOR ANY AND ALL CLAIMS AND DAMAGES UNDER THIS AGREEMENT, WHETHER ARISING BY STATUTE, CONTRACT, TORT OR OTHERWISE, WILL NOT EXCEED THE FEES PAID BY ALLSCRIPTS TO COMPANY HEREUNDER DURING THE [***] PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+CLASSIFICATION:
+ 

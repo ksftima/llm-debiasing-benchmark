@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+No. If this were true the Chads of the world would regularly have to be put down from exhaustion. Women would go psychotic over them like Karens go about HOA issues. Seriously you would see women kill each other over apex men regularly (at least as regularly as men kill their partners) since theyre so rare. I mention the killing bc the male sex drive comes from testosterone. Other stuff: 
+
+STDs would be not just a moderate risk for freaks but would grind entire healthcare systems to a halt. Everyone would be pregnant all the time if they werent on birth control. If female desire for just random thoughtless monkey fucking matched the male drive (even just for some men), YOU WOULD KNOW IT.
+
+CLASSIFICATION:
+

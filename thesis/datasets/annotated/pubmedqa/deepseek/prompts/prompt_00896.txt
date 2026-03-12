@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do women with ovaries of polycystic morphology without any other features of PCOS benefit from short-term metformin co-treatment during IVF? Women with ovaries of polycystic morphology (PCO), without any other features of polycystic ovary syndrome (PCOS), respond similarly to women with PCOS when stimulated with exogenous gonadotrophins, and both groups share various endocrinological disturbances underlying their pathology. In women with PCOS, metformin co-treatment during IVF has been shown to increase pregnancy rates and reduce the risk of ovarian hyperstimulation syndrome (OHSS). The aim of this study was to investigate whether metformin co-treatment before and during IVF can also increase the live birth rate (LBR) and lower severe OHSS rates for women with PCO, but no other manifestations of PCOS. This study was a double-blind, multi-centre, randomized, placebo-controlled trial. The study population included 134 women with ovulatory PCO (and no evidence of clinical or biochemical hyperandrogenism) undergoing IVF treatment at three tertiary referral IVF units. The primary outcome was LBR. In total, 134 women were randomized, 69 to metformin and 65 to placebo. There were no statistically significant differences between the two groups in baseline characteristics. With regard to IVF outcome, no significant improvements were found in the metformin group when compared with the placebo group. In particular, there was no difference between the groups in rates of live birth [metformin n = 27 (39.1%), placebo n = 30 (46.2), (95% confidence interval 0.38, 1.49, odds ratio = 0.75)], clinical pregnancy [metformin n = 29 (42.0%), placebo n = 33 (50.8%)]or severe OHSS [metformin n = 6 (8.7%), placebo n = 5 (7.7%)].
+
+CLASSIFICATION: 

@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are there any practical good/real sex education videos for demo and that's not porn?I don't want porn videos and the videos that I see on YouTube are just theory. Most guys don't realise but it's one of the sticking points. If you're aware of what you're going to do to the girl, you'll show much more confidence when talking to her
+
+I've openly discussed with a few girls and they've told how most guys don't know what they are doing and that's also one of the reasons they don't want to see the guy again. She is not your school teacher to teach you what you want to do to her. I get that practising is one of the things but not all guys have the luxury to practise on several different girls for whatever reason. So when you have the girl, you should know what you're doing
+
+CLASSIFICATION:
+

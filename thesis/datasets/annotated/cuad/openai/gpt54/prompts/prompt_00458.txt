@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The sole exception to the foregoing reservation of rights is that AT&T hereby grants Vendor a limited, nonexclusive, non-transferable license (that shall automatically terminate upon the termination or expiration of this Agreement), under any rights owned by AT&T, to use the AT&T Provided Items and Paid- For Development solely as instructed by AT&T and to the extent necessary for Vendor to perform its obligations under this Agreement, subject further to the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

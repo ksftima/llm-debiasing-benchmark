@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+No action, regardless of form, related to, or arising out of this Agreement may be brought by either party more than two (2) years after the cause of action has arisen.
+
+CLASSIFICATION:
+ 

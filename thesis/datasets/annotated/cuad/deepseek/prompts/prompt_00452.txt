@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, SpinCo hereby grants to each individual member of the Parent Group, on behalf of itself and the other members of the SpinCo Group, and shall cause the other members of the SpinCo Group to grant to each individual member of the Parent Group, a non-exclusive, worldwide, perpetual, irrevocable, fully paid-up, royalty-free right and license, for use in the Parent Field, to (i) use, reproduce, distribute, display, perform, make Improvements and exploit the Licensed SpinCo IP, and (ii) make, have made, use, sell, offer to sell and import any goods and services incorporating, embodying or utilizing the Licensed SpinCo IP.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Parties fail to reach agreement within ninety (90) days after the start of such negotiations, which shall be evidenced by written notice from one Party to the other initiating such negotiations, each Party shall have the non-exclusive right to use and commercially exploit JOINT INTELLECTUAL PROPERTY for any and all purposes, with the right to grant sublicenses, subject to the obligations of the first sentence of Article 14.3, provided that no licenses on any transgenes or transgenic technologies of the other Party shall be included or implied.
+
+CLASSIFICATION:
+ 

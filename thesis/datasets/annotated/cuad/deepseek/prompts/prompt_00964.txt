@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+With respect to the responsibility and allocation of costs for the enforcement of the Joint Patents (i) against Third Party products that infringe the Joint Patents outside the Ono Territory, or (ii)<omitted>against Third Party products in the Ono Territory that infringe the Joint Patents but that are not "Infringing Products", the Parties shall discuss and agree at the time when the Parties consult with respect to the strategy of such enforcement action in response to such Third Party infringement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do preoperative serum C-reactive protein levels predict the definitive pathological stage in patients with clinically localized prostate cancer? The serum C-reactive protein (CRP) level correlates with the clinical prognosis in patients with kidney, penile and metastatic castration-resistant prostate cancer (PC). We prospectively evaluated the preoperative CRP level as a predictive marker for an advanced tumor stage or high-grade cancer in patients with clinically localized PC. The study evaluated 629 patients with clinically localized PC who underwent radical prostatectomy between 2010 and 2013. Exclusion criteria were signs of systemic infection, symptoms of an autoimmune disease or neoadjuvant androgen deprivation. Poorly differentiated PC tends to be more common in patients with elevated CRP levels (15.5 vs. 9.5%, p = 0.08). Analogously, patients with a Gleason score ≥8 PC had significantly higher median CRP levels than those with a Gleason score ≤7 PC (1.9 vs. 1.2 mg/l, p = 0.03). However, neither uni- nor multivariate analysis showed an association between the preoperative CRP level and the presence of a locally advanced tumor stage, lymph node metastases or a positive surgical margin. CRP also failed to correlate with the initial PSA level and the clinical tumor-associated findings. Moreover, multivariate analysis relativized the association between an elevated CRP level and poor tumor differentiation.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NEITHER PARTY SHALL BE ENTITLED TO RECOVER FROM THE OTHER PARTY ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES IN CONNECTION WITH THIS AGREEMENT OR ANY LICENSE GRANTED HEREUNDER; provided, however, that this Section shall neither (a) apply to any liability for damages arising from breach of any obligations of confidentiality under Article 10, nor (b) limit the indemnification obligations of the parties arising under Article 12 of this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Sponsor hereby grants to SDBF a limited license to display Sponsor's name, brand names, trademarks, service marks, logos and other identification in or on the Promotional Items, promotional materials prepared by SDBF with respect to the Promotional Items, and any advertisements or commercial messages to be furnished hereunder
+
+CLASSIFICATION:
+ 

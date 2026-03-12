@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that SAP AFRICA develops jointly with TELKOM for universal application and jointly funds with TELKOM, any extension or modification to the licensed SOFTWARE, then save as may otherwise be agreed upon in writing by SAP AFRICA and TELKOM, such extensions or modifications will be the joint property of SAP AFRICA and TELKOM provided that 8. 3. 1. Neither SAP AFRICA nor TELKOM will grant to any third party, either expressly or impliedly, any rights, title, interest in, or licences to, such jointly developed modification or extension.
+
+CLASSIFICATION:
+ 

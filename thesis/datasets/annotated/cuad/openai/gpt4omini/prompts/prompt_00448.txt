@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Liquidmetal grants to Eutectix during the Term of this Agreement and subject to the Field of Use Restrictions (as defined below), a royalty-bearing, worldwide, non-transferrable, non-exclusive license (or sublicense as the case may be) to the Licensed Patents (as defined below) and the Licensed Technical Information (as defined below) to make and have made, assemble and have assembled, use, sell, offer to sell, import and offer to import, export and offer to export, distribute and offer to distribute, repair, reconstruct, practice, and maintain Licensed Products in the Field (as defined below).
+
+CLASSIFICATION:
+ 

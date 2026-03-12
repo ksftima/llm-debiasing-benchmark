@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Post-tonsillectomy late haemorrhage: is it a preferably night-time event? This retrospective study was carried out in the Ear Nose Throat (ENT) Unit of Giannina Gaslini Institute, Genoa, Italy on children operated for adenotonsillectomy (AT) or tonsillectomy (T) between January 2003 and February 2008. We considered in the study all the post-tonsillectomy late haemorrhages irrespective of their severity and for each case we evaluated whether they recurred in the day-time (B) (between 9.00 a.m. and 9.00 p.m.) or in the night-time (A) (between 9.00 p.m. and 9.00 a.m.). Finally we considered the number of haemorrhages per hour in the whole day. Out of 3306 patients undergoing elective adenotonsillectomy or tonsillectomy, post-operative late haemorrhage occurred in 59 (1.78%). We noted that 42 episodes (71.2%) occurred in the night-time and 17 (28.8%) in the day-time. The average time from the operation was 8.4 days. A statistically significant difference (p=0.002) was found when comparing the frequencies of night-time and day-time haemorrhages. We did not observe any significant difference in the distribution per hour of the haemorrhages.
+
+CLASSIFICATION: 

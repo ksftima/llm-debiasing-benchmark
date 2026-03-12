@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+XSPA shall give prompt written notice to Calm each time it offers, proposes to offer, or has received an offer to enter into any agreement or arrangement under which XSPA or any of its affiliates would sell, offer for sale, market, promote or undertake any similar action with respect to any meditation or sleep digital products or similar products at any Store outside the Territory (each, a "ROFR Notice").
+
+CLASSIFICATION:
+ 

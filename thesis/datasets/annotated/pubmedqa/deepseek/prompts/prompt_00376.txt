@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Gynecological cancer alarm symptoms: is contact with specialist care associated with lifestyle and socioeconomic status? The aim of this study was to determine the proportion of patients who were referred to specialist care after reporting gynecological cancer alarm symptoms to their general practitioner. We sought to investigate whether contact with specialist care was associated with lifestyle factors or socioeconomic status. Nationwide population-based prospective cohort study in Denmark, based on a random sample of 51 090 women aged 20 years or older from the general population. A web-based questionnaire regarding gynecological alarm symptoms and lifestyle was distributed to the invited individuals. Data about contact with specialist care were obtained from the National Patient Register and the National Health Insurance Service Registry, whereas information about socioeconomic status was collected from Statistics Denmark. Main outcome measures were percentages of patients having contact with specialist care and odds ratios (ORs) for associations between specialist care contact, lifestyle factors and socioeconomic status. The study included 25 866 nonpregnant women; 2957 reported the onset of at least one gynecological cancer alarm symptom, and 683 of these (23.1%) reported symptoms to their general practitioner. The proportion of individuals having contact with specialist care ranged from 39.3% (pain during intercourse) to 47.8% (bleeding during intercourse). Individuals with higher educational level had significantly higher odds of contact with a specialist (OR 1.86, 95% CI 1.17-2.95).
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that XENCOR pays the Technology Access Fee set forth above, XENCOR shall have the right to use or have used (e.g. by a Business Partner) the Process worldwide for the manufacture of Product in accordance with the terms and conditions of this Agreement, without entering into a contract manufacturing agreement with BII.
+
+CLASSIFICATION:
+ 

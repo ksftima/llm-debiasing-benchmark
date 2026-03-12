@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does high-dose radiotherapy benefit palliative lung cancer patients? The present analysis compares two palliative treatment concepts for lung cancer in terms of overall survival. Survival data from 207 patients were used in a retrospective analysis. All patients received palliative treatment comprising either 25 Gy applied in 5 fractions or 50 Gy in 20 fractions. A subgroup analysis was performed to compare patients with a good-fair vs. poor overall condition. Median survival times were 21 weeks (range 6-26 weeks) for patients treated with 25 Gy in 5 fractions and 23 weeks (range 14.5-31.5 weeks) for patients treated with 50 Gy in 20 fractions (95 % confidence interval, CI; p = 0.334). For patients with a good-fair overall condition, median survival times were 30 weeks (21.8-39.2 weeks) for 25 Gy in 5 fractions and 28 weeks (14.2-41.8 weeks) for 50 Gy in 20 fractions (CI 95 %, p = 0.694). In patients with a poor overall condition, these values were 18 weeks (14.5-21.5 weeks) and 21 weeks (13.0-29.0 weeks), respectively (CI 95 %, p = 0.248).
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Target Serum Urate: Do Gout Patients Know Their Goal? To examine gout patients' knowledge of their condition, including the central role of achieving and maintaining the serum urate (SU) goal with the use of urate-lowering therapy (ULT). This study of 612 gout patients was conducted at a Veterans Affairs medical center. Gout patients were included based on administrative diagnostic codes and receipt of at least 1 allopurinol prescription over a 1-year period. Questionnaires were mailed to patients and linked to medical records data. The questionnaire included gout-specific knowledge questions, the Patient Activation Measure, and self-reported health outcomes. Knowledge was assessed descriptively. Multivariable logistic regression was used to determine predictors of SU goal knowledge. Associations of knowledge with health outcomes were examined in exploratory analyses. The questionnaire had a 62% response rate. Only 14% of patients knew their SU goal, while the majority answered correctly for the other 5 gout-specific knowledge questions. In adjusted analyses, having a rheumatologist as initial prescriber (odds ratio [OR] 3.0 [95% confidence interval (95% CI) 1.4-6.2]) and knowing all of the other 5 gout-specific knowledge questions (OR 2.1 [95% CI 1.3-3.4]) were associated with greater odds of knowing the SU goal. SU goal knowledge was associated with self-reported global health status, but not with self-reported health-related quality of life or gout-specific health status.
+
+CLASSIFICATION: 

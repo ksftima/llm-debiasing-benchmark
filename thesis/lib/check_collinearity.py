@@ -6,10 +6,10 @@ import os
 
 # Dataset paths (scaled versions)
 datasets = {
-    'CUAD': 'parsed_datasets/parsed_scaled_datasets/cuad.csv',
-    'FOMC': 'parsed_datasets/parsed_scaled_datasets/fomc.csv',
-    'Misogynistic': 'parsed_datasets/parsed_scaled_datasets/misogynistic.csv',
-    'PubMedQA': 'parsed_datasets/parsed_scaled_datasets/pubmedqa.csv'
+    'CUAD': 'thesis/datasets/parsed/cuad.csv',
+    'FOMC': 'thesis/datasets/parsed/fomc.csv',
+    'Misogynistic': 'thesis/datasets/parsed/misogynistic.csv',
+    'PubMedQA': 'thesis/datasets/parsed/pubmedqa.csv'
 }
 
 # Feature columns
@@ -18,7 +18,7 @@ feature_cols = ['x1', 'x2', 'x3', 'x4', 'x5']
 print("Checking for collinearity in datasets:")
 
 # Create output directory for heatmaps
-output_dir = 'parsed_datasets/collinearity_heatmaps'
+output_dir = 'thesis/datasets/parsed/collinearity_heatmaps'
 os.makedirs(output_dir, exist_ok=True)
 
 for dataset_name, file_path in datasets.items():

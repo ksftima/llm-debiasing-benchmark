@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the provisions of this Agreement, Bioeq hereby grants to Licensee an exclusive (even as to Bioeq), milestone- and royalty-bearing, non-transferable license (including the right to grant sublicenses only to the extent permitted by Section 2.1.2) under the Licensed Technology (including the Licensed Patents) to use, sell, have sold, import, have imported or otherwise Commercialize the Licensed Products in the Field in the Territory.
+
+CLASSIFICATION:
+ 

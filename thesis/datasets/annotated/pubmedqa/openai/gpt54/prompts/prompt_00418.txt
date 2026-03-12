@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Evaluation of pediatric VCUG at an academic children's hospital: is the radiographic scout image necessary? There is heterogeneity in how pediatric voiding cystourethrography (VCUG) is performed. Some institutions, including our own, obtain a radiographic scout image prior to contrast agent instillation. To demonstrate that the radiographic scout image does not augment VCUG interpretation or contribute management-changing information but nonetheless carries a non-negligible effective dose. We evaluated 181 children who underwent VCUG in 2012, with an age breakdown of less than 1 year (56 children), 1-5 years (66 children), 6-10 years (43 children) and 11-18 years (16 children), with a mean age of 4.0 years. We investigated patient demographics, clinical indication for the examination, scout image findings and estimated effective radiation dose, as well as overall exam findings and impression. No clinically significant or management-changing findings were present on scout images, and no radiopaque urinary tract calculi or concerning incidental finding was identified. Scout image estimated effective radiation dose averaged 0.09 mSv in children younger than 1 y, 0.09 mSv in children age 1-5, 0.13 mSv in children age 6-10 and 0.18 mSv in children age 11-18. Total fluoroscopy time per examination averaged 36.7 s (range 34.8-39.6 s for all age group averages). Evaluation of known or suspected vesicoureteral reflux (VUR) and urinary tract infection (UTI) were the most common clinical indications, stated in 40.9% and 37.0% of exams, respectively.
+
+CLASSIFICATION: 

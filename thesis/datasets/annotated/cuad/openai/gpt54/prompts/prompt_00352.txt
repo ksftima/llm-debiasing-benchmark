@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CytoDyn hereby grants to Vyera, and Vyera hereby accepts, an exclusive royalty-bearing license (or sublicense, as the case may be), under the CytoDyn Patents, the CytoDyn Know-How and the Inventions (if any) solely to Commercialize, use, have used, offer for sale and sell Licensed Products in the Field in the Territory.
+
+CLASSIFICATION:
+ 

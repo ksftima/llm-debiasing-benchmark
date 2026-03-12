@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The sublicense rights granted to Equifax pursuant to Section 4.4(a) include the right for Equifax to grant sublicenses to the Licensed Certegy Materials (excluding the Utility<omitted>Software Programs) to the members of the Equifax Group, which sublicenses may include the right to further sublicense such Licensed Certegy Materials (excluding the Utility Software Programs) to such Group member's customers solely for each such customer's internal business purposes to the extent related to the Equifax Business.
+
+CLASSIFICATION:
+ 

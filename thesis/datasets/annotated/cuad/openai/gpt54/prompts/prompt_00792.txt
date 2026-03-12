@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Concurrently with execution of this Agreement or, at CHT's option, as soon as practicable after the Effective Date but in no event later than CHT's acceptance of and the launch of the Ehave Companion Solution, CHT and Ehave shall enter into a Source Code Escrow Agreement with a reputable software escrow agent mutually acceptable to the Parties ("Escrow Agent"), in or substantially in the form attached hereto as Schedule "7", or otherwise in a form acceptable to the Parties, acting reasonably, and to the Escrow Agent (the "Escrow Agreement"), providing for the release of the Source Code for the Software, as modified pursuant to Section 3 and all necessary programming documentation, utilities and tools used by Ehave to maintain the Software and to compile the source code into object code (excluding third party utilities and tools licensed by Ehave for which Ehave has not been granted the right to sublicense or otherwise make available such utilities and tools to third parties without additional charge, but including such information as necessary for CHT to obtain licenses to and obtain such third party utilities and tools), all in its then-existing form, to CHT, in the certain circumstances expressly stated in Section 12(b).
+
+CLASSIFICATION:
+ 

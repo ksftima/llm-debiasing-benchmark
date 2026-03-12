@@ -1,0 +1,54 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+So here is the thing.
+
+The power of women are closely related to their ability to manipulate men.
+
+A woman of high marriage value has social status and is given attention by men, who want to make her happy.
+
+This marriage value peaks in her mid twenties. Her social status peaks even earlier.
+
+As she gets older her manage value and social status comes less from her potential to make a good partner and more from her accomplishments, one of which should be becoming part of a successful family unit. Having a successful husband and children should add to her status. By 40 her oldest child could be 20.
+
+Feminists seek to have power independent of their potential as a partner and of their attractiveness.
+
+They want women to occupy a privileged social position *because they are women*! They want to retain that power for longer, at the expense of younger, more attractive women.
+
+This is an effort to mitigate the consequences of life choices and to gain power independent of the men in their family. Of course they want media with frumpy, powerful women.
+
+
+Who seem to act a lot like men?
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any Improvements that are neither XENCOR Intellectual Property nor BII Intellectual Property shall be defined as "Other Improvements" and shall be jointly owned by BII and XENCOR, with the Parties entitled to practice the same as joint owners, without duty of accounting to the other Party and with the right to license to others without consent of the other Party.
+
+CLASSIFICATION:
+ 

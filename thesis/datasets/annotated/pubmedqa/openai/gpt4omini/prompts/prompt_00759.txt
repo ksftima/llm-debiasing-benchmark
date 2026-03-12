@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Parasacral sciatic nerve block: does the elicited motor response predict the success rate? In this prospective, randomized, double-blind study, we compared the tibial and the peroneal evoked motor response with regard to efficacy of sciatic nerve block using the parasacral approach. Twenty-six ASA I-III patients scheduled for elective lower limb surgery were randomized to receive a parasacral sciatic block, using a nerve stimulator technique seeking either a tibial (n = 14) or peroneal (n = 12) motor response. After the evoked motor response was obtained, a solution of 10 mL 2% lidocaine with epinephrine and 10 mL 0.75% ropivacaine (actual final concentration of epinephrine, 1/160,000) was slowly injected through the needle. Sensory and motor blocks were assessed every 5 min for 30 min by an anesthesiologist blinded to the elicited motor response. If the block was not complete 30 min after injection of the local anesthetics, it was considered as failed, and general anesthesia was supplemented. Time to perform the block and level of minimal and maximal stimulation were not different between groups. The success rate of complete block was significantly higher in the tibial compared to the peroneal group (11 of 14 vs 2 of 12; P = 0.002).
+
+CLASSIFICATION: 

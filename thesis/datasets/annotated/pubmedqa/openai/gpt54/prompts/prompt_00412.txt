@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does invasive diagnosis of nosocomial pneumonia during off-hours delay treatment? We examined whether invasive lung-specimen collection-to-treatment times for intensive care unit patients with suspected ventilator-associated pneumonia (VAP) differ with to the work shift during which specimens were collected. We compared weekday day shifts and off-hours (from 6:30 p.m. to 8:29 a.m. the next day for night shifts, from Saturday 1:00 p.m. to Monday 8:29 a.m. for weekends, and from 8:30 a.m. to 8:29 a.m. the following morning for public holidays). Single-center, observational study in the intensive care unit in an academic teaching hospital. 101 patients who developed 152 episodes of bacteriologically confirmed VAP. Of the 152 VAP episodes 66 were diagnosed during off-hours. Neither more bronchoscopy complications nor more inappropriate initial antimicrobial treatments for patients were observed between day and off-hour shifts. Indeed, the overall time from brochoalveolar lavage to antibiotic administration was shorter for off-hours than day-shifts due to shorter specimen collection-to-antibiotic prescription times, but antibiotic prescription-to-administration times were the same.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Risky sexual behavior among college students With ADHD: is the mother-child relationship protective? This study examined the extent to which ADHD was associated with risky sexual behaviors (RSBs) in a sample of 92 undergraduates with (n = 44) and without (n = 48) ADHD. Mother-child relationship quality was examined as a potential moderator. We conducted comprehensive assessments for ADHD and comorbid conditions and collected measures of RSB and mother-child relationship quality. Female students with ADHD were least likely to use condoms than males overall and females without ADHD. An interaction between ADHD and mother-child relationship quality accounted for significant variance in the number of past-year sexual partners, such that a high-quality relationship was protective only for students with ADHD. No other significant associations were found between ADHD and RSB.
+
+CLASSIFICATION: 

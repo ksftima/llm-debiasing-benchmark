@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Accordingly, (i) with respect to RemainCo's right and interest in and to the Shared Library Materials, RemainCo, for itself and as representative of all other members of the RemainCo Group, hereby grants to SpinCo (x) a perpetual (subject to Section 4.4), irrevocable, exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Shared Library Materials, including all Know-How and Copyrights embodied therein, for any purpose in the SpinCo Core Field and (y) a perpetual (subject to Section 4.4), irrevocable, non-exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Shared Library Materials, including all Know-How and Copyrights embodied therein, for any purpose in any field other than the RemainCo Core Field or the SpinCo Core Field and (ii) with respect to SpinCo's right and interest in and to the Shared Library Materials, SpinCo, for itself and as representative of all other members of the SpinCo Group, hereby grants to RemainCo (x) a perpetual (subject to Section 4.4), irrevocable, exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Shared Library Materials, including all Know-How and Copyrights embodied therein, for any purpose in the RemainCo Core Field and (y) a perpetual (subject to Section 4.4), irrevocable, non- exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Shared Library Materials, including all Know-How and Copyrights embodied therein, for any purpose in any field other than the SpinCo Core Field or the RemainCo Core Field.
+
+CLASSIFICATION:
+ 

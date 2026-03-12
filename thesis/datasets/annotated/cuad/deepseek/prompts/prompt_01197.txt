@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Vendor agrees that, without the prior written consent of the Distributor, for a period beginning from the date of this Agreement and ending three (3) years after the termination of this Agreement, neither Vendor nor any of its affiliates or representatives will: (1) employ or solicit to employ any of the employees of Distributor; or (2) encourage of the employees of the Distributor or its subsidiaries to leave the employment of Distributor; provided, however, this Section shall not apply to any such employee who has been terminated by or left the employment of Distributor prior to the Effective Date or, if employed by Distributor as of the Effective Date, any employee who has not been employed by Distributor for at least one (1) year after the end of such employment.
+
+CLASSIFICATION:
+ 

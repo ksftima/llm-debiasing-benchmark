@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+King agrees that from and after the Promotion Commencement Date, the King Sales Force will be staffed with at least [***] full-time Sales Representatives (subject to vacancies consistent with average vacancy rate experienced by King across its total sales force) who are actively promoting the Product in accordance with the Launch Plan or Annual Plan (the "Minimum Sales Force Level"); provided that King may meet such requirement to actively promote the Product by promoting the Product through P2 Details and P3 Details.
+
+CLASSIFICATION:
+ 

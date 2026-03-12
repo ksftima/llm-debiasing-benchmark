@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+It's absurdly popular because the bar for isekai is so low that Rising of the Shield Hero being just okay makes it exception and Raphtalia is the cutest reverse-loli to exist. Isekai is so steeped in the same cliches, over and over, that it felt *ground breaking* to have the protagonist NOT be beloved by every single character he meets and have to endure a *bad reputation*. I'm not condemning it for not being deep, it's a satisfying popcorn story with some good hooks. I only read the manga and couldn't get far into the anime but when I read it, yeah that shit was engaging. 
+
+That  protagonist gets falsely accused of rape is so controversial because *people can't stand the thought of men being victims or women being villains* is what really blows my mind. Total Duluth Model of kool-aid drinking. 
+
+> The source material was one of the first web light novels to be translated into English, opening a new world of potential readers, and eventually viewers, to an underdog, no-name web novel author. 
+
+I could be wrong but I thought this was standard in Japan? There's no gatekeeping with editors or literary agents so the internet is basically flooded with original fanfics with people voting on what they like. This makes it very easy for authors to copy one another, which is why ever since Sword Art Online blew up isekai has not only become popular but each isekai story is super derivative and formulaic when you compare them to each other. Sure there are a few exceptions but for the most part you can tell exactly what the author had already read/watched when they made their own isekai. The market has become so flooded online that people have started getting *really* creative with their story titles because something as Moonlight Breakfast doesn't quite grab the reader's attention as much as Who In Their Right Mind Would Make Toast With Their Butt. So what happens is officials take a look at what LNs online are popular, the LN gets a real book deal and published in meat space while an anime is adapted asap to cash in on its popularity. The market has also become so flooded that over the past few years they've started to pull away from "teenage male protagonist" stories so authors started developing new gimmicks such as reincarnation.
+
+CLASSIFICATION:
+

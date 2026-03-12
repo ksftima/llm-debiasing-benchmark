@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are IgM-enriched immunoglobulins an effective adjuvant in septic VLBW infants? All VLBW infants from January 2008 to December 2012 with positive blood culture beyond 72 hours of life were enrolled in a retrospective cohort study. Newborns born after June 2010 were treated with IgM-eIVIG, 250 mg/kg/day iv for three days in addition to standard antibiotic regimen and compared to an historical cohort born before June 2010, receiving antimicrobial regimen alone. Short-term mortality (i.e. death within 7 and 21 days from treatment) was the primary outcome. Secondary outcomes were: total mortality, intraventricular hemorrhage, necrotizing enterocolitis, periventricular leukomalacia, bronchopulmonary dysplasia at discharge. 79 neonates (40 cases) were enrolled. No difference in birth weight, gestational age or SNAP II score (disease severity score) were found. Significantly reduced short-term mortality was found in treated infants (22% vs 46%; p = 0.005) considering all microbial aetiologies and the subgroup affected by Candida spp. Secondary outcomes were not different between groups.
+
+CLASSIFICATION: 

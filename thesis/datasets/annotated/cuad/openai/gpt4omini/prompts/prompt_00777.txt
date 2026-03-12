@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event any warranty claim is due to or arises from an Epidemic Defect, ENERGOUS will be responsible for all costs and expenses directly incurred by DIALOG or its Affiliates or their respective customers as a result of reasonable inspection, servicing, repairs, replacements, recall notices, recalls and responses with respect thereto, provided that ENERGOUS' aggregate liability to DIALOG and its Affiliates and their respective customers under this paragraph (d) will not exceed [***] per occurrence of an Epidemic Defect.
+
+CLASSIFICATION:
+ 

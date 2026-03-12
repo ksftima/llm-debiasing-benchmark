@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party grants, and shall cause its Affiliates to grant, to the other Party and its Affiliates, a royalty-free, non-exclusive, non- transferable, worldwide license, during the Term, to use the intellectual property owned by such Party or its Affiliates (but excluding any trademarks) only to the extent necessary for the other Party and its Affiliates to provide or receive the Services, as applicable.
+
+CLASSIFICATION:
+ 

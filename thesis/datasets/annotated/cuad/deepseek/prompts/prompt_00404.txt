@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Adaptimmune Limited hereby grants MD Anderson a perpetual, irrevocable, no-cost, non-exclusive, royalty-free license to any Adaptimmune Invention or Other Invention in which Adaptimmune Limited has an ownership interest for MD Anderson's internal non-commercial research, academic and patient care purposes.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+LEA shall not at any time do or cause to be done any act, omission, or thing contesting or in any way impairing or tending to impair any part of T&B's right, title and interest in the Licensed Intellectual Property.
+
+CLASSIFICATION:
+ 

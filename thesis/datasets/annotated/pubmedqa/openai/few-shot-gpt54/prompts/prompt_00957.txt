@@ -1,0 +1,35 @@
+
+Evaluate whether the following biomedical text adequately answers the question
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Does the sequence of clamp application during open abdominal aortic aneurysm surgery influence distal embolisation? Embolisation of atherosclerotic debris during abdominal aortic aneurysm (AAA) repair is responsible for significant peri-operative morbidity. Reports have suggested that preferential clamping of the distal vessel(s) before the proximal aorta may decrease the number of emboli passing distally and hence reduce complications. Forty patients undergoing AAA repair were randomised to have either first clamping of the proximal aorta or the iliac vessels. Emboli passing through the Superficial Femoral Arteries were detected with a Transcranial Doppler ultrasound system. There was no difference between the two groups in the number of emboli detected (p=0.49) and no significant correlation between number of emboli and dissection time (r=0.0008). However, there was a significantly higher number of emboli in the patient sub-group that were current smokers (p=0.034).
+
+CLASSIFICATION: 0
+
+Do liquid-based preparations of urinary cytology perform differently than classically prepared cases? The cytomorphology of liquid-based preparations in urine cytology is different than classic slide preparations. To compare the performance of liquid-based preparation specimens to classically prepared urine specimens with a malignant diagnosis in the College of American Pathologists Interlaboratory Comparison Program in Nongynecologic Cytology. Participant responses between 2000 and 2007 for urine specimens with a reference diagnosis of high-grade urothelial carcinoma/carcinoma in situ/dysplasia (HGUCA), squamous cell carcinoma, or adenocarcinoma were evaluated. ThinPrep and SurePath challenges were compared with classic preparations (smears, cytospins) for discordant responses. There were 18 288 pathologist, 11 957 cytotechnologist, and 8086 "laboratory" responses available. Classic preparations comprised 90% (n = 34 551) of urine challenges; 9% (n = 3295) were ThinPrep and 1% (n = 485) were SurePath. Concordance to the general category of "positive-malignant" was seen in 92% of classic preparations, 96.5% of ThinPrep, and 94.6% of SurePath challenges (P<.001). These results were statistically different for the exact reference interpretation of HGUCA (P<.001) but not for adenocarcinoma (P = .22). Cytotechnologists demonstrate statistically better performance for the general category of "positive-malignant" compared with pathologists for all urinary slide types and for the exact reference interpretation of HGUCA (94% versus 91.1%; P<.001) but not adenocarcinoma (96.3% versus 95.8%; P = .77) or squamous cell carcinoma (93.6% versus 87.7%; P = .07).
+
+CLASSIFICATION: 1
+
+Does accompanying metabolic syndrome contribute to heart dimensions in hypertensive patients? Metabolic syndrome (MetS) is associated with increased risk for cardiovascular events. We evaluated heart dimensions in hypertensive patients with MetS. The study included 75 hypertensive patients (34 males, 41 females; mean age 51+/-9 years) without coronary artery disease. Patients were evaluated in two groups depending on the presence or absence of MetS. Age- and gender-matched 20 healthy subjects (9 males, 11 females; mean age 50+/-5 years) comprised the control group. The diagnosis of MetS was based on the presence of at least three of five MetS criteria. Hypertension was defined as arterial blood pressure exceeding 140/85 mmHg on three consecutive measurements or the use of antihypertensive drugs. Echocardiographic measurements included interventricular septal thickness, left ventricular internal diameter, posterior wall thickness, aortic diameter, left atrial diameter, relative wall thickness, and left ventricular mass. Metabolic syndrome was present in 32 hypertensive patients (42.7%; 18 males, 14 females). The mean number of MetS criteria was 2.6+/-1.0 in the hypertensive group. Compared to the control group, patients with or without MetS exhibited significantly increased interventricular septum and posterior wall thickness, left atrial diameter, relative wall thickness, and left ventricular mass (p<0.05). The only significant difference between the two patient groups was that MetS was associated with a greater left atrial diameter (p=0.019). Left atrial diameter was correlated with the number of MetS criteria (r=0.51; p<0.001).
+
+CLASSIFICATION: 2
+
+---
+
+Here's the text I would like you to classify:
+
+Is the h-index predictive of greater NIH funding success among academic radiologists? Despite rapid adoption of the Hirsch index (h-index) as a measure of academic success, the correlations between the h-index and other metrics of productivity remain poorly understood. The aims of this study were to determine whether h-indices were associated with greater National Institutes of Health (NIH) funding success among academic radiologists. Using the Scopus database, h-indices were calculated for a random sample of academic radiologists with the rank of professor. Using the NIH tool Research Portfolio Online Reporting Tools Expenditures and Reports, we determined the number, classification, and total years of NIH grant funding as principal investigator for each radiologist. Differences in h-index, sorted by funding status, were determined using Wilcoxon's tests. Associations between h-index and funding status were determined using logistic regression. Significant correlations between h-index and grant metrics were determined using Spearman's ρ. Among 210 professors of radiology, 48 (23%) secured at least one NIH grant. The mean h-index was significantly higher among individuals who secured at least one NIH grant (19.1) compared to those who did not (10.4) (P<.0001). Professors with h-indices<10 compared to those with h-indices>10 were significantly less likely to receive NIH funding (odds ratio, 0.07; P = .0321). However, h-indices>10 were not significantly predictive of greater funding. No significant relationships were observed between h-index and the number of grant awards, years of prior funding, the amounts of grant awards, or grant classification.
+
+CLASSIFICATION:

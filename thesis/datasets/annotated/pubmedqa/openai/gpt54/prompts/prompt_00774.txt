@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The objective structured clinical examination: can physician-examiners participate from a distance? Currently, a 'pedagogical gap' exists in distributed medical education in that distance educators teach medical students but typically do not have the opportunity to assess them in large-scale examinations such as the objective structured clinical examination (OSCE). We developed a remote examiner OSCE (reOSCE) that was integrated into a traditional OSCE to establish whether remote examination technology may be used to bridge this gap. The purpose of this study was to explore whether remote physician-examiners can replace on-site physician-examiners in an OSCE, and to determine the feasibility of this new examination method. Forty Year 3 medical students were randomised into six reOSCE stations that were incorporated into two tracks of a 10-station traditional OSCE. For the reOSCE stations, student performance was assessed by both a local examiner (LE) in the room and a remote examiner (RE) who viewed the OSCE encounters from a distance. The primary endpoint was the correlation of scores between LEs and REs across all reOSCE stations. The secondary endpoint was a post-OSCE survey of both REs and students. Statistically significant correlations were found between LE and RE checklist scores for history taking (r = 0.64-r = 0.80), physical examination (r = 0.41-r = 0.54), and management stations (r = 0.78). Correlations between LE and RE global ratings were more varied (r = 0.21-r = 0.77). Correlations on three of the six stations reached significance. Qualitative analysis of feedback from REs and students showed high acceptance of the reOSCE despite technological issues.
+
+CLASSIFICATION: 

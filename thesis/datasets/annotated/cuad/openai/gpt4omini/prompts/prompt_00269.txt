@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The licenses granted herein are exclusive worldwide licenses to: 1. make, have made, use, lease, sell and import Licensed Products for the legal purposes of researching, developing, manufacturing, assembling, distributing, and selling the Licensed Products; 2. make, have made, use and import machines, tools, materials and other instrumentalities, insofar as such machines, tools, materials and other instrumentalities are involved in or incidental to the research, development, manufacture, testing or repair of Licensed Products which are or have been made, used, leased, owned, sold or imported by the Licensee; and 3. convey to any customer of the Licensee, with respect to any Licensed Product which is sold or leased to such customer, rights to use and resell such Licensed Product as sold or leased by Licensee (whether or not as part of a larger combination); provided, however, that no rights may be conveyed to customers with respect to any Invention which is directed to (i) a combination of such Licensed Product (as sold or leased) with any other product, (ii) a method or process which is other than the inherent use of such Licensed Product itself (as sold or leased), or (iii) a method or process involving the use of a Licensed Product to manufacture (including associated testing) any other product.
+
+CLASSIFICATION:
+ 

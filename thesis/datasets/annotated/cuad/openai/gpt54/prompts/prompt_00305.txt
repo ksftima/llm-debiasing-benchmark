@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent any Development owned by Biocept relates directly to the practice of, or constitutes an improvement to, the Assay, Biocept hereby grants to Life Technologies, during the Term of this Agreement, a non-exclusive license under Biocept's Intellectual Property Rights in such Development, solely to promote the Assay in the Territory and to perform the Professional Component of the Assay sold by the parties in the Territory, in accordance with the terms of this Agreement.
+
+CLASSIFICATION:
+ 

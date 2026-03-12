@@ -1,0 +1,32 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I moderate a large subreddit. Some time ago, we decided to stop letting people use gendered slurs entirely. No bitch, dick, or pussy. No whore, no slut, no man-ups, no man-child, no fuckboy. The results were the following: 
+
+* A lot of people got mad about the policy (and still do)
+* Everyone got nicer
+* All the comments got more constructive
+* The amount of whining about the gender double-standard went way, way down and people focused on these specifics of the situation. 
+
+I honestly didn't expect this to work. Never in my dizziest daydreams did I think this would have much of an impact. But it *did* have an impact. I've actually spent quite a bit of time thinking about why that might be. 
+
+I think that when people use a gendered slur as shorthand and then you take it away from them, they won't rephrase it to the exact same level of vitriol because they don't necessarily mean *that thing they said*. When people stop being able to ask, "Am I just being a bitch" and have to ask the question another way, they typically don't go to the most derogatory counterexample. Rarely it is rephrased to "am I just being angry and controlling for no reason". They have to clarify what they think being a 'bitch' means, and that could be controlling, manipulative, assertive, mean-spirited, cruel, or crazy. I might also mean a better meaning like, "Are my expectations unreasonable?" or "Am I asking too much to expect that my partner ___". 
+
+The way people respond to those two questions is dramatically different too. People often will echo "Yes, you're a bitch" back, but they will answer "Am I being unreasonable" with "No, boundaries are important". Gender bias plays out in this situation like you wouldn't believe. People who are disinclined to support a woman who might be being a "bitch" to their partner (even if the specifics of the situation are the exact same) will support respectful boundaries, clear communication, and taking responsibility in the next breath. Similarly, telling someone to man-up is actually really unclear advice. What does that mean? What does one *do* if they actually want to man-up? A large percentage of the time, that evolves into "Sit down and have an honest conversation about your feelings" which, I think you'll agree, is a weird definition of "man-up". 
+
+What I find is that gendered slurs usually are a short-hand for a complex and largely unconsidered pile of baggage that everyone means and understands in their own way. You can still call someone an asshole, a piece of shit, a cheater, a loathsome creature, an emotional terrorist. You can still say terribly mean things about people without using gendered slurs. You actually don't say much when you tell someone to man-up, quit being a pussy, stop being a fuckboy. When you ask 35 people a day to reword that to make it something else, you realize that no one is really communicating with those words at all. They are just thought-terminating cliches for feelings people mostly never consider.
+
+CLASSIFICATION:
+

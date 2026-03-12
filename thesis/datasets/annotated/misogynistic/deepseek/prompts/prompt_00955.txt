@@ -1,0 +1,84 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+OYS #17-- Time flies when you're... --#60DoD  
+Married: 3 years. 3 kids  
+Height: 6', Weight: 210 (no change)- Target: 183lbs or 10\~15% BF
+
+Lifts:  
+\-As of 3/31/2020-  
+SQUAT: 310lbs x 1 - Target: 350+ x 5\~ or 420 x 1  
+BENCH: 245lbs x 1 - Target: 265+ x 8\~ or 315 x 3 or 330 x 1  
+DEADLIFT: 330lbs x 1Target: 500+ x 1
+
+Health: Kettlebells and Jump rope. Occasional dips, pullups, and pushups at local park. BW exercises.
+
+60DoD
+
+Week6: Finances
+
+I have been aggressively tackling credit card debt since last year. Im forecasting to be free of credit card debt NLT the end of this year. My student loan, is a different monster, but not too unwieldly, and I expect to pay it off within the following year or so.  
+
+
+I am using Dave Ramseys Snowball + Debt Avalanche Method on paying off debt.  
+
+
+So, what can be done during these DoD and going forward?  
+1. I have at least a year and half or more remaining (at my current take home pay + side income) for debt payoff.Stick with my plan. Any extra income goes into paying off debt. More importantly, do not accumulate more debt.  
+2. Prep. Ive begun mentally planning for saving for a down payment for a house. According to DR, I should be paying off debt first, but Ive heard otherwise, from other reliable sources. Either way, Id like to be rid of credit card debt, first.  
+3. Budget. As with a lot of my problems, making a plan and sticking to it is my weakness. The problem right now is not overspending, its not controlling and managing where and to what my money goes.  
+4. Control. Self-control is key. My wife is on an allowance and I should also put myself on an allowance to be honest, in order to more effectively tackle my debt and save.  
+
+
+Week 1: Health and Fitness: Joined a gym. Bought a kettlebell. I do something daily. Week 2: Nutrition: Counting calories. More ownership with what I eat.  
+Week 3: Hygiene, Hair, Etc. Developing healthier routines.  
+Week 4: Style: Updating current style. Prepping for summer and fall.  
+Week 5: Game: Actively gaming wife. Still have yet to purchase a book on game, but have been following PoNs advice on game. Need to game randos.  
+
+
+**Read:**TRM, NMMNG, MAP  
+**Reading:** Cant Hurt Me, 'Bigger, Leaner, Stronger,NMMNG (BF activities), Atomic Habits  
+
+
+**Career/Work:**  
+*From last week:Asking myself how my work/career can contribute to my mission. How can I position myself to come out ahead after the dust settles with this Covid-19 situation? What do I want to do? Where do I see myself in x years?*  
+
+
+I have an idea of where and how I want to live. How can/should I plan my career around this?  
+I want my career to supplement my lifestyle, not the other way around. I.E. I have to live in the city, because thats where my office is AND commuting team is more bearable.  
+Id rather live in a location and house that I love, and have a job/business that compliments/works well with that.  
+
+
+**This week:**
+
+Ive been enjoying the time off doing necessary stuff around my apartment, getting ready for the upcoming summer. Prepping kids to sleep in their own room, study, and just going through the motions. It all feels like one big blur. I cant remember what the fuck I did last week. I havent been writing in my journal as I should. Im still a lazy faggot.  
+
+
+I did fuck up my work out routine this past week, as it was my wifes birthday. I slept in, ate shit, and didnt work out as I shouldvebummer. I have very little discipline, still. My nutrition plan is okay at best, but I make too many exceptions in other areas. Ive realized that I dont have the self-control or discipline it takes, yet, to cut loose a little bit, then be back on the grind the next moment.  
+
+
+So I really need to create environments, according to Atomic Habits, where I set myself up for success. Id love to hear from you guys on how you dealt with a lack of discipline or built more self-control.  
+*Kids:*   
+One area I am constantly failing in, is patience with my son. I love my boy, and I understand that if I dont unfuck myself I could inadvertently create a Nice Guy who hates his father. This upcoming off-period, I am going to actively focus on being patient and better with him.  
+
+
+**Further thoughts:**  
+Discipline. Self-Control. Priorities.  
+
+
+**Pain is Weakness leaving the body. Onward.**
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+LMG grants TAG a worldwide, nonexclusive, irrevocable, perpetual license to load, execute, access, employ, use, store, or display ("Use") the object code version of the LMG Tools and Documentation (the "License") for the period specified in Exhibit A in accordance with the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

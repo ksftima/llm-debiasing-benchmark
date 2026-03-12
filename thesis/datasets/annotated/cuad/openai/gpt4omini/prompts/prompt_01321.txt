@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Affiliate shall be named as an additional insured on the policies, and, prior to the Affiliate Launch Date, shall receive certificates evidencing such insurance, providing that such coverage will not be cancelled or materially changed except upon 30 days' prior written notice to Affiliate.
+
+CLASSIFICATION:
+ 

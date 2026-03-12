@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Company shall have unlimited rights of utilization of the Professional's Image in all advertising, promotion, publicity and other forms of communication with any part during the term of this Agreement, it being the intent of the Professional that the Company's utilization of the Professional's Image shall be at the discretion of the Company.
+
+CLASSIFICATION:
+ 

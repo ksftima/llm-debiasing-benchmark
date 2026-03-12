@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall be governed by and interpreted and enforced in accordance with the laws of the Province of Ontario and the Parties agree to abide by the jurisdiction of the Courts of Ontario.
+
+CLASSIFICATION:
+ 

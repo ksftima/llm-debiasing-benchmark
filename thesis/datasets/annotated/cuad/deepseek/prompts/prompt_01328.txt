@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If BII provides written notice of its exercise of the first right to negotiate within such [...***...] period but BII and XENCOR (or its Business Partner) do not enter into such a contract manufacturing agreement within the Clinical Negotiation Period, XENCOR and any Business Partner shall be free to enter into one or more agreements with third parties for the manufacture and supply of Product for use in Phase 2 and 3 clinical trials (which may include an agreement for any Business Partner or its affiliate to manufacture and supply Product for clinical trials), provided that the supply price for Product is no more than [...***...] percent ([...***...]%) of the clinical supply price of Product last proposed by BII during the negotiations between the Parties (or BII and the Business Partner).
+
+CLASSIFICATION:
+ 

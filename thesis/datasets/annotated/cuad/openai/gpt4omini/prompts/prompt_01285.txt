@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In exchange for the exclusive distribution right and license granted to Distributor pursuant to this Agreement, during the Term, Distributor hereby agrees to purchase the Products from Vendor, where such Products are fit for purpose and ready for sale in the Territory, as determined by Distributor, as follows: 5.1.1. As of the Effective Date, one hundred (100) units of the PokerOne™ Shuffler at a price of Four Thousand Nine Hundred Dollars ($4,950.00 U.S.) per unit, where Vendor shall ship the units no later than the end of January 2005; 5.1.2. Upon the delivery of two (2) units of the Random Plus™ Shuffler to Distributor and the expiration of a review period ending thirty (30) calendar days after the receipt of delivery by Distributor,, where such review by Distributor determines that the Random Plus™ Shuffler is fit for purpose and ready for commercial sale in the Territory, one hundred (100) units of the Random Plus™ Shuffler at a price of Four Thousand Nine Hundred Fifty Dollars ($4,950.00 U.S.) per unit, where Vendor shall ship the units no later than 30 days after the review period; -5- 5.1.3. Upon the receipt of any necessary approvals or approval waivers and the expiration of a review period ending thirty (30) calendar days after the receipt of delivery by Distributor of two (2) units of the Continuous Plus™ Shuffler, where such review by Distributor determines that the Continuous Plus™ Shuffler is fit for purpose and ready for commercial sale in the Territory, one hundred (100) units of the Continuous Plus™ Shuffler at a price of Five Thousand Nine Hundred Fifty Dollars ($5,950.00 U.S.); 5.1.4. Within thirty (30) days of the one (1) year anniversary of the Effective Date, an additional two hundred (200) units of the Products comprising any mix of the shuffler products offered by Vendor; and 5.1.5. Any additional number of units of the Products as may be submitted by Distributor to Vendor pursuant to a Purchase Order (as defined herein).
+
+CLASSIFICATION:
+ 

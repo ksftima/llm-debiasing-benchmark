@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Todos shall have the right to conduct periodic on-site inspections to ensure the quality control of the cancer screening processes and the Reseller's compliance with Todos's protocols.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Boxlot hereby grants to theglobe a non-exclusive license to use the Boxlot Marks (including the Domain Name if applicable) to advertise<omitted>and promote the Service.
+
+CLASSIFICATION:
+ 

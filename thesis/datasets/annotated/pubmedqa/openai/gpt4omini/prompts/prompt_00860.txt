@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is fetal anatomic assessment on follow-up antepartum sonograms clinically useful? The purpose of this study was to evaluate the clinical usefulness of a fetal anatomic survey on follow-up antepartum sonograms. A retrospective follow-up study was conducted at a low-risk maternity clinic from July 1, 2005, to June 30, 2006. Eligible women had at least 1 prior sonographic examination beyond 18 weeks' gestation with a complete and normal fetal anatomic assessment and at least 1 follow-up sonogram. Full fetal anatomic surveys were performed on all follow-up sonograms regardless of the indication. Neonatal charts were reviewed for those patients whose follow-up sonograms revealed unanticipated fetal anomalies. Neonatal intervention was defined as surgical or medical therapy or arranged subspecialty follow-up specifically for the suspected fetal anomaly. Of a total of 4269 sonographic examinations performed, 437 (10.2%) were follow-up studies. Of these, 101 (23.1%) were excluded because the initial sonogram revealed a suspected fetal anomaly, and 42 (9.8%) were excluded for other reasons. Of the remaining 294 women, 21 (7.1%) had an unanticipated fetal anomaly, most often renal pyelectasis. Compared with follow-up sonography for other reasons, repeated sonography for fetal growth evaluation yielded a higher incidence of unexpected fetal anomalies: 15 (12.3%) of 122 versus 6 (3.5%) of 172 (P = .01). When compared with the neonates in the nongrowth indications group, those neonates whose mothers had sonographic examinations for fetal growth had a higher rate of neonatal interventions: 6 (40.0%) of 15 versus 0 (0%) of 6 (P = .04).
+
+CLASSIFICATION: 

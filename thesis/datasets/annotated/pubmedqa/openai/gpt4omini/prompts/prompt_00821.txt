@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+May mean platelet volume levels be a predictor in the diagnosis of pelvic inflammatory disease? Our aim in this study was to investigate whether mean platelet volume (MPV) value could be used as an early marker to predict pelvic inflammatory disease (PID). Overall, 44 patients with PID and 44 healthy women were included in the study. The control group consisted of 44 women who applied to the clinic for a routine gynaecological check-up, without chronic disease or a history of medication use. Owing to the fact that it would affect thrombocyte function, women who have the following conditions were excluded from the study: women who were taking anticoagulant therapy, oral contraceptives, nonsteroid anti-inflammatory medications and who had chronic diseases. The leukocyte count, platelet count, neutrophil ratio and MPV values were collected from PID and the control group. C reactive protein values of patients with PID were also noted. MPV values in patients with PID were lower than those in the control group. This reduction in MPV is statistically significant when the PID patient group is compared with the control group (p < 0.001). A negative correlation was discovered between platelet count and MPV values (p = 0.019, r = - 0.425). Receiver-operating curve analysis pointed out that MPV has greater area under curve value than neutrophil rate, leukocyte and platelet count (0.73, 0.64, 0.72 and 0.49 respectively).
+
+CLASSIFICATION: 

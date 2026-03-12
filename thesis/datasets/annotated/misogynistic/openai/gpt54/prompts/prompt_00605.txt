@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Part of me feels bad for these women as its just in  their nature to fuck up their chances with men later on. They simply cant help it. Maybe there are a select few who dont completely fuck up their chances and keep a low count & find a decent guy to marry but the majority cant help but jump on the CC during their prime years and waste their chance at something real. Even then, women still come with a whole host of issues that are just impossible to tolerate. Its just the way their brains are wired. Im so grateful to be a man
+
+CLASSIFICATION:
+

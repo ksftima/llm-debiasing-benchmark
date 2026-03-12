@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+THC will retain ownership and will, subject to compliance with the terms of this Agreement, grant a royalty-free, non-exclusive license to HERC to use the THC (HERTZ) ERB Domains (those domains owned by THC related to the ERB that<omitted>incorporate the mark/name HERTZ) as set forth on Schedule G, for the Interim Period, as more fully set forth in the Trademark, Trade Name, Domain and Related Rights License Agreement.
+
+CLASSIFICATION:
+ 

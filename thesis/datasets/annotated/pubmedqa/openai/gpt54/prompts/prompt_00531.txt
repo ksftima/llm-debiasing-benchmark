@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Nasal polyposis: is there an inheritance pattern? Nasal Polyposis (NP) is defined as a chronic inflammatory disease of sinonasal mucosa leading to diffuse formation of benign polyps. Although family histories are frequently suggested in medical literature, no specific study focused on this point has been reported. The purpose of this study is to determine whether a hereditary factor could be implied for NP in a family where several members were affected. We included 99 members of this family. All patients were assessed for conditions known to be associated with the development or presence of NP. Concerning NP, patients were screened with a validated questionnaire and selected patients had a medical examination by an Ear, Nose and Throat practitioner. Thirteen patients had a personal history of NP without asthma, aspirin intolerance, Churg Strauss syndrome, cystic fibrosis, Young's syndrome, bare lymphocyte syndrome, or primary ciliary dyskinesia. Within this family, 19.7% of those older than 17 years were affected by NP, as compared with the national French prevalence of 2.1%.
+
+CLASSIFICATION: 

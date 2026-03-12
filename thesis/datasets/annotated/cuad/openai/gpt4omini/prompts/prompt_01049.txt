@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon the occurrence of any of the following, WGT may terminate the Term by giving Distributor written notice of such termination for:
+
+CLASSIFICATION:
+ 

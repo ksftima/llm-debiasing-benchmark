@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Cargill hereby grants Bioamber, and Bioamber hereby accepts, an exclusive, royalty-free license to Cargill Improvements and Joint Improvements for use in the Field during the term of this Development Agreement with a reservation of right for Cargill to practice such Cargill Improvements and Joint Improvements for use in the field of succinic acid and salts thereof during the term of this Development Agreement.
+
+CLASSIFICATION:
+ 

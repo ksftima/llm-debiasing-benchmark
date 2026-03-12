@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon delivery of the Source Code to Bank of America by Supplier, including in connection with any Upgrade, Update or new release, Bank of America shall have the right to verify the Source Code for accuracy, completeness and sufficiency, and to confirm that it compiles to the pertinent object code of the Software.
+
+CLASSIFICATION:
+ 

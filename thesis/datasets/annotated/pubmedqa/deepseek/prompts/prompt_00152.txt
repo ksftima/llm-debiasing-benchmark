@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Stretch-sensitive KCNQ1 mutation A link between genetic and environmental factors in the pathogenesis of atrial fibrillation? This study sought to evaluate mutations in genes encoding the slow component of the cardiac delayed rectifier K+ current (I(Ks)) channel in familial atrial fibrillation (AF). Although AF can have a genetic etiology, links between inherited gene defects and acquired factors such as atrial stretch have not been explored. Mutation screening of the KCNQ1, KCNE1, KCNE2, and KCNE3 genes was performed in 50 families with AF. The effects of mutant protein on cardiac I(Ks) activation were evaluated using electrophysiological studies and human atrial action potential modeling. One missense KCNQ1 mutation, R14C, was identified in 1 family with a high prevalence of hypertension. Atrial fibrillation was present only in older individuals who had developed atrial dilation and who were genotype positive. Patch-clamp studies of wild-type or R14C KCNQ1 expressed with KCNE1 in CHO cells showed no statistically significant differences between wild-type and mutant channel kinetics at baseline, or after activation of adenylate cyclase with forskolin. After exposure to hypotonic solution to elicit cell swelling/stretch, mutant channels showed a marked increase in current, a leftward shift in the voltage dependence of activation, altered channel kinetics, and shortening of the modeled atrial action potential duration.
+
+CLASSIFICATION: 

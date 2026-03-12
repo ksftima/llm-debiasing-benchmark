@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of the death or incapacity of an individual franchisee, or any partner or shareholder of you which is a partnership or corporation, where the aforesaid provisions of Paragraph XVIII have not been fulfilled within the time provided, all rights licensed to you under this Agreement shall, at our option, terminate forthwith and we will have the option to purchase the assets of the Franchised Restaurant in accordance with Paragraph XVII.K. herein.
+
+CLASSIFICATION:
+ 

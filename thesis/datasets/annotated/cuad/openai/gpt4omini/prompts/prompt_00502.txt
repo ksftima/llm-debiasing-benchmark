@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree not to use any Mark as part of any corporate or trade name or with any prefix, suffix, or other modifying words, terms, designs, or symbols (other than logos and additional trade and service marks licensed to you under this Agreement), or in any modified form.
+
+CLASSIFICATION:
+ 

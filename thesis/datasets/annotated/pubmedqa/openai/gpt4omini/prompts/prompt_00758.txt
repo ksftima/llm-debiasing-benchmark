@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Prognostic factors for cervical spondylotic amyotrophy: are signs of spinal cord involvement associated with the neurological prognosis? The purpose of this study was to clarify the prognostic factors for cervical spondylotic amyotrophy (CSA). The authors retrospectively reviewed the medical records of 47 consecutive patients with CSA in whom the presence/absence of the pyramidal tract sign was noted. We analyzed whether the age, sex, presence of diabetes mellitus, medication (vitamin B12), type of the most atrophic and impaired muscle, the muscle strength at the presentation, the presence of the pyramidal tract sign, magnetic resonance imaging (MRI) findings, including the presence and number of T2 high signal intensity areas (T2 HIA) in the spinal cord and the conversion to surgery were associated with the recovery of muscle strength in the patients. In addition, we also investigated whether the duration of symptoms before surgery and the type of surgery were associated with the recovery of muscle strength in patients who required conversion to surgical treatment. The presence of T2 HIA on MRI (P=0.002), the number of T2 HIA on MRI (P=0.002) and conversion to surgery (P=0.015) were found to be significantly associated with a poorer recovery at the observational final follow-up. Further, the presence of the pyramidal tract sign (P=0.043) was significantly associated with a poor recovery at the final follow-up after surgery.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+IALOG's license to possess and use the Deposit Materials does not include any right to disclose, market, sublicense or distribute the Deposit Materials to any third party other than its Affiliates and Manufacturing Subcontractors.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Preparing patients at high risk of falls for discharge home after rehabilitation: Do we meet the guidelines? Medical records of 121 people who received inpatient rehabilitation were retrospectively screened; records of 50 people discharged home and at high falls risk (fall in last 12 months, fall preceding/during admission) were audited. Data extracted included falls risk identification during rehabilitation and in discharge documentation; falls risk factors assessed; and fall prevention strategies implemented. Discharge documentation correctly identified falls risk for just nine of the 50 people. Patients at high falls risk had a median of 8.0 (interquartile range 6-10) of 17 risk factors. There was limited evidence of assessment for osteoporosis (n = 8), footwear (n = 4) and visual assessment in the previous 2 years (n = 1). Patients received a median of 6.5 (interquartile range 5-9) out of 16 possible strategies. Common strategies were mobility (n = 48), strength (n = 44) and Personal Activity of Daily Living training (n = 43). For 12 risk factors, if the factor was present, there was evidence of a strategy in more than 80% of records.
+
+CLASSIFICATION: 

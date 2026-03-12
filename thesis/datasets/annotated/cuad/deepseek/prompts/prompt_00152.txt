@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement, XENCOR hereby grants to BII and BII hereby accepts for the purpose of pursuing the Project a non-exclusive, non-sub-licensable (except to Affiliated Companies), royalty-free, license to use the XENCOR Confidential Information and Know-How, the Material, the XENCOR Intellectual Property and/or any part of the Other Improvements for the sole purpose to develop the Process, and for the manufacturing of the Product for clinical purposes in accordance with this Agreement
+
+CLASSIFICATION:
+ 

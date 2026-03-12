@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the Initial Term this Agreement shall automatically renew for successive terms of the same duration, unless either party gives written notice to the other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any successive term thereafter.
+
+CLASSIFICATION:
+ 

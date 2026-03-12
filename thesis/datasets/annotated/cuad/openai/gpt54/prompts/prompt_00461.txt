@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Kallo grants Agent the right to use the Trademarks solely for the purpose of distributing and marketing the Kallo Mobile care suite of products provided that Agent: i.uses the appropriate Trademarks for the corresponding Kallo Mobile care suite of products; ii.Identifies all Trademarks are registered trademarks of Kallo; iii.take reasonable steps to modify all objectionable uses of the Trademarks.
+
+CLASSIFICATION:
+ 

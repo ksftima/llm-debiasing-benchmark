@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, this Agreement and all rights and duties hereunder shall not, without the prior written consent of Client, in any manner be assigned, mortgaged, licensed, or otherwise transferred or encumbered by EFS or by operation of law; provided, however, that EFS may assign this Agreement to an acquirer of all or substantially all of its assets without Client's consent, but only in the event that in Client's reasonable determination (a) key EFS management (as defined by Client at the time of acquisition) will remain indefinitely with EFS or replacement management is reasonably acceptable to Client and no less experienced than those in place as of the Effective Date hereof; (b) the acquirer can demonstrate to Client's reasonable satisfaction the availability of financial resources, and the ability and intention, to<omitted>adequately invest in growing the Playboy Commerce Business (by way of example, the acquirer shall have a minimum net worth equal to or above that of EFS as of the Effective Date hereof); (c) such assignment will not have a detrimental impact on the Playboy Commerce Business or Client's other businesses; and (d) the acquirer is otherwise able to honor all financial terms and assume all obligations of EFS hereunder.
+
+CLASSIFICATION:
+ 

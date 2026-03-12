@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is controlled ovarian stimulation in intrauterine insemination an acceptable therapy in couples with unexplained non-conception in the perspective of multiple pregnancies? Controlled ovarian stimulation (COS) with intrauterine insemination (IUI) is a common treatment in couples with unexplained non-conception. Induction of multifollicular growth is considered to improve pregnancy outcome, but it contains an increased risk of multiple pregnancies and ovarian hyperstimulation syndrome. In this study the impact of the number of follicles (>14 mm) on the ongoing pregnancy rate (PR) and multiple PR was evaluated in the first four treatment cycles. A retrospective cohort study was performed in all couples with unexplained non-conception undergoing COS-IUI in the Academic Hospital of Maastricht. The main outcome measure was ongoing PR. Secondary outcomes were ongoing multiple PR, number of follicles of>or=14 mm, and order of treatment cycle. Three hundred couples were included. No significant difference was found in ongoing PR between women with one, two, three or four follicles respectively (P=0.54), but in women with two or more follicles 12/73 pregnancies were multiples. Ongoing PR was highest in the first treatment cycle and declined significantly with increasing cycle order (P=0.006), while multiple PR did not change.
+
+CLASSIFICATION: 

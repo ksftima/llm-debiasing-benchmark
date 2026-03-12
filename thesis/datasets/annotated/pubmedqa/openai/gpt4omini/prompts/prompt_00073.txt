@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Assessing joint line positions by means of the contralateral knee: a new approach for planning knee revision surgery? Reconstructing the natural joint line in knee revision surgery improves clinical and functional outcome but may be challenging when both cartilage and bone were removed during previous operations. Assessing joint lines (JLs) by means of bony landmarks is inadvisable because of large variations in human anatomy. Because of the inherent symmetry of the human body, we hypothesised that JLs may be directly assessed by measuring the distances from the bony landmarks to the JL of the contralateral knee by means of radiographic images. Using scaled weight-bearing radiographs in anteroposterior view of both knees, two independent observers measured the distances from the fibular head, the medial and lateral epicondyle, and the adductor tubercle to the JL. A two-sided p value of ≤0.05 was considered statistically significant. Two hundred knees of 100 patients (50 men and 50 women) were examined. For the fibular head, the mean difference between the treated and the control knee was 0.0 mm with narrow confidence limits ranging from -1.1 to 1.1.
+
+CLASSIFICATION: 

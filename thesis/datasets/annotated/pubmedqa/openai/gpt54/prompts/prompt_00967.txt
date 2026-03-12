@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Surgical management of the atherosclerotic ascending aorta: is endoaortic balloon occlusion safe? Occlusion of the atherosclerotic ascending aorta by an endoaortic inflatable balloon has been proposed as an alternative to conventional cross-clamping to prevent injury to the vessel and distal embolization of debris. The safety and the effectiveness of endoaortic occlusion have not been documented in this setting. Endoaortic occlusion was employed in 52 of 2,172 consecutive patients. Surgeon's choice was based on preoperative identification of aortic calcifications or intraoperative epiaortic ultrasonographic scanning. Deaths and strokes were analyzed casewise and in aggregate. In 10 patients (19.2%), the endoaortic balloon had to be replaced by the ordinary cross-clamp because of incomplete occlusion (n = 5), hindered exposure (n = 2), or balloon rupture (n = 3). In-hospital death occurred in 13 patients (25%), and stroke on awakening from anesthesia in 2 (3.8%). The death rate of patients treated by endoaortic occlusion was significantly higher compared with all other patients (4.2%, p<0.0001) and with the expected estimate by European System for Cardiac Operative Risk Evaluation (10.5%, p = 0.05). By multivariable analysis, use of endoaortic occlusion was independently associated with in-hospital death (odds ratio = 5.609, 95% confidence interval: 2.684 to 11.719). Although the stroke rate was higher in the endoaortic occlusion group compared with all other patients, the difference was only possibly significant (3.8% versus 0.8%, p = 0.067).
+
+CLASSIFICATION: 

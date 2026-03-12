@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The influence of atmospheric pressure on aortic aneurysm rupture--is the diameter of the aneurysm important? The rate of aortic aneurysm rupture correlates with the aneurysm's diameter, and a higher rate of rupture is observed in patients with larger aneurysms. According to the literature, contradictory results concerning the relationship between atmospheric pressure and aneurysm size have been reported.AIM: In this paper, we assessed the influence of changes in atmospheric pressure on abdominal aneurysm ruptures in relationship to the aneurysm's size. The records of 223 patients with ruptured abdominal aneurysms were evaluated. All of the patients had been admitted to the department in the period 1997-2007 from the Silesia region. The atmospheric pressures on the day of the rupture and on the days both before the rupture and between the rupture events were compared. The size of the aneurysm was also considered in the analysis. There were no statistically significant differences in pressure between the days of rupture and the remainder of the days within an analysed period. The highest frequency of the admission of patients with a ruptured aortic aneurysm was observed during periods of winter and spring, when the highest mean values of atmospheric pressure were observed; however, this observation was not statistically confirmed. A statistically non-significant trend towards the higher rupture of large aneurysms (>7 cm) was observed in the cases where the pressure increased between the day before the rupture and the day of the rupture. This trend was particularly pronounced in patients suffering from hypertension (p = 0.1).
+
+CLASSIFICATION: 

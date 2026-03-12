@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is leptin involved in phagocytic NADPH oxidase overactivity in obesity? Hyperleptinemia and oxidative stress play a major role in the development of cardiovascular diseases in obesity. This study aimed to investigate whether there is a relationship between plasma levels of leptin and phagocytic nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity, and its potential relevance in the vascular remodeling in obese patients. The study was performed in 164 obese and 94 normal-weight individuals (controls). NADPH oxidase activity was evaluated by luminescence in phagocytic cells. Levels of leptin were quantified by ELISA in plasma samples. Carotid intima-media thickness (cIMT) was measured by ultrasonography. In addition, we performed in-vitro experiments in human peripheral blood mononuclear cells and murine macrophages. Phagocytic NADPH oxidase activity and leptin levels were enhanced (P<0.05) in obese patients compared with controls. NADPH oxidase activity positively correlated with leptin in obese patients. This association remained significant in a multivariate analysis. cIMT was higher (P<0.05) in obese patients compared with controls. In addition, cIMT also correlated positively with leptin and NADPH oxidase activity in obese patients. In-vitro studies showed that leptin induced NADPH oxidase activation. Inhibition of the leptin-induced NADPH oxidase activity by wortmannin and bisindolyl maleimide suggested a direct involvement of the phosphatidylinositol 3-kinase and protein kinase C pathways, respectively. Finally, leptin-induced NADPH oxidase activation promoted macrophage proliferation.
+
+CLASSIFICATION: 

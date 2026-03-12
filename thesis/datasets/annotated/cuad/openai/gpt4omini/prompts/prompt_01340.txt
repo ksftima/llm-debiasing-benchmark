@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Business Automobile Liability Insurance covering all owned, hired and non-owned vehicles and equipment used by Supplier with a minimum combined single limit of liability of $1,000,000 for injury and/or death and/or property damage.
+
+CLASSIFICATION:
+ 

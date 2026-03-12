@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Network hereby grants to Affiliate the exclusive right via Broadcast Television, and Affiliate hereby accepts such exclusive right and the obligation during the Term to broadcast the Service via Broadcast Television (i) over the transmission facilities of each Station identified on Exhibit A, which is licensed by the FCC to serve the community for each such Station (the "Licensed Community"), for receipt by TV Households in the DMA in which the Licensed Community is located, as such DMA is identified on Exhibit A, and (ii) over the transmission facilities of any Acquired Station, except to the extent that, as of the date Affiliate notifies Network in writing of its binding agreement to acquire such Acquired Station, (A) another Broadcast Television station in the same DMA as the Acquired Station has exclusive rights to broadcast the Service, or (B) the Acquired Station is obligated to broadcast other material that precludes it from also carrying the Service.
+
+CLASSIFICATION:
+ 

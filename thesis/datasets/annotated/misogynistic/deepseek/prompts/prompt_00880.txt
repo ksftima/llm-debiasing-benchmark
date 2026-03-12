@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I don't think being told repeatedly would make the slightest difference for a lot of these people. It's not about not knowing the facts. It's not even about believing what they're saying - most of them probably haven't put a moment's thought into *how* having sex would make a vagina stop working like a muscle. 
+
+For them, it's just about having a stick to bash women with. The more women tell them they're wrong, the more the same jokes keep making other men laugh, the more they want to hang on to the same old stick.
+
+CLASSIFICATION:
+

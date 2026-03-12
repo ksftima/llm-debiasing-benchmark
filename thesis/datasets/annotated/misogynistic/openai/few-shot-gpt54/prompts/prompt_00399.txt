@@ -1,0 +1,73 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Had my first date in 3 months. Accidentally blew my load in a minute - Can this be salvaged?Well boys - Have I got a story for y'all.  I welcome any words of advice, wisdom, or how to play this moving forward.
+
+Like many of you, I've been in quarantine for the past 2 months. Finally, in the last 2 weeks, I decided to say fuck it and download Tinder again. Before that, I was doing some solid self-introspection, reading, home workouts, learning to trade options, no drinking, no weed, lots of meditation. All was well. I was feeling great!
+
+During this time, I also stayed away from Porn and only jacked it once a week to no porn.
+
+Fast forward to yesterday and I had my first outside date with a bird in that span of time. Super fucking cute, short Asian girl with amazing tits. I took her to my usual spot, which is this outdoor walking street with cafes and whatnot. We grab some cold drinks and start working around the area. All was going phenomenal with exceptional banter, kino, easy-flowing conversation, etc.
+
+I said let's get outta here and we headed back to my place to 'watch a documentary' as that's what it said she liked to do in her profile.
+
+We hung out on the couch, more kino, kissing, slowing escalating, she's getting wet and ready to go. It's getting to the point where she has to go home, but I take is LMR and just keep escalating.
+
+Eventually, her dress on the floor and those gorgeous fucking tits are flopping around in my face.
+
+We're both naked and eventually, I caveman carry her to my bed. We're still working up to sex, which is fine, so I flip her around and we start 69'ing.
+
+Well here's where it all went to hell! After 2 months of quarantine, and not even having the chance to touch a bird, I fucking let myself accidentally get way over-excited, and as she's giving me the best head this side of 6 months - using her mouth in ways only god knows  - before you know it I'm shooting a giant premature fucking load in her mouth. I lasted maybe a minute. Not my proudest minute at that. I had no problem when she was jacking me off vigorously, but as soon as she went down on me, while I'm eating her out, I fucking lost it.
+
+I haven't cum this fast in years.
+
+To make matters worse, she jumps up and runs to the bathroom to spit out my spunk, just leaving me sitting there on the bed.  I mean, maybe she was surprised at my load, maybe I fucking hit the back of her throat. I don't fucking know.
+
+She comes back out of the bathroom, and I try to play it off as if I'm just gonna finish her. I go down on her for a little bit longer and she says she needs to finally get home - it's 11:30 pm and she has to wake up at 7 am. I say cool and here's where she proceeds to give me the ego dick punch of death. "Oh - you came so fast" in what can only be described as a disappointing tone.
+
+I wasn't quick enough on my feet to come up with a good line, but I also didn't fucking show emotion either. I just played it off to quarantine and not having any action in a while. Just like it was no big deal, and just hoping it was a shit-test. So many other things I could have said, trust me I know. But the damage was done and my ego lay in tiny fucking shards all over the floor.
+
+So boys - what do you think? Any chance of salvaging this. I feel like there's no fucking way I'm gonna contact her now. Gonna just have to wait for her.  And if she does contact, I'll just never bring it up again like it never even happened. Again - every other part of the date was great. I actually enjoyed conversing with her. That is the first time in a while.
+
+Thing is, I've got 3 more dates lined up with 3 different birds this week alone, but I'll be dammed if my ego won't let me forget this performance. Of course, I want the revenge fuck now to show her what I can really do in bed.
+
+What do you think lads?
+
+**Edit #1**: She literally just reached out asking for some innocuous link to another documentary I had mentioned. If she really wanted to ghost, she wouldn't have contacted at all, I think.
+
+**Edit #2:** Lads, you're all legends! Cheers for the solid advice from all of you. I truly appreciate it. Some hard lessons to learn, but that's all part of the process.
+
+As a consensus: DGAF Attitude, Amused Mastery, Ego is the Enemy, Better Psychological Stimulation, and Eat that Pussy Better are the lessons learned. Just been a little outta practice. Quarantine does weird shit to the social skills. But it will all come back. On to the next one!
+
+CLASSIFICATION:
+

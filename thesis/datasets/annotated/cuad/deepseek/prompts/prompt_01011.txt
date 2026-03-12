@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Bellicum acknowledges and agrees that Bellicum's rights to a refund or credit for, or to receive replacement of, properly rejected shipments of Miltenyi Products hereunder shall be Bellicum's sole and exclusive remedy, and Miltenyi's sole obligation, with respect to non-conforming Miltenyi Products delivered hereunder.
+
+CLASSIFICATION:
+ 

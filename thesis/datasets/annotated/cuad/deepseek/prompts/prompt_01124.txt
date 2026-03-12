@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the term of the Agreement, Excite will not enter into any agreement to display and shall not display on the Excite Site content created by Excite promoting NetGrocer's "Competitors", content created by NetGrocer's Competitors, promotional placements and/or advertising banners from NetGrocer's Competitors or make available on the Excite Site online supermarket sales offered by NetGrocer's Competitors
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Arizona hereby grants to the Company a limited, non- exclusive, royalty-free, non-sublicensable (except as set forth in Section 7.1), non-assignable (except as set forth in Section 13.2) license in, to and under the Diamond Licensed Trademarks for the Diamond Trademark License Term for use with respect to the Diamond Product throughout the world only in the form and manner set forth on Schedule 6.2.
+
+CLASSIFICATION:
+ 

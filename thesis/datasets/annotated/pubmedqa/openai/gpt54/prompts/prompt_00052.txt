@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does pretreatment with statins improve clinical outcome after stroke? In primary and secondary prevention trials, statins have been shown to reduce the risk of stroke. In addition to lipid lowering, statins have a number of antiatherothrombotic and neuroprotective properties. In a preliminary observational study, we explored whether clinical outcome is improved in patients who are on treatment with statins when stroke occurs. We conducted a population-based case-referent study of 25- to 74-year-old stroke patients with, for each case of a patient who was on statin treatment at the onset of stroke (n=125), 2 referent patients who were not treated with statins but were matched for age, gender, year of onset, and stroke subtype (n=250). The unadjusted odds ratio for early discharge to home (versus late discharge or death) was 1.41 (95% CI 0.91 to 2.17) when patients on statin treatment were compared with referent stroke patients not on statins. Prognostic factors were, in general, more unfavorable among patients on statins. When this was adjusted for in a logistic regression model, the use of statins was a moderately strong but statistically nonsignificant predictor of discharge to home (multiple-adjusted odds ratio 1.42, 95% CI 0.90 to 2.22).
+
+CLASSIFICATION: 

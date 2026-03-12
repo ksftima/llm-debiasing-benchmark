@@ -1,0 +1,55 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+CMV: Social distancing will be apocalyptic for the dating lives of the 80%, and will cement hookup apps as the primary way sex happens and new relationships start.So first, two things that I'm sure everyone here on this sub agrees on:
+
+1. OLD and hookup apps are heavily biased in favor of women and very physically attractive men. 
+
+2. For men not in the top 20% genetically as far as looks go, meeting in person at a bar or party or other social venue is their best bet at pursuing women and giving themselves a chance to act attractively in a way that cannot be shown easily through an OLD profile. 
+
+Well, now we are living in a time where it is unclear if bars or concert venues or even restaurants will ever return to the way they once were. Even when these establishments open back up its guaranteed that they will have to do so while observing social distancing protocols, limiting the number of patrons and perhaps even the kinds of interactions patrons can have. 
+
+Basically, almost every single kind of public socializing venue is going to either close permanently or see up to 50% cuts in patronage and profitability, enforced either legally by public health officials, or emerging naturally because people will just be too spooked to go out in large crowds, probably for the foreseeable future. 
+
+So what's going to happen to dating?
+
+People will obviously still need to meet up and have sex, so workarounds will be found. Online dating already accounts for almost half of new relationships, and I think its pretty clear that this trend will accelerate in post pandemic Western society. I can easily see a future where people are posting negative COVID results on their profiles and going about meeting new sex partners privately, rather than risking going into public and exposing oneself to potentially thousands of unverified disease vectors. 
+
+And, of course, for already naturally risk-averse women, anything less than Chad is now completely not worth the risk. 
+
+So, take away billy beta's one way of appearing attractive to new women and up the risks of meeting anyone new such that only the Chadliest are worth the effort for women, and, well...
+
+That 30% sexlessness rate for young men is going to spike *hard* in the next two years.
+
+CLASSIFICATION:
+

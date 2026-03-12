@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.
+
+CLASSIFICATION:
+ 

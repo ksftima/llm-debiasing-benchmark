@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are Reviewers' Scores Influenced by Citations to Their Own Work? Academic medical researchers are judged by how often their publications are cited in the literature. When serving as journal reviewers, they may be more favorably disposed to manuscripts that cite their work. We investigate whether manuscripts that contain a citation to the reviewer's work receive higher evaluations than those that do not and whether peer reviewers encourage authors to cite that reviewer's work. We analyzed all research manuscripts submitted in 2012 to Annals of Emergency Medicine to determine whether they contained citations to each reviewer's work. To determine whether citation affected reviewer scores, we obtained each reviewer's score of the manuscript's overall desirability (1=worst to 5=best) and used descriptive statistics and regression modeling to compare scores of cited and noncited reviewers. We also enumerated how often reviewers suggested that authors add citations to the reviewer's work or other work. There were 395 manuscripts and 999 corresponding reviews with an manuscript desirability score. The 83 reviews by cited reviewers (8.3%) had a mean score of 2.8 (SD 1.4); the 916 reviews by noncited reviewers (91.7%), 2.5 (1.2; Δ=0.3; 95% confidence interval [CI] 0 to 0.6). The mean score in the 117 reviews of the noncited reviewers of the 57 manuscripts that had both cited and noncited reviewers was 2.9 (SD 1.2) compared with 2.9 (SD 1.1) for the 68 reviews by cited reviewers (Δ=0; 95% CI -0.3 to 0.4). In the final ordinal regression model, the unadjusted OR for the manuscript desirability score was 1.6 (95% CI 1.0 to 2.7); when adjusting for the manuscripts' mean desirability score, it was 1.4 (95% CI 0.8 to 2.2), demonstrating that manuscript quality was a confounder. Authors were asked to add a citation to the reviewer's work in 28 reviews (3%) but to others' work in 98 (10%).
+
+CLASSIFICATION: 

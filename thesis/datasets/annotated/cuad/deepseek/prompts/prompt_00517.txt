@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Within the scope of the [...***...] License Agreement, Miltenyi has got the right to grant non-exclusive sublicenses to third parties utilizing cytokines for applications that are covered by the claims of [...***...] to develop, manufacture, market and commercialize medicinal products on terms and conditions consistent with the terms and conditions contained in the [...***...] License Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+More particularly, said right and license to practice includes the right to use, reproduce, and create derivative works of Program Information under applicable copyrights and to make, use, and import (but not sell or offer to sell) under the claims of Program Patents, in each case solely for research and development for the Program.
+
+CLASSIFICATION:
+ 

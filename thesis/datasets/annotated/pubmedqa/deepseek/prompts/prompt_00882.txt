@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the severity of obstructive sleep apnea predict patients requiring high continuous positive airway pressure? To investigate polysomnographic and anthropomorphic factors predicting need of high optimal continuous positive airway pressure (CPAP). Retrospective data analysis. Three hundred fifty-three consecutive obstructive sleep apnea (OSA) patients who had a successful manual CPAP titration in our sleep disorders unit. The mean optimal CPAP was 9.5 +/- 2.4 cm H2O. The optimal CPAP pressure increases with an increase in OSA severity from 7.79 +/- 2.2 in the mild, to 8.7 +/- 1.8 in the moderate, and to 10.1 +/- 2.3 cm H2O in the severe OSA group. A high CPAP was defined as the mean + 1 standard deviation (SD;>or =12 cm H2O). The predictor variables included apnea-hypopnea index (AHI), age, sex, body mass index (BMI), Epworth Sleepiness Scale (ESS), and the Multiple Sleep Latency Test (MSLT). High CPAP was required in 2 (6.9%), 6 (5.8%), and 63 (28.6%) patients with mild, moderate, and severe OSA, respectively. On univariate analysis, AHI, BMI, ESS score, and the proportion of males were significantly higher in those needing high CPAP. They also have a lower MSLT mean. On logistic regression, the use of high CPAP was 5.90 times more frequent (95% confidence interval 2.67-13.1) in severe OSA patients after adjustment for the other variables. The area under the receiver operator curve was 72.4%, showing that the model was adequate.
+
+CLASSIFICATION: 

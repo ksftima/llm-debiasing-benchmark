@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the commercial exploitation of a RELEASED VARIETY in the United Kingdom by IGER requires a license on CERES INTELLECTUAL PROPERTY or BACKGROUND INTELLECTUAL PROPERTY of CERES, CERES shall negotiate in good faith with IGER or a designee of IGER about the grant of such a license, provided however that CERES shall have no obligation to grant any license on transgenes or transgenic technologies.
+
+CLASSIFICATION:
+ 

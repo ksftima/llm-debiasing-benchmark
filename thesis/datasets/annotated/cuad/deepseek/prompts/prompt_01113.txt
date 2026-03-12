@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Company's audit: at any time during the Term, the Repairer may: (i) audit the management and the performance of the Company's maintenance activities which are still under Company'sresponsibility; and/or, (ii) arrange for operational visits, in order to check that the Company complies with its obligations under this Agreement; and/or, (iii) investigate in any place, with the assistance of the Company, the causes of any abnormal removal or failure rate of any Itemand/or Abnormal Use.
+
+CLASSIFICATION:
+ 

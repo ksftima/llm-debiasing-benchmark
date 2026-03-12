@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensee shall have the non-exclusive right and license to develop and distribute ICE AGE 2 Wireless Products during the Term of the Agreement for all Wireless Products set forth in this Paragraph 2(c) except the Game, for which Licensee shall have the exclusive right and license to develop and distribute until December 31, 2006.
+
+CLASSIFICATION:
+ 

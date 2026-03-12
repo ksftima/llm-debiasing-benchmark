@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does anastomotic leakage affect functional outcome after rectal resection for cancer? Anastomotic leakage is the most threatening early complication in sphincter-preserving rectal cancer surgery. While the oncological consequences have been well examined, only few data exist about the functional outcome. We investigated continence function in 150 patients after curative sphincter-preserving rectal cancer surgery. Functional results were compared in 22 patients with a clinically relevant anastomotic leakage, confirmed radiologically or endoscopically, and 128 patients with uneventful recovery. Evaluation of continence function was based on the Cleveland Clinic Continence Score and was examined in all patients with anastomotic leakage and in 111 patients without complications 107+/-46 weeks postoperatively. Additionally, 14 patients with anastomotic leakage and 58 patients with uneventful recovery underwent anorectal manometry 26+/-15 weeks postoperatively. The continence score in patients after anastomotic leakage did not differ significantly from that in patients without complications. Sphincter function was similar. Maximum tolerable volume and rectal compliance were slightly but not significantly worse after leakage.
+
+CLASSIFICATION: 

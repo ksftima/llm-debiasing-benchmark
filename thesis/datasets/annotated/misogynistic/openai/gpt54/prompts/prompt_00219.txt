@@ -1,0 +1,26 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The anger is part of the acceptance process though innit? 
+
+Although I agree that you cant be mad forever. 
+
+Women are women, and theyre going to women. 
+No point in hating them for it, best to understand why they do what they do, then exploit that knowledge for your own gain. Dont hate a sloot just cause shes a sloot. If youre not gonna fuck her, why do you care?
+
+The only guys that stay mad forever are the ones that dream about getting married. Depending on what country youre from thats akin to financial suicide, and for some thats a tough pill to swallow.
+
+CLASSIFICATION:
+

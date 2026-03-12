@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The amount of coverage shall be a minimum of three million dollars ($3,000,000) combined single limit, with no deductible amount for each single occurrence for bodily injury and/or property damage.
+
+CLASSIFICATION:
+ 

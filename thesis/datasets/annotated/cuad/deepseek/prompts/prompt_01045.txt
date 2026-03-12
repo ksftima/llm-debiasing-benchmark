@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon the third failure by King to meet the PDE Minimum during any six consecutive Agreement Quarters, Depomed shall have the right to [***] or demand that King shall cure such default in the same manner outlined in clause (i) above for the first such default.
+
+CLASSIFICATION:
+ 

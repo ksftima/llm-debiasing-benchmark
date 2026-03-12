@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, ebix hereby grants to About a limited, non-transferable, fully-paid, worldwide, non-exclusive right and license to use, reproduce, adapt (but only to pursuant to its rights under this Agreement), incorporate, integrate and distribute the ebix Marks and ebix Content, during the Term, solely as necessary to perform its obligations under this Agreement.
+
+CLASSIFICATION:
+ 

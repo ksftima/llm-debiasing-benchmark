@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the provisions stated below, we hereby grant you a license to use the "Buffalo Wild Wings" Marks and System, and you undertake the obligation to operate a Buffalo Wild Wings restaurant facility featuring the Menu Items and providing sit-down, carry-out and other restaurant services ("Franchised<omitted>Restaurant"), and to use the Marks solely in connection with the System, as it is currently established, and as it may be changed, improved and further developed from time to time, at one (1) location only, such location to be: 1) ____________________________________________________________________________ ___________________________________________________________________________, or 2) at a location to be designated, as provided in Paragraph III within the area described on EXHIBIT B.
+
+CLASSIFICATION:
+ 

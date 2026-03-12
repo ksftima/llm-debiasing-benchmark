@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Expression of c-kit protooncogen in hepatitis B virus-induced chronic hepatitis, cirrhosis and hepatocellular carcinoma: has it a diagnostic role? Paraffin-embedded tissues in Cukurova University Faculty of Medicine Department of Pathology between January 2002 and February 2006 were searched restrospectively to investigate this issue. We performed immunohistochemistry on biopsies of 125 patients with HBV infection, grouped as: mild, moderate and severe hepatitis, cirrhosis and HCC, 25 patients in each of them, using anti c-kit monoclonal antibody. The severity of parenchymal inflammation and of interface hepatitis was semiquantitatively graded on a haematoxylin and eosin stained paraffin sections. Additionally, 50 more HCC, formed on HBV basis, were studied to determine the prevalence of c-kit overexpression. In cirrhotic liver, lower intensity of staining and rarely c-kit positivity were present. The greatest number of the c-kit positivity and higher intensity of staining was found in the livers of patients with severe hepatitis and HCC. In chronic hepatitis B infection, the staining intensity was parallel with the grade and stage of the disease. In the areas where fibrosis was seen, c-kit positivity was rare or absent. In the HCC specimens, c-kit positivity appeared both inside and around the cancerous nodes. C-kit expression was observed in 62 of 75 HCC tissue specimens (82%) (p<0.001).
+
+CLASSIFICATION: 

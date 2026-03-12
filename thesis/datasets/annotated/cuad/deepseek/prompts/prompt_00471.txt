@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event a Party divests a business by (a) spinning off a member of its Group by its sale or other disposition to a third party, (b) reducing ownership or control in a member of its Group so that it no longer qualifiers as a member of its Group under this Agreement or (c) selling or otherwise transferring a line of business to a third party (each such divested entity/line of business, a "Divested Entity"), the Divested Entity shall retain those licenses granted to it under this Agreement provided that the license shall be limited to the business of the Divested Entity as of the date of divestment and the natural development thereof.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In no event will either Party be liable to the other Party under this Agreement for any consequential, indirect, special, incidental, punitive or exemplary loss or damage, including, without limitation, business interruption, cost of capital, loss of anticipated revenues and profits, loss of goodwill or increased operating costs, whether arising from contract, warranty, tort, strict liability or otherwise regardless of whether the possibility of such losses or damages have been made known to the first Party, and each Party hereby expressly waives all such rights and remedies, except for breach of any confidentiality or restricted use provisions of this Agreement and except as provided in Paragraph 11.04 (Exceptions to Limitations of Liability).
+
+CLASSIFICATION:
+ 

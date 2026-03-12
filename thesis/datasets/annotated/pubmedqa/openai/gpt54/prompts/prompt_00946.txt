@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can Ambu self-inflating bag and Neopuff infant resuscitator provide adequate and safe manual inflations for infants up to 10 kg weight? Manual resuscitation devices for infants and newborns must be able to provide adequate ventilation in a safe and consistent manner across a wide range of patient sizes (0.5-10 kg) and differing clinical states. There are little comparative data assessing biomechanical performance of common infant manual resuscitation devices across the manufacturers' recommended operating weight ranges. We aimed to compare performance of the Ambu self-inflating bag (SIB) with the Neopuff T-piece resuscitator in three resuscitation models. Five experienced clinicians delivered targeted ventilation to three lung models differing in compliance, delivery pressures and inflation rates; Preterm (0.5 mL/cmH2O, 25/5 cmH2O, 60 per minute), Term (3 mL/cmH2O, 30/5 cmH2O, 40 per minute) and Infant (9 mL/cmH2O, 35/5 cmH2O, 30 per minute). The Neopuff was examined with three gas inflow rates (5 litres per minute (LPM), 10 LPM and 15 LPM) and the Ambu with no gas inflow. 3309 inflations were collected and analysed with analysis of variance for repeated measures. The Neopuff was unable to reach set peak inflation pressures and exhibited seriously elevated positive end expiratory pressure (PEEP) with all inflow gas rates (p<0.001) in this infant model. The Ambu SIB accurately delivered targeted pressures in all three models.
+
+CLASSIFICATION: 

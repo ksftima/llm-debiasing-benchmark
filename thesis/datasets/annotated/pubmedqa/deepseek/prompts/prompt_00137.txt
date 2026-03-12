@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Aromatase inhibitor-related musculoskeletal symptoms: is preventing osteoporosis the key to eliminating these symptoms? Aromatase inhibitors (AIs) are an effective treatment for postmenopausal women with hormone receptor-positive breast cancer. However, patients receiving AIs report a higher incidence of musculoskeletal symptoms and bone fractures; the mechanism and risk factors for this correlation are not well studied. The aim of this study was to correlate these musculoskeletal symptoms and bone fractures in patients receiving AIs with bone mineral density (BMD), previous tamoxifen use, and administration of calcium/bisphosphonate (Ca/Bis). We reviewed charts of 856 patients with hormone receptor-positive nonmetastatic breast cancer seen at our institution between January 1999 and October 2007. A total of 316 patients met the inclusion criteria of treatment with one of the AIs for>or = 3 months and availability of a dualenergy X-ray absorptiometry (DEXA) during this treatment. Arthralgia, generalized bone pain and/or myalgia, bone fracture after beginning AIs, any tamoxifen treatment, and Ca/Bis therapy were recorded. Our study demonstrates a significant association between symptoms and DEXA-BMD results (P<.001). Similarly, the group receiving tamoxifen before AIs had fewer patients with arthralgia or generalized bone pain/myalgia or bone fracture (P<.001). Furthermore, the group receiving AIs plus Ca/Bis had more patients without musculoskeletal symptoms and had fewer fractures. Finally, the group receiving steroidal AIs compared with nonsteroidal AIs had more patients with arthralgia or generalized bone pain and/or myalgia, and bone fractures (P<.001).
+
+CLASSIFICATION: 

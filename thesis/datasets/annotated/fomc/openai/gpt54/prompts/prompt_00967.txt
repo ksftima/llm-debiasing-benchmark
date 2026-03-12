@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+To abstract from the potential effects of cyclical factors on the yield curve, consider the pattern of forward rates many years into the future, at which point the effects of current cyclical shocks would be expected to no longer be important.2 Such forward rates reflect not only market expectations of future short-term interest rates but also term premiums to compensate for the risk associated with commitments to extend credit so far in the future, including the risk of future inflation.
+
+CLASSIFICATION:

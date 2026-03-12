@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In exchange for the Share Consideration, Licensor hereby grants to Licensee a non-exclusive, royalty-free, perpetual and non-perpetual license (subject to the duration and scope, and format limitations for which Licensor has the rights to each Title as specified in Schedule A1-A6 of Schedule A) to: i. license, exhibit, distribute, reproduce, transmit, perform, display, and otherwise exploit and make available each Title within the Territory in any language by VOD (including SVOD, TVOD, AVOD and free VOD) for Internet, TV and mobile platforms (including, but not limited to, OTT streaming services, Sites and Mobile Sites), subject to these limitations for each of the Title in Schedule A1-A6: 1) For Titles listed in Schedule A1-A2: Licensor can only grant Licensee distribution rights to up to six (6) MSOs plus two (2) of China's Internet TV license holders or their OTT Internet-based video partners by VOD (including SVOD, TVOD, AVOD and free VOD). China's current Internet TV license holders include: CNTV (中国网络电视台/未来电视), BesTV (百视通), Wasu (华数), Southern Media Cooperation (南方传媒), Hunan TV (芒果 TV), China National Radio/Galaxy Internet TV (GITV) (银河电视), and China Radio International (中国国际 广播电台);<omitted>2) For Titles listed in Schedule A3: For "天下女人": No satellite TV broadcasting rights granted. Titles other than "猜 猜女人心", "赏深越慕" , "职场新女性挑战行动", " 杨澜访谈录" (自第192期及以后的节 目),"人生相对论 ", " 天下女人", and "正青春" cannot be edited in any way; 3) For Titles listed in Schedule A4: Other than the versions (dubbed or translated) in which the Titles in Schedule A4 already exist in (and were delivered in), no further dubbing, translation, or editing may be performed by any party on Schedule A4's Titles.
+
+CLASSIFICATION:
+ 

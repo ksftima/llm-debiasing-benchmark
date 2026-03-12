@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Cisco grants to Distributor the right to use the name, logo, trademarks, and other marks of Cisco (collectively, the "Marks") for all proper purposes in the sale of Cisco Products and Services to End Users and the performance of Distributor's duties hereunder only so long as this Agreement is in effect.
+
+CLASSIFICATION:
+ 

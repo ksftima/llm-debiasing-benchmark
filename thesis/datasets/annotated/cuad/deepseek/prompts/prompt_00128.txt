@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Producer further grants to ConvergTV the right and license to utilize any and all footage from the Program for promotional and marketing purposes related to the Distribution of the Program and for promotion of channels or other distribution methods.
+
+CLASSIFICATION:
+ 

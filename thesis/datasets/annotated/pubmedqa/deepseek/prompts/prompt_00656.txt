@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are there effects of intrauterine cocaine exposure on delinquency during early adolescence? To ascertain whether level of intrauterine cocaine exposure (IUCE) is associated with early adolescent delinquent behavior, after accounting for prenatal exposures to other psychoactive substances and relevant psychosocial factors. Ninety-three early adolescents (12.5-14.5 years old) participating since birth in a longitudinal study of IUCE reported delinquent acts via an audio computer-assisted self-interview. Level of IUCE and exposure to cigarettes, alcohol, and marijuana were determined by maternal report, maternal and infant urine assays, and infant meconium assays at birth. Participants reported their exposure to violence on the Violence Exposure Scale for Children-Revised at ages 8.5, 9.5, and 11 years and during early adolescence, and the strictness of supervision by their caregivers during early adolescence. Of the 93 participants, 24 (26%) reported ≥ 3 delinquent behaviors during early adolescence. In the final multivariate model (including level of IUCE and cigarette exposure, childhood exposure to violence, and caregiver strictness/supervision) ≥ 3 delinquent behaviors were not significantly associated with level of IUCE but were significantly associated with intrauterine exposure to half a pack or more of cigarettes per day and higher levels of childhood exposure to violence, effects substantially unchanged after control for early adolescent violence exposure.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If an inspection discloses an understatement in any report of two percent (2%) or more, you will also reimburse us for any and all costs and expenses connected with the inspection (including, without limitation, reasonable accounting and attorneys' fees), and we will thereafter have the right to require you to submit annual financial statements, prepared in accordance with generally accepted accounting principles, audited by an independent certified public accountant.
+
+CLASSIFICATION:
+ 

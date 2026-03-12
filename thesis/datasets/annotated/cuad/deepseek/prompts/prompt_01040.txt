@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+On sales of products pursuant to this Agreement (less any returns) TL will pay to Integrity royalties in the amount of [**]/1/ ($[**]/1/) for each and every unit of the product sold by it pursuant to this Agreement.
+
+CLASSIFICATION:
+ 

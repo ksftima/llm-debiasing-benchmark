@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Combined single limit for bodily and property damage of not less than $1,000,000 for each occurrence and $2,000,000 annual aggregate providing: ● Assault and Battery coverage, ● Broad form property damage coverage, ● Broad form contractual liability coverage, ● Products and completed operations coverage, and ● Personal and advertising injury coverage.
+
+CLASSIFICATION:
+ 

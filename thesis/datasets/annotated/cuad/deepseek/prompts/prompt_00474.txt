@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+More particularly, said right and license to practice ExxonMobil Background Information and ExxonMobil Background Patents for Generation 1 Technology in Carbon Capture Applications will include the right to use, reproduce, and create derivative works of ExxonMobil Background Information under applicable copyrights and the right to make, use, import, and sell or offer to sell under the claims of ExxonMobil Background Patents.
+
+CLASSIFICATION:
+ 

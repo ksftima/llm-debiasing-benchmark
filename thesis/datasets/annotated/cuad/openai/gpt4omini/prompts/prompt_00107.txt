@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Sanofi shall have rights to use, at no additional cost, any RevMed Study Data in its performance of its obligations and exercise of its rights under the Collaboration except in connection with filing of MAAs for the Indication and Product Treatment Regimen that were the subject of such RevMed Study.
+
+CLASSIFICATION:
+ 

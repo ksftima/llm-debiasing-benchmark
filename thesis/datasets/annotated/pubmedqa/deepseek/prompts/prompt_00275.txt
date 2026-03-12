@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are increased carotid artery pulsatility and resistance indexes early signs of vascular abnormalities in young obese males? To provide insight into the factors by which obesity in itself may directly lead to early arterial damage, we aimed to determine early sonographic markers of obesity-related vascular dysfunction in young obese males. Thirty-five young obese males and 23 age-matched healthy male volunteers were recruited into the study. Common carotid artery pulsatility index and resistance index were calculated from blood flow velocities curves obtained by pulsed Doppler ultrasonography. The mean pulsatility index, resistance index, body mass index, waist circumference, systolic and diastolic blood pressure, homeostasis model assessment for insulin resistance, plasma fasting glucose, insulin, C-peptide, triglycerides, low-density lipoprotein cholesterol, and high-sensitivity C-reactive protein were statistically higher in obese subjects than in healthy controls.
+
+CLASSIFICATION: 

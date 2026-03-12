@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Immune suppression by lysosomotropic amines and cyclosporine on T-cell responses to minor and major histocompatibility antigens: does synergy exist? Using murine models, we have shown that the lysosomotropic amine, chloroquine, is effective in the prevention of graft-versus-host disease (GVHD) mediated by donor T cells reactive with recipient minor histocompatibility antigens (MiHCs). Because lysosomotropic amines can suppress major histocompatibility complex (MHC) class II antigen presentation, their mechanism of action is potentially different from current immune suppressant drugs used to control GVHD such as cyclosporine. We investigated the use of cyclosporine and the lysosomotropic amines chloroquine and hydroxychloroquine in combination for additive or synergistic immunosuppression on T-cell responses in vitro to MiHC and MHC in mice. We found that similar concentrations of chloroquine and hydroxychloroquine suppress the T-cell response to MiHC in mice (C57BL/6 anti-BALB.B) and that lysosomotropic amines in combination with cyclosporine result in synergistic suppression of a proliferative response to MiHC. Similar suppression and synergy appear to be present in an alloreactive response (C57BL/6 anti-BALB/c). Direct inhibition by chloroquine of T-cell proliferative responses induced by anti-CD3epsilon in the absence of antigen-presenting cells is present at higher concentrations than that required to suppress responses to MiHC or MHC. Chloroquine appears to induce decreased T-cell viability at high concentrations. This effect does not appear to be due to decreased T-cell production of interleukin-2 or interferon-gamma. At lower concentrations (<25 microg/ml), chloroquine can also decrease the ability of antigen-presenting cells to stimulate an a C57BL/6 anti-BALB/c T-cell response and can inhibit MHC class II expression after activation with lipopolysaccharide.
+
+CLASSIFICATION: 

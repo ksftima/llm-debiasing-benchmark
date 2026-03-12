@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Thoughts about gender-related insults?A friend of mine asked me yesterday if I thought an email she'd written sounded 'bitchy,' and it got me thinking about this. The friend is a feminist, if that makes a difference. Her choice of words took me aback a little because 'bitchy' isn't used often among the people with whom I hang out. I don't use it myself, but due to a general aversion to profanity or otherwise harsh language rather than any concerns about sexism. Upon reflection, though, I thought that 'bitchy' actually bothered me a bit rather than just surprising me. 
+
+*Is* it sexist? 'Bitchy' only ever seems to be directed at either women or people perceived to be acting in a feminine or effeminate manner. Relatedly, the insult 'dick' (which I also don't use, but again not for sexism-related reasons) is pretty much never applied to women. However, something being statistically associated with only one gender doesn't mean it's necessarily sexist. 
+
+It's not like I'd tell my friend she should stop using the term, but I am curious about feminists' views on gender-related insults such as this. Are they sexist? Or does nobody really care? It's quite possible I only took note of it due to great boredom rather than any actual hint of sexism.
+
+CLASSIFICATION:
+

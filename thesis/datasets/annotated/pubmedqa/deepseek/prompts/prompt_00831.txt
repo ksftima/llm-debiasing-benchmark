@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is severe pain immediately after spinal augmentation a predictor of long-term outcomes? Severe, immediate postprocedural pain and the need for analgesics after vertebroplasty can be a discouraging experience for patients and caregivers. The goal of this study was to investigate whether the presence of severe pain immediately after vertebroplasty predicts short- and long-term pain relief. A chart review was performed to categorize patients regarding pain severity and analgesic usage immediately after vertebroplasty (<4 h). "Severe" pain was defined as at least 8 of 10 with the 10-point VAS. Outcomes were pain severity and pain medication score and usage at 1 month and 1 year after vertebroplasty. Outcomes and clinical characteristics were compared between groups by using the Wilcoxon signed-rank test and the Fisher exact test. Of the 429 vertebroplasty procedures identified, 69 (16%) were associated with severe pain, and 133 (31%) were associated with analgesic administration immediately after the procedure. The group experiencing severe pain had higher preprocedure median VAS rest pain scores (5 [IQR, 2-7]) and activitypain scores (10 [IQR, 8-10]) compared with patients who did not experience severe pain (3 [IQR, 1-6]; P = .0208, and 8 [IQR, 7-10]; P = .0263, respectively). At 1 month postprocedure, VAS rest and activity pain scores were similar between the severe pain group and the nonsevere pain group (P = .16 and P = .25, respectively) and between the group receiving pain medication and the group not receiving pain medication (P = .25 and P = .67, respectively). This similarity continued for 1 year after the procedure. Analgesic usage was similar among all groups at 1 year postprocedure.
+
+CLASSIFICATION: 

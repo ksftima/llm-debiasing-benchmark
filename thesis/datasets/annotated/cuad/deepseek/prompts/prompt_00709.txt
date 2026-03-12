@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If Qualigen does not pass such audit and the reasons for such failure cannot be remedied within a reasonable period of time or Qualigen fails or elects not to complete any remedial actions reasonably suggested by Sekisui, then Sekisui's sole and exclusive remedy shall be to terminate this Agreement in accordance with the provisions of Section 14 of this Agreement, with such termination to be effective upon receipt of a termination notice by Qualigen sent by Sekisui at any time after the sixty day remedy period described in this Section 5.4 has passed
+
+CLASSIFICATION:
+ 

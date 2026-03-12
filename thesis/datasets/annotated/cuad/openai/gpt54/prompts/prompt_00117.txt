@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Network Affiliate hereby grants to NCM, and NCM hereby accepts, a non-exclusive, non-transferable (except in connection with an assignment of this Agreement in accordance with Section 14.8 hereof), non- sublicenseable, limited license (i) to use the Network Affiliate Marks solely in connection with its delivery of the Service, as approved by Network Affiliate in writing in advance, and (ii) to use the Network Affiliate Marks in Marketing Materials that have been approved by Network Affiliate pursuant to the terms hereof.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that any Bachem Intellectual Property is incorporated into any<omitted>deliverable (including Magenta Developed Intellectual Property (including Product)) or is otherwise necessary to fully exploit such deliverable, Bachem hereby grants to Magenta a perpetual, irrevocable, nonexclusive, worldwide, paid up, royalty-free license under such Bachem Intellectual Property (with the full right to sublicense directly or indirectly through multiple tiers) to (i) copy, distribute, display, perform and create derivative works of the Bachem Intellectual Property, in whole or in part; and (ii) to use Bachem Intellectual Property and/or practice the subject matter thereof, in each case solely in connection with manufacturing, marketing, promoting, using, selling, offering for sale, importing or distributing such deliverable (e.g., Product).
+
+CLASSIFICATION:
+ 

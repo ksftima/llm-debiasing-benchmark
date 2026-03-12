@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Laparoscopic-assisted ileocolic resections in patients with Crohn's disease: are abscesses, phlegmons, or recurrent disease contraindications? Because of the inflammatory nature of Crohn's disease, ileocolic resections are often difficult to perform, especially if an abscess, phlegmon, or recurrent disease at a previous ileocolic anastomosis is present. Our goal was to determine whether the above factors are contraindications to a successful laparoscopic-assisted ileocolic resection. Between 1992 and 1996, 46 laparoscopic-assisted ileocolic resections were attempted. Fourteen patients had an abscess or phlegmon treated with bowel rest before operation (group I), 10 patients had recurrent Crohn's disease at the previous ileocolic anastomosis (group II), and 22 patients had no previous operation and no phlegmon or abscess associated with their disease (group III). These groups were compared with each other and with 70 consecutive open ileocolic resections for Crohn's disease during the same time period (group IV). Operative blood loss and time were greater in group IV than in groups I, II, and III (245 versus 151, 131, and 195 ml, respectively, and 202 versus 152, 144, and 139 minutes, respectively). Conversion to open procedure occurred in 5 patients (group I, 1 [7%]; group II, 2 [20%]; group III, 2 [9%]). Morbidity was highest in group IV (21% versus 0%, 10%, and 10%, respectively). Only one patient died (group IV, 1%). Length of hospital stay was longest in group IV (7.9 versus 4.8, 3.9, and 4.5 days, respectively).
+
+CLASSIFICATION: 

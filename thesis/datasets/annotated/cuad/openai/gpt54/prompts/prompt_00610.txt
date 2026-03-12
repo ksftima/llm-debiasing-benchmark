@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to all terms and conditions of this Agreement, Sonos hereby grants to IAC and its Affiliates a non- exclusive, worldwide, nontransferable, royalty-free right and license to make copies of the software specified in the applicable Statement of Work solely as necessary to install and embed such software in the Product. I
+
+CLASSIFICATION:
+ 

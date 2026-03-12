@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+On average, over the period from November 2020 to January 2021, the fraction of prime-age women with children aged 6 to 17 who were out of the labor force for caregiving had increased by 2.4 percentage points from a year earlier, while for men the fraction had increased by about 0.6 percentage point.5 If not soon reversed, the decline in the participation rate for primeâ€‘age women could have scarring effects, with longer-term implications for household incomes and potential growth.6 Roughly 90 percent of the shortfall in private payroll employment relative to the pre-COVID level is concentrated in service-providing industries, with half of these service job losses in leisure and hospitality.
+
+CLASSIFICATION:

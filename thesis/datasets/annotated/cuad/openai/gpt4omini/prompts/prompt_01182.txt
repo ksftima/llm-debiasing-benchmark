@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If M&I and Customer are unable to agree upon the terms for renewal of this Agreement at least six (6) months prior to the expiration of the Term, then Customer may, at its option, renew this Agreement for one (1) twelve month period at the then-current terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

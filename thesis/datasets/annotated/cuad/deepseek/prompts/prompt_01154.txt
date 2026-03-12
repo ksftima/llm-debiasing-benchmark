@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither MD Anderson nor Principal Investigator shall seek or accept reimbursement from any third-party payor for any Study items or procedures supplied by or paid for by Adaptimmune under this Agreement.
+
+CLASSIFICATION:
+ 

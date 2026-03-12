@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Pertrochanteric fractures: is there an advantage to an intramedullary nail? To compare the results between a sliding compression hip screw and an intramedullary nail in the treatment of pertrochanteric fractures. Prospective computer-generated randomization of 206 patients into two study groups: those treated by sliding compression hip screw (Group 1; n = 106) and those treated by intramedullary nailing (Group 2; n = 100). University Level I trauma center. All patients over the age of fifty-five years presenting with fractures of the trochanteric region caused by a low-energy injury, classified as AO/OTA Type 31-A1 and A2. Treatment with a sliding compression hip screw (Dynamic Hip Screw; Synthes-Stratec, Oberdorf, Switzerland) or an intramedullary nail (Proximal Femoral Nail; Synthes-Stratec, Oberdorf, Switzerland). Intraoperative: operative and fluoroscopy times, the difficulty of the operation, intraoperative complications, and blood loss. Radiologic: fracture healing and failure of fixation. Clinical: pain, social functioning score, and mobility score. The minimum follow-up was one year. We did not find any statistically significant difference, intraoperatively, radiologically, or clinically, between the two groups of patients.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Paragraph 1(a) of the Agreement is amended to provide that Fox grants Licensee a worldwide, exclusive (except as otherwise may be provided in the Agreement), non-transferable right and license to distribute video clips for the property "KINGDOM OF HEAVEN" ("KOH Video Clips").
+
+CLASSIFICATION:
+ 

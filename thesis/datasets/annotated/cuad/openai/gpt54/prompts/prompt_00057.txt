@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Professional hereby grants an exclusive, worldwide license to the Company to use the name, likeness, image and personal identification of the Professional, during the Term and for a period of six (6) months after the Term as provided in Section 2.8, in connection with the creation, manufacture, marketing, sale and promotion of the Products.
+
+CLASSIFICATION:
+ 

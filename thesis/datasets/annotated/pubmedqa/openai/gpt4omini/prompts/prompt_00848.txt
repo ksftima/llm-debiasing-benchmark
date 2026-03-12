@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is ganglionated plexi ablation during Maze IV procedure beneficial for postoperative long-term stable sinus rhythm? We investigated the role of surgical ablation targeting the autonomous nervous system during a Cox-Maze IV procedure in the maintenance of sinus rhythm at long-term follow-up. The patient population consisted of 519 subjects with persistent or long-standing persistent atrial fibrillation (AF) undergoing radiofrequency Maze IV during open heart surgery between January 2006 and July 2013 at three institutions without (Group 1) or with (Group 2) ganglionated plexi (GP) ablation. Recurrence of atrial fibrillation off-antiarrhythmic drugs was the primary outcome. Predictors of AF recurrence were evaluated by means of competing risk regression. Median follow-up was 36.7 months. The percentage of patients in normal sinus rhythm (NSR) off-antiarrhythmic drugs did not differ between groups (Group 1-75.5%, Group 2-67.8%, p = 0.08). Duration of AF ≥ 38 months (p = 0.01), left atrial diameter ≥ 54 mm (0.001), left atrial area ≥ 33 cm(2) (p = 0.005), absence of connecting lesions (p= 0.04), and absence of right atrial ablation (p<0.001) were independently associated with high incidence of AF recurrence. In contrast the absence of GP ablation was not a significant factor (p = 0.12).
+
+CLASSIFICATION: 

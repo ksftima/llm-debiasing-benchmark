@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+In the event that the Company's Total Adjusted Capital for each of the Company's first and third fiscal quarters (as determined based on the Company's first and third fiscal quarterly filed statutory financial statements, respectively, subject to any adjustments or modifications thereto required by the Domiciliary State's insurance department or the Company's independent auditors) falls below the Specified Minimum Percentage of the Company's projected Company Action Level RBC (in each case as estimated by the Company as of the end of each such first and third fiscal quarters, as the case may be, taking into account (for purposes of such estimation) facts and circumstances occurring after the end of such fiscal quarter but before such time as AIG would be obligated pursuant to paragraph 3 to make a contribution), AIG shall, within the respective time periods set forth under paragraph 3, in accordance with paragraph 4 and in compliance with applicable law, provide to the Company cash, cash equivalents, securities or other instruments that qualify (as admitted assets) for purposes of calculating the Company's Total Adjusted Capital, as a contribution and not as a loan, in an amount such that the Company's Total Adjusted Capital as of the end of each of the Company's second and fourth fiscal quarter, as the case may be, will be projected to be at least equal to the Specified Minimum Percentage of the Company's Company Action Level RBC.
+
+CLASSIFICATION:
+

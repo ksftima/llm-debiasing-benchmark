@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Closing of the Transfer must occur within 60 calendar days of our election (or such longer period as applicable law may require); otherwise, the third-party's offer will be treated as a new offer subject to our right of first refusal.
+
+CLASSIFICATION:
+ 

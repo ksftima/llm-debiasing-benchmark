@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Consultation Period and for a period of one year thereafter, the Consultant shall not, either alone or in association with others, (i) solicit, or permit any organization directly or indirectly controlled by the Consultant to solicit, any employee of the Company to leave the employ of the Company; or (ii) solicit for employment, hire or engage as an independent contractor, or permit any organization directly or indirectly controlled by the Consultant to solicit for employment, hire or engage as an independent contractor, any person who is employed or engaged by the Company; provided, that this clause (ii) shall not apply to any individual whose employment with the Company has been terminated for a period of six months or longer.
+
+CLASSIFICATION:
+ 

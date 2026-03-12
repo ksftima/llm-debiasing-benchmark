@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CPDC hereby provides a limited product warranty, and accordingly does warrant for each Batch, that the Product shipped will (i) conform with the Specifications, (ii) be manufactured, tested, processed, packed and prepared for shipment in accordance with cGMPs, and (iii) be free from defects in material and workmanship for the period from the date of manufacture to the expiry date set out on each Unit of Product packed and prepared for shipment.
+
+CLASSIFICATION:
+ 

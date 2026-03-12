@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do symptoms matter when considering patients for phase I clinical trials? Older adults (OA) with advanced cancer (AC) undergoing phase I clinical trials (PICT) have poor prognosis. There are no studies which describe symptoms experienced by OA. Retrospective chart review of PICT participants>60 years. OA were compared by age (>65 vs 60-65) and by number of symptoms (>3 vs ≤3). N = 56. Mean age = 67.09; 48.21% female. Median life-expectancy = 5 months (interquartile range = 2-9 months); 80.36% had pain; of those 64% without pain scale. Most did not have interdisciplinary professionals or hospice referrals. Older adults with>3 symptoms had more admissions (37.5% vs 14.29%; P = .0335), complications (46.43% vs 16.07%; P = .0026), and greater decline in functional status (24 participants>3 symptoms vs 8; P = .0173). There were no significant differences comparing OA by age.
+
+CLASSIFICATION: 

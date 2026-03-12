@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Parties agree that the venue for any action, injunctive application or dispute determinable by a court of law arising out of this Agreement and that this Agreement shall be governed by and construed and enforced in accordance with the laws of the State of North Carolina, without giving effect to choice of law or arbitration provisions, and that the federal and state courts therein shall have jurisdiction over the subject matter and the Parties.
+
+CLASSIFICATION:
+ 

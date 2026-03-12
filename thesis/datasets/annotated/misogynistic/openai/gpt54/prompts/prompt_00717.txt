@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I think women just get more sympathy because guys would do anything to get laid and that includes feeling sorry for them. No one will stand behind a short guy or whatever he has that makes him unattractive because no one cares and people (mostly women) would rather make fun of him.
+
+Honestly, women should be up in arms at the beauty industry for selling makeup and telling women they can enhance their beauty aka telling women they are ugly. No one bats an eye because putting makeup requires little work/effort so anyone can do it to look "beautiful", but working out, dieting, and being healthy is apparently too hard for most women to handle so they complain about it like children. I give women who are fit and healthy mad props.
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does lunar position influence the time of delivery? To study the relationship between lunar position and the day of delivery; to investigate the synodic distribution of spontaneous deliveries, especially in relation to the presence of a full moon. Retrospective analysis of 1248 spontaneous full-term deliveries in three-year period (36 lunar months), setted at Department of Obstetrics and Gynaecology, Civil Hospital, Fano (Marche, Italy), using circular statistics techniques. A connection between the distribution of spontaneous full-term deliveries and the lunar month was found. The effect of the phases of the moon seems to be particularly relevant in multiparae and plurigravidae; in these cases, the mean day of delivery corresponds to the first or second day after the full moon.
+
+CLASSIFICATION: 

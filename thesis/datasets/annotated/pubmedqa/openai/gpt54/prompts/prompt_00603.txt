@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Hearing loss: an unknown complication of pre-eclampsia? This prospective case-control study consisted of 33 patients with pre-eclampsia and 32 normotensive pregnant patients as controls. All of the subjects underwent otoscopic examinations - pure tone audiometry (0.25-16 kHz) and transient evoked otoacoustic emission (1-4 kHz) tests - during their third trimester of pregnancy. The mean ages of the patients with pre-eclampsia and the control subjects were 29.6 ± 5.7 and 28.6 ± 5.3 years, respectively. The baseline demographic characteristics, including age, gravidity, parity number, and gestational week, were similar between the two patient groups. Hearing thresholds in the right ear at 1, 4, 8, and 10 kHz and in the left ear at 8 and 10 kHz were significantly higher in the patients with pre-eclampsia compared to the control subjects. The degree of systolic blood pressure measured at the time of diagnosis had a deteriorating effect on hearing at 8, 10, and 12 kHz in the right ear and at 10 kHz in the left ear.
+
+CLASSIFICATION: 

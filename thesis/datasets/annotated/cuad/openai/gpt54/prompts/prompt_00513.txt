@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to any rights set forth herein, PFHOF shall have the right and license to Exploit HOFV Works, at no fee or charge to PFHOF or any of its Affiliates, for educational, not-for-profit purposes aligned with the mission of PFHOF which usage shall not diminish the value of the Village Media Company's or its Affiliates' Exploitation of such HOFV Work in accordance with the terms of this Agreement.
+
+CLASSIFICATION:
+ 

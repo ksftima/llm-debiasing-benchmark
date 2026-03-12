@@ -1,0 +1,53 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+I found a girl with an EXTREME scarcity mindset. Is this a good or bad thing?Shes very traditional in her values.
+
+Like shes 22 and she will do ANYTHING for me, partly, because shes afraid shell never meet someone else as good as me.
+
+Is this a good or bad thing?
+
+
+
+Edit: Didnt expect the comments. Heres some feedback to clear up the situation. Im mostly asking for perspectives, not advice.
+
+1) at first I didnt even know that the fuck a unicorn was... I had to look it up. No I dont think shes that and I dont think shes perfect. its a stretch for you to assume I did.
+
+2) Weve been fucking for almost a year, no real intentions on LTR or marriage (some guy mentioned me pushing for marriage?). Thats a dumbass assumption and I dont know why you guys think Im trying to LTR her.
+
+3) Yes she is BPD confirmed. For those of you who are scared shitless of BPD women, Ive maximized my benefits from out relationship. You guys just need to know how to control BPD women and dont be so fucking emotionally manipulated
+
+4)
+
+CLASSIFICATION:
+

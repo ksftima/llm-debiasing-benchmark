@@ -1,0 +1,63 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+It seems like you're taking on the masculine role since you're the one saving the guy when its usually the other way around.
+
+I looked at your recent comment history and it seems like you are redpilled about the reality of men and how messed up and unfair expectations of women in relationships can be. You wouldn't sacrifice yourself in a relationship like you would in your fantasies. Super interesting.
+
+When our fantasies contradict with our real life views on things drastically it's  a sign of inner conflicts within us.
+
+There are so many reasons you are attached to this fantasy. It makes you feel righteous. It makes you seem very noble and brave. You might like to play this role of protector for your crush because it gives you control over him. He needs you to survive. He is probably in awe of you. There could some narcissism involved. The fact that you're watching over him even after you've passed on can again show a desire for more control over him. And by being able to watch over him like this it's kind of a way to still be with him. Also this way you also avoid the pressures of being in a relationship with him if you somehow saved him without having to sacrifice yourself and he fell in love with you. If you were in a real relationship with him you would have to rely on who you are in your day to day life to keep him interested and not this super woman role and that could be anxiety inducing and it's less exciting and dramatic. That's why you don't like imagining you two together in a normal relationship. Because then you would become more vulnerable.
+
+It also seems like what you want is beyond love. You might not have earned his love but you got his respect. In the end you are unattainable to him even if he wanted to be with you he can't. There's no way he could ever pay you back when you're gone. He will probably think about you in a higher way than his gf. In a pure way you prefer. He might love you in a deeper way than he loves her because you saved him. She could never do that for him. You probably imagine her as being some basic Stacy while you are unique and extraordinary.
+
+It seems like you really hate the focus to ever be on looks and you only want a guy to like you for non sexual related reasons like your altruism and character, Not your looks. You feel degraded when a guy falls for your looks. You want to be loved for non shallow reasons. You might be sexually repressed. You might feel resentful and mistrustful of men in real life.
+
+So many desires and personality and character traits hidden within us come out in our fantasies.
+
+It could be that you resent the gender roles placed on women. Do you find yourself drawn to female characters who are very strong and defy their gender roles? Like Katniss Everdeen? She volunteered as tribute which can be seen as her sacrificing herself for her younger sister.
+
+Did you grow up with a misogynistic or abusive father? Was your father unromantic and ungentlemanlike towards your mother? Like he doesn't open doors for her or bring her surprise gifts? You never saw him show tenderness to her? or that he valued her for anything besides domestic duties? Was your mother a codependent who did so much for her husband but got no equal effort in return? and you would hate to be like her?
+
+Even if you would never act like a codependent in a real relationship with a guy. In your fantasy there's a lot of co dependent traits showing in your character. Her sacrificing herself for a guy she thinks will never be with her can be seen as masochistic and self defeating. She thinks she has to prove herself to this guy by saving him. She doesn't think she has a value outside of what she can do for someone which is what codependents believe. Her motivations are not actually pure. She wants to be praised and admired. She wants control over this guy.
+
+&#x200B;
+
+By contrast do you find yourself being somewhat drawn to and yet cringing at helpless and very weak female characters like Bella Swan from Twilight? But you would never admit to being drawn to twilight in real life because so much of Bella's appeal to the men who love her is because of her feminine traits. Like her scent and her looks and her clumsiness which makes them hyper vigilant in protecting her placing them in the hero role which makes them feel strong and masculine. She doesn't have to do much to keep them interested. Which you might hate and feel disgusted by. You want a guy to value you for things more than just your looks you want them to value you for being powerful and having virtuous characteristics. She doesn't have to save anyone. It's not her noble character that makes the guys go crazy. Do you feel empty and conflicted about love stories like Twilight? Do stories like Twilight make you feel so many different and mostly negative emotions but yet you feel drawn to it? Because at the end Bella got the guy without sacrificing herself for him. She didn't really do anything. She was just pretty and smelled good and got everything most people desire. Love, children, wealth, beauty, immorality and youth.
+
+Playing the conventionally masculine role means you switch the gender roles and you subconsciously might want to seem stronger than a guy because you have internalized misogyny.
+
+These fantasies are actually not unusual. Men have savior fantasies or hero fantasies and no one would be mocking you if you were a man saying this. Don't take it to heart what ignorant people think about this. The more you focus on how embarrassed you are the less you can dig deeper into understanding yourself. Deep down you might feel suppressed in many ways. You should explore that.
+
+CLASSIFICATION:
+

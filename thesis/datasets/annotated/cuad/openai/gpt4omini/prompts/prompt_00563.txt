@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Endorser agrees that during the Term MusclePharm shall have the right to use, worldwide, Endorser's Name and Appearance Rights (as specified in Section 6) to advertise MusclePharm and its Products and Licensed Products in print media, and in all other forms of media (other than telephone marketing or texting campaigns) including, but not limited to, point of sale material, premiums and novelties, direct marketing material, and radio, television, electronic, and computer media (including but not limited to MusclePharm's Internet and social media websites). Print media will also include promotional items on which Endorser's approved picture; approved likeness, or facsimile signature may appear. Endorser will have the right to approve, in writing via his representative's office, all advertising materials which utilize Endorser's Name and Appearance Rights, but Endorser will not unreasonably withhold approval and will promptly respond to all approval requests.
+
+CLASSIFICATION:
+ 

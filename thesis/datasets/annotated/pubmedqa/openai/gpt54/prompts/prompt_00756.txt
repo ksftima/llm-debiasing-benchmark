@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Rotator cuff tear--an occupational disease? In literature there are only few data which describe the influence of occupation on the development of rotator cuff disease. In a retrospective study, 760 open rotator cuff repairs were analysed and related to the profession and occupational load. Exclusion criteria were traumatic tears and sports injuries. All male persons were statistically analysed and the data compared with occupational patterns of the region, obtained from the Federal Statistical State Office. Rotator cuff repairs were performed in 472 males who had no evidence for a traumatic origin. After statistical analysis (p<0.001) we found significantly more patients working in agriculture and forestry (6.38% versus 1.07% in Bavaria) and in the building industry (35.11% versus 13.40% in Bavaria).
+
+CLASSIFICATION: 

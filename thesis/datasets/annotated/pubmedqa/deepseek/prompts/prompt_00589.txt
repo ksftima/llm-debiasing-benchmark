@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do microbiological factors account for poor pregnancy outcome among unmarried pregnant women in Poland? Being unmarried is a well-known risk factor for poor pregnancy outcome such as preterm delivery and intrauterine growth restriction. The aim of this prospective study was to assess the prevalence and risk of bacterial vaginosis (BV) and selected bacteria isolated from the lower genital tract and to determine the socioeconomic and microbiological characteristics that might be responsible for poor pregnancy outcome observed among unmarried pregnant women. The study population comprised 196 pregnant women attending 10 randomly selected outpatient maternity units in the Lodz region, central Poland. Cervicovaginal samples were obtained between 8 and 16 weeks of gestation. Based on Spiegel's criteria, gram-stained vaginal smears were examined for BV and the BV-associated flora was sought by culture. To evaluate the risk factors, relative risk ratios were calculated using EPI INFO software. Among 196 pregnant women, 40 (20.4%) were unmarried. BV was diagnosed among 55 (28.1%) women studied. In the univariate analysis, unmarried pregnant women were characterized by younger age, primary educational level, poor economic situation and excessive smoking during pregnancy, as compared to married women. The unmarried status was a borderline risk factor for BV (OR = 1.83, 95% CI 0.94-4.9) after adjustment for age, smoking and education. An analysis of the microbiological culture from the lower genital tract revealed that unmarried pregnant women had a higher risk for several types of pathological microflora, as compared to married women. However, this finding was significant only for Mycoplasma hominis. The independent risk factors of M. hominis were the young age of the subject and a low concentration of Lactobacillus spp.
+
+CLASSIFICATION: 

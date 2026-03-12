@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition, we may, at any time and from time to time, contract with one or more software providers, business service providers, or other third parties (individually, a "Service Provider") to develop, license, or otherwise provide to or for the use and benefit of you and other The Joint Corp. Franchises certain software, software applications, and software maintenance and support services related to the Computer System that you must or may use in accordance with our instructions with respect to your Computer System.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the manic/mixed episode distinction in bipolar disorder patients run true over time? The authors sought to determine whether the manic/mixed episode distinction in patients with bipolar disorder runs true over time. Over an 11-year period, the observed distribution of manic and mixed episodes (N=1,224) for patients with three or more entries in the management information system of a community mental health center (N=241) was compared to the expected distribution determined by averaging 1,000 randomly generated simulations. Episodes were consistent (all manic or all mixed) in significantly more patients than would be expected by chance.
+
+CLASSIFICATION: 

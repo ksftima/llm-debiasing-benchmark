@@ -1,0 +1,37 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+please stop valuing the opinion of men you see onlinethis is not a typical "feel good" post. this is a reminder.
+
+**TL;DR: it's easier to be super mean, to be an asshole online behind anonymity than it is in real life, facing the other person.**
+
+if a guy picks a girl apart for her looks or even for her personality, regardless of her attractiveness, on the internet his opinion immediately looses value.
+
+men who are worthy to listen to won't spend all of their time online. they live their lives, have fun, meet new people. not that every men in real life are decent, actually you can't trust any man regardless where you meet him. not until he proves himself to be normal for a long time. and even then you have to be prepared that he will turn out to be insane. there are many examples for that.
+
+but still online it seems like there are even more assholes and they don't even try to hide that. guys online truly show their true nature bc it's easy to be a dick online without facing the other person. but believe me the majority of men online, let them be from reddit or twitter or whatever site, they wouldn't be this vocal about their distaste about women's appearance or personality. most of them would keep to themselves bc they don't have real life friends and they are too coward to speak up. which is for the better.
+
+I mean sure there are guys who are vocally assholes both online and in real life. but still the majority of online guys who criticise women wouldn't say a word in real life. in real life you have to look into someone's eyes and just say the words. and that's fucking hard to do so. online you can just put your bullshit out there and even find groups where you know your bullshit will be approved. in real life these losers would risk losing face if they would openly criticise women.
+
+these assholes would probably lose face in real life bc then everyone would see how they look. bc let's be real these online guys are not Chads they are just losers who aren't physically that attractive though I'm not saying they are all smelly neckbeards. but they are not Chads lol. they are not 10s.
+
+so a guy talking shit about a becky, or normie for not being a stacy will be looked down bc wtf man you are not a Chad or not even a idk Brad. and yet they pick on a girl who is minding her business? get fucked.
+
+also guys who are online too much are brainwashed and have false expectation of beauty. they only/mostly see stacies bc you can only post your photo if you are absolutely perfect and even then you will be picked apart. some beckies can get away with it if they give off hot or cute vibes. and even these stacies, beckies use angles, good lighting, even photoshop to maximise their looks.
+
+so don't give a damn about other subs like gonewild, butterface, etc. while facial bone structure is really really important there are many cute-the-girl-next-door girls who would be seen ugly online while in real life they would be wanted.
+
+CLASSIFICATION:
+

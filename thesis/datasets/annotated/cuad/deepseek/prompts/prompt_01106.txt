@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Property Insurance. Coverage providing "all risk" property insurance at the replacement value of the machinery, equipment, fixtures, tools, materials and other property of the Party. "All risk" coverage will include, by way of example and not limitation, loss or damage resulting from earthquakes, floods, wind, fire or other natural or weather-related phenomenon. Requires waiver of subrogation endorsement.
+
+CLASSIFICATION:
+ 

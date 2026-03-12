@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If FMI is unwilling or unable to develop and commercialize a CDx Assay for a given country in the Territory as specified in the R&D Plan, and on the timeline set forth in the relevant R&D Plan, for any reason other than a breach of this Agreement by Roche, then FMI hereby grants to Roche a non-exclusive, royalty-free, sublicensable, and perpetual license under any intellectual property invented by FMI arising from the CDx Development Program that is necessary for Roche to develop and commercialize a CDx Assay equivalent in such country in the Territory.
+
+CLASSIFICATION:
+ 

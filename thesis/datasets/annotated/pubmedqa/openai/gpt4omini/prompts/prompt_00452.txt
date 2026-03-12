@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is patient outcome compromised during the initial experience with robot-assisted radical cystectomy? • Robot-assisted radical cystectomy (RARC) remains controversial in terms of oncologic outcomes, especially during the initial experience. The purpose of this study was to evaluate the impact of initial experience of robotic cystectomy programs on oncologic outcomes and overall survival. • Utilizing a prospectively maintained, single institution robotic cystectomy database, we identified 164 consecutive patients who underwent RARC since November 2005. • After stratification by age group, gender, pathologic T stage, lymph node status, surgical margin status, and sequential case number; we used chi-squared analyses to correlate sequential case number to operative time, surgical blood loss, lymph node yield, and surgical margin status. • We also addressed the relationship between complications and sequential case number. We then utilized Cox proportional hazard modeling and Kaplan-Meier survival analyses to correlate variables to overall mortality. • Sequential case number was not significantly associated with increased incidence of complications, surgical blood loss, or positive surgical margins (P= 0.780, P= 0.548, P= 0.545). Case number was, however, significantly associated with shorter operative time and mean number of lymph nodes retrieved (P<0.001, P<0.001). • Sequential case number was not significantly associated with survival; however, tumour stage, the presence of lymph node metastases, and positive surgical margins were significantly associated with death. • Although being the largest of its kind, this was a small study with short follow-up when compared to open cystectomy series.
+
+CLASSIFICATION: 

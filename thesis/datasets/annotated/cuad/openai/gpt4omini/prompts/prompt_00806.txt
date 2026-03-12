@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EXCEPT FOR IN THE EVENT OF WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE RESELLER AND ITS AFFILIATES SHALL NOT BE LIABLE TO THE COMPANY, AND SHALL HAVE NO OBLIGATION TO INDEMNIFY OR HOLD HARMLESS THE COMPANY, WITH RESPECT TO OR IN CONNECTION WITH ANY LOSS RESULTING FROM OR CAUSED BY THE COMPANY PRODUCTS.
+
+CLASSIFICATION:
+ 

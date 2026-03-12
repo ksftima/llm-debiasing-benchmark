@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+PPI shall provide such advice as necessary for EKR to arrange for an alternative manufacturer and shall provide EKR with access to all relevant PPI Know-How, and any other information necessary for EKR to transfer such manufacturing to an alternate manufacturer.
+
+CLASSIFICATION:
+ 

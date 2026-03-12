@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without limiting the foregoing, but subject to the restrictions set forth in Section 2.5 hereof, Bank of America may: (x) sublicense its rights granted herein to its third party contractors for the purpose of their performing services for Bank of America and its Affiliates (which services may include, without limitation, altering, modifying, enhancing and improving the Software and creating derivatives to the Software), provided that such third party contractors have entered into a written agreement containing commercially standard confidentiality provisions requiring them to maintain the Source Code to the Licensed Programs securely and in confidence (subject to commercially standard exceptions), prior to having access to the Source Code for the Software: (y) sublicense its rights in the Software excluding any rights in the Source Code, to its end user customers as necessary for Bank of America to provide services to such end user customers; and (z) host the Software on its systems (or allow a third party to host the Software on its behalf) and make the Software available for use by its end user customers through the internet or other similar means.
+
+CLASSIFICATION:
+ 

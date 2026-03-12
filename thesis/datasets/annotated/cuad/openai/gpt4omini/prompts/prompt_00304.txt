@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In consideration of the remuneration to be paid to ABG pursuant hereto and subject to the conditions and limitations contained herein, ABG grants to PAPA JOHN'S the non-transferrable, non-assignable, non-sublicensable, indivisible right and license solely during the Term of the Agreement and within the Territory to use the Celebrity Endorsement, in each instance, subject to ABG's Approval (as hereinafter defined).
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are normally sighted, visually impaired, and blind pedestrians accurate and reliable at making street crossing decisions? The purpose of this study is to measure the accuracy and reliability of normally sighted, visually impaired, and blind pedestrians at making street crossing decisions using visual and/or auditory information. Using a 5-point rating scale, safety ratings for vehicular gaps of different durations were measured along a two-lane street of one-way traffic without a traffic signal. Safety ratings were collected from 12 normally sighted, 10 visually impaired, and 10 blind subjects for eight different gap times under three sensory conditions: (1) visual plus auditory information, (2) visual information only, and (3) auditory information only. Accuracy and reliability in street crossing decision-making were calculated for each subject under each sensory condition. We found that normally sighted and visually impaired pedestrians were accurate and reliable in their street crossing decision-making ability when using either vision plus hearing or vision only (P>0.05). Under the hearing only condition, all subjects were reliable (P>0.05) but inaccurate with their street crossing decisions (P<0.05). Compared to either the normally sighted (P = 0.018) or visually impaired subjects (P = 0.019), blind subjects were the least accurate with their street crossing decisions under the hearing only condition.
+
+CLASSIFICATION: 

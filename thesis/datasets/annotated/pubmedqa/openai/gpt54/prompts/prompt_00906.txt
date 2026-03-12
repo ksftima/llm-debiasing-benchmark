@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do family physicians know the costs of medical care? To determine the cost of 46 commonly used investigations and therapies and to assess British Columbia family doctors' awareness of these costs. Mailed survey asking about costs of 23 investigations and 23 therapies relevant to family practice. A random sample of 600 doctors was asked to report their awareness of costs and to estimate costs of the 46 items. British Columbia. Six hundred family physicians. Estimates within 25% of actual cost were considered correct. Associations between cost awareness and respondents'characteristics (eg, sex, practice location) were sought. Degree of error in estimates was also assessed. Overall, 283 (47.2%) surveys were returned and 259 analyzed. Few respondents estimated costs within 25% of true cost, and estimates were highly variable. Physicians underestimated costs of expensive drugs and laboratory investigations and overestimated costs of inexpensive drugs. Cost awareness did not correlate with sex, practice location, College certification, faculty appointment, or years in practice.
+
+CLASSIFICATION: 

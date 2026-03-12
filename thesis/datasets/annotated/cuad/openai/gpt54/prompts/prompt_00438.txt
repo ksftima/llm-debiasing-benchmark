@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensee acknowledges that the grant of the license set forth in this Section is a non-exclusive license and that the Licensor shall have the right to use and to license to other parties the Licensed Technology for any purpose and in any manner as Licensor may determine in its sole discretion.
+
+CLASSIFICATION:
+ 

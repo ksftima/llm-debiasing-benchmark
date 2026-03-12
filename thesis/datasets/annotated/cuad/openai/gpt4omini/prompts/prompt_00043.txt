@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the alternative, if LICENSOR is not the sole and exclusive owner of all of the foregoing intellectual property rights to the Content, LICENSOR has been granted by the owner or rightful sub-licensee of the intellectual property of the Content the right to grant the rights provided by LICENSOR to plan_b under this Agreement.
+
+CLASSIFICATION:
+ 

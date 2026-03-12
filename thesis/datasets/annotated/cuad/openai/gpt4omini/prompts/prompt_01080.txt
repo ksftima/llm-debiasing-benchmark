@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier agrees to assign (and cause its employees or permitted subcontractors to assign), and does hereby assign, any and all rights, title and interests of Supplier in, to or under any Inventions to Customer.
+
+CLASSIFICATION:
+ 

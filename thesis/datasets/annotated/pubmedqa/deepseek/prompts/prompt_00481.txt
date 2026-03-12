@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Blunt trauma in intoxicated patients: is computed tomography of the abdomen always necessary? Physical examination to detect abdominal injuries has been considered unreliable in alcohol-intoxicated trauma patients. Computed tomography (CT) plays the primary role in these abdominal evaluations. We reviewed medical records of all blunt trauma patients admitted to our trauma service from January 1, 1992, to March 31, 1998. Study patients had a blood alcohol level>or =80 mg/dL, Glasgow Coma Scale (GCS) score of 15, and unremarkable abdominal examination. Of 324 patients studied, 317 (98%) had CT scans negative for abdominal injury. Abdominal injuries were identified in 7 patients (2%), with only 2 (0.6%) requiring abdominal exploration. A significant association was found between major chest injury and abdominal injury.
+
+CLASSIFICATION: 

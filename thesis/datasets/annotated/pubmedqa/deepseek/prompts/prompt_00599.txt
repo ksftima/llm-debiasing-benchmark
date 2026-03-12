@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Reporting and interpreting red blood cell morphology: is there discordance between clinical pathologists and clinicians? Clinical pathologists (CPs) report RBC morphologic (RBC-M) changes to assist clinicians in prioritizing differential diagnoses. However, reporting is subjective, semiquantitative, and potentially biased. Reporting decisions vary among CPs, and reports may not be interpreted by clinicians as intended. The aims of this study were to survey clinicians and CPs about RBC-M terms and their clinical value, and identify areas of agreement and discordance. Online surveys were distributed to small animal clinicians via the Veterinary Information Network and to CPs via the ASVCP listserv. A quiz assessed understanding of RBC-M terms among respondent groups. Descriptive statistics were used to analyze responses to survey questions, and quiz scores were compared among groups. Analyzable responses were obtained from 1662 clinicians and 82 CPs. Both clinicians and CPs considered some terms, e.g., agglutination, useful, whereas only CPs considered other terms, e.g., ghost cells, useful. All groups interpreted certain terms, e.g., Heinz bodies, correctly, whereas some clinicians misinterpreted others, e.g., eccentrocytes. Responses revealed that CPs often do not report RBC-M they consider insignificant, when present in low numbers. Twenty-eight percent of clinicians think CPs review all blood smears while only 19% of CPs report reviewing all smears.
+
+CLASSIFICATION: 

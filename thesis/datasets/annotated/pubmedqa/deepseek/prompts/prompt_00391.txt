@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Advanced epithelial ovarian carcinoma in Thai women: should we continue to offer second-look laparotomy? To determine survival among patients with epithelial ovarian carcinoma (EOC) who underwent a second-look laparotomy (SLL) and those refusing the procedure. Also to analyze factor(s) influencing the survival of the patients. Medical records were reviewed of patients with advanced EOC who were clinically free of disease after primary surgery and platinum-based chemotherapy between January 1, 1992, and December 31, 1998. All of them were offered SLL. Measurement outcomes include patient survival and disease-free survival. There were 50 patients with clinically complete remission after chemotherapy. Sixteen patients underwent SLL, and thirty-four patients refused the procedure (NSLL). Seven patients (43.8%) were reported to have positive SLL. After the median follow-up time of 35 months, 12 patients had died, and 5 patients were lost to follow-up. The median survival time for patients with SLL was about 60 months. Five-year survival rates of patients in the SLL, and NSLL groups were 37 per cent (95%CI = 7%-69%), and 88 per cent (95%CI = 65%-96%) respectively (P<0.001). The median time to relapse was about 25 months for patients with negative SLL. Five-year disease-free survival rates of patients in the negative SLL, and NSLL groups were 28 per cent (95%CI = 4%-59%), and 54 per cent (95%CI = 34%-70%) respectively (P=0.251). By Cox regression analysis, tumor grade was the only significant prognostic factor influencing patients' survival (HR = 6, 95%CI of HR = 1.2-34.2).
+
+CLASSIFICATION: 

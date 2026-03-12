@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+ENERGOUS hereby grants DIALOG a non-exclusive, non-transferable (except as set forth in Section 2) license under the Product IP to use any of the Deposit Materials released from escrow for the purpose of fixing an Epidemic Defect or other Product design or production issue impacting yield or quality during the Term and, if applicable, any Wind Down Period or Continuing Obligation period, including, but not limited to, authorizing any third party subcontractor to manufacture and supply Products, provided, however, that DIALOG continues to make all Royalty payment owed to ENERGOUS (or the then-current owner of the Product IP) as provided in this Agreement.
+
+CLASSIFICATION:
+ 

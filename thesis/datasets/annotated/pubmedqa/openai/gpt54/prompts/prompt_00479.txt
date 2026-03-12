@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Long-term significance of postictal psychotic episodes II. Are they predictive of interictal psychotic episodes? The aim of this study was to determine whether postictal psychotic episodes (PIPE) are predictive of the development of interictal psychotic episodes (IPE). This was a retrospective study of 18 consecutive adults with a partial seizure disorder and PIPE (study group) and 36 patients with a partial seizure disorder but without PIPE (control group). These two groups were compared with respect to the likelihood of developing IPE over an 8-year follow-up period and the variables operant in the development of IPE. Statistical analyses consisted of logistic regression models to identify the variables predictive of the development of IPE. Predictors included: number and location of ictal foci, seizure type, etiology, age at seizure onset, duration of seizure disorder, MRI abnormalities, and psychiatric history prior to the index video/EEG monitoring (other than PIPE). Seven patients with PIPE and one control patient went on to develop an IPE. Predictors of IPE in univariate logistic regression analyses included a history of PIPE (P=0.006), male gender (P=0.028), and having bilateral ictal foci (P=0.048). Significance disappeared for all of these variables when they were entered into a multivariate analysis.
+
+CLASSIFICATION: 

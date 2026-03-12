@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Injury and poisoning mortality among young men--are there any common factors amenable to prevention? Deaths from injury and poisoning (suicide, accidents, undetermined deaths, and homicide) are the major cause of death among young men aged 15-39 years in England and Wales and have been increasing in recent years.AIM: To describe common characteristics among young men who die from injury and poisoning. We employed a retrospective survey methodology to investigate factors associated with deaths by injury and poisoning among young men aged 15-39 years (n = 268) in Merseyside and Cheshire during 1995. Data were collected from Coroner's inquest notes and General Practitioner records. The most common cause of death was poisoning by alcohol and drugs (29.1%, n = 78). A high proportion of cases were unemployed (39.4%, n = 106). Cases were also more likely to be single compared to the general population (74.2% vs 55.5%). Self-destructive behaviour was evident in 77% of deaths (n = 206).
+
+CLASSIFICATION: 

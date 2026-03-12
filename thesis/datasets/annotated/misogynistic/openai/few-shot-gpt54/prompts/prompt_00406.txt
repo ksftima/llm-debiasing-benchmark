@@ -1,0 +1,53 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Discovered LTR's cheating activity from 2017Nexted her immediately.
+
+I had access to her mail, so i easily got into her Facebook... 
+
+Checkin wassup, found, some hooking up in 2017(in college) with several guys that year. And it was said to be our best year together. 
+
+Thing is, during that time, that month, i had a gut feeling something wasn't connecting... So big lesson is, your gut feeling is almost never wrong.
+
+ One thing i admire about the bitch is, she would defend her innocence with her life. I never seen someone defend her herself so much like that. This has blindsided me a lot of times when i suspected something. 
+
+Today, i hit her with screenshots, she tried running it down, but she couldn't shake them off, line by line for the conversation, she chocked . 
+
+I wasted, college fucking and my time , but that is alright. I cry not. Things are looking good for me past school, i have had offers coming in, now i am just picking the one's with high value.
+
+I am quite happy with this breakup, because man, i have been wanting out, i just needed a legitimate reason for leaving now i finally caught the bitch.
+
+Anyway, i am yet another victim, 5year LTR, i met TRP, 3 years ago. Count me out in exclusive dating, this bitches got none to offer other than pussy.. So not like i lose anything.
+
+CLASSIFICATION:
+

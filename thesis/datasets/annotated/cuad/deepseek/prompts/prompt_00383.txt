@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Array hereby grants to Ono a worldwide non-exclusive license under the Array Patents, Array Know-How and Array's interests in the Joint Patents and Joint Know-How to (i) Manufacture and have Manufactured Binimetinib and Encorafenib for use in the Manufacture of Products, and (ii) Manufacture and have Manufactured Products, in each case for use in Developing and Commercializing such Products in accordance with the rights and license granted to Ono under Sections 2.1(a) and 2.1(c).
+
+CLASSIFICATION:
+ 

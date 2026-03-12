@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement (including, without limitation, Sections 2.3, 2.4, 2.6 and 5 below), PFHOF hereby grants to the Village Media Company a worldwide, non-exclusive, limited, non-sublicenseable and non-assignable (except to the extent set forth in this Agreement) right and license to (a) Exploit the PFHOF Works and (b) edit, supplement or otherwise adapt, incorporate or otherwise utilize, the PFHOF Works to create, produce and Exploit new, original work(s) (each such work in this clause (b), a "HOFV Work").
+
+CLASSIFICATION:
+ 

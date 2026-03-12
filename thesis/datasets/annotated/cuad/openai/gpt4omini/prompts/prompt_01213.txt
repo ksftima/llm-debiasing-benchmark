@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Minimum response time for R2 detect delay + generate detect delay + generate delay compelled signaling delay detect delay + decision detect delay + decision delay + delay + generate delay - -------------------------------------------------------------------------------------------- ------------ Accept Levels -5 dBm0 to -31.5 dBm0 must Minimum power is detect; configurable from -25 dBm to -38.5 dBm0 must reject -45 dBm per frequency
+
+CLASSIFICATION:
+ 

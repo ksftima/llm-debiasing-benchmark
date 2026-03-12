@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Licensed Rights" to ConvergTV and ConvergTV Channels and/or Distribution Outlets x All, including but not limited to: xSimultaneous Internet Streaming x OTT Television x Internet Protocol Television x Radio, short wave, microwave, fiber optic x Alternative, secondary and specialty distribution x Stored as VOD, Content Distribution Networks/Company Servers x Full Television Broadcast Rights: x Free: Terrestrial, Cable, Satellite x Pay: Terrestrial, Cable, Satellite x Direct Satellite IP Distribution Systems
+
+CLASSIFICATION:
+ 

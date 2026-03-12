@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Should pulp chamber pulpotomy be seen as a permanent treatment? Seventeen patients, aged 7-54 years (mean of 37.2 year), were treated by pulpotomy and filling with ProRoot MTA(®)  in premolar or molar teeth with vital pulps and without clinical evidence of irreversible pulpitis. The patients were then followed up for 12 to 24 months and the teeth then assessed by clinical and radiographic examination. Statistical analysis was performed with Kaplan-Meier survival probability statistics to estimate the survival of the treated teeth. At 24 months, the survival rate without any complementary treatment was estimated to be 82%. Two of the 17 treated teeth required root canal treatment for pain control and one for prosthetic reasons.
+
+CLASSIFICATION: 

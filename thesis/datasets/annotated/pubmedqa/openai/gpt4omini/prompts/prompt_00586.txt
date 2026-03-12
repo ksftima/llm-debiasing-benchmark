@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does limb-salvage surgery offer patients better quality of life and functional capacity than amputation? Patients with aggressive lower extremity musculoskeletal tumors may be candidates for either above-knee amputation or limb-salvage surgery. However, the subjective and objective benefits of limb-salvage surgery compared with amputation are not fully clear.QUESTIONS/ We therefore compared functional status and quality of life for patients treated with above-knee amputation versus limb-salvage surgery. We reviewed 20 of 51 patients aged 15 years and older treated with above-knee amputation or limb-salvage surgery for aggressive musculoskeletal tumors around the knee between 1994 and 2004 as a retrospective cohort study. At last followup we obtained the Physiological Cost Index, the Reintegration to Normal Living Index, SF-36, and the Toronto Extremity Salvage Score questionnaires. The minimum followup was 12 months (median, 56 months; range, 12-108 months). Compared with patients having above-knee amputation, patients undergoing limb-salvage surgery had superior Physiological Cost Index scores and Reintegration to Normal Living Index. The Toronto Extremity Salvage scores and SF-36 scores were similar in the two groups.
+
+CLASSIFICATION: 

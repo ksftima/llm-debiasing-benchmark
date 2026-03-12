@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+If Monsanto does contest the occurrence of the alleged Brand Decline Event by submitting such alleged Brand Decline Event to resolution through arbitration in accordance with the provisions of Section 10.4(g) of this Agreement within ninety (90) days of receipt of such notice from the Agent, then the question of whether a Brand Decline Event has occurred will be finally determined in accordance with the provisions of Section 10.4(g) of this Agreement, and if a Brand Decline Event is finally determined to have occurred, then the Brand Decline Event shall be deemed to have occurred as of the date of such notice, and thereafter the Agent shall be entitled to either, as the Agent's sole remedy, (x) terminate this Agreement, which termination shall be effective at the end of the third (3rd) full Program Year following the Program Year in which the Agent delivers notice of termination pursuant to this Section 10.5(d)(iii), or (y) not terminate this Agreement and be entitled to the Additional Commission Amount (in addition to the Commission) set forth in Section 10.5(d)(iv) below, which Additional Commission Amount shall be subject to all other terms and conditions of this Agreement with respect to the Commission, except as otherwise expressly stated in this Section 10.5(d).
+
+CLASSIFICATION:
+

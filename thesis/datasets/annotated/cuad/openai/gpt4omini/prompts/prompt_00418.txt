@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In case of termination on the basis of Article 14.1 (b) if IGER is the breaching Party, Article 14.1 (c) if IGER ceases substantially all activities in the COLLABORATION CROPS, Article 14.1 (e) (i) or (ii) or Article 14.1 (f), subject to the obligations of the first sentence of Article 14.3, CERES shall have the exclusive right to use and commercially exploit any JOINT INTELLECTUAL PROPERTY to the extent such JOINT<omitted>INTELLECTUAL PROPERTY is not covered by any relevant license/commercialization agreement between the Parties.
+
+CLASSIFICATION:
+ 

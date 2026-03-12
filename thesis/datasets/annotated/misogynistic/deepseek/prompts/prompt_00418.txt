@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This man is nothing more than a loser, which it is bad enough to get with a trashy divorced woman but then to marry and get the same trashy woman pregnant was beyond insane.....I couldn't care less how much money and fame that the guy has as I have one thing that he'll never EVER have and that is "freedom" to live my life on my own terms.
+
+Enjoy your prison sentence ex prince of simps.
+
+CLASSIFICATION:
+

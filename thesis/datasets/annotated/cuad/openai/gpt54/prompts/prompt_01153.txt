@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Should either Party herein initiate a legal proceeding for revoking any arbitration result regarding the Contract, both Parties herein agree to take the Miaoli District Court of Taiwan as the competent court of first instance pursuant to the laws of the R.O.C..
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does Sensation Return to the Nasal Tip After Microfat Grafting? Patients usually complain about numbness in the nasal tip after microfat injections. The present study evaluated the severity of the numbness in the nasal tip after the procedure. To address the research question, a prospective study of young women was designed and performed at the Beijing Anzhen Hospital. Time was the primary predictor variable. The nasal tip sensation, which was evaluated using objective and subjective assessments, was used as the primary outcome variable. The McNemar-Bowker test (time vs nasal tip sensation) was used to detect statistical significance. A total of 30 young women (age 20.04 ± 3.63 years) were recruited for the present study. The preoperative mean touch threshold value was 3.60 units. One week after the injection, the women experienced a decrease in the touch threshold value by 2.50 units. However, the sensation recovered gradually during the follow-up period (1.51 units at week 2, 2.39 units at week 4, 3.01 units at week 8, and 3.35 units at week 12). Significant differences were detected between multiple different measurement points (P<.05). The percentage of those experiencing paresthesia after the microfat injections also gradually diminished to none.
+
+CLASSIFICATION: 

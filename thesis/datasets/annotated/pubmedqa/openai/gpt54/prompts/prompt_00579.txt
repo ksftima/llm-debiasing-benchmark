@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does Paget's disease exist in India? Paget's disease of bone has been described as a few case reports from India. The aim of the present study is to document the existence of Paget's disease (PD) in India. We describe demography, clinical manifestations, biochemical and radiological profile and the treatment outcome of 21 patients of PD. Mean (+/-SD) age of these patients at presentation was 49.2 +/- 17.6 years and the male to female ratio was 2.5:1. Common clinical manifestations included backache, headache and bone pains. Others were fracture, joint pain, deafness, gait ataxia, visual impairment and difficulty in biting. Two patients presented with hydrocephalus and one had recurrent paraparesis. Fifteen (71.4%) patients had polyostotic and six (28.6%) had monoostotic Paget's disease. More commonly involved bones were skull and spine (61.9%) followed by pelvis (38.1%), femur (33.3%), tibia (9%) and ulna (9%). Mean (+/-SD) serum alkaline phosphatase at diagnosis was 1514 +/- 1168 IU/L and nine months after treatment with bisphosphonates decreased to 454 +/- 406 IU/ L(P<0.03).
+
+CLASSIFICATION: 

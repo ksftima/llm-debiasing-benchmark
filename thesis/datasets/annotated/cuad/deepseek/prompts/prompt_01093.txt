@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+When a vehicle or unit is ordered by a Shipper or Consignee after the vehicle or unit has been dispatched from Carrier's terminal, a charge of one hundred twenty-five cents (125 cents) per mile traveled, subject to a minimum charge of $125.00, will be made for the empty miles traveled in connection with the order which was cancelled.
+
+CLASSIFICATION:
+ 

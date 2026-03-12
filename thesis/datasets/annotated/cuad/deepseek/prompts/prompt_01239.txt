@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event the Minimum Royalty is not achieved in any Year based on the Royalty payments made in such Year, EFS shall pay the shortfall between the Royalty earned and the applicable Minimum Royalty due, if any, within sixty (60) days of the end of such Year.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon the [***], Harpoon (on behalf of itself and its Affiliates) hereby grants to AbbVie a co-exclusive (with Harpoon), royalty-free (subject to [***] [***]) license, with the right to grant sublicenses in accordance with Section 5.3, under the Harpoon Patents, the Harpoon Know-How, and Harpoon's interests in the Joint Patents and the Joint Know- How, to Develop and Manufacture the Licensed Compounds and Licensed Products solely to the extent necessary for AbbVie to perform [***].
+
+CLASSIFICATION:
+ 

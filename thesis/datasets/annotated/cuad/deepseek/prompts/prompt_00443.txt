@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Customer hereby grants eGain a right to use Customer's trademarks (name and logo only) designated by Customer for such limited uses, subject to Customer's trademark/logo usage guidelines, if any, provided by Customer to eGain.
+
+CLASSIFICATION:
+ 

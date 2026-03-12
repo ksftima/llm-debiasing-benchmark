@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Women with synchronous primary cancers of the endometrium and ovary: do they have Lynch syndrome? Lynch syndrome (hereditary nonpolyposis colorectal cancer; HNPCC) is an autosomal-dominant cancer predisposition syndrome that increases risk for multiple cancers, including colon, endometrial, and ovarian cancer. Revised Bethesda Criteria recommend that patients with two HNPCC-associated cancers undergo molecular evaluation to determine whether they have a mismatch repair (MMR) defect associated with HNPCC. The purpose of our study was to determine the likelihood of MMR defects (MSH2, MSH6, MLH1) in women with synchronous endometrial and ovarian cancer. Between 1989 and 2004, 102 women with synchronous endometrial and ovarian cancers were identified; 59 patients had tumor blocks available for analysis. Patients were divided into risk groups based on family history: high (met Amsterdam criteria), medium (personal history or first-degree relative with an HNPCC-associated cancer), and low (all others). Protein expression for MSH2, MSH6, and MLH1 was evaluated by immunohistochemistry. Microsatellite instability and MLH1 promoter methylation analyses were performed on a subset of cases. Median age was 50 years. Two patients met Amsterdam criteria for HNPCC. Five additional patients, all medium-risk, had molecular findings consistent with a germline mutation of either MSH2 or MLH1. None of the low-risk patients had molecular results consistent with a germline mutation.
+
+CLASSIFICATION: 

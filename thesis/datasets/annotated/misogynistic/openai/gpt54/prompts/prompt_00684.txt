@@ -1,0 +1,26 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+If you can't handle the heat, stay out of the kitchen. 
+
+You're insecure and you need to fix that primarily. 
+
+1. You should have already been cultivating multiple women in the first place. 
+2. She may monkey branch, and that's just life.  
+
+Get more chicks and realize that she's not yours, it's just your turn.
+
+CLASSIFICATION:
+

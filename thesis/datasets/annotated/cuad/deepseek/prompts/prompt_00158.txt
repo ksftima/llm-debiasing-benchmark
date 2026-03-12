@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+VerticalNet hereby grants to PaperExchange a non-exclusive, non-transferable license to use, reproduce, display and transmit the VerticalNet Content, solely in connection with the development, maintenance and operation of the PaperExchange Site, subject to and in accordance with the terms, conditions and provisions of this Agreement.
+
+CLASSIFICATION:
+ 

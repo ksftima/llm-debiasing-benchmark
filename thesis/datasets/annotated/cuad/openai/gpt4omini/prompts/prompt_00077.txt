@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Customer is granted a nonexclusive, nontransferable (except to permitted assigns of this Agreement) limited license to use the Licensed Software during the term of this Agreement. Customer shall not sell, lease, copy, distribute, transfer, assign or sublicense the Licensed Software to any third party.
+
+CLASSIFICATION:
+ 

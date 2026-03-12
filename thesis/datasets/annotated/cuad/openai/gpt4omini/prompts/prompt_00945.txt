@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If HOC, acting reasonably, determines that the Joint Venture Proposal Notice contains insufficient information to make a reasoned decision in respect of participating in the Proposed Joint Venture, it shall notify the Company of the information required to make such decision and thereafter shall have the greater of (i) five (5) Business Days from the receipt of such information from the Company, and (ii) the days remaining in the period specified in Section 6.2 to make such decision and deliver or refrain from delivering the HOC JV Acceptance Notice in accordance with such Section 6.2.
+
+CLASSIFICATION:
+ 

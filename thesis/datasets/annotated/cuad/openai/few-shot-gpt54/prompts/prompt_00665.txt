@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+If CERES informs IGER in writing that CERES is planning to commercialize the LICENSED VARIETY in all or part of the COUNTRY, directly or indirectly (whether or not through the third party identified by IGER), and CERES has not taken reasonable steps towards the implementation of such commercialization within two (2) years after so informing IGER, unless CERES informs IGER of REASONABLE GROUNDS for its failure or delay<omitted>to implement commercialization plans, IGER will be granted a non-exclusive license with the right to grant sublicenses to test, produce and sell the LICENSED VARIETY in the COUNTRY.
+
+CLASSIFICATION:
+

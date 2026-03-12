@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Multidisciplinary breast cancer clinics. Do they work? In an attempt to improve the care they provide for their patients with breast cancer, the authors' institution developed a multidisciplinary breast cancer clinic (MDBCC) to offer "one-stop shopping" consultation and support for newly diagnosed breast cancer patients. One hundred sixty-two patients, the control group for this study, were evaluated at Henry Ford Hospital during the year prior to the opening of the MDBCC. These patients, who were referred in the traditional sequential consultation manner, were compared with the first 177 patients seen during the first year of the clinic's operation. Retrospective chart reviews were conducted to assess treatment timeliness, and anonymous questionnaires were used to assess patient satisfaction. The authors found that the MDBCC increased patient satisfaction by encouraging involvement of patients' families and friends and by helping patients make treatment decisions (P<0.001). The time between diagnosis and the initiation of treatment was also significantly decreased (42.2 days vs. 29.6 days; P<0.0008).
+
+CLASSIFICATION: 

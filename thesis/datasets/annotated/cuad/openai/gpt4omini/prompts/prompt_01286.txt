@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any portions of this Agreement necessary to balance receipts and deliveries under this Agreement as required by the FTS/ITS Rate Schedule, shall survive the other parts of this Agreement until such time as such balancing has been accomplished.
+
+CLASSIFICATION:
+ 

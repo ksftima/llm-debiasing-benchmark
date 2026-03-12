@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+HealthGate hereby grants to the Publishers a non-exclusive non-transferable licence to use the Proprietary Software for the purposes of this Agreement Save in relation to the Publishers' logos, trademarks, and content, HealthGate may use and/or licence the Proprietary Software for itself or for others without any compensation or liability to the Publishers.
+
+CLASSIFICATION:
+ 

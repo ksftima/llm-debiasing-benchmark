@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each party shall have a non-exclusive, royalty free, non-transferable license to use the name, logo, any item used in connection with that name or logo, and the registered symbols and trademarks of the other party (the "Trademarks") only for the purposes set forth in this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If Party A discovers that Party B has violated the Integrity Agreement attached hereto by bribing Party A's working personnel, Party A may elect to impose a penalty of RMB10,000 to 100,000, suspend cooperation for 1-3 years or terminate the cooperation depending on the seriousness of the violation and the consequences thus brought about, and any loss thus incurred to Party A shall be borne by Party B
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+TL will hold exclusive worldwide rights to promote and sell the product through the following distribution channels: Outgoing telemarketing, General Market retail, and General Market catalogs, and exclusive rights within the United States for Television Direct response.
+
+CLASSIFICATION:
+ 

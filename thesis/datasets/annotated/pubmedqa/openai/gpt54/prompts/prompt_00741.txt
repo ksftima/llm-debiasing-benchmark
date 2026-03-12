@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can CT predict the level of CSF block in tuberculous hydrocephalus? Treatment of obstructive hydrocephalus in children with tuberculous meningitis (TBM) depends on the level of the cerebrospinal fluid (CSF) block. Air-encephalography is regarded as the gold standard for differentiating communicating and non-communicating hydrocephalus. Since air-encephalography involves a lumbar puncture, it carries the risk of cerebral herniation. AIM. The aim of this study was to determine whether communicating and non-communicating hydrocephalus in TBM can be differentiated by means of cranial computerised tomography (CT). A number of CT indices were measured in 50 children with communicating and 34 children with non-communicating hydrocephalus according to air-encephalographic findings. The only CT finding that correlated with the type of hydrocephalus was the shape of the third ventricle. Significantly more children with non-communicating hydrocephalus had a rounded third ventricle than those with communicating hydrocephalus.
+
+CLASSIFICATION: 

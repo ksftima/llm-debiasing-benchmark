@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent the parties engage in any co-branding activities, then, subject to the terms and conditions of this Agreement and during the Term, each party (in such capacity, "Licensor") hereby grants to the other party (in such capacity, "Licensee") a non-exclusive, non- transferable, worldwide right and license (without the right to sublicense), under Licensor's Intellectual Property Rights in Licensor's Marks, to use those Marks of Licensor set forth in Exhibit D solely in connection with the marketing, sale and distribution of such co-branded Products in accordance with this Agreement.
+
+CLASSIFICATION:
+ 

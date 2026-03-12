@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Holding Company may engage Agent to offer the Shares to certain members of the general public in the Underwritten Offering with Agent acting as sole book-running manager. In the event that Agent sells Shares in the Underwritten Offering, the underwriting discount will equal 5.25% of the aggregate Purchase Price of the Shares sold in the Underwritten Offering to Agent and to any other broker-dealer participating as an underwriter in the Underwritten Offering.
+
+CLASSIFICATION:
+ 

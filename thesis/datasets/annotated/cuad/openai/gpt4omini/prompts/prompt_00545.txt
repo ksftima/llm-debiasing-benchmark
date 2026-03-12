@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective after the Immunotherapy Exclusivity Period, Roche hereby grants to FMI a non-exclusive, royalty-free, worldwide, perpetual, and sublicensable to Affiliates, license to any intellectual property arising from the Immunotherapy Testing Platform Development Program Controlled by Roche (excluding Roche Immunotherapy Sample Results) to the extent necessary<omitted>for FMI to develop, make, have made, use, offer for sale, sell, import and commercialize the Immuno-Biomarker Discovery Platform, Signature Identification services, Clinical Study assays, CDx assays, or any other FMI testing or services (including that are part of the Genomic Analysis Platform).
+
+CLASSIFICATION:
+ 

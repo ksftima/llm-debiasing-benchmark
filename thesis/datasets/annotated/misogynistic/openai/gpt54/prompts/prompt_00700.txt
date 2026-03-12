@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+>>*Women are allowed to have double standards and be hypocritical since that was the original intent of feminism. Women are now able to get back at the evil patriarchy and do whatever the hell they want and sexist bigots like you should stop complaining.*
+
+This is the modern western womens' mindset!
+
+Once you realize that, life becomes easier. Just make sure you keep your double standards to yourself. Women don't have too because of feminism, but if you as a guy say your double standards out loud, then the *lol tee hee* women will lose their um ....... scrunchies
+
+CLASSIFICATION:
+

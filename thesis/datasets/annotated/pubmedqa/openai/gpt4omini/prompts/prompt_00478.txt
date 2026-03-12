@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can implant retention be recommended for treatment of infected TKA? Retention treatment is reportedly associated with lower infection control rates than two-stage revision. However, the studies on which this presumption are based depend on comparisons of historical rather than concurrent controls.QUESTIONS/ We (1) asked whether the infection control rates, number of additional procedures, length of hospital stay, and treatment duration differed between implant retention and two-stage revision treatment; and (2) identified risk factors that can contribute to failure of infection control. We reviewed the records of 60 patients treated for 64 infected TKA from 2002 to 2007. Twenty-eight patients (32 knees) underwent débridement with retention of component, and 32 patients (32 knees) were treated with component removal and two-stage revision surgery. We determined patients' demographics, type of infection, causative organisms, and outcome of treatment. Mean followup was 36 months (range, 12-84 months). Infection control rate was 31% in retention and 59% in the removal group after initial surgical treatment, and 81% and 91% at latest followup, respectively. Treatment duration was shorter in the retention group and there was no difference in number of additional surgeries and length of hospital stay. Type of treatment (retention versus removal) was the only factor associated with infection control; subgroup analysis in the retention group showed Staphylococcus aureus infection and polyethylene nonexchange as contributing factors for failure of infection control.
+
+CLASSIFICATION: 

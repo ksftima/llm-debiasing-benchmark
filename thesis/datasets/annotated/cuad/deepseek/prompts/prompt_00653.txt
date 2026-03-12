@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+All data pertaining to, derived from, or displayed at the Franchised Business (including without limitation data pertaining to or otherwise about Franchised Business customers) is and shall be our exclusive property, and we hereby grant you a royalty-free non-exclusive license to use that data during the Term of this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The fees charged by such Certified Public Accountant will be paid by NetGrocer unless the audit finds a discrepancy of more than five percent (5%) with respect to the item being audited, in which case Excite shall be responsible for the payment of the reasonable fees for such inspection.
+
+CLASSIFICATION:
+ 

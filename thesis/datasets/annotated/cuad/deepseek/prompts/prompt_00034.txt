@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+T&B hereby grants to LEA, and LEA hereby accepts from T&B, during the Term, the sole and exclusive worldwide right and license in and to the Licensed Intellectual Property, which right and license shall be limited to that which is necessary for LEA to (i) develop and create Educational Materials and (ii) develop, promote and conduct the Business worldwide , unless the license is earlier terminated as provided herein.
+
+CLASSIFICATION:
+ 

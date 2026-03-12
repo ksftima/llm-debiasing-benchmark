@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+In the event that termination is the result of Ginkgo exercising the Buy-Down Election (including payment of the Buy-Down Amount), then, as of the effective date of termination: (a) any and all existing Headstart Periods shall immediately be deemed to have accelerated to conclusion, (b) the restrictions on BLI set forth in Section 6.2.1 (Restrictions on BLI) shall terminate; (c) the licenses granted to Ginkgo from BLI in Section 9.1.1 (Scope of Grants) and 9.1.2 (License Grant to Exploit [***]) shall survive and become perpetual and irrevocable; (d) the licenses granted to BLI from Ginkgo pursuant to Section 9.2 (Grants to BLI) shall survive; (e) any Licensed Products arising from Collaboration Workflows or Ginkgo Workflows developed and used by Ginkgo to good effect prior to the effective date of termination shall be [***] on any sale or transfer of such Licensed Product, (f) (i) for any Licensed Products arising from Workflows other than those set forth in subclause (e) of this Section 13.3.2 (Effects of Termination Based on Ginkgo's Buy-Down Election), Ginkgo shall pay [***] and (ii) Ginkgo shall pay [***] for as long as one or more Beacon Optofluidic Machines are in operation at Ginkgo, (g) the pricing terms for Beacon Optofluidic Machines, Consumables, and services (including Services) shall be consistent with then-current BLI List Prices, and (h) Ginkgo shall pay BLI for any amounts due for work performed by BLI under and in accordance with this Agreement prior to the effective date of termination to the extent that BLI cannot reasonably cancel or reallocate such work.
+
+CLASSIFICATION:
+

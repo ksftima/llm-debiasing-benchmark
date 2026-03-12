@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+SpinCo, for itself and as representative of all other members of the SpinCo Group, hereby grants to RemainCo (x) a perpetual, irrevocable, exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the SpinCo Know- How currently or previously used in connection with the RemainCo Business or otherwise in the possession of RemainCo or any member of the RemainCo Group as of Distribution Date (the "Licensed SpinCo Know-How"), for the continued operation of the RemainCo Business and any future extensions of the RemainCo Business in the RemainCo Core Field and (y) a perpetual, irrevocable, non-exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Licensed SpinCo Know-How for the continued operation of the RemainCo Business and any future extensions of the RemainCo Business in any field other than the RemainCo Core Field or the SpinCo Core Field; provided, however, the foregoing licenses shall not extend to (i) SpinCo Know-How<omitted>licensed by SpinCo or any other member of the SpinCo Group if and to the extent the licensing of same to RemainCo would constitute a breach of an agreement with any Third Party executed prior to the Effective Date or result in any expense to SpinCo or any member of the SpinCo Group for payments to such Third Party or (ii) any intellectual property not owned by one or more members of the SpinCo Group, or as to which no member of the SpinCo Group has the right to grant sublicenses, as of the Effective Date.
+
+CLASSIFICATION:
+

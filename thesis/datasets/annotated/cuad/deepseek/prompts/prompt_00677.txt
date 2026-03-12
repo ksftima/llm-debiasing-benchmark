@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+At Harpoon's sole election by written notice to AbbVie, AbbVie shall grant, and hereby grants to Harpoon, effective as of the effective date of termination, [***] (the "AbbVie Reversion IP"); provided that the foregoing license shall exclude (1) any license or other rights with respect to any active ingredient that is not a Licensed Compound and (2) any license or other rights with respect to any other Patents or Know-How owned or controlled by AbbVie or any of its Affiliates.
+
+CLASSIFICATION:
+ 

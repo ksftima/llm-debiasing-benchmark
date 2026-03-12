@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Pretzel Time hereby grants to Franchisee and Franchisee agrees to undertake, during the term of this Agreement and upon the terms and conditions stated in this Agreement, the right, license and privilege to operate, conduct, and do business and to use certain trade names, trademarks, service marks, logos, and other commercial symbols, including Pretzel Time (referred to as "Marks") solely and exclusively for the operation of one retail franchise Unit (referred to as "Franchise"), which is in the form of a (Store/Kiosk/Cart), and to sell those Products known as Pretzel Time pretzels and other Pretzel Time-approved menu items and Products further described in Section 2 (hereinafter "Products") in accordance with the provisions of this Agreement and in accordance with rules, standards, systems, and procedures as prescribed by Pretzel Time which may be changed, improved and further developed from time to time, (hereinafter "Pretzel Time System"), at one (1) location only, such location to be (hereinafter "Site").
+
+CLASSIFICATION:
+ 

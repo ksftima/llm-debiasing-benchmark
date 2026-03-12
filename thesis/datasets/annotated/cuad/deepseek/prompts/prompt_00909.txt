@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall become valid when executed and accepted by BKC in Miami, Florida; it shall be governed and construed under and in accordance with the laws of the State of Florida; U.S.A.; provided, however, that since the Franchisee is a corporation formed under the laws of the Republic of Poland which is not doing business in the State of Florida, the Florida Franchise Act, Florida Statutes Section 817.416(1971) shall not apply to this Agreement.
+
+CLASSIFICATION:
+ 

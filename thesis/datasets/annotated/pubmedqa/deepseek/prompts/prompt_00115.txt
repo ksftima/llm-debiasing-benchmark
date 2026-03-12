@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Residual fundus or neofundus after laparoscopic sleeve gastrectomy: is fundectomy safe and effective as revision surgery? Up to 30 % of patients who have undergone laparoscopic sleeve gastrectomy require revision surgery for inadequate weight loss, weight regain, and/or the development of severe upper gastrointestinal symptoms. The aim of this retrospective study was to evaluate the safety and efficacy of laparoscopic fundectomy (LF) in cases of a residual fundus/neofundus development regarding GERD symptoms. The study group comprised 19 patients (17 female; mean BMI 35.4 kg/m(2)) divided into 2 groups. Group A (n = 10) patients with severe GERD and evidence of residual fundus/neofundus, Hiatal hernia with good results in terms of weight loss. Group B (n = 9) patients with severe GERD, a residual fundus/neofundus, inadequate weight loss or weight regain. Fundectomy was indicated when a residual fundus/neofundus was associated with severe GERD symptoms. The presence of a residual fundus/neofundus was assessed by a barium swallow and/or multislice computed tomography. No mortality or intra-operative complications occurred. Five postoperative complications occurred: 2 cases of bleeding, 1 mid-gastric stenosis and 2 leaks (10.5 %). All patients experienced improvements in their GERD symptoms and stopped PPI treatment. Group B exhibited an additional %EWL of 53.4 % at 24 months.
+
+CLASSIFICATION: 

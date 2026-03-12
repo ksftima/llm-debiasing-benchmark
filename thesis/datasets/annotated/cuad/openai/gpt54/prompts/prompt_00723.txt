@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the aforesaid in Section 16.1. and any possible implication to the contrary herein or as a result of the course of conduct of the parties, NICEshall be entitled, at its sole discretion, to terminate this Agreement, in whole or in part, at any time during the Initial Term or the Extended Term, with or without cause, upon a prior written notice of termination to Contractor of not less than forty-five (45) Days.
+
+CLASSIFICATION:
+ 

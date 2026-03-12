@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is year of radical prostatectomy a predictor of outcome in prostate cancer? We examined whether the year in which radical prostatectomy (RP) was performed is a predictor of treatment outcome after controlling for standard prognostic factors. We examined the association between RP year and outcome in 6,556 patients from 7 centers using preoperative and pathological features. Patients underwent surgery between 1985 and 2000. The variables analyzed were RP year, clinical stage, pretreatment prostate specific antigen, biopsy Gleason sum, RP Gleason sum, margin status, level of extracapsular extension, seminal vesicle status, lymph node status, neoadjuvant hormones and adjuvant therapy. Median followup was 23 months (maximum 166). Separate Cox multivariate regression analyses were performed to analyze preoperative and postoperative factors. RP year was a predictor of outcome on preoperative analysis (p = 0.006) but not on postoperative analysis (p = 0.130). Patient outcome steadily improved with surgery through the mid 1990s and then it appeared to level off.
+
+CLASSIFICATION: 

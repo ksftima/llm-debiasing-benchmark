@@ -1,0 +1,22 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Well, I'm not sure if I'm gonna follow you on this one. Your nickname and comment kind of suggest that you're a serial masturbator. :)  
+
+
+But jokes aside, I assure you there would be no pleasure if there was no effort/scarcity. And regarding shaming - please believe me on my word, but it most often comes from the females, not from the guys. Guys might say a word or two, but their network is usually very limited. On the other hand, if there are few "generous" girlfriends, all of the info travels around in the speed of light.
+
+CLASSIFICATION:
+

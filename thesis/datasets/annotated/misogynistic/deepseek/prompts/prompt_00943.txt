@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Why can't men talk about women's bodies?From Lizzo's [rant](https://www.bet.com/style/living/2020/02/16/lizzo-calls-out-men-who-judge-womens-bodies.html) to articles like [this](https://madamenoire.com/1130498/why-men-shouldnt-be-allowed-to-comment-on-womens-bodies/), this sentiment has been echoed a lot lately.  I'm not sure why or how they are expecting straight men to stop talking about what they find attractive in the opposite sex. 
+
+Women are quite unapologetic about their preferences and will often let you know about their minimum height requirements ( which tend to be stricter and less flexible than men's preferences). how they like men with facial hair ( 1/4 men can't grow a beard ), their ideal penis size, etc.. Anyone who has been on dating apps knows how " in your face " women can be when [talking about a man's physique](https://i.redd.it/rsqzruu8axk21.jpg). Men's feelings aren't really taken into consideration here. You're just supposed to come to terms with your physical image and draw your self-esteem from somewhere else. 
+
+Men, on the other hand, are expected to play by a different set of rules. You have to bite your tongue when talking about your ideal weight or any other feature that you find attractive. Anything you say can be interpreted as " putting pressure on women"  or " perpetuating an unrealistic standard of beauty ".
+
+Why is there a need to coddle women and protect them from how men view them? where is that same concern for men who drew the short straw in the looks department? Isn't the subtext a bit sexist? like men should be able to handle it but women can't?
+
+CLASSIFICATION:
+

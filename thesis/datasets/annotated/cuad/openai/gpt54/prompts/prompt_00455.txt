@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Power2ship commits not to connect to WLI's MidLink software using any other wireless devices and /or terminal (s) and /or GPS devices other than WLI branded products.
+
+CLASSIFICATION:
+ 

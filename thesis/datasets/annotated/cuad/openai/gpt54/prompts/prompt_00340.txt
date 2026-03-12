@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+With respect to any Intellectual Property developed by BLI or its Affiliates in collaboration or on behalf of a Third Party during the Term of this Agreement that is [***] for (a) [***] or (b) [***], with respect to each, BLI and its Affiliates shall [***] to [***] that BLI or its Affiliates Control such Intellectual Property so that BLI may grant a license to Ginkgo with respect to such Intellectual Property as set forth in Section 9.1 (Grants to Ginkgo).
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Undescended testes: does age at orchiopexy affect survival of the testis? The optimal age at which to perform orchiopexy for cryptorchidism has long been debated. The aim of this study was to determine if age at orchiopexy affected testicular atrophy. A retrospective review of patients undergoing orchiopexy from 2000 to 2010 was conducted. An individual testis, rather than patient, was used as the dependent variable. A total of 349 testicles from 1126 charts (ICD-9=752.51) were identified. Primary study outcome was testicular survival without atrophy. Mean follow up for the study was 25 months. There was postoperative atrophy in 27 testes (7.7%). Intraabdominal testicle was independently associated with increased postsurgical atrophy (p<0.0001). The odds of postsurgical atrophy were 15.66 times higher for an abdominal vs. inguinal location (95% CI: 5.5-44.6). Testicular atrophy was highest for orchiopexy at ages 13-24 months (n=16 of 133, 12%) vs. those less than 13 months (n=3 of 64, 5%), and those greater than 24 months (n=8 of 152, 5%) (p=0.0024). After adjusting for location, age was not statistically significant with postsurgical atrophy (p=0.055).
+
+CLASSIFICATION: 

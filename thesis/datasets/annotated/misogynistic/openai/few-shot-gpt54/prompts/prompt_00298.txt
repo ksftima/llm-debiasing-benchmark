@@ -1,0 +1,45 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Own Your Shit Weekly - April 21, 2020A fundamental core principle here is that you are the judge of yourself. This means that you have to be a very tough judge, look at those areas you never want to look at, understand your weaknesses, accept them, and then plan to overcome them. Bravery is facing these challenges, and overcoming the challenges is the source of your strength. 
+
+We have to do this evaluation all the time to improve as men. In this thread we welcome everyone to disclose a weakness they have discovered about themselves that they are working on. The idea is similar to some of the activities in No More Mr. Nice Guy. You are responsible for identifying your weakness or mistakes, and even better, start brainstorming about how to become stronger. Mistakes are the most powerful teachers, but only if we listen to them. 
+
+Think of this as a boxing gym. If you found out in your last fight your legs were stiff, we encourage you to admit this is why you lost, and come back to the gym decided to train more to improve that. At the gym the others might suggest some drills to get your legs a bit looser or just give you a pat in the back. It does not matter that you lost the fight, what matters is that you are taking steps to become stronger. However, dont call the gym saying Hey, someone threw a jab at me, what do I do now?. We discourage reddit puppet play-by-play advice. Also, **don't blame others for your shit.** This thread is about you finding how to work on yourself more to achieve your goals by becoming stronger.
+
+Finally, a good way to reframe the shit to feel more motivated to overcome your shit is that after you explain it, rephrase it saying how you will take concrete measurable actions to conquer it. The difference between complaining about bad things, and committing to a concrete plan to overcome them is the difference between Beta and Alpha.
+
+Gentlemen, Own Your Shit.
+
+CLASSIFICATION:
+

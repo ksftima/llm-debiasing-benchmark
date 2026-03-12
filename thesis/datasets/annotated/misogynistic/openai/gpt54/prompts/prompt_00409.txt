@@ -1,0 +1,27 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This is so true.
+
+Sleeping with married women is like shooting fish in a barrel because husbands neglect their wife and stop acting like a leader. They get fat and get stuck in an unsuccessful rut and are no longer exciting.
+
+Women get bored and start going to the gym or running or getting hot mom bodies. 
+
+Ive been with 3 married women over the last 10 years and all of them had this in common - a loser husband.
+
+First step - stop being so fucking fat. Theres no excuse for it. Just stop eating if you have to geezus.
+
+CLASSIFICATION:
+

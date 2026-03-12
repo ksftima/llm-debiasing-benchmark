@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The license granted to Client pursuant to section 2(a) consists of the following rights: i. Use and execution of the Interface on a compatible software platform (as such compatibility specifications may be issued by TrueLink from time to time); and ii. Access to the Interface from multiple computer located at those sites listed on Exhibit "A." Client may amend Exhibit "A" by giving TrueLink written notice of the new sites.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Application Provider hereby grants to Excite@Home a royalty-free, non-exclusive, worldwide license to use, reproduce, distribute, transmit and publicly display the e-centives Content in accordance with this Agreement and to sub-license the Application Content to Excite@Home's wholly-owned subsidiaries or to joint ventures in which Excite@Home participates for the sole purpose of using, reproducing, distributing, transmitting and publicly displaying the e-centives Content in accordance with this Agreement, provided that no such sublicensing shall be to Application Provider Named Competitors.
+
+CLASSIFICATION:
+ 

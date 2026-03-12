@@ -1,0 +1,67 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+She'll never tell you what she really means.I come back to this sub after a 2 year hiatus of regular dwelling. I checked in from time to time, but I never stopped reading books, learning and improving myself.  
+  
+First off, it goes without saying, thanks for all the teachings and advice. I'm happily able to say I see myself in a million times better position in most if not all aspects of my life. Before I found this sub I was playing video games until 5am and jacking it to porn multiple times daily because I was a raged filled beta hoping the next woman would be 'different'. However, my priorities have changed and I'm now on the right path for my own success and fulfilment. The women are a bonus.  
+  
+Anyways, I'll get into the story of a little experience I had a couple months ago, reinforcing AWALT.  
+  
+---  
+  
+So, one of my plates finally did a little wobble, then came crashing down. She was a solid fuck with a banging body and ate dick like it's candy.  
+  
+As a background, we'd never done more than fuck and neither of us had spent the night. She barely knew a thing about me and all of our time was spent at one anothers place. No outside dates, no romance, a straight up plate. We met in a bar and she was a ONS turned plate after she hit me up a few days later.  
+  
+We'd just finished up a good fuck session one evening and she starts getting dressed ready to leave, when out of the blue she starts spewing this without prior context:  
+*"How do you manage to go through life so detached, sitting there like you're royalty while I wait around for you to MAN UP?"*  
+*"What do you mean? Did I go a little soft inside of you?"*  
+*'NO, we've been doing this for too long and you haven't even had the balls yet to take things to the next level"*  
+*"Ohh that's what this is. No can do, my balls shrivelled up years ago'*  
+*"YOU'RE A DISGUSTING PRICK, YOU'VE NEVER GIVE ME THE RESPECT I DESERVE FROM YOU. FUCK YOU"*  
+  
+I honestly thought she was joking at first, as it just didn't make sense given the terms we were on. Then she made her dramatic exit, door slam for effect. I sat there baffled by what'd just come from her, but stuck on a docuseries and thought she'd come around.  
+  
+A week or so passes and I hadn't heard from her. Then I get a phone call late on a Thursday night from her. I pick up and she's slurring her words, sounds like she's drunk and been crying.  
+  
+Gives me the good old speech:  
+*"I love you so much and it kills me inside that you're being like this, I don't understand how you can lead me on like this. I don't want to be with anyone else but you, we have so much fun together but you just don't feel the same way"*  
+I give her a serious-ish answer this time, she seems pretty beat up:  
+*"I thought we were clear when this started on what this was all about? I've never made any hints to anything more than fucking or expressed any emotion. You're being irrational, take a step back and calm down"*  
+*"blah blah you don't understand, you're different to other guys etc etc."*  
+  
+She eventually hangs up after I let her waffle on and I don't hear from her at all for a while.  
+  
+The following Tuesday I was hanging out with one of my buddies and tells me he saw plate in question at a party on the Saturday, following the Thursday she called me. Said she fucked a guy right there at the party and made it well known to people that *I knew* there.  
+  
+So wait... That doesn't add up right? Literally 2 days before she was telling me all that, but she goes to a party and suddenly it's all nullified? /s (To be clear, this didn't come as a shock to me)  
+  
+Later the next week she texted me asking if I was free to 'talk', I haven't responded, neither of us are losing anything in this situation. I'm simply protecting myself from potential unnecessary further drama.  
+  
+---  
+  
+**What do I take from this?**  
+  
+* She'll tell you anything she thinks you want to hear, hold frame and let it play out. She'll either come running back or move on.  
+* Don't be deluded into thinking you're not replaceable, it's just your turn.  
+* Maybe that was her way of breaking things off, but she thought I'd bite when she came at me like that, **giving her a reason to place the blame on me.**  
+* It only takes her that short of an amount of time to branch swing to the next guy.  
+* If I allowed that shit to fly the first time, I'd be operating within her frame, succumbing to the pressure placed on me in that situation.  
+* Sometimes plates just break, that's why we have options. Without options I'd be hanging by my balls from her shoe closet.  
+  
+**TLDR; Plate initiates the 'relationship talk', doesn't get her own way so throws a tantrum. Then goes on to fuck the next guy after declaring love. AWALT.**
+
+CLASSIFICATION:
+

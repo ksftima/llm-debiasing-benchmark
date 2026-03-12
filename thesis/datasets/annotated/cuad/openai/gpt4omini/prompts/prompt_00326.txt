@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement including Article 12 above, FG hereby grants to Astellas an exclusive license under the FG Technology to: use, package, sell, have sold, import, market and otherwise distribute the Lead Compounds for use solely in the Field in the Astellas Territory
+
+CLASSIFICATION:
+ 

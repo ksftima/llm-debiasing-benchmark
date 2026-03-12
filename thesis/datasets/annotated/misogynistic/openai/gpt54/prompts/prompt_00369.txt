@@ -1,0 +1,32 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+To get right-wing moids to give half a f\*ck about your existence, follow these 10 easy steps!
+
+&#x200B;
+
+1. Be white, preferably Anglo-Saxon. Nordic or Germanic is also good.
+2. Be skinny. Anything over the exact center of the chart for a healthy BMI range is unacceptable. But also have big boobs.
+3. Be blonde.
+4. Be young. Women over 30 are past it. Women over 35 are useless parasites.
+5. Be from a wealthy family. Right-wing politicians don't actually care about working-class whites.
+6. Be beautiful. Anything under high-tier Becky is pointless.
+7. Be married. Any unmarried woman over 25 is clearly defective or a tradthot.
+8. Be a conservative 'Christian'. Love your neighbour, as long as said neighbour is wealthy, healthy, conservative and white.
+9. Talk about men's issues constantly. Forget about women who are experiencing poverty, domestic violence, sexual abuse or mental health issues. Men need more attention, since the feminazi's are out to turn their sons gay and make their wives run away with black men.
+10. Say the words 'Tradition', 'Illegal immigration, 'Crime' and 'Libtard' at least once every sentence.
+
+CLASSIFICATION:
+

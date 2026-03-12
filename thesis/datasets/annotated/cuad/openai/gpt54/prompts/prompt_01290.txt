@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each sublicense of any license granted to BLI under this Section 9.2 (Grants to BLI) will (i) be in writing, (ii) be consistent with the terms and conditions of this Agreement and (iii) require each sublicensee thereunder to comply with all terms of this Agreement applicable to a sublicensee; provided that, subject to Section 6.2.1, such prior written consent of Ginkgo shall not be needed for any sublicense granted by BLI (a) under Section 9.2.1, to a Permitted Subcontractor of BLI under Section 2.7 (Subcontracting) to the extent such sublicense relates to the subcontracted activities, (b) any wholly-owned subsidiary of BLI existing as of the Effective Date, or (c) any other Person, including other Affiliates and any Third Party, under Section 9.2.2.
+
+CLASSIFICATION:
+ 

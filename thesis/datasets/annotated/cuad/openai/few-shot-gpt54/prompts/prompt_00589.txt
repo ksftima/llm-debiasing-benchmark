@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, and in consideration for the payments to BLI under this Agreement, during the Term, BLI, on behalf of itself and its Affiliates, hereby grants and shall grant to Ginkgo a non-exclusive, sublicensable (solely in accordance with Section 9.1.4 (Consent to Sublicense)), non-transferable, non-royalty-bearing (subject to Section 13.3.2 (Effects of Termination Based Upon Ginkgo Buy-Down Election)) worldwide license in, to and under (i) BLI Background IP, and (ii) other Intellectual Property that is Controlled by BLI and that is [***] BLI Inventions, with both of (i) and (ii) being limited to what is necessary for Ginkgo to [***] and (iii) the Collaboration Intellectual Property solely to: (a) perform research [***] on biological entities, including organisms, cells and strains (and sub-components thereof); (b) (i) design and develop (A) Collaboration Workflows as generally contemplated under a Workflow Development Plan and (B) Ginkgo Workflows as permitted under this Agreement and (ii) use [***] Workflows to conduct the activities set forth in clause (a) and clause (c) of this Section 9.1.1 (Scope of Grants); (c) perform commercial research [***] and other Commercial Services for Third Parties; and (d) in each case of clauses (a) through (c) of this Section 9.1.1 (Scope of Grants), the license granted is for activities solely within the Licensed Field.
+
+CLASSIFICATION:
+

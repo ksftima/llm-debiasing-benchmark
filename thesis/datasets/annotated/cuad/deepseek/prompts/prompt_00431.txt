@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY.
+
+CLASSIFICATION:
+ 

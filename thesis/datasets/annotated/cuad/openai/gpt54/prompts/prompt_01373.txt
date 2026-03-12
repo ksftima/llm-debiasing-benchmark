@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Developer expressly acknowledges El Pollo Loco's exclusive right, title, and interest in an to the trade name, service mark and trademark "El Pollo Loco", and such other trade names, service marks, and trademarks which are designated as part of the El Pollo Loco® System (the "Marks"), and Developer agrees not to represent in any manner that Developer has any ownership in El Pollo Loco® Marks.
+
+CLASSIFICATION:
+ 

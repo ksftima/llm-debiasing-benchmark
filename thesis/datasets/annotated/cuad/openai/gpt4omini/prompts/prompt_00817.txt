@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Furthermore, CONSULTANT agrees to sign any written instrument of transfer for any rights relating to the Work Product which may be required to effect or evidence the assignment of rights in the Work Product to the Company.
+
+CLASSIFICATION:
+ 

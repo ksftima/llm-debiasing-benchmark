@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the provisions of this Agreement including the provisions of Article 8, Changepoint hereby grants to Customer and Customer hereby accepts from Changepoint the perpetual, personal, non-transferable and non-exclusive Software Licenses to use the Licensed Software for Customer's internal business purposes.
+
+CLASSIFICATION:
+ 

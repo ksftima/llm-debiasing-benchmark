@@ -1,0 +1,31 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+100% of gender flipping proves gynocentric is, to the point you have to construct a hypothetical with a lot of yarn to find one that doesnt protect wahmyn from criticism.  
+
+And empathy is incorrect.  Its straight up pussy worshipping and white knighting.  
+
+Thats why \#BelieveWomen is such bullshit.  
+
+Believe no women.  All women lie about everything.  All women abandon their children. All women are pedophiles. All women are rapists.  All women cannot be trusted not relied on in any situation. 
+
+Make *those* be the default assumptions at all the times because theres been a lifetime of pussy worshipping and historical abuse.  Ie: Emmett Till.   
+
+Always assume the woman is is the perpetrator every, single, time.  Thats your operator setting.  
+
+Because they usually are, but hiding behind a pussy protection shield.  Pussy pass isnt made up in peoples heads.
+
+CLASSIFICATION:
+

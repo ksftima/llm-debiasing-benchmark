@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent required and for the avoidance of doubt, Stryker hereby grants Conformis, and Conformis hereby accepts, a non-exclusive license to the Stryker Background IP and Improved Stryker Background IP solely for purposes of performing any obligations under this Agreement and the Distribution Agreement.
+
+CLASSIFICATION:
+ 

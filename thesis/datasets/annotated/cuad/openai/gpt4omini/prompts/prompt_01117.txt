@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+XSPA shall pay to Calm on a monthly basis an amount equal to (i) fifty percent (50%) of the Retail Price for all Products sold in the Stores in the Territory during the applicable month minus (ii) fifty percent (50%) of any commission actually paid or payable to XSPA employee(s) or contractor(s) attributable to sales of such Products during such month; provided that in no event shall such commission be greater than fifteen percent (15%) of the Retail Price for the applicable Product.
+
+CLASSIFICATION:
+ 

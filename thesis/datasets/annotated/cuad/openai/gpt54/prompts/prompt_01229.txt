@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+February 28, 2019<omitted>The "Term" shall begin on the date hereof and shall expire December 31, 2023, subject to early termination pursuant to the terms of Section 19.
+
+CLASSIFICATION:
+ 

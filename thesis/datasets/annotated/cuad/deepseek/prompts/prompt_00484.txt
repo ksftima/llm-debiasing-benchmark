@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such license is a non-exclusive, non-transferrable and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software.
+
+CLASSIFICATION:
+ 

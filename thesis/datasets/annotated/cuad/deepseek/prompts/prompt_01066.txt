@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that Distributor terminates this Agreement pursuant to either Section 7.2 or 7.3 above, Distributor will notify Subscribers that the Programming is no longer available.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Im not blaming Zuparic for those goals. He had to step to cover the near post and nobody had his back covering the far post. Gios tactics set the team up to fail. Hes got fullbacks playing as wingers, wingers as central mids or fullbacks, and is pressing a high line when our pace and communication are poor. Zuparic has been the best thing on the backline so far.
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Gender difference in survival of resected non-small cell lung cancer: histology-related phenomenon? It remains controversial whether there is a gender difference in survival of patients with resected non-small cell lung cancer. We retrospectively analyzed 2770 patients (1689 men and 1081 women) with non-small cell lung cancer who underwent pulmonary resection between 1995 and 2005 at the National Cancer Center Hospital, Tokyo. A gender difference in survival was studied in all patients, in those divided according to histology or pathologic stage, and in propensity-matched gender pairs. There were no differences in background, such as preoperative pulmonary function, operation procedures, or operative mortality. The proportions of adenocarcinoma and pathologic stage I in women were greater than those in men (93.6% vs 61.7% and 71.4% vs 58.6%, respectively) (P<.001). Overall 5-year survival of women was better than that of men (81% vs 70%, P<.001). In adenocarcinoma, the overall 5-year survival for women was better than that for men in pathologic stage I (95% vs 87%, P<.001) and in pathologic stage II or higher (58% vs 51%, P = .017). In non-adenocarcinoma, there was no significant gender difference in survival in pathologic stage I (P = .313) or pathologic stage II or higher (P = .770). The variables such as age, smoking status, histology, and pathologic stage were used for propensity score matching, and survival analysis of propensity score-matched gender pairs did not show a significant difference (P = .69).
+
+CLASSIFICATION: 

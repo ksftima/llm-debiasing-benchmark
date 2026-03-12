@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content); (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks); and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures); and (d) Client's Confidential Information (as defined below).
+
+CLASSIFICATION:
+ 

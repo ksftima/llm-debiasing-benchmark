@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cutaneous melanoma in a multiethnic population: is this a different disease? Cutaneous melanoma in nonwhite persons has a manifestation and a prognosis that are different than those of cutaneous melanoma in white persons. Case series. Tertiary care university-affiliated community medical center located in a multiethnic state in which white persons are a minority of the population. Consecutive series of 357 patients with melanoma seen between January 1994 and August 2003. Ethnicity, age, sex, primary site, tumor thickness, nodal status, stage at diagnosis, and survival. There were 208 men and 149 women who ranged in age from 15 to 93 years (mean, 58 years). Twenty-two patients initially had unknown primary sites. Of these 357 patients, 67 (18.7%) were nonwhite. There was no statistically significant difference in the age (P =.10) or sex (P =.57) distribution of these 2 populations. Nonwhite patients at initial diagnosis had thicker tumors (P =.002), more frequently had ulcerated primary tumors (P<.001), more frequently had positive nodes (P =.004), and were at a more advanced stage (P =.002) than their white counterparts. The anatomic distribution between the 2 populations was significantly different (P<.001), with a high incidence of melanoma on the sole and subungual locations and a substantially less frequent occurrence on the head and neck, trunk, and extremities in the nonwhite population when compared with the white population. The overall survival rate of the nonwhite patients was significantly worse than that of the white patients, but when stratified by stage at initial diagnosis, there was no difference in outcome.
+
+CLASSIFICATION: 

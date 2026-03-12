@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensor's total liability to Licensee under any provision of this Agreement shall be limited to the amount actually paid by Licensee to Licensor for the Licensed Product giving rise to the liability.
+
+CLASSIFICATION:
+ 

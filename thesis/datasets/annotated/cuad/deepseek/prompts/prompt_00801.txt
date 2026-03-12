@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+After termination is effective and Aucta assumes control of the Product, ETON will provide, to the extent practicable, transition services to Aucta to include assistance with Product distribution, processing of rebates, drug safety, etc. at Aucta's cost for such services, for a reasonable period of time as mutually determined by the Parties but not to exceed one hundred eighty (180) days following termination so that Aucta can get its own such services in place.
+
+CLASSIFICATION:
+ 

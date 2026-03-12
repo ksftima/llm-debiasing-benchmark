@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+MacroGenics may terminate this Agreement immediately upon written notice to Green Cross in the event Green Cross or any of its Affiliates: (a) directly or indirectly oppose, or assist any Third Party to oppose, in any patent office proceeding, the grant of any patent or patent application within the MacroGenics Licensed Patents, or, in any patent office proceeding, dispute or directly or indirectly assist any Third Party to dispute, the validity of any patent within the MacroGenics Licensed Patents or any of the claims thereof, including opposing any application for amendment thereto;<omitted>(b) directly or indirectly oppose, or assist any Third Party to oppose, in any court proceeding, the grant of any patent or patent application within the MacroGenics Licensed Patents, or, in any court proceeding, dispute or directly or indirectly assist any Third Party to dispute, the validity of any patent within the MacroGenics Licensed Patents or any of the claims thereof; or (c) bring any claim or proceedings of whatever nature in relation to the MacroGenics Licensed Patents against MacroGenics and/or any of MacroGenics' Affiliates (or in respect of the foregoing their directors and officers) in respect of any activities carried out by them under any MacroGenics Licensed Patents which may be the subject of a Valid Claim of the MacroGenics Licensed Patents.
+
+CLASSIFICATION:
+

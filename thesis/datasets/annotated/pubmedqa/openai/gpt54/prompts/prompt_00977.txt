@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can the Internet be used to improve sexual health awareness in web-wise young people? To assess Internet use amongst young people to determine whether it would be a practical way to provide sex education and information. Year 10 students (aged 14-15 years) from North Nottinghamshire schools were asked to participate in focus groups to discuss the Internet. A series of predefined questions were directed to the whole group to generate debate. Areas explored included: Internet access and site; frequency and purpose of Internet use; websites visited; ideas for a genitourinary medicine (GUM) website. Responses were recorded by a hand count or as individual verbal responses. Thirteen focus groups were held involving 287 students of approximately equal sex distribution. All had access to Internet facilities at school and 224 (78.0%) had access elsewhere. Access was at least once a week by 178 (62.0%) mostly for e-mail, games, chatlines and homework. No one accessed for health information. One hundred and seventy-nine (62.4%) participants said they would use a GUM website. A 'question line' where they could e-mail questions to a health care professional was of interest to 202 (70.4%) participants.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Maximum Daily Quantity (MDQ) " means the maximum daily quantity of natural gas, expressed* in Dth's, that Transporter is obligated under the executed Agreement to transport on behalf of' Shipper, which shall be 23,000 Dth.
+
+CLASSIFICATION:
+ 

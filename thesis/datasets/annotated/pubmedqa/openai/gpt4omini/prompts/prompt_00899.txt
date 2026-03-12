@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are women who are treated for hypothyroidism at risk for pregnancy complications? The purpose of this study was to investigate the outcomes that are associated with pregnancy and treated hypothyroidism. This was a retrospective cohort study of all women who received prenatal care and were delivered at the University of California, San Francisco, between 1989 and 2001. All patients with hypothyroidism diagnosed before pregnancy or early in pregnancy were identified. Maternal, fetal, and obstetric outcomes were then collected and analyzed for women with hypothyroidism and compared with women without hypothyroidism. Among 20,499 deliveries, there were 419 women (2.1%) who were treated for hypothyroidism during the study period. Hypothyroidism was more common among women>or =35 years old, white women, and women without Medicaid insurance. Treated hypothyroidism was not associated with any increase in maternal, fetal, or neonatal complications. In addition, hypothyroidism did not affect mode of delivery.
+
+CLASSIFICATION: 

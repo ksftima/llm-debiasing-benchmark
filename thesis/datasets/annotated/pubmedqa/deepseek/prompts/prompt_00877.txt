@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Doppler examination of uteroplacental circulation in early pregnancy: can it predict adverse outcome? To determine whether spectral Doppler measurements obtained from bilateral uterine, arcuate, radial, and spiral arteries in early gestation correlate with adverse pregnancy outcome. One hundred five pregnant women underwent transvaginal Doppler sonographic examination of uteroplacental circulation at 6-12 weeks' gestation. Resistance index (RI) and pulsatility index (PI) of bilateral uterine, arcuate, radial, and spiral arteries were measured. Diameters of gestational sac (GS) and yolk sac, crown-rump length (CRL), GS-CRL difference, and GS/CRL ratio were also recorded. Correlation was made with pregnancy outcome. Sixteen women developed adverse pregnancy outcome. In these women, right uterine artery PI and RI were significantly higher than in women with normal obstetrical outcome. Spiral artery PI and RI values were also higher, but the difference was not statistically significant. GS-CRL difference, GS/CRL ratio, and yolk sac diameters were significantly lower in this group.
+
+CLASSIFICATION: 

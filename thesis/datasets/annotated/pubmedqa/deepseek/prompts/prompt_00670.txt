@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Patient comprehension of emergency department care and instructions: are patients aware of when they do not understand? To be able to adhere to discharge instructions after a visit to the emergency department (ED), patients should understand both the care that they received and their discharge instructions. The objective of this study is to assess, at discharge, patients' comprehension of their ED care and instructions and their awareness of deficiencies in their comprehension. We conducted structured interviews of 140 adult English-speaking patients or their primary caregivers after ED discharge in 2 health systems. Participants rated their subjective understanding of 4 domains: (1) diagnosis and cause; (2) ED care; (3) post-ED care, and (4) return instructions. We assessed patient comprehension as the degree of agreement (concordance) between patients' recall of each of these domains and information obtained from chart review. Two authors scored each case independently and discussed discrepancies before providing a final concordance rating (no concordance, minimal concordance, partial concordance, near concordance, complete concordance). Seventy-eight percent of patients demonstrated deficient comprehension (less than complete concordance) in at least 1 domain; 51% of patients, in 2 or more domains. Greater than a third of these deficiencies (34%) involved patients' understanding of post-ED care, whereas only 15% were for diagnosis and cause. The majority of patients with comprehension deficits failed to perceive them. Patients perceived difficulty with comprehension only 20% of the time when they demonstrated deficient comprehension.
+
+CLASSIFICATION: 

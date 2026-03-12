@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Major depression and alcohol use disorder in adolescence: Does comorbidity lead to poorer outcomes of depression? Comorbid major depression (MD) and alcohol use disorder (AUD), particularly in adolescents, have been shown to be associated with poorer subsequent MD outcomes. Longitudinal data were used to model associations between a four-level classification of MD/AUD during the period 15-18 years (neither; MD-only; AUD-only; comorbid MD/AUD) and MD over the period 18-35 years. These associations were then adjusted for confounding by a series of factors measured in childhood. The three disorder groups had rates of adult MD during the period 18-35 years that were significantly (p<.05) higher than that of the group with no disorder. Furthermore, those in the comorbid MD/AUD group had significantly (p<.05) higher rates of adult MD than those in the AUD-only group, and marginally (p<.10) higher rates of adult MD than those in the MD-only group. After adjustment for confounding, the difference in rates of adult MD between the MD-only group and the MD/AUD group were no longer statistically significant. The factors that explained the associations were gender, childhood behavior problems, and exposure to physical and sexual abuse. The data were obtained by self-report, and may have been subject to biases.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does binge drinking during early pregnancy increase the risk of psychomotor deficits? The potential effects of binge drinking during pregnancy on child motor function have only been assessed in a few, small studies. We aimed to examine the effects of binge alcohol consumption during early pregnancy, including number of binge episodes and timing of binge drinking, on child motor function at age 5. We performed a prospective follow-up study of 678 women and their children sampled from the Danish National Birth Cohort based on maternal alcohol consumption during pregnancy. At 5 years of age, the children were tested with the Movement Assessment Battery for Children. Parental education, maternal IQ, prenatal maternal smoking, the child's age at testing, sex of child, and tester were considered core confounders, while the full model also controlled for prenatal maternal average alcohol intake, maternal age and prepregnancy body mass index, parity, home environment, postnatal parental smoking, health status, participation in organized sport, and indicators for hearing and vision impairment. There were no systematic or significant differences in motor function between children of mothers reporting isolated episodes of binge drinking and children of mothers with no binge episodes. No association was observed with respect to the number of binge episodes (maximum of 12) and timing of binge drinking.
+
+CLASSIFICATION: 

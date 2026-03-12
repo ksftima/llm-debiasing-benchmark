@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The foregoing shall not preclude either party from employing any such employee (a) who seeks employment with the other party in response to any general advertisement or solicitation that is not specifically directed towards employees of such party or (b) who contacts the other party on his or her own initiative without any direct or indirect solicitation by such party.
+
+CLASSIFICATION:
+ 

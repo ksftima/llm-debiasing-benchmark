@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is expert breast pathology assessment necessary for the management of ductal carcinoma in situ ? Current guidelines include a recommendation that a pathologist with expertise in breast disease review all ductal carcinoma in situ (DCIS) specimens due to the presence of significant variability in pathologic reporting of DCIS. The objective of this study was to evaluate the completeness and accuracy of pathologic reporting of DCIS over the past decade and to determine the current impact of expert breast pathology assessment on the management of DCIS. All patients with a diagnosis of DCIS referred to a single regional cancer centre between 1982 and 2000 have been reviewed. Inter-observer variability between initial and secondary reports has been evaluated using kappa statistics. For each case, the Van Nuys Prognostic Index (VNPI) using pathologic data obtained from the initial and reviewed pathology reports were compared. The impact of expert breast pathology on risk assessment and treatment was determined. 481 individuals with DCIS were referred and pathology review was performed on 350 patients (73%). Inter-observer agreement was high for the main pathologic features of DCIS. From 1996 to 2000, secondary pathology assessments lead to a change in the assessment of local recurrence risk in 100 cases (29%) and contributed to a change in treatment recommendation in 93 (43%) cases.
+
+CLASSIFICATION: 

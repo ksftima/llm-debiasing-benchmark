@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Go Call shall not engage in the same or similar promotions during the Term of this Agreement with any other entity providing paging services, equipment or other related products and services.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Commencing on October 1, 2008, and continuing for so long as IntriCon continues to make minimum payments as defined in 4.3, Dynamic Hearing agrees that it will not license any Dynamic Hearing Technology for Hearing Aids, subject to Clause 3.5.
+
+CLASSIFICATION:
+ 

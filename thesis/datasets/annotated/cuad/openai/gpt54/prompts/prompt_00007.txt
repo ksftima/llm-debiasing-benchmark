@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Magenta grants to Bachem a limited, non-exclusive license to use any Magenta Developed Intellectual Property to manufacture and release the Product for Magenta in accordance with the terms and conditions of this Agreement and any applicable Project Plan.
+
+CLASSIFICATION:
+ 

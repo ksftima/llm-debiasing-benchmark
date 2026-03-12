@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event ExxonMobil notifies FCE that it has formally decided not to pursue Generation 2 Technology for Carbon Capture Applications, then upon FCE's written request, ExxonMobil agrees to negotiate a grant to FCE, under commercially reasonable terms to be determined in good faith, a worldwide, non-exclusive, royalty-bearing (with the royalty to be negotiated), non-sub- licensable (except as set forth in this Paragraph 7.01(b)(2)), non-transferable (except pursuant to Article 14 (Assignment)), right and license to practice Program Results solely for Carbon Capture Applications.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,46 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+The way the concept of a patriarchy is abused genuinely scares me.
+Some lunatics even claim that knowledge itself is a product of the patriarchy and that it's therefore an oppressive force. That is a very kafkaesque idea, but it's presented as perfectly rational. It essentially boils down to the claim that "Some people who share immutable traits with each other bathe in nepotism and secretly run the entire world" Anyone who disagrees just hasn't drank enough of the Kool-aid or is part of the establishment. 
+
+You will never find an example because the patriarchy as a concept is designed to be unfalsifiable. This is identitarianism 101: the patriarchy is the great bad bogeyman that can be used to do away with all nuance and context, it is the sole proprietor of everything wrong with the world. There are a myriad of things one could point out in order to explain certain discrepancies between men and women be they sociocultural, socioeconomic, psychological, biological, you name it. But that's not how identitarians stay in power, so they have to deliberately use shifty or otherwise vague language and concepts to obfuscate the real issues. 
+
+The problem is that feminism, while trying to foster progress, has become more than a philosophy or belief. It has instead become an institution, and insitutions will always look to protect and expand their own power whereever possible. The underlying philosophy comes second.
+
+The feminists of the 60s and 70s you might have heard of went into academia, where they got degrees and created departments, where they wrote books etc, They turned feminism into their career, it wasn't just a belief system anymore. Their raison d'tre  hinged on the existence of widespread oppression and a patriarchy. They would be rendered obsolete if this wasn't the case. Naturally, they started inventing problems. Contemporary feminism provides answers to the wrong questions.
+
+I'm paraphrasing because I don't remember who made this point originally, but this tends to happen when interviewers pursue only a single hypothesis that supports what they already think, and ignore any details that counter their hypothesis. The goal is not to get the truth, but to simply corroborate what is already believed. In the case of contemporary feminism, that single hypothesis is the patriarchy.
+
+CLASSIFICATION:
+

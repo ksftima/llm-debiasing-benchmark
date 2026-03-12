@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Prostatic syndrome and pleural effusion: are they different diseases? To report an uncommon association of prostate and lung cancer. The characteristics of both tumors, their association with tumors in other sites and the time of presentation are analyzed. Both tumors were in the advanced stages. Metastatic carcinoma of the prostate was discarded due to the form of presentation.
+
+CLASSIFICATION: 

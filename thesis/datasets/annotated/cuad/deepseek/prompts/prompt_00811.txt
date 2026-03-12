@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Property Insurance with limits sufficient to cover the full replacement cost of all of the Cell Sites against direct and indirect loss or damage by fire and all other casualties and risks covered under "all risk" insurance respecting the tower and other improvements located at the Cell Site(s).
+
+CLASSIFICATION:
+ 

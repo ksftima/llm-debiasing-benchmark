@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement: (a) i-Escrow hereby grants to 2TheMart a non-exclusive, nontransferable right to use the i-Escrow Marks (including without limitation the Domain Name) in links to and advertisements and promotions for the Co-Branded Pages or the Services; and (b) 2TheMart hereby grants to i-Escrow a non-exclusive, nontransferable right to use 2TheMart Marks (including without limitation the Domain Name) on the Co-Branded Pages, and for the performance of Services.
+
+CLASSIFICATION:
+ 

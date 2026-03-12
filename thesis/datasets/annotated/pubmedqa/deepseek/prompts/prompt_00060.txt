@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Autoerotic asphyxiation: secret pleasure--lethal outcome? Voluntary asphyxiation among children, preteens, and adolescents by hanging or other means of inducing hypoxia/anoxia to enhance sexual excitement is not uncommon and can lead to unintended death. This study addresses autoerotic asphyxiation (AEA) with the intent of increasing pediatricians' knowledge of the syndrome and awareness of its typical onset among young patients. AEA is characteristically a clandestine and elusive practice. Provided with relevant information, pediatricians can identify the syndrome, demonstrate a willingness to discuss concerns about it, ameliorate distress, and possibly prevent a tragedy. A retrospective study was undertaken of published cases both fatal and nonfatal and included personal communications, referenced citations, clinical experience, and theoretical formulations as to causation. Characteristic AEA manifestations, prevalence, age range, methods of inducing hypoxia/anoxia, and gender weighting are presented. All sources were used as a basis for additional considerations of etiology and possibilities for intervention. AEA can be conceptualized as a personalized, ritualized, and symbolic biopsychosocial drama. It seems to be a reenactment of intense emotional feeling-states involving an identification and sadomasochistic relationship with a female figure. Inept AEA practitioners can miscalculate the peril of the situation that they have contrived and for numerous reasons lose their gamble with death.
+
+CLASSIFICATION: 

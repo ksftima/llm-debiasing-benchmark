@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MD Anderson hereby acknowledges and agrees that the rights and obligations hereunder are of a personal nature and, therefore, neither this Agreement nor any right or obligation contained within shall be assignable, transferable or delegable in whole or in part by MD Anderson and MD Anderson shall not, without the prior written consent of LBIO, sub-contract or otherwise engage any consultant or other third party to perform any of MD Anderson's activities or obligations under this Agreement or any Study Order.
+
+CLASSIFICATION:
+ 

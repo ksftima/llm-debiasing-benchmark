@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Prostate bed target interfractional motion using RTOG consensus definitions and daily CT on rails : Does target motion differ between superior and inferior portions of the clinical target volume? Using high-quality CT-on-rails imaging, the daily motion of the prostate bed clinical target volume (PB-CTV) based on consensus Radiation Therapy Oncology Group (RTOG) definitions (instead of surgical clips/fiducials) was studied. It was assessed whether PB motion in the superior portion of PB-CTV (SUP-CTV) differed from the inferior PB-CTV (INF-CTV). Eight pT2-3bN0-1M0 patients underwent postprostatectomy intensity-modulated radiotherapy, totaling 300 fractions. INF-CTV and SUP-CTV were defined as PB-CTV located inferior and superior to the superior border of the pubic symphysis, respectively. Daily pretreatment CT-on-rails images were compared to the planning CT in the left-right (LR), superoinferior (SI), and anteroposterior (AP) directions. Two parameters were defined: "total PB-CTV motion" represented total shifts from skin tattoos to RTOG-defined anatomic areas; "PB-CTV target motion" (performed for both SUP-CTV and INF-CTV) represented shifts from bone to RTOG-defined anatomic areas (i. e., subtracting shifts from skin tattoos to bone). Mean (± standard deviation, SD) total PB-CTV motion was -1.5 (± 6.0), 1.3 (± 4.5), and 3.7 (± 5.7) mm in LR, SI, and AP directions, respectively. Mean (± SD) PB-CTV target motion was 0.2 (±1.4), 0.3 (±2.4), and 0 (±3.1) mm in the LR, SI, and AP directions, respectively. Mean (± SD) INF-CTV target motion was 0.1 (± 2.8), 0.5 (± 2.2), and 0.2 (± 2.5) mm, and SUP-CTV target motion was 0.3 (± 1.8), 0.5 (± 2.3), and 0 (± 5.0) mm in LR, SI, and AP directions, respectively. No statistically significant differences between INF-CTV and SUP-CTV motion were present in any direction.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term and subject to the limitations set forth in Paragraphs 9 and 10, HDS shall have the right to use the name, image, likeness, characterization, visual and audio representation of Celebrity ("Celebrity Attributes") in connection with HDS' product, Clotamin, in the Territory as follows: A. In a television commercial (specific spot length to be mutually agreed upon) promoting Clotamin ("Commercial") aired specifically in the following three (3) television markets: (1) Washington, DC Metro Area; (2) Florida; and (3) Texas (collectively "Markets"); B. On HDS' website (www.clotamin.corn) ("Website"); and C. In Clotamin-related press releases.
+
+CLASSIFICATION:
+ 

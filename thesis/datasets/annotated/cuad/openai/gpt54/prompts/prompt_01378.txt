@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except to the extent governed by the U.S. Trademark Act of 1946 (Lanham Act, 15 U.S.C. "1051 et seq.), this Agreement, the other agreements referred herein, and the offer and the sale of the franchise shall be governed in all respects and aspects by the laws of the Commonwealth of Pennsylvania and expressly excluding the laws pertaining to the choice of law and conflict of laws.
+
+CLASSIFICATION:
+ 

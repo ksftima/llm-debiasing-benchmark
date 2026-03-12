@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition, as part of the purchase commitment set forth in Section 3.1 [Purchase Commitment], VerticalNet shall provide LeadersOnline up to $*** worth of Banner placements on the Home Page of other VerticalNet Sites of LeadersOnline's choice.
+
+CLASSIFICATION:
+ 

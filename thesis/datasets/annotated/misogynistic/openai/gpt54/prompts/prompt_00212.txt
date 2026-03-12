@@ -1,0 +1,67 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The one thing: To get laid with attractive girls and rest deeply in a state of "pure awareness"I used to be very state-dependent, always chasing it like if it was a drug
+
+Until I realized that the key to be able to successfully connect with anybody at any venue has nothing to do with state
+
+Connecting with others and developing intimacy with girls is about getting close within ourselves first
+
+Doesnt matter what we do to try to fix ourselves, until we realize our inner sense of completeness well never get there
+
+In the past I used to do lots of approaches, different stupid social freedom exercises, I used to learn a bunch of positive mindsets/ frame of reality
+
+But none of these things were really sticking on me, it kind of felt like it was a constant chase and once that I would hit that state the next day it was gone lol
+
+From there I came to the obvious realization that state is useless
+
+Naturals arent state dependent they get laid in all kinds of moods cause they tend to be comfortable and at home with all of the different sensations they feel during a conversation, so why should we be any different?
+
+Some of us are putting an insane amount of effort into trying to improve our body language, voice tonality, eye contact, lines and communication skills, frame, etc 
+
+This takes a lot of mental energy, will keep you stuck in your head and it will keep reinforcing the fact that youre not enough and that you need more
+
+The girls and other people will feel this too
+
+So what about focusing on that one thing that will naturally help with everything else?
+
+In the case, you didnt know the only thing you need to focus on is you
+
+But here Im not talking about the mind, most seduction and self-development school focus on upgrading the mind with new programs but Im sure that many of us already felt the limitations of this paradigm(;
+
+Here Im talking about that which is beyond the mind, the changeless always present You being in tune with this is true masculinity 
+
+It may sound like nice philosophy but this is practical my friend, is an inner experience that once embodied will completely change how you communicate and how people react to you
+
+Since practicing this connecting with strangers and especially girls as become super easy
+
+When I authentically feel like I want to get laid, that same night Ill meet a girl and if the situation will be in our favor well have sex that night otherwise the day after.
+
+When we go beyond the game suddenly things become spontaneous, we stop being limited by the paradigm of pick up and seduction and from there, girls start to experience us as more attractive and they genuinely will stick with us also after sex.
+
+People, in general, will seek us out, invite to social events, cause now they see in us what they are looking for in them, this is the next level, my friend.
+
+Start by giving up the wantingness to attain a certain inner state, realize that you have always been there...
+
+There is nothing that you need to add, you are already complete my friend allow yourself to rest in this realization 
+
+\*
+
+"home"= ever-present sense of inclusiveness, that which never changes, that which is beyond every thoughts and emotion and at the same time includes them
+
+next time you meditate or you are infield try to ask yourself the question: "who is the one having experience of this?"
+
+CLASSIFICATION:
+

@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+3One Approach Every Day Challenge - Day 33-----Day 3-----
+So today I was at a trampoline park with a friend. We ended up playing dodgeball against two very cute girls.
+After we played 2 rounds I approached one of them.
+Me: "Hey wait a second"
+Her: "Oh hey"
+Me: "Don't worry I don't want to sell you anything, I just think you are very cute. Do you maybe want to grab a coffee sometime?"
+Her: "Oh I'm sorry but I have a bf"
+Me: "Well maybe then a coffee as friends?"
+Hey: "sry I don't think this will be possible"
+
+So basically a flake again but I got her Instagram
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Under this Agreement, subject to Manufacturer meeting EMV's requirements for quality, price and lead-time and being granted the manufacturing license hereunder, the minimum purchase volume of the Product (Solo) is 50,000 units within the period of three (3) years (calendar year of 2018, 2019, 2020).
+
+CLASSIFICATION:
+ 

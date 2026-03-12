@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Outcome Feedback within Emergency Medicine Training Programs: An Opportunity to Apply the Theory of Deliberate Practice? Outcome feedback is the process of learning patient outcomes after their care within the emergency department. We conducted a national survey of Canadian Royal College emergency medicine (EM) residents and program directors to determine the extent to which active outcome feedback and follow-up occurred. We also compared the perceived educational value of outcome feedback between residents and program directors. We distributed surveys to all Royal College-accredited adult and pediatric EM training programs using a modified Dillman method. We analyzed the data using student's t-test for continuous variables and Fisher's exact test for categorical variables. We received 210 completed surveys from 260 eligible residents (80.8%) and 21 of 24 program directors (87.5%) (overall 81.3%). Mandatory active outcome feedback was not present in any EM training program for admitted or discharged patients (0/21). Follow-up was performed electively by 89.4% of residents for patients admitted to the hospital, and by 44.2% of residents for patients discharged home. A majority of residents (76.9%) believed that patient follow-up should be mandatory compared to 42.9% of program directors (p=0.002). The perceived educational value of outcome feedback was 5.8/7 for residents and 5.1/7 for program directors (difference 0.7; p=0.002) based on a seven-point Likert scale (1=not important; 7=very important).
+
+CLASSIFICATION: 

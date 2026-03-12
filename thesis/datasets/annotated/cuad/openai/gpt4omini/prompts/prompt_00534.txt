@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, as of the Distribution Date, Nuance hereby grants to SpinCo and the members of the SpinCo Group a worldwide, non-exclusive, fully paid-up, perpetual and irrevocable, transferable (subject to ARTICLE VIII), sublicensable (subject to Section 3.01(g)) license to continue to use any Nuance IP (other than Nuance Patents, Nuance Technology Assets, Nuance Trademarks and Nuance Data), in each case solely as and to the extent that it is used by the SpinCo Group in connection with products and services of the SpinCo Business within the SpinCo Field of Use, together with natural extensions and evolutions thereof.
+
+CLASSIFICATION:
+ 

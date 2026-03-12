@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is gastric electrical stimulation superior to standard pharmacologic therapy in improving GI symptoms, healthcare resources, and long-term health care benefits? Severe upper gastrointestinal (GI) motor disorders, including gastroparesis (GP), can consume significant health care resources. Many patients are refractory to traditional drug therapy. To compare symptoms, healthcare resource utilization and costs in two groups of patients with the symptoms of GP: those treated via gastric electrical stimulation (GES) and those treated with traditional pharmacological agents in an intensive outpatient program (MED). A long-term comparison of patients with devices (n = 9) vs intensive medical therapy (n = 9). A total of 18 eligible patients with the symptoms of GP reported for 1-year baseline and long-term treatment for 3 years. Patients with the symptoms of GP were treated by a GES or intensive medical therapy (MED). GP Symptoms, healthcare resource utilization using investigator-derived independent outcome measure score (IDIOMS) and total hospital (inpatient and outpatient) billing costs. Gastrointestinal symptoms were significantly different from baseline (F = 3.03, P<0.017) with GP patients treated via GES showing more sustained improvement over 36 months than those treated via MED. Healthcare resource usage, measured via the IDIOMS, significantly improved at 12, 24 and 36 month follow-up for GES patients (F = 10.49, P<0.001), compared with patients receiving medical therapy, who demonstrated further deterioration. GP patients treated via GES also proved superior to medical therapy at 24 and 36 months with regard to decreased costs (F = 4.85, P<0.001). Within group comparisons indicated significantly reduced hospital days for both patient groups; however, no statistical differences were noted between groups in terms of hospital days. Three of nine patients in the MED group died primarily from i.v. access related problems; none of the GES patients died.
+
+CLASSIFICATION: 

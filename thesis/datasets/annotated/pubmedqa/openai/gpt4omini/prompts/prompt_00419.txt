@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are endometrial polyps from pre-menopausal women similar to post-menopausal women? Do endometrial polyps from pre- and post-menopausal women have similar immunohistochemical expression of oestrogen and progesterone receptors (ER, PR) and markers of cellular proliferation/apoptosis (Ki67 and Bcl-2). Prospective cohort study. Non-parametric statistical analysis was used. Polyps recruited from women attending an out-patient hysteroscopy clinic in a UK district general hospital. Fourteen pre-menopausal and 16 post-menopausal women who presented with abnormal bleeding with endometrial polyps. Immunohistochemical staining was performed on endometrial polyps. Significant differences or correlations between hormone receptor expression (oestrogen and progesterone) and cell growth indices (Ki67 and Bcl-2). Endometrial polyps from pre- and post-menopausal women had significant differences in their expression of hormone receptors and Ki67. However, polyps from both groups of women had similarly increased levels of Bcl-2, an inhibitor of apoptosis.
+
+CLASSIFICATION: 

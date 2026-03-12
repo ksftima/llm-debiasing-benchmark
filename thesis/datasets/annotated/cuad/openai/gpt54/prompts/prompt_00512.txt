@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensor hereby grants to Licensee an exclusive in the Territory to (1) make Sublicense Copies and copies of the Documentation to meet the demand of Redistributors and Customers and (2) market and sublicense Sublicense Copies and copies of the Documentation, together with any copies of promotional and other materials which Licensor may produce or obtain from time to time to assist Licensee in marketing and sublicensing the Licensed Products during the term of this Agreement by any one or more of the following means: (a) TO A REDISTRIBUTOR: To a Redistributor pursuant to a Redistributor Agreement containing substantially the same terms and conditions as are set forth in this Agreement (subject to Section 2.5) and a Sublicense with each Customer of Redistributor in accordance with subsection 2.2(b); or (b) TO CUSTOMERS: Pursuant to a Sublicense signed by the Customer.
+
+CLASSIFICATION:
+ 

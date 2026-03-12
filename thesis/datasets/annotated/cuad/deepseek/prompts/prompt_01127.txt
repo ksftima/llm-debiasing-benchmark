@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event this Agreement is terminated pursuant to the provisions of paragraph 17, then the Party in default shall not enter into an agreement with any other Party to provide services similar to those provided herein or to provide its services similar to those provided for herein without an agreement, for a period of six (6) months from the effective date of termination.
+
+CLASSIFICATION:
+ 

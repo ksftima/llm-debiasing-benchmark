@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Updating emotional content in working memory: a depression-specific deficit? Interference from irrelevant negative material might be a key mechanism underlying intrusive ruminative thoughts in depression. Considering commonalities between depression and social anxiety and the presence of similar intrusive thoughts in social anxiety, the current study was designed to assess whether interference from irrelevant material in working memory is specific to depression or is also present in social anxiety disorder. To examine the effects of irrelevant emotional material on working memory performance, participants memorized two lists of words on each trial and were subsequently instructed to ignore one of the lists. Participants were then asked to indicate whether a probe word belonged to the relevant list or not. Compared to control and social anxiety groups, the depression groups (both pure and comorbid with social anxiety disorder) exhibited greater difficulties removing irrelevant emotional material from working memory (i.e., greater intrusion effects). Greater intrusion effects were also associated with increased rumination. Although we included three clinical groups (depression, social anxiety, and the comorbid groups), the results are based on a relatively small number of participants.
+
+CLASSIFICATION: 

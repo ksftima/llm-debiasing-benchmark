@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The supply of the Miltenyi Products hereunder conveys to Bellicum the limited, non-exclusive, non-transferable (except as expressly provided herein, including as set forth in Article 17) right to use, and to permit its Subcontractors and Licensees to use the Miltenyi Products solely for Ex Vivo Cell Processing in the manufacture of Bellicum Products for use in the Field in the Territory (including for research, pre-clinical, clinical, regulatory and commercial purposes), in accordance with applicable Regulatory Authority requirements and approvals (including (to the extent applicable) any relevant clinical trial protocol, IND, and/or IRB approval pertaining to such Bellicum Products), in each case consistent with the terms and conditions of this Agreement and in accordance with Applicable Laws (the "Permitted Use"). Bellicum's Permitted Use of the Miltenyi Products shall be limited to the Designated Countries, subject to Section 2.3.
+
+CLASSIFICATION:
+ 

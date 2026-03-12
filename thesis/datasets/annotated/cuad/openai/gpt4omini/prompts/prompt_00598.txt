@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement, Exact on behalf of itself and its Affiliates, hereby grants to Pfizer a non-exclusive, royalty free license, with the right to sublicense to one or more of its Affiliates, under the Exact House Marks, the Exact Trademarks and the Exact Copyrights, during the Term, to the extent necessary or appropriate to allow Pfizer and its Affiliates to carry out activities under this Agreement including to Promote and Detail the Product in the Co-Promote Field in the Territory.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is cholecystectomy really an indication for concomitant splenectomy in mild hereditary spherocytosis? Children referred with symptomatic gallstones complicating HS between April 1999 and April 2009 were prospectively identified and reviewed retrospectively. During this period, the policy was to undertake concomitant splenectomy only if indicated for haematological reasons and not simply because of planned cholecystectomy. A total of 16 patients (mean age 10.4, range 3.7 to 16 years, 11 women) with HS and symptomatic gallstones underwent cholecystectomy. Three patients subsequently required a splenectomy for haematological reasons 0.8-2.5 years after cholecystectomy; all three splenectomies were performed laparoscopically. There were no postoperative complications in the 16 patients; postoperative hospital stay was 1-3 days after either cholecystectomy or splenectomy. The 13 children with a retained spleen remain under regular review by a haematologist (median follow-up 4.6, range 0.5 to 10.6 years) and are well and transfusion independent.
+
+CLASSIFICATION: 

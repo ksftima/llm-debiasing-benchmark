@@ -1,0 +1,40 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing,
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening,
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones,
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+The prices of their exports are lower than they would be if market forces were given greater scope in foreign exchange markets, and they are supplying more goods and services to the rest of the world than they themselves are demanding.
+
+CLASSIFICATION: 0
+
+Going forward, consumer outlays were expected to be supported by further advances in employment and income.
+
+CLASSIFICATION: 1
+
+Housing activity showed signs of dropping off from peak levels during the latter part of the summer, but the decline in mortgage rates this fall produced an upturn in several indicators of demand for single-family housing, including a rebound in a survey index of homebuying conditions.
+
+CLASSIFICATION: 2
+
+---
+
+Here's the text I would like you to classify:
+
+It also affects stock prices.
+
+CLASSIFICATION:

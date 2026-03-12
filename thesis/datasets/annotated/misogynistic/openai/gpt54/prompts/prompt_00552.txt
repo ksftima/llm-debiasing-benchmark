@@ -1,0 +1,39 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Women have zero interest in sex *compared to a man*.
+
+Women love sex in a relationship with an individual, not in general.
+
+Women just don't care about, nor pursue sex.
+
+If they did, society and culture would look completely different.  Even in "modern" super liberal attitude countries you see it.  Women just aren't into it.
+
+Rape wouldn't be a crime is women gave a shit about sex, because women would at worst see bad sex as just a bad date.  You don't see men whining about rape because they had a shitty sexual experience.  Women wouldn't whine about "cat calling".  Women wouldn't push the narrative that all men cheat because they will at any given opportunity, unlike women.
+
+If women pursued  sex they would actually, you know, pursue it instead of sitting on their asses waiting to be hit on or swiped on.
+
+And I say this as someone that's fucked dozens of girls and never asked a girl out or approached on in my life.  So you'd think that would discount what I'm saying, but it doesn't.  Luckily, feminists created sluts for people like me, and thank God for feminists creating sluts.
+
+Women evolutionarily cannot just free fuck the world, their jobs are generic selectors.  Even ignoring all that, men have a gigantic sex drive compared to women that have basically zero.  if they had a sex drive, women would be all over boys, but you don't see that.  Women don't really chase men, they sit around and let men chase them.
+
+Some nerdy neckbeard anxiety prone incel will muster of the courage to at least get rejected by a woman, but women never do.
+
+Women don't give a shit about sex.  Not really.  they endlessly whine about how shitty some guy is at sex, and how often do you see men do that?  Rare if ever, because a moist hole is a moist hole.
+
+Whereas women don't think a hard cock is a hard cock, which is why they have 500000 requirements to fuck, whereas a man just requires a woman to be willing and available.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon activation of the Affiliate, the Software Publisher grants the Affiliate a non-exclusive, revocable right to use provided advertising material, notices and all further presentations (insofar as available - also known hereafter as "Material") only for the purpose of designating its Web site as a "partner Web site" and presenting the designated advertising Material.
+
+CLASSIFICATION:
+ 

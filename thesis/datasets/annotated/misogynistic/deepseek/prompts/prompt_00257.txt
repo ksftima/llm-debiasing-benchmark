@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Waste of money. Cars, like height, are a looks multiplier. If a girl is attracted to you, a cool car or good height might make her more attracted to you. 
+
+A lot of guys delude themselves into thinking having a cool car or whatever will make them a hit with women. But even bluepilled "shower more" women aren't claiming you should carmaxx.
+
+Besides, Chad could drive a 1994 Grand Am, and Stacy will just think he's sensible.
+
+CLASSIFICATION:
+

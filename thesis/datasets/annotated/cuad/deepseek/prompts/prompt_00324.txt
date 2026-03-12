@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, MacroGenics hereby grants to Green Cross an exclusive, royalty- bearing (i) license, with the right to grant sublicenses (subject to Section 10.1(b)), under the MacroGenics Licensed Technology and the MacroGenics Licensed Trademarks; and (ii) to the extent needed under this Section 10.1(a), sublicense under the MacroGenics Licensed Technology licensed pursuant to the Upstream Agreements, in the case of each of (i) and (ii), to conduct the Phase I Clinical Development Plan and Phase II Clinical Development Plan, and to distribute, sell, offer for sale and import Products in the Field in the Territory during the Term.
+
+CLASSIFICATION:
+ 

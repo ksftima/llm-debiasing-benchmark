@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does somatostatin confer insulinostatic effects of neuromedin u in the rat pancreas? Neuromedin U (NmU) is a neuropeptide with anorexigenic activity. Two receptor subtypes (NmUR1 and NmUR2) confer the effects of NmU on target cells. We have recently demonstrated that NmU reduces insulin secretion from isolated pancreatic islets. Aim of our current study is to investigate the role of somatostatin at mediating the effects of NmU on insulin secretion. Expression of NmU in the pancreas was detected by immunohistochemistry. Insulin and somatostatin secretion from in situ perfused rat pancreas and isolated pancreatic islets was measured by radioimmunoassay. The paracrine effects of somatostatin within pancreatic islets were blocked by cyclosomatostatin, a somatostatin receptor antagonist. Receptor subtype NmUR1, but not NmUR2, was expressed in the endocrine pancreas, predominantly in the periphery. Neuromedin U reduced insulin secretion from in situ perfused rat pancreas and stimulated somatostatin secretion from isolated pancreatic islets. Neuromedin U stimulated somatostatin secretion at both physiological and supraphysiological glucose concentrations. Cyclosomatostatin increased insulin secretion and reduced NmU-induced inhibition of insulin secretion.
+
+CLASSIFICATION: 

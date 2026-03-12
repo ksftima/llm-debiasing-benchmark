@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+yup yup! It's diffucult to unlearn beauty ideals, especially when society reminds you every day that you're ugly.
+
+but I love faking confidence. And I notice musty men and Stacys alike fuming when I do 
+
+Stacy's think "stay in your place, only I should feel good about myself and enjoy privileges. uglies need to stay at the bottom of the hierarchy and suffer the most from sexism/lookism."
+
+Men just can't deal with the fact that their lack of attraction to you doesn't make you stay quiet and actually demand respect
+
+CLASSIFICATION:
+

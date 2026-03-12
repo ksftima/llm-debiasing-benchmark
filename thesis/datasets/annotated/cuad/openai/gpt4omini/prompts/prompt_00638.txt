@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+TL hereby grants to Integrity the right to use its "TL Music" name and logo ("the TL Trademarks") in connection with the products produced during the Term of this Agreement for as long as the parties continue to sell and distribute such products at no additional cost to Integrity, and in accordance with the terms and conditions contained herein.
+
+CLASSIFICATION:
+ 

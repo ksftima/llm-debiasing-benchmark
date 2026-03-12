@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+NTC agrees that the Product Prices, benefits and allowances offered to ALFA AESAR shall not be less favorable than those offered on Products provided to agents, distributors or marketed directly by NTC to any customers, other than the Product Prices existing as of the date of this Agreement with NTC's commercial partners.
+
+CLASSIFICATION:
+ 

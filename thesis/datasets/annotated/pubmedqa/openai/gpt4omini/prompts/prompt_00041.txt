@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does radiotherapy of the primary rectal cancer affect prognosis after pelvic exenteration for recurrent rectal cancer? Radiotherapy reduces local recurrence rates but is also capable of short- and long-term toxicity. It may also render treatment of local recurrence more challenging if it develops despite previous radiotherapy. This study examined the impact of radiotherapy for the primary rectal cancer on outcomes after pelvic exenteration for local recurrence. We conducted a retrospective review of exenteration databases. The study took place at a quaternary referral center that specializes in pelvic exenteration. Patients referred for pelvic exenteration from October 1994 to November 2012 were reviewed. Patients who did and did not receive radiotherapy as part of their primary rectal cancer treatment were compared. The main outcomes of interest were resection margins, overall survival, disease-free survival, and surgical morbidities. There were 108 patients, of which 87 were eligible for analysis. Patients who received radiotherapy for their primary rectal cancer (n = 41) required more radical exenterations (68% vs 44%; p = 0.020), had lower rates of clear resection margins (63% vs 87%; p = 0.010), had increased rates of surgical complications per patient (p = 0.014), and had a lower disease-free survival (p = 0.022). Overall survival and disease-free survival in patients with clear margins were also lower in the primary irradiated patients (p = 0.049 and p<0.0001). This difference in survival persisted in multivariate analysis that corrected for T and N stages of the primary tumor. This study is limited by its retrospective nature and heterogeneous radiotherapy regimes among radiotherapy patients.
+
+CLASSIFICATION: 

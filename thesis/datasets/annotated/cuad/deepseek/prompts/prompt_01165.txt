@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+With respect to franchisees governed by Minnesota law, we will comply with Minn. Stat. § 80C.14, Subds. 3, 4, and 5 which require, except in certain specified cases, that a franchisee be given 90 days' notice of termination (with 60 days to cure) and 180 days' notice of non-renewal of the Franchise Agreement, and that consent to the transfer of the franchise not be unreasonably withheld.
+
+CLASSIFICATION:
+ 

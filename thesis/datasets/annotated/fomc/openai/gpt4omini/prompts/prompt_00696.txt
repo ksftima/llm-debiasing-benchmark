@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+One of the things we’ve learned from our financial crisis and from a series of financial crises in history and around the globe is that, very commonly, when the economy takes a hit and falls into a recession, that productivity doesn’t pick up to pre-recession levels and that there looks like there is a permanent hit to the path of potential output for the economy, which is called “hysteresis.” And I raised the question as to whether or not this might operate in the opposite direction as well.
+
+CLASSIFICATION:

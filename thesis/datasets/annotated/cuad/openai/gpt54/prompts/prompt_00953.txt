@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+BKC may impose reasonable conditions on its consent to the transfers contemplated in Subparagraphs 15.1 and 15.2 above. BKC is under no obligation to consent to the encumbrances contemplated in Subparagraphs 15.1 and 15.2 above, and may deny its consent to such encumbrances in its sole discretion.
+
+CLASSIFICATION:
+ 

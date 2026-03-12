@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither of the parties hereto may assign its or his rights hereunder without the prior written consent of the other party hereto, and any such attempted assignment without such consent shall be null and void and without effect.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+"It's hard for us to look big" Because you're not BIG.
+
+If  you're stuck at home, pick up the heaviest thing you own and move it  around until you can't anymore. For me, this is my ~~asian sex slave~~  desk, so I did some lifting exercises and decided that if I break ~~her~~ it, then it was worth it for my continued physical excellence in  these trying times.
+
+En serio, if  you can't take GLO's advice re: group workouts, at least go buy some  dumbbells. 30 pounders will do fine and you can go high-rep for the next  few weeks, depending on your own personal ratio of soy to boy.
+
+CLASSIFICATION:
+

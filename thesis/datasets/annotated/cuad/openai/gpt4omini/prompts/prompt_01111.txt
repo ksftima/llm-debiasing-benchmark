@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+After the initial period of two years, the maintenance and support contract shall be automatically renewed for a period of one year on each renewal date, unless one of the parties terminates the maintenance and support contract through written notification to the other party in the form of a registered letter with proof of receipt, at least six (6) weeks prior to the renewal date.
+
+CLASSIFICATION:
+ 

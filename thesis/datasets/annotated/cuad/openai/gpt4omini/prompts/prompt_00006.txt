@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Agent hereby grants to Monsanto, during the term of this Agreement, a non-exclusive, royalty-free, non- transferable and non-assignable license (without the right to sublicense, except as specifically set forth in Section 6.11(h)) to use the Additional Roundup Products Trademarks for the purpose of and to the limited extent necessary to register the Additional Roundup Products with federal, state, or territorial government authorities (as may be required by law) in the United States and its territories (the "Additional Roundup Products Trademarks<omitted>License").
+
+CLASSIFICATION:
+ 

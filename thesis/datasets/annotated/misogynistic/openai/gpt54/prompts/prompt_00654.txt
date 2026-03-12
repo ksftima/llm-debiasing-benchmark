@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+the second point is the most blatant lie i've ever seen , we've barely gotten past february and i've already come across around 17 articles of women killing their husbands this year , i wasn't even searching for such articles...just why are feminists like this, they are willing to push a lie denying lots of victims help all in a bid to demonize men
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Acute hepatitis C in Israel: a predominantly iatrogenic disease? Acute hepatitis C virus infection in the era of universal screening of blood products has not disappeared, and is thought to be transmitted primarily via injecting drug use. A growing body of evidence supports iatrogenic transmission as an important mode of transmission. The aim of this study was to examine transmission routes and clinical characteristics in a group of patients with acute hepatitis C in Israel. A retrospective chart review was conducted in three different liver clinics in Israel, of all new hepatitis C patients. Patients identified as possible acute hepatitis C were re-interviewed and all other sources such as blood bank records and pre-employment check-ups reviewed in order to establish the diagnosis of acute hepatitis C infection and to identify the transmission route. Twenty-nine patients were found to have acute hepatitis C, representing 0.75% of all new referrals for hepatitis C. The most frequent (65%) mode of transmission was iatrogenic involving several, often minimal, procedures and clinical settings. The group in which iatrogenic transmission was suspected was older and the patients more often in monogamous relationship compared with other transmission routes groups. Injecting drug use was the second most common route of infection. Spontaneous seroconversion has occurred in approximately one third of the patients.
+
+CLASSIFICATION: 

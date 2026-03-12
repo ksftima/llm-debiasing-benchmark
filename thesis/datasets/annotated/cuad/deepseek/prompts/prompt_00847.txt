@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Consultant may voluntarily terminate the Consultant's engagement with the Company at any time by giving the Company 120 days prior written Notice of the termination.
+
+CLASSIFICATION:
+ 

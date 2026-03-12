@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is a mandatory general surgery rotation necessary in the surgical clerkship? Changes in the spectrum of general surgery and the delivery of surgical care have placed the requirement for a mandatory general surgery rotation in the surgical clerkship in question. We tested the hypothesis that equal mastery of surgical clerkship objectives can be obtained in a clerkship with and without general surgery. Students chose any two surgical rotations and were assessed by written examination, objective structured clinical examination (OSCE), ward evaluations, self-assessment objectives questionnaire, and satisfaction survey. Data for 54 students showed no differences in scores between groups on any parameter. No specific concerns related to the absence of general surgery were identified.
+
+CLASSIFICATION: 

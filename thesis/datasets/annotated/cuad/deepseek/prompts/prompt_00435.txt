@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term and subject to the limitations set forth in Paragraphs 9 and 10, ESSI shall have the right to use the name, image, likeness, characterization, visual and audio representation of Talent ("Talent Attributes") in connection with the ESSI product suite, in the venue(s) as follows: A. Promotional Territories ("Territories") shall include various online, outdoor, radio and television promotional spots (specific promotional spots and content specifics to be mutually agreed upon) promoting the ESSI product suite ("Commercial Placements") aired in various venues as determined to best suit the needed promotion of ESSI products; B. On ESSI's downloaded apps (UseHerbo, Herbo Wallet, FitRx) and websites (www.useherbo.com; www.eccossi.com) ("Websites"), of which new ESSI owns and operates downloadable apps and websites may be added to this list at the will of ESSI; and C. ESSI Natural Supplementation Products. D. In ESSI product-related press releases (of which only ESSI may produce and publish).
+
+CLASSIFICATION:
+ 

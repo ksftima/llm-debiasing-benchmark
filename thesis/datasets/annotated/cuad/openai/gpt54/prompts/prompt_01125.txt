@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this Agreement and within the Contract Territory, North agrees not to enter into an agreement with another company or entity for the purpose of endorsing or promoting products similar to the Endorsed Products.
+
+CLASSIFICATION:
+ 

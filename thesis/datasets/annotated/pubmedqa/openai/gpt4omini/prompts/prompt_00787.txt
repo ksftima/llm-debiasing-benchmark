@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does base deficit predict mortality in patients with severe traumatic brain injury? Base Deficit (BD) is a marker of tissue hypoxia in polytrauma patients. It guides resuscitative measures, and predicts outcomes, complications and mortality. The aim of this study was to examine the presence of BD in patients with isolated severe traumatic brain injury (TBI), and to assess if it correlates with the outcomes in these patients. This was a retrospective observational study. All patients over the age of 16 years presenting to Aga Khan University Hospital from 2009 to 2013 with isolated TBI, were included. Data was extracted from 2009 to 2013. Glasgow Outcome Scale (GOS) of 4 and 5 at last follow up was categorized as favorable outcome. Data was analyzed using SPSS version 19 and receiver operative curve (ROC) was generated for BD as a predictor of mortality and unfavorable outcome. One hundred and eight patients were analyzed. Ninety-eight (90.7%) were males. Mean age was 36.69 ± 17.65. Eighty-eight (81.5%) patients had BD, while 20 (18.5%) patients had base excess. 62 (58.5%) of the patients had unfavorable outcomes. BD on admission had a statistically significant negative correlation with Glasgow Coma Scale (GCS) on presentation (r = -0.239, p = 0.025) and Revised Trauma Score (RTS) (r = -0.214, p = 0.046). However, there was no statistically significant difference in means of BD between survivors and non survivors. Area under receiver operator curve (ROC) for BD as a predictor of mortality statistically non-significant.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Unless otherwise agreed in an Order, Supplier grants Bank of America a perpetual, worldwide, irrevocable, nonexclusive royalty free license to any Pre-existing IP embedded in the Work Product, which shall permit Bank of America and any transferee or sublicensee of Bank of America, subject to the restrictions in this Agreement, to make, use, import, reproduce, display, distribute, make derivative works and modify such Pre-existing IP as necessary or desirable for the use of the Work Product.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Subsection (g) below, Vendor shall provide and shall require that its Subcontractors provide to AT&T, its auditors (including internal audit staff and external auditors), and governmental authorities access at all reasonable times to: (i) any facility at which the Services or any portion thereof are being performed; (ii) systems and assets used to provide the Services or any portion thereof; (iii) Vendor employees and Subcontractor employees providing the Services or any portion thereof; and (iv) all Vendor and Subcontractor records, including financial records relating to the invoices and payment obligations and supporting documentation, pertaining to the Services.
+
+CLASSIFICATION:
+ 

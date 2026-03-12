@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In consideration for King's performance of its obligations under this Agreement, Depomed shall pay promotion fees (the "Promotion Fees") to King as follows: following each Agreement Quarter during the Term, Depomed shall pay to King 50% of the Gross Margin for such Agreement Quarter.
+
+CLASSIFICATION:
+ 

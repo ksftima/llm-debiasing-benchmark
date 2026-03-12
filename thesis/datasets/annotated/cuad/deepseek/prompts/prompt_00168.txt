@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+PAPA JOHN'S hereby grants to ABG and CELEBRITY, a royalty-free, perpetual, irrevocable, fully- paid, assignable, transferable, sublicensable right and license to utilize the Materials, in their entirety or any portions thereof, in all media now known or hereafter developed, throughout the universe (individually and collectively, "PJ Rights") as follows: (i) on or in connection the performance of the Services hereunder; (ii) in connection with historical and archival purposes (e.g., documentary, commentary, corporate retrospective, historical files on websites of ABG), so-called business-to-business uses and other non-commercial purposes; and (iii) for industry recognition purposes (e.g., award competition submissions); in each case, in all media now known or hereafter devised.
+
+CLASSIFICATION:
+ 

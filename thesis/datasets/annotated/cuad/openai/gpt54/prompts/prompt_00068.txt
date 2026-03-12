@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+AGI hereby grants a non-exclusive license (the "License") to the Company and its operating subsidiaries now or hereafter existing to use the Good Sam name and logo, including trademarks, trade names, or service marks as designated by AGI (the "Trademarks"), in connection with the sale of such new and used vehicles by the Company that have satisfied such criteria and standards as are established from time to time by AGI (the "Approved Use").
+
+CLASSIFICATION:
+ 

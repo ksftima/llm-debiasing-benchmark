@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does cognitive function predict frequency compressed speech recognition in listeners with normal hearing and normal cognition? The aim was to investigate the relationship between cognitive ability and frequency compressed speech recognition in listeners with normal hearing and normal cognition. Speech-in-noise recognition was measured using Institute of Electrical and Electronic Engineers sentences presented over earphones at 65 dB SPL and a range of signal-to-noise ratios. There were three conditions: unprocessed, and at frequency compression ratios of 2:1 and 3:1 (cut-off frequency, 1.6 kHz). Working memory and cognitive ability were measured using the reading span test and the trail making test, respectively. Participants were 15 young normally-hearing adults with normal cognition. There was a statistically significant reduction in mean speech recognition from around 80% when unprocessed to 40% for 2:1 compression and 30% for 3:1 compression. There was a statistically significant relationship between speech recognition and cognition for the unprocessed condition but not for the frequency-compressed conditions.
+
+CLASSIFICATION: 

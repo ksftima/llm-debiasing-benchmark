@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of a Supply Failure, Miltenyi shall grant Bellicum's Second-Source Supplier a limited, non-exclusive, non-transferable, one-site production license, without the right to sublicense, under Miltenyi's Intellectual Property Rights solely to the extent reasonably necessary to manufacture the Affected Miltenyi Product for the Permitted Use by Bellicum at Bellicum's cost.
+
+CLASSIFICATION:
+ 

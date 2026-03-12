@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Literacy after cerebral hemispherectomy: Can the isolated right hemisphere read? Cerebral hemispherectomy, a surgical procedure undergone to control intractable seizures, is becoming a standard procedure with more cases identified and treated early in life [33]. While the effect of the dominant hemisphere resection on spoken language has been extensively researched, little is known about reading abilities in individuals after left-sided resection. Left-lateralized phonological abilities are the key components of reading, i.e., grapheme-phoneme conversion skills [1]. These skills are critical for the acquisition of word-specific orthographic knowledge and have been shown to predict reading levels in average readers as well as in readers with mild cognitive disability [26]. Furthermore, impaired phonological processing has been implicated as the cognitive basis in struggling readers. Here, we explored the reading skills in participants who have undergone left cerebral hemispherectomy. Seven individuals who have undergone left cerebral hemispherectomy to control intractable seizures associated with perinatal infarct have been recruited for this study. We examined if components of phonological processing that are shown to reliably separate average readers from struggling readers, i.e., phonological awareness, verbal memory, speed of retrieval, and size of vocabulary, show the same relationship to reading levels when they are mediated by the right hemisphere [2]. We found that about 60% of our group developed both word reading and paragraph reading in the average range. Phonological processing measured by both phonological awareness and nonword reading was unexpectedly spared in the majority of participants. Phonological awareness levels strongly correlated with word reading. Verbal memory, a component of phonological processing skills, together with receptive vocabulary size, positively correlated with reading levels similar to those reported in average readers. Receptive vocabulary, a bilateral function, was preserved to a certain degree similar to that of strongly left-lateralized phonological skills [3]. Later seizure onset was associated with better reading levels.
+
+CLASSIFICATION: 

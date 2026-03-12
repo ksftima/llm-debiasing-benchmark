@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Co-Host hereby grants to NAI a non-exclusive, non-transferable, royalty-free license during the term of this Agreement to use the trademarks, service marks and trade names of Co-Host in connection with the advertising and promotion of the Goods from the Originating Locations, provided that NAI complies with the terms of Section 9(b) of the Web Site Services Agreement (as defined below).
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Analysis of the epidemiological pattern of Shigellosis in Barcelona between 1988 and 2012: Is it an emerging sexually transmitted infection? The aim of this study was to describe the evolution and epidemiologic characteristics of shigellosis patients over a 25 year period in a large city. Shigellosis is a notifiable disease in Spain since 1988. Cases are analyzed in Barcelona residents included in the registry between 1988-2012. A descriptive analysis by sex, age, mode of transmission and Shigella species is presented. Trend analysis and time series were performed. Of the 559 cases analyzed, 60.15% were males. A sustained increase was observed in the trend since 2008 in males (p<0,05), especially at the expense of males who had no history of food poisoning or travel to endemic areas. The increasing tendency was greater in males from 21 to 60 years, both for S. flexneri (since 2009), and for S. sonnei (since 2004). In 2012 it was noted that in the men with S. flexneri, the 63% were men who have sex with men.
+
+CLASSIFICATION: 

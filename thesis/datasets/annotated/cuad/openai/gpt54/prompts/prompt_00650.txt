@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term of this Agreement, the AS Parties grant to MusclePharm and consent to MusclePharm's commercial use of the Name and Appearance Rights to advertise, promote, endorse and publicize Products, Licensed Products, and MusclePharm's business, worldwide in any media selected by MusclePharm (excluding telephone or texting campaigns), including but not limited to print, radio, television, electronic, wireless or internet, pursuant to the terms and conditions set forth herein. MusclePharm acknowledges that any use on products requires approval and that use of the Name and Appearance Rights on products is limited to the Licensed Products.
+
+CLASSIFICATION:
+ 

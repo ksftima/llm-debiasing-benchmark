@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are stroke patients' reports of home blood pressure readings reliable? Home blood pressure (BP) monitoring is gaining increasing popularity among patients and may be useful in hypertension management. Little is known about the reliability of stroke patients' records of home BP monitoring. To assess the reliability of home BP recording in hypertensive patients who had suffered a recent stroke or transient ischaemic attack. Thirty-nine stroke patients (mean age 73 years) randomized to the intervention arm of a trial of home BP monitoring were included. Following instruction by a research nurse, patients recorded their BPs at home and documented them in a booklet over the next year. The booklet readings over a month were compared with the actual readings downloaded from the BP monitor and were checked for errors or selective bias in recording. A total of 1027 monitor and 716 booklet readings were recorded. Ninety per cent of booklet recordings were exactly the same as the BP monitor readings. Average booklet readings were 0.6 mmHg systolic [95% confidence interval (95% CI) -0.6 to 1.8] and 0.3 mmHg diastolic (95% CI -0.3 to 0.8) lower than those on the monitor.
+
+CLASSIFICATION: 

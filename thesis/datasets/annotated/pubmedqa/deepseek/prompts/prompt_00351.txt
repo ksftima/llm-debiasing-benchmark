@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is scintigraphy a guideline method in determining amputation levels in diabetic foot? In this study, we aimed to evaluate the potential use of a 3-phase bone scintigraphy method to determine the level of amputation on treatment cost, morbidity and mortality, reamputation rates, and the duration of hospitalization in diabetic foot. Thirty patients who were admitted to our clinic between September 2008 and July 2009, with diabetic foot were included. All patients were evaluated according to age, gender, diabetes duration, 3-phase bone scintigraphy, Doppler ultrasound, amputation/reamputation levels, and hospitalization periods. Patients underwent 3-phase bone scintigraphy using technetium-99m methylene diphosphonate, and the most distal site of the region displaying perfusion during the perfusion and early blood flow phase was marked as the amputation level. Amputation level was determined by 3-phase bone scintigraphy, Doppler ultrasound, and inspection of the infection-free clear region during surgery. The amputation levels of the patients were as follows: finger in six (20%), ray amputation in five (16.6%), transmetatarsal in one (3.3%), Lisfranc in two (6.6%), Chopart in seven (23.3%), Syme in one (3.3%), below-the-knee in six (20%), above the knee in one (3.3%), knee disarticulation in one (3.3%), and two patients underwent amputation at other centers. After primary amputation, reamputation was performed on seven patients, and one patient was treated with debridement for wound site problems. No mortality was encountered during study.
+
+CLASSIFICATION: 

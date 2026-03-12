@@ -1,0 +1,163 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+WHAT WOMEN WANT>"After 30 years of studying female psychology, I still haven't found an answer to the big question: What exactly do they want?" - Sigmund Freud
+
+&#x200B;
+
+The more a woman corresponds to today's beauty criteria, the more she will turn to the man I will present in this writing. The requirements obviously vary according to their possibilities (physical, age, intellect), their education, background, personal experience.
+
+&#x200B;
+
+# WHAT WOMEN WANT: BIOLOGY
+
+We start with 10 studies ([1](http://www.sscnet.ucla.edu/comm/haselton/unify_uploads/files/gildersleeve%20et%20al.%20sex%20roles%202013.pdf), [2](http://www.sscnet.ucla.edu/comm/haselton/unify_uploads/files/Larson%20et%20al.,%20in%20press%20hormones%20and%20behavior%202012.pdf), [3](http://www.sscnet.ucla.edu/comm/haselton/unify_uploads/files/larson%20pillsworth%20haselton%202012%20plosone.pdf), [4](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/Lieberman_Pillsworth_Haselton_2010_Kin_affiliation_across_cycle.pdf), [5](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/DeBruine_et_al_2010_Response_to_Harris.pdf), [6](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/ovulation_voice.pdf), [7](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/Durante_Li_Haselton_2008_Change_in_dress_across_cycle.pdf), [8](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/dress_to_impress.pdf), [9](https://www.pdf-archive.com/2015/08/02/haselton-gangestad/), [10](http://www.sscnet.ucla.edu/comm/haselton/papers/downloads/Frederick_Haselton_2007_Muscularity_sexy.pdf) \-PDFs-) that show us that a woman has two types of male preferences, depending on the period of her menstrual cycle. The terms "Alpha male" (defined as sexually attractive) and "Beta male" (defined as sexually unattractive but a good long-term partner) will be used to summarize these studies.
+
+&#x200B;
+
+**DEEP DESIRE**
+
+During her ovulation period (a period of about 6 days when a woman is fertile, normally 14 days after the end of her period), a woman will :
+
+&#x200B;
+
+\- be much more attracted to very masculine men (with good genes): square jaw, deep voice, body odor (pheromones), muscles... The Alpha male
+
+\- be more likely to cheat on her spouse if she perceives him as a Beta male and if she has the opportunity to do so with an Alpha male
+
+\- on the other hand, not wanting to go anywhere else to see if she's in a relationship with an Alpha male...
+
+\- be much more critical of her man (if Beta) by describing him as jealous, possessive and by reproaching him for redoubling his efforts and kindness to keep her (hence the importance of never appearing to be taken for granted in her eyes). The women who declare to be in couple with an Alpha report on average that he makes less effort and is less attentive than the Beta males, but do not complain about it.
+
+\- feel more attractive than the rest of the time and therefore perceive themselves as having more value than their spouse, if they consider him Beta (which may lead to deception to satisfy their hypersexual desire)
+
+\- have a greater desire to go out where she is likely to meet men and tend to dress sexier and more provocatively than usual
+
+\- still declare that they are consistently happy in their relationship despite a clear change in sexual preference during their menstrual cycle
+
+&#x200B;
+
+Abstract summary: If you plan to go for a little ride in Amsterdam with your mates, avoid doing it during your girlfriend's ovulation period.
+
+&#x200B;
+
+**THE IDEAL PARTNER**
+
+Women are therefore constantly confronted with the dilemma of choosing a man, Alpha or Beta, to try to best meet their desires. The best (most sought-after) partner is of course the rare combination of the two, the handsome, exciting male who is exciting and stable enough to look forward to long-term prospects. They will logically choose, as long as they can, the Alpha male and try to retain him ("he's afraid to commit!"). Some will still try to get with a "nice" guy, i.e. sexually unattractive (because physically not at the level and with a weak character), hoping that he will become virile, an option that has even less chance of success than the first one.
+
+&#x200B;
+
+Men also face this same dichotomy, this time described as the "Madonna and Whore complex". We are looking for a beautiful, faithful and stable woman. Problem, the "good" girls are ugly and therefore not exciting, and the hot ones are unstable. The perfect woman is therefore also the rare combination of mother and whore.
+
+&#x200B;
+
+**THE IDEAL COUPLE**
+
+The ideals of both sexes often end up together (stable handsome guy and stable beautiful girl), leaving only incomplete individuals available on the market, trying to find the perfect person, without realizing that they themselves are not perfect in the eyes of the opposite sex (the stable guy who thinks he is perfect but will never understand that he is not exciting, or the beautiful girl who is unpresentable because of her emotional instability and unbearable sluttiness).
+
+&#x200B;
+
+Extrapolating strongly, the winning couple is the Alpha male / beautiful virgin girl marriage and the loser couple is the single mother / near virgin Beta male marriage. The worst strategy is to marry a slut (divorcing costs an arm) while the female equivalent (having a kid with an unstable Alpha who will leave during pregnancy) obviously has no consequences for the woman. It's even a very viable strategy used by some (getting the right genes and then finding a good father).
+
+&#x200B;
+
+# WHAT WOMEN WANT: PHYSICAL
+
+Physical appearance is the eliminatory criterion for both men and women. The myth of women being less visual than men is perpetuated by society, suggesting that personality is the predominant criterion since others are morally unacceptable (because attracted by the physical=superficial, and attracted by money=profitable).
+
+&#x200B;
+
+**A BEAUTIFUL BOY**
+
+Women's tastes are generally less eclectic than those of men (who may like tall, short, thin, "girls with shapes", blondes, brunettes, etc.). The archetype of the favourite guy is the classic tall, handsome dark brown. Non-exhaustive list: 1m80+, piercing eyes, tanned, impeccable hairline, slight beard, thin with a bit of muscle, broad shoulders, protruding jaw, cheekbones a bit visible, broad smile.
+
+&#x200B;
+
+Feminist propaganda wants us to believe that female beauty standards are delusional when in reality they are the most demanding women in terms of physique. Like any person who is devoid of logic and can only see life in a binary way ("you're feminist or misogynist!"), they often find it hard to be neutral: a man is either beautiful or ugly. The dating site OKCupid shows that 80% of men are physically rated below average, i.e. ugly, by women. Conversely, the distribution of scores for women (rated by men) is logically close to the Gauss curve (bell curve: majority of women in the average, and as many ugly as beautiful). Another interesting but obvious fact: the better-looking you are, the more answers you get and the more requests you receive.
+
+&#x200B;
+
+**FRIENDZONE IS AN UGLY THING**
+
+By definition, friendzone is the situation where a girl considers us a friend when we are interested in more. There are only two possible cases:
+
+&#x200B;
+
+\- The majority of cases of friendzone: you're super nice but not good enough physically. So you are a friend. It's exactly as if we find a girl interesting, intelligent, funny... but ugly. No matter what she does, we will never have desire for her, because desire is not negotiable. She's still a good friend, but that's all.
+
+\- Second rare but possible case: you're a pussy. It happens that a girl finds you physically attractive, but your submissive behaviour is so unbearable to her that she can't consider anything with you. You may have sex with her once or twice, but it is impossible for her to project herself into the future with such a baltringue.
+
+&#x200B;
+
+**THE BASTARD IS ABOVE ALL A GOOD-LOOKING GUY...**
+
+Except for a few social cases (generally having grown up without a father, physically or spiritually absent), women are not particularly attracted to assholes who lie, cheat, are violent or impulsive. They simply like male men, i.e. the right balance between the nice submissive who gets trampled on without flinching and the scumbag who attacks others for free. The guy who doesn't say yes to everything, who knows how to say no when he has to, and not just to piss people off.
+
+&#x200B;
+
+The thing is, the good-looking guy can afford to be a bastard because women are, no matter what, physically attracted to him and hope he'll go easy on them. The better-looking you are, the more you can afford to behave badly. The uglier you are, the less you will be tolerated. To be desired by being ugly and morally a shit, you need the combination of an incredible vice (violence, threats, manipulation, extreme domination) and a psychologically destroyed woman who can attach herself to this type of man. The whore in love with her pimp, so to speak.
+
+&#x200B;
+
+# WHAT WOMEN WANT: BEHAVIOUR
+
+The behaviour that appeals to women is not witchy and can be summed up in one sentence: live for yourself and stop being a coward.
+
+&#x200B;
+
+**INITIATIVE AND SOCIABILITY**
+
+Women like to go out, to show off, to see people, while many men can be content to stay at home quietly. They are attracted by extroverts and like guys who offer and take initiative. In short, "we're moving tonight, I suggest you go here" is infinitely less of a pain in the ass than the tiresome "what are we going to do, darling? . Don't hesitate to impose yourself. If you feel like doing something, invite directly instead of proposing.
+
+&#x200B;
+
+The men who struggle with this part are often people who don't get out much and have to force themselves to look "normal". They don't actually have the spontaneity to propose interesting outings since they don't usually do them themselves. On the contrary, a guy who has a rich social life, in addition to increasing his chances of meeting people, will simply ask a girl to go to one of his activities. He will be in his element, comfortable, natural. He will not have changed his life for her, but will have invited her to integrate his already existing universe.
+
+&#x200B;
+
+**MASCULINITY**
+
+[A study](https://www.sciencedirect.com/science/article/abs/pii/S019188691500210X) shows that women, regardless of their experience and age, are attracted to narcissists (who looks alike comes together?). The self-centred man lives for himself, is often active and generally has ambition (at least to do what he likes, which is already quite good). The woman adores this type of man and hopes that he will include her, and only her, in his life project. The worst faggot is the guy who stops his hobbies/passions/dating as soon as he is in a relationship. Fortunately, he will often be punished by his girlfriend, who will dump him after a few months of relationship.
+
+&#x200B;
+
+Express your opinions and defend your positions. Stop trying to appear perfect in the eyes of women (and people in general), because perfect means boring, drunk and submissive. It doesn't mean you have to provoke clashes out of nowhere (we leave that up to women), but if something annoys you, if you disagree with it, say so, express it. Stop freaking out at the thought that she's going to leave you or lose interest in you. If she leaves, too bad, there will be others. But that's unlikely to happen if you stay fair. That's the paradox that the "good guys" will never understand: when you set your limits, she gets wet, because she sees that you have character and balls.
+
+&#x200B;
+
+**YOU SHOULD KNOW**
+
+One comment that comes up over and over again with men is, "But why doesn't she say she wants a man like that? It would be easier! . If masculinity needs to be explained to a man, it's because he's the wrong man. Explaining to a man how to behave kills desire and attraction. How can a woman ask a man to be dominant in bed? It's abbreviated. If he does it, it won't be natural, and he'll end up doing what she wanted anyway. If he doesn't, she will be frustrated because her desire will not be fulfilled. A woman can therefore never express a desire for domination.
+
+&#x200B;
+
+Women keep saying that they want a "natural" guy, which means naturally masculine. No one wants to be with someone who simulates behaviour. Imagine not being able to get your girlfriend to come and she says, "Don't worry, I'll fake it next time. It's worse! [Women like men who take risks](https://onlinelibrary.wiley.com/doi/abs/10.1111/jasp.12237). A girl can say no if she doesn't like something, but she will never be able to fully express a desire or risk ruining the magic of spontaneity. So you have to guess her expectations, and for that, nothing better than testing (and it's fun too).
+
+&#x200B;
+
+**STOP ASKING QUESTIONS AND TAKE ACTION**
+
+Since a woman can never fully confess her desire under pain of killing him, the worst thing you can do is to cook her to make her confess what she wants. Probably the dumbest thing you can do is ask permission to kiss. Even if she wants to, she'll say no. You have to try it in a convenient, fairly isolated moment, at a time when there is sexual tension (don't be like the pseudo-street dickheads on the internet who try to kiss a girl after 10 minutes, it's ridiculous).
+
+&#x200B;
+
+If a girl gives you her number through her friends, don't send her a message asking why. Stop being silly, she's obviously interested in you. It's already a big effort for a girl to initiate contact, so take over the flirting if you're interested. Same thing if a girl accepts an invitation to your house one-on-one, it's not to play scrabble. You think she's gonna show up at a guy she doesn't like? If she comes to you and you don't try anything, it's a rejection in her mind because you didn't get her message. In her mind, you're either a loser or you're not interested.
+
+&#x200B;
+
+**Be handsome, be male.**
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Depomed hereby grants to King the non-exclusive right, during the Term, to use the Launch Promotional Materials supplied to King pursuant to this Section 4.4(c) in the performance of its obligations under this Agreement.
+
+CLASSIFICATION:
+ 

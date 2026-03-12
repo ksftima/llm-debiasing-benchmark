@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For greater certainty, "New Technology" shall exclude any (x) modification to Philips pre-existing Intellectual Property Rights (which, shall exclude any Intellectual Property Rights forming part of the "Purchased Assets" under the Purchase Agreement) and (y) developments developed not for the Products (collectively, "Philips Retained Product IP'), provided that Philips and its Affiliates hereby grant to Customer under any such Intellectual Property Rights, which are applicable or used for the manufacturing of the Product, a non- exclusive, non-transferable (except in accordance with clause 18.4 (Assignment)), irrevocable, world-wide, fully paid-up license, without the right to grant sub-licenses, to make, have made, sell or commercialize in any other way the Product.
+
+CLASSIFICATION:
+ 

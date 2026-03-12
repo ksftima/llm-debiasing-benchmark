@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensor grants to Rogers the non-exclusive license and right to distribute and exhibit in Canada (the "Territory") all entertainment programming to which Licensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, "Licensed Programs") to residential subscribers of Rogers' digital cable television service on a Video-on-Demand ("VOD") basis.
+
+CLASSIFICATION:
+ 

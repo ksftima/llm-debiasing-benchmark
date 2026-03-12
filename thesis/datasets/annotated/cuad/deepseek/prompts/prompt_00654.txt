@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensor hereby grants to Licensee a non-exclusive right to use the trademarks, service marks, trade names, copyrights, logos and designations (collectively, the "Marks") relating to the Licensed Products or the Documentation during the term of this Agreement in the marketing by Licensee of the Licensed Products, provided that such Marks clearly indicate Licensor as the owner of the Marks whenever the Licensed Product or Documentation is first mentioned in any written material referencing the Licensed Product and the proper symbol is used in a superscript following the Marks.
+
+CLASSIFICATION:
+ 

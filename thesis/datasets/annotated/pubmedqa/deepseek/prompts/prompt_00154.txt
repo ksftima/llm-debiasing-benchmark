@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Would corrected QT dispersion predict left ventricular hypertrophy in hypertensive patients? We explored whether QT corrected dispersion (QTcD) can identify left ventricular hypertrophy (LVH) in hypertensives. We enrolled 100 hypertensive patients (study group) and 30 normotensive subjects (control group). Echocardiography was performed to measure left ventricular mass and left ventricular mass index. Electrocardiogram was performed to measure QTcD. LVH was present in 42 patients (42%) of the study group, none among controls. Hypertensive patients had significantly greater indices of LVH and QTcD compared with controls (p<0.001 for all). Similarly, among hypertensive patients, those with LVH had a significantly greater QTcD compared with those without (p<0.001). Pearson's correlation coefficient test demonstrated strongly positive correlations between QTcD and the indices of LVH (p<0.001 for all). Analysis of the receiver operating characteristic curves identified 60 ms as the optimal cut-off value of QTcD that best predicts LVH in hypertensives. Using this value, QTcD was able to predict LVH with a sensitivity of 92.9% and specificity 98.2%.
+
+CLASSIFICATION: 

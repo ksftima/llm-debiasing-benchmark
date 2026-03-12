@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of expiration or termination of this Agreement, an Order or of Maintenance Services under this Agreement, Supplier agrees that upon the request of Bank of America, Supplier will, at no additional cost to Bank of America and through the period of paid up Maintenance Services, continue uninterrupted operations, conclude and cooperate with Bank of America in the transition of the business at Bank of America's direction and in a manner that causes no material disruption to Bank of America business and operations.
+
+CLASSIFICATION:
+ 

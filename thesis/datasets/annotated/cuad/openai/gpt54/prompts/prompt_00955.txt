@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are "work made for hire" in accordance with the U.S. Copyright Act, 17 U.S.C. § 101 et seq.
+
+CLASSIFICATION:
+ 

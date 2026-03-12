@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Fox grants to Licensee a limited, non-exclusive right and license to distribute the following Wireless Products in connection with the Property "ICE AGE: THE MELTDOWN" in the United States: (A) 2 Scrat voicetones; (B) 2 John Leguizamo voicetones; and (C) 3 premium videos.
+
+CLASSIFICATION:
+ 

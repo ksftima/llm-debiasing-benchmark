@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+M&I will process transactions in an average of 2.5 seconds for teller transactions (not to exceed six (6) seconds for five percent (5%) of all transactions per month) and in an average of three point five (3.5) seconds (not to exceed seven (7) seconds for five percent (5%) of all transactions per month) for bank operations CRT transactions as measured over a calendar month, from the time the transaction is sent by the Customer's controller or gateway to the time the processed data is returned to the Customer's controller or gateway.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Station will provide Network with up to 5.0 mbps,<omitted>for this purpose, except as required in infrequent and exceptional circumstances resulting from a Station's carriage of the primary television network with which such Station is affiliated with regard to its Primary Feed (e.g., ABC, CBS, NBC and Fox).
+
+CLASSIFICATION:
+ 

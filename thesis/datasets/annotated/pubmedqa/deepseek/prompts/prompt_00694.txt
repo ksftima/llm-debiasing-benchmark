@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does concept mapping enhance learning outcome of nursing students? This quasi-experimental study was conducted using a crossover design among two groups of total 64 nursing students. Participants were asked to create concept maps (group A) or were evaluated with the traditional method of quiz (group B) for eight weeks and then take a cumulative test (no. 1). Consequently, subjects used the alternate method for another eight weeks and then take the second cumulative test (no. 2). The results of this study showed that the mean scores for cumulative tests (both no. 1 and no. 2) was higher in the group that engaged in map construction compared to the group that only take the quizzes. In addition, there was a gradual increase in the mean scores of developed map during the eight sessions of intervention.
+
+CLASSIFICATION: 

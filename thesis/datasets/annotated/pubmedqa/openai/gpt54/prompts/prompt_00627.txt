@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the sequence of clamp application during open abdominal aortic aneurysm surgery influence distal embolisation? Embolisation of atherosclerotic debris during abdominal aortic aneurysm (AAA) repair is responsible for significant peri-operative morbidity. Reports have suggested that preferential clamping of the distal vessel(s) before the proximal aorta may decrease the number of emboli passing distally and hence reduce complications. Forty patients undergoing AAA repair were randomised to have either first clamping of the proximal aorta or the iliac vessels. Emboli passing through the Superficial Femoral Arteries were detected with a Transcranial Doppler ultrasound system. There was no difference between the two groups in the number of emboli detected (p=0.49) and no significant correlation between number of emboli and dissection time (r=0.0008). However, there was a significantly higher number of emboli in the patient sub-group that were current smokers (p=0.034).
+
+CLASSIFICATION: 

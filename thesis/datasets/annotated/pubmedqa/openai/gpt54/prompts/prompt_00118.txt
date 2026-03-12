@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The Main Gate Syndrome: a new format in mass-casualty victim "surge" management? Recent suicide bombings pose the novel problem for Trauma Centers of the massive simultaneous arrival of many gravely wounded patients. We report the experience of the French-German Military Trauma Group, a Level 2 Trauma Center, in Afghanistan during the wave of suicide bombings in February 2007. Fourteen casualties were received. A first triage was carried out by the U S Army Level I group prior to evacuation. A second surgical triage was carried out with systematic ultrasound exam. Four cases (ISS>25) were re-categorized and underwent emergency surgical procedures.
+
+CLASSIFICATION: 

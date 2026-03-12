@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+1.1.2 XLI grants WCC a limited, non-exclusive, royalty-free license to use the registered trademark "Light Sheets" during the term of this Agreement in connection with national, regional or local print advertising, together with Internet, television, video and on-site advertising, for WCC and its Event(s) during the term of this Agreement, subject to all of the terms and conditions hereof.
+
+CLASSIFICATION:
+ 

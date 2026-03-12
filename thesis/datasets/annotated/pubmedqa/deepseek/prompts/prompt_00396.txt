@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do older men benefit from curative therapy of localized prostate cancer? Prior decision-analytic models are based on outdated or suboptimal efficacy, patient preference, and comorbidity data. We estimated life expectancy (LE) and quality-adjusted life expectancy (QALE) associated with available treatments for localized prostate cancer in men aged>/= 65 years, adjusting for Gleason score, patient preferences, and comorbidity. We evaluated three treatments, using a decision-analytic Markov model: radical prostatectomy (RP), external beam radiotherapy (EBRT), and watchful waiting (WW). Rates of treatment complications and pretreatment incontinence and impotence were derived from published studies. We estimated treatment efficacy using three data sources: cancer registry cohort data, pooled case series, and modern radiotherapy studies. Utilities were obtained from 141 prostate cancer patients and from published studies. For men with well-differentiated tumors and few comorbidities, potentially curative therapy (RP or EBRT) prolonged LE up to age 75 years but did not improve QALE at any age. For moderately differentiated cancers, potentially curative therapy resulted in LE and QALE gains up to age 75 years. For poorly differentiated disease, potentially curative therapy resulted in LE and QALE gains up to age 80 years. Benefits of potentially curative therapy were restricted to men with no worse than mild comorbidity. When cohort and pooled case series data were used, RP was preferred over EBRT in all groups but was comparable to modern radiotherapy.
+
+CLASSIFICATION: 

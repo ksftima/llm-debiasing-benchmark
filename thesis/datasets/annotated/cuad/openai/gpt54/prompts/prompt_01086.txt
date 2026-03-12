@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EFS shall pay a royalty ("Royalty") to Client to be calculated and paid as follows: (a) the Royalty shall be determined based upon the percentage applicable to the Merchandise Gross Margin (pursuant to the chart in Exhibit 10, attached hereto and hereby incorporated by reference); (b) multiplied by the Net Merchandise Sales (as defined below) as applicable in each case for the applicable Calendar Quarter or Year (each as defined below).
+
+CLASSIFICATION:
+ 

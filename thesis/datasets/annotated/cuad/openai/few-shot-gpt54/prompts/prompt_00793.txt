@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Changepoint hereby grants to Corio a fee-bearing, irrevocable, nonexclusive, nontransferable (except in accordance with Section 14.1 of this Agreement) license in the Territory to (i) reproduce the Software in machine executable object code format only for installation on the Corio Servers; (ii) install multiple copies of the Software on Corio's Servers which will be made remotely accessible to Corio's Customers for their internal business purposes, (iii) permit limited access to and use of the Software by Customers through Corio Servers solely for such Customer's internal business purposes; (iv) sublicense an unlimited number of Customers to access and use the Software only through the installation on Corio Servers solely for such Customer's internal business purposes; and (v) use Changepoint's tools and utilities, if any, subject to any restrictions placed on the Changepoint by third party software providers and payment of any applicable fees required by such third parties, to configure, integrate and manage the Software.
+
+CLASSIFICATION:
+

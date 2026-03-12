@@ -1,0 +1,91 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Submissive Girls, Part II: More Fun With Submissive Girls**Submissive Girls, Part II: More Fun With Submissive Girls**
+
+Lets say you are a Confident, Dominant Guy and you are out and about in the Sexual Marketplace.  **You are looking for submissive girls and they are hoping you find them.**  Note I say they are hoping you find them.  Unhappily they dont wear little, feminine sub girl pins.  You have to do the work.  
+
+I have previously written about **[Submissive Women](https://archive.is/wdn37)** - How to lead when she wants to follow  and this post is a follow up about gaming submissive women.  
+So lets assume that you went back and re-read my first post on submissive girls, and you know some of the tells: Shes tall (more pronounced submission starts near 58 (172CM or so) and by 510 (178CM) it is a *LOCK*), shes feminine, shes intelligent, shes introverted, shes feminist (this can be a bit of a put on) and (one I didnt mention in the prior piece): she has a responsible job  under the current cultural narrative, women have to *reject* marriage and family and go work like men, only not as well, and with a lot more complaining about how hard they are working.  What we do as men isnt easy.  When they are expected to do the same thing they find it difficult (just as things they do in their natural roles would seem difficult, or at least a pain in the ass, to us.)  My primary slave girl is a doctor.  When shes at mine, the last thing she wants to do is have to make a decision.  If I take her out to dinner (Im an extrovert and sometimes like such things) I order for her off of the menu.  If the womens study major taking our order looks at her for confirmation she will say *He knows what I like.*  And I do.
+
+**Gaming Submissive Girls**
+
+Keep the vibe mildly subversive, and flirty, like its all in fun.  Try on some light teasing.  **Submissive girls are not always aware of their nature, but when they are, they are very often TERRIFIED of it, because they feel vulnerable, which is understandable.**  Many a truth was first spoken in jest.  You want to make her feel comfortable with you, so that her natural submissive nature will be easier for her to express.  Sometimes girls wind up feeling relieved.  
+
+If she shit test you over *Muh EQUALISM! or *Muh FEMINISM!*, simply say *I think the sexes each have roles to which they are better suited than the other.*  Then STFU.  If she pursue it you can go on with *Then why dont women take labor jobs at an equal rate as men?  Not many female plumbers, masons or construction workers  other than the occasional butch lesbian affirmative action hire who holds the SLOW sign?*    If she says  and sometimes they are totally blind to it - *But men are bigger and stronger and* You: *So you agree with me then that there are roles to which each sex is better suited.*  Then change the topic.  You have planted the seed that you are not the typical Male Feminist or Ally or whatever bullshit that is going to try and SIMP his way into her pussy.  Those things, along with being a Nice Guy^TM or a White Knight^TM are just alternative pussy-getting strategies that Do.Not.Work.  
+
+I do not hide my ~~Cro Mag~~ patriarchal views because I want feminine, submissive women to hear them, because those are the women I am interested in developing ongoing, mutually-pleasurable sexual relationships with.  I am usually quite good at *repartee* but if I am at a loss for words I say something that is sexist, but funny.  It cant be awful, like how women are shit, etc.  you shouldnt be thinking that at all, you should be finding girls who are your female complement  but it can be something like *You just reminded me why women should be FELT and not HEARD.*  
+
+*But Uncle Vasya!  Isnt that SEXIST?!*  Well, yes it is, but thats the point.  Women understand that, in male hierarchies, there is room for everyone, from the highest to the lowest  it is women who exclude, who ostracize, attack reputations etc.  so more often than not girls say things to me such as *You are arrogant, but in a good way,* or *I hate how much I like you!*  or better yet, *"No guy has ever talked to me like this before!"*  That is their Hamster telling me that Im on track  and that's the secret: **Some guys give it Hamster Chow; I give the Hamster cocaine.** Get them talking about their fantasies, put them into action. 
+ 
+**Chatting Her Up.**
+
+**Kino is Key.**  Physicalize things early.  Do not underestimate the power or touch.  One thing I will do when it is appropriate is to lift a girl up of her feet in a hug.  Sometimes I will do this with one arm.  I have had girls tell me they like it because they *know they are being held by a man.*  You are communicating with her hindbrain, and what you are telling it is, *I am a strong, masculine man.*  A woman who was my girlfriend in the Long Ago liked to be on the receiving end of bear hugs.  Like she wanted me to try and crush her-type bear hugs.  She flat out told me, *I like to feel how strong you are.*
+
+**Display dominance.**  If you are taking a girl out on a date you need to communicate two things to her: what time to be ready, and what the dress code is.  By this time, as I will have established my *bona fides* as a ~~sexist pig~~ patriarchal guy, I will say something like *So, I will be wearing {X}.  Dress how fashionable young ladies dress when men are wearing {X}.*^1  If a girl asks if you want help plan the date, squint like you just heard her say something silly and then say, *No.  I am the man, and you are the girl.  I will plan the date.*^2  Ive had girls say something like *Oh, thank God!*  Its a relief to them.  There is a societal narrative that they are supposed to be like little men, which neither they, nor we, should want.  
+
+I also will toss in, if Im feeling it, with respect to dress code: *And be sure to wear pretty underwear for me.* Now, bloopers and betafags will get the vapors and howl, *Eeww!  That is so CRINGE!!!* but thats why they are bloopers and betafags.  They shame men for doing Masculine Things.  Should those asshats be making up rules for you?  Fuck^NO!  You wanna know what that line results in most often?  Pretty underwear.  That I get to see.  And remove.  Except the one time that it resulted in no underwear, because that particular filly thought I might *like that better.*  Fair point to her.  It gets the hamster spinning, even if she says *Me no likey!* her Hamster is thinking, *What an asshole!  How dare he! I should put on my favorite, sexiest pair, just in case I want to flash him at dinner!*  Her hindbrain should have recognize you as a Masculine Man by this time and want to please you.  
+
+As an aside, Ive had some young TRPers say this over text to girls who then give them the *I just want to be clear that I am just coming over to Netflix and Chill as Friendsblah blah.*  The guys then reach out to me for advice  *What should I say?!*  the answer to which is (a) just ignore and reply *Sure.  Be here at 8pm* or whatever is topical, and (b) dont listen to what they say, watch what they do.  Those girls were just throwing up ASD, and the guys later closed via isolation and escalation.
+
+**The Coup De Grace**  If I find I am chatting up a real sub girl and I get her hamster spinning, I will drop this line on her.  If its public, I might whisper it in her ear:
+
+*I know your secret.*
+
+Then I STFU and let the hamster wheel spin.  Played correctly, this line *SLAYS*.  How so? She will immediately want to know, *What secret?!*  Give her a sly look and say, *You  know, your secret.*  She will continue to try to pry it out of you.  Say, *You know.  The one you have tried to hide all of your life.*  Later I will add, *But dont worry, {sing-song voice} Ill ne-ver te-ell {/sing-song voice}.*  {Discretion is, ofc, **MANDATORY**.}
+
+I have even had girls ask, me in a state of post-coital bliss, how I knew.  Me: *Little spoons dont ask questions.*^3  Another typical reply, *I am a hunter.  I know my prey.*  That makes the hindbrain send a jolt of electricity straight to the puss.  
+
+Now, there are certainly women who will not respond to this type of gaming either because they arent particularly submissive, have not come to terms with it, I am too old for them or I do not meet their SMV requirements.  Thats perfectly fine.  Im not trying to force a bad fit.  Nobody, least of all me, wants an **[Anna Karenina Problem](http://archive.is/2uHuU)**  I want to vet girls who I find attractive to find those who want the same things that I want.  Those that do not I am happy to release back into the SMP to go and find what they want.
+One of the more important things you have to learn is to find the Pool of Girls who are attracted to you and draw dates/plates/mates from that pool.  I don't try to "force" a bad match because I *reeeeeeally* want to bang a particular girl.  The key to that is abundance.  I am also not trying to project my own "Disney" fantasy onto a girl.  I vet them and the ones who I want to bang who are into what I'm into?  I simply give them what they want.  And to get it all that they have to give me is ... *everything.*
+
+**Takeaways**
+
+-Submissive girls are fun.
+
+-Vet your girls properly for their enjoyment and yours.  Keep the vibe flirty, fun and mildly subversive.
+
+-Not every girl is going to walk this path.  Release those back into the wild.  
+
+-With girls who dig this vibe, **[the Rewards Will Be Great](http://archive.is/09rQG).**
+
+-Your options will increase as you work to **[Become the Prize](http://archive.is/ZM7zX)**
+
+^1  In talking this over the modern dating environment with a woman I had met socially, but wasnt actively chatting up with an eye toward bedding, she responded to me saying essentially this is how I roll with *Wow.  Thats really dominant.* Her telling me that would be what is known in the investigation business as a clue.
+
+^2  Keep things loose, with some structure, but a back-up plan in case something changes (the weather sucks or whatever).  Dont over plan.  
+
+^3  Mild condescension is ok.  Going full-on Asshole is not likely going to get you over the goal line with the type of girl we are talking about.  Guys who say things like *I implemented TRP and now people think Im an asshole,* overdid.  Younglings havent learned to Wield The Power, yet.
+
+CLASSIFICATION:
+

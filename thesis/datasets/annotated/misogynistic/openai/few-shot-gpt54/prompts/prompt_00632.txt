@@ -1,0 +1,92 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+>1)In other words, reductive power point style lists, conduct manuals
+
+I agree. There's one other category I would add to this, the "feel good" posts that are generally written in a poetic, metaphoric style without conveying any useful information besides the "you should feel awesome and great" vibe that so many generic, often liberal, self-help writers tended to write after PUA got into mainstream and they had to sell their stuff with sleazy tactics like appealing to the emotions and storytelling - instead of letting the work defend itself. Few recent examples I could name is The next generation, Demonstrating unique value, Animus possesion, The case against PUA and Dich cold approach posts.
+
+
+>2)They want the male who has what others don't 
+
+That's not true at all. They want the male who other women want. For example women don't want the one eyed midget with hunchback, they want the rockstar which other women want. Being unique is NOT equivalent to being an alpha. 
+
+>3) and can thus disrupt the status quo
+
+No woman wants a man who disrupts status quo. As demonstrated by 3,5 billion women living today, they all want the rockstar, the famous actor, the famous athlete and so on - regardless of the woman's culture or economic background the same principles apply. Disrupting the status quo is not enough, you also need to become "famous for disrupting status quo". Otherwise the "status quo disruptor" without the "famous" part is just a party pooper no woman wants to associate herself with b/c he lowers her status. 
+ 
+
+>4) Beta Males are the status quo which is why their whole strategy is imitation
+
+> you are sexually reliant on imitating the mating strategies of other males
+
+That's not true at all. Here you're advocating for not hitting the gym and not lifting b/c it imitates the strategy of an athletic men that are successful with women thanks to being athletic. 
+
+
+Imitating what other men did is not the endgame, it's a tool. You look at what the best sprinters in the world did before you, you analyse their training patterns, their workouts, diet etc and then you create your own, tailored to your own needs. 
+
+
+If you want to learn how to write complicated intellectual posts you read complicated intellectual books. By reading enough of them and by understanding how and why authors wrote what they wrote you begin to develop your own understanding and by writing you develop your own style. Neither the understanding nor the style would be possible without the authors before you b/c you looked at what they wrote, adopted what you liked and added your own unique style to it. 
+
+IOW, do get creative but don't waste time reinventing the wheel.
+
+
+>5) When and why is it necessary to AMOG aka establish social dominance?
+
+
+Never if you don't have to. If you want to proactively AMOG some other dude it's only b/c he has higher social value than you and you want to take him down or the dude is threat to you (meaning he's there to steal your girls). There is absolutely no need to AMOG if you're the alpha of the set, if you're the most attractive or the most desired. 
+
+AMOGing for the sake of AMOGing (getting verbally or physically aggressive toward everyone all the time) is not attractive b/c it demonstrates lack of social intelligence and communicates you're an antisocial sperg. AMOGisn should be a tool not your personality.
+
+
+
+>6) No one accomplished anything meaningful without being hated on in the process, just ask Steve Jobs.
+
+Steve Jobs was the boss of the people who called him an asshole. IOW he paid them to do what he told them to do, however he told them is irrelevant b/c he's the boss and he's paying. The situation is different if you're not the boss, for example you are looking to get some capital from a venture or angel. Try being an asshole to VC and see how it works out. 
+
+If you have the power you can behave like an asshole and be famous for it, be forgiven for it sometimes even liked for it. If you don't have the power, you're just an asshole.
+
+
+> 7)A lot of men mistakenly believe that being Alpha is using cool tricks to feel confident.
+
+Nobody on TRP belives in that. This was true in 2005-ish PUA days and got corrected on TRP a long time ago.
+
+>8) Alpha males don't act confident; they are confident because they defeated beta males in competition.
+
+This is not true. An alpha BECOMES an alpha when he "defeats" his competition. By definition her orbiters (men she's won't fuck) are not your competition, the other men she's fucking are. Since she already knows they are beta, you're not competing with them you're mentally masturbating about how cool you are and how the orbiters are not. This is pointless behaviour reminiscent of incels hating on guys who fuck.
+
+If you want to meat your real competition do this (joke/no joke): next time a plate sends you "i wanna fuck" text, respond with "dont have time". Then stalk her and see who she's fucking besides you. 9/10 is some scrub badboy/bordeline junkie who is just chill as fuck and has good vibe women enjoy. And that's b/c while working on your looks is important part of the sexual strategy, it's not the only one that matters.
+
+For more in depth explanation read Rollo's The Rational Male.
+
+CLASSIFICATION:
+

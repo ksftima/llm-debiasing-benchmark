@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Exclusive Roundup Sale Period, neither Monsanto nor any of its Affiliates shall, directly or indirectly through its or their agents, employees or representatives or otherwise, solicit, or cause the solicitation of, or in any way encourage the making of, any offer, proposal or indication of interest involving a Roundup Sale or negotiate with, respond to any inquiry from (except for "no comment" or another statement agreed to by the Agent), cooperate with or furnish or cause or authorize to be furnished any information to, any third party or its agents, employees or representatives with respect thereto, or disclose to any third party that a Roundup Sale Notice has been provided to the Agent.
+
+CLASSIFICATION:
+ 

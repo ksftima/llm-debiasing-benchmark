@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do familiar teammates request and accept more backup? The present study investigated factors that explain when and why different groups of teammates are more likely to request and accept backup from one another when needed in an environment characterized by extreme time pressure and severe consequences of error: commercial air traffic control (ATC). Transactive memory theory states that teammates develop consensus regarding the distribution of their relative expertise as well as confidence in that expertise over time and that this facilitates coordination processes. The present study investigated whether this theory could help to explain between-team differences in requesting and accepting backup when needed. The present study used cross-sectional data collected from 51 commercial ATC teams. Hypotheses were tested using multiple regression analysis. Teammates with greater experience working together requested and accepted backup from one another more than those with lesser experience working together. Teammate knowledge consensus and perceived team efficacy appear to have mediated this relationship.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Both Parties agree that Party A shall license the Program Content required in Party B Business to Party B, and Party B shall accept the services provided by Party A, to the extent, at the time or times, and in the manner as agreed to by the Parties herein.
+
+CLASSIFICATION:
+ 

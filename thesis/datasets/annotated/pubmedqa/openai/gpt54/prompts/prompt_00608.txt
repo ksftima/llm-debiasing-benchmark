@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Sternal skin conductance: a reasonable surrogate for hot flash measurement? This study aims to examine the accuracy of a new sternal skin conductance (SSC) device in measuring hot flashes and to assess the acceptability of the device by women. Three small descriptive pilot studies were performed using two sequential prototypes of the SSC device developed by an engineering device company in the Midwest. The devices were worn either in a monitored setting for 24 hours or in an ambulatory setting for 5 weeks. During the study period, women recorded hot flashes in a prospective hot flash diary and answered questions about the acceptability of wearing the SSC device. The first prototype was not able to collect any analyzable skin conductance data owing to various malfunction issues, including poor conductance and battery failure. However, 16 women wore the device for 5 weeks and reported that wearing the device was acceptable, although 31% stated that it interfered with daily activities. Hot flash data from the second prototype revealed a 24% concordance rate between self-reported and device-recorded hot flashes.
+
+CLASSIFICATION: 

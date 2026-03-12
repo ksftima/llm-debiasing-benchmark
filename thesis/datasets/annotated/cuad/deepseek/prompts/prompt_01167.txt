@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term (including any renewal Term, if any), in the event that MusclePharm shall determine to develop and introduce a new Product into the market, MusclePharm shall provide the AS Parties with a sample of the name, design, marketing plan and an actual sample of such new Product (the "Sample") and the AS Parties shall have a right of first refusal (exercisable by written notice to MusclePharm within 15 days after receipt of the Sample) to include such new Product in the AS Product Line, it being understood that there shall initially be no less than four (4) Products at the start of the Term and thereafter no more than 8 (eight) Products in the AS Product Line without the mutual written agreement of the parties hereto.
+
+CLASSIFICATION:
+ 

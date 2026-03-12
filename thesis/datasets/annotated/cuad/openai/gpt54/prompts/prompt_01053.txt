@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+We may immediately terminate this Agreement on notice to you and without any opportunity to cure the default if:<omitted>14.2.10 you, your Affiliate or a Guarantor become a Competitor except as otherwise permitted by Subsection 5.1.15;
+
+CLASSIFICATION:
+ 

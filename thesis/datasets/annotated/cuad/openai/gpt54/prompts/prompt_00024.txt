@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Aimmune covenants that it will not research or develop (including Develop) the Antibody itself, including not developing any modification, variant, fragment, progeny or derivatives of such Antibody, in each case, in a way that would produce a molecule that is neither the Antibody nor a molecule that falls within the definition of a Product.
+
+CLASSIFICATION:
+ 

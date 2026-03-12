@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+ACSI hereby grants to Company, during the Term, a non- exclusive, non-transferable (except in accordance with Section 11.7 [Assignment]) license, which Company may sublicense only to its Affiliates, to use the ACSI Intellectual Property supplied by ACSI to Company as is reasonably necessary to perform its obligations under this Agreement; provided, however, that Company shall not use ACSI's Trademarks, including in any advertising, without ACSI's prior written consent, unless such use conforms to a written Trademark use policy previously furnished by ACSI to Company and not subsequently modified or revoked.
+
+CLASSIFICATION:
+ 

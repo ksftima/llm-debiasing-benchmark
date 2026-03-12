@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can static foot posture measurements predict regional plantar surface area? The intent of this study was to determine if the use of a single or combination of static foot posture measurements can be used to predict rearfoot, midfoot, and forefoot plantar surface area in individuals with pronated or normal foot types. Twelve foot measurements were collected on 52 individuals (mean age 25.8 years) with the change in midfoot width used to place subjects in a pronated or normal foot mobility group. Dynamic plantar contact area was collected during walking with a pressure sensor platform. The 12 measures were entered into a stepwise regression analysis to determine the optimal set of measures associated with regional plantar surface area. A two variable model was found to describe the relationship between the foot measurements and forefoot plantar contact area (r(2)=0.79, p<0.0001). A four variable model was found to describe the relationship between the foot measurements and midfoot plantar contact area (r(2)=0.85, p<0.0001) in those individuals with a 1.26cm or greater change in midfoot width.
+
+CLASSIFICATION: 

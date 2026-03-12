@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Early Termination Fee" means that amount equal to the most recent month's Promotion Fee prior to termination, multiplied by the number of unexpired months remaining in the current year of the Agreement.<omitted>If MBRK terminates the Agreement in years 2 or 3 prior to the period 60 days before the anniversary date, then MBRK will pay DD only the Early Termination Fee.
+
+CLASSIFICATION:
+ 

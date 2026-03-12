@@ -1,0 +1,43 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I got banned from r/suicidewatch for talking about this. Im suicidal because im a disgusting slut.I got banned from r/suicidewatch for talking about this.
+
+Im suicidal because im a disgusting dirty and gross whore. Im only aroused sexually by beautiful men. No matter where I talk about this I get banned or silenced because its that pathetic and gross. My last post got removed by a moderator and I was told I didnt seem suicidal enough. Im a cutter and i one time have to have 100 stitches at the hospital in my left arm. For anyone who doesnt think im suicidal enough or serious i have razors i can take pictures of to prove that i am. You are welcome to message me about it.
+
+For context here's a bit about why ive been getting banned:
+
+I've been reading a lot on reddit about dating & attraction lately. A lot of men keep telling me that most women are able to be aroused by ugly men so long as those men say & do the right things. I am not this way though. I just like beauty. My question is: is this how most women are?
+
+Ive been trying to talk about this on various subreddits and getting banned.
+
+The first subreddit I tried talking about my love of beauty on was [r/cuckoldpsychology](https://www.reddit.com/r/cuckoldpsychology/) and got banned.
+
+Then I tried posting about it on [r/purplepilldebate](https://www.reddit.com/r/purplepilldebate/) and also got banned.
+
+When asked why I was banned they cited a comment of mine where I'm talking about good looks being a key component to attraction. I got banned for it then muted when trying to talk about it with mods. Do mods hate female sexuality??? Here's my conversation with the mods, as well as the comment that I made: [https://m.imgur.com/8SLxF6f](https://m.imgur.com/8SLxF6f)
+
+So that brings me to my question: **are most women like me and they get aroused by beauty?**
+
+I always just considered this a part of my sexuality? Is it wrong or dirty?
+
+# &
+
+Do women hate other women for their sexuality? I ask because I got banned from [r/askwomen](https://www.reddit.com/r/askwomen/) for asking about my sexuality & *if it was normal for women to love beauty*. I was told that it was not an appropriate question. When I asked if it was appropriate to talk about sex I was muted.
+
+[Here's my conversation with the moderator.](https://i.imgur.com/kZkii4a.png)
+
+CLASSIFICATION:
+

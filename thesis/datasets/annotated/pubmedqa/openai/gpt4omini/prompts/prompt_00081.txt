@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Aripiprazole: a new risk factor for pathological gambling? It is commonly accepted that pathological gambling results from the interaction of multiple risk factors. Among these, dopamine replacement therapy (DRT) prescribed for Parkinson disease can be cited. Another dopamine agonist, aripiprazole, could be a new risk factor. We decided to explore this potential adverse drug reaction (ADR). Based on a cohort of 166 pathological gamblers starting treatment in our department, data of each of the 8 patients treated by aripiprazole at inclusion were analyzed. The patients involved were schizophrenic or bipolar, mostly young men with a history of addictive disorders and regular gambling prior to the prescription of aripiprazole. For each one of them, the causality of aripiprazole was considered, using an algorithm. The probability that pathological gambling is actually due to aripiprazole is "possible" in 7 cases out of 8, and "doubtful" in one.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event ExxonMobil notifies FCE that it has formally decided not to pursue Generation 2 Technology for Carbon Capture Applications, then upon FCE's written request, ExxonMobil agrees to grant to FCE, under commercially reasonable terms to be determined in good faith, a worldwide, royalty-bearing (with the royalty to be negotiated), non- exclusive, sub-licensable, right and license to practice ExxonMobil Background Information and ExxonMobil Background Patents for Generation 2 Technology in any application outside of Power Applications and Hydrogen Applications. More particularly, said right and license to practice ExxonMobil Background Information and ExxonMobil Background Patents for Generation 2 Technology in any application outside of Power Applications includes the right to use, reproduce, and create derivative works of ExxonMobil Background Information under applicable copyrights and the right to make, use, import, and sell or offer to sell under the claims of ExxonMobil Background Patents.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If, for any reason, [***], both Microgenics and the Back-up Supplier (as applicable) are unable to supply the Assay in quantities sufficient to meet the quantities of the Assay either (a) as set forth in each applicable Binding Forecast or (b) based on such other measure of commercial demand as agreed to by the Parties in writing, in either case, during any given [***] ([***]) month period for a given country in the Territory, then Microgenics hereby grants Achaogen or its designee a Shortfall License, which license shall survive until [***] ([***]) months following the date that either Microgenics or the Back-up Supplier (as applicable) is in a position again to fulfill such demand (as such positioning is demonstrated [***]) (the "Supply Resumption Date").
+
+CLASSIFICATION:
+ 

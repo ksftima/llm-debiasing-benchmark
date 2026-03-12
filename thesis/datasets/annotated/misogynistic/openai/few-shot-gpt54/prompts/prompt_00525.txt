@@ -1,0 +1,47 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+My biggest fear of cold approach wasn't rejection, it was about the judgments of everyone else because it made me question my own value system and identity. I've come to a conclusion which ended up solving the main anxiety that I had for approaching.If a girl rejects me, it doesn't really phase me. I just laugh. This has always been the case for me. My biggest issue was with the judgments of those around because of my own life experiences. The reason is because I've lived with women my whole life, so I was left stuck in this weird place where I'd see the lack of calibration and empathy from pickup infields, and it made me really question my identity in pursuing pickup. I have no room to judge, but that's just how I genuinely feel about it. Even ToddV who seems like a cool dude and one of the better PUAs, when I've seen some of his older infields, the approaches were VERY persistent. Like it wasn't just a "shit test", the girl was straight up like "fuck off" and he's trying to frame it like she's playing hard to get. Even if she was, why would you want to be around someone like that? The chick clearly has issues.
+
+It's so evident to me because I'm so used to being around women throughout my life. Even back in high school, I was so used to being around women that I'd be flirting with tons of chicks while thinking that we were just being friendly the whole time. Then I'd have all these chicks into me without knowing how to escalate. The issue is that because I had that perspective, it made things 10x harder since any time I took a risk, it would be a reminder of my experience with sisters and I would project how it would be like if someone approached my sisters in that way. Like if my sister was walking in the street and some dude saw her, then ran back all the way just to do a calculated stance in front of her to pick up her up in middle of the street, I would view the dude as a bit weird ngl. And I know that she would too. This isn't one of those "don't listen to what girls say, see what they do".  This isn't my sisters who'd tell me this. This me seeing how they and other girls react to it. And it's even obvious in the infield. The girl has uncomfortable af body language, and usually the ones who go with these types of approaches tend to be bar chicks or very insecure and don't socially "get it".  I've realized that both guys and girls have this, but we have different levels of social awareness. You could pull 1/10 of the chicks you approach, but you're pulling in the same way you're approaching based on what they're willing to accept based on your emotional understanding of the world. There's so much more going on behind the scenes. You can still find success in it if you're looking for a lay with anyone, but you're literally being a gremlin to everyone around and not considering their needs. Like for me personally, it's straight up lacking in compassion.
+
+The only times that it works with an actually cool chick is when the approach is genuine. Like you actually give a fuck about who they are. Maybe not in a club, but how many of those chicks respect themselves? Not many, from what I've seen. I've been approached by chicks before where they approached in a smooth way and I was into it. They didn't say "excuse me real quick, i think you're cute and yada yada yada". They would do a cold-read, qualify and gage a bit while having casual body language, then maybe throw in some teasing or flirting or whatever else throughout the interaction. The push-pull happened naturally from them being honest about their likes and dislikes. And they knew how to relate the conversation to the situation at hand. It's so natural and they don't even feel like strangers anymore. And when I say genuine, I don't mean the "genuine" that is thrown around with no actual context, but I mean like "this is me, love it or hate it, who are you, are you in and are you worth it?". 
+
+Now if it was someone in a coffee shop or at a bus stop, where you go in indirectly (and slowly build up to direct within the same interaction by creating premise) while building some rapport, then leading into teasing then that's a whole other story. Even the best salesmen do this. They build some rapport first and then they go for the sale. Sure, you need to make the chick nervous, but it's the nervousness that comes with a new interaction. Just good body language and eye contact creates sexual tension. That seems like normal game. Like I've only done a few cold approaches, but there's a reason for it. Internally, I wasn't able to morally justify it. Going up and running after a chick to say a direct approach when I don't know them is uncalibrated. You can frame it how you want about the "lucky one who wants a compliment", but you're basically a salesmen who's chasing people around, rather than being calibrated about it. Just throwing negs and shit and all this other weird pua bs outside of what's taught in "models" seems like the guide for someone who's never been around women or doesn't have that empathy perspective or social awareness. It confuses me when I see people on here who aren't aware of it. I'm not trying to make the awareness of it seem special, but it's so CLEAR that it confuses me when the people I see doing PUA don't notice it. 
+
+I know I went hard with all that I wrote, but regardless, I'll admit that I can't come to any conclusion until I actually do at least 100-200 cold approaches. And since I don't have asbergers, I trust that I'll be able to learn from mistakes rather than just repeat them and blame everyone else but myself. But, I'm not going to chase after a girl on the street. I'm either going to approach a chick who's stopped, or walking past me (but not chase after them). If a girl has a boyfriend, I'm also not going to pursue them (except I might try to continue the convo because I'm interested in the person's perspective or life experiences). That way, morally, I can be okay with myself and know that even if others judge me or I get blasted in public, I know that I'm a compassionate person and that's all that matters. This is what stopped me from approaching before. Others' judgments were a reflection on my own lack of respect for myself in doing the typical type of cold approach.
+
+TL;DR I realized that I had to try it out before coming to any conclusions. On the other hand, I STILL think that genuine approach is king. But indirect leading into direct within the same first interaction. Not lying, but being aware of the surroundings since they don't know me. And approaching in a way that I can be proud of. Because if I'm not proud of it, others' judgments will always affect me. Then, if I get blown out, or people judge me hard, idgaf because I know that I was being considerate and at that point it's their issue. If anything, I'm living rent-free in their head.
+
+CLASSIFICATION:
+

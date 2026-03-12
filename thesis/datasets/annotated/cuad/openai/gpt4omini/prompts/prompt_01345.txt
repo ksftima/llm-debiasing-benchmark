@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement, neither party may assign, or transfer its rights and obligations under this Agreement in whole or in part, without the prior written consent of the other party.
+
+CLASSIFICATION:
+ 

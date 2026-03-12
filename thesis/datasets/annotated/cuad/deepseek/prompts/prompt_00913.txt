@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The rights of Developer under this Agreement shall immediately cease and be terminated upon the sale or transfer of all or substantially all of the assets of Developer unless an assignment of such rights pursuant to such sale or transfer has been previously approved in writing by DSS.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does pain intensity predict a poor opioid response in cancer patients? A secondary analysis of one-hundred-sixty-seven patients referred for treatment of cancer-related pain was conducted. Pain intensity at admission was recorded and patients were divided in three categories of pain intensity: mild, moderate and severe. Patients were offered a treatment with opioid dose titration, according to department policy. Data regarding opioid doses and pain intensity were collected after dose titration was completed. Four levels of opioid response were considered: (a) good pain control, with minimal opioid escalation and without relevant adverse effects; (b) good pain control requiring more aggressive opioid escalation, for example doubling the doses in four days; (c) adequate pain control associated with the occurrence of adverse effects; (d) poor pain control with adverse effects. Seventy-six, forty-four, forty-one and six patients showed a response a, b, c, and d, respectively. No correlation between baseline pain intensity categories and opioid response was found. Patients with response 'b' and 'd' showed higher values of OEImg.
+
+CLASSIFICATION: 

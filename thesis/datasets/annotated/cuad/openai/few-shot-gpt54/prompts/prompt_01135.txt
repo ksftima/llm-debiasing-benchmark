@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+After the Commencement Date, RCP shall, and shall cause its Affiliates to, until the 7th anniversary of the date on which RGHL or its Affiliates owns less than 10% of the capital stock in RCP, afford to RGHI and its employees and authorized representatives reasonable access to RCP's employees and auditors, retain all books, records (including accountant's work papers), and other information and documents pertaining to the Business in existence on the Commencement Date and make available for inspection and copying by RGHI (at RGHI's expense) during normal business hours, in each case so as not to unreasonably interfere with the conduct of the business of RCP and its Affiliates, such information (A) as may be required by any Governmental Authority, including pursuant to any applicable Law or regulatory request or to prepare or file any Tax related documentation, (B) as may be necessary for RGHI or its Affiliates in connection with their ongoing financial reporting, accounting or other purpose related to RGHI and Company's affiliation immediately prior to the Commencement Date, or (C) as may be necessary for RGHI or its Affiliates to perform their respective obligations pursuant to this Agreement or in connection with any Litigation (other than any Litigation involving a dispute between the parties), in each case subject to compliance with all applicable privacy Laws.
+
+CLASSIFICATION:
+

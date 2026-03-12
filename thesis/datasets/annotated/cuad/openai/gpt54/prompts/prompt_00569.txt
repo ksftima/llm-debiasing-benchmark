@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+FMI hereby grants to Roche (i) an exclusive, royalty-free, sublicensable, worldwide and perpetual license to any intellectual property rights arising from the ctDNA Development Platform Program that are necessary for Roche to develop, make, have made, use, offer for sale, sell, import and commercialize Roche products other than diagnostic products (including the use, formulation, methods of treatment, clinical data or other data, information or results relating to the Roche therapeutic product) solely for use in connection with such activities and such Roche products and (ii) a non-exclusive, royalty-free, worldwide and perpetual license, with the right to grant sublicenses solely to Roche Affiliates, to any intellectual property rights arising from the ctDNA Development Platform Program, for internal research purposes.
+
+CLASSIFICATION:
+ 

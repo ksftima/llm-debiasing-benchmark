@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement and for a period of two (2) years after expiration or termination for any reason of this Agreement, Maimon agrees not to: (a) compete with the business of the Company, whether individually or through any entity, or to use (or permit the use of) any Confidential Information, directly or indirectly, for the purpose of competing with the business of the Company;
+
+CLASSIFICATION:
+ 

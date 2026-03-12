@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, PACIFICAP ENTERTAINMENT hereby grants to THE HENRY FILM AND ENTERTAINMENT CORPORATION, under PACIFICAP ENTERTAINMENT'S full ownership and or fully authorized licensing Rights of Content (a) A 10 year exclusive, worldwide license to use, modify, reproduce, distribute, display and transmit any and all PACIFICAP ENTERTAINMENT nostalgic television show library Content.
+
+CLASSIFICATION:
+ 

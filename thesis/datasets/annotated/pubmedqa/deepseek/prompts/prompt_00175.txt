@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are Biochemical Markers of Bone Turnover Representative of Bone Histomorphometry in 370 Postmenopausal Women? The levels of bone formation and resorption can be assessed at the tissue level by bone histomorphometry on transiliac bone biopsies. Systemic biochemical markers of bone turnover reflect the overall bone formation and resorption at the level of the entire skeleton but cannot discriminate the different skeletal compartments. Our aim was to investigate the correlations between the serum biochemical markers of formation and resorption with histomorphometric parameters. We performed post hoc analysis of a previous clinical study. Patients were selected from the general population. A total of 371 untreated postmenopausal osteoporotic women aged 50 to 84 years with a lumbar T-score ≤ -2.5 SD or ≤ -1 SD with at least one osteoporotic fracture. Transiliac bone biopsies were obtained after a double tetracycline labeling, and blood samples were collected. The static and dynamic parameters of formation and bone resorption were measured by histomorphometry. Serum biochemical markers of formation (bone alkaline phosphatase [ALP]; procollagen type I N-terminal propeptide [PINP]) and resorption (C-terminal crosslinking telopeptide of collagen type 1 [sCTX]) were assessed. The mean values of biochemical markers were: bone ALP, 15.0 ± 5.2 ng/mL; PINP, 56.2 ± 21.9 μg/mL; and sCTX, 0.58 ± 0.26 ng/mL. Bone ALP and PINP were significantly correlated with both the static and dynamic parameters of formation (0.21 ≤ r' ≤ 0.36; 0.01 ≥ P ≥ .0001). sCTX was significantly correlated with all resorption parameters (0.18 ≤ r' ≤ 0.24; 0.02 ≥ P ≥ .0001).
+
+CLASSIFICATION: 

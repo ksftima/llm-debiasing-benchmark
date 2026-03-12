@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Background": All knowledge, information and intangible assets protected under national Law System and international intellectual and industrial property laws and regulations, created or otherwise obtained by a Party prior to the begin of the activity covered by this Agreement.<omitted>Notwithstanding the foregoing, the Parties shall grant each other, free of charge, a non-exclusive right to use their respective Backgrounds in connection with the activities which will be carried out by this JV and by reason of their execution.
+
+CLASSIFICATION:
+ 

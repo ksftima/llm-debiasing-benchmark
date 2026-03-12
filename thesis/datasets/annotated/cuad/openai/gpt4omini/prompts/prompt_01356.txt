@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Commerce One hereby grants to Corio a nonexclusive, nontransferable (except in accordance with Section 14.1 of this Agreement) royalty-free, fully paid up right and license in the Territory, on Corio Servers, to make a reasonable number of copies of the Demonstration Software solely for demonstration purposes to potential Customers.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree to use the Marks as the sole trade identification of the Franchise, except that you will display at the Franchise location a notice, in the form we prescribe, stating that you are the independent owner of the Franchise pursuant to a Franchise Agreement with us.
+
+CLASSIFICATION:
+ 

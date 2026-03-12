@@ -1,0 +1,24 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I felt brainwashed twiceAfter a devastating breakup resulting in my ex spinning plates, abusing and moving on. 
+I saw myself swallowing the red pill , black pill whole which changed my perspective completely. Saw myself hating women, even the ones who are good to me...
+
+I became overly critical , analytical now I can't stop but I want to. I'm sick of this shit. Ignorance was bliss, becoming red pilled depressed the fuck out of me.
+
+Anyone who's felt this , would appreciate your help
+
+CLASSIFICATION:
+

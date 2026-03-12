@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+yeah, if i had to guess youre probably right. they're just upset they dont get every single thing handed to them like stacy. imo it's just as annoying as the normie inkwells that bitch and whine about female hypergamy because they cant accept that stacy is way out of their league and doesnt want them. i have only seen one femcel ever post her face, and poor girl was young and definitely severely mentally ill. the comments ripped her apart  joking about how ugly she was (this was in r/theglowup btw). real femcels dont post their face.
+
+CLASSIFICATION:
+

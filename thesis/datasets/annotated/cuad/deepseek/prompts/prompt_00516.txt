@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective upon the effective date of termination, Ono hereby assigns and shall cause to be assigned to Array all worldwide rights in and to (i) any Product Trademarks specific to one or more Products that Ono or any of its Affiliates used in connection with Product(s), and (ii) all Internet domain names incorporating the applicable Product Trademark(s) or any variation or part of such Product Trademark(s) as its URL address or any part of such address, for domains outside the Array Territory.
+
+CLASSIFICATION:
+ 

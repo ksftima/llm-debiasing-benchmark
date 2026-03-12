@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the period ending on the fifth anniversary of the expiration of the fiscal year during which the closing of the transactions contemplated hereby occurs, the Company will furnish to the Agent (i) as soon as publicly available, a copy of each report or other document of the Company furnished generally to stockholders of the Company or furnished to or filed with the Commission under the Exchange Act or any national securities exchange or system on which any class of securities of the Company is listed, and (ii) from time to time, such other information concerning the Company as the Agent may reasonably request.
+
+CLASSIFICATION:
+ 

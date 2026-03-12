@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can we predict urinary stone composition based on an analysis of microelement concentration in the hair and urine? In recent years the role of trace elements in lithogenesis has received steadily increasing attention. This study was aimed to attempt to find the correlations between the chemical content of the stones and the concentration of chosen elements in the urine and hair of stone formers. The proposal for the study was approved by the local ethics committee. Specimens were taken from 219 consecutive stone-formers. The content of the stone was evaluated using atomic absorption spectrometry, spectrophotometry, and colorimetric methods. An analysis of 29 elements in hair and 21 elements in urine was performed using inductively coupled plasma-atomic emission spectrometry. Only a few correlations between the composition of stones and the distribution of elements in urine and in hair were found. All were considered incidental.
+
+CLASSIFICATION: 

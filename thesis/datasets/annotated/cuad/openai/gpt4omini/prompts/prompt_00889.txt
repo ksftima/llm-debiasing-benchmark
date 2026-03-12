@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon termination of the Project by ArTara this Agreement will terminate subject to Section 8.3 and ArTara will reassign to University the IND if assignment thereof previously occurred pursuant to Section 4.3.
+
+CLASSIFICATION:
+ 

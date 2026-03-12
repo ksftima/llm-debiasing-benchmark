@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In consideration of the Approval Payments to be made under this Agreement (if and to the extent applicable), and in further consideration of the payment by PB to SFJ of [***], SFJ shall sell and transfer to PB, and PB shall acquire from SFJ, the sole and exclusive ownership, even as to SFJ, of the Trial Data Package including all Research Results as set forth below in this Section 11.1.1.4.
+
+CLASSIFICATION:
+ 

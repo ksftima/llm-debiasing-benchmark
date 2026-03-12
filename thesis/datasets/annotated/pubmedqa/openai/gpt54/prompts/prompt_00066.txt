@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does a colonoscopy after acute diverticulitis affect its management? Medical records of 220 patients hospitalized for acute diverticulitis between June 1, 2002 and September 1, 2009 were reviewed. Acute diverticulitis was diagnosed by clinical criteria and characteristic CT findings. Fifteen patients were excluded either because of questionable CT or hematochezia. Mean age was 61.8±14.3 years (61% females). Clinical parameters, laboratory results, imaging, endoscopic and histopathological reports, and long-term patients' outcome were analyzed. One hundred patients (aged 61.8±13.3 y, 54.1% females), underwent an early (4 to 6 wk) colonoscopy after hospital discharge. There were no significant differences in patients' characteristics or survival between those with or without colonoscopy (4±1.9 vs. 4.2±2.1 y, P=0.62). No colonic malignancy was detected. However, in 32 patients (32%) at least 1 polyp was found. Only 1 was determined as an advanced adenoma. No new or different diagnosis was made after colonoscopy.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee, and Licensee hereby accepts from Licensor, an exclusive, non-transferable (except as set forth in Section 10.7) and non-sublicensable (except as provided in Section 2.1(c)) license to use the Licensed Content in connection with websites associated with the Licensed Domain Names until the earlier of (i) termination or expiration of this Agreement, or (ii) termination or expiration of the Agency Agreement, provided, however, that in the event the Agency Agreement is amended or restated, such amendment or restatement shall not be deemed a termination or expiration of the Agency Agreement.
+
+CLASSIFICATION:
+ 

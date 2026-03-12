@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Three-dimensional ultrasound-validated large-core needle biopsy: is it a reliable method for the histological assessment of breast lesions? The use of three-dimensional (3D) ultrasound may help to determine the exact position of the needle during breast biopsy, thereby reducing the number of core samples that are needed to achieve a reliable histological diagnosis. The aim of this study was to demonstrate the efficacy of 3D ultrasound-validated large-core needle biopsy (LCNB) of the breast. A total of 360 core needle biopsies was obtained from 169 breast lesions in 146 patients. Additional open breast biopsy was performed in 111 women (127/169 breast lesions); the remaining 42 lesions were followed up for at least 24 months. 3D ultrasound visualization of the needle in the postfiring position was used to classify the biopsy as central, marginal or outside the lesion. Based on this classification it was decided whether another sample had to be obtained. A median of two core samples per lesion provided for all the lesions a sensitivity for malignancy of 96.9%, specificity of 100%, false-positive rate of 0% and false-negative rate of 3.1%, and for the excised lesions a sensitivity of 96.5%, specificity of 100%, false-positive rate of 0%, false-negative rate of 3.5% and an underestimation rate of 3.4%.
+
+CLASSIFICATION: 

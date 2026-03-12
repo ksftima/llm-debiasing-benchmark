@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+A representative of BKC who shall make not less than two (2) one day visits to Poland per annum to provide the Franchisee with any requested reasonable operations or marketing guidance and advice.
+
+CLASSIFICATION:
+ 

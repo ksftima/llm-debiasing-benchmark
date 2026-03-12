@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither Calm nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products in any retail location located in an airport other than in collaboration with XSPA, without the express prior written consent of XSPA.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the investing layer of the deep cervical fascia exist? The placement of the superficial cervical plexus block has been the subject of controversy. Although the investing cervical fascia has been considered as an impenetrable barrier, clinically, the placement of the block deep or superficial to the fascia provides the same effective anesthesia. The underlying mechanism is unclear. The aim of this study was to investigate the three-dimensional organization of connective tissues in the anterior region of the neck. Using a combination of dissection, E12 sheet plastination, and confocal microscopy, fascial structures in the anterior cervical triangle were examined in 10 adult human cadavers. In the upper cervical region, the fascia of strap muscles in the middle and the fasciae of the submandibular glands on both sides formed a dumbbell-like fascia sheet that had free lateral margins and did not continue with the sternocleidomastoid fascia. In the lower cervical region, no single connective tissue sheet extended directly between the sternocleidomastoid muscles. The fascial structure deep to platysma in the anterior cervical triangle comprised the strap fascia.
+
+CLASSIFICATION: 

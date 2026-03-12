@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Either Party may terminate this Agreement upon ten Business Day's Notice to the other Party in the event the other Party contests or challenges to a material degree any of the other Party's Intellectual Property rights referred to in Sections 5.1, and 5.3, respectively.
+
+CLASSIFICATION:
+ 

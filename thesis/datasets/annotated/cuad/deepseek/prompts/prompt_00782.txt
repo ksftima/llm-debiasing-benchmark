@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Thereafter, HEMISPHERX shall purchase from the SCIEN all remaining stock of Product that is of merchantable quality at the same price as was paid by SCIEN.
+
+CLASSIFICATION:
+ 

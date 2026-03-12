@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is intraoperative neuromonitoring associated with better functional outcome in patients undergoing open TME? Intraoperative neuromonitoring (IONM) aims to control nerve-sparing total mesorectal excision (TME) for rectal cancer in order to improve patients' functional outcome. This study was designed to compare the urogenital and anorectal functional outcome of TME with and without IONM of innervation to the bladder and the internal anal sphincter. A consecutive series of 150 patients with primary rectal cancer were analysed. Fifteen match pairs with open TME and combined urogenital and anorectal functional assessment at follow up were established identical regarding gender, tumour site, tumour stage, neoadjuvant radiotherapy and type of surgery. Urogenital and anorectal function was evaluated prospectively on the basis of self-administered standardized questionnaires, measurement of residual urine volume and longterm-catheterization rate. Newly developed urinary dysfunction after surgery was reported by 1 of 15 patients in the IONM group and by 6 of 15 in the control group (p = 0.031). Postoperative residual urine volume was significantly higher in the control group. At follow up impaired anorectal function was present in 1 of 15 patients undergoing TME with IONM and in 6 of 15 without IONM (p = 0.031). The IONM group showed a trend towards a lower rate of sexual dysfunction after surgery.
+
+CLASSIFICATION: 

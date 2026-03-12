@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Franchisee agrees and grants to Pretzel Time and its Affiliates a perpetual and worldwide right to use and authorize other Pretzel Time Units or other food service businesses operated by Pretzel Time or its Affiliates, franchisees and designees to use such ideas, recipes, formulas, concepts, methods, and techniques relating to the development and/or operation of a dessert or snack food business.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+For the Monetary Policy Committee (MPC) at the Bank of England, they find heterogeneous views among voters, but no systematic differences based on whether the MPC member is an insider--that is part of the hierarchy at the Bank--or an outsider appointed for a short term just to the MPC; whether the person comes from an academic background; or whether that person has worked at the Treasury.
+
+CLASSIFICATION:

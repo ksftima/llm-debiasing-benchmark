@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 14.1.1, title to all inventions and other intellectual property made related to (i) the Development Program, (ii) the Lead Compounds, (iii) FG Technology or FG Confidential Information, (iv) the Field, or (v) the Expanded Field (subsections 14.1(i)-(v), collectively, the "Protected Field") shall be owned by or is hereby assigned to FG; provided, however that Astellas shall own inventions of general applicability relating solely to drug delivery systems created exclusively by Astellas under subsection 14.1(i), excluding inventions related to or based on subsections 14.1(ii), (iii), (iv), or (v), and provided, further, that Astellas hereby grants to FG a worldwide, fully paid non-exclusive license with the right to sublicense to practice such inventions with respect to the FG Technology.
+
+CLASSIFICATION:
+ 

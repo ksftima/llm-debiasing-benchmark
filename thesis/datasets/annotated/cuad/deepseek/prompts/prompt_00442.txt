@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In no way expanding the foregoing license, said license in no manner permits Vendor to (and Vendor hereby promises not to without the explicit prior written and signed consent of AT&T Intellectual Property, LLC ("ATTIP Consent")) make use of any AT&T Provided Items, Paid- For Development or AT&T Intellectual Property Rights either for the benefit of any third party or other than as instructed in writing by AT&T (AT&T may be willing, in its sole discretion, to grant ATTIP Consent in exchange for appropriate additional compensation).
+
+CLASSIFICATION:
+ 

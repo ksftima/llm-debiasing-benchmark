@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The term ("Term") of this Agreement shall be for one hundred eighty days (180) from the date set forth below unless Network 1 or Visa or MasterCard or Harris Bank doesn't approve Affiliate's ISO application, in which case, the Term will be 3 years.
+
+CLASSIFICATION:
+ 

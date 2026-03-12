@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the supply price for Product proposed by a third party (which may include a Business Partner or its affiliate) is more than [...***...] percent ([...***...]%) of the clinical supply price of Product last proposed by BII during the negotiations between the Parties (or BII and the Business Partner) , XENCOR (or its Business Partner) shall provide written notice to BII that XENCOR (and its Business Partner) will accept the clinical supply price last proposed by BII, and BII and XENCOR (or its Business Partner) will enter into a contract manufacturing agreement reflecting such clinical supply price; provided that, if BII does not agree to enter into such contract<omitted>manufacturing agreement within [...***...] after such written notice, XENCOR (or its Business Partner) shall be free to enter into an agreement with a third party (or an agreement for the Business Partner or its affiliate to manufacture and supply Product).
+
+CLASSIFICATION:
+ 

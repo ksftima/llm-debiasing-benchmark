@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, subject to the terms and conditions of this Agreement, Dova hereby grants to Valeant the right, on a co-exclusive basis (solely with Dova and its Affiliates), to Detail and promote the Product in the Specialty in the Territory in the Field, and to conduct the Valeant Activities and the activities of the institutional account management team (pursuant to and subject to the terms of Section 4.1.5) for the Product in the Territory in the Field in accordance with the terms and conditions of this Agreement.
+
+CLASSIFICATION:
+ 

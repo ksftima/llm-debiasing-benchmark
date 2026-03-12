@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding anything to the contrary in Attachments A, G or H, in connection with any Change in Circumstances (as defined below), and without limiting Seller's/ExxonMobil Selling Affiliate's other rights under this Agreement or applicable law, Seller/ExxonMobil Selling Affiliates shall have the right: (i) only if required to enable Seller/ExxonMobil Selling Affiliate to comply with applicable laws and regulations, to terminate this Agreement and accelerate all amounts due from Buyer hereunder, making them immediately payable (ii) to modify the payment terms hereunder; and/or (iii) to require that Buyer/Buyer Affiliates pay in advance for shipments hereunder.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+he Company further agrees that neither it nor its employees, affiliates or assigns, shall enter into, or otherwise arrange (either for it/him/herself, or any other person or entity) any business relationship, contact any person regarding such Opportunity, either directly or indirectly, or any of its affiliates, or accept any compensation or advantage in relation to such Opportunity except as directly though Consultant, without the prior written approval of Consultant.
+
+CLASSIFICATION:
+ 

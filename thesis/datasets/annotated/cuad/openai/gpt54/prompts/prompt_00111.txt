@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Franchisor hereby grants to Developer, subject to the terms and conditions of this Agreement (if Section 2.20 is applicable add ", and specifically Section 2.20 hereof,") and as long as Developer shall not be in default of this Agreement or any other development, franchise or other agreement between Developer and Franchisor, (non-exclusive/exclusive) development rights to establish and operate ____ franchised restaurant(s), and to use the El Pollo Loco® System solely in connection therewith, at specific locations to be designated in separate Franchise Agreement(s) (the "Franchise Agreements").
+
+CLASSIFICATION:
+ 

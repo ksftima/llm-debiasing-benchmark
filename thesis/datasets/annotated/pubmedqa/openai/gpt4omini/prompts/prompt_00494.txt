@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does topical N-acetylcysteine application after myringotomy cause severe otorrhea? The effect of topical N-acetylcysteine (NAC) application was investigated on the healing of acute experimental tympanic membrane perforations. Twenty guinea pigs were used in this study. Under intraperitoneal ketamine anesthesia, incisional myringotomies were performed in the posterosuperior quadrant of the tympanic membranes with a straight otologic hook. The diameter of the perforations was approximately 2 mm. Perforations in both ears were treated with freshly prepared sponges soaked in either 0.1 ml 0.9% NaCl solution (10 control animals) or 0.6 mg/0.1 ml NAC (10 animals) for three consecutive days. All the tympanic membranes were examined by otomicroscopy on the third, fifth, seventh, and ninth days. In the control group, all the perforations were completely closed at the end of nine days. During the same period, only 40% of the perforations were completely closed in the NAC group. The remaining ears exhibited otorrhea by the third day.
+
+CLASSIFICATION: 

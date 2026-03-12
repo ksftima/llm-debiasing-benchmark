@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can mental imagery functional magnetic resonance imaging predict recovery in patients with disorders of consciousness? To determine the potential prognostic value of using functional magnetic resonance imaging (fMRI) to identify patients with disorders of consciousness, who show potential for recovery. Observational study. Unit for acute rehabilitation care. Patients (N=22) in a vegetative state (VS; n=10) and minimally conscious state (MCS; n=12) during the first 200 days after the initial incident. Not applicable. Further course on the Coma Recovery Scale-Revised. Participants performed a mental imagery fMRI paradigm. They were asked to alternately imagine playing tennis and navigating through their home. In 14 of the 22 examined patients (VS, n=5; MCS, n=9), a significant activation of the regions of interest (ROIs) of the mental imagery paradigm could be found. All 5 patients with activation of a significant blood oxygen level dependent signal, who were in a VS at the time of the fMRI examination, reached at least an MCS at the end of the observation period. In contrast, 5 participants in a VS who failed to show activation in ROIs, did not (sensitivity 100%, specificity 100%). Six of 9 patients in an MCS with activation in ROIs emerged from an MCS. Of 3 patients in an MCS who did not show activation, 2 patients stayed in an MCS and 1 patient emerged from the MCS (sensitivity 85%, specificity 40%).
+
+CLASSIFICATION: 

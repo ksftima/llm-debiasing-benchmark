@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the Child Health Computing System adequately identify children with cerebral palsy? This paper assesses the usefulness of the Child Health Computing System as a source of information about children with cerebral palsy. A comparative survey of information held on the Child Health Computing System (CHCS) and the Northern Ireland Cerebral Palsy Register (NICPR) in one Health and Social Services Board in Northern Ireland was carried out. The sample comprised children with cerebral palsy aged 5-9 years. Of the 135 cases recorded on the NICPR, 47 per cent were not found on the CHCS; the majority of these children had no computer record of any medical diagnosis. Of the 82 cases recorded on the CHCS, 10 (12 per cent) were not found on the NICPR; five of these cases (6 per cent) were found on follow-up not to have CP.
+
+CLASSIFICATION: 

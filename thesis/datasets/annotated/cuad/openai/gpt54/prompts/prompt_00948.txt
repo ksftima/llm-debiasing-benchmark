@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the audit or inspection reveals that the underpayment is willful, or is for five percent (5%) or more of the total amount owed for the period being inspected, you will also reimburse us for all inspection and audit costs, including reasonable travel, lodging, meals, salaries and other expenses of the inspecting or auditing personne
+
+CLASSIFICATION:
+ 

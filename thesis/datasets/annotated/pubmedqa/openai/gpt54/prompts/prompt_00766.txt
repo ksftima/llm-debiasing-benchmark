@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Standardizing care in medical oncology: are Web-based systems the answer? Medical oncology is embracing information technology to standardize care and improve patient outcomes, with a range of Web-based systems used internationally. The authors' aim was to determine the factors affecting the uptake and use of a Web-based protocol system for medical oncology in the Australian setting. The authors conducted 50 interviews and observed medical oncology physicians, nurses, and pharmacists in their treatment setting at 6 hospitals in different geographic locations. The Web-based system plays a major role in guiding oncology treatment across participating sites. However, its use varies according to hospital location, clinician roles, and experience. A range of issues impact on clinicians' attitudes toward and use of the Web-based system. Important factors are clinician-specific (eg, their need for autonomy and perceptions of lack of time) or environmental (eg, hospital policy on protocol use, endorsement of the system, and the availability of appropriate infrastructure, such as sufficient computers). The level of education received regarding the system was also found to be integral to its ongoing use.
+
+CLASSIFICATION: 

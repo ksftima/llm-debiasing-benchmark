@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In connection with the exercise of CHT's rights under the Escrow Agreement, Ehave hereby grants to CHT a non- exclusive, non-transferable (except as set forth in Section 20(f)), right and license to use and copy the materials deposited with the Escrow Agent, including the Source Code, its Specifications and documentation, and any resulting corrections, repairs, translations, enhancements, and other derivative works and improvements made by CHT, for the sole purposes of providing to CHT the ability to operate, support and maintain, the Ehave Companion Solution for its End Users from time to time, until such time that CHT is able to migrate off the Ehave Companion Solution, but in any event not exceeding twelve months from the date of release of the materials from escrow.
+
+CLASSIFICATION:
+ 

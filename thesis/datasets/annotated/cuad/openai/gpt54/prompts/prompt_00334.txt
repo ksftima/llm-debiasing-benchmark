@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon the release of the Source Code to Corio pursuant to Section 12.2 of this Agreement, Corio shall have a royalty-free, nonexclusive, nontransferable, right and license at its head office to use and modify the Source Code to support and maintain the Software until the expiration or termination of Corio's Customers' License Agreements for the Corio Services.
+
+CLASSIFICATION:
+ 

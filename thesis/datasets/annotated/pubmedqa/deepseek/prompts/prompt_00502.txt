@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the advanced age a contraindication to GERD laparoscopic surgery? In this prospective non randomized observational cohort study we have evaluated the influence of age on outcome of laparoscopic total fundoplication for GERD. Six hundred and twenty consecutive patients underwent total laparoscopic fundoplication for GERD. Five hundred and twenty-four patients were younger than 65 years (YG), and 96 patients were 65 years or older (EG). The following parameters were considered in the preoperative and postoperative evaluation: presence, duration, and severity of GERD symptoms, presence of a hiatal hernia, manometric and 24 hour pH-monitoring data, duration of operation, incidence of complications and length of hospital stay. Elderly patients more often had atypical symptoms of GERD and at manometric evaluation had a higher rate of impaired esophageal peristalsis in comparison with younger patients. The duration of the operation was similar between the two groups. The incidence of intraoperative and postoperative complications was low and the difference was not statistically significant between the two groups. An excellent outcome was observed in 93.0% of young patients and in 88.9% of elderly patients (p = NS).
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there a model to teach and practice retroperitoneoscopic nephrectomy? Although the retroperitoneal approach has been the preferred choice for open urological procedures, retroperitoneoscopy is not the preferred approach for laparoscopy. This study aims to develop a training model for retroperitoneoscopy and to establish an experimental learning curve. Fifteen piglets were operated on to develop a standard retroperitoneoscopic nephrectomy (RPN) training model. All procedures were performed with three ports. Intraoperative data (side, operative time, blood loss, peritoneal opening) were recorded. Animals were divided into groups A, the first eight, and B, the last seven cases. Data were statistically analyzed. We performed fifteen RPNs. The operative time varied from 15 to 50 minutes (median 30 minutes). Blood loss varied from 5 to 100 mL (median 20 mL). We experienced five peritoneal openings; we had two surgical vascular complications managed laparoscopically. There was statistical difference between groups A and B for peritoneal opening (p = 0.025), operative time (p = 0.0037), and blood loss (p = 0.026). RPN in a porcine model could simulate the whole procedure, from creating the space to nephrectomy completion. Experimental learning curve was eight cases, after statistical data analysis.
+
+CLASSIFICATION: 

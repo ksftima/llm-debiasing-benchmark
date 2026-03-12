@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+After CLASS--Is a voluntary public insurance program a realistic way to meet the long-term support and service needs of adults with disabilities? The CLASS Act, which was part of the Affordable Care Act of 2010, established a voluntary personal assistance services (PAS) insurance program. However, concerns about enrollment and adverse selection led to repeal of the CLASS Act in 2013. To estimate the number of middle-aged adults interested in purchasing PAS insurance, the sociodemographic, socioeconomic and disability attributes of this population, and the maximum monthly premium they would be willing to pay for such coverage. A total of 13,384 adults aged 40-65 answered questions about their interest in PAS insurance in the 2011 Sample Adult National Health Interview Survey. We applied survey weights for the U.S. population and conducted logistic regression analyses to identify personal factors associated with interest in paying for the CLASS program. An estimated 25.8 million adults aged 40-65 (26.7%) said they would be interested in paying for a public insurance program to cover PAS benefits. However, interest in PAS insurance varied by age, race, ethnicity, region, income, disability status, and family experience with ADL assistance. Only 1.6 million adults aged 40-65 (1.8%) said they would be willing to pay $100 per month or more for coverage.
+
+CLASSIFICATION: 

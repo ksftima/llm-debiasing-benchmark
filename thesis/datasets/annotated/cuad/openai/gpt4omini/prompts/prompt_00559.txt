@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, Sekisui is hereby permitted to use the Qualigen name and any Qualigen content (including the content of any existing sales collateral and marketing materials) in any sales collateral, marketing materials or other communications used in connection with the marketing and sales of the Product with the prior written consent of Qualigen, which consent shall not be reasonably withheld or delayed.
+
+CLASSIFICATION:
+ 

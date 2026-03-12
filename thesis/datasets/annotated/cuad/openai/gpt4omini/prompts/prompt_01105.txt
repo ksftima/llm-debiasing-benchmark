@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SEV shall remain liable for the repairs described in Clause 4.12 identified by DCL for a period of thirteen weeks from the end of the Contracted Period and shall provide such repairs on a free of charge basis.
+
+CLASSIFICATION:
+ 

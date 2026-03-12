@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The Dual Mating Strategies of Men and WomenAlpha Fucks and Beta Bucks is a well documented phenomenon in the Red Pill. Its the so called dual mating strategy that describes a womans instinct to seek sexual opportunities from the alpha (Alpha Fucks) and provisioning opportunities from the beta (Beta Bucks.) It seems generally assumed in the sphere that this strategy is exclusive to women, so this will be my brief attempt to show that a dual mating strategy is also present in men.
+
+Across the sphere we see RP men constantly admitting their dual mating strategies. We want to fuck hoes, and marry virgins (low n-counts.) We want a lady in the streets, and a freak in the sheets. Men seek sexual opportunities from the whores, and provisioning opportunities from the virgins. Sigmund Freud expressed this dual mating strategy in his Madonna/Whore Complex: the tendency in men to view any particular woman as either a Madonna or a Whore. Madonnas (dont think of the superstar by this same name, it will confuse you) are women we perceive as pure, submissive, obedient, and faithful. Whores are women we perceive as sluts, large n-count, tattoo-ridden, disobedient, and unfaithful. History is full of men who were in love with their Madonna wives, only to cheat on them with a Whore. In fact many RP players have made careers out of fucking hoes only to eventually marry a woman they perceive as a Madonna. We all carry this Madonna/Whore instinct inside of us, and its quite clearly a dual-mating strategy, if we care to admit it.
+
+This dual-mating strategy for both men and women may be a result of pre, and post, Agricultural Revolution societies. The findings of evolutionary psychology suggest that before the Agricultural Revolution sex in humanity was far more polygamous, liberal and free. People tended to sleep around for various reasons without taboo or stigma. Theres a lot in our biology that is evidence of this. This doesnt mean a womans hypergamy wasnt in effect, it just means being a hoe wasnt looked down upon. If this is true its safe to assume that women were hoes for a very long period of time. And this would explain our natural attraction to hoes. Further, pre-Agricultural Revolution, there was no such thing as property, assets, and marriage.
+
+Post-agricultural revolution introduced property, assets, and marriage, and this changed sexual relationships forever. People began to think heavily about guarantying their property and resources was passed on to their progeny. Men became interested in women who could guarantee this bequeathment, and women became interested in men who would share their resources. Suddenly virgins and beta men became more attractive. The forces of this new social pressure conditioned women to look for men who could provide provisioning (betas), and those same forces conditioned men to seek women who could be trusted with their resources (Madonnas.) Virgins can be trusted with property and assets more than whores, and beta men can be relied upon to share their resources more than alphas. In this hypothesis, a dual-mating strategy evolved in both men and women out of our ancient past of free and unbridled sex (pre-Agricultural Revolution) and the relatively recent development of commitment sex (post-Agricultural Revolution.)
+
+In the RP theres this idea that you must maintain alpha-ness in your relationships at the expense of beta-ness, so that your wife doesnt cuck or leave you. While theres obvious truth to this, we should condition this view against our own dual mating strategy. In the life of a man, a virgin is perceived to be a prize. Sure, nothing turns us on more than a whore, and some married men will fuck them given the opportunity, but many wont. Many married men will stay faithful to their Madonna, even though she doesnt turn them on like a Whore. Understood in this way, we can see that while women may be attracted to Alphas, for them the prize might very well be a Beta. This is why we teach comfort tests. And while some women in relationships will still fuck the Alphas, many of them wont, and will stay faithful to their Beta. AF/BB is not a black and white line, its just an evolved tendency in women, just like the Madonna/Whore complex is an evolved tendency in men. But neither of these tendencies dictate with any certainty how a particular man or woman will act. This is not an excuse for a man to be a little bitch, a real RP man knows how to be both Alpha and Beta.
+
+I admit that the theory of AF/BB and Madonna/Whore instincts evolving out of a pre, and post, Agricultural Revolution society might simply be conjecture. But, the evidence that men have a dual mating strategy (like women) is overwhelmingly evident and universal.
+
+CLASSIFICATION:
+

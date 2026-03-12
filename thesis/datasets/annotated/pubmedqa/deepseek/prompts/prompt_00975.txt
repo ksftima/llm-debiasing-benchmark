@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does glomerular hyperfiltration in pregnancy damage the kidney in women with more parities? We aimed to investigate the glomerular hyperfiltration due to pregnancy in women with more parities. Five hundred women aged 52.57 +/- 8.08 years, without a history of hypertension, diabetes mellitus or complicated pregnancy were involved in the study. They were divided into three groups. Group 1: women with no or one parity (n = 76); group 2: women with two or three parities (n = 333); group 3: women with four or more parities (n = 91). Laboratory parameters and demographical data were compared between the three groups. Mean age, serum urea and serum creatinine were similar between three groups. Patients in group 3 had significantly higher GFR values compared to groups 1 and 2 (109.44 +/- 30.99, 110.76 +/- 30.22 and 121.92 +/- 34.73 mL/min/1.73 m(2) for groups 1, 2 and 3, respectively; P = 0.008 for group 1 vs group 3; P = 0.002 for group 2 vs group 3).
+
+CLASSIFICATION: 

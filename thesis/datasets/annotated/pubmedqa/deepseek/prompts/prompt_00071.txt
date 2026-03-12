@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there any relationship between streptococcal infection and multiple sclerosis? Multiple sclerosis (MS) is an immune-mediated inflammatory demyelinating disease of uncertain etiology. Although the mechanisms of inducting autoimmunity by some of the infectious agents have been investigated, there is not yet enough research on streptococcal infections.MATERIAL/ To understand the effect of past group A streptococcal infection on MS, antistreptolysin O (ASO) and antideoxyribonuclease B (ADNase B) were measured in 21 patients with relapsing-remitting MS and 21 healthy blood donors by nephelometric assay. ADNase B levels in the patients with MS were found to be significantly higher than in the controls (p<0.001); however, ASO levels were similar in both groups.
+
+CLASSIFICATION: 

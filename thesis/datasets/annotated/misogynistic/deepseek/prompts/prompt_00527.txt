@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Idk what kind of lie detector they used in this clip but polygraphs are extremely accurate. They couldve just been using a simple heart rate monitor but a real polygraph is like 98% accurate because it checks your heart rate, blood pressure, respiratory rate, electrodermal activity, and any body motion. Its a lot harder to beat a polygraph just by staying calm. 
+
+heres a [source](http://clifton.mech.northwestern.edu/~me224/final_project_spring_2003/3.pdf) if you wanna learn more
+
+CLASSIFICATION:
+

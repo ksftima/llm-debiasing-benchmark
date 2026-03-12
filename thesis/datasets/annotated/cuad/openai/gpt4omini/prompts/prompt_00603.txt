@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+PPG SHANGHAI hereby grants to DISTRIBUTOR during the Term, subject to the terms and conditions hereinafter specified, a limited, nonexclusive, nonassignable and nontransferable right to use the PPG Trademarks in the Territory for or in connection with its advertisement, promotion, sale and distribution of Products.
+
+CLASSIFICATION:
+ 

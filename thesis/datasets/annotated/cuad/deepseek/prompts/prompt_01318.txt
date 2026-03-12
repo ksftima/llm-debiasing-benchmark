@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except for a breach of Section 11 ("Confidentiality"), and without limiting a Party's indemnification obligations hereunder, in no event shall either Party be liable to the other Party in any manner for any special, non- compensatory, consequential, indirect, incidental, statutory or punitive damages of any kind, including lost profits and lost revenue, regardless of the form of action, whether in contract, tort, product liability or otherwise, even if informed of or aware of the possibility of any such damages in advance, except to the extent that such limitation of liability is contrary to the Applicable Law or any such special, non-compensatory, consequential, indirect, incidental, statutory or punitive damages have been awarded to a Third Party under a Third Party Claim.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, to the extent required by Applicable Law in a country or other jurisdiction in the Territory, the promotional materials, packaging, and Product Labeling for the Licensed Products used by AbbVie and its Affiliates in connection with the Licensed Products in such country or other jurisdiction shall contain (a) the corporate name of Harpoon (and to the extent required, Harpoon grants AbbVie a license, with the right to sublicense, to use the same solely for such purpose), and (b) the logo and corporate name of the manufacturer (if other than AbbVie or an Affiliate).
+
+CLASSIFICATION:
+ 

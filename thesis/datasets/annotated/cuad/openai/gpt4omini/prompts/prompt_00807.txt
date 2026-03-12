@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The minimum characteristics of the Hydrocarbon which must be included in the certificate are: Viscosity cST and SSU at 86°F, 100°F and 140°F, gravity API at 60°F, sulfur content, salt content, BSW, Acidity and Point of fluidity.
+
+CLASSIFICATION:
+ 

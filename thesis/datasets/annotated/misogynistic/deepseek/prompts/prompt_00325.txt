@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Why it's not "morally" wrong or hypocritical to sleep with many women yet expect the mother of your kids to not have slept with many menFirst things first, the red pill is amoral, so of course if you don't struggle with this issue then ignore this post. For people like myself who need to have an ethical explanation for what they do, here's why it is fair/not a double standard.
+
+Men and women live different lives and are born with unique gifts and potentials, some overlapping, some not. Despite knowing this and capitalizing on their feminine power, many women (and their clueless simp supporters) will still try to shame men for being very choosy with their wives/common law partners/ mother of their children. 
+
+A man building himself to his ideal man, creating an expanding frame and acquiring intellectual and physical resources will arouse and attract women as he gains momentum. Women may be "attracted" to the outward results of his success, but we all know they are "aroused" by his upward energy, his alphaness, his mission. Any woman who seduces him on that journey upward is temporarily stopping him. She has grabbed his attention temporarily, and when he busts a nut, he is satisfied where he is. Weak men stay here but an alpha man hops back on the horse and keeps moving upward. He has only been temporarily stopped.
+
+When this man has spent many many years building himself, he may decide he is ready for a kid. This means he is very satisfied with where he is such that he is willing to now sacrifice mental physical and emotional energy into the next generation. He is literally sacrificing himself, his upward progress and his current wealth for this woman and child. This woman is getting a lot from this man- loyalty, tons of investment, and he is giving up a lot of other women who would love to be part of his now really established frame.
+
+All he is asking back from this woman, is that she be worth giving all that up for. What makes her worth giving that up for? Certainty, or as close to it as he can come, that she will stay loyal to his frame. If she has a history of promiscuity, this means she is very willing to jump from frame to frame, giving herself to men in quick succession. Why would I commit to a woman for 18+ years if she can't stick to one frame? For a promiscuous man, the reverse isn't true. The difference is that for men to have sex, they dont need to enter a womans frame. They havent submitted to her and her reality, but the reverse happens for women. He was always simply building and expanding his frame, allowing women to enter temporarily. She on the other hand has been jumping from frame to frame.
+
+So you see, as a man ascends and sleeps with many women along the way, enjoying them and potentially looking out for a LTR material (if hes at the phase), he is not doing damage to his ability to be loyal and invest heavily in a woman and child. This is because he has never submitted to any one woman's frame, he only built his own. The same cannot be said for a promiscuous woman.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Company further grants to Investor, during the duration of the Option Period, a worldwide, royalty-free, non-exclusive, irrevocable license (with the right to grant sublicenses to Affiliates) to use the Technical Information to practice the methods described and claimed in the Patents and to make and have made, use, offer to sell, sell and import products made using the methods, and to make Improvements, and to engage in any activity which would give rise to a claim of infringement (direct or indirect or otherwise) of one or more of the Patents in the absence of a license.
+
+CLASSIFICATION:
+ 

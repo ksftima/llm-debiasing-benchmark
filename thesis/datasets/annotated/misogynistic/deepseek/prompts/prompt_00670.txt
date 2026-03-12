@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Youre tasking risking rejection leading and forging the potential for hook ups relationships and friendships while she puts on a skirt and goes outside. And is bombarded with all these self improving men But what exactly does she do with self improving?? She cant even ask or reject a date on her own. 
+
+We ARE makings it way too easy for women and its been that way for centuries. And no, I dont expect all or a lot men to suddenly get it and expect more, because they might lose a shot at the precious pussy ;((,  but seriously.
+
+Attractive girls are running rampant and,
+
+CLASSIFICATION:
+

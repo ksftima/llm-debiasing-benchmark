@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither you nor any of your owners, principals, or other persons acting on your behalf will directly or indirectly contest the validity or our ownership of the Proprietary Marks, nor will you, directly or indirectly, seek to register the Proprietary Marks with any government agency (unless we have given you our express prior written consent to do so).
+
+CLASSIFICATION:
+ 

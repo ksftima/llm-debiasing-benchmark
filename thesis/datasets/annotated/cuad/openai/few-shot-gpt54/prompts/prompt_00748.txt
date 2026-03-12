@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Upon any termination or expiration of this Agreement: (a) All sums due to either party from the other shall be promptly paid; (b) Distributor orders received and accepted by STAAR prior to the effective date of the termination of this Agreement shall be fulfilled in accordance with their terms; (c) All property belonging to one party but in the custody of the other shall be returned; (d) STAAR shall have the option to repurchase any or all current and resalable Products in Distributor's inventory at eighty percent (80%) of Distributor's original net purchase price (reflecting a twenty percent (20%) restocking and administrative fee); (e) Distributor shall cease all display, advertising and use of STAAR trade names, trademarks (including the Trademarks), logos and designations, except uses on the Products which remain in Distributor's possession, and shall transfer all registrations and sponsorships for the Products to STAAR or its designee;
+
+CLASSIFICATION:
+

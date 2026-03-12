@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can students' scores on preclerkship clinical performance examinations predict that they will fail a senior clinical performance examination? This study was designed to determine whether preclerkship performance examinations could accurately identify medical students at risk for failing a senior clinical performance examination (CPE). This study used a retrospective case-control, multiyear design, with contingency table analyses, to examine the performance of 412 students in the classes of 2005 to 2010 at a midwestern medical school. During their second year, these students took four CPEs that each used three standardized patient (SP) cases, for a total of 12 cases. The authors correlated each student's average year 2 case score with the student's average case score on a senior (year 4) CPE. Contingency table analysis was carried out using performance on the year 2 CPEs and passing/failing the senior CPE. Similar analyses using each student's United States Medical Licensing Examination (USMLE) Step 1 scores were also performed. Sensitivity, specificity, odds ratio, and relative risk were calculated for two year 2 performance standards. Students' low performances relative to their class on the year 2 CPEs were a strong predictor that they would fail the senior CPE. Their USMLE Step 1 scores also correlated with their performance on the senior CPE, although the predictive values for these scores were considerably weaker.
+
+CLASSIFICATION: 

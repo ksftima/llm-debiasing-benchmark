@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The obligations of Affiliate and Network under this Agreement are subject to all applicable federal, state and local laws, rules and regulations, and this Agreement and all matters or issues collateral thereto shall be governed by the laws of the State of New York applicable to contracts to be entirely performed therein.
+
+CLASSIFICATION:
+ 

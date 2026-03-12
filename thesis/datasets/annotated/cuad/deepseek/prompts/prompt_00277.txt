@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as the parties may otherwise agree in writing, Converge, to the extent it has the legal right to do so, hereby grants to Vert an irrevocable, perpetual, world-wide, non-exclusive right and license to use, load, store, transmit, execute, copy, market, distribute, in any medium or distribution technology whatsoever, known or unknown, display, perform and sublicense the Converge-Independent Materials and the Third-Party Materials, in both Source Code and Object Code formats, and to make unlimited instantiations thereof, for any and all purposes.
+
+CLASSIFICATION:
+ 

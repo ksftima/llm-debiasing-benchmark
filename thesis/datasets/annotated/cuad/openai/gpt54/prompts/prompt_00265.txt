@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+HDI shall provide the Company with access to, and the right to use, a computer system on which the Site will be stored and operated, with a direct Internet connection of shared but greater than T-1 bandwidth, plus capacity to process continuously during burst periods.
+
+CLASSIFICATION:
+ 

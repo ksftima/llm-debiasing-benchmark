@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 2.6, the Village Media Company shall, or shall cause HOFV to, pay to PFHOF a minimum guarantee of one million two hundred and fifty thousand dollars ($1,250,000) (the "Annual Guarantee") each year during the Term; provided that the Parties acknowledge and agree that after the first five (5) years of the Term, the Annual Guarantee shall increase by three percent (3%) on a year-over-year basis (e.g., the Annual Guarantee shall increase to $1,287,500 for year six (6) and to $1,326,125 for year seven (7)).
+
+CLASSIFICATION:
+ 

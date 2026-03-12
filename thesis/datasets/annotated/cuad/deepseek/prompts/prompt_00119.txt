@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Newegg grants Allied a revocable, non-transferrable, non-assignable (whether voluntarily, or as a result of a change of control, or by operation of law), non-sublicensable, non-exclusive and limited license to use, during the Term, the Newegg Marks solely in connection with Allied's marketing and conduct of the Arena.
+
+CLASSIFICATION:
+ 

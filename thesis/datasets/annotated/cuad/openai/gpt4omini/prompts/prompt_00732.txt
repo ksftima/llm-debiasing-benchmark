@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EXCEPT FOR DAMAGES ARISING UNDER SECTIONS 14.A AND 16.A, IN NO EVENT WILL NETGEAR's OR BAY NETWORKS' TOTAL LIABILITY FOR ANY DAMAGES IN ANY ACTION BASED ON OR ARISING OUT OF OR IN CONNECTION WITH THE AGREEMENT EXCEED THE [*] TO NETGEAR PURSUANT TO THE AGREEMENT.
+
+CLASSIFICATION:
+ 

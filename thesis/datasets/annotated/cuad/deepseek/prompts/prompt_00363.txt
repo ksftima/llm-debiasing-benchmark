@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party shall own rights to any Internet domain names incorporating the Product Trademark(s) owned by such Party under Section 12.1 or any variation or part of such Product Trademark(s) as its URL address or any part of such address, and agrees to grant, and hereby grants to the other Party a royalty-free, fully paid-up exclusive license to use those particular Internet domain names which the grantee Party elects to use (and actually uses) in connection with the grantee Party's commercialization of the applicable Product in the grantee Party's Territory in accordance with this Agreement.
+
+CLASSIFICATION:
+ 

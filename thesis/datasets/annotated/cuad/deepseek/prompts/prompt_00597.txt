@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Aimmune hereby covenants and agrees that it shall not (and shall cause the other Aimmune Agreement Entities not to), either directly or indirectly,<omitted>Develop, Manufacture, or Commercialize the Product for use outside the Licensed Field.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Two-year follow-up survey of patients with allergic contact dermatitis from an occupational cohort: is the prognosis dependent on the omnipresence of the allergen? Skin diseases are the most frequently recognized occupational diseases in Denmark. The prognosis for occupational contact dermatitis is often poor. To investigate the prognosis, assessed by eczema, job status and skin-related quality of life, among patients allergic to rubber chemicals and latex (ubiquitous allergens) and epoxy (nonubiquitous allergen), 2 years after recognition of occupational allergic contact dermatitis. From a cohort of all patients recognized as having occupational dermatitis by the Danish National Board of Industrial Injuries in 2010, 199 patients with relevant rubber allergy (contact allergy to rubber chemicals or contact urticaria from latex) or epoxy allergy were identified. Follow-up consisted of a questionnaire covering current severity of eczema, employment, exposure and quality of life. The response rate was 75%. Clearance of eczema was reported by 11% of patients and 67% reported improvement. Overall 22% of patients with allergy to a nonubiquitous allergen had total clearance of eczema compared with 10% of cases allergic to ubiquitous allergens and 0% of those with contact urticaria (P = 0·116). Improvement was significantly more frequent in those who had changed jobs compared with those who had not (P = 0·01).
+
+CLASSIFICATION: 

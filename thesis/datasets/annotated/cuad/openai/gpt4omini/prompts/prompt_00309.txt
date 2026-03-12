@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As part of the Computer System, we may require you to obtain specified computer hardware and/or software, including without limitation a license to use proprietary software developed by us or others.
+
+CLASSIFICATION:
+ 

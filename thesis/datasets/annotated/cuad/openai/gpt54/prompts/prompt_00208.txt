@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Array shall own rights to, and shall be responsible, at its own expense, for registering and maintaining, the Internet domain names listed on Exhibit 12.6 (each of the foregoing, a "Domain Name") and agrees to grant, and hereby grants to Ono a royalty-free, fully paid-up exclusive license to use those particular Domain Names which Ono elects to use (and actually uses) in connection with Ono's commercialization of the Product in the Ono Territory in accordance with this Agreement.
+
+CLASSIFICATION:
+ 

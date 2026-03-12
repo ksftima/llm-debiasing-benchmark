@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can teaching medical students to investigate medication errors change their attitudes towards patient safety? The purpose of this study was to evaluate the impact of a patient-safety curriculum administered during a paediatric clerkship on medical students' attitudes towards patient safety. Medical students viewed an online video introducing them to systems-based analyses of medical errors. Faculty presented an example of a medication administration error and demonstrated use of the Learning From Defects tool to investigate the defect. Student groups identified and then analysed medication errors during their clinical rotation using the Learning From Defects framework to organise and present their findings. Outcomes included patient safety attitudinal changes, as measured by questions derived from the Safety Attitudes Questionnaire. 108 students completed the curriculum between July 2008 and July 2009. All student groups (25 total) identified, analysed and presented patient safety concerns. Curriculum effectiveness was demonstrated by significant changes on questionnaire items related to patient safety attitudes. The majority of students felt that the curriculum was relevant to their clinical rotation and should remain part of the clerkship.
+
+CLASSIFICATION: 

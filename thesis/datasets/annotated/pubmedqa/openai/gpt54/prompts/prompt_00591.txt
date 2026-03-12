@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there any relation between cervical cord plaques and discopathy in patients with multiple sclerosis? Multiple sclerosis (MS) is the most common chronic autoimmune demyelinating disease of the central nervous system. The purpose of this study is to determine the relationship between the site of the cervical discopathy and cervical spinal cord plaque in MS patients. This retrospective study included all patients with a definite diagnosis of MS who were treated at an outpatient clinic between September 2004 and September 2011. All patients underwent cervical magnetic resonance imaging (MRI) for primary investigation of the disease. Cervical MRI scans were evaluated for detection of any evidence of cervical discopathy and cervical MS plaques. Any correlation between the site of the MS lesions and discopathy was recorded. From 536 patients who were involved in the study, 214 patients had both cervical discopathy and cervical cord plaques. In this group 148 (69.1% of patients) had cervical plaque at the same site of cervical discopathy. The number of patients with cervical cord plaque and discopathy at same site was significantly higher than those with plaque and discopathy at different sites (P<0.05).
+
+CLASSIFICATION: 

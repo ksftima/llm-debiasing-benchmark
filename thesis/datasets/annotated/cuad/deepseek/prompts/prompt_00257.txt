@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the avoidance of doubt, that certain logo designed by Athlete prior to the date hereof (the "Logo") shall remain the sole property of Wade and Naked shall have license during the Term to use the Logo for the advertising, endorsement, promotion, or sale of the Naked Products (including the Wade Products) in the Territory in accordance with the terms and conditions of the Agreement
+
+CLASSIFICATION:
+ 

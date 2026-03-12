@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such Party shall keep the JSC and the other Party informed of the status of all such Patent Prosecution and Trademark Prosecution activities. MacroGenics shall be responsible for undertaking the Patent Prosecution with respect to Patents jointly owned by the Parties (the "Jointly Owned Patents"), and shall do as directed by the JSC.
+
+CLASSIFICATION:
+ 

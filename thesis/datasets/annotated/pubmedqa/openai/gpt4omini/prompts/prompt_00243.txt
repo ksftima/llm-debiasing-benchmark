@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Diffusion-weighted echo-planar MR imaging of primary parotid gland tumors: is a prediction of different histologic subtypes possible? Our aim was to determine the value of echo-planar diffusion-weighted MR imaging (epiDWI) in differentiating various types of primary parotid gland tumors. One hundred forty-nine consecutive patients with suspected tumors of the parotid gland were examined with an epiDWI sequence by using a 1.5T unit. Image analysis was performed by 2 radiologists independently, and the intraclass correlation coefficient was computed. Histologic diagnosis was obtained in every patient. For comparison of apparent diffusion coefficients (ADCs), a paired 2-tailed Student t test with a Bonferroni correction was used. In 136 patients, a primary parotid gland tumor was confirmed by histology. Among the observers, a high correlation was calculated (0.98). ADC values of pleomorphic adenomas were significantly higher than those of all other entities, except for myoepithelial adenomas (P = .054). ADC values of Warthin tumors were different from those of myoepithelial adenomas, lipomas, and salivary duct carcinomas (P<.001, 0.013, and .037, respectively). Mucoepidermoid carcinomas, acinic cell carcinomas, and basal cell adenocarcinomas were not differentiable from Warthin tumors (P = .094, .396, and .604, respectively).
+
+CLASSIFICATION: 

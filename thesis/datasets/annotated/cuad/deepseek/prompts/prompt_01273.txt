@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding anything in this Agreement to the contrary, the cumulative liability of each of SERVICERS and ISO for all Losses, claims, suits, controversies, breaches or damages arising out of or related to this Agreement<omitted>regardless of the form of action or legal theory relating to events in any one Processing Year shall not exceed [***] [***] times the amount of clearing/sponsorship fees paid to SERVICERS by ISO pursuant to this Agreement during the immediately preceding [***] [***] full months; provided, however, that this limitation shall not apply to either party's obligation to indemnify the other for credit/fraud losses or Losses arising from or related to the indemnifying party's (or its agents, representatives, Merchants, Other MSP's or IC's) failure to comply with Rules.
+
+CLASSIFICATION:
+ 

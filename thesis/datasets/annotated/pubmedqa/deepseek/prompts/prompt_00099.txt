@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is dexamethasone an effective alternative to oral prednisone in the treatment of pediatric asthma exacerbations? A short course of systemic corticosteroids is an important therapy in the treatment of pediatric asthma exacerbations. Although a 5-day course of oral prednisone or prednisolone has become the most commonly used regimen, dexamethasone has also been used for a shorter duration (1-2 days) with potential for improvement in compliance and palatability. We reviewed the literature to determine if there is sufficient evidence that dexamethasone can be used as an effective alternative in the treatment of pediatric asthma exacerbations in the inpatient setting. A Medline search was conducted on the use of dexamethasone in the treatment of asthma exacerbations in children. The studies selected were clinical trials comparing the efficacy of dexamethasone with prednisone. Meta-analysis was performed examining physician revisitation rates and symptomatic return to baseline. Six completed pediatric clinical trials met the inclusion criteria. All of the pediatric trials found that prednisone is not superior to dexamethasone in treating mild to moderate asthma exacerbations. Meta-analysis demonstrated homogeneity between the dexamethasone and prednisone groups when examining symptomatic return to baseline and unplanned physician revisits after the initial emergency department encounter. Some studies found potential additional benefits of dexamethasone, including improved compliance and less vomiting.
+
+CLASSIFICATION: 

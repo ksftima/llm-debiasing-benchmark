@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Every day. This is a weird story, but I remember watching Survivor when I was a kid and one of winners, Ethan from Season 3 (I'm old lmao), was SUPER hot and I had a huge crush on him. Anyway, they showed a picture from his as a kid around my age and he was nerdy and unattractive and I had hope that when I aged I would be beautiful like Ethan. Anyway, that didn't work out.
+
+I also would like to get cosmetic surgery (mostly a nose job, but I would also like a breast reduction with implants (to have a nice shape, but I want small boobs)). But I'm afraid I'll start and never be able to stop, so I just refuse to do it. I don't want to look like one of those women with too much. But I do really want to get botox in my upper lip for a less gummy smile.
+
+CLASSIFICATION:
+

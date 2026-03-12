@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MusclePharm shall have the rights to use Endorser's Name and Appearance Rights and the Right to Publicize Endorser's Name and Appearance, as provided in this Agreement, unless Endorser and MusclePharm enter into a separate written agreement in which MusclePharm waives or releases some or all of the rights Endorser has granted in this Agreement.
+
+CLASSIFICATION:
+ 

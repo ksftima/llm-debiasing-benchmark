@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Alcohol consumption and acute myocardial infarction: a benefit of alcohol consumed with meals? The apparent favorable effect of alcohol on the risk of acute myocardial infarction (MI) may be related to its hypoinsulinemic effect when consumed with meals. We studied how the timing of alcohol consumption in relation to meals might affect the risk of MI in a population with relatively high regular alcohol consumption. We conducted a case-control study between 1995 and 1999 in Milan, Italy. Cases were 507 subjects with a first episode of nonfatal acute MI, and controls were 478 patients admitted to hospitals for other acute diseases. Odds ratios (ORs) and 95% confidence intervals (CIs) were calculated by multiple logistic regression models. Compared with nondrinkers, an inverse trend in risk was observed when alcohol was consumed during meals only (for>or =3 drinks per day: OR = 0.50; 95% CI = 0.30-0.82). In contrast, no consistent trend in risk was found for subjects drinking outside of meals (for>or =3 drinks per day: 0.98; 0.49-1.96). The pattern of risk was similar when we considered people who drank only wine.
+
+CLASSIFICATION: 

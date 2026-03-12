@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is Panton-Valentine leucocidin associated with the pathogenesis of Staphylococcus aureus bacteraemia in the UK? The morbidity and mortality associated with Panton-Valentine leucocidin (PVL)-positive Staphylococcus aureus suggest that this toxin is a key marker of disease severity. Nevertheless, the importance of PVL in the pathogenesis of primary bacteraemia caused by S. aureus is uncertain. We have determined the prevalence of PVL-encoding genes among isolates of S. aureus from bacteraemic patients. Consecutive bacteraemia isolates of S. aureus (n=244) from patients hospitalized in 25 centres in the UK and Ireland during 2005 were screened for PVL and mecA genes. PVL-positive isolates were characterized by toxin gene profiling, PFGE, spa-typing and MIC determinations for a range of antimicrobials. Four out of 244 isolates (1.6%) were PVL-positive and susceptible to oxacillin [methicillin-susceptible S. aureus (MSSA)]. Eighty-eight out of 244 (36%) were oxacillin-resistant (methicillin-resistant S. aureus), but none was PVL-positive. The four patients (two males: 30 and 33 years; two females: 62 and 80 years) had infection foci of: skin and soft tissue, unknown, indwelling line, and surgical site, and were located at one centre in Wales, one in England and two in Ireland. One of four PVL-positive isolates was resistant to penicillin and fusidic acid, the remainder were susceptible to all antibiotics tested. Genotypic analyses showed that the four isolates represented three distinct strains; the two isolates from Ireland were related.
+
+CLASSIFICATION: 

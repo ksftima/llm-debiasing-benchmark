@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+On or before the Launch Date, each party shall grant the other party a non-exclusive, non-transferable, revocable right to use their approved Marks, for the sole purpose of advertising, marketing, promotion and sale of the Co-Branded Service.
+
+CLASSIFICATION:
+ 

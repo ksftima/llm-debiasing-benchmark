@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CBC shall maintain, at all times, manufacture and supply capacity of at least [***]% of the Annual Forecast and shall maintain, in coordination with MediWound, inventory of Bromelain SP at its premises of (i) at least [***]% of the applicable Annual Forecast; and (ii) all Bromelain SP components and materials ("the BSP Components and Materials") needed for the manufacture and supply of the Bromelain SP such that CBC can guarantee continuous supply of the Bromelain SP in accordance with MediWound's complete Annual Forecasts.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Pursuant to the Subscription Agreement, CHT shall obtain from each End User the right to and hereby grants, effective upon the execution and delivery of such End User's Subscription Agreement, to Ehave: (i) a royalty-free, non-exclusive, non-transferable, limited right and licence during the term of such Subscription Agreement to use, copy, store and display the End User Data solely for the purpose of enabling Ehave to operate the Ehave Companion Solution for such End User and as may be necessary for the purpose of enabling Ehave to provide support services in accordance with this Agreement; and (ii) a royalty-free, non-exclusive, limited, perpetual right and license to use, copy, store and display End User Data on an aggregated and anonymous basis and so as not to permit the identification of any End User or individual for the sole purpose of improving or developing enhancements to the Ehave Companion Solution , provided that Ehave shall not have any right to use, commercialize or exploit such End User Data in any other manner or for any other purpose.
+
+CLASSIFICATION:
+ 

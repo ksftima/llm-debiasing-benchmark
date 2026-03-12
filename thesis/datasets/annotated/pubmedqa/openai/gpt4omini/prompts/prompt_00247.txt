@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the international normalised ratio (INR) reliable? As part of an MRC funded study into primary care oral anticoagulation management, INR measurements obtained in general practice were validated against values on the same samples obtained in hospital laboratories. A prospective comparative trial was undertaken between three hospital laboratories and nine general practices. All patients attending general practice based anticoagulant clinics had parallel INR estimations performed in general practice and in a hospital laboratory. 405 tests were performed. Comparison between results obtained in the practices and those in the reference hospital laboratory (gold standard), which used the same method of testing for INR, showed a correlation coefficient of 0.96. Correlation coefficients comparing the results with the various standard laboratory techniques ranged from 0.86 to 0.92. It was estimated that up to 53% of tests would have resulted in clinically significant differences (change in warfarin dose) depending upon the site and method of testing. The practice derived results showed a positive bias ranging from 0.28 to 1.55, depending upon the site and method of testing.
+
+CLASSIFICATION: 

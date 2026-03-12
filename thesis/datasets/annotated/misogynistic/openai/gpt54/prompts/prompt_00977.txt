@@ -1,0 +1,39 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+https://www.instagram.com/p/B_2S6eyJLk-/
+
+https://i.redd.it/lsdqvw9yv3x41.jpg
+
+This seems to be a focused attack on young naive boys and girls by some vested interests.  If Indian govt. is really interested, they should check the root cause behind all this.
+
+This happened in news with a weeks time and a boy already suicide, some of them are <15yr olds.
+
+> Meanwhile, a new angle to the controversy has also come out on social media. One of the women who had initially outed the group has had her old conversations leaked which show her sexualising men and using homophobic and misogynistic language. 
+
+> Social media users have been using the term Girls Locker Room to discuss how deeply embedded the problem is.
+
+The male chat group which did it is demonized and one boy is already arrested, 20 identified.
+
+https://www.ndtv.com/india-news/boislockerroom-delhi-schoolboy-taken-into-custody-by-police-over-students-instagram-group-chat-that-talked-about-rape-of-schoolgirls-2223358?pfrom=home-topstories
+
+The whole thing looks like a power play by women groups with vested interests.  Otherwise, it is difficult for both these groups to be exposed at same time.
+
+As usual they will give girls a pussypass and cage the boys as a shamefully toxic display of women power.
+
+A young boy's life lost because of fake activism, all those feminist useless celebrities who took up the whining have blood on their hands.
+
+CLASSIFICATION:
+

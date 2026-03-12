@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Improvements that (i) relate specifically to XENCOR Confidential Information and Know-How and/or the Product (or any modification, derivative or fragment thereof), and (ii) do not relate to BII Confidential Information and Know­How (collectively, "XENCOR Intellectual Property"), will be exclusively owned by XENCOR and XENCOR shall control patent prosecution and maintenance thereof.
+
+CLASSIFICATION:
+ 

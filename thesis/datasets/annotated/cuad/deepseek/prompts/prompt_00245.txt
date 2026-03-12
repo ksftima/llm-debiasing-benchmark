@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition, Bank of America may, at no additional charge other than the Software license fees specified in each Product License Schedule, (i) install, use, execute and copy the Software for any backup, archival and emergency purposes and any internal, non-production Bank of America purpose including for test, development, and training; (ii) allow a third party outsourcer or service provider to install, use, execute and copy the Software solely in connection with its provision of services to Bank of America, provided that such use does not extend to providing services to others; and (iii) transfer the Software to any other Platform or Installation Site replacing that on which it was previously installed.
+
+CLASSIFICATION:
+ 

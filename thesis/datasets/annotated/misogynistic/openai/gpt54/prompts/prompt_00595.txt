@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Alexandra Stein on Disorganized Attachment in Cults Totalitarian RegimesDid anyone look into Cults and TRP? The more I research into cults and how cult indoctrinate people, the more I see the parallel between TRP and cults.
+
+Here is a very eye-opening podcast on cults and how it functions.
+
+[https://numinouspodcast.com/episodes/tnp121-alexandra-stein-on-disorganized-attachment-s1!43cca](https://numinouspodcast.com/episodes/tnp121-alexandra-stein-on-disorganized-attachment-s1!43cca)
+
+CLASSIFICATION:
+

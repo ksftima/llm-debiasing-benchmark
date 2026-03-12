@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to and without limiting any other provision of this Agreement, in the event the Village Media Company or HOFV fails to pay the Annual Guarantee to PFHOF in accordance with Section 5.1 and such failure is not cured within thirty (30) days of notice thereof by PFHOF, then the rights of first offer granted to HOFV in Section 3.1 of the First Amended and Restated License Agreement, dated as of September 16, 2019 between PFHOF and HOFV (the "License Agreement") shall automatically and immediately terminate, regardless of whether PFHOF elects not to terminate this Agreement in accordance Section 4.2.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+7) All covenants, promises and agreements by or on behalf of the parties contained in this Agreement shall be binding upon and shall inure to the benefit of the successors and assigns of the parties; but nothing in this Agreement, expressed or implied is intended to confer on any party the right to assign its rights or obligations hereunder.
+
+CLASSIFICATION:
+ 

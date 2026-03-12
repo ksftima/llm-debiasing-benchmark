@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Achaogen shall own all discoveries and inventions made by one or both of the Parties as part of the Research Program, whether or not patentable, relating (i) solely to Plazomicin, the Achaogen Patents, the Achaogen Know-How, and Achaogen Materials or (ii) [***] (each of (i) and (ii), "Achaogen Inventions").
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Combining process indicators to evaluate quality of care for surgical patients with colorectal cancer: are scores consistent with short-term outcome? To determine if composite measures based on process indicators are consistent with short-term outcome indicators in surgical colorectal cancer care. Longitudinal analysis of consistency between composite measures based on process indicators and outcome indicators for 85 Dutch hospitals. The Dutch Surgical Colorectal Audit database, the Netherlands. 4732 elective patients with colon carcinoma and 2239 with rectum carcinoma treated in 85 hospitals were included in the analyses. All available process indicators were aggregated into five different composite measures. The association of the different composite measures with risk-adjusted postoperative mortality and morbidity was analysed at the patient and hospital level. At the patient level, only one of the composite measures was negatively associated with morbidity for rectum carcinoma. At the hospital level, a strong negative association was found between composite measures and hospital mortality and morbidity rates for rectum carcinoma (p<0.05), and hospital morbidity rates for colon carcinoma.
+
+CLASSIFICATION: 

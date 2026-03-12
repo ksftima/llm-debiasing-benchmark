@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Auriemma grants to Berkshire the exclusive right and license (the "License Rights") to use the Auriemma Identification during the Contract Period and throughout the Contract Territory solely in connection with the advertisement and promotion of Berkshire and the Financial Services
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement, and subject to the terms and conditions hereof, STAAR hereby grants to Distributor, and Distributor hereby accepts, the limited, nontransferable, nonexclusive right and license to use the trade name, trademarks, and logos of STAAR (collectively, "Trademarks"), without the right to grant sublicenses, solely in connection with the marketing, distribution and sale of the Products in the Territory pursuant to this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Gluten tolerance in adult patients with celiac disease 20 years after diagnosis? Celiac disease (CD) is believed to be a permanent intolerance to gluten. A number of patients, however, discontinue the gluten-free diet (GFD) without developing symptoms or signs. The aim of our study was to investigate whether CD patients are capable of developing tolerance to gluten. All 77 adult patients from our hospital known to have biopsy-proven CD for more than 10 years were invited to participate. We investigated symptoms, gluten consumption, antibodies for CD and other autoimmunity, human leukocyte antigen (HLA)-typing, bone mineral density, and performed small bowel biopsies. Tolerance was defined as no immunological or histological signs of CD while consuming gluten. Sixty-six patients accepted participation, but after review of the diagnostic biopsies 53 were found to have true CD. Twenty-three percent of patients had a gluten-containing diet, 15% admitted gluten transgression and 62% followed the GFD. Patients on a GFD had significantly more osteoporosis. Normal small bowel mucosa was found in four of eight on gluten-containing diet and in four of four with gluten transgression. Two patients were considered to have developed tolerance to gluten. One of them was HLA-DQ2/DQ8 negative.
+
+CLASSIFICATION: 

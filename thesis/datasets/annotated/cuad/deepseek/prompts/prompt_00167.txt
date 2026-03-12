@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective as of the Initial Closing Date, the Purchaser will cause each Acquired Company and each Purchaser Assignee to grant, following each applicable Closing Date, to the Seller Parties, an irrevocable (except as expressly set forth herein), perpetual, non-sublicenseable (except as expressly set forth herein), fully paid-up, royalty-free, worldwide, non-transferable (except as expressly set forth herein), non-exclusive license, under the Acquired Company Patents and Assigned Patents: (i) (A) to use the Acquired Company Patents and Assigned Patents in the operation of the Seller Business and to practice any methods, processes, and procedures in connection therewith and (B) to make, have made, use, sell, offer for sale, import, and otherwise dispose of products, services, and systems that were designed, developed, manufactured, distributed, offered for sale, sold, resold, supported, otherwise under development, or provided, as of the applicable Closing Date, by the Seller Parties in connection with the Seller Business and to practice any methods, processes, and procedures in connection therewith, and in each case of clauses (A) and (B), including with respect to all Derivative Works and natural evolutions thereof;<omitted>(ii) to make, have made, use, sell, offer for sale, import, and otherwise dispose of Smart Sensing Network Equipment; and (iii) to make, have made, use, sell, offer for sale, import, and otherwise dispose of Public Safety LTE Smartphone Devices.
+
+CLASSIFICATION:
+ 

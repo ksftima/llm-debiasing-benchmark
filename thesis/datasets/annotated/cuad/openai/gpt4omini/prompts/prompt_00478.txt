@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In order for Forty Niners SC to fulfill its obligations hereunder, Sponsor hereby grants to Forty Niners SC a limited license during the<omitted>Term to use, reproduce and display the Sponsor Marks in connection with advertising and promotion of Sponsor and its sponsorship.
+
+CLASSIFICATION:
+ 

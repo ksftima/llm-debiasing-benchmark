@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do we need imaging to diagnose appendicitis in children? To evaluate the role of clinical assessment with selective use of imaging studies in the management of suspected acute appendicitis in children. Medical records of children referred to Emergency Room in 2010 for suspected appendicitis were retrospectively reviewed. Diagnostic investigations divided by age and sex were related to pathological findings. Negative appendectomy and complication rates were calculated. 923 children needed surgical assessment : In 75.7% of them surgical indication was excluded and 24.3% were admitted to surgical ward for observation. Appendectomy was eventually performed in 137 patients (61.9%), 82.4% of them without any preoperative imaging while 17.6% underwent selective studies, mainly abdominal ultrasonography (14.6%). Imaging was requested twice as frequently in not operated admitted children (39.3%) than in the operated ones (17.5%, P<0.001). Overall complicated appendicitis rate (peritonitis and abscess) resulted 26.4% and negative appendectomy rate 8.8%. Females older than 10 years presented histologically not-confirmed appendicitis in 22.2% of cases, while the younger ones presented more frequently complicated appendicitis (29.3%).
+
+CLASSIFICATION: 

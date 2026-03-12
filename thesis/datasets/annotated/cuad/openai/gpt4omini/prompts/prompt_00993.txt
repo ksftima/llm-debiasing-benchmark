@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Similarly, if a third party (who is not an affiliate of Playa) approaches Playa during the Development Term with a proposed offer or arrangement, which Playa desires to accept, under which Playa or its affiliate would manage an all- inclusive resort in the Market Area for that third party, and if that third party has not then already designated a brand under which that all-inclusive resort would operate, then Playa agrees to provide notice to Hyatt and introduce Hyatt to that third party for purposes of enabling Hyatt (at its option) to negotiate for the opportunity to provide that third party franchise rights to brand that resort as a Hyatt All-Inclusive Resort.
+
+CLASSIFICATION:
+ 

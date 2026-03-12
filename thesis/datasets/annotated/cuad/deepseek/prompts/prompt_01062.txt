@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the financial year commencing 01 March 2002 and thereafter until agreed otherwise, the REVENUE SHARE PERCENTAGE shall be 10% provided that should the percentage of TELKOM'S direct and indirect procurement expenditure that is transacted USING the SOFTWARE equal those percentage ranges stipulated below, then, the REVENUE SHARE PERCENTAGE shall be decreased to the corresponding percentage: Percentage of TELKOM'S procurement USING SOFTWARE Between 60% and 79% 80% or greater 9% 8%
+
+CLASSIFICATION:
+ 

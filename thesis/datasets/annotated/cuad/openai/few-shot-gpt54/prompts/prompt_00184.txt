@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+In connection with the exercise of CHT's rights under the Escrow Agreement, Ehave hereby grants to CHT a non- exclusive, non-transferable (except as set forth in Section 20(f)), right and license to use and copy the materials deposited with the Escrow Agent, including the Source Code, its Specifications and documentation, and any resulting corrections, repairs, translations, enhancements, and other derivative works and improvements made by CHT, for the sole purposes of providing to CHT the ability to operate, support and maintain, the Ehave Companion Solution for its End Users from time to time, until such time that CHT is able to migrate off the Ehave Companion Solution, but in any event not exceeding twelve months from the date of release of the materials from escrow.
+
+CLASSIFICATION:
+

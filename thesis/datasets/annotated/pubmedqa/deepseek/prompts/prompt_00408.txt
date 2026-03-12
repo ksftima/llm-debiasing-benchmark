@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Global Longitudinal Pathway: has medical education curriculum influenced medical students' skills and attitudes toward culturally diverse populations? The Pathway represents a longitudinal program for medical students, consisting of both domestic and international experiences with poor populations. A previous study reported no significant attitudinal changes toward the medically indigent between Pathway and non-Pathway students. The purpose of this study was to investigate and differentiate the skills and attitudes of Pathway and non-Pathway students in working with culturally diverse populations by conducting quantitative and qualitative analyses. Selected items from a cultural assessment were analyzed using independent t-tests and a proportional analysis using approximation of the binomial distribution. In addition, a qualitative assessment of non-Pathway and Pathway students was conducted. A statistically significant difference was found at the end of Years 2, 3, and 4 regarding student confidence ratings, and qualitative results had similar findings.
+
+CLASSIFICATION: 

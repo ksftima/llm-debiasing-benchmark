@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Consultant agrees that if, in the course of performing the Services, the Consultant incorporates into any Invention developed under this Agreement any preexisting invention, improvement, development, concept, discovery or other proprietary information owned by the Consultant or in which the Consultant has an interest ("Prior Inventions"), (i) the Consultant will inform the Company, in writing before incorporating such Prior Inventions into any Invention, and (ii) the Company is hereby granted a nonexclusive, royalty-free, perpetual, irrevocable, transferable worldwide license with the right to grant and authorize sublicenses, to make, have made, modify, use, import, offer for sale, sell, reproduce, distribute, modify, adapt, prepare derivative works of, display, perform, and otherwise exploit such Prior Inventions, without restriction, including, without limitation, as part of or in connection with such Invention, and to practice any method related thereto.
+
+CLASSIFICATION:
+ 

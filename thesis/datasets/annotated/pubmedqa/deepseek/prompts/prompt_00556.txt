@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Surgical treatment of prosthetic valve endocarditis in patients with double prostheses: is single-valve replacement safe? Bias against operating on patients with prosthetic valve endocarditis (PVE) who have multiple prostheses may preclude the use of life-saving valve replacement. We investigated the accuracy of the preoperative diagnosis of PVE in patients with both mitral and aortic prosthesis and the safety of single-valve replacement when only one valve seemed infected. Patients with a diagnosis of active PVE who had mitral and aortic prosthesis in place were assessed. We looked at the methods for diagnosis, causative agents, indication for valve replacement, operative findings and outcome. Twenty patients, who had both mitral and aortic prostheses and a diagnosis of PVE, were assessed. Streptococci and staphylococci caused 70% of cases. By means of echocardiography, the valves involved were: mitral (11 patients), aortic (six patients), and in three cases both prosthetic valves seemed infected. Surgery was undertaken in 17 patients (85%). The positive predictive value of transesophageal echocardiogram (TEE) for the preoperative diagnosis of the site of infection was 100%. In 13 patients, only the prosthetic valve that seemed infected was replaced. Four of these patients died within a week after the procedure. Nine patients survived the surgical procedure, completed a course of antimicrobial therapy and were followed up for 15.78 months (95% CI: 12.83-18.72). All were considered cured and relapses were not observed.
+
+CLASSIFICATION: 

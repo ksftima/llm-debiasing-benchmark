@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does laparoscopic antireflux surgery improve quality of life in patients whose gastro-oesophageal reflux disease is well controlled with medical therapy? Both medical therapy and laparoscopic antireflux surgery have been shown to improve quality of life in gastro-oesophageal reflux disease. Although patients with poor symptom control or side effects on medical therapy might be expected to have improved quality of life after surgery, our aim was to determine, for the first time, whether patients whose symptoms are well controlled on medical therapy but who decide to undergo surgery (patient preference) would experience improved quality of life. Retrospective analysis of our patient database (1998-2003, n=313) identified 60 patients who underwent laparoscopic antireflux surgery for the indication of patient preference. Two generic quality-of-life questionnaires (Short Form 36 and Psychological General Well-Being index) and a gastrointestinal symptom questionnaire (Gastrointestinal Symptom Rating Scale) were completed preoperatively, while on medical therapy, and 6 months after surgery. Thirty-eight patients completed all three questionnaires at both time intervals: 31 males, seven females; mean age 42 (15-66) years. Preoperative scores while on medical therapy were significantly improved after surgery: Short Form 36 median physical composite scores 52.0 and 54.0 (P=0.034) and mental composite scores 51.0 and 56.0 (P=0.020); Psychological General Well-Being median total scores 78.0 and 90.0 (P=0.0001); Gastrointestinal Symptom Rating Scale median total scores 2.13 and 1.73 (P=0.0007) and reflux scores 2.50 and 1.00 (P<0.0001).
+
+CLASSIFICATION: 

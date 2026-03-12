@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+"Lookism is everywhere and its so tiring." This sentence is revelatory. It articulates the knowledge femcels carry with us that poisons...even trying to take solace in music. Like the smell of shit. It's haunted me my whole life. You articulated it so simply and so beautifully. Books written by men; songs; movies (obviously). Not just opining about women existing to look fuckable; the sin on the world cast by ugly women. 
+
+Movies, day to day conversation (as men forget you are there, bound to), even women talking amongst themselves. Yes, Looksism is everywhere.
+
+CLASSIFICATION:
+

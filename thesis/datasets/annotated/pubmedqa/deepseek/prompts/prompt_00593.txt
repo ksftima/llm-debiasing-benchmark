@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there a role for leukocyte and CRP measurements in the diagnosis of acute appendicitis in the elderly? The diagnosis of acute appendicitis is still difficult and the results are unsatisfactory in three particular patient groups: in children, in fertile-age women and in elderly patients. As our population ages, the challenge for expedient diagnosis and intervention in older age groups will become more and more significant. The present study aimed at clarifying the role of leukocyte count and C-reactive protein (CRP) measurements in the diagnosis of acute appendicitis in the elderly. In particular, are there patients with acute appendicitis but unelevated leukocyte count and CRP? Eighty-three consecutive elderly patients underwent appendectomy for suspected acute appendicitis. The mean leukocyte count and CRP value were calculated in patients with an uninflamed appendix (group A) and in those with acute appendicitis (group B). The percentages of patients with: (1) both values unelevated; (2) only leukocyte count elevated; (3) only CRP value elevated; (4) both values elevated were calculated within the groups A and B. There was no statistically significant difference in leukocyte counts or CRP values between patients with an uninflamed appendix (group A) and those with acute appendicitis (group B). When the patients were divided into the four subgroups, the most conspicuous finding was that group B (acute appendicitis, n = 73) contained no patients with both values unelevated.
+
+CLASSIFICATION: 

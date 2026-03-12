@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SpinCo agrees that it will not, and agrees to cause each member of the SpinCo Group not to, (i)<omitted>initiate any Action against any member of the Honeywell Group or its Affiliates for infringement, misappropriation or other violation of any SpinCo IP, (ii) oppose, challenge, petition to cancel, contest or threaten in any way, or assist another party in opposing, challenging, petitioning to cancel, contesting or threatening in any way, any application or registration by the Honeywell Group or its Affiliates or their respective licensees for any Honeywell IP, the use of which is consistent with the use of such Honeywell IP in connection with the Honeywell Business as of immediately prior to the Distribution Date, (iii) engage in any act, or purposefully omit to perform any act, that impairs or adversely affects the rights of Honeywell or any member of the Honeywell Group in and to any Honeywell IP or (iv) apply for any registration with respect to the Honeywell IP (including federal, state and national registrations), in each case of the foregoing clauses (i) - (iv) for a period of five (5) years after the Distribution Date, without the prior written consent of Honeywell, which consent shall not be unreasonably withheld, conditioned or delayed.
+
+CLASSIFICATION:
+ 

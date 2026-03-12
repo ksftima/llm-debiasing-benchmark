@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+HSI will retain ownership and will grant a royalty-free, non-exclusive license to HERC to use the HSI (HERTZ) Foreign ERB Trademarks (those foreign trademarks owned by HSI related to the ERB that incorporate the mark/name HERTZ) as set forth on Schedule A, for the Interim Period, outside the United States and Puerto Rico, as more fully set forth in the Trademark, Trade Name, Domain and Related Rights License Agreement attached as Exhibit A.
+
+CLASSIFICATION:
+ 

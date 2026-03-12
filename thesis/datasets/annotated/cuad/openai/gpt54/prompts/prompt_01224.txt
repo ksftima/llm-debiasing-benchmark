@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Software Support and Maintenance shall automatically continue during the term of this Agreement and thereafter for the remaining term of any contracts Corio has with its Customers to continue providing the Corio Services, provided that Corio continues to pay the revenue sharing fees as provided in EXHIBIT B hereto.
+
+CLASSIFICATION:
+ 

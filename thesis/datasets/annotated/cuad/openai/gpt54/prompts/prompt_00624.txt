@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+King hereby grants to Depomed a non-assignable, non-sublicensable (except to any Third Party acting as the Depomed Sales Force), non-exclusive, royalty-free right and license to use the King Trademarks in the Territory solely in connection with Depomed's Promotion of the Product.
+
+CLASSIFICATION:
+ 

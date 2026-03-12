@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+A model of healing of Los Angeles grades C and D reflux oesophagitis: is there an optimal time of acid suppression for maximal healing? In patients with Los Angeles (LA) grade C or D oesophagitis, a positive relationship has been established between the duration of intragastric acid suppression and healing.AIM: To determine whether there is an apparent optimal time of intragastric acid suppression for maximal healing of reflux oesophagitis. Post hoc analysis of data from a proof-of-concept, double-blind, randomized study of 134 adult patients treated with esomeprazole (10 or 40 mg od for 4 weeks) for LA grade C or D oesophagitis. A curve was fitted to pooled 24-h intragastric pH (day 5) and endoscopically assessed healing (4 weeks) data using piecewise quadratic logistic regression. Maximal reflux oesophagitis healing rates were achieved when intragastric pH>4 was achieved for approximately 50-70% (12-17 h) of the 24-h period. Acid suppression above this threshold did not yield further increases in healing rates.
+
+CLASSIFICATION: 

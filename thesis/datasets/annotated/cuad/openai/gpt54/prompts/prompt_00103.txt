@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement commencing as of the Effective Date and for the duration of the Term and any Transition-out Period, Ehave hereby grants to CHT a non-transferable (except as permitted under Section 20(f)), right to: (i) sub-license the use of the Ehave Companion Solution within the Field of Use in the Territory to End Users and their respective Authorized Users, including in operation or by interfacing with other software, hardware, systems, networks and services, in accordance with and subject to the provisions of CHT's Subscription Agreement; and (ii) use the Ehave Companion Solution to support its licensed End Users.
+
+CLASSIFICATION:
+ 

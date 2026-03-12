@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the Transmissible Liability Index (TLI) assessed in late childhood predict suicidal symptoms at young adulthood? Our previous work demonstrated that the Transmissible Liability Index (TLI), an instrument designed as an index of liability for substance use disorder (SUD), is associated with risk of substance use disorder. This longitudinal study assessed whether TLI measured in 10-12-year-olds (late childhood) predicts suicidal behavior from age 12-14 (preadolescence) to age 25 (young adulthood). We hypothesized that TLI would predict number and severity of suicide attempts. Subjects were sons of men who had lifetime history of SUD (n = 250), called the High Average Risk (HAR) group, and sons of men with no lifetime history of a SUD (n = 250), called the Low Average Risk (LAR) group. The TLI was delineated at baseline (age 10-12), and age-specific versions were administered at 12-14, 16, 19, 22, and 25 years of age. TLI was significantly associated with number and severity of lifetime suicide attempts.
+
+CLASSIFICATION: 

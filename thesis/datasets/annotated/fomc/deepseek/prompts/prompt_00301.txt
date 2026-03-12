@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+That ex post relationship, the correlation between actual--instead of intended--domestic saving and domestic investment was the object of the seminal work by Feldstein and Horioka a quarter century ago.4 Without the evident worldwide fall in home bias over the past decade, noted earlier, the United States would not have been able to finance its recent current account deficits, and, accordingly, these deficits would have been smaller.
+
+CLASSIFICATION:

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Zogenix hereby grants to Distributor a non-exclusive, royalty-free, limited right under the Zogenix Trademarks solely to promote, market, sell, offer for sale, import, package and distribute the Product in Field in the Territory in accordance with the terms of this Agreement.
+
+CLASSIFICATION:
+ 

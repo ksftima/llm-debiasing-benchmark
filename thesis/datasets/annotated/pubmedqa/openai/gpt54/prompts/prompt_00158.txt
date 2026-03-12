@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can bisphosphonate treatment be stopped in a growing child with skeletal fragility? Cyclical pamidronate therapy in a 2-year-old child with skeletal fragility resulted in remodelling of vertebral fractures and improvement in bone mineral density (BMD) at distal radial and spinal sites. The BMD at both sites decreased precipitously within 24 months of stopping treatment, raising the question as to whether bisphosphonates can be stopped in a growing child with skeletal fragility. At age 23 months, a male toddler sustained a low trauma fracture of his right femur. Skeletal radiographs revealed generalised osteopenia with multiple vertebral body fractures. He was diagnosed with type IV osteogenesis imperfecta; however, no mutations were found in COL1A1 or COL1A2 genes. This case report presents bone densitometry data before, during and after bisphosphonate treatment. Axial QCT was main outcome from 2 years of age; DXA and pQCT were taken after age 5. QCT confirmed that he had low spinal trabecular volumetric BMD (Z-score -2.4). After 4 years of treatment his vertebral fractures had been remodelled and all bone densitometry values (QCT, DXA and pQCT) were within normal range and therefore treatment was discontinued. Shortly after this he suffered stress fractures of his left mid tibia and at the sclerotic metaphyseal line corresponding to his first APD treatment. He had marked reduction in spinal trabecular and distal radial vBMD; change in BMAD was less marked.
+
+CLASSIFICATION: 

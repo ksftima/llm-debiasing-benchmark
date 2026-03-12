@@ -1,0 +1,42 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+How is non-neediness different from arrogance or disinterest?For a long time, I have had to problem to understand what neediness is to begin with. But now to some extent I think I get it. However, most times my non-neediness comes across as disinterest or arrogance.
+
+For ex: A girl expects me to be in touch with her constantly. We can't be meeting all the time. She expects that we are in touch with each other constantly either through call or text. So, I'd say I'm busy or I'd say normally I don't text so much but rather I'd like to meet in person instead. Somehow, she ignores this and keeps texting me. Now if I do respond to her everytime she texts me, I'd be texting all day long and eventually I'll come across as low value. On the other hand if I don't reply or take a long time to reply, it'll come across as disinterest or arrogance and she may auto-reject or go find someone who can cater to her needs. If I like the girl, I'll be losing her either way. How do I balance this?
+
+P.S: Above example can show up in different forms and at different stages.
+This question may have been asked already but I couldn't get an answer that I'm specifically looking for in this context. So had to re-ask
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Equifax hereby grants, and will cause the other members of the Equifax Group to grant, to Certegy a fully paid, non-exclusive, perpetual, worldwide, non-transferable license to use, modify, copy, improve, create Derivative Works and Certegy Enhancements from, and sublicense the Licensed Equifax Materials (excluding the Utility Software Programs) solely for use in the Certegy Business and as that business may evolve and change in the future, subject to the following: (i) Certegy shall not sublicense, or otherwise disclose or distribute, or permit any Person to use, the Licensed Equifax Materials (excluding the Utility Software Programs), except in accordance with Section 4.1(b); (ii) Certegy shall hold the Licensed Equifax Materials (excluding the Utility Software Programs) in strict confidence; will not remove or destroy any proprietary markings of the Equifax Group on or contained in the Licensed Equifax Materials (excluding the Utility<omitted>Software Programs); and will include the copyright and patent notices of the licensor as specified from time to time by the licensor for the Licensed Equifax Materials (excluding the Utility Software Programs) on and in all copies of the Licensed Equifax Materials (excluding the Utility Software Programs); (iii) Certegy shall not export or re-export the Licensed Equifax Materials (excluding the Utility Software Programs) without the appropriate United States or foreign government licenses; and (iv) all sublicenses from Certegy to members of the Certegy Group (A) shall contain the rights and restrictions set forth in this Section 4.1(a) with respect to the license granted to Certegy and comply with Sections 4.1(b) through (d) hereof and (B) shall be diligently enforced by Certegy.
+
+CLASSIFICATION:
+ 

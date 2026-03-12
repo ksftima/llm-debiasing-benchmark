@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+We have the right to terminate this Agreement effective upon delivery of notice of termination to you, if:<omitted>(8) you are involved in any action that is likely to adversely affect the reputation of the Company, the Franchise, and/or the goodwill associated with the Marks;
+
+CLASSIFICATION:
+ 

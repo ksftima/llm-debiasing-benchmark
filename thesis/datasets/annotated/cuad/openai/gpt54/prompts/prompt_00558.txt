@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Certegy hereby grants to Equifax a fully paid, non-exclusive, perpetual, worldwide license to use, modify, copy, improve and create Derivative Works and enhancements from, in source code and object code format, processes or procedures developed by Equifax in support to the Paynet Secure software product that have applicability independent of or from the Paynet Secure software product.
+
+CLASSIFICATION:
+ 

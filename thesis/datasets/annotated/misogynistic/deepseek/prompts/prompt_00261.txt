@@ -1,0 +1,40 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+People are inherently self-interested. People do what serves their best interest.
+
+
+&nbsp;
+
+
+When men are young, they want what they want and convince women/spread the ideology that what they want is the best thing for women. It benefits them here. Themselves > potential female partner.
+
+
+
+However, when they have their own daughter, they care about her deeply and understand seeing a woman as more human - this woman is an extension of themselves. Themselves>extension of self>other men.
+
+&nbsp;
+
+
+
+And men know deep down what male nature is like, they understand that what they may have promoted in younger years isn't actually the best thing for a girl. 
+
+
+
+
+Now, they change what they promote because now protecting their daughter serves their best interest, therefore promoting women's well-being/independence serves their best interest. Whereas before, getting a woman was in their best interest, therefore discouraging women's independence was in their best interest.
+
+CLASSIFICATION:
+

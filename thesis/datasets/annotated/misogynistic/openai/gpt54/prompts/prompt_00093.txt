@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+How do I convince redpilled individuals that they are wrong about women and them being Male isn't the problem in their dating life?I don't like redpillers or these MGTOW types they hate women, believe in a heternormitive world and that LGBTQ+ people are irrelevant,  they hate anyone that disagrees with them, and they just whine about issues they have no idea that feminism can fix. However no matter how much I will try to convince these people in a debate they will look at me as uneducated and loony almost. For example I got one guy who just kept repeating "check out Edward Horgon's from Harvard university why women perfer bad boys" which he didn't link and I didn't get search results. I want to debate these people but they are so stubborn and annoying how do I get people out of the redpilled mentality?
+
+CLASSIFICATION:
+

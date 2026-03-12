@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Calm hereby grants to XSPA, solely during the Term and in the Territory, a revocable (as set forth in ​Section ​​12.04), royalty-free, assignable (solely as set forth in Section ​16.05), non-sublicensable (except as set forth in Section ​9.03), non-exclusive license to use the marks set forth on Exhibit D ("Calm's Marks"), solely to the extent necessary for XSPA to exercise its rights or perform its obligations set forth in this Agreement.
+
+CLASSIFICATION:
+ 

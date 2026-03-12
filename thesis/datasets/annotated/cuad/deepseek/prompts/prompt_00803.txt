@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Vendor will maintain and retain the records set forth in Subsection (a) during the term of the Agreement and for three (3) years thereafter (unless a discovery or legal hold request is made with respect to such records, in which case Vendor shall retain such records until AT&T notifies Vendor that such discovery or legal hold request has expired)
+
+CLASSIFICATION:
+ 

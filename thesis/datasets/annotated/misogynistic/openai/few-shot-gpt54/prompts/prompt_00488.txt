@@ -1,0 +1,44 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Something that helped me gain confidence.So, I know a lot of guys(including me) lacked confidence. I lacked confidence almost my entire life, I was not awkward but I still felt like I needed more confidence. One thing that helped me gain A LOT of confidence is this:
+One night I was extremely bored and thought I might download Tinder, so I did that and I upgraded to gold version. I changed my locations often to many different countries, I also downloaded some apps where you can talk to strangers online. I downloaded an app where you connect with snapchat and you can match with girls and talk to snapchat.
+How did this help me?
+Well I got some matches and started chatting with some girls from Poland, Germany, Indonesia, Brazil, anyway the countries doesnt matter. I felt an immediate ego boost, to see that women from all around the world would want to talk to me. What matters is this, you are attractive, some girls will find you attractive, some wont. What you need to remember is that you are attractive! Anyways when I did this I noticed that I was talking to 10 or more girls that I probably wont ever meet in real life. I wasnt worried that I might say something wrong to drive them away from me, because they are so far away from me that I wont see them in real life. I just had fun and had interesting conversations. The thing is when I started talking to girls with whom I could actually meet up with I wasnt asking myself questions like Did I text her early, did I text her late, did I say something wrong? I just went with the flow and talked to them, I KNEW that I was attractive, I knew that women wanted to have conversations with me. What I got from my experience is that some women will like you and some wont and guess what, thats fine!! If you keep doing this, talking to girls from all around the world, I promise you will improve your confidence and conversation skills!
+
+So to summarize: download many online chatting and dating apps, meet women from all around the world, talk to them, you will see that when you talk to women from far away and when you talk to those women that you can actually meet up that there isnt a difference, you will gain confidence, you will improve your conversation skills, you will improve your text game!
+
+Anyways just wanted to share what helped me, if you want to know which apps I used just PM me and I will tell you! Remember guys, you are attractive!!
+
+CLASSIFICATION:
+

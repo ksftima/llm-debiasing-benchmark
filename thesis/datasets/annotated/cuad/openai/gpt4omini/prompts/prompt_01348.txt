@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Member covenants and agrees that during the term of the Franchise Agreement, except as otherwise approved in writing by Franchisor, Member shall not, either directly or indirectly, for itself, or through, on behalf of, or in conjunction with any person, persons, partnership, corporation, or entity:<omitted>(iii) Induce any person to leave his or her employment with Franchisee or Franchisor.
+
+CLASSIFICATION:
+ 

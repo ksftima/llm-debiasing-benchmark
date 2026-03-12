@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does a 4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme®? Bystander resuscitation plays an important role in lifesaving cardiopulmonary resuscitation (CPR). A significant reduction in the "no-flow-time", quantitatively better chest compressions and an improved quality of ventilation can be demonstrated during CPR using supraglottic airway devices (SADs). Previous studies have demonstrated the ability of inexperienced persons to operate SADs after brief instruction. The aim of this pilot study was to determine whether an instruction manual consisting of four diagrams enables laypersons to operate a Laryngeal Mask Supreme® (LMAS) in the manikin. An instruction manual of four illustrations with speech bubbles displaying the correct use of the LMAS was designed. Laypersons were handed a bag containing a LMAS, a bag mask valve device (BMV), a syringe prefilled with air and the instruction sheet, and were asked to perform and ventilate the manikin as displayed. Time to ventilation was recorded and degree of success evaluated. A total of 150 laypersons took part. Overall 145 participants (96.7%) inserted the LMAS in the manikin in the right direction. The device was inserted inverted or twisted in 13 (8.7%) attempts. Eight (5.3%) individuals recognized this and corrected the position. Within the first 2 minutes 119 (79.3%) applicants were able to insert the LMAS and provide tidal volumes greater than 150 ml (estimated dead space). Time to insertion and first ventilation was 83.2 ± 29 s. No significant difference related to previous BLS training (P = 0.85), technical education (P = 0.07) or gender could be demonstrated (P = 0.25).
+
+CLASSIFICATION: 

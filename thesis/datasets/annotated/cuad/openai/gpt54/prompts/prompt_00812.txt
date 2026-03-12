@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For twenty-four (24) months following termination of this Agreement, the Licensee shall specify on all public- facing materials in a prominent place and in prominent typeface that the Licensee is no longer operating under the Licensed Mark, is no longer associated with the Licensor, or such other notice as may be deemed necessary by the Licensor in its sole discretion in its prosecution, defense, and/or settlement of any Third Party Claim.
+
+CLASSIFICATION:
+ 

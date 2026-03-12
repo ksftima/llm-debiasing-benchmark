@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Payment-Eligible URS User Data, Superset Data, and Shopping Category Data collected through the operation of the Co-Branded Application will be jointly owned by the parties.
+
+CLASSIFICATION:
+ 

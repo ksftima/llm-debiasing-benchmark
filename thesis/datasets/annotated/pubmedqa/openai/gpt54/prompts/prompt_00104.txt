@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cycloplegic autorefraction in young adults: is it mandatory? The precise correction of refractive error is especially important in young adults. It is unclear whether cycloplegic refraction is necessary in this age group. The purpose of this study was to compare the non-cycloplegic and cycloplegic spherical equivalent (SE) refractive error measured in young adults. This was a prospective study of 1400 eyes (n = 700) of enlisted soldiers aged 18 to 21 years who were consecutively evaluated in an outpatient army ophthalmology clinic. One drop of cyclopentolate 1 % was installed twice 10 min apart, and cycloplegic refraction was performed in both eyes 40 min later using an auto-refractor. The difference between non-cycloplegic and cycloplegic refractive measurements was analyzed. The mean difference in SE between non-cycloplegic and cycloplegic measurements was 0.68 ± 0.83 D (95 % CI, 0.64-0.72). Significantly greater differences were observed in hypermetropes than myopes (1.30 ± 0.90 D versus 0.46 ± 0.68 D, p < 0.001). Moderate hypermetropes (2 to 5 D) demonstrated significantly greater refractive error than mild (0.5 to 2 D) or severe (>5 D) hypermetropes (1.71 ± 1.18 D versus 1.19 ± 0.74 D and 1.16 ± 1.08 D respectively, p < 0.001).
+
+CLASSIFICATION: 

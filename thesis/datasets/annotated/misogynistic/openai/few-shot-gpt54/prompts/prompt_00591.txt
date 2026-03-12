@@ -1,0 +1,59 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+The Power Of Teasing - Building Major Sexual Desire In WomenWomen are not use to men rejecting or teasing them.  The hotter she is, the less likely a man has teased or rejected her.  As a matter of fact, if he has, this is the guy she finds the most intriguing.
+
+"Why are you playing games with women"
+
+This is a game that women play with men all the time.  When a man does it back to her, it disarms her.
+
+I wrote a post called  [**How To Be Charismatic With Confidence Coming Out Of Your Pores**](http://theconfidenceskyscraper.com/how-to-be-charismatic-with-confidence-coming-out-of-your-pores/) and it's with the elements I mention in that post and what I'm about to share with you is gonna give you an unfair advantage over your male competition when it comes to women.
+
+So how do you tease a woman?  First and foremost, stop being thirsty to fuck.  Second, this is not teasing that goes nowhere.  The more you tease her, the more intrigued she becomes and the more she will keep you out of the friend zone.
+
+Don't give a woman everything she wants.  When you give her everything she wants, she will start to get bored.  Keep your conversations short.  When the both of you hang out, she will enjoy your time so much more.  So if you only hang out with her for just 10-15 minutes at a time, the more she starts having feelings for you, the longer she's gonna want to spend time with you.
+
+Her: "What?  You have to leave?  You just got here!" in a whiny voice.
+
+You: "Yeah.  I gotta go.  I have to leave for work tomorrow"
+
+Her: "Wanna spend the night?  I can wash what you're  wearing so you can have something clean for work tomorrow"
+
+This is an example, don't expect this to happen exactly like this.  But you get the idea.  When a woman starts making accommodations for you to spend more time with her, she is doing what men want women to do when they ask her on a date.
+
+Remember that women make time and switch things around for men they're attracted to.  The more desire you build up in her, the less resistance she'll have.  If she's suppose to hang out with her girls, she'll do it earlier or later to make time for you.
+
+If you learn how to focus on building the desire in her, you won't have to worry about sleeping with her... she'll do her best to make sure that it's gonna happen.
+
+CLASSIFICATION:
+

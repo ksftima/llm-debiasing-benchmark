@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent any Development owned by Life Technologies relates directly to the practice of, or constitutes an improvement to, the Assay, Life Technologies hereby grants to Biocept, during the Term of this Agreement, and, except in the case of termination of this Agreement by Life Technologies for Biocept's uncured material breach, after expiration or termination of this Agreement, a non-exclusive, worldwide, royalty-free, fully-paid license, including the right to sublicense, under Life Technologies' Intellectual Property Rights in such Developments, solely to develop, make, have made, use, sell, have sold, offer for sale, import, perform and provide the Assay.
+
+CLASSIFICATION:
+ 

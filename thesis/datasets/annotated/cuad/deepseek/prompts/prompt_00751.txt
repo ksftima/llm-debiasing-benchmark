@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Termination Period and thereafter, and notwithstanding any other provision of this Agreement, MBE will be free to use its own personnel, and/or engage or contract with any third party to use the Specifications to design, develop and market an Internet-based manifest system similar to the Manifest (including products that contain functionality similar to the Service and which have a "look and feel" similar or identical to the Manifest), in each case solely for the benefit of MBE and the MBE Centers and international franchisees or licensees of MBE.
+
+CLASSIFICATION:
+ 

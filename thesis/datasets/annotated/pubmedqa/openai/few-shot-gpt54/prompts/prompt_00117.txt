@@ -1,0 +1,35 @@
+
+Evaluate whether the following biomedical text adequately answers the question
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Does the sequence of clamp application during open abdominal aortic aneurysm surgery influence distal embolisation? Embolisation of atherosclerotic debris during abdominal aortic aneurysm (AAA) repair is responsible for significant peri-operative morbidity. Reports have suggested that preferential clamping of the distal vessel(s) before the proximal aorta may decrease the number of emboli passing distally and hence reduce complications. Forty patients undergoing AAA repair were randomised to have either first clamping of the proximal aorta or the iliac vessels. Emboli passing through the Superficial Femoral Arteries were detected with a Transcranial Doppler ultrasound system. There was no difference between the two groups in the number of emboli detected (p=0.49) and no significant correlation between number of emboli and dissection time (r=0.0008). However, there was a significantly higher number of emboli in the patient sub-group that were current smokers (p=0.034).
+
+CLASSIFICATION: 0
+
+Do liquid-based preparations of urinary cytology perform differently than classically prepared cases? The cytomorphology of liquid-based preparations in urine cytology is different than classic slide preparations. To compare the performance of liquid-based preparation specimens to classically prepared urine specimens with a malignant diagnosis in the College of American Pathologists Interlaboratory Comparison Program in Nongynecologic Cytology. Participant responses between 2000 and 2007 for urine specimens with a reference diagnosis of high-grade urothelial carcinoma/carcinoma in situ/dysplasia (HGUCA), squamous cell carcinoma, or adenocarcinoma were evaluated. ThinPrep and SurePath challenges were compared with classic preparations (smears, cytospins) for discordant responses. There were 18 288 pathologist, 11 957 cytotechnologist, and 8086 "laboratory" responses available. Classic preparations comprised 90% (n = 34 551) of urine challenges; 9% (n = 3295) were ThinPrep and 1% (n = 485) were SurePath. Concordance to the general category of "positive-malignant" was seen in 92% of classic preparations, 96.5% of ThinPrep, and 94.6% of SurePath challenges (P<.001). These results were statistically different for the exact reference interpretation of HGUCA (P<.001) but not for adenocarcinoma (P = .22). Cytotechnologists demonstrate statistically better performance for the general category of "positive-malignant" compared with pathologists for all urinary slide types and for the exact reference interpretation of HGUCA (94% versus 91.1%; P<.001) but not adenocarcinoma (96.3% versus 95.8%; P = .77) or squamous cell carcinoma (93.6% versus 87.7%; P = .07).
+
+CLASSIFICATION: 1
+
+Does accompanying metabolic syndrome contribute to heart dimensions in hypertensive patients? Metabolic syndrome (MetS) is associated with increased risk for cardiovascular events. We evaluated heart dimensions in hypertensive patients with MetS. The study included 75 hypertensive patients (34 males, 41 females; mean age 51+/-9 years) without coronary artery disease. Patients were evaluated in two groups depending on the presence or absence of MetS. Age- and gender-matched 20 healthy subjects (9 males, 11 females; mean age 50+/-5 years) comprised the control group. The diagnosis of MetS was based on the presence of at least three of five MetS criteria. Hypertension was defined as arterial blood pressure exceeding 140/85 mmHg on three consecutive measurements or the use of antihypertensive drugs. Echocardiographic measurements included interventricular septal thickness, left ventricular internal diameter, posterior wall thickness, aortic diameter, left atrial diameter, relative wall thickness, and left ventricular mass. Metabolic syndrome was present in 32 hypertensive patients (42.7%; 18 males, 14 females). The mean number of MetS criteria was 2.6+/-1.0 in the hypertensive group. Compared to the control group, patients with or without MetS exhibited significantly increased interventricular septum and posterior wall thickness, left atrial diameter, relative wall thickness, and left ventricular mass (p<0.05). The only significant difference between the two patient groups was that MetS was associated with a greater left atrial diameter (p=0.019). Left atrial diameter was correlated with the number of MetS criteria (r=0.51; p<0.001).
+
+CLASSIFICATION: 2
+
+---
+
+Here's the text I would like you to classify:
+
+Does laparoscopic surgery decrease the risk of atrial fibrillation after foregut surgery? Atrial fibrillation, which occurs in 12% of all major foregut surgeries, can prolong hospital stay and increase morbidity. Minimally invasive techniques in foregut surgery have been suggested to cause less tissue trauma. We examined the factors associated with new-onset atrial fibrillation after foregut surgery at our institution. We retrospectively examined the records of 154 adult patients who underwent major foregut surgery which included esophagectomy, partial or total gastrectomy, redo Heller myotomy, redo or transthoracic fundoplications. Univariate and multivariate logistic regression analysis with standard modeling techniques were performed to determine risk factors for new-onset atrial fibrillation. Of the 154 patients, 14 patients developed new-onset atrial fibrillation with a higher mean age of 67.1 years (+/-8.8 years) versus 56.4 years (+/-14.1 years) (p = 0.006). Laparoscopic (p = 0.004) and nonthoracic surgeries (p = 0.01) were associated with lower risk of atrial fibrillation. Patients with atrial fibrillation had received more fluid (6.5 +/- 2.8 liters versus 5.3 +/- 2.0 liters) and had longer operations (370 +/- 103 min versus 362 +/- 142 min), none of which were statistically significant. The average intensive care length of stay of patients was longer: 7.5 +/- 6.8 days versus 4.0 +/- 7.1 days (p = 0.004). Multivariate analysis revealed an association of atrial fibrillation with age (OR 1.08, 95% CI 1.02-1.14, p = 0.01), and laparoscopic surgery (OR 0.09, 95% CI 0.01-0.95, p = 0.04) after adjusting for surgery type.
+
+CLASSIFICATION:

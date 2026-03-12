@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Proliferative index obtained by DNA image cytometry. Does it add prognostic information in Auer IV breast cancer? To investigate whether the S + G2/M fraction (proliferative index) is a prognostic determinant in breast cancers classified as Auer IV. Prognostic evaluation of Auer IV DNA histograms with respect to the high versus low S + G2/M fraction, obtained by image cytometry on consecutive breast cancer imprint preparations. When studying recurrence-free survival (n = 136), the prognostic value of S + G2/M was found to vary with time: it was negligible before the median time to relapse (1.5 years) but thereafter statistically significant, in both univariate and multivariate analysis. The same pattern was found when overall survival was used as the end point; the effect was delayed to about the median time until death (three years). Tumors with a low S + G2/M fraction were smaller and more often estrogen receptor- and progesterone receptor-positive than those with a high S + G2/M fraction.
+
+CLASSIFICATION: 

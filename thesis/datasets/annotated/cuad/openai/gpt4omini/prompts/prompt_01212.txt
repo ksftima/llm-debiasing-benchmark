@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EXCEPT AS SET FORTH BELOW IN THIS SECTION 13.4(b), [* * *], AS APPLICABLE, IN NO EVENT SHALL A PARTY'S LIABILITY, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, BE GREATER THAN, PER CLAIM OR SERIES OF CLAIMS ARISING FROM THE SAME CAUSE OF ACTION, [* * *].
+
+CLASSIFICATION:
+ 

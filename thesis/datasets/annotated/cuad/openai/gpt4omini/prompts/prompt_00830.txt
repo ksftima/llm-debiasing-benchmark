@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The voice over appearance shall take place at North's personal residence or at another mutually agreed upon location in Wisconsin, and shall not exceed two (2) hours in duration.
+
+CLASSIFICATION:
+ 

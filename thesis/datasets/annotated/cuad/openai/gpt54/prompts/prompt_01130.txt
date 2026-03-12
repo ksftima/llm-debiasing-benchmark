@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+A Party may terminate the JSMA immediately upon the delivery of written notice to the other Party if there has been a Change in Control.
+
+CLASSIFICATION:
+ 

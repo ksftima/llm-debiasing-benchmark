@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Boxlot hereby grants to theglobe a non-exclusive, worldwide license to use, reproduce, create derivative works of (only as necessary to build pages in a manner consistent with this Agreement), publicly display, publicly perform and digitally perform Boxlot Banners, and those elements of the Boxlot Content served from theglobe's servers (as denoted in Exhibit A), on theglobe Site or otherwise as reasonably appropriate to advertise and promote the Service and the Co-Branded Pages.
+
+CLASSIFICATION:
+ 

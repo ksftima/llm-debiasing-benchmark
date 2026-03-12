@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+ETI, on behalf of Entrust, grants to NTL and its ------------ Affiliates (as defined in the Enterprise License) a non-exclusive, fully paid- up, worldwide, perpetual license to use an unlimited number of copies of the Entrust Products subject to the terms and conditions of an agreement to be concluded between NTL and ETI promptly after the Effective Date in substantially the form of the license set forth in Exhibit B (the "Enterprise License") save ------------------ as amended to comply with the provisions of this Article III.
+
+CLASSIFICATION:
+ 

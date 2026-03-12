@@ -1,0 +1,22 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Facetime? Are you kidding me?I left this sub for some time cause of seeing excessive amounts of useless advice. I came back recently to see if people are actually still hooking up through dating apps / how they are doing so, but I keep seeing posts on "How to do a Facetime call?" or "How to talk to a girl over text?" or "Why aren't girls answering my texts?" Are you fucking kidding me? Do you know how much of a waste of time that is? Do you know you're being used? Girls thrive on attention and you're giving them that, especially at a time like this. Seriously, stop it. I see some people claiming they've already made "5-6 dates possible for after the quarantine." Yeah, right cause the first person a girl wants to see after a quarantine is a random fucking stranger they "met" on a dating app, Jesus Christ. There's no guarantee you'll meet a girl after the quarantine is over and the quarantine isn't gonna be over anytime soon. You're being delusional and naive. There's no treatment for COVID-19 and there won't be a vaccine for another 12-18 months and yet we're acting like the situation right now is a temporary one, it's not. Get used to it. Either you're making actual moves and meeting people (obviously not in a crowded area), and accept youre taking a risk, or you're not. If you choose not to, then enjoy texting and Facetiming for the next few months-year and watch it take you nowhere. Wake up. Please.
+
+Edit: Don't be in denial. Normal life won't resume anytime soon. Please read this: 
+https://abcnews.go.com/Politics/federal-government-18-month-plan-life-return-normal/story?id=70046439
+
+CLASSIFICATION:
+

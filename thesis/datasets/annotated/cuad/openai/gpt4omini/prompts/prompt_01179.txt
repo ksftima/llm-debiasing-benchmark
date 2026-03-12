@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Term of this Agreement (the "Term") shall commence on the Effective Date listed above and continue for twenty (20) years, unless sooner terminated as provided in Section 7(b) [Term and Termination].
+
+CLASSIFICATION:
+ 

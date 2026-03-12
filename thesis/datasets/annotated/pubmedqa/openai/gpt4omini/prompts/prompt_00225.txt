@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Knee extensor strength, dynamic stability, and functional ambulation: are they related in Parkinson's disease? To evaluate the relationship between knee extensor strength, postural stability, functional ambulation, and disease severity in Parkinson's disease (PD). A cohort study. University research laboratory. Patients (N=44) with idiopathic PD. Not applicable. Participants were evaluated on their isokinetic knee extensor strength. Additionally, participants completed an assessment of their postural stability (Functional Reach Test for static stability and a dynamic postural stability assessment as measured by the center of pressure-center of mass moment arm during gait initiation). Participants also underwent an evaluation of their functional ambulation as measured by a 6-minute walk test. Lastly, participants were evaluated by a neurologist specially trained in movement disorders to assess neurologic status and disease severity using the Unified Parkinson's Disease Rating Scale and the Hoehn and Yahr disability score. Knee extensor strength positively correlated with dynamic postural stability and negatively correlated with disease severity. Further, dynamic postural stability was negatively correlated to disease severity and positively correlated with functional ambulation in this cohort of patients with PD (P<.05). The results also suggest that the Functional Reach Test may be a valuable assessment tool to examine postural stability in PD.
+
+CLASSIFICATION: 

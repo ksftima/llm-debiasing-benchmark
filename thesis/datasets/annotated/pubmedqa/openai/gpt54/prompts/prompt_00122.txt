@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does lung ischemia and reperfusion have an impact on coronary flow? Ischemia-reperfusion (IR) injury remains a major cause of early morbidity and mortality after lung transplantation with poorly documented extrapulmonary repercussions. To determine the hemodynamic effect due to lung IR injury, we performed a quantitative coronary blood-flow analysis in a swine model of in situ lung ischemia and reperfusion. In 14 healthy pigs, blood flow was measured in the ascending aorta, left anterior descending (LAD), circumflex (Cx), right coronary artery (RCA), right common carotid artery (RCCA), and left internal mammary artery (LIMA), along with left-and right-ventricular pressures (LVP and RVP), aortic pressure (AoP), and pulmonary artery pressure (PAP). Cardiac Troponin (cTn), interleukin 6 and 10 (IL-6 and IL-10), and tumor necrosis factor A (TNF-A) were measured in coronary sinus blood samples. The experimental (IR) group (n=10) underwent 60 min of lung ischemia followed by 60 min of reperfusion by clamping and releasing the left pulmonary hilum. Simultaneous measurements of all parameters were made at baseline and during IR. The control group (n=4) had similar measurements without lung IR. In the IR group, total coronary flow (TCF=LAD+Cx+RCA blood-flow) decreased precipitously and significantly from baseline (113±41 ml min"1) during IR (p<0.05), with the lowest value observed at 60 min of reperfusion (-37.1%, p<0.003). Baseline cTn (0.08±0.02 ng ml(-1)) increased during IR and peaked at 45 min of reperfusion (+138%, p<0.001). Baseline IL-6 (9.2±2.17 pg ml(-1)) increased during IR and peaked at 60 min of reperfusion (+228%, p<0.0001). Significant LVP drop at 5 min of ischemia (p<0.05) was followed by a slow return to baseline at 45 min of ischemia. A second LVP drop occurred at reperfusion (p<0.05) and persisted. Conversely, RVP increased throughout ischemia (p<0.05) and returned toward baseline during reperfusion. Coronary blood flow and hemodynamic profile remained unchanged in the control group. IL-10 and TNF-A remained below the measurable range for both the groups.
+
+CLASSIFICATION: 

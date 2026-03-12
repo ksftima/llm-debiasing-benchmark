@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Ovarian torsion in children: is oophorectomy necessary? Most pediatric surgeons perform oophorectomy in girls presenting with ovarian torsion in which the ovary appears necrotic. However, the adult gynecology literature suggests that many ovaries can be treated by detorsion alone. All children with ovarian torsion on the gynecology and general surgery services between 1988 and 2002 were reviewed. There were 36 torsions in 34 children. Seventeen underwent detorsion with or without ovarian cystectomy, and 19 had oophorectomy (mean age 10 years in both groups). Torsion was suspected preoperatively in 94% of the detorsion cases and in 47% of the oophorectomy patients. Median time from presentation to surgery was significantly lower in the detorsion than the oophorectomy group (median 14 v 27 hours; P =.04). Postoperative complications and length of stay were similar between the 2 groups. Despite the ovary being judged intraoperatively as moderately to severely ischemic in 53% of the detorsion cases, follow-up sonogram or ovarian biopsy available in 14 of the 17 cases showed normal ovary with follicular development in each case.
+
+CLASSIFICATION: 

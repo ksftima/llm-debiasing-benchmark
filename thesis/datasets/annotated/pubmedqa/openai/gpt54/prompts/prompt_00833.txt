@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does obesity impact the pattern and outcome of trauma in children? Childhood obesity is pandemic condition. The effect of obesity on trauma outcomes in children has been relatively understudied. We conducted this study to ascertain the effects of obesity on the hospital outcome of injured children. A retrospective cohort study of patients aged 2 to 18 years admitted to the King Abdul Aziz Medical City between May 2001 and May 2009 was conducted. Patients were categorized as lean (body mass index<95th percentile) and obese (body mass index ≥ 95th percentile). Groups were compared regarding admission demographics, mechanism of injury, pattern of injury, length of stay, intensive care unit admission, ventilation duration, types of procedures performed, injury severity score, and mortality. Nine hundred thirty-three patients were included, of those 55 (5.89%) children were obese. The obese children were older than nonobese (P = .001) and had a higher injury severity score (P = .001) and a lower pediatric trauma score (P = .00), heart rate (P = .0081), and respiratory rate (P = .000). There were no differences between groups with regard to sex, mechanism of injury, and surgical procedures. Obese children were more likely to have rib fractures (P = .02) and pelvic injuries (P = .033). There was no significant association between mortality and obesity (P = .42).
+
+CLASSIFICATION: 

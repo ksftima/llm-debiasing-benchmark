@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Umbrella/Excess Liability with limits of not less than $5,000,000 in excess of all the above-referenced Commercial General Liability, Employer's Liability and Business Auto Liability, except the following Subcontractor classifications will have limits of not less than the following: HVAC $2,000,000, Landscaping and Fencing $1,000,000. Such Umbrella/Excess Liability policies shall follow form to the terms and conditions of the underlying coverages and shall include a drop down feature in the event any underlying limits are exhausted.
+
+CLASSIFICATION:
+ 

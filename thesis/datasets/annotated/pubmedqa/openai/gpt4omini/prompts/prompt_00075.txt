@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is tumour expression of VEGF associated with venous invasion and survival in pT3 renal cell carcinoma? To determine whether there is a relationship between VEGF expression and renal vein and vena cava invasion in stage pT3 renal cell carcinoma and to evaluate the impact of VEGF expression on survival in pT3 renal cell carcinoma. 78 patients with a pT3a or pT3b tumour without vena cava invasion or pT3b tumour with vena cava invasion were compared for age, gender, Fuhrman grade and immunohistochemical expression of VEGF. All these variables were submitted to univariate and multivariate analysis to establish their impact on survival. Only tumour size appeared to be significantly different between the 3 groups. On univariate analysis, invasion of the perirenal fat, lymph node involvement, distant metastases and VEGF expression were significantly associated with survival (p<0.01). On multivariate analysis, lymph node involvement, distant metastases and VEGF expression (OR 6.07) were identified as independent predictive factors of survival.
+
+CLASSIFICATION: 

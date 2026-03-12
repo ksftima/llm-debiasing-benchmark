@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Exposing the toxic side of r/FemaleDatingStrategyHey guys, I recently set up a sub owned by u/Rahvenar called r/M4leDatingStrategy. We want to help use this sub to expose the toxic, sexist, and extremely insecure female incels on the sub. To do so all you have to do is go on r/FemaleDatingStrategy and genderswap all the crazy shit the women there post. 
+
+Keep in mind I'm a female too and I had enough of these bitches giving us other women a bad rep. Thanks in advance!
+
+CLASSIFICATION:
+

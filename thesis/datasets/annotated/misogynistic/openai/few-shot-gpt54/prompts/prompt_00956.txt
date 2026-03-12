@@ -1,0 +1,47 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+Lack of romance and intimacy is NOT my biggest issue with inceldomIt's **bullying**. It still occurs to me at the age of 21 in medical university. People in general associate bullying with middle school when kids undergo puberty, but it still continues for me... 
+
+I *wish* that my *only* problem with ugliness was the lack of success with women. I found many copes like vidya, movies, and dog to cope with loneliness. It's painful to be alone but it's possible to go on. 
+
+But bullying absolutely destroys my mentality and will to live. It happens almost weekly. I've developed social anxiety, and depression. I cannot go outside feeling safe. I have missed all my lectures in the past 3 months and when I did go outside, I was met with more bullying. I cannot do my favorite sport, I can't even go shopping because I will be met with smirks and looks of disgust. This is the life of ugly man. 
+
+*Who are the bullies?* It's mostly women - educated medical students that will soon become doctors. *What do they say?* Mostly "eew", "hell no", "he is ugly"....
+
+For instance, last Wednesday we had an exam. I was standing in line with earphones when I hear an "eew" and then 4 girls in front turned around and looked at my face with spite. How am I supposed to be confident? How can I become a doctor when I cannot look in people's eyes from bullying? FML. 
+
+I am clean. I shower twice a day. I shave and have a professional haircut. I use Chanel. I ride a scooter. I care for my skin. I am super kind and friendly. I am fit (BMI 20). I wear expensive clothes.
+
+CLASSIFICATION:
+

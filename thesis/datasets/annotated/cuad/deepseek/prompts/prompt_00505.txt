@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Impresse shall permit Users who access the Co-Branded Site to access and use Co-Branded Content from the Co-Branded Site for the personal use of such Users in accordance with the then-current terms of Impresse's standard license agreement governing the use of such Co-Branded Content.
+
+CLASSIFICATION:
+ 

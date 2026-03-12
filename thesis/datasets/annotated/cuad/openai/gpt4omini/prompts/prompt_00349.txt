@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and -------------------------------- conditions of this Agreement, NTL, to the extent of its legal right to do so, hereby grants to Entrust under the Nortel Patents, a non-transferable, non- assignable, indivisible, non-exclusive, royalty-free, worldwide license for Licensed Products and Licensed Services.
+
+CLASSIFICATION:
+ 

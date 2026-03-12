@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CHANGEPOINT'S, LIABILITY UNDER SUCH AGREEMENT FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL AND/OR CONSEQUENTIAL DAMAGES OF ANY KIND, INCLUDING, WITHOUT LIMITATION, RESTITUTION, WILL NOT, IN ANY EVENT, EXCEED THE FEE PAID BY END USER TO CHANGEPOINT UNDER SUCH AGREEMENT.
+
+CLASSIFICATION:
+ 

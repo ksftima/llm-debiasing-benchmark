@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Ive never had SR before (somehow harder to find than 107 in my area), so I wanted to taste them blind.
+
+Havent had 107 in a few months, so I thought my recollection of it would be hazy. I immediately knew the first glass I was given was SR, despite never trying it. The dead giveaway? Lack of the classic 107 oily mouthfeel. Never realized that was my favorite feature in the 107. Sometimes I think 107 is a little too sweet (wheat gang rise up), but its gotta be one of my all-time favorites.
+
+For half the cost ($25 vs $55), SR is unbelievably solid, and a little less sweet than 107. Cant think of anything better for that price point. Opinions?
+
+CLASSIFICATION:
+

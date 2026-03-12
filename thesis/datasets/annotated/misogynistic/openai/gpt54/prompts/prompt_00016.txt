@@ -1,0 +1,33 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+A couple of responses, then a larger thought. 
+
+>Feminists dont agree on every point regarding gender disparities. Pasquerella, for example, is not troubled by the lopsided overrepresentation of women in nursing, she said, because there is no evidence men face stigma or discrimination in that field.
+
+I find that hard to believe. I mean, it's anecdotal to be sure, but I have friends and relatives that have gone through nursing programs, and this wasn't their experience at all. It was actually akin to the worst stories that you hear about women in other courses. 
+
+> A paper she co-authored for publication this year -- Choice of Majors: Are Women Really Different From Men? -- reports that girls respond to a variety of influences and are more likely than boys to change majors when they get poor grades in STEM classes. Ironically, female-only programs may diminish their interest and confidence.
+
+Truth is, this is a culture that I think really stands out of if you look at it, and there might be something there there, in certain STEM courses. "C's get degrees". "What do you call a doctor that barely passed their tests. Doctor" and so on. 
+
+I actually think there's something to be explored here, and that this might be where there's a very real socialization gap. The problem is it's not sexy to talk about. Girls and Women tend to place a higher intrinsic value on grades. And then changing it....again, not something we're comfortable talking about. 
+
+My position is clear...I believe that these barriers exist far less in different environments. It's why I encourage things like commuter schools and online learning. If discrimination is a problem...IMO these are the things we can best do to directly address it. But that stuff is probably off the table.
+
+But I think this sort of results-driven hammering? I don't think it's sustainable, for that very reason. It's too self-contradictory. Unless we're going to straight up say OK, things are going to be draconian until we get to statistical equality, deal with it....but even then, honestly, that's just going to create fights over who gets to be the target of said draconian measures. Who gets set on fire to keep other people warm?
+
+CLASSIFICATION:
+

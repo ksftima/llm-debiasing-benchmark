@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Could the extent of lymphadenectomy be modified by neoadjuvant chemotherapy in cervical cancer? The effect of neoadjuvant chemotherapy (NACT) on topographical distribution patterns of lymph node metastasis in cervical cancer was unknown. Patients with FIGO stage IB1-IIB who underwent radical surgery with or without NACT were enrolled (3527 patients). A matched-case comparison design was used to compare the effects of NACT on lymph node metastasis. We analyzed groups of 167 and 140 patients who were diagnosed with lymph node metastasis in the matched primary surgery group and NACT group, respectively, and no significant difference was observed (p = 0.081). The incidence of lymph node metastasis was significantly decreased in the NACT-responsive group compared to the non-responsive group (18.4% vs. 38.6%, P<0.001). The metastatic rates for every lymph node group also declined in the NACT-responsive group except for the deep inguinal and the para-aortic lymph node groups. Clinical response, deep stromal, parametrial and lymph vascular invasions were independent risk factors for lymph node metastasis in the NACT group. Furthermore, deep stromal invasion and lymph vascular invasion, but not the response to NACT, were independently associated with upper LNM. The number of lymph nodes involved, response to NACT, tumor histology and a positive vaginal margin were independent prognostic factors affecting DFS or OS rates in node-positive patients treated with NACT plus radical surgery.
+
+CLASSIFICATION: 

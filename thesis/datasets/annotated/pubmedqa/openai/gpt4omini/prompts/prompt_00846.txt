@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do family physicians make good sentinels for influenza? To determine whether volunteer family physician reports of the frequency of influenza-like illness (ILI) usefully supplement information from other influenza surveillance systems conducted by the Centers for Disease Control and Prevention. Evaluation of physician reports from five influenza surveillance seasons (1987-88 through 1991-92). Family physician office practices in all regions of the United States. An average of 140 physicians during each of five influenza seasons. None. An office visit or hospitalization of a patient for ILI, defined as presence of fever (temperature>or = 37.8 degrees C) and cough, sore throat, or myalgia, along with the physician's clinical judgment of influenza. A subset of physicians collected specimens for confirmation of influenza virus by culture. Physicians attributed 81,408 (5%) of 1,672,542 office visits to ILI; 2754 (3%) patients with ILI were hospitalized. Persons 65 years of age and older accounted for 11% of visits for ILI and 43% of hospitalizations for ILI. In three of five seasons, physicians obtained influenza virus isolates from a greater proportion of specimens compared with those processed by World Health Organization laboratories (36% vs 12%). Influenza virus isolates from sentinel physicians peaked from 1 to 4 weeks earlier than those reported by World Health Organization laboratories. Physicians reported peak morbidity 1 to 4 weeks earlier than state and territorial health departments in four of five seasons and 2 to 5 weeks earlier than peak mortality reported by 121 cities during seasons with excess mortality associated with pneumonia and influenza.
+
+CLASSIFICATION: 

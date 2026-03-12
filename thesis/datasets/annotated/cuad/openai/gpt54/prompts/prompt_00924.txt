@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+VOTOCAST SHALL HAVE NO LIABILITY WITH RESPECT TO VOTOCAST'S OBLIGATIONS UNDER THIS AGREEMENT OR OTHERWISE FOR ANY CONSEQUENTIAL, EXEMPLARY, SPECIAL. INCIDENTAL, OR PUNITIVE DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUE. BUSINESS, OR DATA), EVEN IF VOTOCAST HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+CLASSIFICATION:
+ 

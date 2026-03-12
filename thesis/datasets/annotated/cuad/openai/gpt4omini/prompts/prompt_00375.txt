@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to McDATA's prior written approval, McDATA grants Reseller a limited, nonexclusive, non-transferable, revocable license to use McDATA's Trademarks (defined as McDATA's name or any abbreviation thereof, its acronym, logotype or any other trademarks or trade names of McDATA) for the sole purpose of marketing and selling Products and End User Customer Services in the Territory during the term of this Agreement Reseller agrees to comply with McDATA's Logo Usage Guide, which is found at McDATA's web site, www.mcdata.com.
+
+CLASSIFICATION:
+ 

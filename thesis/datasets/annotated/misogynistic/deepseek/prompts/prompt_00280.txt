@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The people making these films were notorious throughout history (from the era of the Roman Empire all the way up to the first half of the 20th century) for having strong biological impulses to subvert nature and subvert reality.
+
+I haven't seen any of those films because I stopped watching Hollywood years ago, once I realised 90% of films are primarily socially engineering tools and propaganda pieces meant to brainwash. Studies have been done time and time again that show that, in the long-term, the brain is unable to differentiate between what you see visually in real life from what you see visually in film. So if everyone regularly sees smart black women or women who are stronger than men in fictional films, they eventually internalize these as real experiences which is a super effective way of manipulating thought.
+
+I'm sure the people producing these films know this. I wouldn't be surprised if they are  linked to the same people that funded the aforementioned studies.
+
+CLASSIFICATION:
+

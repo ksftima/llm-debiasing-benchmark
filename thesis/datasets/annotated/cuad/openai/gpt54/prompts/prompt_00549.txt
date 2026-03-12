@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Zogenix hereby appoints Distributor, and Distributor accepts appointment, as the exclusive distributor (even as to Zogenix) of the Product in the Field in the Territory during the Term, and grants to Distributor the exclusive rights to maintain Regulatory Approval of (while Distributor is the MAH Party), package, promote, market, offer for sale, sell, import and distribute the Product in the Field in the Territory during the Term.
+
+CLASSIFICATION:
+ 

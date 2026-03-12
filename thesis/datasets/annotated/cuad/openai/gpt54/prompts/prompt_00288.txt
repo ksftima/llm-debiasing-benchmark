@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+g) User Data will be owned by Client, and subject to the limitations contained herein, Client grants to Excite a non-exclusive license to use the User Data for the purposes of this Agreement.
+
+CLASSIFICATION:
+ 

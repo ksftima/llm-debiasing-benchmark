@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does coronary angiography before emergency aortic surgery affect in-hospital mortality? To study the relationship between coronary angiography and in-hospital mortality in patients undergoing emergency surgery of the aorta without a history of coronary revascularization or coronary angiography before the onset of symptoms. In the setting of acute ascending aortic dissection warranting emergency aortic repair, coronary angiography has been considered to be desirable, if not essential. The benefits of defining coronary anatomy have to be weighed against the risks of additional delay before surgical intervention. Retrospective analysis of patient charts and the Cardiovascular Information Registry (CVIR) at the Cleveland Clinic Foundation. We studied 122 patients who underwent emergency surgery of the aorta between January 1982 and December 1997. Overall, in-hospital mortality was 18.0%, and there was no significant difference between those who had coronary angiography on the day of surgery compared with those who had not (No: 16%, n = 81 vs. Yes: 22%, n = 41, p = 0.46). Multivariate analysis revealed that a history of myocardial infarction (MI) was the only predictor of in-hospital mortality (relative risk: 4.98 95% confidence interval: 1.48-16.75, p = 0.009); however, coronary angiography had no impact on in-hospital mortality in patients with a history of MI. Furthermore, coronary angiography did not significantly affect the incidence of coronary artery bypass grafting (CABG) during aortic surgery (17% vs. 25%, Yes vs. No). Operative reports revealed that 74% of all CABG procedures were performed because of coronary dissection, and not coronary artery disease.
+
+CLASSIFICATION: 

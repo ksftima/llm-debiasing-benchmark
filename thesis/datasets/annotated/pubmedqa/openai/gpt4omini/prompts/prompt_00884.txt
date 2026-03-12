@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is routine intraoperative frozen-section examination of sentinel lymph nodes in breast cancer worthwhile? Routine intraoperative frozen section (FS) of sentinel lymph nodes (SLN) can detect metastatic disease, allowing immediate axillary dissection and avoiding the need for reoperation. Routine FS is also costly, increases operative time, and is subject to false-negative results. We examined the benefit of routine intraoperative FS among the first 1000 patients at Memorial Sloan Kettering Cancer Center who had SLN biopsy for breast cancer. We performed SLN biopsy with intraoperative FS in 890 consecutive breast cancer patients, none of whom had a back-up axillary dissection planned in advance. Serial sections and immunohistochemical staining for cytokeratins were performed on all SLN that proved negative on FS. The sensitivity of FS was determined as a function of (1) tumor size and (2) volume of metastatic disease in the SLN, and the benefit of FS was defined as the avoidance of a reoperative axillary dissection. The sensitivity of FS ranged from 40% for patients with Tla to 76% for patients with T2 cancers. The volume of SLN metastasis was highly correlated with tumor size, and FS was far more effective in detecting macrometastatic disease (sensitivity 92%) than micrometastases (sensitivity 17%). The benefit of FS in avoiding reoperative axillary dissection ranged from 4% for Tla (6 of 143) to 38% for T2 (45 of 119) cancers.
+
+CLASSIFICATION: 

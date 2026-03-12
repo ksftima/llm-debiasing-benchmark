@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is laparoscopic cholecystectomy safe and acceptable as a day case procedure? This study reviewed the results of performing day case laparoscopic cholecystectomy to assess the feasibility and safety of the procedure as a day case. This is a prospective study of 150 day case laparoscopic cholecystectomies performed between September 1999 and December 2004 under the care of the senior author. The results of a follow-up questionnaire to assess post-discharge clinical course and patient satisfaction were analyzed. All patients had commenced eating and drinking and were fully mobile before discharge home. The length of hospital stay was 4-8 hours. The mean age of the patients was 43 years; 134 patients had an American Society of Anesthesiologists grade I, the remaining 16 patients were grade II. The mean operative time was 41 minutes. There were no conversions to open procedures. There was no bleeding, no visceral injury, and no mortality. There was one admission directly from the day surgical unit (admission rate of 0.6%), but no readmission following discharge. No patients were admitted due to postoperative nausea or pain. Ninety-nine (66%) of 150 patients responded to our questionnaire: 97% were satisfied about the information they had received. Patients rated their satisfaction with the procedure as follows: 75% excellent, 21% good, 3% satisfied, and 1 patient un-satisfied. Ninety-four percent of the patients would recommend the procedure as a day case.
+
+CLASSIFICATION: 

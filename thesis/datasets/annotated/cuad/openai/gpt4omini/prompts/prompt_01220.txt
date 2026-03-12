@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EFS agrees that it shall approach Licensees regarding any planned EFS Produced Merchandise and give such Licensees a seven (7) day right of first refusal with respect to the design and manufacture thereof, whereby EFS may set forth commercially reasonable requirements with respect to pricing, delivery and product specifications.
+
+CLASSIFICATION:
+ 

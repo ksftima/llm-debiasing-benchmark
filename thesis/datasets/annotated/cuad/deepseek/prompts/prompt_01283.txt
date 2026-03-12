@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For Untargeted Offers that appear both on the Co-Branded Application and elsewhere on the Excite Network, revenue attributable to placement on the Co-Branded Application shall be calculated based on the price to be established as set forth in Section 2.a of this Exhibit, and the parties will share equally such revenue.
+
+CLASSIFICATION:
+ 

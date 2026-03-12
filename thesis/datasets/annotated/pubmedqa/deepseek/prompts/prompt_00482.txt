@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Chronic progressive cervical myelopathy with HTLV-I infection: Variant form of HAM/TSP? To investigate the role of human T-lymphotrophic virus type I (HTLV-I) infection in four patients who developed slowly progressive myelopathy with abnormal MRI lesions in the cervical cord levels. Clinical and neuroradiologic examinations were performed, and the odds that an HTLV-I-infected individual of specified genotype, age, and provirus load had HTLV-I-associated myelopathy (HAM)/tropical spastic paraparesis (TSP) were calculated. Anti-HTLV-I antibodies were positive in both the serum and the CSF in all of the patients. Biopsied sample from spinal cord lesions showed inflammatory changes in Patient 1. Patient 2 had a demyelinating type of sensorimotor polyneuropathy. Two of the three patients examined showed high risk of developing HAM/TSP in virologic and immunologic aspects.
+
+CLASSIFICATION: 

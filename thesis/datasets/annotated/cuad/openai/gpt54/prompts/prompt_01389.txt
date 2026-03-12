@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier shall have Buyer named as an additional insured on its insurance policies in subparts 7.5.1 and 7.5.2 above.
+
+CLASSIFICATION:
+ 

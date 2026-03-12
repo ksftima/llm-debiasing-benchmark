@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Intravenous administration of metoclopramide by 2 min bolus vs 15 min infusion: does it affect the improvement of headache while reducing the side effects? To determine the therapeutic effect (alleviation of vascular type headache) and side effects of a slow intravenous metoclopramide infusion over 15 min compared with those effects of a bolus intravenous metoclopramide infusion over 2 min in the treatment of patients with recent onset vascular type headache. All adults treated with metoclopramide for vascular type headache were eligible for entry into this clinical randomised double blinded trial. This study compared the effects of two different rates of intravenous infusion of metoclopramide over a period of 13 months at a university hospital emergency department. During the trial, side effects and headache scores were recorded at baseline (0 min), and then at 5, 15, 30 and 60 min. Repeated measures analysis of variance was used to compare the medication's efficacy and side effects. A total of 120 patients presenting to the emergency department met the inclusion criteria. Of these, 62 patients (51.7%) were given 10 mg metoclopramide as a slow intravenous infusion over 15 min (SIG group) and 58 patients (48.3%) were given 10 mg metoclopramide intravenous bolus infusion over 2 min (BIG group). 17 of the 58 patients in the BIG group (29.3%) and 4 of the 62 patients (6.5%) in the SIG group had akathisia (p = 0.001). There were no significant differences between the BIG and SIG groups in terms of mean headache scores (p = 0.34) and no adverse reactions in the study period. Metoclopramide successfully relieved the headache symptom(s) of patients in both the BIG and SIG groups.
+
+CLASSIFICATION: 

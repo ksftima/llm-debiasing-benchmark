@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Storage of vaccines in the community: weak link in the cold chain? To assess quality of storage of vaccines in the community. Questionnaire survey of general practices and child health clinics, and monitoring of storage temperatures of selected refrigerators. Central Manchester and Bradford health districts. 45 general practices and five child health clinics, of which 40 (80%) responded. Eight practices were selected for refrigeration monitoring. Adherence to Department of Health guidelines for vaccine storage, temperature range to which vaccines were exposed over two weeks. Of the 40 respondents, only 16 were aware of the appropriate storage conditions for the vaccines; eight had minimum and maximum thermometers but only one of these was monitored daily. In six of the eight practices selected for monitoring of refrigeration temperatures the vaccines were exposed to either subzero temperatures (three fridges) or temperatures up to 16 degrees C (three). Two of these were specialised drug storage refrigerators with an incorporated thermostat and external temperature gauges.
+
+CLASSIFICATION: 

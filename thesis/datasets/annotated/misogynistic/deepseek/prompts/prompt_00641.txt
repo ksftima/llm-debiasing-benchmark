@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The hell yes hell no principle is just meant to make a better use of your time. The idea being why chasing a girl who has low interest when million others are potentially ready to jump on your D without any effort. However i concur that you shouldn't necessarily give up at the first sign of resistance. If she pulls away and back off from a date, shrug it off, put a 2 or 3 months timer on and wait for her to either contact you or the end of the timer where you can send a feeler text to see what she is up to. Still not available for date? no problem, reset the timer again
+
+If you keep repeating the process and that she had some interest initially it's very likely, you'll end up hooking up at some point
+
+CLASSIFICATION:
+

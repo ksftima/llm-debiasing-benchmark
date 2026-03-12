@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Commercial General Liability Insurance with a minimum combined single limit of liability of $1,000,000 per occurrence and $2,000,000 aggregate for bodily Injury, death, property damage and personal injury, and specifically covering infringement of Intellectual Property Rights. This policy shall include products/completed operations coverage and shall also include contractual liability coverage.
+
+CLASSIFICATION:
+ 

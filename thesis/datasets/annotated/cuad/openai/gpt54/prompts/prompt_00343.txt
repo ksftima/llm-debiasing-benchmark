@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The rights granted herein include the limited license to use the Trademarks of the Franchisor (the details of which are morefully set out in Exhibit A), as set out in Section 3 of this Agreement, for the purposes of establishing and operating the Smaaash Centres in the Territory.
+
+CLASSIFICATION:
+ 

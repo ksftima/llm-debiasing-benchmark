@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to payment of the Annual Minimum Commitment ("AMC" - defined herein), Diversinet hereby grants to Reseller an exclusive, non- transferable and non-assignable right to market, sell, and sub-license those Diversinet products listed in Schedule 2 (the "Products") within the territory listed in Schedule 3 (the "Territory") to Canadian headquartered companies, and governmental and broader public sector entities located in Canada.
+
+CLASSIFICATION:
+ 

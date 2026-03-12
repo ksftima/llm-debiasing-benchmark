@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Clinical identifiers for early-stage primary/idiopathic adhesive capsulitis: are we seeing the real picture? Adhesive capsulitis is often difficult to diagnose in its early stage and to differentiate from other common shoulder disorders. The aim of this study was to validate any or all of the 8 clinical identifiers of early-stage primary/idiopathic adhesive capsulitis established in an earlier Delphi study. This was a cross-sectional study. Sixty-four patients diagnosed with early-stage adhesive capsulitis by a physical therapist or medical practitioner were included in the study. Eight active and 8 passive shoulder movements and visual analog scale pain scores for each movement were recorded prior to and immediately following an intra-articular injection of corticosteroid and local anesthetic. Using the local anesthetic as the reference standard, pain relief of ≥70% for passive external rotation was deemed a positive anesthetic response (PAR). Sixteen participants (25%) demonstrated a PAR. Univariate logistic regression identified that of the proposed identifiers, global loss of passive range of movement (odds ratio [OR]=0.26, P=.03), pain at the end of range of all measured active movements (OR=0.06, P=.02), and global loss of passive glenohumeral movements (OR=0.23, P=.02) were associated with a PAR. Following stepwise removal of the variables, pain at the end of range of all measured active movements remained the only identifier but was associated with reduced odds of a PAR. The lack of a recognized reference standard for diagnosing early-stage adhesive capsulitis remains problematic in all related research.
+
+CLASSIFICATION: 

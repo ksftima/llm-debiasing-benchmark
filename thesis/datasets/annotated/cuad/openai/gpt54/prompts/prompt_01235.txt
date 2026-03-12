@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Chase shall have no liability for any indirect, incidental, special or consequential damages or any loss of revenue or profits arising under or with respect to this Agreement or the Affiliate Program, regardless of whether Chase has been advised of the possibility of such damages.
+
+CLASSIFICATION:
+ 

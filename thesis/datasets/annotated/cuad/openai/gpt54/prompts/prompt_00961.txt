@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Distributor hereby grants Zogenix an irrevocable, perpetual, world-wide, royalty-free, fully paid-up, non-exclusive license with the right to grant sublicenses under such Distributor Inventions and any patents or patent applications claiming or disclosing such Distributor Inventions.<omitted>Distributor shall own the entire right, title and interest in and to any and all Inventions discovered, developed, identified, made, conceived or reduced to practice solely by Distributor or its Affiliates or Sub-distributors or its other subcontractors in the Territory and under or in connection with this Agreement, including in the course of conducting regulatory activities or Commercialization of the Product in the Field in the Territory, whether or not patented or patentable, together with any and all intellectual property rights in any such Inventions, including Patents that claim or disclose any such Inventions (collectively, the "Distributor Invention").
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are there associations of health status, disease activity and damage in SLE patients? A cross sectional study of 38 patients fulfilling the classification criteria for SLE. The patients visited a rheumatology outpatient clinic in Switzerland between January 2002 and December 2004. The last assessment during this period was used for the study. The assessment included, besides demographic data, the measurement of disease activity using the BILAG index, the measurement of disease damage using the SLICC/ACR damage index (SDI), as well as the patient's self assessed health status using the patient's questionnaire Medical Outcome Survey Short Form 36 (SF-36). A total of 36 women and 2 men were included in the study (median age: 43 yrs, median disease duration: 11 yrs). Increased disease activity (total BILAG) was shown to be significantly correlated with reduced physical function. A greater damage (total SDI) correlated significantly with reduced role function due to emotional limitations. Neither age nor disease duration showed any significant correlation with health status in this study.
+
+CLASSIFICATION: 

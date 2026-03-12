@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are there progressive brain changes in schizophrenia? It is well established that schizophrenia is associated with structural brain abnormalities, but whether these are static or progress over time remains controversial. A systematic review of longitudinal volumetric studies using region-of-interest structural magnetic resonance imaging in patients with schizophrenia and healthy control subjects. The percentage change in volume between scans for each brain region of interest was obtained, and data were combined using random effects meta-analysis. Twenty-seven studies were included in the meta-analysis, with 928 patients and 867 control subjects, and 32 different brain regions of interest. Subjects with schizophrenia showed significantly greater decreases over time in whole brain volume, whole brain gray matter, frontal gray and white matter, parietal white matter, and temporal white matter volume, as well as larger increases in lateral ventricular volume, than healthy control subjects. The time between baseline and follow-up magnetic resonance imaging scans ranged from 1 to 10 years. The differences between patients and control subjects in annualized percentage volume change were -.07% for whole brain volume, -.59% for whole brain gray matter, -.32% for frontal white matter, -.32% for parietal white matter, -.39% for temporal white matter, and +.36% for bilateral lateral ventricles.
+
+CLASSIFICATION: 

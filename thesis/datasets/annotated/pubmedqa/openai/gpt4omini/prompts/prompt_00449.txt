@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Bridge experience with long-term implantable left ventricular assist devices. Are they an alternative to transplantation? If long-term use of left ventricular assist devices (LVADs) as bridges to transplantation is successful, the issue of permanent device implantation in lieu of transplantation could be addressed through the creation of appropriately designed trials. Our medium-term experience with both pneumatically and electrically powered ThermoCardiosystems LVADs is presented to outline the benefits and limitations of device support in lieu of transplantation. Detailed records were kept prospectively for all patients undergoing LVAD insertion. Fifty-eight LVADs were inserted over 5 years, with a survival rate of 74%. Mean patient age was 50 years, and duration of support averaged 98 days. Although common, both preexisting infection and infection during LVAD support were not associated with increased mortality or decreased rate of successful transplantation. Thromboembolic complications were rare, occurring in only three patients (5%) despite the absence of anticoagulation. Ventricular arrhythmias were well tolerated in all patients except in cases of early perioperative right ventricular failure, with no deaths. Right ventricular failure occurred in one third of patients and was managed in a small percentage by right ventricular assist device (RVAD) support and/or inhaled nitric oxide therapy. There were no serious device malfunctions, but five graft-related hemorrhages resulted in two deaths. Finally, a variety of noncardiac surgical procedures were performed in LVAD recipients, with no major morbidity and mortality.
+
+CLASSIFICATION: 

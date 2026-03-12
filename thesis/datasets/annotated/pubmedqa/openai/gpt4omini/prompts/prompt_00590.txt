@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Should all patients be optimized to the same preoperative hemoglobin level to avoid transfusion in primary knee arthroplasty? Optimization of the preoperative hemoglobin (Hb) level is an effective way to reduce allogeneic transfusion in total knee arthroplasty (TKA) though the procedure is expensive, requires close monitoring and is often inconvenient for patients with reduced mobility. Our aim was to investigate the value of preoperative Hb levels to predict transfusion and thereby tailoring Hb optimization to patient characteristics. All consecutive patients who undergone primary TKA in our center over 2 years, and received tranexamic acid intraoperatively, were reviewed. The adjusted association between preoperative Hb levels and transfusion was assessed by multivariate logistic regression, and the estimated probability of transfusion for individual patients was derived from the logistic model. Out of the 784 patients who meet the inclusion criteria, risk of transfusion was associated with poorer performance status, as measured by the America Association of Anestesiology (ASA) score III/IV (OR: 3·3, P < 0·001) and lower preoperative Hb level (OR 3·8 for each g/dl below 13 g/dl; P < 0·001). According to the Hb level, the estimated probability of transfusion was 0·03 (range: 0·03-0·64) for ASA I/II patients and 0·10 (range: 0·10-0·84) for ASA III/IV.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cholestasis associated with small bowel atresia: do we always need to investigate? Cholestasis occurs frequently in patients with small bowel atresia (SBA) and is often attributed to prolonged parental nutrition. When severe or prolonged, patients may undergo unnecessary intensive or invasive investigation. We characterized cholestasis and analyzed the pertinence of investigating this patient population. With Research Ethics Board approval, patients with SBA between 1996 and 2005 were retrospectively reviewed. Demographics, location of atresia, operative findings, complications, investigations, resumption of feeding, duration of prolonged parental nutrition, and follow-up information were examined. Cholestasis was evaluated for incidence, severity, and evolution. Fifty-five patients (29 male, 26 female), with a median gestational age and birth weight of 36 weeks and 2025 g, respectively, were reviewed. Care was withdrawn for 2 patients before repair. For the remaining 53 patients, SBA were duodenal atresia in 18, jejunoileal atresia in 32, and multiple atresia in 3. Of 53, 24 (45%) patients developed cholestasis postoperatively (direct/total bilirubin>20%). All patients with short bowel (4) and 60% (6/10) of patients with a delay of enteral feeding more than 14 days postoperatively had cholestasis. Ten patients (36%) proceeded with in-depth evaluations for cholestasis, with 8 (28%) undergoing liver biopsy. No patient had biliary atresia. No deaths were related to isolated cholestasis/cirrhosis. Cholestasis resolved spontaneously in all the survivors.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Improvements in survival of gynaecological cancer in the Anglia region of England: are these an effect of centralisation of care and use of multidisciplinary management? Our hypothesis is that the adoption of Department of Health (DH) guidance has led to an improvement in outcome in gynaecological cancer survival. In 1999 the DH in England introduced the Improving Outcomes in Gynaecological Cancer guidance, advising case management by multidisciplinary teams with surgical concentration in specialist hospitals. This guidance was rapidly adopted in the East of England, with a population of 2.5 million. The population of the Anglia Cancer Network was approximately 2.3 million. From 1996 to 2003, details of 3406 cases of gynaecological cancer were identified in the Anglia region of England. Survival analysis was performed by Cox proportional hazards regression, relative to cases diagnosed in 1996. Primary endpoint was survival. The survival rates for cases diagnosed between 1996 and 1999 were broadly the same across the time period, with a marked improvement taking place in 2000, and continuing to 2003 (HR 0.71, 95% CI 0.64-0.79, comparing 2000-03 with 1996-99 diagnoses), for all gynaecological sites combined. Adjustment for treatments or method of case follow-up did not attenuate these improvements. There was a concurrent change towards major surgery being performed in specialist centres from 2000.
+
+CLASSIFICATION: 

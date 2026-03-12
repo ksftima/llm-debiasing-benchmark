@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to XENCOR's adherence to the obligations under this Agreement, BII hereby grants XENCOR a worldwide, irrevocable, exclusive, sublicensable and royalty free license to use the Process and all reasonably necessary related BII Confidential Information and Know- How, BII Technology and BII Intellectual Property for the sole purpose of making and having made the Product; provided that such license shall become effective only upon complete payment of the Technology Access Fee, as applicable.
+
+CLASSIFICATION:
+ 

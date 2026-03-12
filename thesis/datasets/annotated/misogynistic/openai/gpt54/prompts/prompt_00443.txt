@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+"Childish" to women is a man doing too many things that don't directly benefit a woman.  If he isn't serving a woman or piling up resources a woman can land on when she's bucked off the cc, he's being childish.  Peter Pan.  It's especially objectionable to them if he's doing it with other guys, thereby preventing them from doing something that serves women.
+
+When a man is doing something he detests that serves the interests of a woman (and her children), that's when he's being least childish in their eyes.  That's when he's a good man.  That's when he's a 'real man'.  Self-sacrifice in order to give her what she wants but doesn't need and shouldn't accept.
+
+But they still won't fuck him much.  They prefer fuckbois to 'real men'.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding Section 14.1, in the event that Astellas develops, completely independently from any FG Technology and/or any other FG materials, confidential information, intellectual property or other related information provided by or on behalf of FG to Astellas under this Agreement or any other agreement between FG and Astellas relating to the subject matter hereof, any inventions or intellectual property rights related to the Field or the Expanded Field, [ * ], Astellas shall own such intellectual property and hereby grants to FG and its Sublicensees a non-exclusive, royalty-free, irrevocable license to such intellectual property for the FG Territory.
+
+CLASSIFICATION:
+ 

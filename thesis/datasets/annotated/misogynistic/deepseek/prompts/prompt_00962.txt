@@ -1,0 +1,43 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Finally got laid, push and pull technique was the best.I wish I had read the advices and tips from this sub when I was still younger.  
+I had horrible experience in dating with women before. All went sour because I was too needy.   
+Thanks everyone on this sub.  
+
+
+The push and pull technique really worked! And for me, it's the best method to get women.  
+Women are more driven by emotion than logic. They get "aroused" when they get  curious about you.  
+I gave her different signals. I am not predictable. I made sure she is always confused.  
+
+
+I stopped obsessing about her. Before, I was checking her online status and social medias 24/7.  
+I went out to play soccer/football, get a job, kept myself busy and play video games to stop being needy all the time. I realized I was talking and chatting her through the phone all day.
+
+When I read about this sub, I immidietly stopped that hobby. 
+
+She got attached to me because we were constantly chatting, so I decided to "push" her away by not replying her messages instantly. Declined her coffee and pizza invitations. Declined to play video games with her. I didn't make myself available all the time. Now she is thinking about me. 
+
+Then I make my self available and chat to her always, then again go cold for a while - repeat. Making her really confused. "Does he like me or not?"
+
+
+This created more attraction.   
+But it's really hard to control yourself. I just made myself busy to stop being needy.
+ 
+Never confess your feelings to your crush. Why? Because she gets bored, she is no longer curious because she already got the answer.
+When women fall in love to you, they become "obssesed". They no longer give a shit to your wealth and physical appearance.
+
+CLASSIFICATION:
+

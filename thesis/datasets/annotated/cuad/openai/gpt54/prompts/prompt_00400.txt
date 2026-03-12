@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SIERRA hereby grants ENVISION an exclusive, royalty-free sub-license of the Product's future patents, and patent applications to distribute, sell and market the Finished Product.
+
+CLASSIFICATION:
+ 

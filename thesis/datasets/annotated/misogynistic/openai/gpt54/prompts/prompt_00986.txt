@@ -1,0 +1,24 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I think normalizing the conversation should 100% be on the table. Whether or not it's feasible yet comes later. Men shouldn't be afraid of a possible option for something like this.
+
+
+Bonus rant incoming:
+
+My biggest frustration comes from the fact that women are often given the responsibility of contraception. Birth control pills, IUDS, tying tubes, the morning after pill. Men who are sexually active should not have to be asked to put a condom on, even when women are using another form of BC. If both parties agree not to use condoms, that needs to be agreed to as the follow-up. I'm sick of feeling bad for men who say condoms don't feel as good, completely ignoring the suffering women go through to be the responsible party. Let's also not ignore the cost. If you don't wear a condom, you should have to *at least* pay for half of the morning after pill. This drives me mad. I pay for period supplies and BC pills, monthly. The least men could do is pay for some condoms and morning after pills.
+
+CLASSIFICATION:
+

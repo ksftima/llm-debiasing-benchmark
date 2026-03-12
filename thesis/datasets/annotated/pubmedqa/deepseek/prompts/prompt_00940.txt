@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Fatigue in primary Sjögren's syndrome: is there a link with the fibromyalgia syndrome? To determine whether fibromyalgia (FM) is more common in patients with primary Sjögren's syndrome (pSS) who complain of fatigue. The association and prevalence of fatigue and FM was recorded in a group of patients with pSS and a control group of lupus patients, a subset of whom had secondary Sjögren's syndrome (sSS). 74 patients with pSS and 216 patients with lupus were assessed with a questionnaire to identify the presence of fatigue and generalised pain. From the lupus group, in a subset of 117 lupus patients (from the Bloomsbury unit) those with sSS were identified. All patients were studied for the presence of FM. 50 of 74 patients with pSS (68%) reported fatigue-a prevalence significantly higher than in the lupus group (108/216 (50%); p<0.0087). Fatigue was present in 7/13 (54%) patients with SLE/sSS. FM was present in 9/74 patients with pSS (12%), compared with 11/216 lupus patients (5%), and in none of the patients with SLE/sSS. None of these values corresponds with previously reported figures of the incidence of FM in pSS.
+
+CLASSIFICATION: 

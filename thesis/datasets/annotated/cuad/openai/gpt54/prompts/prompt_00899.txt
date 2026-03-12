@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neither this Agreement nor any rights or obligations of a Party may be assigned, delegated or otherwise transferred by such Party without the prior written consent of the other Party; provided, however, that Janssen may, without such consent but with prior written notice to Company, assign, delegate and transfer this Agreement or all or any of its rights and obligations under this Agreement to (a) any Third Party that acquires substantially all Janssen's assets relating to the Product in the Territory or (b) any Affiliate of Janssen.
+
+CLASSIFICATION:
+ 

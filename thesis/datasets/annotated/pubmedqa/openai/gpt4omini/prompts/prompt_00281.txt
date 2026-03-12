@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does responsibility affect the public's valuation of health care interventions? Health services often spend more on safety interventions than seems cost-effective. This study investigates whether the public value safety-related health care improvements more highly than the same improvements in contexts where the health care system is not responsible. An online survey was conducted to elicit the relative importance placed on preventing harms caused by 1) health care (hospital-acquired infections, drug administration errors, injuries to health care staff), 2) individuals (personal lifestyle choices, sports-related injuries), and 3) nature (genetic disorders). Direct valuations were obtained from members of the public by using a person trade-off or "matching" method. Participants were asked to choose between two preventative interventions of equal cost and equal health benefit per person for the same number of people, but differing in causation. If participants indicated a preference, their strength of preference was measured by using person trade-off. Responses were obtained from 1030 people, reflecting the sociodemographic mix of the UK population. Participants valued interventions preventing hospital-acquired infections (1.31) more highly than genetic disorders (1.0), although drug errors were valued similarly to genetic disorders (1.07), and interventions to prevent injury to health care staff were given less weight than genetic disorders (0.71). Less weight was also given to interventions related to lifestyle (0.65) and sports injuries (0.41).
+
+CLASSIFICATION: 

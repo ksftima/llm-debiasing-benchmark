@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do Wound Cultures Give Information About the Microbiology of Blood Cultures in Severe Burn Patients? Blood stream infection (BSI) and the subsequent development of sepsis are among the most common infection complications occurring in severe burn patients. This study was designed to evaluate the relationship between the burn wound flora and BSI pathogens. Documentation of all bacterial and fungal wound and blood isolates from severe burn patients hospitalized in the burn unit and intensive care unit was obtained from medical records retrieved retrospectively from a computerized, hospital-wide database over a 13-year period. All data were recorded in relation to the Ryan score. Of 195 severe burn patients, 88 had at least 1 BSI episode. Transmission of the same pathogen from wound to blood was documented in 30% of the patients, with a rising BSI frequency as the Ryan score increased. There were a total of 263 bacteremic episodes in 88 study patients, 44% of blood isolates were documented previously in wound cultures, and transmission of the same pathogen from wound to blood was noted in 65% of bacteremic patients.
+
+CLASSIFICATION: 

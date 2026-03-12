@@ -1,0 +1,27 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Guy at my LTRs job is trying fuck herMy LTR of 18 months called me this morning saying she feels guilty. A guy she works with has been flirting with her. She said, she felt bad because she didnt completely negate his sexual behavior and briefly entertained the idea at the time. She has brought him up to me before and she considered him to be one of the few people at work that she could be friendly with, since the place is loaded with overweight, snarky Karens. I asked her if she did anything with him and she said no, which I do believe right now. 
+
+Shes been working at this place for about 3 months and she told me about the guy from the beginning. I sensed it would come to this at some point. I laughed it off and told her oh that must be your work husband. She also told me hes kinda fat and that Im much better looking. If hes working as a nurse, I also know Im more financially stable than him. The guy does know about me and yet he continues to pursue my girl. 
+
+This man has an LTR and a child which he lives with. He told her that his girlfriend would be cool with it if they had a thing on the side and that his gf is also bisexual. I dont know how she responded to him because I didnt take it too seriously when she brought it up. When she told me about it, I said I appreciate your honesty and Im not gonna hold it against you. Is this guy texting you? She said; no he doesnt have my number. Then I said, Ive seen the type of guys that hit on you and Im not worried about any of them lol. She laughed and got slightly offended. My LTR is definitely the type to crave male attention from what I can see and Im sure she was flattered by the fact that this guy pushed up on her. 
+
+My question is, am I going to have to demote this girl to a plate eventually? Is this a major red flag? Whats the likelihood she ends up fucking this dude? Do I have to go down to her job and fight this dude? 
+
+Ive been way too available to this woman for the past 4-5 months. Taking every phone call on her break and spending all my free time with her. Should I start ignoring her calls and distancing myself from her more? I just setup some dating apps and Im beginning to cultivate new leads on girls. Am I overreacting to this whole thing? What do you guys think I should do?
+
+CLASSIFICATION:
+

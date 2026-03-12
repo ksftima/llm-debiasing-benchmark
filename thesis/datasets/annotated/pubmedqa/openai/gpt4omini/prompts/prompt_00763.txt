@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does aerobic fitness influence microvascular function in healthy adults at risk of developing Type 2 diabetes? Twenty-seven healthy normal glucose-tolerant humans with either a previous diagnosis of gestational diabetes or having two parents with Type 2 diabetes and 27 healthy adults who had no history of diabetes were recruited. Maximal oxygen uptake was assessed using an incremental exercise test to exhaustion. Skin microvascular function was assessed using laser Doppler techniques as the maximum skin hyperaemic response to a thermal stimulus (maximum hyperaemia) and the forearm skin blood flow response to the iontophoretic application of acetylcholine (ACh) and sodium nitroprusside. Maximal oxygen uptake was not significantly different in the 'at-risk' group compared with healthy controls. Maximum hyperaemia was reduced in those 'at risk' (1.29 +/- 0.30 vs. 1.46 +/- 0.33 V, P = 0.047); however, the peak response to acetylcholine or sodium nitroprusside did not differ in the two groups. A significant positive correlation was demonstrated between maximal oxygen uptake and maximum hyperaemia (r = 0.52, P = 0.006 l/min and r = 0.60, P = 0.001 ml/kg/min) and peak ACh response (r = 0.40, P = 0.04 l/min and r = 0.47, P = 0.013 ml/kg/min) in the 'at-risk' group when expressed in absolute (l/min) or body mass-related (ml/kg/min) terms. No significant correlations were found in the control group.
+
+CLASSIFICATION: 

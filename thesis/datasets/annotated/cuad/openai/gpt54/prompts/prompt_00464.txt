@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As part of the exclusive distribution right granted in this Section 2, Vendor hereby grants Distributor the non- exclusive, non-transferable right to use and display Vendor's trademarks, logos, Product photographs and images, Product advertising and promotional copy, including but not limited to the materials contained in Vendor's website, in connection with the promotion, advertising and distribution of the Products.
+
+CLASSIFICATION:
+ 

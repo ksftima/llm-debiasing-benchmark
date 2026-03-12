@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such Supplier Records referenced above may be inspected, audited and copied by Bank of America, its Representatives or by federal or state agencies having jurisdiction over Bank of America, during normal business hours and at such reasonable times as Bank of America and Supplier may determine.
+
+CLASSIFICATION:
+ 

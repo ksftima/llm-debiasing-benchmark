@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is high-sensitivity C-reactive protein associated with carotid atherosclerosis in healthy Koreans? There is a positive association between chronic inflammation and the risk of cardiovascular disease, but whether there is an association between C-reactive protein (CRP) and carotid atherosclerosis is controversial. We investigated the relationship between high-sensitivity CRP (hsCRP) levels and carotid intima-media thickness (IMT) in healthy Koreans. We measured hsCRP levels, the carotid IMT, and conventional cardiovascular risk factors including obesity parameters, blood pressure, lipid profiles, insulin resistance, and smoking habits in 820 volunteers (35-79 years old) in a cross-sectional study. Higher hsCRP quartile groups had higher mean IMTs, as compared with the lowest quartile (P<0.001 for the trend across quartiles). However, after adjustment for age, the relationship between hsCRP level and IMT was substantially weaker (P = 0.018). After additional adjustments for conventional cardiovascular risk factors, no significant association was observed (P = 0.548). The unadjusted risk for a high carotid IMT value (>or = 1.0 mm) was also positively related to hsCRP quartile, but this relationship was not significant after adjustment for age and other cardiovascular risk factors.
+
+CLASSIFICATION: 

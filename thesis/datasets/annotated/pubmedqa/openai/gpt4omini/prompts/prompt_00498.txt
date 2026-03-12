@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Must early postoperative oral intake be limited to laparoscopy? This prospective, randomized study was designed to evaluate whether or not early postoperative feeding (claimed as a unique benefit of laparoscopic surgery) is possible after laparotomy and colorectal resection. The trial was performed between July 1, 1992 and October 31, 1992 and included all 64 consecutive patients who underwent laparotomy with either a colonic or an ileal resection. In all cases the nasogastric tube was removed immediately after the operation. Group 1 consisted of 32 patients (age range, 15-81 years; mean, 52 years) who received a regular diet on the first postoperative morning. Group 2 consisted of 32 patients (age range, 15-87 years; mean, 52 years) who were fed in a traditional manner. Regular food was permitted after resolution of ileus as defined by resumption of bowel movements in the absence of abdominal distention, nausea, or vomiting. The rate of nasogastric tube reinsertion for distention with persistent vomiting was 18.7 percent (six patients) in Group 1 and 12.5 percent (four patients) in Group 2. Although vomiting was experienced more frequently by patients in Group 1 (44 percent vs. 25 percent, respectively), there was no difference between the two groups with regard to the duration of postoperative ileus (3.6 vs. 3.4 days, respectively). In the 26 patients from Group 1 who did not require nasogastric tube reinsertion, there was a trend toward shorter hospitalization (6.7 vs. 8.0 days, respectively).
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does intra-abdominal desmoid disease affect patients with an ileal pouch differently than those with an ileorectal anastomosis? Nobody has analyzed the sequelae of desmoids according to the type of surgery that precipitated them. This study aims to determine whether the clinical effects of abdominal desmoids would be worse in patients with restorative proctocolectomy than in patients with ileorectal anastomosis. This is a retrospective, database study. Included were patients with familial adenomatous polyposis who had undergone proctocolectomy with IPAA or colectomy and ileorectal anastomosis, and subsequently developed an intra-abdominal desmoid tumor. The primary outcome measures were the clinical course of the desmoids; morbidity, and the requirement for stoma. There were 86 patients: 49 had restorative proctocolectomy and 37 had ileorectal anastomosis. Patient demographics were similar. Average follow-up was 9.8 years (range, 2.7-23.8) and 16.3 years (range, 2.3 - 42.9). Treatment of the desmoids included surgery (64.4% vs 65.6%), medical therapy (69.4% vs 59.5%), chemotherapy (36.2% vs 30.0%), and radiotherapy (4.5% vs 10.0%), and was the same for each group. The overall complication rate of desmoids was similar, approaching 70%. The risk of individual complications was also similar (bleeding (2.0% vs 0.0%), fistula (10.2% vs 13.5%), bowel obstruction (32.7% vs 48.6%), pain (34.7% vs 21.6%), and death related to desmoid tumors (2.0% vs 10.8%)); 38.8% of the restorative proctocolectomy group and 51.4% the ileorectal group had surgery for desmoid tumor complications (P = .21), and 22.4% and 22.2% of patients ultimately had permanent stomas. This study was limited by the relatively small numbers of patients.
+
+CLASSIFICATION: 

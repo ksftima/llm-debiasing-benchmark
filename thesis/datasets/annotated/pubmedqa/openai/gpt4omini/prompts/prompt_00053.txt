@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Processing fluency effects: can the content and presentation of participant information sheets influence recruitment and participation for an antenatal intervention? To assess the extent to which the title and font of participant information sheets (PISs) can influence pregnant women's and trainee midwives' perceptions of an antenatal intervention. Pregnant women (n=35) and trainee midwives (n=36) were randomly presented with one of four PISs where the title and font of the PIS had been manipulated to create four experimental conditions (i.e., Double Fluent; Double Awkward; Fluent Title-Awkward Font; Awkward Title-Fluent Font). After reading the PIS, participants rated their perceptions of the intervention (i.e., Attractiveness, Complexity, Expected Risk, Required Effort) using five-point Likert scales. A 4×2 factorial multivariate analysis of variance revealed that pregnant women rated the Double Awkward condition as significantly more complex than the Double Fluent (p=.024) and Awkward Title-Fluent Font (p=.021) conditions.
+
+CLASSIFICATION: 

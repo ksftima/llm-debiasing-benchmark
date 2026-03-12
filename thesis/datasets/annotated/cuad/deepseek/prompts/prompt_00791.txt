@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You agree that neither you nor any Principal of yours will transfer or attempt to transfer any or all of your Franchised Business to a third party who will operate a similar business at the Approved Location but not under the System and the Proprietary Marks, and not under a franchise agreement with us.
+
+CLASSIFICATION:
+ 

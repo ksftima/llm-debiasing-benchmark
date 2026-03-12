@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do nomograms designed to predict biochemical recurrence (BCR) do a better job of predicting more clinically relevant prostate cancer outcomes than BCR? To examine the ability of various postoperative nomograms to predict prostate cancer-specific mortality (PCSM) and to validate that they could predict aggressive biochemical recurrence (BCR). Prostate-specific antigen (PSA), grade, and stage are the classic triad used to predict BCR after radical prostatectomy (RP). Multiple nomograms use these to predict risk of BCR. A previous study showed that several nomograms could predict aggressive BCR (prostate-specific antigen doubling time [PSADT] <9 months) more accurately than BCR. However, it remains unknown if they can predict more definitive endpoints, such as PCSM. We performed Cox analyses to examine the ability of 4 postoperative nomograms, the Duke Prostate Center (DPC) nomogram, the Kattan postoperative nomogram, the Johns Hopkins Hospital (JHH) nomogram, and the joint Center for Prostate Disease Research(CPDR)/Cancer of the Prostate Strategic Urologic Research Endeavor (CaPSURE) nomogram to predict BCR and PCSM among 1778 men in the Shared Equal Access Regional Cancer Hospital (SEARCH) database who underwent RP between 1990 and 2009. We also compared their ability to predict BCR and aggressive BCR in a subset of men. We calculated the c-index for each nomogram to determine its predictive accuracy for estimating actual outcomes. We found that each nomogram could predict aggressive BCR and PCSM in a statistically significant manner and that they all predicted PCSM more accurately than they predicted BCR (ie, with higher c-index values).
+
+CLASSIFICATION: 

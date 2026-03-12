@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Section 2.4 [APPROVAL OF TRADEMARK USAGE], Snap hereby grants Sponsor a non-exclusive, nontransferable, royalty-free, worldwide license to (a) use, reproduce, publish, perform and display the Snap Marks and Snap Brand Features on the Sponsor Web Site in connection with the logo link contemplated by Section 2.l, and in connection with its promotional and marketing activities contemplated by Section 2.5 [PROMOTION OF SNAP SERVICES] and (b) use, reproduce, publish, perform and display the Snap Content on the Sponsor Web Site or other Sponsor properties as mutually agreed by the parties.
+
+CLASSIFICATION:
+ 

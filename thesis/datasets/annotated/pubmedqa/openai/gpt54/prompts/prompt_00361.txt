@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+MR Diagnosis of Bone Metastases at 1.5 T and 3 T: Can STIR Imaging Be Omitted? To date, no prospective comparative study of the diagnostic value of STIR versus T1-weighted (T1w) sequences at both 1.5 T and 3 T has been performed with special focus on the detectability of bone metastases. 212 oncological patients had a whole-body MRI at 1.5 T and/or at 3 T. The standard protocol comprised STIR and T1w sequences. All patients who showed typical signs of bone metastases were included in the study. Evaluation of the images was performed by the calculation of the number of metastases by three independent readers and by visual assessment on a 4-point scale. 86 patients fulfilled the inclusion criteria. The total number of metastases was significantly higher on T1w than on STIR images at both field strengths (p<0.05). T1w revealed a sensitivity of 99.72% (3 T) and 100.00% (1.5 T) versus STIR with 70.99 % (3 T) and 79.34 % (1.5 T). In 53% (38/72) of all patients, STIR detected fewer bone metastases in comparison with T1w at 3 T. At 1.5 T, STIR showed inferior results in 37.5 % (18/48) of all patients. Qualitative analysis indicated a significantly better lesion conspicuity, lesion delineation and an improved image quality on T1w compared to STIR imaging at both field strengths (p<0.05) with similar results for T1w at 1.5 T and 3 T, but inferior results for STIR especially at 3 T.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Maternal creatine homeostasis is altered during gestation in the spiny mouse: is this a metabolic adaptation to pregnancy? Pregnancy induces adaptations in maternal metabolism to meet the increased need for nutrients by the placenta and fetus. Creatine is an important intracellular metabolite obtained from the diet and also synthesised endogenously. Experimental evidence suggests that the fetus relies on a maternal supply of creatine for much of gestation. However, the impact of pregnancy on maternal creatine homeostasis is unclear. We hypothesise that alteration of maternal creatine homeostasis occurs during pregnancy to ensure adequate levels of this essential substrate are available for maternal tissues, the placenta and fetus. This study aimed to describe maternal creatine homeostasis from mid to late gestation in the precocial spiny mouse. Plasma creatine concentration and urinary excretion were measured from mid to late gestation in pregnant (n = 8) and age-matched virgin female spiny mice (n = 6). At term, body composition and organ weights were assessed and tissue total creatine content determined. mRNA expression of the creatine synthesising enzymes arginine:glycine amidinotransferase (AGAT) and guanidinoacetate methyltransferase (GAMT), and the creatine transporter (CrT1) were assessed by RT-qPCR. Protein expression of AGAT and GAMT was also assessed by western blot analysis. Plasma creatine and renal creatine excretion decreased significantly from mid to late gestation (P<0.001, P<0.05, respectively). Pregnancy resulted in increased lean tissue (P<0.01), kidney (P<0.01), liver (P<0.01) and heart (P<0.05) mass at term. CrT1 expression was increased in the heart (P<0.05) and skeletal muscle (P<0.05) at term compared to non-pregnant tissues, and creatine content of the heart (P<0.05) and kidney (P<0.001) were also increased at this time. CrT1 mRNA expression was down-regulated in the liver (<0.01) and brain (<0.01) of pregnant spiny mice at term. Renal AGAT mRNA (P<0.01) and protein (P<0.05) expression were both significantly up-regulated at term, with decreased expression of AGAT mRNA (<0.01) and GAMT protein (<0.05) observed in the term pregnant heart. Brain AGAT (<0.01) and GAMT (<0.001) mRNA expression were also decreased at term.
+
+CLASSIFICATION: 

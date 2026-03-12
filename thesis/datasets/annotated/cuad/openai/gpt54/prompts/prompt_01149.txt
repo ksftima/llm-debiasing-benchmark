@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such records and documentation will be available for inspection during such period by an independent certified public accountant selected by PcoMed and reasonably acceptable to Integra, solely for the purpose of verifying the payments made by Integra under this Agreement.
+
+CLASSIFICATION:
+ 

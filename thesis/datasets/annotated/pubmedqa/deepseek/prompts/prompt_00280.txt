@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does high blood pressure reduce the risk of chronic low back pain? Epidemiological studies have suggested inverse relationships between blood pressure and prevalence of conditions such as migraine and headache. It is not yet clear whether similar relationships can be established for back pain in particular in prospective studies. Associations between blood pressure and chronic low back pain were explored in the cross-sectional HUNT 2 survey of a Norwegian county in 1995-1997, including 39,872 individuals who never used antihypertensive medication. A prospective study, comprising 17,209 initially back pain-free individuals and 5740 individuals reporting low back pain, was established by re-examinations in the HUNT 3 survey in 2006-2008. Associations were assessed by logistic regression with respect to systolic, diastolic and pulse pressure, with adjustment for education, work status, physical activity, smoking, body mass and lipid levels. In the cross-sectional study, all three blood pressure measures showed inverse relationships with prevalence of low back pain in both sexes. In the prospective study of disease-free women, baseline pulse pressure and systolic pressure were inversely associated with risk of low back pain [odds ratio (OR) 0.93 per 10 mm Hg increase in pulse pressure, 95% confidence interval (CI) 0.89-0.98, p = 0.007; OR 0.95 per 10 mm Hg increase in systolic pressure, 95% CI 0.92-0.99, p = 0.005]. Results among men were equivocal. No associations were indicated with the occurrence of pain in individuals with low back pain at baseline.
+
+CLASSIFICATION: 

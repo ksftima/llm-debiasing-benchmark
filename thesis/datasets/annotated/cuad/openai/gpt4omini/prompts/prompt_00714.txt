@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If there is a change in Control of the first party, the second party may, entirely at their own option and without thereby becoming liable for any costs or losses which the first party or its holding company or any company in which it may hold shares may suffer as a result terminate the Agreement by notice in writing to first party.
+
+CLASSIFICATION:
+ 

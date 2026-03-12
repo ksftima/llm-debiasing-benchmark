@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In connection with the foregoing appointment, Supplier hereby grants Reseller a non-transferable, revocable, limited right to resell, market, promote, stimulate interest in, and solicit Orders by Customers and/or End Users in the Territory for the Products and to provide services in connection with those activities.
+
+CLASSIFICATION:
+ 

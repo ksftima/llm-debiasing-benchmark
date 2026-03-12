@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the affinity column-mediated immunoassay method suitable as an alternative to the microparticle enzyme immunoassay method as a blood tacrolimus assay? Tacrolimus is a potent immunosuppressive drug used in organ transplantation. Because of its substantial toxic effects, narrow therapeutic index, and interindividual pharmacokinetic variability, therapeutic drug monitoring of whole-blood tacrolimus concentrations has been recommended. We investigated the comparability of the results of 2 immunoassay systems, affinity column-mediated immunoassay (ACMIA) and microparticle enzyme immunoassay (MEIA), comparing differences in the tacrolimus concentrations measured by the 2 methods in relation to the hematologic and biochemical values of hepatic and renal functions. A total of 154 samples from kidney or liver transplant recipients were subjected to Dimension RxL HM with a tacrolimus Flex reagent cartilage for the ACMIA method and IMx tacrolimus II for the MEIA method. Tacrolimus concentrations measured by the ACMIA method (n = 154) closely correlated with those measured by the MEIA method (r = 0.84). The Bland-Altman plot using concentration differences between the 2 methods and the average of the 2 methods showed no specific trends. The tacrolimus levels determined by both the MEIA method and the ACMIA method were not influenced by hematocrit levels, but the difference between the 2 methods (ACMIA - MEIA) tended to be larger in low hematocrit samples (P<.001).
+
+CLASSIFICATION: 

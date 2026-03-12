@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This term of this Agreement commences on the Effective Date and terminates on August 2nd, 2015 upon completion of event.
+
+CLASSIFICATION:
+ 

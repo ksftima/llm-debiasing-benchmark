@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Through the express grant of such rights in any SCHEDULE, CERES may grant IGER the right to use CERES INTELLECTUAL PROPERTY to the extent required for, and for the sole purpose of, the performance by IGER (or its SUBCONTRACTORS) of RESEARCH PROJECTS. SCHEDULES may specify that similar rights are granted with respect to defined elements of CERES BACKGROUND INTELLECTUAL PROPERTY.
+
+CLASSIFICATION:
+ 

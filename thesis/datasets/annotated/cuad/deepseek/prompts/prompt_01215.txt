@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+IF A CLAIM OR CAUSE OF ACTION IS ATTRIBUTABLE TO ANY MAINTENANCE UPDATE, ENHANCEMENT OR SERVICES PROVIDED OR TO BE PROVIDED UNDER THIS AGREEMENT, THE REMEDIES SET FORTH IN THIS AGREEMENT, TO THE EXCLUSION OF THE REMEDIES SET FORTH IN THE SUBSCRIPTION LICENSE AGREEMENT, SHALL CONSTITUTE THE SOLE AND EXCLUSIVE REMEDIES AVAILABLE TO A PARTY FOR SUCH CLAIM OR CAUSE OF ACTION.
+
+CLASSIFICATION:
+ 

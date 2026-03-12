@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, the Company hereby grants to Allscripts a non-exclusive, royalty-free, irrevocable , non-transferable (except in accordance with Section 28.4), sublicensable (through multiple levels of sublicensees), fully paid-up right and license under all of the Company's Intellectual Property to access, use, reproduce, perform, display, transmit, demonstrate, test, operate, port, configure, distribute, and make derivative works of the Documentation, Company Marketing Materials and Allscripts Marketing Materials, in whole or in part, throughout the Territory, for any purpose consistent with Section 8.1, [***].
+
+CLASSIFICATION:
+ 

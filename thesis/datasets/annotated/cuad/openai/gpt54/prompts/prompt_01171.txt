@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that SFJ terminates this Agreement pursuant to this Section 14.2.8.1, then (a) in exchange for purchasing the Trial Data Package including the Research Results included therein as set forth in Section 11.1.1.4, PB will pay SFJ, within [***] of the date of termination, an amount equal to one hundred fifty percent (150%) of Development Costs paid or incurred to PB by SFJ prior to such termination, and (b) if PB elects to continue development of the Product and obtains Regulatory Approval following such termination, PB shall remain obligated to pay to SFJ any Approval Payments that become due and payable pursuant to ARTICLE 6 at such time that such payments become due and payable (if ever) pursuant to ARTICLE 6 (except to the extent of the amount of any Buy-Out Payment paid by PB pursuant to Section 6.7), provided that such Approval Payments (or Buy-Out Payment, as applicable) shall be adjusted as set forth in Section 6.2, and reduced by the amount previously paid by PB to SFJ pursuant to this Section 14.2.8.1.
+
+CLASSIFICATION:
+ 

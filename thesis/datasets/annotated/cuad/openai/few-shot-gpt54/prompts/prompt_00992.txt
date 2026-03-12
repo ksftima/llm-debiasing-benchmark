@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Similarly, if a third party (who is not an affiliate of Playa) approaches Playa during the Development Term with a proposed offer or arrangement, which Playa desires to accept, under which Playa or its affiliate would manage an all- inclusive resort in the Market Area for that third party, and if that third party has not then already designated a brand under which that all-inclusive resort would operate, then Playa agrees to provide notice to Hyatt and introduce Hyatt to that third party for purposes of enabling Hyatt (at its option) to negotiate for the opportunity to provide that third party franchise rights to brand that resort as a Hyatt All-Inclusive Resort.
+
+CLASSIFICATION:
+

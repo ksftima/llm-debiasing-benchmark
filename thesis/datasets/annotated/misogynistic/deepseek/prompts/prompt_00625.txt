@@ -1,0 +1,32 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I think that a lot women are held to a higher standard than men on somethings :
+-parenting
+-infidelitys 
+-abortion 
+-abandonment 
+-cooking
+-cleaning
+That when they fail it seems worse than mans failures. 
+I guy I used to know abandoned his kids for 5 year but got pats in the back for calling his kids on their bday but when she(the wife) divorced him and told the truth about what happened she was a bitch . 
+So many men I know rely on their SO so much for basic needs cleaning/cooking that when they put away the dishes or vacuum the floor their heroes or deserve something. 
+Men can walk away from their kids but if a women gives them up for adoption/abortion she a monster. 
+Men can get away with changing their kids diapers once but god forbid a women hires a nanny or housekeeper. 
+Single mother are shunned and laughed at but single fathers are heroes.
+I could go on and on about this BUT heres the point WE as WOMEN, MOTHERS, TEACHERS and FRIENDS need to set the bar higher and train both men and women to cook, clean, take responsibility, to be an active parent and not allow boys to be boys.
+
+CLASSIFICATION:
+

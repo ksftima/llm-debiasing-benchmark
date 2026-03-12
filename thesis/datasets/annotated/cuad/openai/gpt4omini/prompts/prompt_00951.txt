@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without prejudice to the above, CBC shall maintain, or shall cause to be maintained with respect to itself and each of its Affiliates, such types and levels of insurance (including, without limitation, third party and product liability insurance), as are customary in the pharmaceutical or manufacturing industry to provide coverage for their activities contemplated hereby.
+
+CLASSIFICATION:
+ 

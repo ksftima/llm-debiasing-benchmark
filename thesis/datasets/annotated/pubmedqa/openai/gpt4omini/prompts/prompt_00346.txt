@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can multiple SNP testing in BRCA2 and BRCA1 female carriers be used to improve risk prediction models in conjunction with clinical assessment? Several single nucleotide polymorphisms (SNPs) at different loci have been associated with breast cancer susceptibility, accounting for around 10% of the familial component. Recent studies have found direct associations between specific SNPs and breast cancer in BRCA1/2 mutation carriers. Our aim was to determine whether validated susceptibility SNP scores improve the predictive ability of risk models in comparison/conjunction to other clinical/demographic information. Female BRCA1/2 carriers were identified from the Manchester genetic database, and included in the study regardless of breast cancer status or age. DNA was extracted from blood samples provided by these women and used for gene and SNP profiling. Estimates of survival were examined with Kaplan-Meier curves. Multivariable Cox proportional hazards models were fit in the separate BRCA datasets and in menopausal stages screening different combinations of clinical/demographic/genetic variables. Nonlinear random survival forests were also fit to identify relevant interactions. Models were compared using Harrell's concordance index (1 - c-index). 548 female BRCA1 mutation carriers and 523 BRCA2 carriers were identified from the database. Median Kaplan-Meier estimate of survival was 46.0 years (44.9-48.1) for BRCA1 carriers and 48.9 (47.3-50.4) for BRCA2. By fitting Cox models and random survival forests, including both a genetic SNP score and clinical/demographic variables, average 1 - c-index values were 0.221 (st.dev. 0.019) for BRCA1 carriers and 0.215 (st.dev. 0.018) for BRCA2 carriers.
+
+CLASSIFICATION: 

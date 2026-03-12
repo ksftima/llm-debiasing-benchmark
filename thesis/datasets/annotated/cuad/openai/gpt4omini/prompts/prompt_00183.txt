@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to SONY's compliance with the covenant not to compete in Section 8.3 of Asset Purchase Agreement, PURCHASER hereby grants to SONY a worldwide, non-exclusive, fully paid-up, royalty-free license, under the Transferred Patents, to make, use, offer to sell, sell, otherwise dispose of, and import any products, including any Competing Products.
+
+CLASSIFICATION:
+ 

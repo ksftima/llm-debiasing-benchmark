@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Young-Burgess classification of pelvic ring fractures: does it predict mortality, transfusion requirements, and non-orthopaedic injuries? The objectives of this study were to evaluate the ability of the Young-Burgess classification system to predict mortality, transfusion requirements, and nonorthopaedic injuries in patients with pelvic ring fractures and to determine whether mortality rates after pelvic fractures have changed over time. Retrospective review. Level I trauma center. One thousand two hundred forty-eight patients with pelvic fractures during a 7-year period. None. Mortality at index admission, transfusion requirement during first 24 hours, and presence of nonorthopaedic injuries as a function of Young-Burgess pelvic classification type. Mortality compared with historic controls. Despite a relatively large sample size, the ability of the Young-Burgess system to predict mortality only approached statistical significance (P = 0.07, Kruskal-Wallis). The Young-Burgess system differentiated transfusion requirements--lateral compression Type 3 (LC3) and anteroposterior compression Types 2 (APC2) and 3 (APC3) fractures had higher transfusion requirements than did lateral compression Type 1 (LC1), anteroposterior compression Type 1 (APC1), and vertical shear (VS) (P<0.05)--but was not as useful at predicting head, chest, or abdomen injuries. Dividing fractures into stable and unstable types allowed the system to predict mortality rates, abdomen injury rates, and transfusion requirements. Overall mortality in the study group was 9.1%, unchanged from original Young-Burgess studies 15 years previously (P = 0.3).
+
+CLASSIFICATION: 

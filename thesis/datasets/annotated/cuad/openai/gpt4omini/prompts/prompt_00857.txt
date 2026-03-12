@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective as of the applicable Closing Date, the Seller hereby sells, assigns, transfers, conveys and delivers all of its right, title, and interest in and to the Assigned IP (together with the goodwill of the business symbolized by any Trademarks that constitute Assigned IP) and all Ancillary IP Rights with respect thereto, and shall cause the other Seller Parties to do the same, to the Purchaser Assignees and, effective as of the applicable Closing Date, the Purchaser Assignees hereby purchase, acquire and accept the same from the Seller Parties.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As it relates to the Unit Franchisees' operation in the Master Territory, and if you elect to obtain such coverage: general liability insurance, which insurance is in addition to any general liability insurance the Unit Franchisees are required to maintain under their Unit Franchise Agreements.
+
+CLASSIFICATION:
+ 

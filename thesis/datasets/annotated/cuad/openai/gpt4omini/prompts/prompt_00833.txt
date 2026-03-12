@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For each sale administered by element 5 of the Software under this Agreement, element 5 shall receive an additional service fee of 2% of the gross sales price (including taxes, shipping and handling, etc.) as well as the Advertising Cost Compensation defined in II. § 6 (4) and in addition to VAT or sales tax (where applicable).
+
+CLASSIFICATION:
+ 

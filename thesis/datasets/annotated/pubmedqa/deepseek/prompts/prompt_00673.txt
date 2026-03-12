@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Inhibin: a new circulating marker of hydatidiform mole? To define the concentrations of inhibin in serum and tissue of patients with hydatidiform mole and assess their value as a clinical marker of the condition. Prospective study of new patients with hydatidiform mole, comparison of paired observations, and case-control analysis. A university hospital, two large public hospitals, and a private women's clinic in Japan. Seven consecutive referred patients seen over four months with newly diagnosed complete hydatidiform mole, including one in whom the mole was accompanied by viable twin fetuses (case excluded from statistical analysis because of unique clinical features). All patients followed up for six months after evacuation of molar tissue. Correlation of serum inhibin concentrations with trophoblastic disease. Serum concentrations of inhibin, human chorionic gonadotrophin, and follicle stimulating hormone were compared before and seven to 10 days after evacuation of the mole. Before evacuation the serum inhibin concentrations (median 8.3 U/ml; 95% confidence interval 2.4 to 34.5) were significantly greater than in 21 normal women at the same stage of pregnancy (2.8 U/ml; 2.1 to 3.6), and inhibin in molar tissue was also present in high concentrations (578 U/ml cytosol; 158 to 1162). Seven to 10 days after evacuation inhibin concentrations in serum samples from the same patients declined significantly to values (0.4 U/ml; 0.1 to 1.4) similar to those seen in the follicular phase of normal menstrual cycles. None of the four patients whose serum inhibin concentrations were 0.4 U/ml or less after evacuation developed persistent trophoblastic disease. Though serum human chorionic gonadotrophin concentrations declined after evacuation (6.6 x 10(3) IU/l; 0.8 x 10(3) to 32.6 x 10(3], they remained far higher than in non-pregnant women. Serum follicle stimulating hormone concentrations remained suppressed.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+After the Commencement Date, RCP shall, and shall cause its Affiliates to, until the 7th anniversary of the date on which RGHL or its Affiliates owns less than 10% of the capital stock in RCP, afford to RGHI and its employees and authorized representatives reasonable access to RCP's employees and auditors, retain all books, records (including accountant's work papers), and other information and documents pertaining to the Business in existence on the Commencement Date and make available for inspection and copying by RGHI (at RGHI's expense) during normal business hours, in each case so as not to unreasonably interfere with the conduct of the business of RCP and its Affiliates, such information (A) as may be required by any Governmental Authority, including pursuant to any applicable Law or regulatory request or to prepare or file any Tax related documentation, (B) as may be necessary for RGHI or its Affiliates in connection with their ongoing financial reporting, accounting or other purpose related to RGHI and Company's affiliation immediately prior to the Commencement Date, or (C) as may be necessary for RGHI or its Affiliates to perform their respective obligations pursuant to this Agreement or in connection with any Litigation (other than any Litigation involving a dispute between the parties), in each case subject to compliance with all applicable privacy Laws.
+
+CLASSIFICATION:
+ 

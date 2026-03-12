@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Pituitary apoplexy: do histological features influence the clinical presentation and outcome? A retrospective analysis of a contemporary series of patients with pituitary apoplexy was performed to ascertain whether the histopathological features influence the clinical presentation or the outcome. A retrospective analysis was performed in 59 patients treated for pituitary apoplexy at the University of Virginia Health System, Charlottesville, Virginia, or Groote Schuur Hospital, University of Cape Town, South Africa. The patients were divided into two groups according to the histological features of their disease: one group with infarction alone, comprising 22 patients; and the other with hemorrhagic infarction and/or frank hemorrhage, comprising 37 patients. The presenting symptoms, clinical features, endocrinological status, and outcome were compared between the two groups.
+
+CLASSIFICATION: 

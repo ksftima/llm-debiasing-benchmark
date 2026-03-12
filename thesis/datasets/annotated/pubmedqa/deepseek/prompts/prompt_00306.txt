@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Treadmill training post stroke: are there any secondary benefits? To explore the secondary benefits of treadmill training for people in the chronic stage of recovery from stroke. Modified random assignment, matched-pair control group design with repeated measures. Outpatient stroke centre. Twenty individuals post first stroke who acknowledged walking slower than pre stroke. Participants matched by side of hemiparesis and motor impairment. Twelve 20-minute sessions of walking on a treadmill or weekly phone call. Depression (Beck Depression Index), mobility and social participation (Stroke Impact Scale 3.0 subscales) were assessed initially, at the end of 12 treatments (four weeks) and six weeks later. No significant difference was found between groups for any dependent measure. The ANOVA to investigate main effects in each group found no significant findings in the control group; however in the treatment group significant improvements over time for depression (P = 0.005, P<0.001), mobility (P = 0.008) and social participation (P = 0.004) were demonstrated.
+
+CLASSIFICATION: 

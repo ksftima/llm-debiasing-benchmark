@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can ki-67 play a role in prediction of breast cancer patients' response to neoadjuvant chemotherapy? Currently the choice of breast cancer therapy is based on prognostic factors. The proliferation marker Ki-67 is used increasingly to determine the method of therapy. The current study analyses the predictive value of Ki-67 in foreseeing breast cancer patients' responses to neoadjuvant chemotherapy. This study includes patients with invasive breast cancer treated between 2008 and 2013. The clinical response was assessed by correlating Ki-67 to histological examination, mammography, and ultrasonography findings. The average Ki-67 value in our patients collectively (n = 77) is 34.9 ± 24.6%. The average Ki-67 value is the highest with 37.4 ± 24.0% in patients with a pCR. The Ki-67 values do not differ significantly among the 3 groups: pCR versus partial pathological response versus stable disease/progress (P = 0.896). However, Ki-67 values of patients with luminal, Her2 enriched, and basal-like cancers differed significantly from each other. Furthermore, within the group of luminal tumors Ki-67 values of patients with versus without pCR also differed significantly.
+
+CLASSIFICATION: 

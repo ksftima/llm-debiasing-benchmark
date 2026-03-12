@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except in the case of latent defects as described in Section 7.3, each shipment of Miltenyi Products shall be deemed accepted by Bellicum if Bellicum or its designated recipient of the shipment does not provide Miltenyi with written notice of rejection (a "Rejection Notice") within [...***...] days from the date of receipt of the relevant shipment of Miltenyi Product, describing the reasons for the rejection and the non-conforming characteristics of such Rejected Product in reasonable detail.
+
+CLASSIFICATION:
+ 

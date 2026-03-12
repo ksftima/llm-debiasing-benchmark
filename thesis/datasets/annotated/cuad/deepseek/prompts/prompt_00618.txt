@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+RemainCo, for itself and as representative of all other members of the RemainCo Group, hereby grants to SpinCo (x) a perpetual, irrevocable, exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the RemainCo Know-How currently or previously used in connection with the SpinCo Business or otherwise in the possession of SpinCo or any member of the SpinCo Group as of the Distribution Date (the "Licensed RemainCo Know-How"), for the continued operation of the SpinCo Business and any future extensions of the SpinCo Business in the SpinCo Core Field and (y) a perpetual, irrevocable, non-exclusive, royalty-free, worldwide right and license with the right to grant sublicenses (solely as set forth in Section 5.6) to use the Licensed RemainCo Know-How for the continued operation of the SpinCo Business and any future extensions of the SpinCo Business in any field other than the RemainCo Core Field or the SpinCo Core Field; provided, however, the foregoing licenses shall not extend to (i) RemainCo Know-How licensed by RemainCo or any other member of the RemainCo Group if and to the extent the licensing of same to SpinCo would constitute a breach of an agreement with any Third Party executed prior to the Effective Date or result in any expense to RemainCo or any member of the RemainCo Group for payments to such Third Party or (ii) any intellectual property not owned by one or more members of the RemainCo Group, or as to which no member of the RemainCo Group has the right to grant sublicenses, as of the Effective Date.
+
+CLASSIFICATION:
+ 

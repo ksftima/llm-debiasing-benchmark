@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+All sublicensing by Equifax and other members of the Equifax Group to any one of their customers shall be pursuant to written agreements with such customer, executed before or at the time of furnishing each copy of the Licensed Certegy Materials (excluding the Utility Software Programs) to such customer, and which provide at a minimum that such customer: (i) receives only a personal, non-transferable and nonexclusive right to use such copy of the Licensed Certegy Materials (excluding the Utility Software Programs); (ii) receives no title in the intellectual property contained in the Licensed Certegy Materials (excluding the Utility Software Programs); (iii) will not copy the Licensed Certegy Materials (excluding the Utility Software Programs), except as necessary to use such Licensed Certegy Materials (excluding the Utility Software Programs) in accordance with the license grant and to make one archival copy; (iv) will not export or re-export the Licensed Certegy Materials (excluding the Utility Software Programs) without the appropriate United States or foreign government licenses; (v) will hold the Licensed Certegy Materials (excluding the Utility Software Programs) in confidence; will not reverse compile or disassemble the Licensed Certegy Materials (excluding the Utility Software Programs); will not remove or destroy any proprietary markings of the licensor on or contained in the Licensed Certegy Materials (excluding the Utility Software Programs); and will include the copyright and patent notices of the licensor as specified from time to time by the licensor for the Licensed Certegy Materials (excluding the Utility Software Programs) on and in all copies of the Licensed Certegy Materials (excluding the Utility Software Programs); and (vi) will not sublicense, assign or otherwise transfer the Licensed Certegy Materials (excluding the Utility Software Programs) to any other Person.
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+It's Fournier's gangrene still dangerous? Fournier's gangrene is known to have an impact in the morbidity and despite antibiotics and aggressive debridement, the mortality rate remains high. To assess the morbidity and mortality in the treatment of Fournier's gangrene in our experience. The medical records of 14 patients with Fournier's gangrene who presented at the University Hospital Center "Mother Teresa" from January 1997 to December 2006 were reviewed retrospectively to analyze the outcome and identify the risk factor and prognostic indicators of mortality. Of the 14 patients, 5 died and 9 survived. Mean age was 54 years (range from 41-61): it was 53 years in the group of survivors and 62 years in deceased group. There was a significant difference in leukocyte count between patients who survived (range 4900-17000/mm) and those died (range 20.300-31000/mm3). Mean hospital stay was about 19 days (range 2-57 days).
+
+CLASSIFICATION: 

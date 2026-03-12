@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The amounts contemplated under Section 16.4 [Liquidated Damages] above is not a penalty and is intended by the parties only as a compensatory remedy for past breaches and not as a preventative remedy to deter future breaches.
+
+CLASSIFICATION:
+ 

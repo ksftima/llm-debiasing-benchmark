@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Neoforma hereby grants VerticalNet an exclusive license, even as to Neoforma, to use, modify, enhance, reproduce, display, perform and transmit the Neoforma Laboratory Product Listings, subject to and in accordance with the terms, conditions and provisions of this Agreement, to the extent Neoforma has the right to do so.
+
+CLASSIFICATION:
+ 

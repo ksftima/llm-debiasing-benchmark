@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Daves intentions is what I like. Rapey little beta 
+
+When my GF was shaking off all the orbiters I was always saying shit like you know he wants to fuck you right. He probably jerked off to a girl that looked like you on a porn and thought I should text herpoor little fella is on a dry streak . I would made fishing rod noises and say hes throwing a line see if he can get lucky. 
+
+But she would lose her shit saying they are not like that bla bla bla just because you fuck any girl you want not everyone thinks like that. I said  not want babe because I can,  they want but they cant
+
+CLASSIFICATION:
+

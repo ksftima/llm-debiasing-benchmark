@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Yup, if a man, any man (even the nicest looking old man) helps you out without you asking for it, it's because he finds you at least somewhat pretty.
+
+I mean, considering you were a femcel, i'm sure you know it as much as i do. When they find you ugly they never ever offer any help. They don't see you. 
+
+Now, it doesn't mean that they automatically want to fuck you. Some of them don't even have a working dick anymore yet they still only see the pretty girls and don't care about the rest. They just like seeing and grabbing the attention of pretty women. Nobody wants to grab the attention of an ugly girl. 
+
+Congrats on ascending, keep up with your efforts but stay woke. Don't fall for men's bullshit.
+
+CLASSIFICATION:
+

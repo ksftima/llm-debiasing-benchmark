@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each party hereby grants to the other party a ------------------- [***]* (except as provided in Section 18(b) [Assignment]("Assignment")), [***]* (with no --- --- right to sublicense except as set forth below) under all of its Intellectual Property Rights to use, reproduce, modify, and create derivative works of each party's preexisting Intellectual Property Rights solely as is reasonably and actually necessary to complete the development of the Service.
+
+CLASSIFICATION:
+ 

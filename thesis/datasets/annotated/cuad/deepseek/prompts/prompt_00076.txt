@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Achaogen shall be responsible for the prosecution and maintenance of any Patent applications and Patents claiming or covering any Achaogen Inventions, and Microgenics shall be responsible for the prosecution and maintenance of any Patent applications and Patents claiming or covering any Microgenics Inventions; provided, that [***] shall not, without first obtaining [***] prior written consent, file any Patent claiming or covering the [***]; provided, further, that, in the event that any such Patent applications covering or claiming any [***] are filed without first obtaining [***] prior written consent, then [***] hereby grants [***] a perpetual, irrevocable, fully paid-up, royalty-free, worldwide, sublicenseable, non-exclusive license under such Patent applications and any Patents issuing therefrom or related thereto for the purpose of developing, manufacturing, using or commercializing [***].
+
+CLASSIFICATION:
+ 

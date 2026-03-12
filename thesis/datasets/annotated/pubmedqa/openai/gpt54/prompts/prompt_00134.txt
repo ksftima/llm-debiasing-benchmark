@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Identification of racial disparities in breast cancer mortality: does scale matter? This paper investigates the impact of geographic scale (census tract, zip code, and county) on the detection of disparities in breast cancer mortality among three ethnic groups in Texas (period 1995-2005). Racial disparities were quantified using both relative (RR) and absolute (RD) statistics that account for the population size and correct for unreliable rates typically observed for minority groups and smaller geographic units. Results were then correlated with socio-economic status measured by the percentage of habitants living below the poverty level. African-American and Hispanic women generally experience higher mortality than White non-Hispanics, and these differences are especially significant in the southeast metropolitan areas and southwest border of Texas. The proportion and location of significant racial disparities however changed depending on the type of statistic (RR versus RD) and the geographic level. The largest proportion of significant results was observed for the RD statistic and census tract data. Geographic regions with significant racial disparities for African-Americans and Hispanics frequently had a poverty rate above 10.00%.
+
+CLASSIFICATION: 

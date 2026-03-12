@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does sex influence the response to intravenous thrombolysis in ischemic stroke? Women are more likely to have a worse outcome after an acute stroke than men. Some studies have suggested that women also benefit less from intravenous thrombolysis after an acute ischemic stroke, but others found no sex differences in safety and efficacy. We aimed to evaluate differences in 3-month outcome between sexes in intravenous tissue-type plasminogen activator-treated patients registered in the Safe Implementation of Treatments in Stroke-International Stroke Thrombolysis Register. A total of 45 079 patients treated with intravenous alteplase were recorded from 2002 to 2011. Main outcome measures were symptomatic intracerebral hemorrhage, functional independence (modified Rankin Scale score, 0-2), and mortality at 3 months. Among 25 777 (57.2%) men and 19 302 (42.8%) women, we found no difference in the rate of symptomatic intracerebral hemorrhage (P=0.13), a significantly higher likelihood of functional independence at 3 months in men (P<0.0001) and a higher mortality in women when compared with men (P<0.00001). After adjustment for confounding variables, we did not observe any difference between sexes in functional outcome (odds ratio, 1.03; 95% confidence interval, 0.97-1.09; P=0.39), whereas male sex was related to a higher risk of mortality (odds ratio, 1.19; 95% confidence interval, 1.10-1.29; P=0.00003) and symptomatic intracerebral hemorrhage (odds ratio, 1.25, 95% confidence interval, 1.04-1.51; P=0.02).
+
+CLASSIFICATION: 

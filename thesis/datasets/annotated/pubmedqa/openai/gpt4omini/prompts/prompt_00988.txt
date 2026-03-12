@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does patient position during liver surgery influence the risk of venous air embolism? It is generally believed that positioning of the patient in a head-down tilt (Trendelenberg position) decreases the likelihood of a venous air embolism during liver resection. The physiological effect of variation in horizontal attitude on central and hepatic venous pressure was measured in 10 patients during liver surgery. Hemodynamic indices were recorded with the operating table in the horizontal, 20 degrees head-up and 20 degrees head-down positions. There was no demonstrable pressure gradient between the hepatic and central venous levels in any of the positions. The absolute pressures did, however, vary in a predictable way, being highest in the head-down and lowest during head-up tilt. However, on no occasion was a negative intraluminal pressure recorded.
+
+CLASSIFICATION: 

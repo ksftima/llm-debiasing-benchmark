@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does the leukocyte count correlate with the severity of injury? Injury severity score (ISS), Glasgow coma score (GCS), and revised trauma score (RTS) are the most frequently used methods to evaluate the severity of injury in blunt trauma patients. ISS is too complicated to assess easily and GCS and RTS are easy to assess but somewhat subjective. White blood cell count (WBC) is an easy, quick and objective test. This study was performed to evaluate the significance of the WBC count at presentation in the blunt trauma patients. 713 blunt trauma patients, who were admitted to the Uludag University Medical Center Emergency Department between 01.04.2000-31.12.2000, were retrospectively evaluated in terms of ISS, GCS, RTS and white blood cell count at presentation. Statistical analysis revealed that WBC was correlated positively with ISS, but negatively with GCS and RTS.
+
+CLASSIFICATION: 

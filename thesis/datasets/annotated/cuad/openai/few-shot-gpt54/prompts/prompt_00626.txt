@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Individual grants Lifeway together with its affiliates, subsidiaries, parent companies and their representatives and employees have an unlimited, perpetual, non-exclusive, worldwide and, except as set forth in Section 9, royalty-free, right to use, reuse, publish, reproduce, perform, copy, create derivative works, exhibit, broadcast, and display throughout the world the name, image and likeness of Individual in Marketing Materials (as defined below) in connection with marketing, advertising or otherwise promoting the Lifeway products and/or services and for historical reference and display purposes and other internal purposes, including without limitation, internal sales meetings.
+
+CLASSIFICATION:
+

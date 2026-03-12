@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As of the Closing Date, Equifax and Certegy shall each have the perpetual, fully paid, worldwide right and license to make, use, sell, copy, distribute, import, develop Derivative Works or enhancements of, and publicly perform and display, for any purpose, the entire APPLY software product (to the extent the licensee does not already own the same), in both source and object code format, and the documentation thereof without any obligation (including any obligation to account or pay royalties) or liability to the other owner.
+
+CLASSIFICATION:
+ 

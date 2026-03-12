@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Client, in its reasonable discretion, consents, the Client is hereby granted an exclusive, worldwide, royalty-free, perpetual, irrevocable license to use, distribute, modify, publish, and otherwise exploit the incorporated items in connection with the work product developed for the Client.
+
+CLASSIFICATION:
+ 

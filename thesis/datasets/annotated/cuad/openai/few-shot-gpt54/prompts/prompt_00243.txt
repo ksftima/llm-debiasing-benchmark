@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+The licenses granted pursuant to<omitted>Sections 6.01 and 6.02 (each such license being a "Patent License") include the<omitted>following rights: (a) to make, use, lease, sell or otherwise dispose of, maintain and repair, Licensed Products, to license the use of Licensed Products made by or for Grantee, to practice any process involved in the manufacture or use of Licensed Products, and to provide Licensed Services; (b) to have made Licensed Products by another manufacturer for the use, lease, sale, disposal or transfer by Grantee, but only when both of the following conditions are met: (i) the designs, specifications and working drawings for the manufacture of such Licensed Products are furnished by Grantee; and (ii) such designs, specifications and working drawings are in sufficient detail that no additional design by the manufacturer is required other than adaptation to the production processes and standards normally used by the manufacturer which change the characteristics of the products only to a negligible extent;<omitted>(c) to make and have made, to use and have used, and to maintain machines, tools, materials and other manufacturing instrumentalities, and to use and have used methods and processes, insofar as such machines, tools, materials, other manufacturing instrumentalities, methods and processes are involved in or incidental to the development, manufacture, installation, testing, maintenance or repair of Licensed Products, or to the training of personnel in the use of such Licensed Products; provided, however, that the rights granted in this Section 6.03(c) shall not serve to enlarge the scope of the rights granted in Section 6.03(b);
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are serum leptin levels a prognostic factor in advanced lung cancer? There are 71 previously untreated patients with cytological or histological evidence of primary lung cancer who were admitted to the oncology department between November 2013 and August 2014. Forty-five healthy individuals with age, sex and BMI matching the lung cancer patients, were recruited to take part in the study as a control group. Leptin levels were measured quantitatively by using a microELISA kit. The serum leptin levels at diagnosis were significantly lower in lung cancer patients than those in control subjects (4.75±4.91 ng/ml, 9.67±8.02 ng/ml; p<0.001). We did not find any significant difference in leptin values related to clinicopathological parameters such as ECOG PS, weight loss, histological type, disease stage and TNM classification. Nevertheless, we demonstrated a significant correlation between serum leptin levels and BMI in lung cancer patients (correlation coefficient: 0.303; p>0.010). The analysis of serum leptin values did not show any association with the overall survival of the patients.
+
+CLASSIFICATION: 

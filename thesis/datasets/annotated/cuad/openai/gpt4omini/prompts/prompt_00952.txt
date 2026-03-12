@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party shall obtain and maintain commercial general liability insurance, including product liability insurance covering the obligations of that Party under this Agreement through the Term and for a period of [***] thereafter, which insurance shall afford limits of not less than (i) $[***] for each occurrence; and (ii) $[***] in the aggregate per annum. Such insurance may be provided in more than one separate insurance policy and/or on claims made or claims made and reported forms as is common in the insurance marketplace for similar risks.
+
+CLASSIFICATION:
+ 

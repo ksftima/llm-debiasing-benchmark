@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"Performance Benchmarks" shall mean the following requirements necessary for Distributor to maintain the exclusivity granted in Section 2.1 hereof: (a) the execution of contracts to deploy Products in 25 new locations approved in advance by Hydraspin ("Customer Locations") during each 12 month period following the Effective Date and (b) all Customer Locations in the aggregate shall generate an average of 7,500 barrels of fluid per day on a trailing 12 month basis. Customer Locations must be available for installation within 90 days of approval by Hydraspin to be applied toward the satisfaction of the Performance Benchmark.
+
+CLASSIFICATION:
+ 

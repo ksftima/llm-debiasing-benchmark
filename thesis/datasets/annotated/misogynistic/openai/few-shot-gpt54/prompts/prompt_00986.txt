@@ -1,0 +1,51 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+>Even if it's true that there aren't any openly, media-facing conservatives in the gaming press, it doesn't prove that some clique is keeping them out.
+
+I corrected you on this horseshit the last time you peddled it.  It's not that the utter lack of conservatives proves there is a clique.   It has been *claimed* by an inside source that there is such a clique, and the existence of ONE NAME is all it would take to disprove the allegations. 
+
+And they can't do it.  
+
+>Just as the lack of black superheroes proves that Hollywood is keeping out black people,
+
+1.) The lack isn't total, there have been several black super heroes, and
+
+2.) Hollywood is on the record as constantly bending over backwards to prove how woke and diverse they are. 
+
+Compare that to the games journalists who can't give us ONE NAME and who are on social media continually acting in exactly the ways an anti-conservative clique would in fact act.    If there wasn't a single black super hero in Hollywood and famous actors and directors were on Twitter constantly talking about how much they hate black people, then maybe you'd have a successful analogy. 
+
+And of course don't forget we [already caught them years ago](https://ggwiki.deepfreeze.it/index.php?title=GameJournoPros).
+
+CLASSIFICATION:
+

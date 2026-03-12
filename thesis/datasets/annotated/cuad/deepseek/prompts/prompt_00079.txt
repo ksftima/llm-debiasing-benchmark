@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of a termination of this Agreement, FG shall have an irrevocable, exclusive, license, with the right to grant and authorize sublicenses, to any trademarks used by Astellas in association with the Lead Compounds hereunder to make, use, sell, import and otherwise exploit products within the Field in the Astellas Territory.
+
+CLASSIFICATION:
+ 

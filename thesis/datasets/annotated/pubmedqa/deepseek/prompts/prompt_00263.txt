@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is arch form influenced by sagittal molar relationship or Bolton tooth-size discrepancy? Orthodontic patients show high prevalence of tooth-size discrepancy. This study investigates the possible association between arch form, clinically significant tooth-size discrepancy, and sagittal molar relationship. Pretreatment orthodontic casts of 230 Saudi patients were classified into one of three arch form types (tapered, ovoid, and square) using digitally scanned images of the mandibular arches. Bolton ratio was calculated, sagittal molar relationship was defined according to Angle classification, and correlations were analyzed using ANOVA, chi-square, and t-tests. No single arch form was significantly more common than the others. Furthermore, no association was observed between the presence of significant Bolton discrepancy and the sagittal molar relationship or arch form. Overall Bolton discrepancy is significantly more prevalent in males.
+
+CLASSIFICATION: 

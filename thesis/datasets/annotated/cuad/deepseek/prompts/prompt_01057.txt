@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall be governed by and interpreted in accordance with the laws of the State of Delaware without reference to any conflict of laws provisions thereof, except where governed by the Bankruptcy Code.
+
+CLASSIFICATION:
+ 

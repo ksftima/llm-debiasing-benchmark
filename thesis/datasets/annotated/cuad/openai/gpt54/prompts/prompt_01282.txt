@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For clarity, the exclusive license granted to Licensee pursuant to Section 2.1 shall extend to all Intellectual Property Rights and Know-How Controlled by Bioeq and embodied within, or claiming or covering the Bioeq Improvements.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Thereafter, Bellicum shall have consecutive separate options to extend the Term for successive renewal terms of five (5) years each (each, a "Renewal Term", and<omitted>collectively with the Initial Term, the "Term").
+
+CLASSIFICATION:
+ 

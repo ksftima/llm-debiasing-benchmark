@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Client hereby grants to TrueLink the nonexclusive worldwide right and license to use, distribute, disseminate, license, resell, exploit, upload, display, copy and store Credit Data subject to the limitations set forth in and in accordance with the Non-Competition Agreement.
+
+CLASSIFICATION:
+ 

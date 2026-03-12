@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+About shall own and retain all right, title and interest in and to any About User data generated within the About Network (other than the Insurance Center), and nothing in this Agreement shall confer in eBix any right, title or interest in or to the About User Data (other than the Insurance Center and except to the extent that it is duplicative of About Customer Data).
+
+CLASSIFICATION:
+ 

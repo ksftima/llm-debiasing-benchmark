@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Has the 80-hour workweek improved surgical resident education in New England? To evaluate the effect of the 80-hour workweek restrictions on resident education within surgical programs in the New England area. Web-based survey. All Accreditation Council for Graduate Medical Education (ACGME) accredited surgical residency programs in New England (n = 20). Program directors/coordinators in each surgical residency program in New England. First, American Board of Surgery In-Training Examination (ABSITE) scores and the passing rate of the ABS certifying examination were recorded for the years 2001, 2002, 2005, and 2006. Second, the changes in the curriculum of surgical education were documented as perceived by program coordinators and directors. In all, 85% (17/20) of surgical programs in New England responded to the survey. The programs began to implement the 80-hour workweek from 2002 to 2004. An equal distribution of community (n = 8) and university programs (n = 9) was sampled. Prior to the initiation of the 80-hour workweek, residency programs emphasized weekly didactic sessions given by attending physicians (88%), mock orals (88%), and conventional journal club (76%). After the 80-hour workweek was implemented, the education curriculum most often consisted of didactic sessions by attending (100%), mock orals (88%), and simulation laboratories (75%). No difference was observed in ABSITE scores and first-time pass rates of the ABS examination before or after the introduction of the 80-hour workweek (20% response). Only 25% of programs felt that surgical education was improved after the implementation of the 80-hour workweek, whereas 31% felt education was worse. Overall, 44% of respondents believed that there was no difference in surgical education.
+
+CLASSIFICATION: 

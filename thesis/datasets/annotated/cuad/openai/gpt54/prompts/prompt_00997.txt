@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Both parties must also (1) make and keep books, records and accounts, which, in reasonable detail, accurately and fairly reflect the transactions and dispositions of assets of the company, (2) devise and maintain a system of internal accounting controls, and (3) at any time a party so requests in writing, but no more than once a year, grant to the other party commercially reasonable access to said books, records, systems and accounts to verify compliance.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Sorry that you are quarantined while you find these things out about your partner.
+
+I wanted to add that [training women to negotiate hasn't turned out to be much of a remedy.](https://www.pon.harvard.edu/daily/leadership-skills-daily/women-and-negotiation-leveling-the-playing-field/) The reason the gaps persist is because of how deeply entrenched beliefs about [the value of women's work are](https://en.wikipedia.org/wiki/Cecilia_L._Ridgeway)\-- as soon as work gets [coded as being 'for women'  the average salaries will drop](https://www.aeaweb.org/conference/2020/preliminary/paper/26zNEQ4i) (even for men that work in that industry).
+
+CLASSIFICATION:
+

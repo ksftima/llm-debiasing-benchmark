@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Within seventy-five (75) days following the end of each month of a calendar year during the Term that "BCF" (as defined below) for such month, when combined with BCF for all prior months during such calendar year (other than any month which is outside the Term) is less than the Minimum BCF, Nexstar shall pay a fee to WYZZ in an amount equal to thirty-five percent (35%) of BCF for such month. Within seventy-five (75) days following the end of each month of a calendar year during the Term that BCF for such month, when combined with BCF for all prior months of such calendar year (other than any month which is outside the Term) is greater than the Minimum BCF, Nexstar shall pay a fee to WYZZ in an amount equal to 50% of BCF for such month; provided, in the first month of each calendar year in which this sentence applies, the fee with respect to the portion of BCF for such month which, when combined with BCF for all prior months during such year (other than any month which is outside the Term) is exactly equal to the Minimum BCF, shall equal thirty-five percent (35%) of such portion rather than fifty percent (50%).
+
+CLASSIFICATION:
+ 

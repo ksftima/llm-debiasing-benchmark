@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+You hereby grant to us (and agree to obtain from your affiliates, owners, employees, and/or contractors), a perpetual, non-exclusive, and worldwide right to use any such ideas, concepts, methods, techniques and products in any businesses that we and/or our affiliates, franchisees and designees operate. We will have the right to use those ideas, concepts, methods, techniques, and/or products without making payment to you. You agree not to use or allow any other person or entity to use any such concept, method, technique or product without obtaining our prior written approval.
+
+CLASSIFICATION:
+ 

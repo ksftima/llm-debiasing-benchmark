@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is external palliative radiotherapy for gallbladder carcinoma effective? Gallbladder carcinoma is characterized by delayed diagnosis, ineffective treatment and poor prognosis. Surgical resection has been thought to be the treatment of choice, while the role of radiotherapy as adjuvant or palliative treatment has not been fully clarified in the literature. We present the case of a 45-year-old female, with unresectable gallbladder carcinoma, grade IV, histologically diagnosed during laparotomy. The patient was treated with palliative intent with percutaneous transhepatic biliary drainage. Furthermore, she received external radiotherapy by (60)Co, using a three-field technique (anterior-posterior and right lateral). The total dose was 3,000 cGy in 10 fractions, with 300 cGy per fraction, 5 days weekly. The patient showed clinico-laboratory improvement and was discharged with a permanent percutaneous transhepatic endoprosthesis. During follow-up (10 and 12 months postirradiation), abdominal CTs showed no local extension of the tumor, while the patient had a good performance status. So far, 1 year after the diagnosis of gallbladder cancer she is still alive.
+
+CLASSIFICATION: 

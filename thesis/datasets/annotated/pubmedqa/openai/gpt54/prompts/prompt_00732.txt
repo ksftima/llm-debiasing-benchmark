@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Bony defects in chronic anterior posttraumatic dislocation of the shoulder: Is there a correlation between humeral and glenoidal lesions? The prevalence of combined humeral and glenoid defects varies between 79 and 84 % in case of chronic posttraumatic anterior shoulder instability. The main goal of this study was to evaluate the relationship between humeral and glenoid defects based on quantitative radiological criteria. A retrospective study was performed between 2000 and 2011 including patients who underwent primary surgical shoulder stabilization for chronic posttraumatic anterior shoulder instability, with bone defects in both the glenoid and humerus and a healthy contralateral shoulder. The following measurements were taken: D/R ratio (Hill-Sachs lesion depth/humeral head radius) on an AP X-ray in internal rotation and the D1/D2 ratio [diameter of the involved glenoid articular surfaces (D1)/the healthy one (D2)] on a comparative Bernageau glenoid profile view. Measurements were taken by two observers. Correlations were determined by the Spearman correlation coefficients (r), Bland and Altman diagrams, and intra-class correlation coefficients (ICC). A sample size calculation was done. Thirty patients were included, 25 men/5 women, mean age 29.8 ± 11.2 years. The mean D/R was 23 ± 12 % for observer 1 and 23 ± 10 % for observer 2. The mean D1/D2 was 95 ± 4 % for observer 1 and 94 ± 6 % for observer 2. No significant correlation was found between humeral and glenoid bone defects by observer 1 (r = 0.23, p = 0.22) or observer 2 (r = 0.05, p = 0.78). Agreement of the observers for the D/R ratio was excellent (ICC = 0.89 ± 0.04, p < 0.00001) and good for the D1/D2 ratio (ICC = 0.54 ± 0.14, p = 0.006).
+
+CLASSIFICATION: 

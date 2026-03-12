@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Laparoscopic myomectomy: do size, number, and location of the myomas form limiting factors for laparoscopic myomectomy? To assess whether it is possible for an experienced laparoscopic surgeon to perform efficient laparoscopic myomectomy regardless of the size, number, and location of the myomas. Prospective observational study (Canadian Task Force classification II-1). Tertiary endoscopy center. A total of 505 healthy nonpregnant women with symptomatic myomas underwent laparoscopic myomectomy at our center. No exclusion criteria were based on the size, number, or location of myomas. Laparoscopic myomectomy and modifications of the technique: enucleation of the myoma by morcellation while it is still attached to the uterus with and without earlier devascularization. In all, 912 myomas were removed in these 505 patients laparoscopically. The mean number of myomas removed was 1.85 +/- 5.706 (95% CI 1.72-1.98). In all, 184 (36.4%) patients had multiple myomectomy. The mean size of the myomas removed was 5.86 +/- 3.300 cm in largest diameter (95% CI 5.56-6.16 cm). The mean weight of the myomas removed was 227.74 +/- 325.801 g (95% CI 198.03-257.45 g) and median was 100 g. The median operating time was 60 minutes (range 30-270 minutes). The median blood loss was 90 mL (range 40-2000 mL). Three comparisons were performed on the basis of size of the myomas (<10 cm and>or=10 cm in largest diameter), number of myomas removed (<or=4 and>or=5 myomas), and the technique (enucleation of the myomas by morcellation while the myoma is still attached to the uterus and the conventional technique). In all these comparisons, although the mean blood loss, duration of surgery, and hospital stay were greater in the groups in which larger myomas or more myomas were removed or the modified technique was performed as compared with their corresponding study group, the weight and size of removed myomas were also proportionately larger in these groups. Two patients were given the diagnosis of leiomyosarcoma in their histopathology and 1 patient developed a diaphragmatic parasitic myoma followed by a leiomyoma of the sigmoid colon. Six patients underwent laparoscopic hysterectomy 4 to 6 years after the surgery for recurrent myomas. One conversion to laparotomy occurred and 1 patient underwent open subtotal hysterectomy for dilutional coagulopathy.
+
+CLASSIFICATION: 

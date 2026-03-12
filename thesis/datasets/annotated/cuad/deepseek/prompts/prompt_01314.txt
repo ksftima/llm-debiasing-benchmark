@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the limits set forth in the<omitted>foregoing sentence, Customer may more frequently conduct "for cause" physical inspections or audits of a Facility with five (5) days' advance written notice to Manufacturer if Customer has reasonable cause to believe that an inspection or audit of such Facility is warranted because Manufacturer's activities with respect to such Facility are in breach of this Agreement, applicable Laws, the Quality Agreement or the applicable Facility Addendum.
+
+CLASSIFICATION:
+ 

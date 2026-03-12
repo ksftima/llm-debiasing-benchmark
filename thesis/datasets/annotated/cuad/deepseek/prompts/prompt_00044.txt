@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensed Products may not be sold to any customer in, or to any customer for distribution into, the following countries, without Liquidmetal's prior written consent, which consent shall not be unreasonably withheld, conditioned or delayed: Brunei, Cambodia, China (P.R.C and R.O.C.), East Timor, Indonesia, Japan, Laos, Malaysia, Myanmar, North Korea, Philippines, Singapore, South Korea, Thailand and Vietnam.
+
+CLASSIFICATION:
+ 

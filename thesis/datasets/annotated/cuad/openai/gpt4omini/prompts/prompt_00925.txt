@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the third time of the aforementioned violation, Party A will withhold the full amount of the performance bond already paid by Party B, and terminate the full-range business cooperation for one year.
+
+CLASSIFICATION:
+ 

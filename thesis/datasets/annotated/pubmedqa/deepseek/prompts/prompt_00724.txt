@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Some aspects of social exclusion: do they influence suicide mortality? The current study is aimed to assess the relationship between the 'economic/employment' and 'social/welfare' dimensions of social exclusion and suicide mortality in Europe. Suicide rates for 26 countries were obtained from the WHO. Data on social expenditure were obtained from the OECD database. Employment rates and GDP were obtained from the Total Economy Database. Questions about citizens' attitudes towards different aspects of social exclusion were taken from the European Social Survey. Structural equation modelling was applied to research the theoretical structure of the variables. All variables are statistically significant in male and female models except of the relationships between 'economic/employment' and 'social/welfare' dimensions and female suicides; and the relationship between 'employment rates' and 'economic/employment' dimension. Suicide mortality rates among both males and females are influenced negatively by 'economic/employment' and 'social/welfare' dimensions. Among females, the influence of 'social/welfare' dimension is stronger compared to the 'economic/employment' dimension. The remaining influence of GDP is positive in both models.
+
+CLASSIFICATION: 

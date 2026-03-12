@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+EKR Improvements shall be owned by EKR and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing.
+
+CLASSIFICATION:
+ 

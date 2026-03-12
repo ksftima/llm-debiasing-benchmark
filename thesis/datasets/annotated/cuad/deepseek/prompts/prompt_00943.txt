@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Seller agrees that for a period commencing on the Effective Date and ending three years after the Closing Date (the "Non-Solicit Period"), each Seller shall not, directly or indirectly: (i) induce, solicit, recruit or attempt to persuade any employee of the Combined Business to terminate his or her employment with the Buyer or any of its subsidiaries, or (ii) solicit the employment of any of the employees of the Combined Business.
+
+CLASSIFICATION:
+ 

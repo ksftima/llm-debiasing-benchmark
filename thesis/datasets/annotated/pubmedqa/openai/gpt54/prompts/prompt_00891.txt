@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Health care for immigrants in Europe: is there still consensus among country experts about principles of good practice? European Member States are facing a challenge to provide accessible and effective health care services for immigrants. It remains unclear how best to achieve this and what characterises good practice in increasingly multicultural societies across Europe. This study assessed the views and values of professionals working in different health care contexts and in different European countries as to what constitutes good practice in health care for immigrants. A total of 134 experts in 16 EU Member States participated in a three-round Delphi process. The experts represented four different fields: academia, Non-Governmental Organisations, policy-making and health care practice. For each country, the process aimed to produce a national consensus list of the most important factors characterising good practice in health care for migrants. The scoring procedures resulted in 10 to 16 factors being identified as the most important for each participating country. All 186 factors were aggregated into 9 themes: (1) easy and equal access to health care, (2) empowerment of migrants, (3) culturally sensitive health care services, (4) quality of care, (5) patient/health care provider communication, (6) respect towards migrants, (7) networking in and outside health services, (8) targeted outreach activities, and (9) availability of data about specificities in migrant health care and prevention. Although local political debate, level of immigration and the nature of local health care systems influenced the selection and rating of factors within each country, there was a broad European consensus on most factors. Yet, discordance remained both within countries, e.g. on the need for prioritising cultural differences, and between countries, e.g. on the need for more consistent governance of health care services for immigrants.
+
+CLASSIFICATION: 

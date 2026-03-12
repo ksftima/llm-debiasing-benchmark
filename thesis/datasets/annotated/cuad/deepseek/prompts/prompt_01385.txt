@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SMBC shall have ten (10) days from the date of delivery of any such notice to agree to purchase all, but not less than all, of such Partnership Interests, for the price and upon the terms specified in the notice, by delivering written notice to such Partner and Moelis Holdings.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement shall automatically continue following the Initial Term, for an additional period of three (3) years, unless a party to this Agreement provides written notice of termination to the other parties at least sixty (60) days prior to the expiration of the Initial Term or this Agreement ("Extended Term" and, with the Initial Term, "Term").
+
+CLASSIFICATION:
+ 

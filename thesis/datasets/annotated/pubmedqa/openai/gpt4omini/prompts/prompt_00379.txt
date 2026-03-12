@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Risk factors for major depression during midlife among a community sample of women with and without prior major depression: are they the same or different? Women's vulnerability for a first lifetime-onset of major depressive disorder (MDD) during midlife is substantial. It is unclear whether risk factors differ for first lifetime-onset and recurrent MDD. Identifying these risk factors can provide more focused depression screening and earlier intervention. This study aims to evaluate whether lifetime psychiatric and health histories, personality traits, menopausal status and factors that vary over time, e.g. symptoms, are independent risk factors for first-onset or recurrent MDD across 13 annual follow-ups. Four hundred and forty-three women, aged 42-52 years, enrolled in the Study of Women's Health Across the Nation in Pittsburgh and participated in the Mental Health Study. Psychiatric interviews obtained information on lifetime psychiatric disorders at baseline and on occurrences of MDD episodes annually. Psychosocial and health-related data were collected annually. Cox multivariable analyses were conducted separately for women with and without a MDD history at baseline. Women without lifetime MDD at baseline had a lower risk of developing MDD during midlife than those with a prior MDD history (28% v. 59%) and their risk profiles differed. Health conditions prior to baseline and during follow-ups perception of functioning (ps<0.05) and vasomotor symptoms (VMS) (p = 0.08) were risk factors for first lifetime-onset MDD. Being peri- and post-menopausal, psychological symptoms and a prior anxiety disorder were predominant risk factors for MDD recurrence.
+
+CLASSIFICATION: 

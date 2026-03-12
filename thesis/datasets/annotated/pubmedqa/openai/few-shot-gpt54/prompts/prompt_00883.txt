@@ -1,0 +1,35 @@
+
+Evaluate whether the following biomedical text adequately answers the question
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Does the sequence of clamp application during open abdominal aortic aneurysm surgery influence distal embolisation? Embolisation of atherosclerotic debris during abdominal aortic aneurysm (AAA) repair is responsible for significant peri-operative morbidity. Reports have suggested that preferential clamping of the distal vessel(s) before the proximal aorta may decrease the number of emboli passing distally and hence reduce complications. Forty patients undergoing AAA repair were randomised to have either first clamping of the proximal aorta or the iliac vessels. Emboli passing through the Superficial Femoral Arteries were detected with a Transcranial Doppler ultrasound system. There was no difference between the two groups in the number of emboli detected (p=0.49) and no significant correlation between number of emboli and dissection time (r=0.0008). However, there was a significantly higher number of emboli in the patient sub-group that were current smokers (p=0.034).
+
+CLASSIFICATION: 0
+
+Do liquid-based preparations of urinary cytology perform differently than classically prepared cases? The cytomorphology of liquid-based preparations in urine cytology is different than classic slide preparations. To compare the performance of liquid-based preparation specimens to classically prepared urine specimens with a malignant diagnosis in the College of American Pathologists Interlaboratory Comparison Program in Nongynecologic Cytology. Participant responses between 2000 and 2007 for urine specimens with a reference diagnosis of high-grade urothelial carcinoma/carcinoma in situ/dysplasia (HGUCA), squamous cell carcinoma, or adenocarcinoma were evaluated. ThinPrep and SurePath challenges were compared with classic preparations (smears, cytospins) for discordant responses. There were 18 288 pathologist, 11 957 cytotechnologist, and 8086 "laboratory" responses available. Classic preparations comprised 90% (n = 34 551) of urine challenges; 9% (n = 3295) were ThinPrep and 1% (n = 485) were SurePath. Concordance to the general category of "positive-malignant" was seen in 92% of classic preparations, 96.5% of ThinPrep, and 94.6% of SurePath challenges (P<.001). These results were statistically different for the exact reference interpretation of HGUCA (P<.001) but not for adenocarcinoma (P = .22). Cytotechnologists demonstrate statistically better performance for the general category of "positive-malignant" compared with pathologists for all urinary slide types and for the exact reference interpretation of HGUCA (94% versus 91.1%; P<.001) but not adenocarcinoma (96.3% versus 95.8%; P = .77) or squamous cell carcinoma (93.6% versus 87.7%; P = .07).
+
+CLASSIFICATION: 1
+
+Does accompanying metabolic syndrome contribute to heart dimensions in hypertensive patients? Metabolic syndrome (MetS) is associated with increased risk for cardiovascular events. We evaluated heart dimensions in hypertensive patients with MetS. The study included 75 hypertensive patients (34 males, 41 females; mean age 51+/-9 years) without coronary artery disease. Patients were evaluated in two groups depending on the presence or absence of MetS. Age- and gender-matched 20 healthy subjects (9 males, 11 females; mean age 50+/-5 years) comprised the control group. The diagnosis of MetS was based on the presence of at least three of five MetS criteria. Hypertension was defined as arterial blood pressure exceeding 140/85 mmHg on three consecutive measurements or the use of antihypertensive drugs. Echocardiographic measurements included interventricular septal thickness, left ventricular internal diameter, posterior wall thickness, aortic diameter, left atrial diameter, relative wall thickness, and left ventricular mass. Metabolic syndrome was present in 32 hypertensive patients (42.7%; 18 males, 14 females). The mean number of MetS criteria was 2.6+/-1.0 in the hypertensive group. Compared to the control group, patients with or without MetS exhibited significantly increased interventricular septum and posterior wall thickness, left atrial diameter, relative wall thickness, and left ventricular mass (p<0.05). The only significant difference between the two patient groups was that MetS was associated with a greater left atrial diameter (p=0.019). Left atrial diameter was correlated with the number of MetS criteria (r=0.51; p<0.001).
+
+CLASSIFICATION: 2
+
+---
+
+Here's the text I would like you to classify:
+
+Preoperative platelet count in esophageal squamous cell carcinoma: is it a prognostic factor? Platelet count is inversely related to prognosis in many cancers; however, its role in esophageal cancer is still controversial. The purpose of this study was to determine the prognostic value of preoperative platelet count in esophageal squamous cell carcinoma (ESCC). From January 2006 to December 2008, a retrospective analysis of 425 consecutive patients with ESCC was conducted. A receiver operating characteristic (ROC) curve for survival prediction was plotted to verify the optimum cutoff point for preoperative platelet count. Univariate and multivariate analyses were performed to evaluate the prognostic parameters. A ROC curve for survival prediction was plotted to verify the optimum cutoff point for platelet count, which was 205 (× 10(9)/L). Patients with platelet count ≤ 205 had a significantly better 5-year survival than patients with a platelet count>205 (60.7 vs. 31.6 %, P<0.001). The 5-year survival of patients either with platelet count ≤ 205 or>205 were similar (68.6 vs. 58.8 %, P = 0.085) when the nodes were negative. However, the 5-year survival of patients with platelet count ≤ 205 was better than that of patients with a platelet count>205 when the nodes were involved (32.0 vs. 12.7 %, P = 0.004). Multivariate analysis showed that platelet count (P = 0.013), T grade (P = 0.017), and N staging (P<0.001) were independent prognostic factors.
+
+CLASSIFICATION:

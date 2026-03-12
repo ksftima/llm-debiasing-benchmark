@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To ensure that, [***], BLI shall, and hereby does, automatically grant to Ginkgo, as of the date Ginkgo purchases an aggregate of [***] ([***]) Beacon Optofluidic Machine from BLI, a non-exclusive, non-royalty bearing and sublicensable (through multiple tiers) worldwide license in any Intellectual Property Controlled by BLI that is necessary to [***], solely for Ginkgo's [***] own internal use so that Ginkgo (or its Affiliates or permitted sublicensees) may [***].
+
+CLASSIFICATION:
+ 

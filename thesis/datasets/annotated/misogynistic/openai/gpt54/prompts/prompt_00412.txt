@@ -1,0 +1,31 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+How to be Alpha AND likeable?Hey guys. Since becoming more alpha Ive actually lost friends rather than gained them. I get girls more easily but men seem to be threatened by me and theyre passive aggresive/purposely leaving me out of events etc. Also new men I meet who are physically more beta/dont workout are passive aggressive toward me even when I am nice to them and dont compete with them. Sometimes this happens with other jacked men too. 
+
+Just before lockdown started, I went to a bar with friends and was hooking up with a friend of a friends gf. We were all there together and I started getting attention from some other girls. Another woman (few years older) tried to hit it off with me in front of everyone and I played it cool and she left for a bit. I didnt initiate anything. Then I went to the toilet and she followed me. My friend clocked it and came to grab me.. he told her to piss off and was angry with me. He said I was supposed to be dating his gfs friend and I wasnt strong enough with the other woman but I could tell he was just jealous that I got attention and he didnt. He was punching me in the ribs calling me stupid but to me it was a translation for Im angry that you got so much attention and I cant get that
+
+Now Im a nice guy. Even when I know other men cant compete with me I dont rub it in their face because honor and respect. And getting girls isnt the goal of my life. I actually want real bros. It just pisses me off that they cant see that and by being nice I get treated like shit its weird. I didnt do anything wrong with this woman. I got attention that I didnt look for.
+
+So my question is how do you be Chad AND likeable at the same time? My friends joke that I look like a fuckboy which means they subconsciously think I look like I fuck a lot of women but they only put a negative spin on it because they cant do the same. They have left me out of the pack so many times as if Im some dishonourable guy who chooses hoes over bros but I never do.
+
+My female friend whos a PHD biologist (a very logical female whos honest about hypergamy) told me that Im a threat to 90% of men. Also at the bar my friends gf told me when she was drunk that Im really handsome and every girl at the bar probably wants to fuck me. My friend didnt hear and neither did the girl I was dating. (Her friend)
+
+So what am I doing wrong and how do I become more likeable? It seems that men dont respect me for whatever reason. Are betas more liked by everyone because theyre softer and more agreeable? I mean Im never an asshole to people but Im always strong in my convictions and never lie. I thought this would command respect from other people but it doesnt seem to. Hmm or maybe thats not it. Its just I have this one friend who everyone loves but hes not alpha at all. Hes adopted the new age mantra and is all about positive vibes etc. Im not like that as Im a realist, but Im not an asshole either. So I dont get it. 
+
+What do you think?
+
+CLASSIFICATION:
+

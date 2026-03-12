@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+From the commencement of the first Contract Year through the end of the Term, Forty Niners SC grants to Sponsor a limited license during the Term to (a) advertise and promote the fact that Sponsor is an "official sponsor of the San Francisco 49ers," (b) use, reproduce and display the Team Marks in connection with advertising and promotion of Sponsor's goods and services in the Product and Services Category, and (c) promote Sponsor's sponsorship, subject to the terms and conditions of use set forth herein.
+
+CLASSIFICATION:
+ 

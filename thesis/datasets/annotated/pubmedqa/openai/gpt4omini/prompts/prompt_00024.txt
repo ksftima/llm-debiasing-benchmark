@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are reports of mechanical dysfunction in chronic oro-facial pain related to somatisation? (i) To examine the association between self-reported mechanical factors and chronic oro-facial pain. (ii) To test the hypothesis that this relationship could be explained by: (a) reporting of psychological factors, (b) common association of self-reported mechanical factors with other unexplained syndromes. A population based cross-sectional study of 4200 randomly selected adults registered with a General Medical Practice in North West, England. The study examined the association of chronic oro-facial pain with a variety of self-reported mechanical factors: teeth grinding, facial trauma, missing teeth and the feeling that the teeth did not fit together properly. Information was also collected on demographic factors, psychological factors and the reporting of other frequently unexplained syndromes. An adjusted response rate of 72% was achieved. Only two mechanical factors: teeth grinding (odds ratio (OR) 2.0, 95% CI 1.3-3.0) and facial trauma (OR 2.0; 95% CI 1.3-2.9) were independently associated with chronic oro-facial pain after adjusting for psychological factors. However, these factors were also commonly associated with the reporting of other frequently unexplained syndromes: teeth grinding (odds ratio (OR) 1.8, 95% CI 1.5-2.2), facial trauma (OR 2.1; 95% CI 1.7-2.6).
+
+CLASSIFICATION: 

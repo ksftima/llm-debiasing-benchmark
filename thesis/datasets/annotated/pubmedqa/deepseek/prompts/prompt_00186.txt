@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Actinobaculum schaalii, a cause of urinary tract infections in children? Urine samples were examined by wet smear microscopy, incubated in 5% CO(2) for 1-2 days, and species-specific real-time polymerase chain reaction (PCR) for A. schaalii was performed. In 5 of the 29 screened urines, A. schaalii was found only by real-time PCR in quantities equivalent to ≥ 10(4) -10(5) CFU/mL. In addition, A. schaalii was found in quantities equivalent to ≥ 10(6) CFU/mL by both culture and PCR in two children with a urinary tract infection and large numbers of leucocytes in the urine.
+
+CLASSIFICATION: 

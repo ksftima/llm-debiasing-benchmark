@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Accuray hereby grants Distributor or Customer a nonexclusive, non-transferable, royalty-free right to use the software provided in connection with the Products only in machine readable form and only in combination with the Products with which such software is provided.
+
+CLASSIFICATION:
+ 

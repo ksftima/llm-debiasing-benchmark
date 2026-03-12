@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Client holds certain customer data relating to the Playboy Commerce Business ("Existing Customer Data") and hereby grants to EFS a non-exclusive, limited, non-sublicensable, non-transferable, revocable license to store and use such Existing Customer Data solely for purposes of the operation and promotion of the Playboy Commerce<omitted>Business.
+
+CLASSIFICATION:
+ 

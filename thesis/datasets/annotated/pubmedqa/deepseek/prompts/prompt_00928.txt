@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does oxybutynin hydrochloride cause arrhythmia in children with bladder dysfunction? This study represents a subset of a complete data set, considering only those children aged admitted to the Pediatric Surgery and Pediatric Nephrology Clinics during the period January 2011 to July 2012. In this study, we have determined that the QT interval changes significantly depending on the use of oxybutynin. The QT changes increased cardiac arrhythmia in children.
+
+CLASSIFICATION: 

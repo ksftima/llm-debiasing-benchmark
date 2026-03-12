@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except for claims under Sections 9.4 [INDEMNIFICATION BY IMPRESSE] and 9.5 [INDEMNIFICATION BY VERTICALNET]<omitted>hereof, neither party may bring a claim or action regardless of form, arising out of or related to this Agreement, including any claim of fraud or misrepresentation, more than two years after the cause of action accrues or becomes known, whichever is later.
+
+CLASSIFICATION:
+ 

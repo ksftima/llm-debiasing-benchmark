@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Type II supracondylar humerus fractures: can some be treated nonoperatively? The range of injury severity that can be seen within the category of type II supracondylar humerus fractures (SCHFs) raises the question whether some could be treated nonoperatively. However, the clinical difficulty in using this approach lies in determining which type II SCHFs can be managed successfully without a surgical intervention. We reviewed clinical and radiographic information on 259 pediatric type II SCHFs that were enrolled in a prospective registry of elbow fractures. The characteristics of the patients who were treated without surgery were compared with those of patients who were treated surgically. Treatment outcomes, as assessed by the final clinical and radiographic alignment, range of motion of the elbow, and complications, were compared between the groups to define clinical and radiographic features that related to success or failure of nonoperative management. During the course of treatment, 39 fractures were found to have unsatisfactory alignment with nonoperative management and were taken for surgery. Ultimately, 150 fractures (57.9%) were treated nonoperatively, and 109 fractures (42.1%) were treated surgically. At final follow-up, outcome measures of change in carrying angle, range of motion, and complications did not show clinically significant differences between treatment groups. Fractures without rotational deformity or coronal angulation and with a shaft-condylar angle of>15 degrees were more likely to be associated with successful nonsurgical treatment. A scoring system was developed using these features to stratify the severity of the injury. Patients with isolated extension deformity, but none of the other features, were more likely to complete successful nonoperative management.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Birth characteristics and risk of low intellectual performance in early adulthood: are the associations confounded by socioeconomic factors in adolescence or familial effects? In this study we investigated whether the association between measures of fetal growth restriction and intellectual performance was mediated by socioeconomic or familial factors. This was a population-based cohort study of 357,768 Swedish males born as singletons without congenital malformations between 1973 and 1981. The main outcome measure was intellectual performance at military conscription. Compared with men born with appropriate birth weight for gestational age, men born light for gestational age suffered an increased risk of low intellectual performance after adjustment for maternal and socioeconomic factors. The increase in risk of low intellectual performance related to a decrease in birth weight for gestational age was similar between families and within families. Men born short or with a small head circumference for gestational age were also at increased risk of low intellectual performance, both when adjusting for maternal and socioeconomic factors and within families.
+
+CLASSIFICATION: 

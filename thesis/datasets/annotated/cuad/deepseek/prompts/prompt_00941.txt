@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement will be interpreted and construed exclusively under the laws of the State of Texas, which laws will prevail in the event of any conflict of law (without regard to, and without giving effect to, the application of Texas choice-of-law rules); provided, however, that if the covenants in Section 19 of this Agreement would not be enforced as written under Page 55 of 80 Texas law, then the parties agree that those covenants will instead be interpreted and construed under the laws of the state in which the Franchised Business is located.
+
+CLASSIFICATION:
+ 

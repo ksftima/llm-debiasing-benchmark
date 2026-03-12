@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Diagnostic characteristics of child bipolar I disorder: does the "Treatment of Early Age Mania (team)" sample generalize? To examine the representativeness of a randomized controlled trial (RCT) sample versus one obtained by consecutive new case ascertainment, for subjects with child bipolar I disorder. Subjects (N = 247) were outpatients who participated in either the National Institute of Mental Health-funded Phenomenology and Course of Pediatric Bipolar Disorders study or the Treatment of Early Age Mania (TEAM) study. Both studies required that subjects have current DSM-IV bipolar I disorder (manic or mixed phase) and a Children's Global Assessment Scale (CGAS) score<or=60. All subjects had elation and/or grandiosity. Subjects in the Phenomenology study were obtained from 1995 to 1998 by consecutive new case ascertainment from designated pediatric and psychiatric facilities. Subjects in the TEAM RCT were recruited from media and community sources between March 2003 and March 2005. Assessment instruments included the Washington University in St. Louis Kiddie Schedule for Affective Disorders and Schizophrenia, given separately to parents about their children and to children about themselves, and the CGAS. Logistic regression was used for comparisons. The TEAM and Phenomenology groups were similar in age (10.4 [SD = 2.3], 10.9 [SD = 2.3]years, respectively) and other demography. Both had long current episode duration (4.8 [SD = 2.4], 3.2 [SD = 2.3]years) and low lifetime use of any mood stabilizer (23.6%, 35.0%). Many mania symptoms and ultradian rapid cycling, psychosis, and suicidality were significantly more prevalent in the RCT sample.
+
+CLASSIFICATION: 

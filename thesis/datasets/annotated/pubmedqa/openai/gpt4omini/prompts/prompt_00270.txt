@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The effect of an intracerebroventricular injection of metformin or AICAR on the plasma concentrations of melatonin in the ewe: potential involvement of AMPK? It is now widely accepted that AMP-activated protein kinase (AMPK) is a critical regulator of energy homeostasis. Recently, it has been shown to regulate circadian clocks. In seasonal breeding species such as sheep, the circadian clock controls the secretion of an endogenous rhythm of melatonin and, as a consequence, is probably involved in the generation of seasonal rhythms of reproduction. Considering this, we identified the presence of the subunits of AMPK in different hypothalamic nuclei involved in the pre- and post-pineal pathways that control seasonality of reproduction in the ewe and we investigated if the intracerebroventricular (i.c.v.) injection of two activators of AMPK, metformin and AICAR, affected the circadian rhythm of melatonin in ewes that were housed in constant darkness. In parallel the secretion of insulin was monitored as a peripheral metabolic marker. We also investigated the effects of i.c.v. AICAR on the phosphorylation of AMPK and acetyl-CoA carboxylase (ACC), a downstream target of AMPK, in brain structures along the photoneuroendocrine pathway to the pineal gland. All the subunits of AMPK that we studied were identified in all brain areas that were dissected but with some differences in their level of expression among structures. Metformin and AICAR both reduced (p<0.001 and p<0.01 respectively) the amplitude of the circadian rhythm of melatonin secretion independently of insulin secretion. The i.c.v. injection of AICAR only tended (p = 0.1) to increase the levels of phosphorylated AMPK in the paraventricular nucleus but significantly increased the levels of phosphorylated ACC in the paraventricular nucleus (p<0.001) and in the pineal gland (p<0.05).
+
+CLASSIFICATION: 

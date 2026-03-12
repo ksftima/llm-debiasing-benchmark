@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As additional consideration, the Corporation shall issue to the Agents that number of compensation options (the "Compensation Options") equal to 3.5% of the number of Offered Shares sold pursuant to the Offering.
+
+CLASSIFICATION:
+ 

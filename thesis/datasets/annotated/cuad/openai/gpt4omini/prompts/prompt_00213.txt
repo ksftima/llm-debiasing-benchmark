@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the "License Period").
+
+CLASSIFICATION:
+ 

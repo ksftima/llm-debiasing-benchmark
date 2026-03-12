@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon a merger or change of control of a party (including, for purposes of this Section 6.3, with respect to Purchaser any Purchaser Licensee and with respect to Seller any Seller Party) (a "Change of Control Event") with or to a Person (other than a Person that is a then-current Affiliate of such party) (the "Buyer"), the license rights granted under Article II to such party shall not extend to the Buyer or any of its Affiliates existing immediately prior to the Change of Control Event or any of its or their past, current, or future products, systems or services.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, it is understood that signage, letterhead, invoices, business cards, promotional materials and similar items may reference the Parent Name or Parent Mark "MeadWestvaco" and "MWV" in the same manner as used by SpinCo prior to the Effective Time, during a twelve-month phase out period as SpinCo replaces such Parent Name and Parent Mark with the SpinCo Name and SpinCo Mark.
+
+CLASSIFICATION:
+ 

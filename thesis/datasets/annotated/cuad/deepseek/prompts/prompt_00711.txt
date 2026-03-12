@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Reseller sells less than 50% of any year's Annual Milestone, Todos, in its sole discretion, may either (a) cancel the Reseller's exclusivity, and market, distribute, and sell the Products in the Territory directly or indirectly through other distributors and resellers, while leaving the Reseller with a non-exclusive right to distribute and sell the Products for the remainder of the term, or (b) terminate the Agreement upon one hundred eighty (180) days prior written notice, provided that the Reseller does not cure its failure to achieve 50% of the applicable year's Annual Milestone within the 180-day notice period.
+
+CLASSIFICATION:
+ 

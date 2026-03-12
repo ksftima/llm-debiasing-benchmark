@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+M&I hereby grants to Customer a non-exclusive, non-transferable license, through the end of the Term, to use the source code (including the right to make modifications thereto) on the terms and conditions set forth in this Article 23, upon payment of the then current license fees and the occurrence of the following events: A. M&I ceases to do business or refuses to provide the Services to Customer; or B. A voluntary or involuntary petition is commenced by or against M&I under any federal or state bankruptcy law, or a trustee in bankruptcy fails to timely assume this Agreement as an executory contract, or a substantial part of M&I's property or assets become subject to levy or seizure by any creditor and, in the case of an involuntary petition, the same is not dismissed within sixty (60) days after filing.
+
+CLASSIFICATION:
+ 

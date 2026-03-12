@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to any limitations which NTC communicates to ALFA AESAR in writing, NTC hereby grants ALFA AESAR a license to use, exhibit, excerpt, reformat, modify, reproduce, publish, publicly perform and transmit via the Internet and otherwise use such NTC content for the purpose of marketing, advertising and promoting the Products, provided that ALFA AESAR obtains NTC's prior written approval for NTC content to be included in such literature.
+
+CLASSIFICATION:
+ 

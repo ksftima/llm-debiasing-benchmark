@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding anything to the contrary stated in this Agreement, either party may terminate this Agreement at any time without cause by giving to the other party, not less than four (4) months written notice.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In case that EMV fails to reach the target volume within the specified period of the agreement, EMV shall reimburse the Manufacturer the investment of the equipment by the percentage of unachieved volume.
+
+CLASSIFICATION:
+ 

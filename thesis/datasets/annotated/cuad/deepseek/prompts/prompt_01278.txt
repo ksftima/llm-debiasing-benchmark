@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If we do so and you choose not to use our recommended construction manager, you must hire a general contractor who is reasonably acceptable to us and who must have the following minimum insurance coverage: (a) commercial general liability in an amount of $2,000,000 combined single limit; (b) comprehensive automobile liability for owned, hired and non-owned motor vehicles in an amount of $1,000,000 combined single limit; (c) workers' compensation, occupational diseases and disability benefits in accordance with applicable statutory requirements; (d) employers' liability in an amount of $1,000,000; (e) employee fidelity bond of $2,000,000; and (f) umbrella form excess liability insurance in excess of the limits provided by the commercial general liability policy required above with limits of $3,000,000 per occurrence and annual aggregate.
+
+CLASSIFICATION:
+ 

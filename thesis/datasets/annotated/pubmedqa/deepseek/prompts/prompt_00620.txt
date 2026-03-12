@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Effects of exercise training on heart rate and QT interval in healthy young individuals: are there gender differences? The aim of the present study was to assess the effects of exercise training on heart rate, QT interval, and on the relation between ventricular repolarization and heart rate in men and women. A 24 h Holter recording was obtained in 80 healthy subjects (40 males) who differed for the degree of physical activity. Trained individuals showed a lower heart rate and a higher heart rate variability than sedentary subjects, independent of the gender difference in basal heart rate. Mean 24 h QTc was similar in trained and non-trained men, while a significant difference was observed between trained and non-trained women. Exercise training reduced the QT/RR slope in both genders. This effect on the QT/RR relation was more marked in women; in fact, the gender difference in the ventricular repolarization duration at low heart rate observed in sedentary subjects was no longer present among trained individuals.
+
+CLASSIFICATION: 

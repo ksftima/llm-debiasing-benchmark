@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does body mass index (BMI) influence morbidity and long-term survival in gastric cancer patients after gastrectomy? The long-term survival of patients with gastric cancer is governed by various factors, such as the clinical stage of the cancer, the patient's nutritional state, and the treatment and may be governed by the volume of intraperitoneal adipose tissue. The aim of this study is to clarify the relationship between the degree of the patients' body mass index and their long-term survival. Gastric cancer patients who had undergone a gastrectomy with D2-lymphadenectomy and with resection A and B according to the criteria of the Japanese Research Society for Gastric Cancer Rules were subgrouped into those patients with a body mass index<0.185 (the lower body mass index group) and those patients with a body mass index>0.210 (the higher body mass index group). The patient's morbidity and long-term survival rate was retrospectively compared between the 2 groups. A significantly longer mean survival rate was observed for the lower body mass index group in stage 2 (1667 vs. 1322 days, P = 0.0240). Also, a significantly longer mean survival rate was observed for the higher BMI group in stage 3a (1431 vs. 943, P = 0.0071).
+
+CLASSIFICATION: 

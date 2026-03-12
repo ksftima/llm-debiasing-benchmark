@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Medical student education in emergency medicine: do students meet the national standards for clinical encounters of selected core conditions? Establishing a core curriculum for undergraduate Emergency Medicine (EM) education is crucial to development of the specialty. The Clerkship Directors in Emergency Medicine (CDEM) National Curriculum Task Force recommended that all students in a 4(th)-year EM clerkship be exposed to 10 emergent clinical conditions. To evaluate the feasibility of encountering recommended core conditions in a clinical setting during a 4(th)-year EM clerkship. Students from three institutions participated in this ongoing, prospective observation study. Students' patient logs were collected during 4-week EM clerkships between July 2011 and June 2012. De-identified logs were reviewed and the number of patient encounters for each of the CDEM-identified emergent conditions was recorded. The percentage of students who saw each of the core complaints was calculated, as was the average number of core complaints seen by each. Data from 130 students at three institutions were captured; 15.4% of students saw all 10 conditions during their rotation, and 76.9% saw at least eight. The average number of conditions seen per student was 8.4 (range of 7.0-8.6). The percentage of students who saw each condition varied, ranging from 100% (chest pain and abdominal pain) to 31% (cardiac arrest).
+
+CLASSIFICATION: 

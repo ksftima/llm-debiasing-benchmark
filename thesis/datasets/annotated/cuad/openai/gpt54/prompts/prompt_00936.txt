@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event of any Insolvency Event and where the design files need to be accessed by DIALOG to fix an Epidemic Defect or other Product design or production issue impacting yield or quality ("Release Condition"), the Escrow Agent will, in accordance with the terms of the escrow agreement between the parties and the Escrow Agent (the "Escrow Agreement"), release the Deposit Materials to DIALOG.
+
+CLASSIFICATION:
+ 

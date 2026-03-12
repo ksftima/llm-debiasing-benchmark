@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+This Agreement and the provisions hereof, except as otherwise provided, shall be in full force and effect commencing on the date of execution by both Parties and shall extend for an initial term of two (2) years.
+
+CLASSIFICATION:
+ 

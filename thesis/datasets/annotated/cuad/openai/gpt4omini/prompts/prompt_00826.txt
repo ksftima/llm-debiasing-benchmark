@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In connection with the Development, manufacture and Commercialization of the Product and fulfillment of PB's obligations hereunder, PB shall spend at least an amount equal to the amount of funding paid by SFJ to PB pursuant to this Section 4.2.
+
+CLASSIFICATION:
+ 

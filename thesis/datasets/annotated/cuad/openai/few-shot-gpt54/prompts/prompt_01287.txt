@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+The policy or policies shall be written by an insurance company satisfactory to us in accordance with standards and specifications set forth in the Manuals or otherwise in writing, and shall include, at a minimum (except as different coverages and policy limits may reasonably be specified for all franchisees from time to time by us in the Manuals or otherwise in writing) the following: 1. All risks coverage insurance on the Franchised Restaurant and all fixtures, equipment, supplies and other property used in the operation of the Franchised Restaurant, for full repair and replacement value of the machinery, equipment, improvements and betterments, without any applicable co-insurance clause, except that an appropriate deductible clause shall be permitted. 2. Worker's compensation and employer's liability insurance as well as such other insurance as may be required by statute or rule of the state in which the Franchised Restaurant is located and operated. 3. Comprehensive general liability insurance and product liability insurance with minimum limits of ONE MILLION Dollars ($1,000,000) combined single limit including the following coverages: contractual liability; personal injury; products/completed operation; and tenant's fire legal liability; insuring against all claims, suits, obligations, liabilities and damages, including attorneys' fees, based upon or arising out of actual or alleged personal injuries or property damage resulting from, or occurring in the course of, or on or about or otherwise relating to the Franchised Restaurant, provided that the required amounts herein may be modified from time to time by us to reflect inflation or future experience with claims. 4. If you offer delivery service or utilize motor vehicles for any other purpose in the operation of the Franchised Restaurant, automobile liability insurance, including owned, hired and non-owned vehicle coverage, with a combined single limit of at least ONE MILLION Dollars ($1,000,000). 5. Such insurance and types of coverage as may be required by the terms of any lease for the Franchised Restaurant, or as may be required from time to time by us. 6. Liquor liability coverage in a minimum amount of ONE MILLION Dollars ($1,000,000) or such other amount as may be specified by us.
+
+CLASSIFICATION:
+

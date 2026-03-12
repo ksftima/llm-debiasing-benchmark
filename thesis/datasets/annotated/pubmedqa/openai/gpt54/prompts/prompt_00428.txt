@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Screening History Among Women with Invasive Cervical Cancer in an Academic Medical Center: Will We Miss Cancers Following Updated Guidelines? Updated guidelines for the screening and management of cervical cancer in the United States recommend starting Papanicolaou (Pap) testing at age 21 and screening less frequently with less aggressive management for abnormalities. We sought to examine updated Pap test screening guidelines and how they may affect the detection of invasive cervical cancer, especially among women<30 years of age. Patients diagnosed at Brigham and Women's Hospital with invasive cervical cancer between 2002 and 2012 were retrospectively identified. Prior screening history was obtained and patients were divided into two groups based on age<30 years or age ≥30 years. The two groups were then compared with respect to demographics, pathological findings, and time to diagnosis. A total of 288 patients with invasive cervical carcinoma were identified. Among these patients, 109 had adequate information on prior screening history. Invasive adenocarcinoma (IAC) was diagnosed in 37 (33.94%) patients, whereas 64 (58.72%) patients were diagnosed with invasive squamous cell carcinoma (ISCC). The remaining eight patients were diagnosed with other types of cancers of the cervix. A total of 13 patients were younger than 30 while 96 patients were 30 or older. The mean time from normal Pap to diagnosis of IAC was 15 months in patients younger than 30 years of age compared to 56 months in patients aged 30 and older (p < 0.001). The mean time from normal Pap to diagnosis of ISCC was 38 months in patients younger than 30 years of age and 82 months in patients aged 30 and older (p = 0.018).
+
+CLASSIFICATION: 

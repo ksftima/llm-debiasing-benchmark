@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions hereof, Sponsor hereby represents and warrants that it has the power and authority to grant, and does hereby grant to drkoop.com a non-exclusive, non-transferable, royalty-free, worldwide license to reproduce and display all logos, trademarks, trade names and similar identifying material relating to Sponsor (the "Sponsor Marks") solely in connection with the promotion, marketing and distribution of the parties and the Sites in accordance with the terms hereof, provided, however, that drkoop.com shall, other than as specifically provided for in this Agreement, not make any specific use of any Sponsor Mark without first submitting a sample of such use to Sponsor and obtaining its prior consent, which consent shall not be unreasonably withheld.
+
+CLASSIFICATION:
+ 

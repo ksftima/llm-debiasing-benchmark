@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The following acts constitute Class D breaches.<omitted>10.4.11 In consideration of the fact that Party B may have access to the relevant trade secrets of Didi during the cooperation, Party B or Party B's any affiliate cooperates with any entity competitive with Didi (including but not limited to Meituan, CAR, Yongche, izu, Caocao, Dida) in any form without prior written notice to and confirmation by Didi; 10.4.12 Party B introduces the entities competitive with Didi (including but not limited to Meituan, CAR, Yongche, izu, Caocao, Dida) to Driver Users, and induces Driver Users to conduct activities directly competing or conflicting with Didi;
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+A group of like 14 year old girls gagged at me in the mall like a day before my bday. A few weeks before I went to buy a present for my sis and got accused of shoplifting presumable for looking bunny. I was just trying to find the fucking product. In a dept store btw full of Stacy's... Imagine being put on blast like that..
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Throughout the Term Intuit will not place, and will not allow any party acting on its behalf to place, any graphic, link or other form of advertising or media on any page of the Quicken.com Site and/or on any page on the AOL.com Personal Finance Site (other than the Channel Home Page), which markets or promotes any electronic postage product, postage meter and/or service ("Postage Products") offered by a Client Competitor.
+
+CLASSIFICATION:
+ 

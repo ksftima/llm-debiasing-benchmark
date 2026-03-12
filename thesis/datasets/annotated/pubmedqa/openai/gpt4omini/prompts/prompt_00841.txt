@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does maternal obesity have an influence on feeding behavior of obese children? Obese children and adolescents referred to the pediatric endocrinology department were enrolled consecutively. Height and weight of all children and their mothers were measured. Maternal feeding practices were measured using an adapted version of the Child Feeding Questionnaire (CFQ). Answers were compared between obese (Body Mass Index [BMI] ≥ 30 kg/m2) and non-obese mothers. A total of 491 obese subjects (292 girls, mean age 12.0 ± 2.8 years) and their mothers participated in this study. A direct correlation between children's BMI and their mothers' BMI was found (P<0.001) both in girls (r = 0.372) and boys (r = 0.337). While 64.4% of mothers were found obese in the study, only half of them consider themselves as obese. No difference were found in the scores of the subscales "perceived responsibility", "restriction", "concern for child's weight" and "monitoring" between obese and non-obese mothers. Child's BMI-SDS positively correlated with mothers' personal weight perception, concern for child's weight and restriction after adjustment for child's age (P<0.001, P = 0.012 and P = 0.002, respectively).
+
+CLASSIFICATION: 

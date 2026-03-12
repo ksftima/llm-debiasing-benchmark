@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+UTC, on behalf of itself and the other members of the UTC Group, hereby grants to Otis, Carrier and the other members of the Otis Group and the Carrier Group a limited, non-exclusive, non-transferable, personal and nonsublicensable right to continue temporarily to use, following the Effective Time, any United Technologies Trademark it is using immediately prior to the Effective Time, solely to the extent of such pre- Separation use and in accordance with product quality standards and programs in place at the respective member of the Otis Group or the Carrier Group immediately prior to the Effective Time, and strictly in accordance with this Section 4.2.3; provided that Otis and Carrier shall, and shall cause each of its respective Affiliates (including, after the Effective Time, the members of, respectively, the Otis Group and the Carrier Group) (a) not to hold itself out as having any affiliation with UTC or any member of the UTC Group (except to the extent a third party may infer such affiliation merely due to the limited use of the United Technologies Trademarks as contemplated herein), and (b) to use diligent efforts to eliminate use of the United Technologies Trademarks.
+
+CLASSIFICATION:
+ 

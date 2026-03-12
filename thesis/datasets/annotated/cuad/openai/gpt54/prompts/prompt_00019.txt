@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The grant of rights and license pursuant to this Section 1 shall include, but not be limited to, the right of ConvergTV to Distribute and re-Distribute all or any portions of the Program and Promotional Works, including excerpts therefrom, and any new and different versions of the Program, on simultaneous internet transmission or streaming, internet protocol television and any television networks and stations, and/or other distribution outlets, via domestic or foreign television signals, as well as through CATV and DBS systems, satellite, microwave, fiber optic and/or other modes of Distribution yet to be developed, but which may be utilized by ConvergTV in the future.
+
+CLASSIFICATION:
+ 

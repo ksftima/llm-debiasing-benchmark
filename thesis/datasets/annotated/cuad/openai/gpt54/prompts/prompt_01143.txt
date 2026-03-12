@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event more that there is a change in ownership representing fifty percent (50%) or more of the equity ownership of either party, the other party may, at its option, terminate this Agreement upon written notice.
+
+CLASSIFICATION:
+ 

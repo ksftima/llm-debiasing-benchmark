@@ -1,0 +1,26 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+It doesn't address the structural societal issues, and hence, I think, underestimates the severity of the problem by presenting only numbers.  (Case in point, my teachers might have said 'women's access to professional work has historically been limited by law and stigma to lesser-paying roles'.)  Yet, if your partner is into statistics, and thinks that only the most comprehensive and up-to-date will do:
+
+[https://www.payscale.com/data/gender-pay-gap](https://www.payscale.com/data/gender-pay-gap)  
+"The controlled gender pay gap, which controls for job title, years of experience, industry, location and other compensable factors, has also decreased, but only by $0.01 since 2015. Women in the controlled group make $0.98 for every $1 a man makes.
+
+New to the gender pay gap report for 2020 is analysis on the impact of lost wages on lifetime earnings. By calculating presumptive raises given over a 40-year career, we find that women in the uncontrolled group stand to lose $900,000 on average over a lifetime. Lost earnings narrow to $80,000 for the controlled group, but this is still significant, especially if you consider how lost earnings due to the gender pay gap would grow with compound interest if invested each year for 40 years."
+
+Also, as a man who's come a long way from where I once was - if you don't think that the housework is being shared equally but he does, 98 times out of 100 you're right.  I was very good at confusing myself about the relative value of the work I was doing for the household, and advocating for my cockamamie logic.  I was wrong, along with every other man I have ever met arguing that he really is contributing enough.
+
+CLASSIFICATION:
+

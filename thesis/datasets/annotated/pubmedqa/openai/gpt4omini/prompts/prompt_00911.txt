@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there a differential in the dental health of new recruits to the British Armed Forces? Figures from the British Defence Dental Services reveal that serving personnel in the British Army have a persistently lower level of dental fitness than those in the Royal Navy or the Royal Air Force. No research had been undertaken to ascertain if this reflects the oral health of recruits joining each Service. This study aimed to pilot a process for collecting dental and sociodemographic data from new recruits to each Service and examine the null hypothesis that no differences in dental health existed. Diagnostic criteria were developed, a sample size calculated and data collected at the initial training establishments of each Service. Data for 432 participants were entered into the analysis. Recruits in the Army sample had a significantly greater prevalence of dental decay and greater treatment resource need than either of the other two Services. Army recruits had a mean number of 2.59 (2.08, 3.09) decayed teeth per recruit, compared to 1.93 (1.49, 2.39 p<0.01) in Royal Navy recruits and 1.26 (0.98, 1.53 p<0.001) in Royal Air Force recruits. Among Army recruits 62.7% were from the two most deprived quintiles of the Index of Multiple Deprivation compared to 42.5% of Royal Naval recruits and 36.6% of Royal Air Force recruits.
+
+CLASSIFICATION: 

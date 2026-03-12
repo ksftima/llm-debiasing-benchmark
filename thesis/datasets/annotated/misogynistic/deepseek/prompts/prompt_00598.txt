@@ -1,0 +1,31 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Preface: Yes I know she is 15. Lets not be dishonest and act as if 15 year olds are not already subject to (either the benefits or consequences) of lookism. SO YES. Im going to be talking about a teenage girls looks. 
+
+I was just thinking right now about how charli dimelio is completely average facially in the sense that she isnt strikingly beautiful. Her face is just non offensive so that makes her good looking in an upper tier normie way. 
+
+Then I began thinking okay maybe it about her body since she makes dance videos primarily. And again her body is fairly standard for a 15 year old. Shes just thin in that desirable but still achievable way. 
+
+Everything about her is marginally upper tier normieaside from her technical dance skills which are significantly above averageand yet shes RULING a looks based social medium. 
+
+This really got me thinking about how once you are just conservatively above average as a white woman most of the worlds doors are open to you. Everything about Charlis look is inoffensive. I always expected her to be some really genetically blessed girl because of all the hype surrounding her. But her moderately above averageness is what has made her palatable to a large audience.
+
+Charlis a big reminder to me that lookism really doesnt affect white women. The complaint is always about not having the benefits of the best looking white women. But there are benefits exclusive to being an average looking white woman that, in some cases, I would take over being Stacey. 
+
+As a black women you can never been palatable to such a large ground of people no matter your looks level. Thats disheartening.
+
+CLASSIFICATION:
+

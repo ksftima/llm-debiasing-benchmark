@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Well I'm a woman and I would shoot myself before I acted like that.
+
+There are plenty of women who are horrific.  I don't care how lonely you are, stay away from these types.  Yuck.  Just. Yuck.
+
+I would think some of you could use posts like this to move  your celibacy towards being more voluntary.
+
+CLASSIFICATION:
+

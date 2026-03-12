@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier shall maintain insurance with an insurance company with an equivalent of an A.M. Best rating of "A" or better, of the following kinds and in the following amounts during the term of this Agreement: 7.5 7.5.1 Comprehensive General Liability (CGL) Insurance with limits of not less than [***] each occurrence and [***] in the aggregate, including Contractual, Completed-Operations and<omitted>Product-Liability Coverage's with limits of not less than [***] for each occurrence, covering both bodily injury and property damage liability. 7.5.2 Umbrella/Excess Liability with limits of not less than [***]. 7.5.3 Workers' Compensation Coverage plus Occupational Disease Insurance if Occupational Disease coverage is required by the laws of the state where the Facility is located or work is to be performed. Employers Liability $500,000 each accident 7.5.4 Auto Liability $1,000,000 combined single limit.
+
+CLASSIFICATION:
+ 

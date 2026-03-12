@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+We grant to you and you accept a limited, non-exclusive License to use the Marks and the System during the Term at, and in connection with, the operation of the Hotel in accordance with the terms of this Agreement.
+
+CLASSIFICATION:
+ 

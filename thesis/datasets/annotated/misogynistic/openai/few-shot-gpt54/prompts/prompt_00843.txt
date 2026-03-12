@@ -1,0 +1,41 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+So you think we shouldn't socialise because you think the quarantine is in any way related to a vaccine and it won't be lifted until there is no vaccine? 
+
+What should we do then? Talk to our hands after a good jerk-off or something? Send pigeons because facetime is too cringey for you? Be serious, dude, everyone needs attention now, not only girls. Humans are social animals. Hermits exist only in legends. Can't I talk to someone when I'm bored because you think it's ridiculous? 
+
+There is never a quarantee someone will live up to their word and meet you. And again, this shit won't last as long as you think. 18 months? Dude, read something else than conspiracy theories. By the end of June I will be enjoying an ice cold beer at my favourite bar. That's sure. And if those chicks don't show up, I still have their nudes. Frustration is understandable in such a situation, but you should see a psychologist. You can use facetime for that, too.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+RemainCo shall have, and SpinCo hereby grants to RemainCo, an unlimited, non-exclusive, perpetual, irrevocable, royalty free, worldwide right and license to use the content contained in the Steam Book, including the current edition and any past edition and any future edition to which RemainCo makes a contribution, for any purpose, including, without limitation, to reproduce, publicly display, modify, make derivative works, distribute, publicly perform and distribute for RemainCo's internal business purposes, including in connection with customer related activities, provided, however, that RemainCo shall (i) not use any non-nuclear content contained in the Steam Book in connection with publishing or distributing a publication which competes with the Steam Book and (ii) provide attribution and accreditation using a copyright notice having the format required by law in connection with the use of any protectable expression of the non-nuclear content contained in the Steam Book.
+
+CLASSIFICATION:
+ 

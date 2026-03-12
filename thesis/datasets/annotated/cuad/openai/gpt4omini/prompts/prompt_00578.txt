@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+OntoChem hereby grants to Anixa a non-exclusive, fully paid-up, royalty-free, perpetual, irrevocable, transferable, worldwide license (with the right to grant and authorize sublicenses through multiple tiers) under any patents which OntoChem or any of its Affiliates own or control during the term of this Agreement, to make, have made, use, sell, offer for sale and import the Lead Scaffold(s) and products that incorporate compounds from the Lead Scaffold(s).
+
+CLASSIFICATION:
+ 

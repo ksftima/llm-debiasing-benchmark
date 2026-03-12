@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The licenses granted under this Subsection 2.1(b) may be sublicensed by Ono only to its Affiliates, and then only for so long as such entities remain as Affiliates. For clarity, the licenses granted under this Subsection 2.1(b) may be extended by Ono to Third Party manufacturers for Manufacturing the Products on Ono's behalf.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, PivX hereby grants to Detto a non-transferable, exclusive license to distribute PivX's Qwik-Fix Pro and any documentation supporting Qwik-Fix Pro provided from time to time by PivX (the "Documentation") within North America, solely to third parties to whom Detto licenses Qwik-Fix Pro ("Third Parties"), and as governed by the terms set forth in Exhibit A (PivX/Detto Reseller Agreement Addendum). PivX also hereby grants to Detto a non-transferable, non-exclusive license to distribute PivX's Qwik-Fix Pro and the Documentation outside of North America, solely to Third Parties and as governed by the terms in Exhibit A. Detto shall have no right to reproduce Qwik-Fix Pro or any part thereof.
+
+CLASSIFICATION:
+ 

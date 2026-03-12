@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensed Technology incorporated in LICENSEE Product, together with Updates and New Versions thereof, are provided to LICENSEE's Customer under a non-exclusive worldwide license subject to the following terms:
+
+CLASSIFICATION:
+ 

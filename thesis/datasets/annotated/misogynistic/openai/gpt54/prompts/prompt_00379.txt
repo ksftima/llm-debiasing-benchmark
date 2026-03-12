@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I game but not with hot womenI have noticed that I dont really take advantage of opportunities to speak with attractive women. I talk to women a lot and have sex, but usually only 7s and below. Any advice on how to get out of my comfort zone and get comfortable talking to beautiful high quality women? I went through a pretty rough early adolescence and had this fear drilled into me. Now I am fairly attractive when I take care of myself (last few weeks havent been great, but nobody is out gaming anyways), but I still havent grown out of feeling like an awkward teenager around hot people.
+
+CLASSIFICATION:
+

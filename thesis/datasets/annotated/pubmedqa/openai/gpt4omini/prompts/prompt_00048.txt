@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do provider service networks result in lower expenditures compared with HMOs or primary care case management in Florida's Medicaid program? To determine the impact of Florida's Medicaid Demonstration 4 years post-implementation on per member per month (PMPM) Medicaid expenditures and whether receiving care through HMOs versus provider service networks (PSNs) in the Demonstration was associated with PMPM expenditures.DATA: Florida Medicaid claims from two fiscal years prior to implementation of the Demonstration (FY0405, FY0506) and the first four fiscal years after implementation (FY0607-FY0910) from two urban Demonstration counties and two urban non-Demonstration counties. A difference-in-difference approach was used to compare changes in enrollee expenditures before and after implementation of the Demonstration overall and specifically for HMOs and PSNs. Claims data were extracted for enrollees in the Demonstration and non-Demonstration counties and collapsed into monthly amounts (N = 26,819,987 person-months). Among SSI enrollees, the Demonstration resulted in lower increases in PMPM expenditures over time ($40) compared with the non-Demonstration counties ($186), with Demonstration PSNs lowering PMPM expenditures by $7 more than HMOs. Savings were also seen among TANF enrollees but to a lesser extent.
+
+CLASSIFICATION: 

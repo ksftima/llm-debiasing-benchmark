@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is it safe to perform rectal anastomosis in gynaecological debulking surgery without a diverting stoma? Patient data were retrospectively collected from a database for gynaecological cancer procedures carried out between January 2013 and July 2015. All patients who underwent a colorectal resection during cytoreduction were included in the study. The primary outcome was anastomotic leakage in the presence or absence of a diverting stoma. Secondary outcome parameters were complications and reoperations. In the period of study, 43 major colorectal procedures were performed on 37 women. The most common colorectal procedure was low rectal resection (n = 22; 59%) followed by anterior rectal resection (n = 7; 19%) and sigmoid resection (n = 4; 11%). Five (14%) patients underwent Hartmann's procedure. In three (8%) patients, a diverting loop ileostomy was created.
+
+CLASSIFICATION: 

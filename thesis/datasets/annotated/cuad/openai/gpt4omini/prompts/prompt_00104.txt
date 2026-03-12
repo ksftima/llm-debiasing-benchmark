@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+with respect to any documentation, technical or confidential business information and/or software relating to the Equipment (collectively, "Software"), the Purchase Order will grant Lessor a license to use the Software and will allow Lessor to grant a sublicense to the Company to use such Software pursuant to the Lease and will allow Lessor to grant a sublicense to a third party after a termination or the expiration of the Lease in the event the Company does not elect to exercise any purchase option that may be provided for in the Lease
+
+CLASSIFICATION:
+ 

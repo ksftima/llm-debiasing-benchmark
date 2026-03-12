@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do somatic complaints predict subsequent symptoms of depression? Evidence suggests substantial comorbidity between symptoms of somatization and depression in clinical as well as nonclinical populations. However, as most existing research has been retrospective or cross-sectional in design, very little is known about the specific nature of this relationship. In particular, it is unclear whether somatic complaints may heighten the risk for the subsequent development of depressive symptoms. We report findings on the link between symptoms of somatization (assessed using the SCL-90-R) and depression 5 years later (assessed using the CES-D) in an initially healthy cohort of community adults, based on prospective data from the RENO Diet-Heart Study. Gender-stratified multiple regression analyses revealed that baseline CES-D scores were the best predictors of subsequent depressive symptoms for men and women. Baseline scores on the SCL-90-R somatization subscale significantly predicted subsequent self-reported symptoms of depressed mood 5 years later, but only in women. However, somatic complaints were a somewhat less powerful predictor than income and age.
+
+CLASSIFICATION: 

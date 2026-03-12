@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does patella position influence ligament balancing in total knee arthroplasty? In vivo comparative gap measurements were performed in three different patella positions (reduced, subluxated and everted) using offset-type-force-controlled-spreader-system. Prospectively, 50 knees were operated by total knee arthroplasty using a navigation-assisted gap-balancing technique. The offset-type-force-controlled-spreader-system was used for gap measurements. This commercially available instrument allows controllable tension in patella-reduced position. The mediolateral gaps of knee extension (0°) and flexion (90°) angle were recorded in three different patella positions; reduced, subluxated and everted. Any gap differences of more than 3 mm were considered as a meaningful difference. Correlation between the difference with the demographic data, preoperative radiologic alignment and intraoperative data was analysed. For statistical analysis, ANOVA and Pearson's correlation test were used. The gaps in patella eversion demonstrated smaller gaps both in knee extension and flexion position compared to the gaps of patella reduction position. The amount of decreased gaps was more definite in knee flexion position. Statistically significant difference was observed for the lateral gap of patella eversion compared to gap of patella reduction in knee flexion position (p<0.05). There were notable cases of variability in knee flexion position. Significant portion of 12 (24 %) knees of patella subluxation and 33 (66 %) knees of patella evertion demonstrated either increased or decreased gaps in knee flexion position compared to the gaps of patella reduction position.
+
+CLASSIFICATION: 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Neck pain treatment with acupuncture: does the number of needles matter? Acupuncture has been successfully used in myofascial pain syndromes. However, the number of needles used, that is, the dose of acupuncture stimulation, to obtain the best antinociceptive efficacy is still a matter of debate. The question was addressed comparing the clinical efficacy of two different therapeutic schemes, characterized by a different number of needles used on 36 patients between 29-60 years of age with by a painful cervical myofascial syndrome. Patients were divided into two groups; the first group of 18 patients were treated with 5 needles and the second group of 18 patients were treated with 11 needles, the time of needle stimulation was the same in both groups: 100 seconds. Each group underwent six cycles of somatic acupuncture. Pain intensity was evaluated before, immediately after and 1 and 3 months after the treatment by means of both the Mc Gill Pain Questionnaire and the Visual Analogue Scale (VAS). In both groups, the needles were fixed superficially excluding the two most painful trigger points where they were deeply inserted. Both groups, independently from the number of needles used, obtained a good therapeutic effect without clinically relevant differences.
+
+CLASSIFICATION: 

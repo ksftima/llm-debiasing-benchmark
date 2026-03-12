@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement (including the remainder of this Section 7.2.2 (Contract Year Purchase Targets and Commitments)), for each Contract Year, Ginkgo shall [***] make Development Purchases and Production Purchases from BLI in the amounts set forth in the<omitted>"Development Purchase Commitment" and "Production Purchase Target" columns respectively in Table 7.2.2 with respect to such Contract Year:
+
+CLASSIFICATION:
+ 

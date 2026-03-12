@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+IBM agrees that, for a period of [*] years from the Effective Date of this Agreement, it will not in any way solicit for employment any Transferred Employees without the prior written consent of MSL; provided, however, that the foregoing will not restrict or prevent IBM from a) employing any such person who contacts IBM on his or her own initiative without any solicitation or encouragement from IBM or b) by using general employment advertising or communications or independent search firms, hiring any person who responds thereto, provided that IBM does not direct or encourage such independent search firms to solicit such Transferred Employees.
+
+CLASSIFICATION:
+ 

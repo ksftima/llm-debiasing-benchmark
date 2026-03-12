@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms set forth in this Agreement, North hereby grants to Company the right and privilege to use North's Likeness and North's Endorsement during the Term and within the Contract Territory in all reasonable forms of advertising including, but not limited to television (including the infomercial format), radio, print advertising, brochures, pamphlets, product packaging, point-of-purchase materials, Company's web-site and a demonstration video (hereinafter referred to as "Advertising Materials") in connection with Company's advertisement and sale of the Endorsed Product only.
+
+CLASSIFICATION:
+ 

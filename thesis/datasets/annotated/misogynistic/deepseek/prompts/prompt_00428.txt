@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I'll be honest, sometimes I feel bad AMOG'ing these dopes.
+
+But when I just taught your cute, skinny skank of a girlfriend a yoga class, and she can't stop staring at me during class, and makes a point of walking across the studio to stare directly into my eyes and thank me and keeps staring and smiling while she's turning away to leave, while you're standing there rolling up her gear for her like a good little boy, honestly dude, you don't exist to her \*or\* me at that point. I'm going to do what real men do. True story from the other day bro.
+
+In other words, if "your" girl is giving me signals, your being a pussy is not my problem.
+
+She's not yours. It's just my turn.
+
+CLASSIFICATION:
+

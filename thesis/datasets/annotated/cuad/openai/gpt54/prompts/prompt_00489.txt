@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent not already granted pursuant to the License Agreement, FCE grants ExxonMobil and its Affiliates a worldwide, non-exclusive, royalty-free, irrevocable, perpetual, sub-licensable, non-transferable (except pursuant to Article 14 (Assignment)) right and license to practice FCE Background Information and FCE Background Patents for Generation 2 Technology in Carbon Capture Applications and Hydrogen Applications.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This is what happens when women sleep with too many men (Don't be this guy)I met this chick while traveling alone, never had any plans to bang her. She was nice to be around with, but I wasn't feeling like doing her. She is 30, purple hair, tattoos, and a decent 100 C\*ck stare, just wanted to travel with someone.
+
+She tries to put some moves on me, I'm not into her, so she tells me then she has a BF but things are not going well between them. After she understood we are well into the friend zone, she tells me all about her past (cheating, many partners, threesomes etc) and I'm not surprised. Of course, she says it's all in the past, she is now an adult.
+
+Fast-forward 1 month later, she texts that me she and her BF are "figuring stuff out" (aka she cucks him). Don't be this guy, ever.
+
+In other words, water is wet and the sky is blue.
+
+CLASSIFICATION:
+

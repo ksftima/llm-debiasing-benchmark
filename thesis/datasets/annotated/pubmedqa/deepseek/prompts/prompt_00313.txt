@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Digital Tomosynthesis: A Viable Alternative to Noncontrast Computed Tomography for the Follow-Up of Nephrolithiasis? Digital tomosynthesis (DT) is a new X-ray-based imaging technique that allows image enhancement with minimal increase in radiation exposure. The purpose of this study was to compare DT with noncontrast computed tomography (NCCT) and to evaluate its potential role for the follow-up of patients with nephrolithiasis in a nonemergent setting. A retrospective review of patients with nephrolithiasis at our institution that underwent NCCT and DT from July 2012 to September 2013 was performed. Renal units (RUs) that did not undergo treatment or stone passage were randomly assigned to two blinded readers, who recorded stone count, size area (mm(2)), maximum stone length (mm), and location, for both DT and NCCT. Mean differences per RU were compared. Potential variables affecting stone detection rate, including stone size and body mass index (BMI), were evaluated. Interobserver agreement was determined using the intraclass correlation coefficient to measure the consistency of measurements made by the readers. DT and NCCT demonstrated similar stone detection rates in terms of stone counts and stone area mm(2). Of the 79 RUs assessed, 41 RUs showed exact stone counts on DT and NCCT. The mean difference in stone area was 16.5 mm(2) (-4.6 to 38.5), p = 0.121. The mean size of the largest stone on NCCT and DT was 9.27 and 8.87 mm, respectively. Stone size and BMI did not cause a significant difference in stone detection rates. Interobserver agreement showed a strong correlation between readers and adequate reproducibility.
+
+CLASSIFICATION: 

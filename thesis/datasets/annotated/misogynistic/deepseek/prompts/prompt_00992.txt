@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+bro just keep doing your thing and don't pay any attention, let her shut him down... she knows what she has to do..
+
+now if it turns into him touching her and waiting by the car in the parking lot and other creepy forceful shit, is. he shows her nudes of his ltr cuz she's bi then I'd just smile and not tell her anything and show up at her work and talk to this fucking guy assertively and hint to him on fucking the fuck off
+
+CLASSIFICATION:
+

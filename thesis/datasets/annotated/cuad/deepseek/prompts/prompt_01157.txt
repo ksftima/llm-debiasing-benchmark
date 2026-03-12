@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this Agreement and for one year thereafter, VerticalNet shall have the right to appoint a certified public accountant to audit Impresse's financial records relating to such payment to verify the accuracy of Impresse's financial records in order to verify the amount of the payments owed and/or paid hereunder, but no more frequently than once per year.
+
+CLASSIFICATION:
+ 

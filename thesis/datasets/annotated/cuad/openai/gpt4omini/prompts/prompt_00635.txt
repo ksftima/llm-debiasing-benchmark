@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding Section 3.01, Honeywell hereby grants, and agrees to cause the members of the Honeywell Group to hereby grant, to SpinCo and the members of the SpinCo Group, for a period of ten (10) years after the Distribution Date (unless earlier terminated in accordance with Section 3.03(c)), a non-exclusive, royalty-free, fully-paid, non-sublicenseable, non-transferable, worldwide license to use and reproduce the Honeywell Content solely for the SpinCo Group's internal business purposes.
+
+CLASSIFICATION:
+ 

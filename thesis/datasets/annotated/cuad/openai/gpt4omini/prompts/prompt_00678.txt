@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term and subject to the limitations set forth in this Agreement, Naked shall have an exclusive right and license in the Territory to use Athlete's name, nickname, initials, autograph, image, likeness, photographs, biographical details, facsimile signature, voice, videos, electronic media depictions, any words, symbols or other depictions, as well as any other identifying attributes that would identify Athlete to the public, including any trade mark(s), copyrights which Wade has, as set forth on Schedule A attached hereto, and all multimedia assets that Wade owns or has right to use (collectively, the "Wade Image") solely for the advertising, endorsement, promotion, or sale of the Naked Products (including the Wade Products) in the Territory as follows:<omitted>(1) On Naked's website(s) ("Website"); (2) In social media channels, including, but not limited to Facebook, Instagram, Twitter, YouTube, Google+, Tumblr and other mutually agreeable channels, with reasonable frequency, to promote Naked Products and Wade Products; (3) In marketing and media opportunities in connection with the Wade Services (as defined below); and (4) For use on the packaging of the Naked Products and Wade Products and on Wade Products themselves.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notification to Miltenyi by Bellicum must occur within [...***...] days after Bellicum or Bellicum's designated recipient of the shipment becomes aware or reasonably should have become aware that the Miltenyi Product fails to comply with the Miltenyi Product Warranty.
+
+CLASSIFICATION:
+ 

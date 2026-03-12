@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Very high serum CA 19-9 levels: a contraindication to pancreaticoduodenectomy? From 2000 to 2007, 344 patients underwent pancreatoduodenectomy for PA. Fifty-three patients (elevated group) had preoperatively elevated serum CA 19-9 levels (>400 IU/ml) after resolution of obstructive jaundice. Of these, 27 patients had high levels (400-899 IU/ml (HL)) and 26 patients had very high levels>or=900 IU/ml (VHL). Fifty patients with normal preoperative serum CA 19-9 levels (<37 IU/ml) comprised the control group. Median survival of the control group (n = 50) versus elevated group (n = 53) was 22 versus 15 months (p = 0.02) and overall 3-year survival was 32% versus 14% (p = 0.03). There was no statistical difference in the median and 3-year overall survival between patients with HL and VHL. Patients in the elevated group who normalized their CA 19-9 levels after surgery (n = 11) had a survival equivalent to patients in the control group.
+
+CLASSIFICATION: 

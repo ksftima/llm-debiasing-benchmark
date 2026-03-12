@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Nasal fractures:  is closed reduction satisfying? This study aims to evaluate the efficacy of closed reduction and the effects of timing and fracture types on patient satisfaction. Only patients with isolated nasal fractures were included in the study. Patients with additional maxillofacial fractures and patients whose application time to our clinic was more than 10 days after the trauma were excluded. Patients were classified into 5 types according to their fracture. All patients underwent closed reduction and external fixation under local anesthesia. Patients were asked about their satisfaction in a survey at 28th day and sixth month after the surgery. Patients were divided into groups according to fracture type and intervention time, and the results of the survey were evaluated. Of the 43 patients included in the study, 38 were male, 5 were female, and the average age was 24.9. The average intervention time of the patients was 5.44 days. Twenty-eight (65%) of 43 patients were satisfied with the result, whereas 15 (35%) patients were not happy with their operation. In a comparison of patient satisfaction rates according to fracture type, the mild fracture group had a higher satisfaction rate compared to the severe fracture group.
+
+CLASSIFICATION: 

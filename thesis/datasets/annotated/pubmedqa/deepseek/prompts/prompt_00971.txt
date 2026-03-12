@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Has the prevalence of health care services use increased over the last decade (2001-2009) in elderly people? (1) To describe the prevalence of general practitioner visits and hospitalization according to sex and age groups; (2) to identify which factors are independently associated with a higher use of health care services among elderly Spanish; and (3) to study the time trends in the prevalence of use of health care services 2001-2009. Observational study. We analyzed data from the Spanish National Health Surveys conducted in 2001 (n=21,058), 2003 (n=21,650), 2006 (n=29,478) and 2009 (n=22,188). We included responses from adults aged 65 years and older. The main variables were the number of general practitioner visits in the last 4 weeks and hospitalization in the past year. We stratified the adjusted models by the main variables. We analyzed socio-demographic characteristics, health related variables, using multivariate logistic regression models. The total number of subjects was 24,349 (15,041 woman, 9309 men). Women were significantly older than men (P<0.001). Women had higher prevalence of general practitioner visits than men in all surveys. Men had significantly higher prevalence of hospitalizations than women in the years 2001, 2006 and 2009. When we adjusted the hospitalization by possible confounders using logistic regressions, men had a higher probability of being hospitalized than women (OR 1.53, 1.39-1.69). The variables that were significantly associated with a higher use of health care services were lower educational level, worse self-rated health, chronic conditions, polypharmacy, and the level of disability. The number of general practitioner visits among women and men significantly increased from 2001 to 2009 (women: OR 1.43, 1.27-1.61; men: OR 1.71, 1.49-1.97).
+
+CLASSIFICATION: 

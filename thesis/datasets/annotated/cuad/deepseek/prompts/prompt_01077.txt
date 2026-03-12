@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Distributor recognizes the validity of Airspan's copyright in any written material to which Airspan shall have made a claim to copyright protection, and Distributor specifically recognizes Airspan's exclusive right to copyright protection and/or registration of any translation of any advertising, promotional, or descriptive material furnished to Distributor by Airspan.
+
+CLASSIFICATION:
+ 

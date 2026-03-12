@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can elevated troponin I levels predict complicated clinical course and inhospital mortality in patients with acute pulmonary embolism? The purpose of this study was to evaluate the value of elevated cardiac troponin I (cTnI) for prediction of complicated clinical course and in-hospital mortality in patients with confirmed acute pulmonary embolism (PE). This study was a retrospective chart review of patients diagnosed as having PE, in whom cTnI testing was obtained at emergency department (ED) presentation between January 2002 and April 2006. Clinical characteristics; echocardiographic right ventricular dysfunction; inhospital mortality; and adverse clinical events including need for inotropic support, mechanical ventilation, and thrombolysis were compared in patients with elevated cTnI levels vs patients with normal cTnI levels. One hundred sixteen patients with PE were identified, and 77 of them (66%) were included in the study. Thirty-three patients (42%) had elevated cTnI levels. Elevated cTnI levels were associated with inhospital mortality (P = .02), complicated clinical course (P<.001), and right ventricular dysfunction (P<.001). In patients with elevated cTnI levels, inhospital mortality (odds ratio [OR], 3.31; 95% confidence interval [CI], 1.82-9.29), hypotension (OR, 7.37; 95% CI, 2.31-23.28), thrombolysis (OR, 5.71; 95% CI, 1.63-19.92), need for mechanical ventilation (OR, 5.00; 95% CI, 1.42-17.57), and need for inotropic support (OR, 3.02; 95% CI, 1.03-8.85) were more prevalent. The patients with elevated cTnI levels had more serious vital parameters (systolic blood pressure, pulse, and oxygen saturation) at ED presentation.
+
+CLASSIFICATION: 

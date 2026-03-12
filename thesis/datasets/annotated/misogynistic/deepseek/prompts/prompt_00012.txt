@@ -1,0 +1,24 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Ok some comments:
+
+1. Once he found that she went vacationing to his friend home and lied about it, it's over. Done, kaput. Maybe a single good-bye email and that's it. It's irrecoverable.
+2. He tries to speak with her and "she's not her, she doesn't sound like that." Implying it's his friend writing. No, It's horrible and confusing, but that's her. It's the lightswitch effect. Once they break up with you, they become strangers, completely another person.
+3. She then accuses him of being obsessive, dangerous, to blow her phone and the offers to stay friends. This is a typical break-up response, they are all so similar that I think girls must study this shit in school.  This is a response of you trying to text and communicate to her. You are dead to her at this stage, she finds weird that dead people try to talk to her. So she's not even angry, she think it's spooky. She doesn't know who you are, literally. That's the lightswitch effect. It's over, let it go.
+4. After some time, the bitch has the nerve to try to get back with him? he has to be loaded or something like that. And his friend too? wtf, that's weird.
+
+CLASSIFICATION:
+

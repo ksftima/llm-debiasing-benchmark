@@ -1,0 +1,35 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+> it is a cold hard fact, 2 mens shelters compared to 2000 for women
+
+Check what those numbers represent before comparing them, because last time I saw this discussion it was comparing the  the number of *exclusively male* shelters with the number of shelters that *accept* women. Your sources listed are all YouTube videos - ignore those, and check *their* sources. And if they don't give their sources then, well, disregard everything they say. Don't have time now, but maybe I'll give it a look tomorrow.
+
+> For some dare I say almost all feminists, this is a gendered issue and the 1 in 4 men are not of concern as we should be focusing only on women.
+
+Prime strawman there. I can just as validly say that *all* people who care about men's or equal rights want women to be subservient maid slaves. Equally valid, in that it's not at all valid.
+
+> either feminists need to take this issue about men seriously in terms of trying to solve it 
+
+Many of them, if not most, do. They'd tell you this is all largely a facet of Toxic Masculinity, in which society dictates that men shouldn't seek help in the first place (or else they're weak little bitches), and to your other points, that if a domestic violence case is called in, they arrest the man regardless of the situation because man r strog.
+
+Of course, when feminists say this is part of Toxic Masculinity, the brains on the men's rights side tend to turn off and instead focus on attacking feminism as a concept rather than, you know, actually trying to fix the issue.
+
+> Other points, is time to remove uncessary gendered laws in many countries and states
+
+Feminists are way ahead of you. Support the equal rights amendment.
+
+CLASSIFICATION:
+

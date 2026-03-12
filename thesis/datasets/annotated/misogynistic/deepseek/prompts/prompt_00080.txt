@@ -1,0 +1,23 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+That's not really gender specific though. I think most men want to settle down with the best woman they can too.
+
+In monogamous societies there is less room for different marital behaviors between sexes because nobody can have more than one spouse.
+
+I think the thing that comes closest to "hypergamy" is human societies with polygamy, where a woman may prefer to be a wealthy man's fourth wife over a poor man's first wife. Or in premarital sex culture, where a woman on tinder may prefer to be a player's hundredth lay than a virgin's first lay. Those are the main places where obvious gender asymmetries show up.
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is oncoplastic surgery a contraindication for accelerated partial breast radiation using the interstitial multicatheter brachytherapy method? To evaluate accelerated partial breast irradiation (APBI) in patients after oncoplastic surgery for early breast cancer. A retrospective analysis of 136 breasts of 134 patients, who received breast-conserving oncoplastic surgery for low-risk breast cancer between 2002 and 2010 in the Universities of Vienna and Luebeck followed by adjuvant APBI applying total doses of pulse dose rate of 50.4 Gy or high-dose rate (HDR) of 32 Gy over 4 days. Target volume definition was performed by the use of surgical-free margin data, related to intraoperatively fixed clip positions, pre- and postoperative imaging, and palpation. At the time of data acquisition, 131 of 134 patients were alive. The median follow-up time was 39 months (range, 4-106 months). After high-dose rate treatment, 3 of 89 patients showed systemic progress after a mean follow-up of 47 months (range, 19-75 months) and 2 patients had a different quadrant in-breast tumor after 27 and 35 months. One patient died 7 months after treatment of unknown causes. After pulse dose rate treatment, 1 of 45 patients had a local recurrence after 42 months and 1 patient died because of another cause after 13 months. We observed mild fibrosis in 27 breasts, telangiectasia in 6, hyperpigmentation in 14 cases, and keloid formation in 1.
+
+CLASSIFICATION: 

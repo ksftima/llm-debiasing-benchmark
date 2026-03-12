@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+A patient with myelomeningocele: is untethering necessary prior to scoliosis correction? Tethering of the spinal cord is thought to increase the chance of neurological injury when scoliosis correction is undertaken. All patients with myelomeningocele (MM) are radiographically tethered, and untethering procedures carry significant morbidity risks including worsening neurological function and wound complications. No guidelines exist as regards untethering in patients with MM prior to scoliosis correction surgery. The authors' aim in this study was to evaluate their experience in patients with MM who were not untethered before scoliosis correction. Seventeen patients with MM were retrospectively identified and 1) had no evidence of a clinically symptomatic tethered cord, 2) had undergone spinal fusion for scoliosis correction, and 3) had not been untethered for at least 1 year prior to surgery. The minimum follow-up after fusion was 2 years. Charts and radiographs were reviewed for neurological or shunt complications in the perioperative period. The average age of the patients was 12.4 years, and the following neurological levels were affected: T-12 and above, 7 patients; L-1/L-2, 6 patients; L-3, 2 patients; and L-4, 2 patients. All were radiographically tethered as confirmed on MR imaging. Fourteen of the patients (82%) had a ventriculoperitoneal shunt. The mean Cobb angle was corrected from 82 degrees to 35 degrees , for a 57% correction. All patients underwent neuromonitoring of their upper extremities, and some underwent lower extremity monitoring as well. Postoperatively, no patient experienced a new cranial nerve palsy, shunt malfunction, change in urological function, or upper extremity weakness/sensory loss. One patient had transient lower extremity weakness, which returned to baseline within 1 month of surgery.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, upon the prior written approval of Skype, which approval may be withheld in its sole discretion, the Company shall be permitted to sublicense its rights hereunder to a wholly-owned Subsidiary, a majority-owned Subsidiary of Tom Holding, or to an unaffiliated third party distributor or reseller, for the same purpose and under the same terms and conditions as the license set forth herein.
+
+CLASSIFICATION:
+ 

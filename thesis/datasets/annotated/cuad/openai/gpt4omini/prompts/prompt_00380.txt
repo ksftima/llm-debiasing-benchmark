@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+All such photographs shall be deemed Playboy Content for purposes of this Agreement, for which EFS shall have a license to use during the Term solely in connection with the Playboy Commerce Business and as is necessary to promote the Websites.
+
+CLASSIFICATION:
+ 

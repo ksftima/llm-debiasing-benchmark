@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can Roux-en-Y gastric bypass provide a lifelong solution for diabetes mellitus? The surgical treatment of diabetes had witnessed progressive development and success since the first case of pancreatic transplantation. Although this was a great step, wide clinical application was limited by several factors. Bariatric surgery such as gastric bypass is emerging as a promising option in obese patients with type 2 diabetes. The aim of this article is to explore the current application of gastric bypass in patients with type 2 diabetes and the theoretical bases of gastric bypass as a treatment option for type 1 diabetes. We performed a MEDLINE search for articles published from August 1955 to December 2008 using the words "surgical treatment of diabetes," "etiology of diabetes" and "gastric bypass." We identified 3215 studies and selected 72 relevant papers for review. Surgical treatment of diabetes is evolving from complex pancreatic and islets transplantation surgery for type 1 diabetes with critical postoperative outcome and follow-up to a metabolic surgery, including gastric bypass. Gastric bypass (no immune suppression or graft rejection) has proven to be highly effective treatment for obese patients and nonobese animals with type 2 diabetes. There are certain shared criteria between types 1 and 2 diabetes, making a selected spectrum of the disease a potential target for metabolic surgery to improve or cure diabetes.
+
+CLASSIFICATION: 

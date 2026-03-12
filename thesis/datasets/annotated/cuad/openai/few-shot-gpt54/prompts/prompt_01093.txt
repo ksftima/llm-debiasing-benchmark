@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Subject to applicable law, each of the Parties covenants and agrees that, during the Standstill Period, neither Party nor any of its subsidiaries, Affiliates, successors, assigns, principals, partners, members, general partners, officers, key employees or directors (collectively, "Representatives"), shall in any way, directly or indirectly, in any capacity or manner, whether written or oral, electronically or otherwise (including, without limitation, in a television, radio, internet, newspaper, magazine interview, or otherwise through the press, media, analysts or other persons or in any document or report filed with the SEC), publicly disparage, impugn, make ad hominem attacks on or otherwise defame or slander or make, express, transmit, speak, write, verbalize or otherwise publicly communicate in any way (or cause, further, assist, solicit, encourage, support or participate in any of the foregoing), any public communication or statement of any kind, whether verbal, in writing, electronically transferred or otherwise, that might reasonably be construed to be disparage, derogate or impugn, the other Party or such other Party's Representatives (including any current officer or director of a Party or a Parties' subsidiaries who no longer serves in such capacity following the execution of this Agreement), employees, stockholders (solely in their capacity as stockholders of the applicable Party), or any of their businesses, products or services, in any manner that would reasonably be expected to damage the business, or reputation of the other Party or of its Representatives (including former officers and directors), directors (or former directors), employees, stockholders (solely in their capacity as stockholders of the applicable Party); provided that, with respect to any litigation, arbitration or other proceeding between the Parties, nothing in this Section 5 shall prevent either Party from disclosing any facts or circumstances with respect to any such litigation, arbitration or other proceeding.
+
+CLASSIFICATION:
+

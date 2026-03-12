@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that CAPSUGEL reasonably determines that the development of the Compound Formulation is not feasible with Commercially Reasonable Efforts in accordance with the Development Plan, with such changes as reasonably requested by CAPSUGEL, then CAPSUGEL may discontinue the development of the Compound Formulation and Product and terminate this Agreement, in which case, CARDAX shall have the right to license the Intellectual Property Rights as provided in Section 4.
+
+CLASSIFICATION:
+ 

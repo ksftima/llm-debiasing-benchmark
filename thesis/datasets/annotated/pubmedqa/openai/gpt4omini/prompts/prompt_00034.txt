@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage? With the advancement of an aging society in the world, an increasing number of elderly patients have been hospitalized due to aneurysmal subarachnoid hemorrhage (aSAH). There is no study that compares the elderly cases of aSAH who receive the definitive treatment with those who treated conservatively. The aim of this study was to investigate the feasibility of the definitive surgery for the acute subarachnoid cases aged 80 or older. We reviewed 500 consecutive cases with acute aSAH with surgical indication for aneurysm repair. Inoperable cases such as dead-on-arrival and the cases with both pupils dilated were excluded. We compared the cases aged 80 or older that received clipping or coil embolization with the controls that the family selected conservative treatment. 69 cases were included in this study (ranged 80-98, male:female=9:60). 56 cases (81.2%) had an aneurysm in the anterior circulation. 23 cases received clipping, 20 cases coil embolization and 26 cases treated conservatively. The cases with aneurysm repair showed significantly better clinical outcome than the controls, while World Federation of Neurological Surgeons (WFNS) grade on admission and premorbid modified Rankin Scale showed no difference between them.
+
+CLASSIFICATION: 

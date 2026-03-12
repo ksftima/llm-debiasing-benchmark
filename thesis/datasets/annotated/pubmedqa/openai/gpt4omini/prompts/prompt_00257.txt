@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does nuchal translucency thickness in the first trimester predict GDM onset during pregnancy? This study was planned to evaluate whether increased nuchal translucency (NT) thickness in the first trimester of gestation can be related to onset of gestational diabetes mellitus (GDM) during pregnancy. From January 2006 to August 2008, a group of 678 singleton pregnancies who had developed GDM has been selected as a study group among a total of 3966 pregnant women who had undergone first trimester screening for aneuploidies at 11-14 weeks of gestation. A group of 420 single pregnant women with physiological pregnancy were enrolled as control group. Both fetal structural and karyotype's anomalies were excluded in the two groups. NT was mesured by a Fetal Medicine Foundation certificated operator; GDM was diagnosed at 24-28 weeks of gestation following Carpenter and Coustan criteria. In the analyses of continuos variables, study and control group were compared by Student's t-test and Anova test. There was no significative difference (p = 0.585) between NT values in the study (mean = 1.56) and control group (mean = 1.54).
+
+CLASSIFICATION: 

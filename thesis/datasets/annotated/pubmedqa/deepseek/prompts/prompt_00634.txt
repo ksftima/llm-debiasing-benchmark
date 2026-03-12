@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does a history of unintended pregnancy lessen the likelihood of desire for sterilization reversal? Unintended pregnancy has been significantly associated with subsequent female sterilization. Whether women who are sterilized after experiencing an unintended pregnancy are less likely to express desire for sterilization reversal is unknown. This study used national, cross-sectional data collected by the 2006-2010 National Survey of Family Growth. The study sample included women ages 15-44 who were surgically sterile from a tubal sterilization at the time of interview. Multivariable logistic regression was used to examine the relationship between a history of unintended pregnancy and desire for sterilization reversal while controlling for potential confounders. In this nationally representative sample of 1,418 women who were sterile from a tubal sterilization, 78% had a history of at least one unintended pregnancy and 28% expressed a desire to have their sterilization reversed. In unadjusted analysis, having a prior unintended pregnancy was associated with higher odds of expressing desire for sterilization reversal (odds ratio [OR]: 1.80; 95% confidence interval [CI]: 1.15-2.79). In adjusted analysis controlling for sociodemographic factors, unintended pregnancy was no longer significantly associated with desire for reversal (OR: 1.46; 95% CI: 0.91-2.34).
+
+CLASSIFICATION: 

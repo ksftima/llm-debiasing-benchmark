@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Love this kind of shit. All of the fantasies women love to portray about themselves, really speak about their real life inadequacies.
+
+Like captain marvel being the strongest avenger. She's only portrayed that way because in reality, women are weaker than men.
+
+Or that black female wakanda scientist in infinity war who was portrayed to be smarter than both Tony Stark and Bruce Banner combined. It was portrayed that way because in reality, men are usually more intelligent than women.
+
+One reason we know that women are weak and stupid is because fantasy and comic books portray the opposite.
+
+CLASSIFICATION:
+

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Option is exercised before the expiration of the Option Period, the license grants set forth in Articles 3.00 and 3.01 will become exclusive to Investor for a perpetual term, shall not be subject to a licensing fee, the granted licenses in favor of the Investor shall be deemed fully paid-up, and the rights granted to Investor under Articles 3.00 and 3.01 shall include the right to grant sublicenses to Third Parties.
+
+CLASSIFICATION:
+ 

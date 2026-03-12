@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Metavante hereby grants to Customer a personal, nonexclusive, and nontransferable license and right, for the duration of this Agreement, to use the Incidental Software solely in accordance with the applicable Documentation and for no other purposes.
+
+CLASSIFICATION:
+ 

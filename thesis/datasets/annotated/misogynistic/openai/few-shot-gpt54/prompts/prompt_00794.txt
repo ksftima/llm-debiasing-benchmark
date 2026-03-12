@@ -1,0 +1,93 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice,
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content,
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination,
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+Excellent point. My father is the same - an amazing man who always supports me to reach my full potential as a human being irrespective of my sex. 
+
+He wants me to work hard for myself and my development, have a fulfilling career, travel the world, have a beautiful life. Hes disapproved of my past bfs who were not real go-getters. He wants a man for me that he himself can respect.
+
+This is true love from father for daughter. I would never accept anything less from a boyfriend either. Ill only marry a man who wants the absolute best for me as a human being irrespective of my being a woman.
+
+CLASSIFICATION: 0
+
+You can tell a lot about someone by how they treat people in the service industry. This young woman is (in no particular order): smug, entitled, arrogant, and phony. DUMP THAT BITCH!
+
+CLASSIFICATION: 1
+
+---
+
+Here's the text I would like you to classify:
+
+My MGTOW story..Hello, my friends.
+
+Grew up in an all-female home. No father. It is a criminal thing to do to a young man.
+
+Yes, it fucks you up, but boy, you learn female nature early.
+
+Joined the Army at 19. My first fathers were drill sergeants. Taught me about being a man. Still grateful. (Not sure what today's military is like, though..)
+
+Afterwards, though, I was STILL blue pill, - I got down on one knee to propose (!) to a thot at 23(!).
+
+We divorced 6 months later when she cheated.
+
+Kinda red-pill after that- it was the early 90's- I MGTOW'D for 10 years, before it even existed.
+
+Hit my 30's, decided I wanted kids.
+
+Married the first mom type I found.
+
+several kids and 15 years later, she gets the "unhappies"..
+
+Divorce cost over 500k.
+
+My kids are teen boys- she doesn't understand- they come to ME, talking about Red Pill truths. She opened their eyes, without realizing it, during the divorce. I just help them understand.
+
+Now, 3 years of payments remaining, then I. AM. DONE. Planning the remainder of MY life- MY kids will inherit MY wealth, after I've amplified it for myself, and then later, for them.
+
+Lessons, for you younger brothers?
+
+Women, are feral. Hypergamy is real.
+(Women cannot handle power, and our divorce laws give them unlimited power- OVER YOU.)
+
+Keeping your vows, honor, fidelity- these are knightly (masculine) concepts.
+Women cannot comprehend them. ALWAYS REMEMBER THIS.
+
+Indignation is chick crack- in my case, she was a SAHM, with a 1k PER WEEK allowance, treated like a queen, but, it wasn't enough- she STILL needed to be " the victim"..
+
+The internet gave women WORLDWIDE a hive mind to tap into, one that thrives on victimhood. If she has a phone, she's never alone..
+
+So-You ARE the prize. Build YOUR life. Amass YOUR wealth, and then PROTECT it. Lift. Learn. Laugh. 
+Learn the Stoic way- master loneliness, 
+and dependency. Start with The Meditations, by Aurelius. Work from there. 
+
+Discuss none of this with women or SIMPs. Smile, Nod, Agree. Then move on. Reveal the Red Pill sparingly, to men ready for it. You'll know who they are..
+
+Thus-your life is YOURS. You DO NOT exist to serve a woman. Any woman you ALLOW into your life, must be on YOUR terms, and serve YOUR purpose. YOU NEVER ANSWER TO ANY WOMAN, EVER.
+
+In that vein- learn and understand female shaming techniques, and how they are used worldwide to manipulate men. Make yourself immune to them.
+
+Flush the condom, yourself. Record any encounters. Or, just avoid women altogether. Work out safe sexual outlets- escorts, fleshlight, meditation, sex robot, whatever. 
+
+Your male friends will do more to support and comfort you than ANY woman, ever. I have bros going back 40 years, now- we are brothers unto death- they've always had my back.
+
+And, if you decide, against everything, to have children- be aware of the risks.
+Expect her to behave as millions of other women have- from the beginning. Protect yourself in every manner possible, beforehand. Understand that, in the Western world- the deck is stacked against you.
+ Perhaps you'll need to raise them in Russia. I don't know. Just DO NOT think she's "different". They did not re-write the X chromosome just for you.
+
+And, be of good cheer. They quarantine  you only when your Truth threatens their Lies. We are winning. Deus Vult!
+
+CLASSIFICATION:
+

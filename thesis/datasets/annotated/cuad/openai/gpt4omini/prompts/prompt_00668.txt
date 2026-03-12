@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In the event that Zogenix is the holder of the Regulatory Approval for the Product in the Territory at the time of termination pursuant to Section 12.2(c) by Zogenix or Section 12.2(d) by Distributor or expiration pursuant to Section 12.1, such license agreement shall also include a grant by Zogenix to Distributor of the right to reference and use all Data and Regulatory Filings (including all Regulatory Approvals), such reference and use solely for maintaining Regulatory Approval and commercializing the Product in the Territory in the Field.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are endothelial cell patterns of astrocytomas indicative of grade? The most common primary brain tumors in children and adults are of astrocytic origin. Classic histologic grading schemes for astrocytomas have included evaluating the presence or absence of nuclear abnormalities, mitoses, vascular endothelial proliferation, and tumor necrosis. We evaluated the vascular pattern of 17 astrocytoma surgical specimens (seven from children and 10 from adults), and four normal brains obtained at autopsy, utilizing antibody to glial fibrillary acidic protein (GFAP) and von Willebrand factor (vWF) utilizing confocal microscopy. A modified WHO classification was used. All tumor cases showed cells positive for GFAP. Control tissues showed a few, widely separated vessels. Pilocytic astrocytomas (four cases) showed lacy clusters of small-to-medium sized vessels, with intact vessel wall integrity. Diffuse, low grade astrocytoma (three cases) showed a staining pattern similar to control tissue; intermediate grade (one case), anaplastic astrocytoma (three cases) and gliobastoma multiforme (six cases) showed an increased vessel density with multiple small vessels (glomeruloid clusters), some with prominent intimal hyperplasia, loss of vessel wall integrity, and with numerous vWF-positive single cells/microvessels within the tumor substance.
+
+CLASSIFICATION: 

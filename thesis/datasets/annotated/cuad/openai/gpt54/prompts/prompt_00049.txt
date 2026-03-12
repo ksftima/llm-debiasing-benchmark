@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+License Grant. Subject to the terms and conditions of this Agreement, WGT grants to Distributor a nontransferable license to do the following in the Territory during the Term: (a) market and distribute the Product to resellers; (b) demonstrate the Product to potential resellers; (c) use the Product internally for the sole purpose of providing this product support specified in paragraph 4.1(c); (d) use and display the Trademarks in connection with marketing and distributing the Product in the Territory pursuant to paragraphs (a) and (b) above.
+
+CLASSIFICATION:
+ 

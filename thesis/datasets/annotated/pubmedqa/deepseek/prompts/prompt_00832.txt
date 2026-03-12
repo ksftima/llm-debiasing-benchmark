@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can computerised tomography replace bone scintigraphy in detecting bone metastases from breast cancer? The aim of this study was to determine whether bone scans (BS) can be avoided if pelvis was included in CT thorax and abdomen to detect bony metastases from breast cancer. Results of 77 pairs of CT (thorax, abdomen, and pelvis) and BS in newly diagnosed patients with metastatic breast cancer (MBC) were compared prospectively for 12 months. Both scans were blindly assessed by experienced radiologists and discussed at multidisciplinary team meetings regarding the diagnosis of bone metastases. CT detected metastatic bone lesions in 43 (98%) of 44 patients with bone metastases. The remaining patient had a solitary, asymptomatic bony metastasis in shaft of femur. BS was positive in all patients with bone metastases. There were 11 cases of false positive findings on BS.
+
+CLASSIFICATION: 

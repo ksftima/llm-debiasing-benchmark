@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+In the case of any individual consultant of SFJ or its Affiliates (excluding SFJ's and its Affiliates' Permitted Third Parties), if SFJ is unable to cause such consultant to agree to such assignment obligation despite SFJ's using commercially reasonable efforts to negotiate such assignment obligation, then SFJ shall either: (A) cause such consultant to grant an exclusive, worldwide, royalty-free, fully-paid, freely-assignable license, with the right to sublicense through multiple tiers, under their rights in such Trial Invention to develop, make, have made, use, sell, have sold, offer for sale and import the Product for any and all uses, except where Applicable Law requires otherwise and except in the case of consultants who are employed by governmental, not- for-profit, or public institutions that have standard policies against such an assignment (in which case, SFJ shall use commercially reasonable efforts to obtain a suitable license, or right to obtain such a license); or (B) refrain from using such consultant to conduct activities pursuant to this Agreement unless PB obtains MedImmune's written consent thereto.
+
+CLASSIFICATION:
+

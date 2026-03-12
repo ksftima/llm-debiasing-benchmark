@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, JRVS appoints the Distributor, and the Distributor hereby accepts such appointment, as JRVS'S non-exclusive authorized distributor for sale of the Products to the Customers (other than House Account) in the Territory (as these terms are defined in Section 1.8, above).
+
+CLASSIFICATION:
+ 

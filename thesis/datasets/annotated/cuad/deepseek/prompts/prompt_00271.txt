@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as expressly provided herein, HSNS shall not (i) rent, lease, loan, sell or otherwise distribute the Application, or any modification thereto, in whole or in part; (ii) cause or permit reverse engineering, reverse compilation, unauthorized access or assembly of all or any portion of the Application; (iii) allow any outsourcing or application service providers to access and use the Application as Outsourcing Customers, (iv) publish the results of Application performance benchmarks to any third party without E.piphany's express written consent; (v) export the Application in violation of U.S. Department of Commerce export administration regulations; and (vi) except as otherwise expressly allowed herein, permit any third party or unlicensed user or computer system to access or use the Application.
+
+CLASSIFICATION:
+ 

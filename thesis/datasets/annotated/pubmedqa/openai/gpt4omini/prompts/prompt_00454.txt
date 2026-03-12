@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Appendectomy timing: Will delayed surgery increase the complications? This study investigated whether the time from emergency room registration to appendectomy (ETA) would affect the incidence of perforation and postoperative complications in patients with acute appendicitis. Patients who underwent an appendectomy at the Ren-Ai branch of Taipei City Hospital between January 2010 and October 2012 were retrospectively reviewed. Their demographics, white blood cell count, C-reactive protein, body temperature, computed tomography scan usage, operation method, pathology report, postoperative complication, length of hospital stay, and ETA were abstracted. Multivariate analysis was performed to search the predictors, including ETA, of outcomes for the perforation and postoperative complication rates. A total of 236 patients were included in the study. Perforation occurred in 12.7% (30/236) and postoperative complications developed in 24.1% (57/236) of these patients. There were 121 patients with ETA<8 hours, 88 patients with ETA of 8-24 hours, and 27 patients with ETA>24 hours; patients with ETA>24 hours had significantly longer hospital stay. Univariate analysis showed that perforated patients were significantly older, and had higher C-reactive protein level, longer hospital stay, and higher complication rate. Patients who developed postoperative complications were significantly older, and had higher neutrophil count, less use of computed tomography, and higher open appendectomy rate. After multivariate analysis, age ≥55 years was the only predictor for perforation [odds ratio (OR) = 3.65; 95% confidence interval (CI), 1.54-8.68]; for postoperative complications, age ≥55 years (OR = 1.65; 95% CI, 1.84-3.25), perforated appendicitis (OR = 3.17; 95% CI, 1.28-7.85), and open appendectomy (OR = 3.21; 95% CI, 1.36-7.58) were associated. ETA was not a significant predictor in both analyses.
+
+CLASSIFICATION: 

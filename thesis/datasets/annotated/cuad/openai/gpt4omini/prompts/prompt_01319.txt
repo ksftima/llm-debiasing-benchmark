@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+From and after a Program Transfer, SFJ will be responsible for maintaining product liability insurance related to the Development and Commercialization of the Product at its expense with PB to be named as an additional insured party.
+
+CLASSIFICATION:
+ 

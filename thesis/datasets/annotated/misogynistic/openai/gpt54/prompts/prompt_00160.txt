@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This is the key to making a relationship last and to getting girls wet over you.
+
+Girls like emotion, they like uncertainty. Don't constantly shower her with attention. Sometimes when I'm texting my girlfriend, I say that I'm busy today and that I'll get back to her later. Sometimes I'll act a little cold and she'll immediately start wondering why. It keeps her curious and engaged.
+
+One day you want her to feel happy, the next sad, the next a little angry, and the next day you want her horny.
+
+Keeping a cycle of emotions going is the best thing you can do to have her go crazy for you.
+
+CLASSIFICATION:
+

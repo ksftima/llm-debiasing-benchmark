@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cue-induced behavioural activation: a novel model of alcohol craving? Alcohol-associated cues elicit craving in human addicts but little is known about craving mechanisms. Current animal models focus on relapse and this may confound the effect of environmental cues. OBJECTIVES. To develop a model to study the effects of environmental cues on alcohol consumption in animals not experiencing withdrawal or relapse. Rats were trained to orally self-administer an alcohol (5% w/v)/saccharin (0.2%) solution 30 min a day for 20 days. After stable responding on a free choice between alcohol/saccharin and water, rats were exposed to 5, 10 or 15 min of alcohol-associated cues or 5 min of non-alcohol associated cues. The effect of a 5-min cue was measured after a 10-day break from training or pre-treatment with 0.03, 0.1 or 1 mg/kg naltrexone. Rats given 5 min of alcohol-associated cues responded significantly more on the active lever (26% increase) and consumed more alcohol as verified by increased blood alcohol levels (8.9 mM versus control 7.5 mM). Ten or 15 min of cues did not change alcohol consumption and 5 min in a novel environment decreased response by 66%. After a 10-day break in training, 5 min of alcohol-associated cues still increased alcohol consumption (29% increase) and the cue effect could be dose-dependently blocked by naltrexone (143% decrease at 0.03 mg/kg).
+
+CLASSIFICATION: 

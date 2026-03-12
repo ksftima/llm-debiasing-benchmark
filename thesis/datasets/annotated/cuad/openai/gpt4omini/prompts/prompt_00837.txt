@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Without limiting the generality of the foregoing, such policy shall provide protection against any and all claims, demands, and causes of action arising out of any defects or failure to perform, alleged or otherwise, of the Products and Licensed Products or any material used in connection therewith or any use thereof.
+
+CLASSIFICATION:
+ 

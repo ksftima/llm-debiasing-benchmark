@@ -1,0 +1,27 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+https://www.antena3.ro/coronavirus/romani-germania-ceapa-verde-pandemie-566448.html 
+
+> Totul s-a ntmplat n anul 2016, ns, n urma unei greeli, pe care echipa Antena3.ro i-o asum n totalitate, imaginile au fost prezentate ca fiind filmate n aceast diminea.
+
+> Imaginile, repostate pe reeaua de socializare Facebook, au fost preluate de anumite persoane i prezentate ca fiind actuale motiv pentru care, n lipsa unei documentri mai ample, au fost folosite pentru redactarea acestei tiri care apoi s-a viralizat, fiind distribuit de peste 5.000 de persoane n cteva ore.
+
+> Echipa site-ului Antena3.ro i asum greeala neverificrii sursei originale a imaginilor i a publicrii acestor informaii fr a fi verificate n prealabil, chiar dac sursa acestora a fost menionat i folosit n redactare.
+
+> **Facem precizarea c imaginile au fost publicate doar pe site-ul Antena3.ro i nu au fost preluate pe TV.**
+
+CLASSIFICATION:
+

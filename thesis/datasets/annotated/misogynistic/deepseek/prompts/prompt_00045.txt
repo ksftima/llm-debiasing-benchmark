@@ -1,0 +1,66 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Today Was a Bad Day, and I'm Glad It WasJust want to share a young fella's small epiphany. As simple as it is, it will help me stay on track in the times we're living in.
+
+**Take responsibility for your little prison of flesh and everything else will fall into place.** 
+
+Today was the first day of this pandemic that I felt like it wasn't going to be easy.
+
+In the rare occasions I feel down I tend to think "Welp that's it, I feel like shit and I have no control over the situation so I guess I'll just feel shit until I don't."
+
+I know, fkn helpful huh.
+
+Thankfully I've been working on this and a lot more. So after a long day of things just not going my way and my overall state of mind not helping I recognised it was time for a good ol' meditation. I have found that taking a breather can go a long way.
+
+So there I am all zen and shit when I allow my mind to wander a little so I can figure my shit out.
+
+I asked myself what might be one of the oldest questions: Why am I not happy right now?
+
+Well idk I've been taking care of myself. A couple weeks ago I started taking workouts far more seriously (thanks TRP) and doing some yoga too. But hmm now that I think about it such a change in lifestyle can temporarily make you feel drained of energy. I have also been eating well than before BUT HMM now that I think about it I skipped a few meals in the last couple days. And I did (make a conscious decision to) relapse from NoFap today. And yadayadayada
+
+Huh, it makes a whole lotta sense my brain isn't giving me happy chemicals, even tho just a few days ago I was thriving in almost the same routine. I've been on autopilot, haven't I?
+
+So I considered all my past experiences on this contentment subject and looked for the exact things I haven't been doing.
+
+Surprise surprise, it was nothing I didn't already know subconsciously. And yet I had it so perfectly laid out in front of me that I wrote it down and stuck it in the window in front of my desk. Call it a dogma for contentment:
+
+&#x200B;
+
+>**Only by letting go of vices, practicing good habits, and looking after our mind and body,**  
+>  
+>**we can expect to appreciate life and know what we need**
+
+&#x200B;
+
+"But a disciplined life without dopamine seems so boring!"
+
+You'll be surprised to find how fulfilling it becomes. Not only it's far easier to find contentment, but you also know what you want in order to be happy. 
+
+More specifically, you are more aware of what your body and brain need in order to stay tf out of your way.
+
+Let me break down my experience:
+
+1. **Let go of vices** \- I was doing NoFap and getting laid consistently so I had to make a smooth transition. Space out masturbation and don't fall into porn. Weed (which is everywhere in my social circles) also tends to make me lazy and can get me down. Social media, youtube videos with no valuable content yadayada. 
+2.  **Good habits and looking after yourself** \- Exercise, yoga, meditation, staying in touch with people, watching a few sunsets and adding variety to the day through a hobby.
+3. **Appreciate Life** \- The day goes by faster, you enjoy the simple things, you feel fulfilled and in the right course.
+4.  **Know what you need** \- By going off autopilot and cultivating mindfulness you don't fall back into old habits and you notice what you need as soon as that need arises.
+
+Thank you for reading. Honestly, I wrote this more for myself. My state of mind can be quite volatile, which probably isn't the case for most fellas. But I hope it helps someone. Also if there's any grammar mistakes or incongruencies: English ain't my first language.
+
+Stay safe, make the most out of the present moment.
+
+CLASSIFICATION:
+

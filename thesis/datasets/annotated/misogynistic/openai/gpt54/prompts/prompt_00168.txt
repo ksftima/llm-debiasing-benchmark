@@ -1,0 +1,31 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+* [Decizia judectorilor n cazul unui **fake news Antena 3** despre Aliana Vestului: Manevre pentru ruperea Romniei](https://adevarul.ro/locale/timisoara/decizia-judecatorilor-cazul-unui-fake-news-antena-3-despre-alianta-vestului-manevra-ruperea-romaniei-1_5de3b4fa5163ec4271982056/index.html)
+
+* [Fake-News i Coronavirus. **Zeci de mii de distribuiri pentru un fake despre Antena 1 i Antena 3**](https://www.paginademedia.ro/2020/02/fake-nes-coronavirus-antena-1-antena-3)
+
+* [Fake news marca Antena 3 demontat de Ambasada Suediei la Bucureti](https://newsmaker.ro/fake-news-marca-antena-3-demontat-de-ambasada-suediei-la-bucuresti/)
+
+* [Ct cost o informaie fals pentru Antena 3: 10.000 de lei. Au dat drept reale imagini violente cu Mihai Goiu, dintr-o pies de teatru](https://www.paginademedia.ro/2018/03/cat-costa-o-minciuna-difuzata-la-antena-3-10000-de-lei-postul-amendat-pentru-imagini-cu-gotiu-dintr-o-piesa-prezentate-drept-reale)
+
+* [RAPORT EAST CENTER I UKRAINE PRISM:
+Antena 3 i Romnia TV fac jocurile Moscovei](https://www.bursa.ro/raport-east-center-si-ukraine-prism-antena-3-si-romania-tv-fac-jocurile-moscovei-27781531)
+_______________________________________
+
+[, ,  - deny, deny, deny](https://youtu.be/tR_6dibpDfo?t=1371)
+
+CLASSIFICATION:
+

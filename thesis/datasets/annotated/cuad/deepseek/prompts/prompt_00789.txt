@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In exchange for the marketing and selling of the Products provided in Section 3, Vendor hereby agrees: 4.1. To provide Distributor with the appropriate product brochures, and two (2) fully working and fit for purpose samples of each model of shuffling machine free of charge; 4.2. To prominently display and advertise that Distributor is the sole and exclusive distributor of Vendor for the Products in the Territory; 4.3. Subject to Section 2.6 of this Agreement, not to market, distribute, sell or supply the Products covered by this Agreement to any individual or entity in the Territory directly in response to a request from that person or entity without the prior written consent of Distributor; 4.4. Subject to Section 4.5 of this Agreement, for a period of twenty-four (24) months after the Effective Date, not to develop, manufacture, market, distribute, sell or supply anywhere in the world to any individual or entity a gaming chip-sorting machine for use in a casino; and
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Prostate-specific antigen and free prostate-specific antigen in the early detection of prostate cancer: do combination tests improve detection? The combined use of free and total prostate-specific antigen (PSA) in early detection of prostate cancer has been controversial. This article systematically evaluates the discriminating capacity of a large number of combination tests. Free and total PSA were analyzed in stored serum samples taken prior to diagnosis in 429 cases and 1,640 controls from the Physicians' Health Study. We used a classification algorithm called logic regression to search for clinically useful tests combining total and percent free PSA and receiver operating characteristic analysis and compared these tests with those based on total and complexed PSA. Data were divided into training and test subsets. For robustness, we considered 35 test-train splits of the original data and computed receiver operating characteristic curves for each test data set. The average area under the receiver operating characteristic curve across test data sets was 0.74 for total PSA and 0.76 for the combination tests. Combination tests with higher sensitivity and specificity than PSA>4.0 ng/mL were identified 29 out of 35 times. All these tests extended the PSA reflex range to below 4.0 ng/mL. Receiver operating characteristic curve analysis indicated that the overall diagnostic performance as expressed by the area under the curve did not differ significantly for the different tests.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to your obligations under Section 15.7 above, on the first anniversary of the Effective Date, and on each subsequent anniversary of the Effective Date,<omitted>you agree to provide us with proof of insurance evidencing the proper coverage with limits not less than those required under this Agreement, in such form as we may reasonably require.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Customer hereby grants to IBM, its Affiliates and Subcontractors all rights and licenses to, or agrees to promptly obtain and keep in effect Required Consents for all Customer Components, necessary for IBM to perform all of its obligations as set forth in this Agreement.
+
+CLASSIFICATION:
+ 

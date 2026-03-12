@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If by the expiration of the ROFR Transfer Period, the Farids Group has not completed the Transfer of the ROFR Shares, in order for the Farids Group to Transfer such ROFR Shares (or any other Shares) it shall be necessary for a new ROFO Sale Notice or ROFR Sale Notice to be delivered, and the terms and provisions of this Article VII to be again complied with.
+
+CLASSIFICATION:
+ 

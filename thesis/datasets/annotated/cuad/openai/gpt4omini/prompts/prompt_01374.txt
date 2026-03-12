@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SIGA, or its authorized representatives, shall have the right, at its cost, with reasonable advance notice, during regular business hours, to audit the facility used by the Promoter in order to review the Promoter activities under this Exhibit including, but not limited to, any documents relevant to these activities, for compliance with the safety reporting requirements set out in this Exhibit.
+
+CLASSIFICATION:
+ 

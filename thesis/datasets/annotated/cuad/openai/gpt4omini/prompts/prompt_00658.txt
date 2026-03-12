@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon and subject to the terms and conditions stated in this Agreement, on the Effective Date, for the consideration described in this Agreement and Eutectix's performance of its other obligations under this Agreement, Liquidmetal grants to Eutectix the right and license to use the following equipment owned by Liquidmetal (the "Licensed Equipment") (i) solely for use on Liquidmetal's behalf, (ii) for Eutectix's own limited use in the production of Liquidmetal Products (as defined below) or Licensed Products (as defined below), (iii) for the continued development of applications utilizing bulk metallic glasses in cooperation between Liquidmetal and Eutectix, and (iv) independently by Eutectix pursuant to the terms of this Agreement: (a) Two (2) Engel e-motion 310/120 injection molding machines, and associated equipment; (b) Two (2) Eontec 300-C Die Casting Machines, and associated equipment; (c) One (1) Flow M21313B Waterjet Machine; (d) Two (2) DMG Mori Milltap 700 CNC machines, and associated consumables and fixtures; (e) Equipment for cut, mount, and polish analysis operations, including: i. One (1) Struers Accutom-10 cut-off machine ii. One (1) Struers Secotom-50 precision cutting machine iii. One (1) Struers Tegramin-30 tabletop grinding machine iv. One (1) Keyence VH X-S550E microscope (f) Equipment required for vibratory deburring operations, including: i. One (1) Rosler R 125 EC-KF rotary vibrator ii. One (1) Rosler R 125 EC rotary vibrator 2<omitted>(g) Equipment required for passivation operations, including: i. One (1) ESMA, Inc. E782C ultrasonic cleaning system (h) One (1) Dry Cooler D455 chill water system; (i) One (1) MTS 810 MTS mechanical testing frame; and (j) Molds and fixtures needed for production of sample parts.
+
+CLASSIFICATION:
+ 

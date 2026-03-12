@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Datec must not assign this agreement or any right under this agreement unless Datec (a) is not in breach of this agreement; (b) obtains the prior written consent of the BSP (c) ensures that the assignee agrees to be bound by all of the Datec's obligations under this agreement; and (d) acknowledges that it remains bound by this agreement
+
+CLASSIFICATION:
+ 

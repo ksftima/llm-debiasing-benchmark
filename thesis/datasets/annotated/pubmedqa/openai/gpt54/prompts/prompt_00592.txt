@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is the processing of affective prosody influenced by spatial attention? The present study asked whether the processing of affective prosody is modulated by spatial attention. Pseudo-words with a neutral, happy, threatening, and fearful prosody were presented at two spatial positions. Participants attended to one position in order to detect infrequent targets. Emotional prosody was task irrelevant. The electro-encephalogram (EEG) was recorded to assess processing differences as a function of spatial attention and emotional valence. Event-related potentials (ERPs) differed as a function of emotional prosody both when attended and when unattended. While emotional prosody effects interacted with effects of spatial attention at early processing levels (<200 ms), these effects were additive at later processing stages (>200 ms).
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Janssen hereby grants to Company, during the Term, a non-exclusive, royalty free right to use such Product name and Product Trademarks, and Janssen corporate names and logos, solely to the extent they are included on the Promotional Materials and solely for the purpose of using the Promotional Materials to Promote in the Territory under this Agreement.
+
+CLASSIFICATION:
+ 

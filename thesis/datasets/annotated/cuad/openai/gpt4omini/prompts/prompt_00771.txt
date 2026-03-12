@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In addition to vehicle personnel insurance, Party B shall at least purchase injury insurance for two persons with coverage not lower than RMB500,000 per person.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+As further consideration for the rights granted to AbbVie hereunder, subject to Section 6.5.3, commencing upon the First Commercial Sale of a Licensed Product in the Territory, on a Licensed Product- by-Licensed Product basis, AbbVie shall pay to Harpoon a royalty on Net Sales of each Licensed Product in the Territory (excluding Net Sales of each Licensed Product in any country or other jurisdiction in the Territory for which the Royalty Term for such Licensed Product in such country or other jurisdiction has expired) during [***] at the following rates: Net Sales in the Territory of each Licensed Product in a [***] Royalty Rate For that portion of aggregate Net Sales of each Licensed Product[***] [***] For that portion of aggregate Net Sales of each Licensed Product[***] [***] For that portion of aggregate Net Sales of each Licensed Product[***] [***] With respect to each Licensed Product in each country or other jurisdiction in the Territory, [***].
+
+CLASSIFICATION:
+ 

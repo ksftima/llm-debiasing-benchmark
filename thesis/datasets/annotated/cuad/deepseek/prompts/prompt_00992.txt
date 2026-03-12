@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+In accordance with items 9.3, 9.4, and 10.3, this Contract shall come into force on the Effective Date, remain effective throughout the Initial Term, and be prolonged, or further extended automatically for a period of 12 months, each such extension commencing at the end of the last day of the Initial Term or the relevant anniversary thereof, unless either Party serves written notice of termination on the other Party at least 65 days prior to the end of the Initial Term, or any subsequent extension.
+
+CLASSIFICATION:
+ 

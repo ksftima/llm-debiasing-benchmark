@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there a first night effect on sleep bruxism? Sleep bruxism (SB) is reported to vary in frequency over time. The aim of this study was to assess the first night effect on SB. A retrospective polysomnographic (PSG) analysis was performed of data from a sample of SB patients (12 females, 4 males; age range: 17-39 years) recorded in a sleep laboratory over 2 consecutive nights. Sleep parameters and jaw muscle activity variables (i.e., rhythmic masticatory muscle activity [RMMA]) for SB were quantified and compared between the 2 nights. Subjects were classified into groups according to severity of RMMA frequency, such as low frequency (2-4 episodes/h and/or<25 bursts/h) and moderate-high frequency (≥ 4 episodes/h and ≥ 25 bursts/h). Overall, no first night effects were found for most sleep variables. However, total sleep time, sleep efficiency, and stage transitions showed significant time and group interactions (repeated measures ANOVAs, p ≤ 0.05). The RMMA episode index did not differ between the 2 nights, whereas the second night showed significantly higher burst index, bruxism time index, and mean burst duration (repeated measure ANOVAs, p ≤ 0.05). Five patients of 8 in the low frequency group were classified into the moderate-high frequency group on the second night, whereas only one patient in the moderate-high frequency group moved to the low frequency group.
+
+CLASSIFICATION: 

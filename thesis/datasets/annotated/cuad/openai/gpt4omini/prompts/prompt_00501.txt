@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Effective as of the date of expiration, Ono shall grant to Array a non-exclusive, worldwide, royalty-free license, with the right to grant sublicenses, (A) under any Improvements, and (B) under any other Patents owned or Controlled by Ono related to any Product(s) (including without limitation, Ono's interest in any Joint Patents) for the purposes of making, using, developing, importing, selling, distributing, marketing and promoting the Product(s) in the form they exist as of the time the Agreement is terminated, Notwithstanding the foregoing, in the event of a termination by Ono pursuant Section 13.3 or 13.4, Section 14.2(a)(ix) shall apply.
+
+CLASSIFICATION:
+ 

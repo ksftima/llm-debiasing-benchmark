@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If the Company decides not to renew this Agreement in accordance with the provisions of Section 8 below, the Company shall pay the Professional an amount equal to two percent (2%) of the net book value of its unsold inventory of Products on December 31, 2004.
+
+CLASSIFICATION:
+ 

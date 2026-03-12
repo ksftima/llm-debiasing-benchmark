@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does hippocampal atrophy on MRI predict cognitive decline? To investigate whether the presence of hippocampal atrophy (HCA) on MRI in Alzheimer's disease (AD) leads to a more rapid decline in cognitive function. To investigate whether cognitively unimpaired controls and depressed subjects with HCA are at higher risk than those without HCA of developing dementia. A prospective follow-up of subjects from a previously reported MRI study. Melbourne, Australia. Five controls with HCA and five age-matched controls without HCA, seven depressed subjects with HCA and seven without HCA, and 12 subjects with clinically diagnosed probable AD with HCA and 12 without HCA were studied. They were followed up at approximately 2 years with repeat cognitive testing, blind to initial diagnosis and MRI result. HCA was rated by two radiologists blind to cognitive test score results. Cognitive assessment was by the Cambridge Cognitive Examination (CAMCOG). No significant differences in rate of cognitive decline, mortality or progression to dementia were found between subjects with or without HCA.
+
+CLASSIFICATION: 

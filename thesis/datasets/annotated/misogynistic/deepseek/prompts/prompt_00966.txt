@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Ive had 3 therapists now (had to switch twice due to them being flakey and unable to keep appointments) and they are very BP. Its really, really hard for me on the days where I want to address an issue thats about women, dating, relationships, etc. because I know its not going to do much good. I try to finely craft my words to make them not as harsh while still getting my perspective across, but Im always given BP suggestions. 
+
+My perspective always ends up being looked at as the issue, and they try to find ways to help me adopt a more BP outlook.
+
+CLASSIFICATION:
+

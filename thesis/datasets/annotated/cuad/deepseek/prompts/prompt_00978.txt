@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+CERES will not unreasonably withhold its consent for research programs with respect to GERMPLASM IMPROVEMENT of COLLABORATION CROPS with academic institutions in the European Union under United Kingdom government or European Union funding, provided that (i) IGER will have the exclusive right to use and exploit commercially the results of such research programs obtained by IGER, (ii) no COLLABORATION CROP germplasm will be made available by IGER to any third party for selection, breeding or propagation work, or for genetic transformation of such germplasm, except that IGER may make available germplasm of CERTAIN MISCANTHUS ACCESSIONS for research purposes (including breeding), subject to the terms and conditions under which IGER holds such accessions, and (iii) if requested by CERES, IGER will use reasonable efforts to obtain commercialization rights for CERES on results<omitted>obtained by third parties in such collaborative research programs or breeding activities.
+
+CLASSIFICATION:
+ 

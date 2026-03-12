@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Step-in Right shall include, without limitation, and to the extent allowable under Applicable Law, PPI's grant to EKR of such additional license rights, rights of access, rights of observation and rights of management, direction and control, in each case solely with respect to the manufacture and supply of Product and as reasonably necessary to enable and permit EKR (or EKR's designee) to ensure that the supply of Product shall continue to be available to EKR under this Agreement and the Supply Agreement; provided that EKR in exercising the Step-in Right shall not (i) unreasonably interfere with PPI's other activities at the facilities at which the Product is manufactured, tested, labeled, stored or<omitted>otherwise handled ("Product Facilities") or (ii) require PPI to take any action or fail to take any action that does or could reasonably be expected to interfere with PPI's other activities at the Product Facilities.
+
+CLASSIFICATION:
+ 

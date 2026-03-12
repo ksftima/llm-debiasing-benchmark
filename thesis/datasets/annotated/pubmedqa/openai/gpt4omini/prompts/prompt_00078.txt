@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does either obesity or OSA severity influence the response of autotitrating CPAP machines in very obese subjects? The pressures delivered by autotitrating continuous positive airways pressure (CPAP) devices not only treat obstructive sleep apnoea (OSA) effectively but also give potentially interesting physiological information about the forces impinging on the pharynx. In earlier work from this unit, we used correlations between autoCPAP pressure and both OSA severity and obesity, to construct an algorithm to estimate the fixed CPAP pressure a patient required for subsequent clinical use. We wished to discover if these relationships could be reliably extended to a much more obese group. We performed a prospective cohort study in an obese population. Measurements of obesity were made, OSA severity was recorded, and the 95th centile autoCPAP pressure was recorded during 1 week of autoCPAP. Spearman's rank correlation was performed between measurements of obesity and autoCPAP pressure, and between OSA severity and autoCPAP pressure. Fifty-four obese individuals (median body mass index (BMI) 43.0 kg/m(2)), 52 % of whom had OSA (apnoea-hypopnoea index (AHI) ≥ 15), had a median 95th centile autoCPAP pressure of 11.8 cmH2O. We found no significant correlation between autoCPAP pressure and neck circumference, waist circumference or BMI. There was a moderate correlation between autoCPAP pressure and OSA severity (AHI r = 0.34, p = 0.02; oxygen desaturation index (ODI) r = 0.48, p < 0.001).
+
+CLASSIFICATION: 

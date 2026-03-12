@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is diffusion-weighted imaging a significant indicator of the development of vascularization in hypovascular hepatocellular lesions? The objective was to evaluate the efficacy of diffusion-weighted imaging (DWI) in predicting the development of vascularization in hypovascular hepatocellular lesions (HHLs). Forty-two HHLs that were diagnosed by computed tomographic (CT) arteriography were evaluated retrospectively. The lesion on DWI was classified as isointense, hypointense, or hyperintense. Follow-up studies that included intravenous dynamic CT or magnetic resonance imaging were performed. The 730-day cumulative developments of vascularization in hypointense, isointense, and hyperintense lesions were 17%, 30%, and 40%, respectively. The differences among these developments were not statistically significant.
+
+CLASSIFICATION: 

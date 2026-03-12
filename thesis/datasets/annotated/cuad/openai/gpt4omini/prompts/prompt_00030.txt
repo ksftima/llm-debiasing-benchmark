@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon the terms and conditions set forth in this Agreement, KI, Inc. hereby grants to Diplomat and Diplomat hereby accepts the right, license and privilege of utilizing KI's name and likeness solely upon and in connection with the manufacture, sale and distribution of the following products: (1) sunglasses, eyeglasses, readers and ophthalmic frames;<omitted>(2) optical cases, optical eye chains, eye pins, and lens cleaning kits sold only in optical retailers; and (3) such other optical accessories as the parties shall agree.
+
+CLASSIFICATION:
+ 

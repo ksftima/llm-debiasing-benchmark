@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Treatment of vitamin D deficiency in CKD patients with ergocalciferol: are current K/DOQI treatment guidelines adequate? Vitamin D deficiency/insufficiency (VDDI) is common in CKD patients and may be associated with abnormal mineral metabolism. It is not clear whether the K/DOQI recommended doses of ergocalciferol are adequate for correction of VDDI and hyperparathyroidism. Retrospective study of 88 patients with CKD Stages 1 - 5 and baseline 25-hydroxyvitamin D level<30 ng/ml (<75 nmol/l). Patients treated with ergocalciferol as recommended by K/DOQI guidelines. Only 53 patients had elevated baseline PTH level for the CKD stage. Patients were excluded if they received vitamin D preparations other than ergocalciferol or phosphate binders. 25-hydroxyvitamin D level, intact PTH level (iPTH), and other parameters of mineral metabolism were measured at baseline and after completion of ergocalciferol course. 88 patients with CKD were treated with ergocalciferol. Mean age 56.8 +/- 9.5 years and 41% were males. The mean (+/- SD) GFR was 28.3 +/- 16.6 ml/min. At the end of the 6-month period of ergocalciferol treatment, the mean 25-hydroxyvitamin D level increased from 15.1 +/- 5.8 to 23.3 +/- 11.8 ng/ml (37.75 +/- 14.5 to 58.25 +/- 29.5 nmol/l) (p<0.001). Treatment led to>or = 5 ng/ml (12.5 nmol/l) increases in 25-hydroxyvitamin D level in 54% of treated patients, and only 25% achieved levels>or = 30 ng/ml (75 nmol/l). Mean iPTH level decreased from 157.9 +/- 125.9 to 150.7 +/- 127.5 pg/ml (p = 0.5). Only 26% of patients had>or = 30% decrease in their iPTH level after treatment with ergocalciferol.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licensor grants to Licensee a limited, non-exclusive, non-transferable (except as provided in Section 11.7) and non-sublicensable royalty-free license during the Term to those of Licensor's Marks designated by Licensor from time to time to: (i)display such Marks on the Licensee Site: (x) with the Licensed Content to provide source attribution; or (y) as links to the Licensed Content; (ii)comply with its express obligations under this Agreement; and (iii)advertise, market and promote the availability of the Licensed Content or the Licensee Site and identify the Licensor as a content provider; provided, that all uses of Licensor's Marks shall require Licensor's prior written approval.
+
+CLASSIFICATION:
+ 

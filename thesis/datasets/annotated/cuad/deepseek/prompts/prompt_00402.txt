@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions of this Agreement, Online BVI hereby grants to Skype and the Company a limited, non-exclusive, non-sublicensable (except as set forth herein), non-transferable, non-assignable (except as provided in Section 14.4), royalty- free (but subject to the provisions of Section 5), license during the Term to use, market, provide access to, promote, reproduce and display the Online BVI Intellectual Property solely as incorporated in, and for the development of and for transmission pursuant to this Agreement of the Company-Skype Branded Application, the Company-Skype Branded Content and the Company-Skype Branded Web Site.
+
+CLASSIFICATION:
+ 

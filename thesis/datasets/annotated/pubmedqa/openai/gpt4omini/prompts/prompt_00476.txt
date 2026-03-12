@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can routine offering of influenza vaccination in office-based settings reduce racial and ethnic disparities in adult influenza vaccination? Influenza vaccination remains below the federally targeted levels outlined in Healthy People 2020. Compared to non-Hispanic whites, racial and ethnic minorities are less likely to be vaccinated for influenza, despite being at increased risk for influenza-related complications and death. Also, vaccinated minorities are more likely to receive influenza vaccinations in office-based settings and less likely to use non-medical vaccination locations compared to non-Hispanic white vaccine users. To assess the number of "missed opportunities" for influenza vaccination in office-based settings by race and ethnicity and the magnitude of potential vaccine uptake and reductions in racial and ethnic disparities in influenza vaccination if these "missed opportunities" were eliminated. National cross-sectional Internet survey administered between March 4 and March 14, 2010 in the United States. Non-Hispanic black, Hispanic and non-Hispanic white adults living in the United States (N = 3,418). We collected data on influenza vaccination, frequency and timing of healthcare visits, and self-reported compliance with a potential provider recommendation for vaccination during the 2009-2010 influenza season. "Missed opportunities" for seasonal influenza vaccination in office-based settings were defined as the number of unvaccinated respondents who reported at least one healthcare visit in the Fall and Winter of 2009-2010 and indicated their willingness to get vaccinated if a healthcare provider strongly recommended it. "Potential vaccine uptake" was defined as the sum of actual vaccine uptake and "missed opportunities." The frequency of "missed opportunities" for influenza vaccination in office-based settings was significantly higher among racial and ethnic minorities than non-Hispanic whites. Eliminating these "missed opportunities" could have cut racial and ethnic disparities in influenza vaccination by roughly one half.
+
+CLASSIFICATION: 

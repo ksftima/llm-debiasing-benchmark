@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is it possible to stop treatment with nucleos(t)ide analogs in patients with e-antigen negative chronic hepatitis B? Treatment of HBeAg-negative chronic hepatitis B (CHB) with nucleos(t)ide analogues (NA) is usually indefinite, since the loss of HBsAg, as a criterion for its discontinuation, is a rare event. Recent evidence suggests that discontinuing NA therapy may be feasible in selected patients. To analyze the rate of virological relapse in patients with HBeAg-negative CHB who discontinued treatment with NAs. We performed a single-center observational study that included 140 patients with HBsAg-negative CHB. Twenty-two patients, who received only NAs, discontinued treatment for different reasons and were subsequently monitored. All had normal ALT and AST, undetectable DNA and absence of cirrhosis or significant comorbidities before stopping treatment. Twelve patients showed virologic relapse (54.54%). The mean interval between discontinuation and relapse was 6.38 months (± 1.9) (75% relapsed during the first 12 months after discontinuation). Five received adefovir, 1 lamivudine and adefovir, 1 tenofovir and 5 lamivudine alone. The mean treatment duration in this group was 38.5 months (± 4.5). The sustained response group had a higher mean age and longer treatment duration than patients with virologic relapse but these differences were not statistically significant.
+
+CLASSIFICATION: 

@@ -4,10 +4,10 @@ import numpy as np
 
 # Dataset paths
 datasets = {
-    'CUAD': 'parsed_datasets/parsed_csv/parsed_cuad.csv',
-    'FOMC': 'parsed_datasets/parsed_csv/parsed_fomc.csv',
-    'Misogynistic': 'parsed_datasets/parsed_csv/parsed_misogynistic.csv',
-    'PubMedQA': 'parsed_datasets/parsed_csv/parsed_pubmedqa.csv'
+    'CUAD': 'thesis/datasets/parsed/parsed_cuad.csv',
+    'FOMC': 'thesis/datasets/parsed/parsed_fomc.csv',
+    'Misogynistic': 'thesis/datasets/parsed/parsed_misogynistic.csv',
+    'PubMedQA': 'thesis/datasets/parsed/parsed_pubmedqa.csv'
 }
 
 # Feature columns to standardize

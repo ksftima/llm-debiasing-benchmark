@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the Term, and without limiting Section 4.2, Achaogen hereby grants to Microgenics a royalty-free, exclusive, worldwide license to use the Achaogen<omitted>Know-How, Achaogen Patents, and Achaogen Materials to research, develop, manufacture, use, market and sell the Assay in the Territory. [***].
+
+CLASSIFICATION:
+ 

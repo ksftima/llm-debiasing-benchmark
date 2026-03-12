@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does an additional antirotation U-Blade (RC) lag screw improve treatment of AO/OTA 31 A1-3 fractures with gamma 3 nail? Poor bone quality and unstable fractures increase the cut-out rate in implants with gliding lag screws. The U-Blade (RC) lag screw for the Gamma3®nail was introduced to provide monoaxial rotational stability of the femoral head and neck fragment. The purpose of this study was to evaluate whether the use of the U-Blade (RC) lag screw is associated with reduced cut-out in patients with OTA/AO 31A1-3 fractures.MATERIAL & Between 2009 and 2014, 751 patients with OTA/AO 31A1-3 fractures were treated with a Gamma3®nail at our institution. Out of this sample 199 patients were treated with U-blade (RC) lag screws. A total of 135 patients (117 female, 18 male) with standard lag screw (treatment group A) were matched equally regarding age (±4 years) sex, fracture type and location to 135 patients with U-blade (RC) lag screw (treatment group B). Within a mean follow up of 9.2 months (range 6-18 months) we assessed the cut-out rate, the calTAD, lag screw migration, the Parker's mobility score and the Parker's ratio at postoperatively, six and 12 months following surgery. Furthermore we recorded all complications, ASA-Score, hospital stay and duration of surgery retrospectively. The most common fracture among group B with a cut-out of the lag screw were AO/OTA 2.3 and 3.2 fractures whereas in group A cut-out was most commonly seen in AO/OTA 2.1, 2.2 and 2.3 fractures, there was no significant reduction of the cut-out rate in group B 2.2% (n=3) compared to group A 3.7% (n=5). The duration of surgery was significantly shorter in group A (p<0.05). There was no significant difference in lag screw placement, the Parker's ratio and mobilization.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+From the Launch Date and ending on the last day of the next Calendar Quarter and each subsequent Calendar Quarter during the Term, Exact shall owe Pfizer a service fee equal to fifty percent (50%) of the product of: Laboratory Service Revenue minus Baseline Laboratory Service Revenue ("Incremental Laboratory Service Revenue") for the Calendar Quarter multiplied by Gross Margin Percent for the Calendar Quarter (such product, the "Promotion Fee").
+
+CLASSIFICATION:
+ 

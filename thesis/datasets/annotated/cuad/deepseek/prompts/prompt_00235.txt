@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SpinRecords.com hereby ------------------------------------------- grants NETTAXI a nonexclusive, worldwide, nontransferable, revocable, royalty free license to display and distribute the, and make derivative works from the SpinRecords.com Brand Features and any enhancements, modifications or improvements thereto as necessary to carry out the terms of this Agreement.
+
+CLASSIFICATION:
+ 

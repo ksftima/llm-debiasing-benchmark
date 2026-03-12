@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is etoricoxib effective in preventing heterotopic ossification after primary total hip arthroplasty? Heterotopic ossification is a common complication after total hip arthroplasty. Non-steroidal anti-inflammatory drugs (NSAIDs) are known to prevent heterotopic ossifications effectively, however gastrointestinal complaints are reported frequently. In this study, we investigated whether etoricoxib, a selective cyclo-oxygenase-2 (COX-2) inhibitor that produces fewer gastrointestinal side effects, is an effective alternative for the prevention of heterotopic ossification. We investigated the effectiveness of oral etoricoxib 90 mg for seven days in a prospective two-stage study design for phase-2 clinical trials in a small sample of patients (n = 42). A cemented primary total hip arthroplasty was implanted for osteoarthritis. Six months after surgery, heterotopic ossification was determined on anteroposterior pelvic radiographs using the Brooker classification. No heterotopic ossification was found in 62 % of the patients that took etoricoxib; 31 % of the patients had Brooker grade 1 and 7 % Brooker grade 2 ossification.
+
+CLASSIFICATION: 

@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This relates to a concept that's mentioned in No More Mr Nice Guy.
+
+Men who are extremely needy assume that, to be not needy, you should be the polar opposite - completely disinterested. In truth, it's about striking a balance by having clear boundaries you don't cross. Highly recommend you read the book if you struggle with needy behavior. 
+
+To apply this to your example. The girl who wants you to be in touch constantly is playing on your neediness. You obey her because you desperately want your needs met, but it's actually hurting you. You appear low value because you're too available. 
+
+Nothing else more important is taking up your time? No job? No gym? No hobby? No friends? That subcommunicates that she's more important than anything else going on in your life. Not what she's looking for. 
+
+A boundary you can set is that you won't placate women who demand your attention. She can learn to deal with you being unavailable or she can find someone else to annoy.
+
+You'll find that actually this boundary might upset her initially. But, if she's a good person, she'll respect you for having the self-respect and self-confidence and self-assurance to set and enforce a personal boundary. Men who capitulate demonstrate a weak character.
+
+CLASSIFICATION:
+

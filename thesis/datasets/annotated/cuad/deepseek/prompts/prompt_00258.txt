@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Ono hereby grants to Array a non-exclusive, worldwide, royalty free license, with the right to issue and authorize sublicenses through multiple tiers subject to the last sentence of Section 2.4(b), under any Improvements and Ono's interest in Joint Patent and Joint Know-How solely to make, use, sell, offer for sale, import, the Products (collectively, the "Grant-Back License"), subject to the exclusive rights granted to Ono under this Agreement.
+
+CLASSIFICATION:
+ 

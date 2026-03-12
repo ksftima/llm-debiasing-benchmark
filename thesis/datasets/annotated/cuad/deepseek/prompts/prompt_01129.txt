@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Both parties are entitled to reports of sales and to conduct periodic audits to ensure accuracy of Payments as follows: a. Each party will provide to the other a quarterly report (in hard copy and electronic copy (if applicable)) showing the AMR Product Suite sales including the Gross Proceeds and the Production Costs.
+
+CLASSIFICATION:
+ 

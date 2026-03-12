@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The warranty period for each Product is specified in the Price List that is in effect on the date NETGEAR receives Distributor's order, and shall apply regardless of any extended warranty period which Distributor may choose to provide to its customers.
+
+CLASSIFICATION:
+ 

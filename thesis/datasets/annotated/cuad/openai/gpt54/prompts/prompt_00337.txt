@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+iBio hereby grants to CC-Pharming for the term of this Agreement, a nonexclusive, non- assignable, non-sublicensable, limited right and license to use iBio's Technology in order to manufacture, process, prepare, and obtain regulatory approval for the development and production of Product(s) and work to be performed under this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Amblyopia: is visual loss permanent? The records of 465 patients with an established diagnosis of age related macular degeneration who had attended a specialist macular clinic between 1990 and 1998 were scrutinised. A full clinical examination and standardised refraction had been carried out in 189 of these cases on a minimum of two occasions. Cases were looked for where an improvement of one or more lines of either distance or near acuity was recorded in the eye unaffected by macular disease. In each one of these cases the improvement in visual acuity could not be attributed to treatment of other existing pathology. 12 such cases were detected. In nine of these the eye showing improvement of acuity had a history of amblyopia. The mean improvement in distance and near acuity in amblyopic eyes by 12 months was 3.3 and 1.9 lines logMAR respectively. The improvement in acuity generally occurred between 1 and 12 months from baseline and remained stable over the period of follow up.
+
+CLASSIFICATION: 

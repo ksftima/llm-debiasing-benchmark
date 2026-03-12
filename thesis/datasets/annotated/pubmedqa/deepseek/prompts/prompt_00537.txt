@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Household and food shopping environments: do they play a role in socioeconomic inequalities in fruit and vegetable consumption? Fruit and vegetables are protective of a number of chronic diseases; however, their intakes have been shown to vary by socioeconomic position (SEP). Household and food shopping environmental factors are thought to contribute to these differences. To determine whether household and food shopping environmental factors are associated with fruit and vegetable (FV) intakes, and contribute to socioeconomic inequalities in FV consumption. Cross-sectional data were obtained by a postal questionnaire among 4333 adults (23-85 years) living in 168 neighbourhoods in the south-eastern Netherlands. Participants agreed/disagreed with a number of statements about the characteristics of their household and food shopping environments, including access, prices and quality. Education was used to characterise socioeconomic position (SEP). Main outcome measures were whether or not participants consumed fruit or vegetables on a daily basis. Multilevel logistic regression models examined between-area variance in FV consumption and associations between characteristics of the household and food shopping environments and FV consumption. Only a few household and food shopping environmental factors were significantly associated with fruit and vegetable consumption, and their prevalence was low. Participants who perceived FV to be expensive were more likely to consume them. There were significant socioeconomic inequalities in fruit and vegetable consumption (ORs of not consuming fruit and vegetables were 4.26 and 5.47 among the lowest-educated groups for fruit and vegetables, respectively); however, these were not explained by any household or food shopping environmental factors.
+
+CLASSIFICATION: 

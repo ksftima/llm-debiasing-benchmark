@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If CHT requires Ehave to host the CHT Developments, then CHT hereby grants to Ehave a royalty-free, non-exclusive, non-transferable, limited right and licence during the Term hereof to use the CHT Developments solely for the purpose of enabling its operation for CHT and its End Users' purposes.
+
+CLASSIFICATION:
+ 

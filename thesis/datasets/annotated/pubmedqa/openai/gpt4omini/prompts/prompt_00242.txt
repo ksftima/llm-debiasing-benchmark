@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does solid culture for tuberculosis influence clinical decision making in India? Medical units at an academic tertiary referral hospital in Southern India. To investigate the impact of solid culture on Löwenstein-Jensen medium on clinical decision making. In a retrospective review of 150 culture-positive and 150 culture-negative consecutively sampled tuberculosis (TB) suspects, treatment decisions were analysed at presentation, after the availability of culture detection results and after the availability of drug susceptibility testing (DST) culture results. A total of 124 (82.7%) culture-positive patients and 35 (23.3%) culture-negative patients started anti-tuberculosis treatment prior to receiving their culture results; 101 patients (33.7%) returned for their results; two (1.3%) initiated treatment based on positive culture and no culture-negative patients discontinued treatment. DST was performed on 119 (79.3%) positive cultures: 30 (25.2%) showed any resistance, eight (6.7%) showed multidrug resistance and one (0.84%) showed extensively drug-resistant TB. Twenty-eight patients (23.5%) returned for their DST results. Based on DST, treatment was modified in four patients (3.4%).
+
+CLASSIFICATION: 

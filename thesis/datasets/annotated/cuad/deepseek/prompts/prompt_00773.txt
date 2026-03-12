@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+orders of, and applicable restrictions imposed by, governmental authorities (collectively, the "Applicable General Laws"), other than all applicable laws, rules and regulations in respect of "going out of business", "store closing" or similar-themed sales and permitting (collectively, the "Liquidation Sale Laws")
+
+CLASSIFICATION:
+ 

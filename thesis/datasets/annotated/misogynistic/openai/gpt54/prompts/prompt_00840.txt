@@ -1,0 +1,22 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Just don't, I feel like things like this can be so easily mis characterized. Especially if you don't know her temperament.  
+
+
+I almost got fired from a job at a sports venue because I told a women "I don't bite, unless your into that stuff". She pitched a holy bitch about it cause she was nuts. This is also the same place where I was forced to kiss a hot girl, mixed bag of nuts women are.
+
+CLASSIFICATION:
+

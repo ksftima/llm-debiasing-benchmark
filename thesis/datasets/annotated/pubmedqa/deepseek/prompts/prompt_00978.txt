@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is eligibility for a chemotherapy protocol a good prognostic factor for invasive bladder cancer after radical cystectomy? To assess whether eligibility to an adjuvant chemotherapy protocol in itself represents a good prognostic factor after radical cystectomy for bladder cancer. Between April 1984 and May 1989, our institution entered 35 patients with invasive bladder cancer into the Swiss Group for Clinical and Epidemiological Cancer Research (SAKK) study 09/84. They were randomly assigned to either observation or three postoperative courses of cisplatin monotherapy after cystectomy. This study had a negative result. The outcome of these 35 patients (protocol group) was compared with an age- and tumor-stage-matched cohort (matched group; n = 35) who also underwent cystectomy during the same period, but were not entered into the SAKK study, as well as the remaining 57 patients treated during the study period for the same indication (remaining group). Median overall survival decreased from 76.3 months in the protocol group to 52.1 months in the matched group and to 20.3 months in the remaining group. The respective times of median recurrence-free survival were 67.2, 16.0, and 9.4 months. Tumor progression occurred in 46% of the protocol group compared with 69% in the matched group and 65% in the remaining group (P<.05). Cancer-related death was noted in 40% of the protocol group, 57% in the matched group, and 56% in the remaining group.
+
+CLASSIFICATION: 

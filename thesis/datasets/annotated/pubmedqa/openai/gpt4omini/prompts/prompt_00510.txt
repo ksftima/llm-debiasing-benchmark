@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Sternal plating for primary and secondary sternal closure; can it improve sternal stability? Sternal instability with mediastinitis is a very serious complication after median sternotomy. Biomechanical studies have suggested superiority of rigid plate fixation over wire cerclage for sternal fixation. This study tests the hypothesis that sternal closure stability can be improved by adding plate fixation in a human cadaver model. Midline sternotomy was performed in 18 human cadavers. Four sternal closure techniques were tested: (1) approximation with six interrupted steel wires; (2) approximation with six interrupted cables; (3) closure 1 (wires) or 2 (cables) reinforced with a transverse sternal plate at the sixth rib; (4) Closure using 4 sternal plates alone. Intrathoracic pressure was increased in all techniques while sternal separation was measured by three pairs of sonomicrometry crystals fixed at the upper, middle and lower parts of the sternum until 2.0 mm separation was detected. Differences in displacement pressures were analyzed using repeated measures ANOVA and Regression Coefficients. Intrathoracic pressure required to cause 2.0 mm separation increased significantly from 183.3 +/- 123.9 to 301.4 +/- 204.5 in wires/cables alone vs. wires/cables plus one plate respectively, and to 355.0 +/- 210.4 in the 4 plates group (p<0.05). Regression Coefficients (95% CI) were 120 (47-194) and 142 (66-219) respectively for the plate groups.
+
+CLASSIFICATION: 

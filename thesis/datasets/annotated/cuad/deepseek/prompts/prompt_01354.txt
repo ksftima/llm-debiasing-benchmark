@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon a termination of this Agreement, Accuray shall continue to make available to Customers support services on commercially reasonable terms, including, without limitation, spare parts for the Systems for a minimum period of 10 years after the last shipment of a System pursuant to this Agreement.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Thoracic and thoracoabdominal aneurysm repair: is reimplantation of spinal cord arteries a waste of time? The impact of different strategies for management of intercostal and lumbar arteries during repair of thoracic and thoracoabdominal aortic aneurysms (TAA/A) on the prevention of paraplegia remains poorly understood. One hundred consecutive patients with intraoperative monitoring of motor evoked potentials (MEP) and somatosensory evoked potentials (SSEP) during TAA/A repair involving serial segmental artery sacrifice (October 2002 to December 2004) were reviewed. Operative mortality was 6%. The median intensive care unit stay was 2.5 days (IQ range: 1-4 days), and the median hospital stay 10.0 days (IQ range: 8-17 days). Potentials remained unchanged during the course of serial segmental artery sacrifice, or could be returned to baseline levels by anesthetic and blood pressure manipulation, in 99 of 100 cases. An average of 8.0 +/- 2.6 segmental artery pairs were sacrificed overall, with an average of 4.5 +/- 2.1 segmental pairs sacrificed between T7 and L1, where the artery of Adamkiewicz is presumed to arise. Postoperative paraplegia occurred in 2 patients. In 1, immediate paraplegia was precipitated by an intraoperative dissection, resulting in 6 hours of lower body ischemia. A second ambulatory patient had severe paraparesis albeit normal cerebral function after resuscitation from a respiratory arrest.
+
+CLASSIFICATION: 

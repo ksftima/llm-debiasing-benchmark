@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Exact shall use commercially reasonable efforts to provide six (6) month notice prior to the expiry of the Term, or in the case of termination by Pfizer under Section 8.4, within the applicable notice period in advance of the effective date of such termination, that Exact intends for Pfizer to continue providing Advertising services for the Product pursuant to Section 3.2(d).
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does para-cervical block offer additional advantages in abortion induction with gemeprost in the 2nd trimester? Uterus-specific synthetic Prostaglandin analogues (gemeprost, sulproston etc.) have been widely employed for termination of pregnancy in the second trimester. Since paracervical anaesthesia may be useful during this procedure, we investigated in this prospective randomised study its impact on the clinical course of abortion and pain especially in the late first and second stage of labour. 20 women scheduled for elective abortion (fetal reasons) between the 16th and 23rd week of gestation were to be given 1 mg gemeprost vaginally every 6 hours. They were allocated at random: 10 women received only Pethidin intravenously and Butylscopolamine rectally, another 10 women were additionally treated by paracervical anaesthesia (2 x 10 ml 0.5% Bupivacain solution) at a cervical dilatation of 2-3 cm. A median of 3 gemeprost applications were administered in both groups. In the group without paracervical anaesthesia the median induction to abortion interval was 20 hours (range: 8-44 hours), 13 hours (range: 8-36 hours, NS) resulting for the paracervical anaesthesia group. The intervals from the last application of prostaglandin until abortion and from 3 cm cervical dilatation to abortion were slightly, but not significantly shorter in the paracervical anaesthesia group. The requirement of Butylscopolamine was higher in the latter group (p<0.05). The requirement of Pethidin and the intensity of pain (measured by pain scale according to Huskisson) especially in the late first stage of labour were not statistically different between both groups. Side effects of paracervical anaesthesia did not occur.
+
+CLASSIFICATION: 

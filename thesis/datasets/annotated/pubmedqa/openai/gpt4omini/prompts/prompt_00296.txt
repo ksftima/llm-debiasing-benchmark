@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The nurse cystoscopist: a feasible option? To compare the accuracy achieved by a trained urology nurse practitioner (UNP) and consultant urologist in detecting bladder tumours during flexible cystoscopy. Eighty-three patients underwent flexible cystoscopy by both the UNP and consultant urologist, each unaware of the other's findings. Before comparing the findings, each declared whether there was tumour or any suspicious lesion requiring biopsy. Of 83 patients examined by flexible cystoscopy, 26 were found to have a tumour or a suspicious lesion. One tumour was missed by the UNP and one by the urologist; each tumour was minute. Analysis using the chance-corrected proportional agreement (Kappa) was 0.94, indicating very close agreement.
+
+CLASSIFICATION: 

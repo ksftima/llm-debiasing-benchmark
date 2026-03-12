@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Professional grants to the Company the exclusive worldwide right and license to use his name, autograph, likeness, photographs, electronic media depiction, signature and any other words, symbols or depiction's which would identify the Professional to the public in connection with the advertising, promotion, publicizing, sale and distribution of Haley apparel by the Company.
+
+CLASSIFICATION:
+ 

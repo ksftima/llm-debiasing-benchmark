@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If Monsanto (A) receives an unsolicited proposal with respect to a potential Roundup Sale and responds in any manner, other than rejecting such proposal, (B) solicits or makes a formal determination to solicit or make any proposal with respect to a potential Roundup Sale or (C) enters into an agreement relating to the provision of information with respect to a potential Roundup Sale (each a "Roundup Sale Notice Trigger"), the Agent shall have the rights as set forth in this Section 10.6 with respect to any such Roundup Sale and Monsanto shall promptly provide written notice to the Agent of such Roundup Sale as set forth<omitted>in Section 10.6(a)(ii) (a "Roundup Sale Notice").
+
+CLASSIFICATION:
+ 

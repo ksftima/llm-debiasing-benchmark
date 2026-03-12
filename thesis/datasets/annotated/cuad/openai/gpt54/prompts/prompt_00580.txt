@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Under the terms and conditions of this Agreement, VOTOCAST hereby grants to Licensee a nonexclusive, nontransferable license, to access the Services and provide Licensee's users ("Licensee Users") with access to the Services
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can increases in the cigarette tax rate be linked to cigarette retail prices? To explain China's cigarette pricing mechanism and the role of the Chinese State Tobacco Monopoly Administration (STMA) on cigarette pricing and taxation. Published government tobacco tax documentation and statistics published by the Chinese STMA are used to analyse the interrelations among industry profits, taxes and retail price of cigarettes in China. The 2009 excise tax increase on cigarettes in China has not translated into higher retail prices because the Chinese STMA used its policy authority to ensure that retail cigarette prices did not change. The government tax increase is being collected at both the producer and wholesale levels. As a result, the 2009 excise tax increase in China has resulted in higher tax revenue for the government and lower profits for the tobacco industry, with no increase in the retail price of cigarettes for consumers.
+
+CLASSIFICATION: 

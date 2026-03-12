@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Allied grants Newegg a non-exclusive, royalty-free, non-assignable, non-transferable, and non- sublicensable worldwide license to use, publicly display, transmit, broadcast, stream, distribute and reproduce the Allied Marks in all approved forms and in manners for the purposes of this Agreement during the Term.
+
+CLASSIFICATION:
+ 

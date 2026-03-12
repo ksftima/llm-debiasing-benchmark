@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Kitov hereby grants to Dexcel a fully paid, limited license right to use all of its Confidential Information and Intellectual Property Rights (including, inter alia, the Kitov Foreground IP, Kitov Data, Kitov's share of the Joint IP, and the Trademark ("Kitov Product IP")) necessary in order for Dexcel to manufacture, Label, package with the Livery, test and release the Product for shipment, exclusively for Kitov, for and during the Term.
+
+CLASSIFICATION:
+ 

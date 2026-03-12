@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+No action against Diversinet regardless of form, including negligence, arising out of any claimed breach of this Agreement or transactions under this Agreement may be brought by Reseller more than two years after the cause of action has accrued.
+
+CLASSIFICATION:
+ 

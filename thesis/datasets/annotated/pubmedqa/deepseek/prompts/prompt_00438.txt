@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is it time to reconsider lobectomy in low-risk paediatric thyroid cancer? Current guidelines recommend total thyroidectomy for nearly all children with well-differentiated thyroid cancer (WDTC). These guidelines, however, derive from older data accrued prior to current high-resolution imaging. We speculate that there is a subpopulation of children who may be adequately treated with lobectomy. Retrospective analysis of prospectively maintained database. Seventy-three children with WDTC treated between 2004 and 2015. We applied two different risk-stratification criteria to this population. First, we determined the number of patients meeting American Thyroid Association (ATA) 'low-risk' criteria, defined as disease grossly confined to the thyroid with either N0/Nx or incidental microscopic N1a disease. Second, we defined a set of 'very-low-risk' histopathological criteria, comprising unifocal tumours ≤4 cm without predefined high-risk factors, and determined the proportion of patients that met these criteria. Twenty-seven (37%) males and 46 (63%) females were included in this study, with a mean age of 13·4 years. Ipsilateral- and contralateral multifocality were identified in 27 (37·0%) and 19 (26·0%) of specimens. Thirty-seven (51%) patients had lymph node metastasis (N1a = 18/N1b = 19). Pre-operative ultrasound identified all cases with clinically significant nodal disease. Of the 73 patients, 39 (53·4%) met ATA low-risk criteria and 16 (21·9%) met 'very-low-risk' criteria. All 'very-low-risk' patients demonstrated excellent response to initial therapy without persistence/recurrence after a mean follow-up of 36·4 months.
+
+CLASSIFICATION: 

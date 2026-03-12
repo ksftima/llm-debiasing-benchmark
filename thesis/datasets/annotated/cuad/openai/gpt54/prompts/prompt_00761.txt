@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Except as set forth in Section 10.6.4 [ADVERTISING REVENUE], during the Term, VerticalNet shall not share any revenue derived from advertisements hosted on any VerticalNet Site with Neoforma; provided, however, that if Neoforma brings VerticalNet a Qualified Ad Lead (as defined below) for a new customer that turns into a sale of advertising on a VerticalNet Medical Online Community, VerticalNet shall pay to Neoforma a commission of [*] of the Net Advertising Revenue resulting from such sale of advertising.
+
+CLASSIFICATION:
+ 

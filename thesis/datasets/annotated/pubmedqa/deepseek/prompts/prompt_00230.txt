@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Fragility of the esophageal mucosa: a pathognomonic endoscopic sign of primary eosinophilic esophagitis? Primary eosinophilic esophagitis, a chronic inflammatory disorder of the esophagus, evokes recurrent dysphagia. Endoscopy is often unremarkable, and no consensus exists regarding management of resultant dysphagia. The response of a series of patients with primary eosinophilic esophagitis to dilation is reported together with a description of a possibly pathognomonic sign: fragile esophageal mucosa, for which the term "crêpe-paper" mucosa is introduced. Five men underwent endoscopy because of dysphagia confirmed (clinically, endoscopically, and histologically) to be caused by primary eosinophilic esophagitis and were treated by bouginage. All patients had extremely fragile, inelastic, and delicate mucosa, which tore easily even with minor trauma. After the procedure, patients remained asymptomatic for 3 to 24 months.
+
+CLASSIFICATION: 

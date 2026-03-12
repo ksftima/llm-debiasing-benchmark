@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I've found that men in real life are that shallow, but they are not that mean. I have many ugly male friends who date a lot and it's obvious that they chase pretty girls. They'll say things in passing like "oh a new girl arrived at work who's pretty and single which is rare". This is coming from an obese dude with a beard and I'm thinking "why does he want pretty girls", but AT LEAST he's not mean and he doesn't hate women like men online do. He doesn't think that women are "dating Chads" and stuff like that. But then again ugly guys easily trick girls into sleeping with them where I live and there's enough pretty girls to go around so maybe that's why they haven't gone full inkel yet.
+
+CLASSIFICATION:
+

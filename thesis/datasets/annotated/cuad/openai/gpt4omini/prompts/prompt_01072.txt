@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The Publishers and/or their respective independent auditors, at no expense to HealthGate, and upon twenty (20) Business Days' written notice to HealthGate, shall have the right to conduct an operational audit pertaining to the fees and the Services rendered pursuant to this Agreement, including but not limited to having HealthGate process through any system test data supplied by the Publishers and/or their respective auditors, operate audit software on any system or download Publishers' Content and/or usage statistics to a computer designated by the Publishers, and/or their respective auditors.
+
+CLASSIFICATION:
+ 

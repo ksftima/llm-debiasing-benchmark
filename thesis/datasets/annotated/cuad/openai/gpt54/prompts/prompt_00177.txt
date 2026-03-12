@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+1.1.1 WCC grants a limited, non-exclusive license to XLI to use the West Coast Customs name, image, likeness and signature, including specific West Coast Customs Trademarks (including West Coast Customs logo trademarks and approved West Coast Customs vehicle imagery and trademarks) (collectively the "Trademarks") during the term of this Agreement in connection with national, regional or local print advertising, together with Internet, television, video and on-site event advertising, only in connection with the PROMOTION, subject to all of the terms and conditions hereof.
+
+CLASSIFICATION:
+ 

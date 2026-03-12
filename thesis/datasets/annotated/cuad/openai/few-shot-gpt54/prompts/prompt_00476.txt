@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+copy and dub the Titles, and authorize any person to do the foregoing Licensee shall also have the right to make (or have made on its behalf) translations of the Titles with prior written approval by Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]; iii. promote each Title in any manner or media, including, without limitation, the right to use and license others to use Licensor's name, the title of, trailers created for and excerpts from such Title (including but not limited to audio portions only), Materials and the name, voice and likeness of and any biographical material concerning all persons appearing in or connected with such Title for the purpose of advertising, promoting and/or publicizing such Title, Licensee and the program service on which the Title is exhibited subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant] ; iv. use the Titles for (i) audience and marketing testing, (ii) sponsor/advertiser screening, and (iii) reference and file purposes, subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]; and v. include Licensee's name, trademark and logo in the Titles to identify Licensee as the exhibitor of the Titles.
+
+CLASSIFICATION:
+

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is motion perception deficit in schizophrenia a consequence of eye-tracking abnormality? Studies have shown that schizophrenia patients have motion perception deficit, which was thought to cause eye-tracking abnormality in schizophrenia. However, eye movement closely interacts with motion perception. The known eye-tracking difficulties in schizophrenia patients may interact with their motion perception. Two speed discrimination experiments were conducted in a within-subject design. In experiment 1, the stimulus duration was 150 msec to minimize the chance of eye-tracking occurrence. In experiment 2, the duration was increased to 300 msec, increasing the possibility of eye movement intrusion. Regular eye-tracking performance was evaluated in a third experiment. At 150 msec, speed discrimination thresholds did not differ between schizophrenia patients (n = 38) and control subjects (n = 33). At 300 msec, patients had significantly higher thresholds than control subjects (p = .03). Furthermore, frequencies of eye tracking during the 300 msec stimulus were significantly correlated with speed discrimination in control subjects (p = .01) but not in patients, suggesting that eye-tracking initiation may benefit control subjects but not patients. The frequency of eye tracking during speed discrimination was not significantly related to regular eye-tracking performance.
+
+CLASSIFICATION: 

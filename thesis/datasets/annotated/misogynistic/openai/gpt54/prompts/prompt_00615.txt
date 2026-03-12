@@ -1,0 +1,21 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Father died, girlfriend left me shortly afterMy dad succumbed to Covid-19; my girlfriend was with me for about a week until the grief set in and I started getting really emotional (rage/depression). I hate the reality that we have to objectify women as these incapable pieces of meat. Like, why cant my girlfriend sympathizewhy do I, after even losing my father, have to maintain this stoicism. Im fucking entitled to some emotion, im a real fucking human being. 
+
+TRP philosophy breeds success; would really appreciate some advice from the community on dealing with this grief and the deriving emotions caused by the breakup.
+
+CLASSIFICATION:
+

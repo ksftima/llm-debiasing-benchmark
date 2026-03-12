@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term hereof and for a period of two years following termination, ICC, any of their Affiliates, or any of their respective officers, directors, employees, agents, or representatives will: 8.07.1.1 knowingly and intentionally interfere in any way with the contractual relationships existing between or among any of the PHL Parties or their Affiliates (as the case may be), on the one hand, and any officer, director, employee, agent, or other representative of any of the PHL Parties or their Affiliates assigned to assist the Parties or their Affiliates in connection with the negotiation and implementation of the GIE and any Transaction Document, or the sales and marketing of the GIE ("PHL GIE Persons"), on the other; 8.07.1.2 knowingly and intentionally induce, solicit, or encourage PHL GIE Persons to terminate their respective contracts, or otherwise change their relationship, with any of the PHL Parties or their Affiliates; or 8.07.1.3 without the prior written consent of the PHL Parties, employ or otherwise contract with any PHL GIE Persons.
+
+CLASSIFICATION:
+ 

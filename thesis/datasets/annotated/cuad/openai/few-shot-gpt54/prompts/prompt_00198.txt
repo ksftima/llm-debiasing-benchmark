@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+M&I hereby grants to Customer a non-exclusive, non-transferable license, through the end of the Term, to use the source code (including the right to make modifications thereto) on the terms and conditions set forth in this Article 23, upon payment of the then current license fees and the occurrence of the following events: A. M&I ceases to do business or refuses to provide the Services to Customer; or B. A voluntary or involuntary petition is commenced by or against M&I under any federal or state bankruptcy law, or a trustee in bankruptcy fails to timely assume this Agreement as an executory contract, or a substantial part of M&I's property or assets become subject to levy or seizure by any creditor and, in the case of an involuntary petition, the same is not dismissed within sixty (60) days after filing.
+
+CLASSIFICATION:
+

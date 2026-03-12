@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Do hospitals provide lower quality care on weekends? To examine the effect of a weekend hospitalization on the timing and incidence of intensive cardiac procedures, and on subsequent expenditures, mortality and readmission rates for Medicare patients hospitalized with acute myocardial infarction (AMI). The primary data are longitudinal, administrative claims for 922,074 elderly, non-rural, fee-for-service Medicare beneficiaries hospitalized with AMI from 1989 to 1998. Annual patient-level cohorts provide information on ex ante health status, procedure use, expenditures, and health outcomes. The patient is the primary unit of analysis. I use ordinary least squares regression to estimate the effect of weekend hospitalization on rates of cardiac catheterization, angioplasty, and bypass surgery (in various time periods subsequent to the initial hospitalization), 1-year expenditures and rates of adverse health outcomes in various periods following the AMI admission. Weekend AMI patients are significantly less likely to receive immediate intensive cardiac procedures, and experience significantly higher rates of adverse health outcomes. Weekend admission leads to a 3.47 percentage point reduction in catheterization at 1 day, a 1.52 point reduction in angioplasty, and a 0.35 point reduction in by-pass surgery (p<.001 in all cases). The primary effect is delayed treatment, as weekend-weekday procedure differentials narrow over time from the initial hospitalization. Weekend patients experience a 0.38 percentage point (p<.001) increase in 1-year mortality and a 0.20 point (p<.001) increase in 1-year readmission with congestive heart failure.
+
+CLASSIFICATION: 

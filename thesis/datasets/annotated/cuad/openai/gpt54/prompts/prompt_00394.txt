@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+IGER shall have the right to use JOINT INTELLECTUAL PROPERTY and OTHER RESEARCH RESULTS (a) for the purpose of the implementation of RESEARCH PROJECTS; (b) subject to Article 3 and CERES' prior written approval, for internal research purposes and research under United Kingdom government or European Union funding in collaboration with academic institutions in the European Union, provided that CERES' approval may be conditional upon (i) CERES receiving the exclusive right (subject to Articles 5.1.2(a) and 5.2) to use and exploit commercially the results of such research in COLLABORATION CROPS, (ii) adequate safeguards to prevent unauthorized use or disclosure of JOINT INTELLECTUAL PROPERTY, OTHER RESEARCH RESULTS or results directly or indirectly based on any of the foregoing and (iii) CERES reviewing and approving the terms and conditions of any agreement governing such research activities.
+
+CLASSIFICATION:
+ 

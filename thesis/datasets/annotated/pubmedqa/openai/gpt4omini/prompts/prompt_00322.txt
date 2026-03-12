@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Artefacts in 24-h pharyngeal and oesophageal pH monitoring: is simplification of pH data analysis feasible? Ambulatory 24-h dual-channel pharyngeal and oesophageal pH monitoring is the standard test for measuring gastro-oesophageal and gastropharyngeal reflux. Artefacts caused by the intake of food may result in falsely positive gastropharyngeal reflux, which necessitates a manual review of 24-h pH data. The purpose of the study was to investigate the influence of meals and whether leaving out meals affected the reliability of the test. Patients referred for otolaryngological complaints, suspected to have been caused by gastro-oesophageal reflux, underwent 24-h dual-channel pH monitoring. The raw unprocessed pH data were corrected by visual inspection of the 24-h tracings (corrected data), by leaving out meals or meals plus a 2-h postprandrial period. The raw pH data were substantially influenced by artefacts of food intake and pseudoreflux. Data obtained by leaving out meals agreed best with manually corrected data. Many of the falsely positive reflux episodes could be removed, thereby inducing a 9%-18% chance of undetected reflux. When examining the fraction of time supine, manually corrected data and data leaving out meals were fully concordant and detected 79% of patients with gastropharyngeal reflux. However, leaving out meals plus a 2-h postprandrial period resulted in 21%-50% falsely negative tests.
+
+CLASSIFICATION: 

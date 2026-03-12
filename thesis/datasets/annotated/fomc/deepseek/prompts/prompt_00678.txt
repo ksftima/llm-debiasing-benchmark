@@ -1,0 +1,22 @@
+
+Evaluate the monetary policy stance expressed in the following statement from Federal 
+Open Market Committee (FOMC) communications.
+
+Classify the text as one of the following:
+
+    - 0 if the statement is DOVISH (suggests or indicates future monetary policy easing, 
+such as lower interest rates, concerns about slow growth, or desire to raise inflation)
+
+    - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening, 
+such as higher interest rates, concerns about inflation, or strong economic growth)
+
+    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones, 
+or is purely descriptive without clear policy implications)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+The unemployment rate is at a 50-year low, inflation is close to our 2 percent objective, gross domestic product growth is solid, and the Federal Open Market Committee's (FOMC) baseline outlook is for a continuation of this performance in 2020.2 At present, personal consumption expenditures (PCE) price inflation is running somewhat below our 2 percent objective, but we project that, under appropriate monetary policy, inflation will rise gradually to our symmetric 2 percent objective.
+
+CLASSIFICATION:

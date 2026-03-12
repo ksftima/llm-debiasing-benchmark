@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is unsafe sexual behaviour increasing among HIV-infected individuals? The number of new diagnoses of HIV infection is rising in the northwestern hemisphere and it is becoming increasingly important to understand the mechanisms behind this trend. To evaluate whether reported unsafe sexual behaviour among HIV- infected individuals is changing over time. Participants in the Swiss HIV Cohort Study were asked about their sexual practices every 6 months for 3 years during regular follow-up of the cohort beginning on 1 April 2000. : Logistic regression models were fit using generalized estimating equations assuming a constant correlation between responses from the same individual. At least one sexual behaviour questionnaire was obtained for 6545 HIV-infected individuals and the median number of questionnaires completed per individual was five. There was no evidence of an increase in reported unsafe sex over time in this population [odds ratio (OR), 1.0; 95% confidence interval (CI), 0.96-1.05]. Females (OR, 1.38; 95% CI, 1.19-1.60), 15-30 year olds (OR, 1.26; 95% CI, 1.09-1.47), those with HIV-positive partners (OR, 12.58; 95% CI, 10.84-14.07) and those with occasional partners (OR, 3.25; 95% CI, 2.87-3.67) were more likely to report unsafe sex. There was no evidence of a response bias over time, but individuals were less willing to leave questions about their sexual behaviour unanswered or ambiguous (OR, 0.93; 95% CI, 0.90-0.97).
+
+CLASSIFICATION: 

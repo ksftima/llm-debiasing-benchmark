@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the foregoing, no assignment or attempted assignment by Sponsor shall be valid except to a party which intends to continue the business of Sponsor as presently conducted.
+
+CLASSIFICATION:
+ 

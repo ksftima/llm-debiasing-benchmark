@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Chase grants Affiliate a non-exclusive, nontransferable, revocable right to (a) access the Chase site through the links solely in accordance with the terms of this Agreement and (b) solely in connection with such links, to use Chase's logos, trade names, trademarks, and similar identifying material relating to Chase (collectively, the "Licensed Materials"), for the sole purpose of booking Chase products.
+
+CLASSIFICATION:
+ 

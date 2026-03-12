@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Each Party shall obtain and maintain, for the Term (i) commercial general liability insurance with a single combined liability limit of at least $5,000,000 per occurrence, (ii) workers compensation/employer's liability insurance with a liability limit of at least $1,000,000 per occurrence or, if greater, the statutory minimum, and (iii) "all risk" property insurance on a replacement cost basis adequate to cover all assets and business interruption Losses that a Party may suffer in connection with or arising out of this Agreement, subject to policy limits, and in the case of the policies described in clause (i) above, naming the other Party as an additional insured thereunder.
+
+CLASSIFICATION:
+ 

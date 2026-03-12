@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+For the avoidance of doubt, nothing in this Agreement shall grant Village Media Company or its Affiliates the right or license to (i) any live (or near live) rights to Exploit any events or other content owned or controlled by PFHOF (e.g., Enshrinement Ceremonies), or (ii) any programming or content in connection with or related to any Enshrinement Ceremony or the Enshrinement selection process (e.g., selection meetings, voting, debates or discussions prior to or during any selection meeting, presenter speeches, discussions or events immediately after Enshrinement Ceremonies, etc.).
+
+CLASSIFICATION:
+ 

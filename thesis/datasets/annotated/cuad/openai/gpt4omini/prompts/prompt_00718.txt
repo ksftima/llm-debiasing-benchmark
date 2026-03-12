@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Commerce One's pre-existing ownership of any materials or technology provided to Corio, the results of all such development efforts set forth in this Section 13, including all intellectual property rights in any software interface coding or programs created solely by Corio during the term of this Agreement to enable the Software to operated within the Corio Servers' hosted environment ("DEVELOPMENTS"), shall be owned by Corio, unless such Developments are supported on an ongoing basis by Commerce One in which case Commerce One will retain all ownership rights, including intellectual property rights in the Developments.
+
+CLASSIFICATION:
+ 

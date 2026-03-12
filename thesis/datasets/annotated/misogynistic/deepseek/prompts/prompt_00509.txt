@@ -1,0 +1,24 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I've been following this guy for quite sometime, he mostly talks about self reliance and not to depend on employment or romanticise it, basically like the red pill when it comes to dev jobs and job hunting. 
+
+
+This isn't the first time something like this has happened to him, he is divorced (he got married at 20, he moved all the way to Finland for pussy). He's too hang up on her. 
+
+He mentions in the video he is reading a Rollo book and talking in TRP lingo so I hope he gets better and doesn't repeat the cycle.
+
+CLASSIFICATION:
+

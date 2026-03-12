@@ -1,0 +1,73 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+A weapon being used on your mind -- And what you can doDiscussed in greater detail in [my video](https://youtu.be/By8cgQaii5E).
+
+Today's generations have something no other did before.   
+
+Previous generations had access to it but it was much simpler and less damaging if abused. And you likely had to go somewhere in person to acquire it which in itself might have prevented you for fear of embarrassment.   
+
+Access to porn and what is available has become too powerful.  
+
+I remember growing up in the 90's. My friends and I stumbled upon a magazine stash at a nearby construction site. We thought we had just found gold. We each took one of the magazines home.. and guarded it like the One True Ring.   
+
+Fast forward a few years later and those same friends and I are trading floppy disks that could hold a few pictures or maybe 1-2 video clips of 3 or 4 seconds.   
+
+Then a few years later broadband internet starting coming out and was available in my neighborhoods. Back then we called it "cable internet." File sharing programs were popular for downloading MP3s but they were also gigantic repositories for adult material. You could type in a search string and click download all. A few hours later you'd have tons and tons of video material.   
+
+Then the streaming sites came and we have today's version of modern porn access.   
+
+I realize many of you might not have a problem with porn. I myself have been able to suppress my use of it. But we are here to help other men. A lot of the guys that read this site are young and might be struggling with this. I used to struggle before I knew I was struggling with it.  
+
+At this point I believe porn is a weapon being used to subdue the desires and passions of millions of men around the world. Think about it. There is a reason why Russia and China both have laws banning the production of it. These are our rivals... and they must be laughing knowing Americans and Westerners are mostly subdued by this degeneracy. Blowing their loads into tissues and draining themselves of their testosterone on a nightly basis.   
+
+As someone who has used Porn while in an LTR and then stopped using it there is a big difference in sexual pleasure once you abstain. Death Grip is real and makes real sex less pleasurable. Once you beat death grip sex will feel like losing your virginity every time. If you're not whacking it often you won't be suffering from death grip but it is real for those whacking it on a nightly basis.   
+
+And for those who think approaching women is not worth it... That's likely your opinion because you have an outlet for your desires. Take that outlet away and your sexual drive will take off like a rocket ship and you will inevitably become good at cold-approach because you will have no other choice.  
+
+There is no shame in admitting you might have a problem and there are tools that can help. Porn blocking tools exist and work in multiple ways. Of course they can't stop you on every single device you own so you'll need some discipline.  
+
+The NoFap community on this website and other places is also very helpful for support and questions.  
+
+Other men will literally jump in a cold shower in the first few days of abstaining if they must.  
+
+There is no shame if you have been a victim of this.  
+
+Again, not all of you will be in this position. You might be enjoying a good porn-laced whack every now and then and that's fine. And some of you might already know that you can whack it without porn entirely and its much healthier for you. I'm definitely not advocating for pure noFap forever. Just don't let it get out of control. Build your power and testosterone by keeping it in your balls for a week or so before release if you're by yourself.  
+
+And remember, dating use app is on the rise even on lock-down. Women are horny and alone and want a man to get in bed with them regardless of the local rules of social-distance in place.
+
+Lessons learned:  
+
+\-My opinion on Porn is that it is a tool used by rival governments to hurt the men of The West.  
+
+\-Death grip is real and comes from nightly porn use. It will prevent you from feeling maximum pleasure when having sex.  
+
+\-Daily use of Porn is hurting your motivation to speak to women and form relationships.  
+
+\-Tools exist to prevent or curb porn use and there are other methods you can do to help in the form of distracting yourself.    
+
+&#x200B;
+
+Sources: 
+
+Porn laws by country -- https://en.wikipedia.org/wiki/Pornography\_laws\_by\_region  
+
+Porn Blockers -- https://listoffreeware.com/free-porn-blocker-software-windows/  
+
+Tinder use is way up! -- https://www.foxbusiness.com/lifestyle/tinder-surpasses-bumble-okcupid-hinge-in-coronavirus-lockdown
+
+CLASSIFICATION:
+

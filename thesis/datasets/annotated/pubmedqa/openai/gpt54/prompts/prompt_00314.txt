@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+High cumulative insulin exposure: a risk factor of atherosclerosis in type 1 diabetes? Since insulin therapy might have an atherogenic effect, we studied the relationship between cumulative insulin dose and atherosclerosis in type 1 diabetes. We have focused on patients with type 1 diabetes instead of type 2 diabetes to minimise the effect of insulin resistance as a potential confounder. An observational study was performed in 215 subjects with type 1 diabetes treated with multiple insulin injection therapy. Atherosclerosis was assessed by measurement of carotid intima-media thickness (CIMT). The cumulative dose of regular insulin showed a positive and significant relation with CIMT: increase of 21 microm in CIMT per S.D. of insulin use (95% CI: 8-35 adjusted for gender and age), which remained unchanged after adjustment for duration of diabetes, HbA1c, BMI, pulse pressure, physical activity and carotid lumen diameter. A similar relation was found for intermediate-acting insulin: 15.5 microm per S.D. (2-29), which was no longer present after further adjustment.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MD Anderson hereby grants LBIO a non-exclusive, royalty free, perpetual license (with rights to sub-license) under, in and to all Background Intellectual Property that is: (a) owned by MD Anderson; (b) consists of and/or comprises the manufacturing protocol utilized by MD Anderson in the conduct of a Study; and (c) reasonably necessary to exploit (including developing, obtaining and maintaining regulatory approval for, manufacturing, or commercializing) any Invention, Study result, or Study article, or any improvement or derivative thereof, strictly limited to the Fields (collectively, the "Non-Exclusively Licensed MD Anderson Background Intellectual Property"), to the extent that such Non- Exclusively Licensed MD Anderson Background Intellectual Property does not include Third Party IP (as defined hereinafter).
+
+CLASSIFICATION:
+ 

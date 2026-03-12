@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Can PRISM predict length of PICU stay? PRISM is claimed to score disease severity which has attributed an impact on length of PICU stay (LOS). To determine the impact of PRISM on LOS, and evaluate an Artificial Neural Network's (ANN) performance to estimate LOS from PRISM item patterns. Retrospectively we performed correlation and regression analyses on routinely scored PRISM data of all consecutive admissions to our level-III PICU from 1994 to 1999 (n>2000) with individual LOS. In addition, an ANN was trained on the chronologically first 75% of those data (inputs, PRISM items + age + sex; output, LOS). The ANN's performance was tested on the remaining most recent 25% of the data sets. The Spearman and Pearson coefficients of correlation between PRISM and LOS were 0.2 (p<0.001) and 0.08 (p = 0.0003), the latter being slightly higher when LOS was logarithmically transformed. Pearson's coefficient of correlation between ANN derived LOS estimate and actual LOS was 0.21 (p<0.001) (LOS logarithmically transformed: 0.34; p<0.001) in the independent validation sample.
+
+CLASSIFICATION: 

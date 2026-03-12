@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I think attention from older men is really endearing. Why is it an insult for someone with experience to be attracted to you? Some older men know what theyre doing, what they want, what they can provide, they have stable incomes and jobs and developed hobbies and interests. This is hugely appealing to me. Someone who might have their crap together being attracted to me makes me feel awesome. Younger men can be volatile, move onto the next hot thing on the internet. Thoughts?
+
+CLASSIFICATION:
+

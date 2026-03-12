@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms and conditions hereof, Nantz Communications grants to the Company the Endorsement throughout the world during the Term in connection with the advertisement, promotion and sale by the Company of Ashworth Products except in connection with Premium Programs.
+
+CLASSIFICATION:
+ 

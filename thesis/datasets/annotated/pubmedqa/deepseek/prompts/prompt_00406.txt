@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does ultrasound-scored synovitis depend on the pharmacokinetics of subcutaneous anti-TNF agents in patients with rheumatoid arthritis? The aim of this study was to investigate the influence of the pharmacokinetics of s.c. anti-TNF agents on the grade of US-detected synovitis in RA patients. Fifty RA patients were prospectively recruited from the Biologic Therapy Unit of our hospital. Inclusion criteria were being in treatment with s.c. anti-TNF agents and having had neither changes in therapy nor local corticosteroid injections in the previous 3 months. Patients underwent clinical, laboratory [28-joint DAS (DAS28) and Simplified Disease Activity Index (SDAI)]and US assessment at two time points, i.e. at peak plasma drug concentration and at trough plasma drug concentration. US assessments were performed blindly to the anti-TNF agent, the administration time and the clinical and laboratory data. Twenty-eight joints were investigated for the presence and grade (0-3) of B-mode synovitis and synovial power Doppler signal. Global indices for B-mode synovitis (BSI) and Doppler synovitis (DSI) were calculated for 12 joints and for wrist-hand-ankle-foot joints. B-mode US remission was defined as a BSI<1 and Doppler US remission as a DSI<1. There were no significant differences between the clinical, laboratory and B-mode and Doppler US parameters at peak time and trough time (P = 0.132-0.986). There were no significant differences between the proportion of patients with active disease and those in remission according to DAS28, SDAI, B-mode US and Doppler US at peak time and trough time assessments (P = 0.070-1).
+
+CLASSIFICATION: 

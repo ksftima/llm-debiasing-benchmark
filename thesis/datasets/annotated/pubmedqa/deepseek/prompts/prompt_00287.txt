@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Search engine as a diagnostic tool in difficult immunological and allergologic cases: is Google useful? Web search engines are an important tool in communication and diffusion of knowledge. Among these, Google appears to be the most popular one: in August 2008, it accounted for 87% of all web searches in the UK, compared with Yahoo's 3.3%. Google's value as a diagnostic guide in general medicine was recently reported. The aim of this comparative cross-sectional study was to evaluate whether searching Google with disease-related terms was effective in the identification and diagnosis of complex immunological and allergic cases. Forty-five case reports were randomly selected by an independent observer from peer-reviewed medical journals. Clinical data were presented separately to three investigators, blinded to the final diagnoses. Investigator A was a Consultant with an expert knowledge in Internal Medicine and Allergy (IM&A) and basic computing skills. Investigator B was a Registrar in IM&A. Investigator C was a Research Nurse. Both Investigators B and C were familiar with computers and search engines. For every clinical case presented, each investigator independently carried out an Internet search using Google to provide a final diagnosis. Their results were then compared with the published diagnoses. Correct diagnoses were provided in 30/45 (66%) cases, 39/45 (86%) cases, and in 29/45 (64%) cases by investigator A, B, and C, respectively. All of the three investigators achieved the correct diagnosis in 19 cases (42%), and all of them failed in two cases.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+The AS Parties shall have the right, upon at least five (5) days written notice and no more than once each Contract Year of the Term to inspect MusclePharm's books and records and all other documents and material in the possession of or under the control of MusclePharm with respect to the Licensed Products at the place or places where such records are normally retained by MusclePharm
+
+CLASSIFICATION:
+ 

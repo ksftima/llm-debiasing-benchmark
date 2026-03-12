@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Upon any such exercise of the Option, Licensee and Licensor or Skunkware (as the case may be) shall proceed to diligently and in good faith negotiate and execute a definitive purchase and sale agreement for Licensor's acquisition of all of the assets of, or outstanding capital stock in, Licensor, as the case may be.
+
+CLASSIFICATION:
+ 

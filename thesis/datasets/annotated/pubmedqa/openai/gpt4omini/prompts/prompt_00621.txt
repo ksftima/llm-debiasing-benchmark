@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is coeliac disease screening in risk groups justified? The benefits of serologic screening for coeliac disease in asymptomatic individuals are debatable.AIM: To investigate dietary compliance, quality of life and bone mineral density after long-term treatment in coeliac disease patients found by screening in risk groups. The study comprised 53 consecutive screen-detected coeliac patients diagnosed 14 years (median) ago. Dietary compliance was assessed by interview, 4-day food record and serology. Quality of life was evaluated by the Psychological General Well-Being and SF-36 questionnaires, gastrointestinal symptoms by the Gastrointestinal Symptom Rating Scale and bone mineral density by dual-energy x-ray absorptiometry. Comparisons were made to 44 symptom-detected-treated coeliac patients, 110 non-coeliac subjects and the general population. A total of 96% of screen-detected and 93% of symptom-detected coeliac patients adhered to a strict or fairly strict gluten-free diet. In screen-detected patients, quality of life and gastrointestinal symptoms were similar to those in symptom-detected patients or non-coeliac controls and bone mineral density was similar to that in the general population.
+
+CLASSIFICATION: 

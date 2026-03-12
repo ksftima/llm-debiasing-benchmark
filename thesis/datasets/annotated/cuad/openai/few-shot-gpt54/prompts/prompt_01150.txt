@@ -1,0 +1,27 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+---
+
+Here is a set of examples for the task:
+
+You agree to take such action as may be necessary to cancel any assumed name or equivalent registration which contains the mark "Goosehead Insurance" Page 46 of 80 and any and all other Proprietary Marks, and/or any other service mark or trademark of ours, and you will give us evidence that we deem satisfactory to provide that you have complied with this obligation within five (5) days after termination or expiration of this Agreement.
+
+CLASSIFICATION: 0
+
+Limitations on Rights Granted: the following distribution methods are permitted: non-theatrical, public video, ship and hotel rights (all not earlier than the US theatrical release); home video rental, home video sell through, and commercial video rights (all not earlier than the US video release); cable TV (pay & free), terrestrial TV (pay & free), satellite pay TV; internet TV (pay & free), residential and non-residential pay-per-view, residential and non-residential internet pay-per-view, VOD, near VOD, and internet VOD (all no earlier than the corresponding exploitation in the USA).
+
+CLASSIFICATION: 1
+
+---
+
+Here's the clause I would like you to classify:
+
+Notwithstanding the provisions of Section 5.8, if, during the Term, (a) Harpoon or any of its Affiliates acquires, as the result of an Acquisition, rights to a Competing Product, such Acquisition, and the development, manufacture or commercialization of such Competing Product thereafter, shall not constitute a breach of Section 5.8 if Harpoon or such Affiliate, as applicable, [***]; or (b) Harpoon undergoes a Change in Control and the relevant acquirer is either then commercializing a Competing Product, or has in development any Competing Product, such Change in Control, and the commercialization (or development and subsequent commercialization, if such Competing Product receives Regulatory Approval) of such Competing Product by such relevant acquirer or any of its Affiliates, shall not constitute a breach of Section 5.8; provided that such (x) acquirer Segregates the Competing Product and (y) AbbVie shall have the right, in its sole and absolute discretion, by written notice delivered to Harpoon (or its successor) at any time during the [***] following the written notice contemplated by Section 13.2.1, to (i) terminate any or all provisions of this Agreement providing for any delivery by AbbVie to Harpoon of Confidential Information of AbbVie relating to activities contemplated by this Agreement, save only for (A) Article 6, (B) information regarding sublicenses pursuant to Section 5.3, (C) information regarding the prosecution, enforcement, defense, litigation, infringement and licensing of Patents pursuant to (1) Sections 7.2.1, 7.2.3, 7.3.1, 7.3.5, 7.4, and 7.5.2, (2) solely with respect to Joint Patents, Sections 7.2.2, 7.3.2, and 7.5.3, and (3) solely with respect to Joint Patents and Harpoon Patents, Sections 7.3.4 and 7.5.1, (D) notice of any license pursuant to Section 5.9.2, (E) safety data pursuant to Section 8.1, (F) proposed disclosures pursuant to Section 9.5, (G) communications under Section 11.4 and (H) notices pursuant to Sections 11.3 and 13.1; and (ii) disband the JGC and terminate its activities, in which case the provisions set forth in the last sentence of Section 2.3 shall apply.
+
+CLASSIFICATION:
+

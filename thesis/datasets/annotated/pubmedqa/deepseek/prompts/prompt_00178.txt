@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Menopausal hormone therapy and irregular endometrial bleeding: a potential role for uterine natural killer cells? Irregular bleeding affects many users of combined menopausal hormone therapy (HT) and commonly leads to invasive and expensive investigations to exclude underlying malignancy. In most cases no abnormality is found. The main objective of this study was to explore the role of uterine natural killer (uNK) cells and their regulatory cytokine IL-15 in irregular bleeding in HT users. This was a prospective observational study conducted between 2002 and 2004. The study was conducted in a tertiary referral menopause clinic at King Edward Memorial Hospital, Western Australia. Patients included 117 postmenopausal women taking combined HT. Outpatient endometrial biopsies were taken during and outside bleeding episodes. The relationship between endometrial uNK cells (CD56+) and bleeding patterns was measured. We also addressed the impact of HT exposure on uNK cell populations, the relationship between endometrial IL-15 expression and uNK cell populations, and killer Ig like receptor genotype in subjects with irregular bleeding. Endometrial CD56+ uNK cells were significantly increased in biopsies obtained during bleeding episodes (P<0.001), compared with HT users with no bleeding. The highest level of IL-15 expression was also seen in biopsies taken during bleeding. No clear relationship between killer Ig like receptor genotype and bleeding on HT was observed.
+
+CLASSIFICATION: 

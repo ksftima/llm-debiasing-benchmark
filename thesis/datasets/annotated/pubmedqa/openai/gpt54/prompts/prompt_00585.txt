@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Follow-up of patients with new cardiovascular implantable electronic devices: are experts' recommendations implemented in routine clinical practice? A 2008 expert consensus statement outlined the minimum frequency of follow-up of patients with cardiovascular implantable electronic devices (CIEDs). We studied 38 055 Medicare beneficiaries who received a new CIED between January 1, 2005, and June 30, 2009. The main outcome measure was variation of follow-up by patient factors and year of device implantation. We determined the number of patients who were eligible for and attended an in-person CIED follow-up visit within 2 to 12 weeks, 0 to 16 weeks, and 1 year after implantation. Among eligible patients, 42.4% had an initial in-person visit within 2 to 12 weeks. This visit was significantly more common among white patients than black patients and patients of other races (43.0% versus 36.8% versus 40.5%; P<0.001). Follow-up within 2 to 12 weeks improved from 40.3% in 2005 to 55.1% in 2009 (P<0.001 for trend). The rate of follow-up within 0 to 16 weeks was 65.1% and improved considerably from 2005 to 2009 (62.3%-79.6%; P<0.001 for trend). Within 1 year, 78.0% of the overall population had at least 1 in-person CIED follow-up visit.
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Licenses granted herein are solely for products in the form sold by the Licensee and are not to be construed either (i) as consent by the Marv to any act which may be performed by the Licensee, except to the extent impacted by a patent licensed herein to the Licensee, or (ii) to include licenses to contributorily infringe or induce infringement under U.S. law or a foreign equivalent thereof.
+
+CLASSIFICATION:
+ 

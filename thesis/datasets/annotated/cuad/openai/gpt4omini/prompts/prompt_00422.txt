@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Supplier hereby grants to Bank of America a nonexclusive, fully paid, irrevocable, royalty-free, world-wide license to use, modify, copy, produce derivative works from, display, disclose to persons who have entered into a written agreement containing substantially the same confidentiality provisions as in this Agreement for the purpose of maintaining the Software for Bank of America, and otherwise to utilize the Software and the Source Code and other materials necessary to maintain and improve the Software for use by Bank of America, subject always to the limitations In this Agreement on reproduction and use of the Software.
+
+CLASSIFICATION:
+ 

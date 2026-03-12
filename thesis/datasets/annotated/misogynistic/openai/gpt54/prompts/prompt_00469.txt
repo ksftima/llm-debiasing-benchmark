@@ -1,0 +1,19 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+This is actually quite common for aces and allos alike, But everyone is different. Theres no criteria for being ace. Just imagine yourself in a sexual situation and think about if you honestly want that to happen or not. And remember that if you choose to say you're asexual and later find out you're not, then you're just not asexual!  There's no damage done to the community by misidentifying yourself and you won't offend anyone by changing your labels. They are, after all, just labels.
+
+CLASSIFICATION:
+

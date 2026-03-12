@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+About represents, warrants and covenants that<omitted>(v) About shall not (a) hold itself out as having any proprietary rights with respect to the ebix Marks or (b) make any claim to ownership rights in the ebix Marks or challenge the ebix Marks or the registration thereof, or (c) attempt to register or cause to be registered the ebix Marks or create or use or attempt to register or cause to be registered any marks or trade names that are confusingly similar to the ebix Marks, or (d) use the ebix Marks hereunder without ebix's approval of such use.
+
+CLASSIFICATION:
+ 

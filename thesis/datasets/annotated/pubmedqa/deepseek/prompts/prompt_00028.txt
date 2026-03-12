@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is halofantrine ototoxic? Halofantrine is a newly developed antimalarial drug used for the treatment of Plasmodium falciparum malaria. The introduction of this drug has been delayed because of its possible side effects, and due to insufficient studies on adverse reactions in humans. There have been no studies investigating its effect on hearing. Thirty guinea pigs were divided into three groups: a control group, a halofantrine therapeutic dose group and a halofantrine double therapeutic dose group. One cochlea specimen from each animal was stained with haematoxylin and eosin and the other with toluidine blue. No changes were detected in the control group. The halofantrine therapeutic dose group showed loss and distortion of inner hair cells and inner phalangeal cells, and loss of spiral ganglia cells. In the halofantrine double therapeutic dose group, the inner and outer hair cells were distorted and there was loss of spiral ganglia cells.
+
+CLASSIFICATION: 

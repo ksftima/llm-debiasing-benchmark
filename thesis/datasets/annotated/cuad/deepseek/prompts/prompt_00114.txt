@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding any termination of this Agreement, any Approved Content that includes Zynga's Licensed Property may remain in perpetuity in any media in which such Licensed Property was integrated into during the Term (e.g., televised WPT Tournaments or WPT Invitational Tournaments, social media posts, repurposed integrations for "best of" television programs) or for historical purposes (e.g., reference on WPT's website that Zynga-sponsored tour events took place as part of the tour).
+
+CLASSIFICATION:
+ 

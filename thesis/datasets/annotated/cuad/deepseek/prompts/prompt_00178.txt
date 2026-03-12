@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to the terms of this Agreement, Company grants Reseller the right to use and display the Company trademarks, tradenames and other designations of source, and proprietary notices, slogans, designs and distinct advertising as may appear on any documentation or other material with respect to Product ("Marks") with prior approval, that will not be unreasonable withheld.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+VerticalNet hereby grants LeadersOnline a non-exclusive, nontransferable, royalty-free right and license for the Term of this Agreement to utilize a VerticalNet Mark in a form approved by VerticalNet for the design and display of the VerticalNet Branded Link.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Are head and neck specific quality of life measures necessary? The purpose of this study was to determine whether head and neck-specific health status domains are distinct from those assessed by general measures of quality-of-life (QOL). Cross-sectional study of 55 head and neck cancer patients in tertiary academic center was made. Three head and neck-specific measures,-including the Head&Neck Survey (H&NS); a brief, multi-item test which generates domain scores; and a general health measure,-were administered. The H&NS was highly reliable and more strongly correlated to the specific measures than to the general measure. Eating/swallowing (ES) and speech/communication (SC) were not well correlated with general health domains. Head and neck pain was highly correlated to general bodily pain (0.88, p<.0001). Despite correlations to some general health domains, appearance (AP) was not fully reflected by any other domain.
+
+CLASSIFICATION: 

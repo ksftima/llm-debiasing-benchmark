@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If BLI has Substantially Completed at least [***] ([***]) [***] Workflows within the first [***] ([***]) Contract Years, then the Minimum Cumulative Purchase Commitment as of the Contract Year (which may include a portion of a full Contract Year) that is the last Contract Year during the Term pursuant to the terms of this Agreement shall change from $109 million (as currently reflected in Table 7.2.2) to $150 million.
+
+CLASSIFICATION:
+ 

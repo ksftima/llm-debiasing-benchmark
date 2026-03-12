@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Subject to Fox's compliance with the terms and conditions of this Agreement, including its payment obligations in accordance with Section 7, Licensee hereby grants to Fox a limited, non-exclusive, non-transferable (except as permitted in Section 17(d)), right to distribute Licensee Materials (as defined in Paragraph 11 (c)) to VGSL and T-Mobile, solely as incorporated into Wireless Products, and to authorize VGSL and T-Mobile to distribute such Wireless Products to end users outside of the United States
+
+CLASSIFICATION:
+ 

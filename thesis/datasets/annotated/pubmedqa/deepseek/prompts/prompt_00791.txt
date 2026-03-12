@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Cancer of the buccal mucosa: are margins and T-stage accurate predictors of local control? Cancer of the buccal mucosa is an uncommon and aggressive neoplasm of the oral cavity. Less than 2% of patients treated for cancer of the oral cavity at Roswell Park Cancer Institute (RPCI) from 1971 to 1997 had primary buccal cancers. Because the majority of these patients did not undergo any adjuvant treatment, this group provided us with the opportunity to assess the relationship between margin status and local recurrence for both small (T1-T2) and large (T3-T4) tumors treated with surgery alone. The RPCI tumor registry database reported 104 patients who were treated for buccal carcinoma. A retrospective chart review identified 27 patients who met our criteria for a buccal mucosal primary tumor (epicenter of the mass in the buccal mucosa). There were 13 men and 14 women, ranging in age from 34 to 94 years (mean, 75). Data were collected regarding patient demographics, presenting symptoms, stage, treatment received, and outcome. All patients underwent surgical resection of their primary lesion; 21 (75%) had T1 or T2 tumors. The rate of local recurrence was 56% for the group as a whole. Patients with close or positive margins had a 66% local failure rate as compared with 52% when surgical margins were negative (greater than or equal to 5 mm from the resection margin after tissue fixation; P = ns). Among those in whom negative margins were achieved, patients with T1-T2 disease had a 40% local failure rate with surgical resection alone.
+
+CLASSIFICATION: 

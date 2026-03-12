@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Accordingly, (i) with respect to RemainCo's right and interest in and to the Foundational Software, RemainCo, for itself and as representative of all other members of the RemainCo Group, hereby grants to SpinCo (x) a perpetual, irrevocable, exclusive, royalty-free, worldwide right and license to use the Foundational Software, including any Intellectual Property embodied therein, for the continued operation of the SpinCo Business and any future extensions of the SpinCo Business in the SpinCo Core Field and (y) a perpetual, irrevocable, non-exclusive, royalty-free, worldwide right and license to use the Foundational Software, including any Intellectual Property embodied therein, for the continued operation of the SpinCo Business and any future extensions of the SpinCo Business in any field other than the SpinCo Core Field or the RemainCo Core Field; and (ii) with respect to SpinCo's right and interest in and to the Foundational Software, SpinCo, for itself and as representative of all other members<omitted>of the SpinCo Group, hereby grants to RemainCo (x) a perpetual, irrevocable, exclusive, royalty-free, worldwide right and license to use the Foundational Software, including any Intellectual Property embodied therein, for the continued operation of the RemainCo Business and any future extensions of the RemainCo Business in the RemainCo Core Field and (y) a perpetual, irrevocable, non-exclusive, royalty-free, worldwide right and license to use the Foundational Software, including any Intellectual Property embodied therein, for the continued operation of the RemainCo Business and any future extensions of the RemainCo Business in any field other than the SpinCo Core Field or the RemainCo Core Field.
+
+CLASSIFICATION:
+ 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Such license is granted solely in connection with ALFA AESAR's rights and obligations under this Agreement and, in particular, for the purpose of licensing ALFA AESAR to use the NTC Trademarks in ALFA AESAR's marketing, sales and distribution materials relative to the Products, including without limitation on the ALFA AESAR's Web site as a link/navigational button to the NTC Web site as posted by NTC.
+
+CLASSIFICATION:
+ 

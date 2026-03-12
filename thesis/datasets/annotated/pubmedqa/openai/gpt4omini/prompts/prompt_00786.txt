@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+CYP2D6*4 allele and breast cancer risk: is there any association? CYP2D6 is an important cytochrome P450 enzyme. These enzymes catalyse the oxidative biotransformation of about 25% of clinically important drugs as well as the metabolism of numerous environmental chemical carcinogens. The most frequent null allele of CYP2D6 in European populations, CYP2D6*4, has been studied here in order to elucidate whether a relationship exists between this allele and the risk of developing breast cancer in a Spanish population. Ninety-six breast cancer Spanish patients and one hundred healthy female volunteers were genotyped for the CYP2D6*4 allele using AmpliChip CYP450 Test technology. Homozygous CYP2D6*4 frequency was significant lower in breast cancer patients than in the control group (OR=0.22, p=0.04). The heterozygous CYP2D6*4 group also displayed lower values in patients than in controls but the difference was not significant (OR=0.698, p=0.28). Therefore, the presence of the CYP2D6*4 allele seems to decrease susceptibility to breast carcinoma in the selected population.
+
+CLASSIFICATION: 

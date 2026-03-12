@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is there any interest to perform ultrasonography in boys with undescended testis? To evaluate the accuracy of ultrasonographic examination in boys with an undescended testis. All patients who were referred to the paediatric surgeon after detection of an undescended testis were evaluated prospectively between November 2001 and November 2004. Among these 377 patients, 87 were referred with an ultrasonogram previously prescribed by the referring primary physician. The results of the ultrasonogram were compared to the results of the clinical examination of the paediatric surgeon and, in cases of no palpable testis, to the surgical findings. Ultrasonography did not detect the retractile testes. Ultrasonography detected 67% of the palpable undescended testes. In cases of no palpable testis, the ultrasonographic examination missed the abdominal testes and sometimes other structures were falsely interpreted as a testis.
+
+CLASSIFICATION: 

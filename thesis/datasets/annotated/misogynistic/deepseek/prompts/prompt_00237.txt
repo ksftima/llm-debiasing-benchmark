@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Dudes.....we now have video camera's that can be hidden or worn as glasses (for those that already wear them, most people won't notice).
+
+Check your local laws for video and then use them to document the bullshit happening with these women.   Put camera's in your house and by your door and driveway, etc. to record the fucking lies happening from her side....it might literally save your life one day.
+
+There are many posts on there of guys using camera's to get out of really bad false accusations.
+
+This is the kind of advice more men should read and take and it should be posted here when it's used effectively.
+
+MGTOW for LIFE!
+
+PS - Johnny Depp DID use video to boost his case against this crazy bitch he is divorcing.
+
+CLASSIFICATION:
+

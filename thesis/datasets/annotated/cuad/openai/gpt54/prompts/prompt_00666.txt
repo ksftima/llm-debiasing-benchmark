@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+If CERES informs IGER in writing that CERES is planning to commercialize the LICENSED VARIETY in all or part of the COUNTRY, directly or indirectly (whether or not through the third party identified by IGER), and CERES has not taken reasonable steps towards the implementation of such commercialization within two (2) years after so informing IGER, unless CERES informs IGER of REASONABLE GROUNDS for its failure or delay<omitted>to implement commercialization plans, IGER will be granted a non-exclusive license with the right to grant sublicenses to test, produce and sell the LICENSED VARIETY in the COUNTRY.
+
+CLASSIFICATION:
+ 

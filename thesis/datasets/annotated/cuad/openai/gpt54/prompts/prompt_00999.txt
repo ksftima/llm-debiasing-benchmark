@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+MacroGenics may terminate this Agreement immediately upon written notice to Green Cross in the event Green Cross or any of its Affiliates: (a) directly or indirectly oppose, or assist any Third Party to oppose, in any patent office proceeding, the grant of any patent or patent application within the MacroGenics Licensed Patents, or, in any patent office proceeding, dispute or directly or indirectly assist any Third Party to dispute, the validity of any patent within the MacroGenics Licensed Patents or any of the claims thereof, including opposing any application for amendment thereto;<omitted>(b) directly or indirectly oppose, or assist any Third Party to oppose, in any court proceeding, the grant of any patent or patent application within the MacroGenics Licensed Patents, or, in any court proceeding, dispute or directly or indirectly assist any Third Party to dispute, the validity of any patent within the MacroGenics Licensed Patents or any of the claims thereof; or (c) bring any claim or proceedings of whatever nature in relation to the MacroGenics Licensed Patents against MacroGenics and/or any of MacroGenics' Affiliates (or in respect of the foregoing their directors and officers) in respect of any activities carried out by them under any MacroGenics Licensed Patents which may be the subject of a Valid Claim of the MacroGenics Licensed Patents.
+
+CLASSIFICATION:
+ 

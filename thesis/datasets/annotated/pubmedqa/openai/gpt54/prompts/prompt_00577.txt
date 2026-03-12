@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Thrombosis prophylaxis in hospitalised medical patients: does prophylaxis in all patients make sense? Most studies on thrombosis prophylaxis focus on postoperative venous thrombosis. In medical wards thrombosis prophylaxis is generally restricted to patients who are immobilised. Our primary aim was to investigate the incidence of venous thrombosis in a general internal ward, to assess whether more rigorous prophylaxis would be feasible. We investigated the incidence of venous thrombosis in patients hospitalised from 1992 to 1996 and related our findings to literature reports. The incidence of symptomatic venous thrombosis in internal patients during hospitalisation was 39/6332 (0.6%). Among these 39 patients, 24 had a malignancy, whereas 876 out of all 6332 patients had a known malignancy. So, the incidence in this group with cancer was 2.7% compared with 0.3% (15/5456) in the non-cancer group (relative risk for venous thrombosis due to malignancy was 10.0 (95%C.I. 5.3-18.9).
+
+CLASSIFICATION: 

@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Vericel shall have the right from time to time during the Term of this Agreement, but not more than [***] (unless (i) otherwise agreed between the Parties or (ii) if Section 3.4(b) below applies) during normal business hours and upon not less than [***] prior notice (unless Section 3.4(b)(iv) applies), to enter and inspect any Facility and any related utilities and/or services used in Manufacturing Product in order to carry out a cGMP quality and compliance audit of those parts of the Facility involved in or which could have any impact on Manufacture of such Product (including those used for storing, warehousing and/or testing and utilities), including for the purpose of confirming that no types of product which could reasonably be expected to impact the quality of the Product are being manufactured on site in deviation of cGMP.
+
+CLASSIFICATION:
+ 

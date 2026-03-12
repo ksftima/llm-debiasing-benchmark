@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+SONY, on behalf of itself and its Affiliates, hereby grants to PURCHASER a worldwide, non-exclusive, fully paid-up, royalty-free license (a) under the Licensed Patents to make, have made, use, offer to sell, sell, otherwise dispose of, and import any Competing Products (including, without limitation, the SRAM Products); and (b) to use, reproduce, modify, prepare derivative works of, perform, display, and otherwise practice and exploit in any manner any and all of the SRAM Intellectual Property in connection with the use and exploitation of the<omitted>Transferred Assets, and to make, have made, use, offer to sell, sell, otherwise dispose of, and import Competing Products (including, without limitation, SRAM Products).
+
+CLASSIFICATION:
+ 

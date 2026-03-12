@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+"TERRITORY" means, for the purposes of USING the SOFTWARE, all countries in. AFRICA;<omitted>Subject to the provisions of this AGREEMENT, and with effect from the date when the party signing last in time appends its signature to this agreement ("the effective date"), and enduring in perpetuity unless terminated as provided for elsewhere in this AGREEMENT, SAP AFRICA grants, and TELKOM accepts a non-exclusive, non-transferable licence to USE the SOFTWARE, DOCUMENTATION and other SAP AFRICA PROPRIETARY INFORMATION at the specified DESIGNATED SITE within the TERRITORY.
+
+CLASSIFICATION:
+ 

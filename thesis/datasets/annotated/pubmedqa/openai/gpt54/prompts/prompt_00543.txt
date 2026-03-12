@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Does early migraine treatment shorten time to headache peak and reduce its severity? To explore whether early treatment would shorten the duration of headache from headache onset to its peak and reduce headache severity at peak. Prior clinical studies almost exclusively focused on headache relief after dosing. No data are available on whether early intervention affects the duration from headache onset to peak and headache severity at peak. Adult migraineurs were enrolled in this observational study from multi-site headache clinics. Patients recorded their migraine experiences via an electronic diary over 1 month. Patients reported the time and pain severity at onset, dosing, and peak. We used a linear mixed model to evaluate the impact of the timing of treatment and to adjust for covariates and correlation of observations within subjects. A total of 182 patients reported 970 migraine episodes, 620 of which were treated before headaches progressed to peak. Mean time from headache onset to peak varied from 1.9 hours to 8.9 hours for patients treated within 15 minutes of onset and those who waited for 4 or more hours, respectively. However, early intervention was not associated with reduced headache severity at peak. In multivariate analysis, early treatment, use of triptans, and mild migraine headache in the past 3 months were significantly associated with shorter time from onset to headache peak. A separate model indicated that the timing of medication was not associated with the duration between dosing and headache peak, but use of triptans shortened the time from dosing to headache peak.
+
+CLASSIFICATION: 

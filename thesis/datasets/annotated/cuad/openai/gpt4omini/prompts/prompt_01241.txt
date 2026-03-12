@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Certegy hereby grants, and will cause the other members of the Certegy Group to grant, to Equifax a fully paid, non-exclusive, perpetual, worldwide, non-transferable license to use, modify, copy, improve, create Derivative Works and Equifax Enhancements from, and sublicense the Licensed Certegy Materials (excluding the Utility Software Programs) solely for use in the Equifax Business and as that business may evolve and change in the future, subject to the following: (i) Equifax shall not sublicense, or otherwise disclose or distribute, or permit any Person to use, the Licensed Certegy Materials (excluding the Utility Software Programs), except in accordance with Section 4.4(b); (ii) Equifax shall hold the Licensed Certegy Materials (excluding the Utility Software Programs) in strict confidence; will not remove or destroy any proprietary markings of the Certegy Group on or contained in the Licensed Certegy Materials (excluding the Utility Software Programs); and will include the copyright and patent notices of the licensor as specified from time to time by the licensor for the Licensed Certegy Materials (excluding the Utility Software Programs) on and in all copies of the Licensed Certegy Materials (excluding the Utility Software Programs); (iii) Equifax shall not export or re-export the Licensed Certegy Materials (excluding the Utility Software Programs) without the appropriate United States or foreign government license; and (iv) all sublicenses from Equifax to members of the Equifax Group (A) shall contain the rights and restrictions set forth in this Section 4.4(a) with respect to the license granted to Equifax and comply with Sections 4.4(b) through (d) hereof and (B) shall
+
+CLASSIFICATION:
+ 

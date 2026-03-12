@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Following the signing of this Agreement, FG agrees to negotiate in good faith with Astellas for a license to develop compounds for the Expanded Field in the Astellas Territory, exclusively for a period of [ * ] following such date, and non- exclusively thereafter until the execution of a license agreement with a third party to develop compounds for the Expanded Field.
+
+CLASSIFICATION:
+ 

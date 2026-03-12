@@ -1,0 +1,29 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+I can't watch all of this through, but I skimmed it and the last point at which he should have just broken all contact and moved on was once he had confirmation of her flight.  **The.LAST.point.**  There were red flags before that.  But he should have hard nexted both of them at that point and moved on.
+
+**If you are in a live-in situation - don't be - but if you are, and she moves out?  It's basically over, except for the denouement.**
+
+The "friend" is NOT a friend.  *"It's nothing sexual."*  Bullshit.  His penis is "friends" with her vagina.
+
+This guy is WAAAAAAY too invested in keeping her, and SIMPing her onto a pedestal.  Are they Mormons?  I see SLC, and Mormons really push the "Disney" on themselves.  
+
+Evidently this is a year after the events, and this dude is WAAAAAAY too stuck on this situation.  This is what the Blue Pill does to you.  These two shitheads are living in his head, rent-free.
+
+**Lessons He Should Have (But Did Not) Learn:**  She's not yours, it's just your turn.  Once it's over, drop her and move on.  Also, if he was maintaining sexual relationships with multiple women, none of this would be a problem.
+
+CLASSIFICATION:
+

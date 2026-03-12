@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Measurement of head and neck paragangliomas: is volumetric analysis worth the effort? The aim of this study was to assess the reproducibility of different measurement methods and define the most workable technique for measuring head and neck paragangliomas, to determine the best method for evaluating tumour growth. The evaluation of tumour growth is vital for a 'wait-and-scan' policy, a management strategy that became increasingly important. Method comparison study. Thirty tumours, including carotid body, vagal body, jugulotympanic tumours and conglomerates of multiple tumours, were measured in duplicate, using linear dimensions, manual area tracing and an automated segmentation method. Reproducibility was assessed using the Bland-Altman method. The smallest detectable difference using the linear dimension method was 11% for carotid body and 27% for vagal body tumours, compared with 17% and 20% for the manual area tracing method. Due to the irregular shape of paragangliomas in the temporal bone and conglomerates, the manual area tracing method showed better results in these tumours (26% and 8% versus 54% and 47%). The linear dimension method was significantly faster (median 4.27 versus 18.46 minutes, P<0.001). The automatic segmentation method yielded smallest detectable differences between 39% and 75%, and although fast (2.19 ± 1.49 minutes), it failed technically.
+
+CLASSIFICATION: 

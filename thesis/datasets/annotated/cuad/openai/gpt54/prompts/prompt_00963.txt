@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Any audit with respect to amounts payable by either party to the other party under this Agreement shall be limited to an audit with respect to amounts to be paid in the current calendar year and immediately preceding calendar year only.
+
+CLASSIFICATION:
+ 

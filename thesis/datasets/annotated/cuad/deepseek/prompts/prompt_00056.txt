@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+To the extent that certain components of the Software may be downloaded to Customer's or User's computer as a result of accessing the Software as part of the Hosting Services, eGain grants Customers a non-exclusive, non-transferable, limited license, with right to sublicense solely to Users, to use such Software only in connection with the Hosting Services.
+
+CLASSIFICATION:
+ 

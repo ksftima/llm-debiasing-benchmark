@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+During the term of this agreement NVOS shall have the right to assign, transfer or sell all or part of its interest in the agreement upon the terms and conditions herein, subject only to prior written notice to HGF.
+
+CLASSIFICATION:
+ 

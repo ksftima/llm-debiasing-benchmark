@@ -1,0 +1,25 @@
+
+Evaluate whether the following online post expresses misogynistic content.
+Misogynistic content includes text that expresses hatred, hostility, prejudice, 
+or discrimination against women as a group, or promotes harmful stereotypes and derogatory attitudes toward women.
+
+Classify the text as one of the following:
+    - 0 if the text is NOT misogynistic (neutral discussion, general content, 
+    or respectful commentary about gender)
+    - 1 if the text IS misogynistic (expresses hatred, prejudice, discrimination, 
+    or derogatory attitudes toward women)
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+It's pretty satisfying. Girl told me she "wanted to slow things down" but still continue to see each other.
+
+(we were just FWB's at the time. Nothing more. It was simply an effort by her to make a power-grab)
+
+I just agreed in the moment and then blew her off for about a month. Let the hamster run in its little wheel.
+
+Then, a month after the conversation she came back literally begging to hook up again. Got to straight up tell her no. So satisfying knowing that whole month she was dying for validation.
+
+CLASSIFICATION:
+

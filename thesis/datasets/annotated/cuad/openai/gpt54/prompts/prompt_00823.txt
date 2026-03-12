@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+Notwithstanding any provision to the contrary contained herein, unless earlier terminated by either party, this Agreement shall expire on ______, 20___, and all rights of Developer herein shall cease and all unapplied or unused Development Fees paid pursuant to Section 3 hereof shall be forfeited to Franchisor.
+
+CLASSIFICATION:
+ 

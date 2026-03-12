@@ -1,0 +1,13 @@
+
+Classify the following contract clauses as either:
+    - 0 if the clause DOES NOT include a license grant
+    - 1 if the clause DOES include a license grant
+
+Give no other explanation for your classification, only output the label.
+
+Here's the clause I would like you to classify:
+
+World Book further grants HSWI the right to sub-license the Content, Images and Affinities to users of the HSWI Websites to view, to store, and to make reasonable copies of the Content, Images and Affinities to use such Content, Images and Affinities for non-commercial, private purposes, provided that HSWI sets forth the limited terms of such sublicense in writing in the HSWI Websites' terms and conditions.
+
+CLASSIFICATION:
+ 

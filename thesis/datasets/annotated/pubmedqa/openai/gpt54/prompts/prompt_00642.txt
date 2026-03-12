@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Is Aspiration Thrombectomy Beneficial in Patients Undergoing Primary Percutaneous Coronary Intervention? It is unclear whether intravenous glycoprotein IIb/IIIa inhibitors or ischemic time might modify any clinical benefits observed with aspiration thrombectomy before primary percutaneous coronary intervention (PCI) in patients with ST-segment-elevation myocardial infarction. Electronic databases were searched for trials that randomized ST-segment-elevation myocardial infarction patients to aspiration thrombectomy before PCI versus conventional PCI. Summary estimates were constructed using a DerSimonian-Laird model. Seventeen trials with 20 960 patients were available for analysis. When compared with conventional PCI, aspiration thrombectomy was not associated with a significant reduction in the risk of mortality 2.8% versus 3.2% (risk ratio [RR], 0.89; 95% confidence interval [CI], 0.76-1.04; P=0.13), reinfarction 1.3% versus 1.4% (RR, 0.93; 95% CI, 0.73-1.17; P=0.52), the combined outcome of mortality or reinfarction 4.1% versus 4.6% (RR, 0.90; 95% CI, 0.79-1.02; P=0.11), or stent thrombosis 0.9% versus 1.2% (RR, 0.82; 95% CI, 0.62-1.08; P=0.15). Aspiration thrombectomy was associated with a nonsignificant increase in the risk of stroke 0.6% versus 0.4% (RR, 1.45; 95% CI, 0.96-2.21; P=0.08). Meta-regression analysis did not identify a difference for the log RR of mortality, reinfarction, and the combined outcome of mortality or reinfarction with intravenous glycoprotein IIb/IIIa inhibitors (P=0.17, 0.70, and 0.50, respectively) or with ischemic time (P=0.29, 0.66, and 0.58, respectively).
+
+CLASSIFICATION: 

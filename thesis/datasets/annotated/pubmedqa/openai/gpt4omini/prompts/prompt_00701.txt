@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Pancreas retransplantation:  a second chance for diabetic patients? If pancreas transplantation is a validated alternative for type 1 diabetic patients with end-stage renal disease, the management of patients who have lost their primary graft is poorly defined. This study aims at evaluating pancreas retransplantation outcome. Between 1976 and 2008, 569 pancreas transplantations were performed in Lyon and Geneva, including 37 second transplantations. Second graft survival was compared with primary graft survival of the same patients and the whole population. Predictive factors of second graft survival were sought. Patient survival and impact on kidney graft function and survival were evaluated. Second pancreas survival of the 17 patients transplanted from 1995 was close to primary graft survival of the whole population (71% vs. 79% at 1 year and 59% vs. 69% at 5 years; P=0.5075) and significantly better than their first pancreas survival (71% vs. 29% at 1 year and 59% vs. 7% at 5 years; P=0.0008) regardless of the cause of first pancreas loss. The same results were observed with all 37 retransplantations. Survival of second simultaneous pancreas and kidney transplantations was better than survival of second pancreas after kidney. Patient survival was excellent (89% at 5 years). Pancreas retransplantation had no impact on kidney graft function and survival (100% at 5 years).
+
+CLASSIFICATION: 

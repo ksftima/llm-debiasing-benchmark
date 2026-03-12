@@ -1,0 +1,17 @@
+
+Evaluate whether the following biomedical text adequately answers the question 
+posed at its beginning.
+
+Classify the text as one of the following:
+
+    - 0 if the text does NOT provide a clear answer to the question
+    - 1 if the text DOES provide a clear and direct answer to the question  
+    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+
+Give no other explanation for your classification, only output the label.
+
+Here's the text I would like you to classify:
+
+Serovar specific immunity to Neisseria gonorrhoeae: does it exist? To determine whether the host immune response to gonorrhoea provides limited serovar specific protection from reinfection. 508 episodes of gonorrhoea diagnosed at a city centre genitourinary medicine clinic including 22 patients with multiple infections over a 4 year period. Patients with recurrent gonococcal infection were analysed with respect to the initial and subsequent serovars isolated. No significant difference was seen in the prevalence of serovars isolated following a repeat infection compared with those without repeat infections. The site of the initial infection did not appear to influence the subsequent serovar isolated.
+
+CLASSIFICATION: 
