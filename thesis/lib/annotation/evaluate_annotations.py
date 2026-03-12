@@ -47,6 +47,10 @@ DATASETS = {
     "fomc (mistral)":                 Path("thesis/annotations/fomc/fomc_mistral_annotated.csv"),
     "pubmedqa (mistral)":             Path("thesis/annotations/pubmedqa/pubmedqa_mistral_annotated.csv"),
     "cuad (mistral)":                 Path("thesis/annotations/cuad/cuad_mistral_annotated.csv"),
+    "fomc (llama)":                   Path("thesis/annotations/fomc/fomc_llama_annotated.csv"),
+    "pubmedqa (llama)":               Path("thesis/annotations/pubmedqa/pubmedqa_llama_annotated.csv"),
+    "cuad (llama)":                   Path("thesis/annotations/cuad/cuad_llama_annotated.csv"),
+    "misogynistic (llama)":           Path("thesis/annotations/misogynistic/misogynistic_llama_annotated.csv"),
 }
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
