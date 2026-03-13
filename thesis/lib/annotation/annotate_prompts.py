@@ -59,14 +59,12 @@ CLASSIFICATION:
 
 def pubmedqa_prompt(text, examples):
     return f"""
-Evaluate whether the following biomedical text adequately answers the question
-posed at its beginning.
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
 
-Classify the text as one of the following:
-
-    - 0 if the text does NOT provide a clear answer to the question
-    - 1 if the text DOES provide a clear and direct answer to the question
-    - 2 if the text provides a partial, uncertain, or ambiguous answer to the question
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
 
 Give no other explanation for your classification, only output the label.
 
