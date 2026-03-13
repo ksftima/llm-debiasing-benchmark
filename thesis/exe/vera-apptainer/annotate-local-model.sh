@@ -62,7 +62,7 @@ apptainer exec --nv \
     ${CONTAINER_PATH} \
     python3 /code/thesis/lib/annotation/annotate_local_model.py \
         "$DATASET" \
-        "/code/thesis/datasets/parsed/${DATASET}.csv" \
+        "/code/thesis/datasets/parsed/parsed_scaled_datasets/${DATASET}.csv" \
         "/code/thesis/datasets/annotated/${DATASET}/local/${MODEL_NAME}" \
         --model "$MODEL" \
         --num_examples "$NUM_EXAMPLES" \
