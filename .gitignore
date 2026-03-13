@@ -26,3 +26,7 @@ lib/dsl_use.egg-info
 correlations.csv
 *.sif
 .env
+pyvenv.cfg
+thesis/bin/
+thesis/include/
+thesis/lib/python3.13/
