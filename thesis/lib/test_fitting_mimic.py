@@ -85,22 +85,23 @@ def run_one(args):
     return coeffs_all, coeffs_exp, coeffs_ppi, coeffs_dsl
 
 
-# ─── RMSE (computed per rep, then averaged across reps) ─────────────────────
+# ─── sRMSE (standardized, per rep, then averaged across reps) ───────────────
 
-def compute_rmse(coeffs_all_reps, coeffs_method_reps):
+def compute_srmse(coeffs_all_reps, coeffs_method_reps):
     """
-    coeffs_all_reps:    (NUM_REPS, NUM_COEFFS) - upper bound per rep
+    coeffs_all_reps:    (NUM_REPS, NUM_COEFFS) - reference per rep
     coeffs_method_reps: (NUM_REPS, NUM_COEFFS) - method per rep
 
-    Returns mean RMSE and 95% CI across reps.
+    Standardized RMSE: each coefficient error is divided by the reference
+    coefficient value (matching the paper's sRMSE definition).
+    Returns mean sRMSE and 2-sigma CI across reps.
     """
-    # RMSE per rep: scalar per repetition
-    rmse_per_rep = np.sqrt(np.mean((coeffs_all_reps - coeffs_method_reps) ** 2, axis=1))
+    srmse_per_rep = np.sqrt(np.mean(((coeffs_all_reps - coeffs_method_reps) / coeffs_all_reps) ** 2, axis=1))
 
-    mean_rmse = np.mean(rmse_per_rep)
-    se = np.std(rmse_per_rep) / np.sqrt(len(rmse_per_rep))
+    mean_srmse = np.mean(srmse_per_rep)
+    se = np.std(srmse_per_rep) / np.sqrt(len(srmse_per_rep))
 
-    return mean_rmse, mean_rmse - 2 * se, mean_rmse + 2 * se
+    return mean_srmse, mean_srmse - 2 * se, mean_srmse + 2 * se
 
 
 # ─── Simulation ──────────────────────────────────────────────────────────────
@@ -111,9 +112,11 @@ PREDICTION_ACCURACY = 0.9
 NUM_EXPERT_SAMPLES = np.array([200, 500, 1000, 2000, 3000])
 NUM_WORKERS = 32
 
-rmse_exp, lower_exp, upper_exp = [], [], []
-rmse_ppi, lower_ppi, upper_ppi = [], [], []
-rmse_dsl, lower_dsl, upper_dsl = [], [], []
+srmse_exp, lower_exp, upper_exp = [], [], []
+srmse_ppi, lower_ppi, upper_ppi = [], [], []
+srmse_dsl, lower_dsl, upper_dsl = [], [], []
+
+all_rep_all, all_rep_exp, all_rep_ppi, all_rep_dsl = [], [], [], []
 
 for n_expert in NUM_EXPERT_SAMPLES:
     print(f"\nRunning n_expert={n_expert} ({NUM_REPS} reps, {NUM_WORKERS} workers)...")
@@ -127,16 +130,39 @@ for n_expert in NUM_EXPERT_SAMPLES:
     rep_ppi = np.array([r[2] for r in results])
     rep_dsl = np.array([r[3] for r in results])
 
-    m, lo, hi = compute_rmse(rep_all, rep_exp)
-    rmse_exp.append(m); lower_exp.append(lo); upper_exp.append(hi)
+    all_rep_all.append(rep_all)
+    all_rep_exp.append(rep_exp)
+    all_rep_ppi.append(rep_ppi)
+    all_rep_dsl.append(rep_dsl)
 
-    m, lo, hi = compute_rmse(rep_all, rep_ppi)
-    rmse_ppi.append(m); lower_ppi.append(lo); upper_ppi.append(hi)
+    m, lo, hi = compute_srmse(rep_all, rep_exp)
+    srmse_exp.append(m); lower_exp.append(lo); upper_exp.append(hi)
 
-    m, lo, hi = compute_rmse(rep_all, rep_dsl)
-    rmse_dsl.append(m); lower_dsl.append(lo); upper_dsl.append(hi)
+    m, lo, hi = compute_srmse(rep_all, rep_ppi)
+    srmse_ppi.append(m); lower_ppi.append(lo); upper_ppi.append(hi)
 
-    print(f"  Done. RMSE — Expert: {rmse_exp[-1]:.4f}, PPI: {rmse_ppi[-1]:.4f}, DSL: {rmse_dsl[-1]:.4f}")
+    m, lo, hi = compute_srmse(rep_all, rep_dsl)
+    srmse_dsl.append(m); lower_dsl.append(lo); upper_dsl.append(hi)
+
+    print(f"  Done. sRMSE — Expert: {srmse_exp[-1]:.4f}, PPI: {srmse_ppi[-1]:.4f}, DSL: {srmse_dsl[-1]:.4f}")
+
+
+# ─── Save raw coefficients ───────────────────────────────────────────────────
+
+output_dir = Path(__file__).parent.parent / "results"
+output_dir.mkdir(exist_ok=True, parents=True)
+results_path = output_dir / "test_fitting_mimic_results.npz"
+
+np.savez(
+    results_path,
+    coeffs_all=np.array(all_rep_all),   # (NUM_N_EXPERT, NUM_REPS, NUM_COEFFS)
+    coeffs_exp=np.array(all_rep_exp),
+    coeffs_ppi=np.array(all_rep_ppi),
+    coeffs_dsl=np.array(all_rep_dsl),
+    num_expert_samples=NUM_EXPERT_SAMPLES,
+    N=np.array(N),
+)
+print(f"\nRaw coefficients saved to: {results_path}")
 
 
 # ─── Plot ─────────────────────────────────────────────────────────────────────
@@ -145,27 +171,25 @@ fig, ax = plt.subplots(figsize=(10, 6))
 colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
 X_ticks = np.arange(len(NUM_EXPERT_SAMPLES))
 
-for label, rmse, lower, upper, color in [
-    ("Expert-only", rmse_exp, lower_exp, upper_exp, colors[0]),
-    ("PPI",         rmse_ppi, lower_ppi, upper_ppi, colors[1]),
-    ("DSL",         rmse_dsl, lower_dsl, upper_dsl, colors[2]),
+for label, srmse, lower, upper, color in [
+    ("Expert-only", srmse_exp, lower_exp, upper_exp, colors[0]),
+    ("PPI",         srmse_ppi, lower_ppi, upper_ppi, colors[1]),
+    ("DSL",         srmse_dsl, lower_dsl, upper_dsl, colors[2]),
 ]:
     ax.fill_between(X_ticks, np.array(lower), np.array(upper), color=color, alpha=0.2, linewidth=0)
-    ax.plot(X_ticks, np.array(rmse), "o-", color=color, label=label)
+    ax.plot(X_ticks, np.array(srmse), "o-", color=color, label=label)
 
 ax.set_xticks(X_ticks)
 ax.set_xticklabels([str(n) for n in NUM_EXPERT_SAMPLES], rotation=45)
 ax.set_xlabel("Number of Expert Samples")
-ax.set_ylabel("RMSE (averaged across repetitions)")
-ax.set_title("Simulation: RMSE vs Number of Expert Samples")
+ax.set_ylabel("sRMSE (standardized, averaged across repetitions)")
+ax.set_title("Simulation: sRMSE vs Number of Expert Samples")
 ax.legend()
 ax.grid(True, alpha=0.3)
 fig.tight_layout()
 
-output_dir = Path(__file__).parent.parent / "results"
-output_dir.mkdir(exist_ok=True, parents=True)
-plot_path = output_dir / "test_fitting_mimic_rmse.png"
+plot_path = output_dir / "test_fitting_mimic_srmse.png"
 fig.savefig(str(plot_path), dpi=300)
 plt.close()
 
-print(f"\nPlot saved to: {plot_path}")
+print(f"Plot saved to: {plot_path}")
