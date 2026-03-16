@@ -9,6 +9,16 @@ planning report for each method at each n value:
 
 where E[·] is the expectation taken over the 300 repetitions.
 
+IMPORTANT — probability space:
+    The .npz files store θ as log-odds (β₀ from logistic regression).
+    Per the planning report, θ for the prevalence phase is the class
+    probability vector. We apply sigmoid() before computing metrics:
+
+        p = sigmoid(β₀) = P(Y=1)
+
+    This avoids division by zero on balanced datasets where β₀* = 0
+    (e.g. CUAD: 50/50 → β₀* = logit(0.5) = 0, but p* = 0.5).
+
 Output: a CSV with one row per (method, n) combination.
 """
 
@@ -16,6 +26,11 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from argparse import ArgumentParser
+
+
+def sigmoid(x):
+    """Convert log-odds → probability.  p = 1 / (1 + exp(-β₀))"""
+    return 1.0 / (1.0 + np.exp(-x))
 
 
 def load_all_reps(results_dir: Path):
@@ -61,15 +76,13 @@ def compute_metrics(thetas, theta_star):
     """
     Compute sRMSE and standardized bias for one method.
 
-    thetas     : shape (num_reps,)  — one estimate per repetition
-    theta_star : shape (num_reps,)  — reference, same value in every row but
-                                      stacked this way for vectorised division
+    thetas     : shape (num_reps,)  — probabilities P(Y=1), one per repetition
+    theta_star : shape (num_reps,)  — reference probability p*, same every row
 
-    sRMSE = sqrt( mean( ((θ - θ*) / θ*)² ) )
-    Std Bias = mean( (θ - θ*) / θ* )
+    sRMSE    = sqrt( mean( ((p - p*) / p*)² ) )
+    Std Bias =        mean( (p - p*)  / p*    )
 
-    Dividing by θ* standardises the error so results are comparable across
-    datasets with very different coefficient magnitudes (per planning report).
+    Both inputs must already be in probability space (call sigmoid first).
     """
     normalized = (thetas - theta_star) / theta_star  # shape (num_reps,)
     srmse      = float(np.sqrt(np.mean(normalized ** 2)))
@@ -96,20 +109,19 @@ if __name__ == "__main__":
     num_reps  = data["theta_star"].shape[0]
 
     # theta_star is deterministic (uses all expert labels, no randomness)
-    # so all 300 values are identical — we just use it as a scalar
-    theta_star_scalar = data["theta_star"][:, 0]  # shape (num_reps,)
+    # Convert log-odds → probability before computing metrics
+    p_star = sigmoid(data["theta_star"][:, 0])  # shape (num_reps,), same value every row
 
     print(f"\nDataset: {args.dataset} | LLM: {args.llm} | Reps: {num_reps}")
-    print(f"theta_star (log-odds): {theta_star_scalar[0]:.4f}  (same across all reps)")
+    print(f"p* (true prevalence): {p_star[0]:.4f}  (same across all reps)")
     print(f"n values: {n_values.tolist()}\n")
 
     rows = []
 
     # --- LLM-only baseline ---
-    # theta_llm is also deterministic (no random sampling, uses all LLM labels)
-    # sRMSE and std_bias will be constants — but computed consistently
-    theta_llm_scalar = data["theta_llm"][:, 0]  # shape (num_reps,)
-    srmse_llm, bias_llm = compute_metrics(theta_llm_scalar, theta_star_scalar)
+    # theta_llm is also deterministic — convert to probability space
+    p_llm = sigmoid(data["theta_llm"][:, 0])  # shape (num_reps,)
+    srmse_llm, bias_llm = compute_metrics(p_llm, p_star)
 
     # LLM-only does not vary with n, so we add one row with n=NaN
     rows.append({
@@ -132,8 +144,8 @@ if __name__ == "__main__":
 
     for method_name, all_thetas in methods.items():
         for i, n in enumerate(n_values):
-            thetas_at_n = all_thetas[:, i]   # shape (num_reps,) — one value per rep
-            srmse, std_bias = compute_metrics(thetas_at_n, theta_star_scalar)
+            thetas_at_n = sigmoid(all_thetas[:, i])  # convert log-odds → probability
+            srmse, std_bias = compute_metrics(thetas_at_n, p_star)
 
             rows.append({
                 "dataset":           args.dataset,
