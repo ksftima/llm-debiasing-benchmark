@@ -73,6 +73,9 @@ def fit_dsl_intercept_only(Y, Y_hat, selected_mask):
     that is how DSL knows which rows are expert-labeled vs LLM-only.
     """
     import rpy2.robjects as ro
+    import rpy2.rinterface_lib.callbacks as rcb
+    import logging
+    rcb.logger.setLevel(logging.ERROR)  # suppress R console output/warnings in Python
 
     # DSL needs Y to be missing (None) for rows that are NOT expert-labeled
     Y_true_sel = Y.copy().astype(object)
@@ -90,16 +93,16 @@ def fit_dsl_intercept_only(Y, Y_hat, selected_mask):
 
         ro.r(f"""
             sink("/dev/null")
-            library("dsl")
+            suppressWarnings(library("dsl"))
             data <- read.csv("{data_file}")
-            out <- dsl(
+            out <- suppressWarnings(dsl(
                 model        = "logit",
                 formula      = Y ~ 1,
                 predicted_var = "Y",
                 prediction   = "Y_hat",
                 data         = data,
                 seed         = Sys.time()
-            )
+            ))
             write.csv(out$coefficients, "{coeff_file}", row.names=FALSE)
             sink()
         """)
