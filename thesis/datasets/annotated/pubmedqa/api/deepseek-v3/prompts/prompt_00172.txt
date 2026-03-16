@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are patients willing participants in the new wave of community-based medical education in regional and rural Australia? Community-based medical education is growing to meet the increased demand for quality clinical education in expanded settings, and its sustainability relies on patient participation. This study investigated patients' views on being used as an educational resource for teaching medical students. Questionnaire-based survey. Patients attending six rural and 11 regional general practices in New South Wales over 18 teaching sessions in November 2008, who consented to student involvement in their consultation. Patient perceptions, expectations and acceptance of medical student involvement in consultations, assessed by surveys before and after their consultations. 118 of 122 patients consented to medical student involvement; of these, 117 (99%) completed a survey before the consultation, and 100 (85%) after the consultation. Patients were overwhelmingly positive about their doctor and practice being involved in student teaching and felt they themselves played an important role. Pre-consultation, patients expressed reluctance to allow students to conduct some or all aspects of the consultation independently. However, after the consultation, they reported they would have accepted higher levels of involvement than actually occurred.
+
+CLASSIFICATION:

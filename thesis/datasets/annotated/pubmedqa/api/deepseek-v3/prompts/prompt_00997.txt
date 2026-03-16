@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is peak concentration needed in therapeutic drug monitoring of vancomycin? We analyzed the pharmacokinetic-pharmacodynamic relationship of vancomycin to determine the drug exposure parameters that correlate with the efficacy and nephrotoxicity of vancomycin in patients with methicillin-resistant Staphylococcus aureus pneumonia and evaluated the need to use peak concentration in therapeutic drug monitoring (TDM). Serum drug concentrations of 31 hospitalized patients treated with vancomycin for methicillin-resistant S. aureus pneumonia were collected. Significant differences in trough concentration (Cmin)/minimum inhibitory concentration (MIC) and area under the serum concentration-time curve (AUC0-24)/MIC were observed between the response and non-response groups. Significant differences in Cmin and AUC0-24 were observed between the nephrotoxicity and non-nephrotoxicity groups. Receiver operating characteristic curves revealed high predictive values of Cmin/MIC and AUC0-24/MIC for efficacy and of Cmin and AUC0-24 for safety of vancomycin.
+
+CLASSIFICATION:

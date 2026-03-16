@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Proliferative index obtained by DNA image cytometry. Does it add prognostic information in Auer IV breast cancer? To investigate whether the S + G2/M fraction (proliferative index) is a prognostic determinant in breast cancers classified as Auer IV. Prognostic evaluation of Auer IV DNA histograms with respect to the high versus low S + G2/M fraction, obtained by image cytometry on consecutive breast cancer imprint preparations. When studying recurrence-free survival (n = 136), the prognostic value of S + G2/M was found to vary with time: it was negligible before the median time to relapse (1.5 years) but thereafter statistically significant, in both univariate and multivariate analysis. The same pattern was found when overall survival was used as the end point; the effect was delayed to about the median time until death (three years). Tumors with a low S + G2/M fraction were smaller and more often estrogen receptor- and progesterone receptor-positive than those with a high S + G2/M fraction.
+
+CLASSIFICATION:

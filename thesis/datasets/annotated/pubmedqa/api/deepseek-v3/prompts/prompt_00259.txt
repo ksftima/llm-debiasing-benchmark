@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Stage I non-small cell lung carcinoma: really an early stage? We review our results on surgical treatment of patients with stage I non-small cell lung carcinoma and we attempted to clarify the prognostic significance of some surgical--pathologic variables. From 1993 to 1999, 667 patients received curative lung resection and complete hilar and mediastinal lymphadenectomy for non-small cell lung cancer. Of these, there were 436 Stage I disease (65%), of whom 144 T1N0 and 292 T2N0. No patients had pre- or postoperative radio- or chemotherapy. Prognostic significance of the following independent variables was tested using univariate (log-rank) and multivariate (Cox proportional-hazards) analysis: type of resection (sublobar vs lobectomy vs pneumonectomy), histology (squamous cell vs adenocarcinoma), tumour size (<or=3cm vs>3cm), histologic vascular invasion, visceral pleura involvement, positive bronchial resection margin, general T status. Overall 5-year survival was 63%. In both univariate and multivariate survival analysis, significant prognostic factors were histology (adenocarcinoma 65% vs squamous cell carcinoma 51%), tumour size (<or=3cm 67% vs>3cm 46%), and the presence of negative resection margin. Five-year survival by general T status was 66% in T1N0 vs 55% in T2N0 disease (P=0.19).
+
+CLASSIFICATION:

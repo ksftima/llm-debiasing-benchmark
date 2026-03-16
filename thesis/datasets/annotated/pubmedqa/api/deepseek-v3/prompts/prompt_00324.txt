@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are wandering and physically nonaggressive agitation equivalent? The authors examined equivalence of wandering and physically nonaggressive agitation (PNA) as concepts. A cross-sectional correlational design was used. Participants were recruited from 22 nursing homes and 6 assisted living facilities in two states. Ambulatory residents meeting DSM-IV criteria for dementia (N = 181) were studied. Video-tapes for up to twelve 20-minute observations per participant were coded for wandering using an empirically derived taxonomy of ambulation patterns. Separate raters coded the same tapes for six PNA behaviors on the agitation behavior mapping instrument. Most participants (73.5%) wandered; all showed PNA behaviors. Factor analyses yielded an one-factor solution for wandering (explained variance = 43.66%) and a two-factor solution for PNA (explained variance = 53.45%). Overall wandering correlated significantly with PNA Factor 1 (df =179, r = 0.68, p<0.001) and Factor 2, but at a lower value (df = 179, r = 0.26, p<0.01).
+
+CLASSIFICATION:

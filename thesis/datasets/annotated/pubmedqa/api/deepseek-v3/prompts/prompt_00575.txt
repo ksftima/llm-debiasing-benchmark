@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Substance use and HIV-related sexual behaviors among US high school students: are they related? This study was undertaken to examine whether use of alcohol, cigarettes, marijuana, cocaine, and other illicit drugs is related to the likelihood of sexual behaviors that increase risk for human immunodeficiency virus (HIV) infection among youth. The 1990 national Youth Risk Behavior Survey was used to collect self-reported information about a broad range of health risk behaviors from a representative sample of 11,631 high school students in the United States. Students who reported no substance use were least likely to report having had sexual intercourse, having had four or more sex partners, and not having used a condom at last sexual intercourse. Adjusted for age, sex, and race/ethnicity, odds ratios for each of these sexual risk behaviors were greatest among students who had used marijuana, cocaine, or other illicit drugs. Students who had used only alcohol or cigarettes had smaller but still significant increases in the likelihood of having had sexual intercourse and of having had four or more sex partners.
+
+CLASSIFICATION:

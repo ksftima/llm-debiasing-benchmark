@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are physicians meeting the needs of family caregivers of the frail elderly? To explore expressed needs, both formal and informal, of family caregivers of frail elderly. To evaluate roles of physicians. Questionnaire survey of members of the Montreal Jewish community providing care for frail elderly family members. Jewish community of Montreal. Volunteer caregivers who were caring for a family member or friend 60 years or older, who had greatest responsibility for providing physical or emotional support to an elderly person, who saw themselves as caregivers, and who could speak English or French were studied. Of 118 volunteers, 32 were excluded because they withdrew for personal reasons or because they did not meet study criteria. Demographic variables, functional status of the care receiver, use of home care services, and needs assessment to identify additional services. An average of 75.4% respondents did not use formal support services. Just under half of caregivers were dissatisfied with the attention they received from the health care system, and more than one third expressed feelings of stress, depression, guilt, and isolation.
+
+CLASSIFICATION:

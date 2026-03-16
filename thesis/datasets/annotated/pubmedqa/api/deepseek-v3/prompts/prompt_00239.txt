@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Spinal subdural hematoma: a sequela of a ruptured intracranial aneurysm? A case of spinal subdural hematoma (SSDH) following subarachnoid hemorrhage (SAH) because of a ruptured internal carotid aneurysm is described. Such a case has never been reported. A 52-year-old woman underwent a craniotomy for a ruptured internal carotid aneurysm. A computed tomography scan showed that SAH existed predominantly in the posterior fossa and subdural hematoma beneath the cerebellar tentorium. Intrathecal administration of urokinase, IV administration of fasudil hydrochloride, and continuous cerebrospinal fluid (CSF) evacuation via cisternal drainage were performed as prophylactic treatments for vasospasm. On the sixth postoperative day, the patient complained of severe lower back and buttock pain. Magnetic resonance imaging showed a subdural hematoma in the lumbosacral region. Although the mass effect was extensive, the patient showed no neurologic symptoms other than the sciatica. She was treated conservatively. The hematoma dissolved gradually and had diminished completely 15 weeks later. Her pain gradually subsided, and she was discharged 7 weeks later without any neurologic deficit.
+
+CLASSIFICATION:

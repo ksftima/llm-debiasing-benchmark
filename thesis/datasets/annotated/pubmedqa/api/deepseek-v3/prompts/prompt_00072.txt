@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is the combination with 2-methoxyestradiol able to reduce the dosages of chemotherapeutices in the treatment of human ovarian cancer? The endogenous estradiol metabolite, 2-methoxyestradiol (2ME), has been shown to be a potent inhibitor of cell growth and a strong anti-angiogenic substance. We investigated for the first time whether in vitro combinations of 2ME with various chemotherapeutic compounds may result in an additive inhibitory effect on the proliferation of human ovary cancer cells. As a model two different human ovary cancer cell lines were used. All cell lines were incubated with equimolar concentrations of 2ME (0.8-25 microM) and the chemotherapeutics epirubicine, doxorubicine, paclitaxel, docetaxel, carboplatin, vinorelbine, 5-fluorouracil and mafosfamide. Proliferation was measured after four days using the ATP-chemosensitivity test. For both ovary cancer cell lines a significant additive effect of 2ME with epirubicine and carboplatin was observed at the lower concentration range of these chemotherapeutic substances.
+
+CLASSIFICATION:

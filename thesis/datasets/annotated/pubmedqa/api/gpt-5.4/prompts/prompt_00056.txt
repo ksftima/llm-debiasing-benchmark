@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Does immediate breast reconstruction compromise the delivery of adjuvant chemotherapy? Immediate breast reconstruction (IBR) provides psychological benefit to many early breast cancer patients however concerns persist regarding its potential impact on chemotherapy delivery. We investigated the association between IBR, complications and adjuvant chemotherapy delivery. Retrospective analysis of patients in an academic breast service, who underwent mastectomy, with or without reconstruction, and received adjuvant chemotherapy. Comparisons were made between 107 patients who received IBR and 113 who received mastectomy alone. Those receiving IBR were on average younger, with lower body mass index (BMI) and better prognoses. Overall complication rates were comparable (mastectomy alone: 45.1% versus IBR: 35.5%, p = 0.2). There was more return to surgery in the IBR group with 11.5% of tissue expanders requiring removal, whilst more seromas occurred in the mastectomy group. There was no significant difference in the median time to chemotherapy.
+
+CLASSIFICATION:

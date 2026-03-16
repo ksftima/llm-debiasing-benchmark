@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+The nurse cystoscopist: a feasible option? To compare the accuracy achieved by a trained urology nurse practitioner (UNP) and consultant urologist in detecting bladder tumours during flexible cystoscopy. Eighty-three patients underwent flexible cystoscopy by both the UNP and consultant urologist, each unaware of the other's findings. Before comparing the findings, each declared whether there was tumour or any suspicious lesion requiring biopsy. Of 83 patients examined by flexible cystoscopy, 26 were found to have a tumour or a suspicious lesion. One tumour was missed by the UNP and one by the urologist; each tumour was minute. Analysis using the chance-corrected proportional agreement (Kappa) was 0.94, indicating very close agreement.
+
+CLASSIFICATION:

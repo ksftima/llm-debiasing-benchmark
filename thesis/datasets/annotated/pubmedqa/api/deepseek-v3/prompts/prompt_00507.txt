@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are sports medicine journals relevant and applicable to practitioners and athletes? To examine the evidence base of sports medicine research and assess how relevant and applicable it is to everyday practice. Original research articles, short reports, and case reports published in four major sport and exercise medicine journals were studied and classified according to the main topic of study and type of subjects used. The most common topic was sports science, and very few studies related to the treatment of injuries and medical conditions. The majority of published articles used healthy subjects sampled from the sedentary population, and few studies have been carried out on injured participants.
+
+CLASSIFICATION:

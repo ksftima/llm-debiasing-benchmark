@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is half-dose contrast-enhanced three-dimensional MR angiography sufficient for the abdominal aorta and pelvis? To evaluate the usefulness of half-dose contrast-enhanced magnetic resonance (MR) angiography for depicting the abdominal aorta and its major branches. A total of 72 consecutive patients were randomly assigned to one of four groups that underwent MR angiography after receiving different concentrations (original or diluted to 50%) and total amounts (single or half-dose) of gadolinium chelate injected at different rates (1 or 0.5 mL/second). The signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR) of the abdominal aorta and of the common and external iliac arteries were calculated, and two blinded readers rated the respective image qualities. The SNR and CNR of the abdominal aorta and the common iliac artery in the 0.5 mL/second groups were statistically significantly lower than those in the 1 mL/second groups. The differences in overall image quality across the four groups were not statistically significant.
+
+CLASSIFICATION:

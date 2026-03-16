@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are increased carotid artery pulsatility and resistance indexes early signs of vascular abnormalities in young obese males? To provide insight into the factors by which obesity in itself may directly lead to early arterial damage, we aimed to determine early sonographic markers of obesity-related vascular dysfunction in young obese males. Thirty-five young obese males and 23 age-matched healthy male volunteers were recruited into the study. Common carotid artery pulsatility index and resistance index were calculated from blood flow velocities curves obtained by pulsed Doppler ultrasonography. The mean pulsatility index, resistance index, body mass index, waist circumference, systolic and diastolic blood pressure, homeostasis model assessment for insulin resistance, plasma fasting glucose, insulin, C-peptide, triglycerides, low-density lipoprotein cholesterol, and high-sensitivity C-reactive protein were statistically higher in obese subjects than in healthy controls.
+
+CLASSIFICATION:

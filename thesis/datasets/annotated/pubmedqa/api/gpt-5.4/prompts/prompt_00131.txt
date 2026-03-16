@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Remote ischemic postconditioning: does it protect against ischemic damage in percutaneous coronary revascularization? Myocardial damage that is associated with percutaneous coronary intervention (PCI) partially affects the results of the procedure, and is related to medium-term cardiovascular death. Remote postischemic conditioning might reduce the myocardial lesions that are associated with PCI, but perhaps less so in diabetics. The aim of this study was to evaluate the protective effect of remote postischemic conditioning in patients undergoing elective PCI for stable angina or non-ST elevation acute coronary syndrome with troponin<1 ng/ml at the time of randomization. This randomized single-blinded single-center clinical trial involved 320 patients undergoing elective PCI who were randomized to either receive three 5-min cycles of ischemia by inflation of a cuff on the non-dominant arm to 200 mm Hg (remote postischemic conditioning) or to placebo (uninflated cuff). The primary outcome variable was the maximum increase in troponin in the first 24 h. The secondary outcome variable was readmission due to heart failure or cardiovascular mortality after 1 year of follow-up. In addition, a diabetic population was studied.
+
+CLASSIFICATION:

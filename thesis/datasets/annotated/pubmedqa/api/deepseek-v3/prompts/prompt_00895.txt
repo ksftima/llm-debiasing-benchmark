@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is there awareness of pharmaceutical expenditure in the reformed primary care system? To evaluate the effectiveness of feeding information on pharmacy back to primary care doctors in order to create awareness (knowledge) of pharmaceutical expenditure (PE). Retrospective cross-sectional study, through personal interview. Reformed PC, Sabadell, Barcelona. The 80 PC doctors working with primary care teams. As the personal feed-back on PE, each doctor was asked for the PE generated during 1997 and the mean cost of prescriptions to active and pensioner patients. The statistical test used was the t test to compare means for paired data, with p<0.05 the required level of significance. Out of the total doctors interviewed (80), 71 replies were obtained for the annual PE and 76 for the mean cost of prescriptions, for both active and pensioner patients. Significant differences were found between the annual PE in reality and doctors' estimates: around twelve million pesetas. The differences between the real mean costs of prescription and the estimates were also significant.
+
+CLASSIFICATION:

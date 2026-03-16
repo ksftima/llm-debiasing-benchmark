@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is there a relationship between rheumatoid arthritis and periodontal disease? 1,412 individuals attending the University of Queensland's School of Dentistry were assessed for the prevalence of periodontal disease and rheumatoid arthritis. Analysis of data obtained from a self-reported health questionnaire and dental records was carried out and included: number of individuals referred for advanced periodontal care (test group); number of individuals attending for routine dentistry; determination of rheumatoid arthritis, cardiovascular disease and diabetes mellitus through self-reporting and assessment of prescription medications; assessment of periodontal disease through assessment of existing oral radiographs. In patients referred for periodontal treatment, the prevalence of self-reported rheumatoid arthritis was 3.95% which is significantly higher than that seen in patients not referred for periodontal treatment (0.66%) and also that reported in the general population (1%). Of those referred patients with rheumatoid arthritis, 62.5% had advanced forms of periodontal disease. These results were mirrored in the results of the self-reported prevalence of cardiovascular disease and diabetes mellitus which was consistent with the published higher prevalence in periodontal patients.
+
+CLASSIFICATION:

@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Prostatic syndrome and pleural effusion: are they different diseases? To report an uncommon association of prostate and lung cancer. The characteristics of both tumors, their association with tumors in other sites and the time of presentation are analyzed. Both tumors were in the advanced stages. Metastatic carcinoma of the prostate was discarded due to the form of presentation.
+
+CLASSIFICATION:

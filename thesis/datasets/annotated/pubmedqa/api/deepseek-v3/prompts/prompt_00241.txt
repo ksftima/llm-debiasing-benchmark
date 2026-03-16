@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Dementia and aphasia in motor neuron disease: an underrecognised association? To determine the prevalence and nature of global cognitive dysfunction and language deficits in an unselected population based cohort of patients with motor neuron disease (MND). A battery of neuropsychological and language tests was administered to patients presenting consecutively over a 3 year period to a regional neurology service with a new diagnosis of sporadic motor neuron disease. The 18 patients could be divided on the basis of their performance into three groups: Three patients were demented and had impaired language function (group 1); two non-demented patients had an aphasic syndrome characterised by word finding difficulties and anomia (group 2). Major cognitive deficits were therefore found in five of the 18 patients (28%). The remaining 13 performed normally on the test battery apart from decreased verbal fluency (group 3).
+
+CLASSIFICATION:

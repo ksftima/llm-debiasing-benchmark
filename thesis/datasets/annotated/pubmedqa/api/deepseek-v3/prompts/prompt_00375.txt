@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Vitamin D supplementation and regulatory T cells in apparently healthy subjects: vitamin D treatment for autoimmune diseases? Epidemiological data show significant associations of vitamin D deficiency and autoimmune diseases. Vitamin D may prevent autoimmunity by stimulating naturally occurring regulatory T cells. To elucidate whether vitamin D supplementation increases Tregs frequency (%Tregs) within circulating CD4+ T cells. We performed an uncontrolled vitamin D supplementation trial among 50 apparently healthy subjects including supplementation of 140,000 IU at baseline and after 4 weeks (visit 1). The final follow-up visit was performed 8 weeks after the baseline examination (visit 2). Blood was drawn at each study visit to determine 25-hydroxyvitamin D levels and %Tregs. Tregs were characterized as CD4+CD25++ T cells with expression of the transcription factor forkhead box P3 and low or absent expression of CD127. Forty-six study participants (65% females, mean age +/- SD 31 +/- 8 years) completed the trial. 25(OH)D levels increased from 23.9 +/- 12.9 ng/ml at baseline to 45.9 +/- 14.0 ng/ml at visit 1 and 58.0 +/- 15.1 ng/ml at visit 2. %Tregs at baseline were 4.8 +/- 1.4. Compared to baseline levels we noticed a significant increase of %Tregs at study visit 1 (5.9 +/- 1.7, P<0.001) and 2 (5.6 +/- 1.6, P<0.001).
+
+CLASSIFICATION:

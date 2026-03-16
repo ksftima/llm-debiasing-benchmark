@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is external palliative radiotherapy for gallbladder carcinoma effective? Gallbladder carcinoma is characterized by delayed diagnosis, ineffective treatment and poor prognosis. Surgical resection has been thought to be the treatment of choice, while the role of radiotherapy as adjuvant or palliative treatment has not been fully clarified in the literature. We present the case of a 45-year-old female, with unresectable gallbladder carcinoma, grade IV, histologically diagnosed during laparotomy. The patient was treated with palliative intent with percutaneous transhepatic biliary drainage. Furthermore, she received external radiotherapy by (60)Co, using a three-field technique (anterior-posterior and right lateral). The total dose was 3,000 cGy in 10 fractions, with 300 cGy per fraction, 5 days weekly. The patient showed clinico-laboratory improvement and was discharged with a permanent percutaneous transhepatic endoprosthesis. During follow-up (10 and 12 months postirradiation), abdominal CTs showed no local extension of the tumor, while the patient had a good performance status. So far, 1 year after the diagnosis of gallbladder cancer she is still alive.
+
+CLASSIFICATION:

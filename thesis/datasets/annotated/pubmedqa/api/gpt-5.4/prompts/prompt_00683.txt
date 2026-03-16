@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Can homemade alcohol (Raksi) be useful for preserving dead bodies? Embalming is the through disinfection and art of preserving bodies after death using chemical substances. It keeps a body life like in appearance during the time it lies in a state prior to funeral. This study was undertaken to investigate the effectiveness of Raksi in sacrificed rats in arresting postmortem changes and establishing scientific fact whether Raksi can be an alternative to standard embalming constituent if it is not available. 50 albino rats were systematically randomized into control and experiment groups. Raksi and distilled water were injected for embalming purpose intraventricularly in experiment and control groups of rats respectively and kept for 48 to 96 hours for observation for postmortem changes. Observations made at 48 and 72 hours of embalming revealed that Raksi can arrest postmortem changes in the rats up to 72 hours (3rd day) successfully in the experimental group whereas moderate to severe postmortem changes were seen in the control group. The experimental group showed mild degree of putrefactive changes, liberation of gases and liquefaction of tissues only at 96 hours (4th day) of embalming. The Raksi used in this experiment contained 34% of alcohol, which was determined by an alcohol hydrometer. Experiment clearly demonstrated from its result that raksi can be utilised temporarily for embalming since it contains alcohol and has preservative, bactericidal and disinfectant properties.
+
+CLASSIFICATION:

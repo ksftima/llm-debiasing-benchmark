@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are serum leptin levels a prognostic factor in advanced lung cancer? There are 71 previously untreated patients with cytological or histological evidence of primary lung cancer who were admitted to the oncology department between November 2013 and August 2014. Forty-five healthy individuals with age, sex and BMI matching the lung cancer patients, were recruited to take part in the study as a control group. Leptin levels were measured quantitatively by using a microELISA kit. The serum leptin levels at diagnosis were significantly lower in lung cancer patients than those in control subjects (4.75±4.91 ng/ml, 9.67±8.02 ng/ml; p<0.001). We did not find any significant difference in leptin values related to clinicopathological parameters such as ECOG PS, weight loss, histological type, disease stage and TNM classification. Nevertheless, we demonstrated a significant correlation between serum leptin levels and BMI in lung cancer patients (correlation coefficient: 0.303; p>0.010). The analysis of serum leptin values did not show any association with the overall survival of the patients.
+
+CLASSIFICATION:

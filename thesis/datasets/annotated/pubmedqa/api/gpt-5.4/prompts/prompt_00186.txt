@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Actinobaculum schaalii, a cause of urinary tract infections in children? Urine samples were examined by wet smear microscopy, incubated in 5% CO(2) for 1-2 days, and species-specific real-time polymerase chain reaction (PCR) for A. schaalii was performed. In 5 of the 29 screened urines, A. schaalii was found only by real-time PCR in quantities equivalent to ≥ 10(4) -10(5) CFU/mL. In addition, A. schaalii was found in quantities equivalent to ≥ 10(6) CFU/mL by both culture and PCR in two children with a urinary tract infection and large numbers of leucocytes in the urine.
+
+CLASSIFICATION:

@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Can early second-look tympanoplasty reduce the rate of conversion to modified radical mastoidectomy? The aims of the study were to report the rates of recurrent and residual cholesteatoma following primary CAT surgery and to report the rate of conversion to a modified radical mastoidectomy. This was a retrospective review of a single surgeon series between 2006 and 2012. In total 132 second-look operations were undertaken, with a mean interval between primary surgery and second-look procedures of 6 months. The rate of cholesteatoma at second-look surgery was 19.7%, which was split into residual disease (10.6%) and recurrent disease (9.09%). New tympanic membrane defects with cholesteatoma were considered as recurrent disease. Residual disease was defined as cholesteatoma present behind an intact tympanic membrane. The majority of recurrent and residual disease was easily removed at second look (73.1%). Only four cases were converted to a modified radical mastoidectomy (3%) and three cases required a third-look procedure.
+
+CLASSIFICATION:

@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is it safe to perform rectal anastomosis in gynaecological debulking surgery without a diverting stoma? Patient data were retrospectively collected from a database for gynaecological cancer procedures carried out between January 2013 and July 2015. All patients who underwent a colorectal resection during cytoreduction were included in the study. The primary outcome was anastomotic leakage in the presence or absence of a diverting stoma. Secondary outcome parameters were complications and reoperations. In the period of study, 43 major colorectal procedures were performed on 37 women. The most common colorectal procedure was low rectal resection (n = 22; 59%) followed by anterior rectal resection (n = 7; 19%) and sigmoid resection (n = 4; 11%). Five (14%) patients underwent Hartmann's procedure. In three (8%) patients, a diverting loop ileostomy was created.
+
+CLASSIFICATION:

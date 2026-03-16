@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Do resident's leadership skills relate to ratings of technical skill? This study sought to compare general surgery research residents' survey information regarding self-efficacy ratings to their observed performance during a simulated small bowel repair. Their observed performance ratings were based on their leadership skills in directing their assistant. Participants were given 15 min to perform a bowel repair using bovine intestines with standardized injuries. Operative assistants were assigned to help assist with the repair. Before the procedure, participants were asked to rate their expected skills decay, task difficulty, and confidence in addressing the small bowel injury. Interactions were coded to identify the number of instructions given by the participants to the assistant during the repair. Statistical analyses assessed the relationship between the number of directional instructions and participants' perceptions self-efficacy measures. Directional instructions were defined as any dialog by the participant who guided the assistant to perform an action. Thirty-six residents (58.3% female) participated in the study. Participants who rated lower levels of decay in their intraoperative decision-making and small bowel repair skills were noted to use their assistant more by giving more instructions. Similarly, a higher number of instructions correlated with lower perceived difficulty in selecting the correct suture, suture pattern, and completing the entire surgical task.
+
+CLASSIFICATION:

@@ -138,35 +138,35 @@ weighted avg     0.4510    0.4505    0.4507      1181
 DATASET: PUBMEDQA (DEEPSEEK)
 ============================================================
 Rows:          1000
-Accuracy:      0.5810
-Cohen's kappa: 0.1835
+Accuracy:      0.6040
+Cohen's kappa: 0.3596
 
 Class distribution (count):
    y (expert)  y_hat (LLM)  y %   y_hat %
-0         338          127  33.8     12.7
-1         552          787  55.2     78.7
-2         110           86  11.0      8.6
+0         338          195  33.8     19.5
+1         552          514  55.2     51.4
+2         110          291  11.0     29.1
 
 Mean y (expert):  0.7720
-Mean y_hat (LLM): 0.9590
-Shift:            +0.1870
+Mean y_hat (LLM): 1.0960
+Shift:            +0.3240
 
 Confusion matrix (rows=true, cols=predicted):
         pred=0  pred=1  pred=2
-true=0      81     217      40
-true=1      30     488      34
-true=2      16      82      12
+true=0     146      53     139
+true=1      30     414     108
+true=2      19      47      44
 
 Per-class metrics:
               precision    recall  f1-score   support
 
-           0     0.6378    0.2396    0.3484       338
-           1     0.6201    0.8841    0.7289       552
-           2     0.1395    0.1091    0.1224       110
+           0     0.7487    0.4320    0.5478       338
+           1     0.8054    0.7500    0.7767       552
+           2     0.1512    0.4000    0.2195       110
 
-    accuracy                         0.5810      1000
-   macro avg     0.4658    0.4109    0.3999      1000
-weighted avg     0.5732    0.5810    0.5336      1000
+    accuracy                         0.6040      1000
+   macro avg     0.5685    0.5273    0.5147      1000
+weighted avg     0.7143    0.6040    0.6381      1000
 
 ============================================================
 DATASET: PUBMEDQA (GPT4OMINI)
@@ -206,35 +206,35 @@ weighted avg     0.5785    0.3850    0.4058      1000
 DATASET: PUBMEDQA (GPT54)
 ============================================================
 Rows:          1000
-Accuracy:      0.5110
-Cohen's kappa: 0.0362
+Accuracy:      0.7700
+Cohen's kappa: 0.5730
 
 Class distribution (count):
    y (expert)  y_hat (LLM)  y %   y_hat %
-0         338           13  33.8      1.3
-1         552          859  55.2     85.9
-2         110          128  11.0     12.8
+0         338          312  33.8     31.2
+1         552          634  55.2     63.4
+2         110           54  11.0      5.4
 
 Mean y (expert):  0.7720
-Mean y_hat (LLM): 1.1150
-Shift:            +0.3430
+Mean y_hat (LLM): 0.7420
+Shift:            -0.0300
 
 Confusion matrix (rows=true, cols=predicted):
         pred=0  pred=1  pred=2
-true=0       7     282      49
-true=1       3     487      62
-true=2       3      90      17
+true=0     264      60      14
+true=1      22     498      32
+true=2      26      76       8
 
 Per-class metrics:
               precision    recall  f1-score   support
 
-           0     0.5385    0.0207    0.0399       338
-           1     0.5669    0.8822    0.6903       552
-           2     0.1328    0.1545    0.1429       110
+           0     0.8462    0.7811    0.8123       338
+           1     0.7855    0.9022    0.8398       552
+           2     0.1481    0.0727    0.0976       110
 
-    accuracy                         0.5110      1000
-   macro avg     0.4127    0.3525    0.2910      1000
-weighted avg     0.5096    0.5110    0.4102      1000
+    accuracy                         0.7700      1000
+   macro avg     0.5933    0.5853    0.5832      1000
+weighted avg     0.7359    0.7700    0.7489      1000
 
 ============================================================
 DATASET: PUBMEDQA (FEWSHOT-GPT54)
@@ -556,35 +556,35 @@ weighted avg     0.6528    0.6419    0.6276      1184
 DATASET: PUBMEDQA (MISTRAL)
 ============================================================
 Rows:          1000
-Accuracy:      0.5190
-Cohen's kappa: 0.2266
+Accuracy:      0.5030
+Cohen's kappa: 0.2356
 
 Class distribution (count):
    y (expert)  y_hat (LLM)  y %   y_hat %
-0         338           94  33.8      9.4
-1         552          558  55.2     55.8
-2         110          348  11.0     34.8
+0         338          131  33.8     13.1
+1         552          475  55.2     47.5
+2         110          394  11.0     39.4
 
 Mean y (expert):  0.7720
-Mean y_hat (LLM): 1.2540
-Shift:            +0.4820
+Mean y_hat (LLM): 1.2630
+Shift:            +0.4910
 
 Confusion matrix (rows=true, cols=predicted):
         pred=0  pred=1  pred=2
-true=0      75      89     174
-true=1      10     406     136
-true=2       9      63      38
+true=0      85      43     210
+true=1      26     380     146
+true=2      20      52      38
 
 Per-class metrics:
               precision    recall  f1-score   support
 
-           0     0.7979    0.2219    0.3472       338
-           1     0.7276    0.7355    0.7315       552
-           2     0.1092    0.3455    0.1659       110
+           0     0.6489    0.2515    0.3625       338
+           1     0.8000    0.6884    0.7400       552
+           2     0.0964    0.3455    0.1508       110
 
-    accuracy                         0.5190      1000
-   macro avg     0.5449    0.4343    0.4149      1000
-weighted avg     0.6833    0.5190    0.5394      1000
+    accuracy                         0.5030      1000
+   macro avg     0.5151    0.4284    0.4178      1000
+weighted avg     0.6715    0.5030    0.5476      1000
 
 ============================================================
 DATASET: CUAD (MISTRAL)
@@ -655,35 +655,35 @@ weighted avg     0.6359    0.6014    0.5541      1184
 DATASET: PUBMEDQA (LLAMA)
 ============================================================
 Rows:          1000
-Accuracy:      0.3320
-Cohen's kappa: 0.0609
+Accuracy:      0.5090
+Cohen's kappa: 0.1495
 
 Class distribution (count):
    y (expert)  y_hat (LLM)  y %   y_hat %
-0         338           20  33.8      2.0
-1         552          394  55.2     39.4
-2         110          586  11.0     58.6
+0         338            1  33.8      0.1
+1         552          707  55.2     70.7
+2         110          292  11.0     29.2
 
 Mean y (expert):  0.7720
-Mean y_hat (LLM): 1.5660
-Shift:            +0.7940
+Mean y_hat (LLM): 1.2910
+Shift:            +0.5190
 
 Confusion matrix (rows=true, cols=predicted):
         pred=0  pred=1  pred=2
-true=0       9     107     222
-true=1       9     251     292
-true=2       2      36      72
+true=0       1     145     192
+true=1       0     480      72
+true=2       0      82      28
 
 Per-class metrics:
               precision    recall  f1-score   support
 
-           0     0.4500    0.0266    0.0503       338
-           1     0.6371    0.4547    0.5307       552
-           2     0.1229    0.6545    0.2069       110
+           0     1.0000    0.0030    0.0059       338
+           1     0.6789    0.8696    0.7625       552
+           2     0.0959    0.2545    0.1393       110
 
-    accuracy                         0.3320      1000
-   macro avg     0.4033    0.3786    0.2626      1000
-weighted avg     0.5173    0.3320    0.3327      1000
+    accuracy                         0.5090      1000
+   macro avg     0.5916    0.3757    0.3026      1000
+weighted avg     0.7233    0.5090    0.4382      1000
 
 ============================================================
 DATASET: CUAD (LLAMA)

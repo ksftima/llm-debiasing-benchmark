@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Does open access endoscopy close the door to an adequately informed patient? The use of open access endoscopy is increasing. Its effect on the adequacy of patient informed consent, procedure acceptance and the impact on subsequent communication/transfer of procedure results to the patient have not been evaluated. The aim of our study was to compare the extent of preknowledge of procedures and test explanation, patient medical complexity, information transfer and overall patient satisfaction between a patient group referred for outpatient open access endoscopy versus a patient group from a gastrointestinal (GI) subspecialty clinic. Information was obtained from all patients presenting for outpatient upper and lower endoscopy by using a 1-page questionnaire. Patients from the two groups who had an outpatient upper/lower endoscopic procedure were contacted by phone after the procedure to obtain information with a standardized questionnaire. The open access patients reported receiving significantly less information to help them identify the procedure (p<0.01) and less explanation concerning the nature of the procedure than the group of patients referred from the subspecialty clinic (p<0.005). There was no difference between the two groups in satisfaction scores for examinations performed under conscious sedation. For flexible sigmoidoscopy without sedation, however, the GI clinic patient group were more satisfied with their procedure. The majority of patients, regardless of access, were more likely to receive endoscopic results from a gastroenterologist than the referring physician. Furthermore, the patients in the GI clinic group who underwent colonoscopy felt significantly better at follow-up.
+
+CLASSIFICATION:
