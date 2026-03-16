@@ -1,6 +1,5 @@
 container.sif
 .venv
-results
 python/plots
 amazon_reviews_annotated.pkl
 resources

@@ -85,9 +85,13 @@ def compute_metrics(thetas, theta_star):
     Both inputs must already be in probability space (call sigmoid first).
     """
     normalized = (thetas - theta_star) / theta_star  # shape (num_reps,)
+    n          = len(normalized)
     srmse      = float(np.sqrt(np.mean(normalized ** 2)))
     std_bias   = float(np.mean(normalized))
-    return srmse, std_bias
+    # Standard error — matches plot_test_fitting.py convention: std(err) / sqrt(n)
+    srmse_se   = float(np.std(normalized) / np.sqrt(n))
+    bias_se    = float(np.std(normalized) / np.sqrt(n))
+    return srmse, std_bias, srmse_se, bias_se
 
 
 if __name__ == "__main__":
@@ -121,18 +125,20 @@ if __name__ == "__main__":
     # --- LLM-only baseline ---
     # theta_llm is also deterministic — convert to probability space
     p_llm = sigmoid(data["theta_llm"][:, 0])  # shape (num_reps,)
-    srmse_llm, bias_llm = compute_metrics(p_llm, p_star)
+    srmse_llm, bias_llm, srmse_se_llm, bias_se_llm = compute_metrics(p_llm, p_star)
 
     # LLM-only does not vary with n, so we add one row with n=NaN
     rows.append({
-        "dataset":          args.dataset,
-        "llm":              args.llm,
-        "method":           "llm_only",
-        "n_expert":         None,
-        "sRMSE":            round(srmse_llm, 6),
+        "dataset":           args.dataset,
+        "llm":               args.llm,
+        "method":            "llm_only",
+        "n_expert":          None,
+        "sRMSE":             round(srmse_llm, 6),
+        "sRMSE_se":          round(srmse_se_llm, 6),
         "standardized_bias": round(bias_llm, 6),
-        "n_reps":           num_reps,
-        "phase":            "prevalence",
+        "bias_se":           round(bias_se_llm, 6),
+        "n_reps":            num_reps,
+        "phase":             "prevalence",
     })
 
     # --- Expert-only, DSL, PPI — computed for each n value ---
@@ -145,7 +151,7 @@ if __name__ == "__main__":
     for method_name, all_thetas in methods.items():
         for i, n in enumerate(n_values):
             thetas_at_n = sigmoid(all_thetas[:, i])  # convert log-odds → probability
-            srmse, std_bias = compute_metrics(thetas_at_n, p_star)
+            srmse, std_bias, srmse_se, bias_se = compute_metrics(thetas_at_n, p_star)
 
             rows.append({
                 "dataset":           args.dataset,
@@ -153,7 +159,9 @@ if __name__ == "__main__":
                 "method":            method_name,
                 "n_expert":          int(n),
                 "sRMSE":             round(srmse, 6),
+                "sRMSE_se":          round(srmse_se, 6),
                 "standardized_bias": round(std_bias, 6),
+                "bias_se":           round(bias_se, 6),
                 "n_reps":            num_reps,
                 "phase":             "prevalence",
             })
