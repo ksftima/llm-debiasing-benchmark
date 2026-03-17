@@ -1,0 +1,112 @@
+---
+name: LLM Debiasing Benchmark Thesis
+description: Full project context — goals, datasets, experimental design, file structure, current status, next steps
+type: project
+---
+
+## Goal
+Evaluate whether DSL and PPI can replace expensive expert annotations with cheap LLM annotations for NLP tasks. LLM labels are biased but cheap; expert labels are unbiased but expensive. DSL and PPI use a small expert sample + all LLM labels to get the best of both.
+
+## Datasets
+- Binary: CUAD, Misogynistic
+- On hold (multinomial): PubMedQA, FOMC
+- LLMs: llama, deepseek, gpt54, mistral
+- Feature variance config: thesis/lib/experiments/dataset_config.json
+
+## Experimental Design
+Four phases, progressively more complex downstream model:
+
+| Phase | Model | Estimand |
+|-------|-------|----------|
+| 1 | Prevalence (intercept only) | θ = P(Y=1) — scalar |
+| 2 | Logistic + low-variance feature | θ = [β₀, β_low] |
+| 3 | Logistic + high-variance feature | θ = [β₀, β_high] |
+| 4 | Full logistic regression | θ = [β₀, β₁, ..., β₅] |
+
+Two experiments:
+- Experiment 1: Fix total N, vary expert sample n — "How many expert labels do I need?"
+- Experiment 2: Fix n, vary N — "How much LLM data do I need?" (not started)
+
+## Evaluation Metrics
+- sRMSE = sqrt(E[((θ - θ*)/θ*)²]) — standardized % error from ground truth
+- Standardized Bias = E[(θ - θ*)/θ*] — ≈0 for DSL/PPI (unbiased by design)
+- sRMSE_eucl (Phase 2+) = Euclidean norm version for coefficient vectors, used for cross-phase comparison
+- SE for CI bands = std(normalized) / sqrt(n_reps) — plotted as ±2 SE shaded bands
+- θ* = logistic regression on all N expert labels (ground truth)
+- All metrics over 300 repetitions
+- n_valid column in CSVs tracks how many reps contributed (after NaN exclusions)
+
+## File Structure
+```
+thesis/
+├── datasets/annotated/
+│   ├── cuad/cuad_{llm}_annotated.csv        # columns: text,x1,x2,x3,x4,x5,y,prompt,response,y_hat
+│   └── misogynistic/{miso}_{llm}_annotated.csv
+├── lib/experiments/
+│   ├── dataset_config.json                  # low/high variance feature per dataset
+│   └── experiment_vary_experts/
+│       ├── phase_1/  (expert_class_prevalence.py, evaluate_prevalence.py, plot_prevalence.py)
+│       └── phase_2_and_3/  (expert_low_variance.py, evaluate_low_variance.py, plot_phase2.py)
+├── exe/vera-apptainer/
+│   ├── vary-expert-prevalence.sh / evaluate-prevalence.sh
+│   ├── vary-expert-low-variance.sh / evaluate-low-variance.sh
+│   └── vary-expert-high-variance.sh / evaluate-high-variance.sh
+└── results/
+    ├── summaries/   (output CSVs — committed to git)
+    └── figures/     (output PDFs — gitignored)
+```
+
+## Status (as of 2026-03-17)
+- Phase 1 — COMPLETE: All 8 CSVs done (4 LLMs × 2 datasets), 300 reps, plots generated
+  - Key finding: PPI outperforms DSL at small n (~half sRMSE at n=20-33), both converge at larger n
+- Phase 2 (low variance) — COMPLETE: All 8 CSVs done, plots generated for cuad and misogynistic
+  - Plots use n > 50 filter (separation issues at small n)
+  - DeepSeek anomaly on misogynistic: near-zero sRMSE_beta2 (0.038) because β₂_llm ≈ β*₂ by coincidence
+- Phase 3 (high variance) — IN PROGRESS:
+  - cuad/llama done and evaluated ✓
+  - cuad remaining 3 LLMs: jobs finished, evaluate-high-variance.sh cuad needs to be run
+  - misogynistic all 4 LLMs: jobs hit disk quota (89/300 failed with OSError: Disk quota exceeded)
+  - BLOCKED: Vera disk quota at 6.8G (~7G limit), benchmarking.sif = 6.6G
+  - Email sent to C3SE support to increase quota
+  - Once quota increased: resubmit misogynistic jobs, then evaluate both datasets
+- Phase 4 — Not started
+- Experiment 2 — Not started
+
+## DSL/PPI Separation Issue (document in thesis)
+At small n, both DSL and PPI can fail with singular matrix (complete separation in logistic regression).
+- Fix: try/except → [nan, nan]; evaluate uses np.nanmean/nanstd + n_valid column
+- CUAD: only DSL fails, ~5/300 reps at n=20-26
+- Misogynistic: both fail, ~30 DSL + 17 PPI per 300 reps at n=20-33
+- Misogynistic more affected because x2 correlation with y is near zero (r=-0.052), making β*₂ ≈ -0.11 (small denominator amplifies errors)
+- Plot filter: n > 50 for Phase 2/3
+
+## Plot Commands
+```bash
+# Phase 1
+python thesis/lib/experiments/experiment_vary_experts/phase_1/plot_prevalence.py --dataset cuad
+python thesis/lib/experiments/experiment_vary_experts/phase_1/plot_prevalence.py --dataset misogynistic
+
+# Phase 2
+python thesis/lib/experiments/experiment_vary_experts/phase_2_and_3/plot_phase2.py --dataset cuad --phase low
+python thesis/lib/experiments/experiment_vary_experts/phase_2_and_3/plot_phase2.py --dataset misogynistic --phase low
+
+# Phase 3
+python thesis/lib/experiments/experiment_vary_experts/phase_2_and_3/plot_phase2.py --dataset cuad --phase high
+python thesis/lib/experiments/experiment_vary_experts/phase_2_and_3/plot_phase2.py --dataset misogynistic --phase high
+```
+
+## Immediate Next Steps
+1. Run `bash thesis/exe/vera-apptainer/evaluate-high-variance.sh cuad` on Vera
+2. SCP cuad high variance CSVs locally and plot Phase 3 cuad
+3. Wait for C3SE quota increase
+4. Once quota increased: resubmit misogynistic Phase 3 jobs
+5. Evaluate and plot misogynistic Phase 3
+6. Start Phase 4 (full logistic regression)
+7. Experiment 2 scripts
+
+## Vera HPC Details
+- Cluster: vera2.c3se.chalmers.se
+- Code path: /cephyr/users/kesaf/Vera/llm-debiasing-benchmark
+- Container: ~/benchmarking.sif (6.6G — takes most of 7G quota)
+- Account: C3SE2026-1-12, partition: vera
+- Disk quota issue: contacted Nicolas

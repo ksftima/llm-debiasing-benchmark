@@ -6,10 +6,10 @@ import os
 
 # Dataset paths (scaled versions)
 datasets = {
-    'CUAD': 'thesis/datasets/parsed/cuad.csv',
-    'FOMC': 'thesis/datasets/parsed/fomc.csv',
-    'Misogynistic': 'thesis/datasets/parsed/misogynistic.csv',
-    'PubMedQA': 'thesis/datasets/parsed/pubmedqa.csv'
+    'CUAD': 'thesis/datasets/parsed/parsed_scaled_datasets/cuad.csv',
+    'FOMC': 'thesis/datasets/parsed/parsed_scaled_datasets/fomc.csv',
+    'Misogynistic': 'thesis/datasets/parsed/parsed_scaled_datasets/misogynistic.csv',
+    'PubMedQA': 'thesis/datasets/parsed/parsed_scaled_datasets/pubmedqa.csv'
 }
 
 # Feature columns
@@ -56,6 +56,10 @@ for dataset_name, file_path in datasets.items():
                 high_corr_found = True
     if not high_corr_found:
         print("  None found")
+
+    # Feature-y correlations
+    print("\nCorrelation with y:")
+    print(df[feature_cols].corrwith(df['y']).round(3).to_string())
 
     # checking VIF
     print("\nVariance Inflation Factor (VIF):")
