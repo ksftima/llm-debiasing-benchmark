@@ -60,29 +60,32 @@ def load_all_reps(results_dir: Path):
 def compute_metrics_beta2(betas2, beta2_star):
     """
     Standardized sRMSE and bias for β₂ (the feature coefficient).
-    betas2, beta2_star : shape (num_reps,)
+    betas2, beta2_star : shape (num_reps,) — NaNs skipped.
+    Returns n_valid so caller can record how many reps contributed.
     """
     normalized = (betas2 - beta2_star) / beta2_star
-    n          = len(normalized)
-    srmse      = float(np.sqrt(np.mean(normalized ** 2)))
-    std_bias   = float(np.mean(normalized))
-    srmse_se   = float(np.std(normalized) / np.sqrt(n))
-    bias_se    = float(np.std(normalized) / np.sqrt(n))
-    return srmse, std_bias, srmse_se, bias_se
-
+    n          = int(np.sum(~np.isnan(normalized)))
+    srmse      = float(np.sqrt(np.nanmean(normalized ** 2)))
+    std_bias   = float(np.nanmean(normalized))
+    srmse_se   = float(np.nanstd(normalized) / np.sqrt(n)) if n > 1 else np.nan
+    bias_se    = float(np.nanstd(normalized) / np.sqrt(n)) if n > 1 else np.nan
+    return srmse, std_bias, srmse_se, bias_se, n
 
 
 def compute_metrics_euclidean(betas, beta_star):
     """
     Euclidean sRMSE: sqrt( mean( ||β - β*||² / ||β*||² ) ) over reps.
-    betas, beta_star : shape (num_reps, 2)
+    betas, beta_star : shape (num_reps, 2) — rows with any NaN are skipped.
     """
-    sq_error = np.sum((betas - beta_star) ** 2, axis=1)   # (num_reps,)
-    ref_norm = np.sum(beta_star ** 2, axis=1)              # (num_reps,)
-    ratio    = sq_error / ref_norm                         # (num_reps,)
-    n        = len(ratio)
-    srmse    = float(np.sqrt(np.mean(ratio)))
-    srmse_se = float(np.std(np.sqrt(ratio)) / np.sqrt(n))
+    valid     = ~np.isnan(betas).any(axis=1)
+    betas     = betas[valid]
+    beta_star = beta_star[valid]
+    n         = int(valid.sum())
+    sq_error  = np.sum((betas - beta_star) ** 2, axis=1)
+    ref_norm  = np.sum(beta_star ** 2, axis=1)
+    ratio     = sq_error / ref_norm
+    srmse     = float(np.sqrt(np.mean(ratio)))
+    srmse_se  = float(np.std(np.sqrt(ratio)) / np.sqrt(n)) if n > 1 else np.nan
     return srmse, srmse_se
 
 
@@ -112,7 +115,7 @@ if __name__ == "__main__":
     # --- LLM-only baseline (constant, no n dependence) ---
     llm_betas = data["theta_llm"]  # shape (num_reps, 2)
 
-    srmse_b2, bias_b2, srmse_b2_se, bias_b2_se = compute_metrics_beta2(
+    srmse_b2, bias_b2, srmse_b2_se, bias_b2_se, n_valid = compute_metrics_beta2(
         llm_betas[:, 1], beta_star[:, 1]
     )
     srmse_eucl, srmse_eucl_se = compute_metrics_euclidean(llm_betas, beta_star)
@@ -129,6 +132,7 @@ if __name__ == "__main__":
         "sRMSE_eucl":     round(srmse_eucl,  6),
         "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
         "n_reps":         num_reps,
+        "n_valid":        n_valid,
         "phase":          "low_variance",
     })
 
@@ -143,7 +147,7 @@ if __name__ == "__main__":
         for i, n in enumerate(n_values):
             betas_at_n = all_thetas[:, i, :]  # shape (num_reps, 2)
 
-            srmse_b2, bias_b2, srmse_b2_se, bias_b2_se = compute_metrics_beta2(
+            srmse_b2, bias_b2, srmse_b2_se, bias_b2_se, n_valid = compute_metrics_beta2(
                 betas_at_n[:, 1], beta_star[:, 1]
             )
             srmse_eucl, srmse_eucl_se = compute_metrics_euclidean(
@@ -162,6 +166,7 @@ if __name__ == "__main__":
                 "sRMSE_eucl":     round(srmse_eucl,  6),
                 "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
                 "n_reps":         num_reps,
+                "n_valid":        n_valid,
                 "phase":          "low_variance",
             })
 

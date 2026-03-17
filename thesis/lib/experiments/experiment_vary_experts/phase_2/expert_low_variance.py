@@ -90,23 +90,26 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
         coeff_file = Path(tmp) / "coeff.csv"
         data.to_csv(data_file, index=False)
 
-        ro.r(f"""
-            sink("/dev/null")
-            suppressWarnings(library("dsl"))
-            data <- read.csv("{data_file}")
-            out <- suppressWarnings(dsl(
-                model         = "logit",
-                formula       = Y ~ x2,
-                predicted_var = "Y",
-                prediction    = "Y_hat",
-                data          = data,
-                seed          = Sys.time()
-            ))
-            write.csv(out$coefficients, "{coeff_file}", row.names=FALSE)
-            sink()
-        """)
-
-        coeffs = np.array(pd.read_csv(coeff_file)).squeeze()
+        try:
+            ro.r(f"""
+                sink("/dev/null")
+                suppressWarnings(library("dsl"))
+                data <- read.csv("{data_file}")
+                out <- suppressWarnings(dsl(
+                    model         = "logit",
+                    formula       = Y ~ x2,
+                    predicted_var = "Y",
+                    prediction    = "Y_hat",
+                    data          = data,
+                    seed          = Sys.time()
+                ))
+                write.csv(out$coefficients, "{coeff_file}", row.names=FALSE)
+                sink()
+            """)
+            coeffs = np.array(pd.read_csv(coeff_file)).squeeze()
+        except Exception as e:
+            print(f"    DSL failed (separation): {e}")
+            return np.array([np.nan, np.nan])
 
     return np.atleast_1d(coeffs)  # [β₀, β₂]
 
