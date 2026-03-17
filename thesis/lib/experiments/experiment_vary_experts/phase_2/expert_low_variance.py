@@ -56,13 +56,17 @@ def fit_ppi_x2(Y, Y_hat, x2, selected_mask):
     ones = np.ones(N)
     X    = np.column_stack([ones, x2])  # shape (N, 2)
 
-    return ppi_logistic_pointestimate(
-        X              = X[selected_mask],
-        Y              = Y[selected_mask],
-        Yhat           = Y_hat[selected_mask],
-        X_unlabeled    = X[~selected_mask],
-        Yhat_unlabeled = Y_hat[~selected_mask],
-    )
+    try:
+        return ppi_logistic_pointestimate(
+            X              = X[selected_mask],
+            Y              = Y[selected_mask],
+            Yhat           = Y_hat[selected_mask],
+            X_unlabeled    = X[~selected_mask],
+            Yhat_unlabeled = Y_hat[~selected_mask],
+        )
+    except Exception as e:
+        print(f"    PPI failed (separation): {e}")
+        return np.array([np.nan, np.nan])
 
 
 def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
