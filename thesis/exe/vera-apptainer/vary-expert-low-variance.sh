@@ -38,7 +38,8 @@ apptainer exec \
     --bind ${CODE_DIR}:/code \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python3 /code/thesis/lib/experiments/experiment_vary_experts/phase_2/expert_low_variance.py \
+    python3 /code/thesis/lib/experiments/experiment_vary_experts/phase_2_and_3/expert_low_variance.py \
         "${ANNOTATED_CSV}" \
         "${OUTPUT_DIR}/rep_${SLURM_ARRAY_TASK_ID}.npz" \
-        --seed "${SLURM_ARRAY_TASK_ID}"
+        --seed    "${SLURM_ARRAY_TASK_ID}" \
+        --dataset "${DATASET}"
