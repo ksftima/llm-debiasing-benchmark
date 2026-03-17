@@ -7,10 +7,9 @@ Metrics computed:
     sRMSE_beta2  = sqrt( E[ ((β₂ - β*₂) / β*₂)² ] )   standardized for x2 coeff
     bias_beta2   =        E[ (β₂ - β*₂)  / β*₂  ]       standardized bias for β₂
     sRMSE_eucl   = sqrt( E[ ||β - β*||² / ||β*||² ] )   Euclidean-norm sRMSE
-    RMSE_beta0   = sqrt( E[ (β₀ - β*₀)² ] )             raw RMSE for intercept
-                   (not standardized — β*₀ can be near 0 on balanced datasets)
 
 Primary plotting metric: sRMSE_beta2 (the coefficient of interest).
+Cross-phase comparison metric: sRMSE_eucl.
 
 Output: a CSV with one row per (method, n) combination.
 """
@@ -72,17 +71,6 @@ def compute_metrics_beta2(betas2, beta2_star):
     return srmse, std_bias, srmse_se, bias_se
 
 
-def compute_rmse_beta0(betas0, beta0_star):
-    """
-    Raw (non-standardized) RMSE for β₀, since β*₀ can be near 0.
-    betas0, beta0_star : shape (num_reps,)
-    """
-    diff   = betas0 - beta0_star
-    n      = len(diff)
-    rmse   = float(np.sqrt(np.mean(diff ** 2)))
-    rmse_se = float(np.std(np.abs(diff)) / np.sqrt(n))
-    return rmse, rmse_se
-
 
 def compute_metrics_euclidean(betas, beta_star):
     """
@@ -127,7 +115,6 @@ if __name__ == "__main__":
     srmse_b2, bias_b2, srmse_b2_se, bias_b2_se = compute_metrics_beta2(
         llm_betas[:, 1], beta_star[:, 1]
     )
-    rmse_b0, rmse_b0_se = compute_rmse_beta0(llm_betas[:, 0], beta_star[:, 0])
     srmse_eucl, srmse_eucl_se = compute_metrics_euclidean(llm_betas, beta_star)
 
     rows.append({
@@ -139,8 +126,6 @@ if __name__ == "__main__":
         "sRMSE_beta2_se": round(srmse_b2_se, 6),
         "bias_beta2":     round(bias_b2,     6),
         "bias_beta2_se":  round(bias_b2_se,  6),
-        "RMSE_beta0":     round(rmse_b0,     6),
-        "RMSE_beta0_se":  round(rmse_b0_se,  6),
         "sRMSE_eucl":     round(srmse_eucl,  6),
         "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
         "n_reps":         num_reps,
@@ -161,9 +146,6 @@ if __name__ == "__main__":
             srmse_b2, bias_b2, srmse_b2_se, bias_b2_se = compute_metrics_beta2(
                 betas_at_n[:, 1], beta_star[:, 1]
             )
-            rmse_b0, rmse_b0_se = compute_rmse_beta0(
-                betas_at_n[:, 0], beta_star[:, 0]
-            )
             srmse_eucl, srmse_eucl_se = compute_metrics_euclidean(
                 betas_at_n, beta_star
             )
@@ -177,8 +159,6 @@ if __name__ == "__main__":
                 "sRMSE_beta2_se": round(srmse_b2_se, 6),
                 "bias_beta2":     round(bias_b2,     6),
                 "bias_beta2_se":  round(bias_b2_se,  6),
-                "RMSE_beta0":     round(rmse_b0,     6),
-                "RMSE_beta0_se":  round(rmse_b0_se,  6),
                 "sRMSE_eucl":     round(srmse_eucl,  6),
                 "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
                 "n_reps":         num_reps,
