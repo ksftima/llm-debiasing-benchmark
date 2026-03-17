@@ -1,0 +1,18 @@
+{
+    "cuad": {
+        "low_variance_feature":  "x2",
+        "high_variance_feature": "x1"
+    },
+    "misogynistic": {
+        "low_variance_feature":  "x2",
+        "high_variance_feature": "x1"
+    },
+    "fomc": {
+        "low_variance_feature":  "x4",
+        "high_variance_feature": "x2"
+    },
+    "pubmedqa": {
+        "low_variance_feature":  "x5",
+        "high_variance_feature": "x2"
+    }
+}

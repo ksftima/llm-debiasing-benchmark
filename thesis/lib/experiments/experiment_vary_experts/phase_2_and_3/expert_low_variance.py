@@ -24,6 +24,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 import sys
 sys.path.insert(0, "/code/original/lib")  # find fitting.py inside the container
 
+import json
 import numpy as np
 import pandas as pd
 import tempfile
@@ -31,6 +32,19 @@ from pathlib import Path
 from argparse import ArgumentParser
 from sklearn.linear_model import LogisticRegression
 from ppi_py import ppi_logistic_pointestimate
+
+CONFIG_PATH = Path(__file__).parent.parent.parent / "dataset_config.json"
+
+
+def get_feature(dataset: str, phase: str) -> str:
+    """Load low/high variance feature name from dataset_config.json."""
+    with open(CONFIG_PATH) as f:
+        config = json.load(f)
+    key = f"{phase}_variance_feature"
+    feature = config.get(dataset, {}).get(key)
+    if feature is None:
+        raise ValueError(f"No {key} configured for dataset '{dataset}'. Update dataset_config.json.")
+    return feature
 
 
 def fit_logistic_x2(Y, x2):
@@ -69,10 +83,10 @@ def fit_ppi_x2(Y, Y_hat, x2, selected_mask):
         return np.array([np.nan, np.nan])
 
 
-def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
+def fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature: str):
     """
-    DSL estimate for logistic regression with x2 feature.
-    formula = Y ~ x2
+    DSL estimate for logistic regression with a single feature.
+    formula = Y ~ <feature>
     Expert labels for non-selected rows are set to None (missing).
     """
     import rpy2.robjects as ro
@@ -86,7 +100,7 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
     data = pd.DataFrame({
         "Y":     Y_true_sel,
         "Y_hat": Y_hat,
-        "x2":    x2,
+        feature: x2,
     })
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -101,7 +115,7 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
                 data <- read.csv("{data_file}")
                 out <- suppressWarnings(dsl(
                     model         = "logit",
-                    formula       = Y ~ x2,
+                    formula       = Y ~ {feature},
                     predicted_var = "Y",
                     prediction    = "Y_hat",
                     data          = data,
@@ -115,20 +129,20 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask):
             print(f"    DSL failed (separation): {e}")
             return np.array([np.nan, np.nan])
 
-    return np.atleast_1d(coeffs)  # [β₀, β₂]
+    return np.atleast_1d(coeffs)
 
 
-def compute_one_n(Y, Y_hat, x2, n, seed):
+def compute_one_n(Y, Y_hat, x2, n, seed, feature: str):
     """
     For one expert sample size n: select n rows, compute θ for each method.
-    Returns three 2-element arrays [β₀, β₂].
+    Returns three 2-element arrays [β₀, β_feature].
     """
     rng = np.random.default_rng(seed)
     selected_mask = np.zeros(len(Y), dtype=bool)
     selected_mask[rng.choice(len(Y), size=n, replace=False)] = True
 
     beta_exp = fit_logistic_x2(Y[selected_mask], x2[selected_mask])
-    beta_dsl = fit_dsl_x2(Y, Y_hat, x2, selected_mask)
+    beta_dsl = fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature)
     beta_ppi = fit_ppi_x2(Y, Y_hat, x2, selected_mask)
 
     return beta_exp, beta_dsl, beta_ppi
@@ -141,16 +155,21 @@ if __name__ == "__main__":
         help="Path to annotated CSV, e.g. cuad_llama_annotated.csv")
     parser.add_argument("results_path", type=Path,
         help="Where to save the .npz result for this repetition")
-    parser.add_argument("--seed", type=int, required=True,
+    parser.add_argument("--seed",    type=int, required=True,
         help="Random seed = SLURM array task ID")
+    parser.add_argument("--dataset", type=str, required=True,
+        help="Dataset name, e.g. cuad — used to look up feature from dataset_config.json")
+    parser.add_argument("--phase", type=str, choices=["low", "high"], default="low",
+        help="'low' for Phase 2 (low-variance feature), 'high' for Phase 3 (high-variance feature)")
     args = parser.parse_args()
 
-    print(f"Seed: {args.seed} | CSV: {args.annotated_csv}")
+    feature = get_feature(args.dataset, args.phase)
+    print(f"Seed: {args.seed} | CSV: {args.annotated_csv} | Feature: {feature}")
 
     data  = pd.read_csv(args.annotated_csv).sample(frac=1, random_state=42).reset_index(drop=True)
     Y     = data["y"].to_numpy().astype(float)
     Y_hat = data["y_hat"].to_numpy().astype(float)
-    x2    = data["x2"].to_numpy().astype(float)
+    x2    = data[feature].to_numpy().astype(float)
 
     # Reference: fit on ALL expert labels
     theta_star = fit_logistic_x2(Y, x2)
@@ -172,7 +191,7 @@ if __name__ == "__main__":
 
     for i, n in enumerate(n_values):
         n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi = compute_one_n(Y, Y_hat, x2, n, n_seed)
+        exp, dsl, ppi = compute_one_n(Y, Y_hat, x2, n, n_seed, feature)
         thetas_exp[i] = exp
         thetas_dsl[i] = dsl
         thetas_ppi[i] = ppi
