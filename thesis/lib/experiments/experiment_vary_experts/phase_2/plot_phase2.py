@@ -227,6 +227,7 @@ if __name__ == "__main__":
     ds      = args.dataset
 
     df = load_summaries(args.summaries_dir, args.dataset)
+    df = df[df["n_expert"].isna() | (df["n_expert"] > 30)]
     print(f"Loaded {len(df)} rows  |  dataset={args.dataset}")
 
     # Primary metric: sRMSE of β₂ (the feature coefficient)

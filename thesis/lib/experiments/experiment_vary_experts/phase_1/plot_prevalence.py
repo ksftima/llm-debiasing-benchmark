@@ -253,6 +253,7 @@ if __name__ == "__main__":
     if args.output_avg       is None: args.output_avg       = fig_dir / f"{ds}_prevalence_avg.pdf"
 
     df = load_summaries(args.summaries_dir, args.dataset)
+    df = df[df["n_expert"].isna() | (df["n_expert"] > 30)]
     print(f"Loaded {len(df)} rows  |  dataset={args.dataset}")
 
     # Main figure: θ†, DSL, PPI — matching paper Figure 3 style
