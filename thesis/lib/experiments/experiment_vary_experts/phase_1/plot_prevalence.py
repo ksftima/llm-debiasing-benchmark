@@ -88,6 +88,7 @@ def _plot_panel(ax, sub: pd.DataFrame, colors: list, metric: str, se_col: str,
     ax.set_xscale("log")
     ax.set_xticks(prop_values)
     ax.set_xticklabels([f"{p:.3f}" for p in prop_values], rotation=45, ha="right")
+    ax.xaxis.set_minor_locator(plt.NullLocator())
     ax.set_xlim(left=prop_values[0] * 0.85, right=prop_values[-1] * 1.05)
 
     ax.set_xlabel("Proportion of expert samples (log)", fontsize=11)
@@ -158,6 +159,7 @@ def make_averaged_figure(df: pd.DataFrame, _dataset: str,
     ax.set_xscale("log")
     ax.set_xticks(prop_values)
     ax.set_xticklabels([f"{p:.3f}" for p in prop_values], rotation=45, ha="right")
+    ax.xaxis.set_minor_locator(plt.NullLocator())
     ax.set_xlim(left=prop_values[0] * 0.85, right=prop_values[-1] * 1.05)
     ax.set_xlabel("Proportion of expert samples (log)", fontsize=11)
     ax.set_ylabel(ylabel, fontsize=11)

@@ -29,3 +29,4 @@ pyvenv.cfg
 thesis/bin/
 thesis/include/
 thesis/lib/python3.13/
+thesis/results/figures/
