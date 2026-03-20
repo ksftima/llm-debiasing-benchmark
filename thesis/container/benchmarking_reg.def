@@ -1,0 +1,99 @@
+# Section 1: The header
+# when building, apptainer downloads this image and uses it as a starting point
+
+# go fetch base image from docker hub
+Bootstrap: docker
+
+# the image name - ubuntu base gives us both R and Python cleanly
+From: ubuntu:22.04
+
+# Section 2: Files
+# This sections copies files from my machine into the container at build time
+%files
+    requirements_container.txt /opt/requirements_container.txt
+# left side: req...txt — the file on my machine (relative to where the .def file lives)
+# right side: /tmp/req...txt — where it lands inside the container
+# NOTE: %files runs before %post. apptainer copies files in first and then installs commands
+
+# Section 3: %post
+# %post is where we install things, bunch of shell commands running once,
+# at build time inside the container
+
+# Section 3.1: Environment
+# This section sets the environment vars that are active every time the container runs!!
+%environment
+    export DEBIAN_FRONTEND=noninteractive
+    export LC_ALL=C
+    export PYTHONUNBUFFERED=1
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+
+    apt-get update && apt-get install -y --no-install-recommends \
+        python3-dev \
+        python3-pip \
+        gcc \
+        g++ \
+        r-base \
+        r-base-dev \
+        r-cran-lme4 \
+        r-cran-tidyverse \
+        libcurl4-openssl-dev \
+        libssl-dev
+    rm -rf /var/lib/apt/lists/*
+
+    # 1. apt-get update: refreshes the list of available packages
+    # 2. apt-get install -y: -y means yes to all prompts
+    # 3. --no-install-recommends: only installs what's asked
+    # 4. gcc/g++: c compilers needed for python packages
+    # 5. r-base/r-base-dev: R runtime
+    # 6. r-cran-lme4/r-cran-tidyverse: pre-compiled R packages via apt (avoids compilation issues)
+    # 7. libcurl4-openssl-dev/libssl-dev: needed for remaining R packages
+    # 8. DEBIAN_FRONTEND=noninteractive: suppresses interactive prompts during build
+
+    # Install R packages: remotes first, then forked DSL with lambda regularization exposed
+    Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
+    Rscript -e "install.packages('glmnet', repos='https://cloud.r-project.org')"
+    Rscript -e "install.packages('logistf', repos='https://cloud.r-project.org')"
+    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=TRUE)"
+    # Verify DSL installed correctly -- build will fail loudly here if it didn't
+    Rscript -e "library('dsl')"
+
+
+    # Section 2.1 Pip Installs
+    pip3 install --upgrade pip
+    pip3 install torch --index-url https://download.pytorch.org/whl/cu124
+    pip3 install -r /opt/requirements_container.txt
+
+    # 1. --upgrade pip: updates pip itself first, good practice
+    # 2. torch --index-url ..: installs torch with CUDA 12.4 support for GPU inference on Vera
+    # 3. -r/opt/requirements_container.txt: installs everything in the req file.
+    # NOTE: the order matters!! torch first then everything else
+
+# 1. LC_ALL=C: sets local to safe default to avoid locale files errors
+# 2. PYTHONUNBUFFERED=1: set to =1 means that log output prints immediately
+# instead of chunks!! imp when watching logs
+
+# Section 5: Labels
+# Metadata that is baked into the image
+%labels
+    Author Kesa Fatima
+    Version 0.2
+    Description LLM debiasing benchmark with L2 regularization for DSL and PPI
+
+# Section 6: Help
+# This is guideline for running the container
+%help
+    Development usage (bind-mound code and data at runtime):
+        apptainer exec \
+            --bind /path/to/thesis:/code \
+            --bind /path/to/datasets:/data\
+            thesis.sif python /code/script.py
+
+    Interactive shell inside the container:
+        apptainer shell --bind /path/to/thesis:/code thesis.sif
+
+# this .def file will create a .sif file. a sif file is the output
+# of the build, the frozen finished container- its immutable!
+# its portable, we can scp it to Vera
+# do not commit the sif, only commit the .def!
