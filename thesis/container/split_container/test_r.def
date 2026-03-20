@@ -9,12 +9,16 @@ From: ubuntu:22.04
     apt-get update && apt-get install -y --no-install-recommends \
         r-base \
         r-base-dev \
-        r-cran-lme4 \
-        r-cran-tidyverse \
         libcurl4-openssl-dev \
-        libssl-dev
+        libssl-dev \
+        libxml2-dev \
+        cmake \
+        libnlopt-dev \
+        pkg-config \
+        gfortran
     rm -rf /var/lib/apt/lists/*
 
-    Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
-    Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
+    # Install from CRAN only — no apt R packages so there's no Matrix version conflict
+    Rscript -e "install.packages(c('remotes', 'Matrix', 'nloptr', 'lme4', 'arm', 'glmnet', 'logistf'), repos='https://cloud.r-project.org')"
+    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=FALSE)"
     Rscript -e "library('dsl')"
