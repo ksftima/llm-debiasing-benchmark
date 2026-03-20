@@ -59,11 +59,13 @@ From: ubuntu:22.04
     # 7. libcurl4-openssl-dev/libssl-dev: needed for remaining R packages
     # 8. DEBIAN_FRONTEND=noninteractive: suppresses interactive prompts during build
 
-    # Install R packages: remotes first, then forked DSL with lambda regularization exposed
+    # Install R packages: install original dsl first to resolve all dependencies,
+    # then overwrite with forked dsl_reg which exposes the lambda parameter
     Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
+    Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
     Rscript -e "install.packages('glmnet', repos='https://cloud.r-project.org')"
     Rscript -e "install.packages('logistf', repos='https://cloud.r-project.org')"
-    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=TRUE)"
+    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=FALSE)"
     # Verify DSL installed correctly -- build will fail loudly here if it didn't
     Rscript -e "library('dsl')"
 

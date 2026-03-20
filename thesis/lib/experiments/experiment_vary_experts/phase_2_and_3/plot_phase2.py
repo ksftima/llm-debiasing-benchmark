@@ -233,7 +233,7 @@ if __name__ == "__main__":
     label   = "Low-Variance" if ph == "low" else "High-Variance"
 
     df = load_summaries(args.summaries_dir, ds, ph)
-    df = df[df["n_expert"].isna() | (df["n_expert"] > 50)]
+    df = df[df["n_expert"].isna() | (df["n_expert"] > 20)]
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  phase={ph}")
 
     make_figure(
