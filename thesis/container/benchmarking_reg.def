@@ -39,7 +39,15 @@ From: ubuntu:22.04
         r-cran-lme4 \
         r-cran-tidyverse \
         libcurl4-openssl-dev \
-        libssl-dev
+        libssl-dev \
+        libxml2-dev \
+        libfontconfig1-dev \
+        libharfbuzz-dev \
+        libfribidi-dev \
+        libfreetype6-dev \
+        libpng-dev \
+        libtiff5-dev \
+        libjpeg-dev
     rm -rf /var/lib/apt/lists/*
 
     # 1. apt-get update: refreshes the list of available packages
