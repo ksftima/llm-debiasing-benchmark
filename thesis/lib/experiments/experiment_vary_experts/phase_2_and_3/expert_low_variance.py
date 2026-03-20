@@ -30,6 +30,8 @@ import pandas as pd
 import tempfile
 from pathlib import Path
 from argparse import ArgumentParser
+from scipy.optimize import minimize
+from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
 from ppi_py import ppi_logistic_pointestimate
 
@@ -47,39 +49,66 @@ def get_feature(dataset: str, phase: str) -> str:
     return feature
 
 
+LAM_L2 = 0.01  # L2 regularization strength — applied consistently to all methods
+
+
 def fit_logistic_x2(Y, x2):
     """
-    MLE for logistic regression with x2 as the single feature.
+    L2-regularised logistic regression with a single feature.
     Returns [β₀, β₂] as a 2-element array.
-    penalty=None gives the unregularised MLE.
+    C = 1/LAM_L2 (sklearn convention).
     """
     X   = x2.reshape(-1, 1)
-    clf = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
+    clf = LogisticRegression(penalty="l2", C=1.0/LAM_L2, solver="lbfgs", max_iter=1000)
     clf.fit(X, Y.astype(int))
     return np.array([clf.intercept_[0], clf.coef_[0, 0]])
 
 
 def fit_ppi_x2(Y, Y_hat, x2, selected_mask):
     """
-    PPI estimate for logistic regression with x2 feature.
+    PPI logistic regression with L2 regularization (lam_l2 = LAM_L2).
 
-    X must include the intercept column (ppi_py convention):
-        X = [[1, x2_0], [1, x2_1], ...]  shape (N, 2)
+    Implements the PPI objective directly using scipy:
+        L(θ) = mean_unlabeled(ℓ(ŷ, Xθ))
+             - mean_labeled(ℓ(ŷ, Xθ))
+             + mean_labeled(ℓ(y, Xθ))
+             + LAM_L2/2 * ||θ[1:]||²
+    where ℓ(y, Xθ) = -y*Xθ + log(1 + exp(Xθ)) is the logistic loss.
+    L2 penalty is applied to all coefficients except the intercept (index 0).
     """
-    N    = len(Y)
-    ones = np.ones(N)
+    ones = np.ones(len(Y))
     X    = np.column_stack([ones, x2])  # shape (N, 2)
 
+    X_lab     = X[selected_mask]
+    Y_lab     = Y[selected_mask].astype(float)
+    Yhat_lab  = Y_hat[selected_mask].astype(float)
+    X_unlab   = X[~selected_mask]
+    Yhat_unlab = Y_hat[~selected_mask].astype(float)
+
+    def safe_log1pexp(z):
+        return np.log1p(np.exp(-np.abs(z))) + np.maximum(z, 0.0)
+
+    def objective(theta):
+        loss_unlab  = np.mean(-Yhat_unlab  * (X_unlab @ theta) + safe_log1pexp(X_unlab @ theta))
+        loss_lab_y  = np.mean(-Y_lab       * (X_lab   @ theta) + safe_log1pexp(X_lab   @ theta))
+        loss_lab_yh = np.mean(-Yhat_lab    * (X_lab   @ theta) + safe_log1pexp(X_lab   @ theta))
+        l2 = LAM_L2 / 2.0 * np.sum(theta[1:] ** 2)
+        return loss_unlab - loss_lab_yh + loss_lab_y + l2
+
+    def gradient(theta):
+        grad_unlab  = X_unlab.T @ (expit(X_unlab @ theta) - Yhat_unlab)  / len(Yhat_unlab)
+        grad_lab_y  = X_lab.T   @ (expit(X_lab   @ theta) - Y_lab)       / len(Y_lab)
+        grad_lab_yh = X_lab.T   @ (expit(X_lab   @ theta) - Yhat_lab)    / len(Y_lab)
+        grad_l2 = LAM_L2 * np.concatenate([[0.0], theta[1:]])
+        return grad_unlab - grad_lab_yh + grad_lab_y + grad_l2
+
     try:
-        return ppi_logistic_pointestimate(
-            X              = X[selected_mask],
-            Y              = Y[selected_mask],
-            Yhat           = Y_hat[selected_mask],
-            X_unlabeled    = X[~selected_mask],
-            Yhat_unlabeled = Y_hat[~selected_mask],
-        )
+        result = minimize(objective, np.zeros(2), jac=gradient, method="L-BFGS-B")
+        if not result.success:
+            print(f"    PPI optimisation did not converge: {result.message}")
+        return result.x
     except Exception as e:
-        print(f"    PPI failed (separation): {e}")
+        print(f"    PPI failed: {e}")
         return np.array([np.nan, np.nan])
 
 
@@ -119,7 +148,8 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature: str):
                     predicted_var = "Y",
                     prediction    = "Y_hat",
                     data          = data,
-                    seed          = Sys.time()
+                    seed          = Sys.time(),
+                    lambda        = {LAM_L2}
                 ))
                 write.csv(out$coefficients, "{coeff_file}", row.names=FALSE)
                 sink()
