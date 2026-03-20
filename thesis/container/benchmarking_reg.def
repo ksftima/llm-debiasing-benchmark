@@ -47,7 +47,11 @@ From: ubuntu:22.04
         libfreetype6-dev \
         libpng-dev \
         libtiff5-dev \
-        libjpeg-dev
+        libjpeg-dev \
+        cmake \
+        libnlopt-dev \
+        zlib1g-dev \
+        gfortran
     rm -rf /var/lib/apt/lists/*
 
     # 1. apt-get update: refreshes the list of available packages
