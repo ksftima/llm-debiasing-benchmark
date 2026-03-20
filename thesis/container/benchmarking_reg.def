@@ -65,7 +65,7 @@ From: ubuntu:22.04
     Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
     Rscript -e "install.packages('glmnet', repos='https://cloud.r-project.org')"
     Rscript -e "install.packages('logistf', repos='https://cloud.r-project.org')"
-    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=FALSE)"
+    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=TRUE)"
     # Verify DSL installed correctly -- build will fail loudly here if it didn't
     Rscript -e "library('dsl')"
 
