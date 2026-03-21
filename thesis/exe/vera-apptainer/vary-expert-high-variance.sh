@@ -23,7 +23,7 @@ set -eo pipefail
 DATASET=$1
 LLM=$2
 
-CONTAINER_PATH="$HOME/benchmarking.sif"
+CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"
