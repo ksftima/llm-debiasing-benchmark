@@ -6,31 +6,24 @@ From: ubuntu:22.04
 
 %post
     export DEBIAN_FRONTEND=noninteractive
+
+    # Base system tools + R build dependencies
     apt-get update && apt-get install -y --no-install-recommends \
         wget \
-        gnupg \
-        ca-certificates \
         software-properties-common \
+        dirmngr \
         libcurl4-openssl-dev \
-        libssl-dev \
-        libxml2-dev \
-        cmake \
-        libnlopt-dev \
-        pkg-config \
-        gfortran \
-        jags
+        libssl-dev
     rm -rf /var/lib/apt/lists/*
 
-    # Add CRAN repo to get R 4.4+ (Ubuntu 22.04 ships R 4.1.2 which is too old for Matrix 1.7+)
-    # jammy-cran40 = the R 4.x series repo (currently provides R 4.4.x)
-    wget -qO /usr/share/keyrings/r-project.asc \
-        https://cloud.r-project.org/bin/linux/ubuntu/marty@r-project.org.asc
-    echo "deb [signed-by=/usr/share/keyrings/r-project.asc] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
+    # Add CRAN repo for R 4.4+ (correct key URL — marutter_pubkey.asc, no @ in filename)
+    wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
+        | tee /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+    echo "deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
         > /etc/apt/sources.list.d/r-cran.list
     apt-get update && apt-get install -y --no-install-recommends r-base r-base-dev
     rm -rf /var/lib/apt/lists/*
 
     Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
-    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=TRUE)"
-    Rscript -e "install.packages(c('glmnet', 'logistf'), repos='https://cloud.r-project.org')"
+    Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
     Rscript -e "library('dsl')"
