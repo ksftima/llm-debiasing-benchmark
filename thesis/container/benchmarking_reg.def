@@ -14,25 +14,55 @@ From: ubuntu:22.04
 %post
     export DEBIAN_FRONTEND=noninteractive
 
-    # Identical to benchmarking.def — known to work
+    # Base system tools + all system libs needed by current CRAN packages
     apt-get update && apt-get install -y --no-install-recommends \
         python3-dev \
         python3-pip \
         gcc \
         g++ \
-        r-base \
-        r-base-dev \
-        r-cran-lme4 \
-        r-cran-tidyverse \
+        wget \
+        software-properties-common \
+        dirmngr \
         libcurl4-openssl-dev \
-        libssl-dev
+        libssl-dev \
+        libxml2-dev \
+        libfontconfig1-dev \
+        libharfbuzz-dev \
+        libfribidi-dev \
+        libfreetype6-dev \
+        libpng-dev \
+        libjpeg-dev \
+        libtiff5-dev \
+        libwebp-dev \
+        cmake \
+        libnlopt-dev \
+        pkg-config \
+        gfortran
     rm -rf /var/lib/apt/lists/*
 
+    # Add CRAN repo for R 4.4+ (correct key URL — marutter_pubkey.asc, no @ in filename)
+    wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc \
+        | tee /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+    echo "deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
+        > /etc/apt/sources.list.d/r-cran.list
+    apt-get update && apt-get install -y --no-install-recommends r-base r-base-dev
+    rm -rf /var/lib/apt/lists/*
+
+    # R packages: fail fast on nloptr before running the full dsl dependency tree
     Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
+    Rscript -e "install.packages('nloptr', repos='https://cloud.r-project.org')"
+    Rscript -e "library('nloptr')"
+
+    # Step 1: install original dsl — resolves all dependencies (arm, lme4, grf, etc.)
     Rscript -e "remotes::install_github('naoki-egami/dsl', dependencies=TRUE)"
+
+    # Step 2: overwrite with forked dsl_reg (adds lambda param) — deps already installed
+    Rscript -e "remotes::install_github('ksftima/dsl_reg', dependencies=FALSE)"
+
+    # Verify
     Rscript -e "library('dsl')"
 
-    # Pip installs — identical to benchmarking.def
+    # Pip installs
     pip3 install --upgrade pip
     pip3 install torch --index-url https://download.pytorch.org/whl/cu124
     pip3 install -r /opt/requirements_container.txt
