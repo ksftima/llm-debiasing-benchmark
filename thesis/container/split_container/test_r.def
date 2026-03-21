@@ -8,6 +8,7 @@ From: ubuntu:22.04
     export DEBIAN_FRONTEND=noninteractive
     apt-get update && apt-get install -y --no-install-recommends \
         wget \
+        gnupg \
         ca-certificates \
         software-properties-common \
         libcurl4-openssl-dev \
@@ -21,9 +22,10 @@ From: ubuntu:22.04
     rm -rf /var/lib/apt/lists/*
 
     # Add CRAN repo to get R 4.4+ (Ubuntu 22.04 ships R 4.1.2 which is too old for Matrix 1.7+)
-    wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marty@r-project.org.asc \
-        | tee /usr/share/keyrings/r-project.gpg > /dev/null
-    echo "deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran44/" \
+    # jammy-cran40 = the R 4.x series repo (currently provides R 4.4.x)
+    wget -qO /usr/share/keyrings/r-project.asc \
+        https://cloud.r-project.org/bin/linux/ubuntu/marty@r-project.org.asc
+    echo "deb [signed-by=/usr/share/keyrings/r-project.asc] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" \
         > /etc/apt/sources.list.d/r-cran.list
     apt-get update && apt-get install -y --no-install-recommends r-base r-base-dev
     rm -rf /var/lib/apt/lists/*
