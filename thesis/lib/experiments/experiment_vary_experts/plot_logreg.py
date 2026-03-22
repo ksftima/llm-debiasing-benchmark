@@ -278,15 +278,6 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         methods=["expert_only", "dsl", "ppi", "llm_only"],
     )
 
-    make_figure(
-        df, ds,
-        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
-        ylabel="sRMSE (Euclidean)",
-        suptitle=f"{label} Feature — Euclidean sRMSE ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_srmse_eucl.png",
-        methods=["expert_only", "dsl", "ppi"],
-    )
-
     make_averaged_figure(
         df, ds,
         metric="sRMSE_beta2", se_col="sRMSE_beta2_se",
@@ -324,6 +315,24 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_avg.png",
+        methods=["expert_only", "dsl", "ppi"],
+    )
+
+    make_figure(
+        df, ds,
+        metric="bias_eucl", se_col="bias_eucl_se",
+        ylabel="Standardised Bias",
+        suptitle=f"Full Logistic — Standardised Bias ({ds.upper()})",
+        output=fig_dir / f"{ds}_full_logistic_bias.png",
+        methods=["expert_only", "dsl", "ppi"],
+    )
+
+    make_averaged_figure(
+        df, ds,
+        metric="bias_eucl", se_col="bias_eucl_se",
+        ylabel="Standardised Bias",
+        suptitle=f"Full Logistic — Standardised Bias averaged over LLMs ({ds.upper()})",
+        output=fig_dir / f"{ds}_full_logistic_bias_avg.png",
         methods=["expert_only", "dsl", "ppi"],
     )
 

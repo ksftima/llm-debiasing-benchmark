@@ -5,6 +5,7 @@ Loads all 300 .npz repetition files and computes metrics for θ = [β₀, β₁,
 
 Metrics computed:
     sRMSE_eucl = sqrt( E[ ||β - β*||² / ||β*||² ] )   Euclidean-norm sRMSE (main metric)
+    bias_eucl  = E[ mean_k( (βk - β*k) / β*k ) ]      Standardized bias averaged over coefficients
 
 Output: a CSV with one row per (method, n) combination.
 """
@@ -67,6 +68,23 @@ def compute_metrics_euclidean(betas, beta_star):
     return srmse, srmse_se, n
 
 
+def compute_bias_euclidean(betas, beta_star):
+    """
+    Standardized bias: E[ mean_k( (βk - β*k) / β*k ) ] over reps.
+    Matches paper Appendix H formula, averaged over coefficients for a scalar summary.
+    Rows with any NaN are skipped.
+    """
+    valid   = ~np.isnan(betas).any(axis=1)
+    betas_v = betas[valid]
+    bstar_v = beta_star[valid]
+    n       = int(valid.sum())
+    # element-wise standardized error, averaged over 6 coefficients per rep
+    per_rep = np.mean((betas_v - bstar_v) / bstar_v, axis=1)  # (n_valid,)
+    bias    = float(np.mean(per_rep))
+    bias_se = float(np.std(per_rep) / np.sqrt(n)) if n > 1 else np.nan
+    return bias, bias_se, n
+
+
 if __name__ == "__main__":
 
     parser = ArgumentParser()
@@ -89,13 +107,16 @@ if __name__ == "__main__":
     # --- LLM-only baseline ---
     llm_betas = data["theta_llm"]
     srmse_eucl, srmse_eucl_se, n_valid = compute_metrics_euclidean(llm_betas, beta_star)
+    bias_eucl,  bias_eucl_se,  _       = compute_bias_euclidean(llm_betas, beta_star)
     rows.append({
         "dataset":       args.dataset,
         "llm":           args.llm,
         "method":        "llm_only",
         "n_expert":      None,
-        "sRMSE_eucl":    round(srmse_eucl,    6),
-        "sRMSE_eucl_se": round(srmse_eucl_se, 6),
+        "sRMSE_eucl":    round(srmse_eucl,   6),
+        "sRMSE_eucl_se": round(srmse_eucl_se,6),
+        "bias_eucl":     round(bias_eucl,    6),
+        "bias_eucl_se":  round(bias_eucl_se, 6),
         "n_reps":        num_reps,
         "n_valid":       n_valid,
         "phase":         "full_logistic",
@@ -114,13 +135,18 @@ if __name__ == "__main__":
             srmse_eucl, srmse_eucl_se, n_valid = compute_metrics_euclidean(
                 betas_at_n, beta_star
             )
+            bias_eucl, bias_eucl_se, _ = compute_bias_euclidean(
+                betas_at_n, beta_star
+            )
             rows.append({
                 "dataset":       args.dataset,
                 "llm":           args.llm,
                 "method":        method_name,
                 "n_expert":      int(n),
-                "sRMSE_eucl":    round(srmse_eucl,    6),
-                "sRMSE_eucl_se": round(srmse_eucl_se, 6),
+                "sRMSE_eucl":    round(srmse_eucl,   6),
+                "sRMSE_eucl_se": round(srmse_eucl_se,6),
+                "bias_eucl":     round(bias_eucl,    6),
+                "bias_eucl_se":  round(bias_eucl_se, 6),
                 "n_reps":        num_reps,
                 "n_valid":       n_valid,
                 "phase":         "full_logistic",
