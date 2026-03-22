@@ -249,13 +249,13 @@ if __name__ == "__main__":
 
     fig_dir = Path("thesis/results/figures")
     ds = args.dataset
-    if args.output_srmse     is None: args.output_srmse     = fig_dir / f"{ds}_prevalence_srmse.pdf"
-    if args.output_bias      is None: args.output_bias      = fig_dir / f"{ds}_prevalence_bias.pdf"
-    if args.output_debiasing is None: args.output_debiasing = fig_dir / f"{ds}_prevalence_debiasing.pdf"
-    if args.output_avg       is None: args.output_avg       = fig_dir / f"{ds}_prevalence_avg.pdf"
+    if args.output_srmse     is None: args.output_srmse     = fig_dir / f"{ds}_prevalence_srmse.png"
+    if args.output_bias      is None: args.output_bias      = fig_dir / f"{ds}_prevalence_bias.png"
+    if args.output_debiasing is None: args.output_debiasing = fig_dir / f"{ds}_prevalence_debiasing.png"
+    if args.output_avg       is None: args.output_avg       = fig_dir / f"{ds}_prevalence_avg.png"
 
     df = load_summaries(args.summaries_dir, args.dataset)
-    df = df[df["n_expert"].isna() | (df["n_expert"] > 30)]
+    df = df[df["n_expert"].isna() | (df["n_expert"] > 50)]
     print(f"Loaded {len(df)} rows  |  dataset={args.dataset}")
 
     # Main figure: θ†, DSL, PPI — matching paper Figure 3 style

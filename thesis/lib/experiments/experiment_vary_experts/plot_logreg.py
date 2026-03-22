@@ -1,3 +1,14 @@
+"""
+Unified plotting script for Phase 2 (low-variance), Phase 3 (high-variance),
+and Phase 4 (full logistic regression) of the Vary-Expert-Sample-Size experiment.
+
+Usage:
+    python plot_logreg.py --dataset cuad --phase low
+    python plot_logreg.py --dataset cuad --phase high
+    python plot_logreg.py --dataset cuad --phase full
+    python plot_logreg.py --dataset misogynistic --phase full
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -30,23 +41,38 @@ METHOD_LABELS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Data loading
+# ---------------------------------------------------------------------------
+
 def load_summaries(summaries_dir: Path, dataset: str, phase: str) -> pd.DataFrame:
+    """Load per-LLM summary CSVs for the given phase.
+
+    phase: "low" → *_low_variance.csv
+           "high" → *_high_variance.csv
+           "full" → *_full_logistic.csv
+    """
+    suffix = {"low": "low_variance", "high": "high_variance", "full": "full_logistic"}[phase]
     frames = []
     for llm in LLM_ORDER:
-        path = summaries_dir / f"{dataset}_{llm}_{phase}_variance.csv"
+        path = summaries_dir / f"{dataset}_{llm}_{suffix}.csv"
         if not path.exists():
             print(f"  WARNING: {path} not found, skipping.")
             continue
         frames.append(pd.read_csv(path))
     if not frames:
-        raise FileNotFoundError(f"No {phase}_variance CSVs found in {summaries_dir}")
+        raise FileNotFoundError(f"No {suffix} CSVs found in {summaries_dir}")
     return pd.concat(frames, ignore_index=True)
 
+
+# ---------------------------------------------------------------------------
+# Panel / figure helpers
+# ---------------------------------------------------------------------------
 
 def _plot_panel(ax, sub: pd.DataFrame, colors: list, metric: str, se_col: str,
                 ylabel: str, title: str, prop_values: np.ndarray,
                 methods: list[str] | None = None):
-    """Draw one LLM subplot. Falls back gracefully if se_col is absent."""
+    """Draw one LLM subplot."""
     active = methods if methods is not None else METHODS
     has_se = se_col in sub.columns
 
@@ -95,7 +121,7 @@ def make_averaged_figure(df: pd.DataFrame, _dataset: str,
                          metric: str, ylabel: str,
                          se_col: str, suptitle: str, output: Path,
                          methods: list[str] | None = None):
-    """Single-panel figure averaged over LLMs — analogous to Figure 3 in the paper."""
+    """Single-panel figure averaged over LLMs."""
     active_methods = methods if methods is not None else ["expert_only", "dsl", "ppi"]
     colors         = plt.rcParams["axes.prop_cycle"].by_key()["color"]
     color_map      = {m: colors[i] for i, m in enumerate(METHODS)}
@@ -218,30 +244,19 @@ def make_figure(df: pd.DataFrame, dataset: str,
     plt.close(fig)
 
 
-if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument("--summaries-dir", type=Path,
-        default=Path("thesis/results/summaries"))
-    parser.add_argument("--dataset", type=str, default="cuad")
-    parser.add_argument("--phase", type=str, choices=["low", "high"], default="low",
-        help="'low' for Phase 2, 'high' for Phase 3")
-    args = parser.parse_args()
+# ---------------------------------------------------------------------------
+# Phase-specific plot dispatch
+# ---------------------------------------------------------------------------
 
-    fig_dir = Path("thesis/results/figures")
-    ds      = args.dataset
-    ph      = args.phase
-    label   = "Low-Variance" if ph == "low" else "High-Variance"
-
-    df = load_summaries(args.summaries_dir, ds, ph)
-    df = df[df["n_expert"].isna() | (df["n_expert"] > 20)]
-    print(f"Loaded {len(df)} rows  |  dataset={ds}  |  phase={ph}")
+def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
+    label = "Low-Variance" if ph == "low" else "High-Variance"
 
     make_figure(
         df, ds,
         metric="sRMSE_beta2", se_col="sRMSE_beta2_se",
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE of β ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_srmse_beta2.pdf",
+        output=fig_dir / f"{ds}_{ph}_variance_srmse_beta2.png",
         methods=["expert_only", "dsl", "ppi"],
     )
 
@@ -250,7 +265,7 @@ if __name__ == "__main__":
         metric="bias_beta2", se_col="bias_beta2_se",
         ylabel=r"Standardised Bias ($\beta$)",
         suptitle=f"{label} Feature — Standardised Bias of β ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_bias_beta2.pdf",
+        output=fig_dir / f"{ds}_{ph}_variance_bias_beta2.png",
         methods=["expert_only", "dsl", "ppi"],
     )
 
@@ -259,7 +274,7 @@ if __name__ == "__main__":
         metric="sRMSE_beta2", se_col="sRMSE_beta2_se",
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β with LLM baseline ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_full.pdf",
+        output=fig_dir / f"{ds}_{ph}_variance_full.png",
         methods=["expert_only", "dsl", "ppi", "llm_only"],
     )
 
@@ -268,7 +283,7 @@ if __name__ == "__main__":
         metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
         ylabel="sRMSE (Euclidean)",
         suptitle=f"{label} Feature — Euclidean sRMSE ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_srmse_eucl.pdf",
+        output=fig_dir / f"{ds}_{ph}_variance_srmse_eucl.png",
         methods=["expert_only", "dsl", "ppi"],
     )
 
@@ -277,6 +292,68 @@ if __name__ == "__main__":
         metric="sRMSE_beta2", se_col="sRMSE_beta2_se",
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β averaged over LLMs ({ds.upper()})",
-        output=fig_dir / f"{ds}_{ph}_variance_avg.pdf",
+        output=fig_dir / f"{ds}_{ph}_variance_avg.png",
         methods=["expert_only", "dsl", "ppi"],
     )
+
+
+def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
+    """Phase 4: full logistic — only sRMSE_eucl (no single 'interesting' β)."""
+
+    make_figure(
+        df, ds,
+        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
+        ylabel="sRMSE (Euclidean)",
+        suptitle=f"Full Logistic — Euclidean sRMSE ({ds.upper()})",
+        output=fig_dir / f"{ds}_full_logistic_srmse_eucl.png",
+        methods=["expert_only", "dsl", "ppi"],
+    )
+
+    make_figure(
+        df, ds,
+        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
+        ylabel="sRMSE (Euclidean)",
+        suptitle=f"Full Logistic — Euclidean sRMSE with LLM baseline ({ds.upper()})",
+        output=fig_dir / f"{ds}_full_logistic_full.png",
+        methods=["expert_only", "dsl", "ppi", "llm_only"],
+    )
+
+    make_averaged_figure(
+        df, ds,
+        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
+        ylabel="sRMSE (Euclidean)",
+        suptitle=f"Full Logistic — Euclidean sRMSE averaged over LLMs ({ds.upper()})",
+        output=fig_dir / f"{ds}_full_logistic_avg.png",
+        methods=["expert_only", "dsl", "ppi"],
+    )
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument("--summaries-dir", type=Path,
+        default=Path("thesis/results/summaries"))
+    parser.add_argument("--dataset", type=str, default="cuad")
+    parser.add_argument("--phase", type=str, choices=["low", "high", "full"],
+        default="low",
+        help="'low' = Phase 2, 'high' = Phase 3, 'full' = Phase 4")
+    args = parser.parse_args()
+
+    fig_dir = Path("thesis/results/figures")
+    ds      = args.dataset
+    ph      = args.phase
+
+    df = load_summaries(args.summaries_dir, ds, ph)
+
+    # Exclude small n to see trends more clearly — keep only n > 50
+    df = df[df["n_expert"].isna() | (df["n_expert"] > 50)]
+
+    print(f"Loaded {len(df)} rows  |  dataset={ds}  |  phase={ph}")
+
+    if ph in ("low", "high"):
+        plots_phase2_or_3(df, ds, ph, fig_dir)
+    else:
+        plots_phase4(df, ds, fig_dir)
