@@ -358,7 +358,7 @@ if __name__ == "__main__":
     df = load_summaries(args.summaries_dir, ds, ph)
 
     # Exclude small n to see trends more clearly — keep only n > 50
-    df = df[df["n_expert"].isna() | (df["n_expert"] > 50)]
+    df = df[df["n_expert"].isna() | (df["n_expert"])]
 
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  phase={ph}")
 
