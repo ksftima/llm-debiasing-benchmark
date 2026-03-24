@@ -17,19 +17,21 @@ from pathlib import Path
 from argparse import ArgumentParser
 
 
-LLM_ORDER  = ["llama", "deepseek", "gpt54", "mistral"]
+LLM_ORDER  = ["llama", "deepseek", "gpt54", "mistral", "claude"]
 LLM_TITLES = {"llama": "Llama", "deepseek": "DeepSeek",
-               "gpt54": "GPT-5.4", "mistral": "Mistral"}
+               "gpt54": "GPT-5.4", "mistral": "Mistral", "claude": "Claude"}
 
 DATASET_N: dict[tuple[str, str], int] = {
     ("cuad", "llama"):            1395,
     ("cuad", "deepseek"):         1396,
     ("cuad", "gpt54"):            1396,
     ("cuad", "mistral"):          1391,
+    ("cuad", "claude"):           1396,
     ("misogynistic", "llama"):    997,
     ("misogynistic", "deepseek"): 1000,
     ("misogynistic", "gpt54"):    1000,
     ("misogynistic", "mistral"):  997,
+    ("misogynistic", "claude"):   1000,
 }
 
 METHODS = ["expert_only", "dsl", "ppi", "llm_only"]
@@ -207,7 +209,10 @@ def make_figure(df: pd.DataFrame, dataset: str,
 
     ref_method = next(m for m in active_methods if m != "llm_only")
 
-    fig, axes = plt.subplots(2, 2, figsize=(13, 10))
+    n_llms = len(llms_present)
+    ncols = 3 if n_llms > 4 else 2
+    nrows = (n_llms + ncols - 1) // ncols
+    fig, axes = plt.subplots(nrows, ncols, figsize=(6.5 * ncols, 5 * nrows))
     axes = axes.flatten()
 
     for ax, llm in zip(axes, llms_present):
