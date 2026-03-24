@@ -25,7 +25,7 @@ DATASET=$1
 LLM=$2
 
 # --- Paths ---
-CONTAINER_PATH="$HOME/benchmarking.sif"
+CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
 # Input CSV: the annotated file for this dataset + LLM combination
@@ -44,7 +44,7 @@ apptainer exec \
     --bind ${CODE_DIR}:/code \
     --pwd /code \
     ${CONTAINER_PATH} \
-    python3 /code/thesis/lib/experiments/experiment_vary_experts/expert_class_prevalence.py \
+    python3 /code/thesis/lib/experiments/experiment_vary_experts/phase_1/expert_class_prevalence.py \
         "${ANNOTATED_CSV}" \
         "${OUTPUT_DIR}/rep_${SLURM_ARRAY_TASK_ID}.npz" \
         --seed "${SLURM_ARRAY_TASK_ID}"
