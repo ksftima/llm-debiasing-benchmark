@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Does telmisartan prevent hepatic fibrosis in rats with alloxan-induced diabetes? This study evaluated the effect of telmisartan on the livers of diabetic rats and also aimed to determine the hepatic distribution and role of transforming growth factor beta (TGF-beta) in diabetes-related hepatic degeneration while taking into account the possible protective effects of telmisartan. Fifteen adult male rats were used and divided into three groups: the non-diabetic healthy group, alloxan-induced diabetic control group, and the alloxan-induced diabetic telmisartan group. The non-diabetic healthy group and the diabetic control group were exposed to saline for 30 days, while the group treated with diabetic drugs was orally administered telmisartan for 30 days (10 mg/kg/day). At the end of the experiment, the rats were sacrificed and the livers were dissected and transferred into the fixation solution. The livers were then evaluated using stereological and histopathological methods. Our study of the numerical density of hepatocytes shows a significant difference between the diabetic control group and diabetic rats treated with telmisartan. Immunohistochemical staining for TGF-beta in liver sections of the diabetic rats treated with telmisartan showed no immunoreactivity. The diabetic control group was determined to be strongly immunoreactive to TGF-beta.
+
+CLASSIFICATION:

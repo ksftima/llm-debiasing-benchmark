@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is lumbar drainage of postoperative cerebrospinal fluid fistula after spine surgery effective? Postoperative CSF fistulas were described in 16 of 198 patients (8%) who underwent spine surgery between 2009 and 2010. The choice of the therapeutic strategy was based on the clinical condition of the patients, taking into account the possibility to maintain the prone position continuously and the risk of morbidity due to prolonged bed rest. Six patients were treated conservatively (position prone for three weeks), ten patients were treated by positioning an external CSF lumbar drainage for ten days. The mean follow-up period was ten months. All patients healed their wound properly and no adverse events were recorded. Patients treated conservatively were cured in a mean period of 30 days, while patients treated with CSF drainage were cured in a mean period of 10 days.
+
+CLASSIFICATION:

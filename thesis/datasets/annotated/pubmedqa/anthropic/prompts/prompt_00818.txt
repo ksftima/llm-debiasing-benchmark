@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are patients with serious mental illness more likely to be admitted to nursing homes with more deficiencies in care? Patients diagnosed with serious mental illness (SMI) who qualify for nursing home placement tend to require high levels of both psychiatric and nursing care. However, it is unknown whether they are equally likely to be admitted to nursing homes with adequate quality of care compared with other patients. We analyzed a national cohort of more than 1.3 million new nursing home admissions in 2007 using the minimum data set. The total and healthcare-related deficiency citations for each facility were obtained from the Online Survey, Certification, and Reporting file. Bivariate and multivariate regression analyses determined the association of schizophrenia or bipolar disorder with admissions to facilities with higher deficiencies. Compared with other patients, patients with schizophrenia (n=23,767) tended to enter nursing homes with more total (13.3 vs. 11.2, P<0.001) and healthcare-related deficiencies (8.6 vs. 7.2, P<0.001); and patients with bipolar disorder (n=19,741) were more likely to enter facilities with more problematic care too (12.5 vs. 11.2, P<0.001 for total deficiencies; and 8.2 vs. 7.2, P<0.001 for healthcare-related deficiencies). After sequentially controlling for the within-county choice of facilities, patient characteristics, and facility covariates, the association of SMI with admitting to higher-deficiency nursing homes persisted.
+
+CLASSIFICATION:

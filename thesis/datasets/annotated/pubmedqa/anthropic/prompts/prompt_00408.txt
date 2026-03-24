@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Global Longitudinal Pathway: has medical education curriculum influenced medical students' skills and attitudes toward culturally diverse populations? The Pathway represents a longitudinal program for medical students, consisting of both domestic and international experiences with poor populations. A previous study reported no significant attitudinal changes toward the medically indigent between Pathway and non-Pathway students. The purpose of this study was to investigate and differentiate the skills and attitudes of Pathway and non-Pathway students in working with culturally diverse populations by conducting quantitative and qualitative analyses. Selected items from a cultural assessment were analyzed using independent t-tests and a proportional analysis using approximation of the binomial distribution. In addition, a qualitative assessment of non-Pathway and Pathway students was conducted. A statistically significant difference was found at the end of Years 2, 3, and 4 regarding student confidence ratings, and qualitative results had similar findings.
+
+CLASSIFICATION:

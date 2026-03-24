@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Prevalence of chronic conditions among Medicare Part A beneficiaries in 2008 and 2010: are Medicare beneficiaries getting sicker? Medicare beneficiaries who have chronic conditions are responsible for a disproportionate share of Medicare fee-for-service expenditures. The objective of this study was to analyze the change in the health of Medicare beneficiaries enrolled in Part A (hospital insurance) between 2008 and 2010 by comparing the prevalence of 11 chronic conditions. We conducted descriptive analyses using the 2008 and 2010 Chronic Conditions Public Use Files, which are newly available from the Centers for Medicare and Medicaid Services and have administrative (claims) data on 100% of the Medicare fee-for-service population. We examined the data by age, sex, and dual eligibility (eligibility for both Medicare and Medicaid). Medicare Part A beneficiaries had more chronic conditions on average in 2010 than in 2008. The percentage increase in the average number of chronic conditions was larger for dual-eligible beneficiaries (2.8%) than for nondual-eligible beneficiaries (1.2%). The prevalence of some chronic conditions, such as congestive heart failure, ischemic heart disease, and stroke/transient ischemic attack, decreased. The deterioration of average health was due to other chronic conditions: chronic kidney disease, depression, diabetes, osteoporosis, rheumatoid arthritis/osteoarthritis. Trends in Alzheimer's disease, cancer, and chronic obstructive pulmonary disease showed differences by sex or dual eligibility or both.
+
+CLASSIFICATION:

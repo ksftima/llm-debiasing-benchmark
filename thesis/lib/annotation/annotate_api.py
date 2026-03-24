@@ -1,5 +1,5 @@
 """
-Step 1 of 2: Annotate a parsed dataset CSV using DeepSeek or OpenAI.
+Step 1 of 2: Annotate a parsed dataset CSV using DeepSeek, OpenAI, Anthropic, or Gemini.
 
 Reads API keys from .env in the repo root.
 Saves one prompt and one response .txt file per row into:
@@ -14,7 +14,7 @@ Usage:
         [--num N] [--start S] [--num_examples K]
 
 Arguments:
-    api             Which API to use: "deepseek" or "openai"
+    api             Which API to use: "deepseek", "openai", "anthropic", or "gemini"
     dataset         Dataset name: fomc | pubmedqa | cuad | misogynistic
     parsed_csv      Path to the parsed scaled CSV file
     annotation_dir  Directory where prompts/responses will be saved
@@ -31,6 +31,10 @@ How batching works:
     OpenAI: uses the official Batch API which costs 50% less than real-time
         calls. Requests are written to a JSONL file, uploaded, and a batch
         job is created. The script polls until the job is complete (up to 24h).
+    Anthropic: does not use the batch API (proxy limitation), so requests are
+        sent in parallel using a thread pool (200 at a time), same as DeepSeek.
+    Gemini: does not use a batch API, so requests are sent in parallel using a
+        thread pool (200 at a time), same approach as DeepSeek.
 
 How the LLM is prevented from seeing expert labels (y):
     Only the "text" column is passed to make_user_prompt(). The y column and
@@ -49,6 +53,9 @@ import argparse
 import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
+import anthropic
+from google import genai
+from google.genai import types as genai_types
 
 from annotate_prompts import dataset_labels, system_prompts, make_user_prompt
 
@@ -228,6 +235,112 @@ def annotate_openai(system_prompt, user_prompts, annotation_dir):
         print(f"Warning: some requests failed — see {annotation_dir}/error_file.jsonl")
 
 
+#############
+# Anthropic #
+#############
+# The Chalmers proxy only supports the standard messages endpoint, so we use
+# parallel real-time calls (same approach as DeepSeek, 200 at a time).
+
+def _call_anthropic_single(client, system_prompt, user_prompt):
+    """Make a single Anthropic messages call. Returns the response text."""
+    response = client.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=10,
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_prompt}],
+    )
+    return response.content[0].text
+
+
+def annotate_anthropic(system_prompt, user_prompts, annotation_dir):
+    """
+    Annotate a dict of {index: prompt} using Anthropic in parallel batches.
+
+    Sends up to 200 requests concurrently per batch. Results are saved to
+    disk as they complete so partial progress is not lost.
+    """
+    client = anthropic.Anthropic(
+        api_key=os.environ["ANTHROPIC_API_KEY"],
+        base_url=os.environ.get("ANTHROPIC_BASE_URL", "https://api.anthropic.com"),
+    )
+
+    for batch_indices in batched(user_prompts.keys(), 200):
+        batch_indices = list(batch_indices)
+        print(f"Sending batch rows {batch_indices[0]:05} – {batch_indices[-1]:05}")
+
+        futures = {}
+        with ThreadPoolExecutor(max_workers=len(batch_indices)) as executor:
+            for index in batch_indices:
+                future = executor.submit(
+                    _call_anthropic_single, client, system_prompt, user_prompts[index]
+                )
+                futures[future] = index
+
+            for future in as_completed(futures):
+                index = futures[future]
+                try:
+                    response = future.result()
+                    save_prompt(annotation_dir, user_prompts[index], index)
+                    save_response(annotation_dir, response, index)
+                except Exception as e:
+                    save_error(annotation_dir, str(e), index)
+                    print(f"  Row {index:05} failed: {e}")
+
+
+##########
+# Gemini #
+##########
+# Gemini requests are sent in parallel using a thread pool (200 at a time),
+# same approach as DeepSeek.
+
+GEMINI_MODEL = "gemini-2.5-pro"
+
+
+def _call_gemini_single(client, system_prompt, user_prompt):
+    """Make a single Gemini generate_content call. Returns the response text."""
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=user_prompt,
+        config=genai_types.GenerateContentConfig(
+            system_instruction=system_prompt,
+            max_output_tokens=10,
+        ),
+    )
+    return response.text
+
+
+def annotate_gemini(system_prompt, user_prompts, annotation_dir):
+    """
+    Annotate a dict of {index: prompt} using Gemini in parallel batches.
+
+    Sends up to 200 requests concurrently per batch. Results are saved to
+    disk as they complete so partial progress is not lost.
+    """
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+    for batch_indices in batched(user_prompts.keys(), 200):
+        batch_indices = list(batch_indices)
+        print(f"Sending batch rows {batch_indices[0]:05} – {batch_indices[-1]:05}")
+
+        futures = {}
+        with ThreadPoolExecutor(max_workers=len(batch_indices)) as executor:
+            for index in batch_indices:
+                future = executor.submit(
+                    _call_gemini_single, client, system_prompt, user_prompts[index]
+                )
+                futures[future] = index
+
+            for future in as_completed(futures):
+                index = futures[future]
+                try:
+                    response = future.result()
+                    save_prompt(annotation_dir, user_prompts[index], index)
+                    save_response(annotation_dir, response, index)
+                except Exception as e:
+                    save_error(annotation_dir, str(e), index)
+                    print(f"  Row {index:05} failed: {e}")
+
+
 ########
 # Main #
 ########
@@ -235,7 +348,7 @@ def annotate_openai(system_prompt, user_prompts, annotation_dir):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Annotate a parsed CSV using an LLM API.")
-    parser.add_argument("api", choices=["deepseek", "openai"],
+    parser.add_argument("api", choices=["deepseek", "openai", "anthropic", "gemini"],
                         help="Which API to use")
     parser.add_argument("dataset", choices=list(system_prompts.keys()),
                         help="Dataset name (must match annotate_prompts.py)")
@@ -295,5 +408,9 @@ if __name__ == "__main__":
         annotate_deepseek(system_prompt, user_prompts, args.annotation_dir)
     elif args.api == "openai":
         annotate_openai(system_prompt, user_prompts, args.annotation_dir)
+    elif args.api == "anthropic":
+        annotate_anthropic(system_prompt, user_prompts, args.annotation_dir)
+    elif args.api == "gemini":
+        annotate_gemini(system_prompt, user_prompts, args.annotation_dir)
 
     print("\nDone. Run gather_responses.py to assemble the annotated CSV.")

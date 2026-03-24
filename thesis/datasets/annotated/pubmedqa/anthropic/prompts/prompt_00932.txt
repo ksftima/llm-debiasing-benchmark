@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Is serum total bilirubin useful to differentiate cardioembolic stroke from other stroke subtypes? Previous studies have reported that the total bilirubin (TB) level is associated with coronary artery disease, heart failure and atrial fibrillation. These heart diseases can produce cardiogenic cerebral embolism and cause cardioembolic stroke. However, whether the serum TB could be a biomarker to differentiate cardioembolic stroke from other stroke subtypes is unclear. Our study consisted of 628 consecutive patients with ischaemic stroke. Various clinical and laboratory variables of the patients were analysed according to serum TB quartiles and stroke subtypes. The higher TB quartile group was associated with atrial fibrillation, larger left atrium diameter, lower left ventricular fractional shortening and cardioembolic stroke (P<0.001, P = 0.001, P = 0.033, P<0.001, respectively). Furthermore, serum TB was a statistically significant independent predictor of cardioembolic stroke in a multivariable setting (Continuous, per unit increase OR = 1.091, 95%CI: 1.023-1.164, P = 0.008).
+
+CLASSIFICATION:

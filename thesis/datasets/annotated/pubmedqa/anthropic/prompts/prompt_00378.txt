@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Can third trimester ultrasound predict the presentation of the first twin at delivery? To determine the ability of early sonogram to predict the presentation of twin A at birth. A retrospective cohort study was conducted on all twin pregnancies evaluated at our Fetal Evaluation Unit from 2007 to 2009. Sonogram records were reviewed for the presentation of twin A at seven gestational age intervals and inpatient medical records were reviewed for the presentation of twin A at delivery. The positive predictive value, sensitivity, and specificity of presentation as determined by ultrasound, at each gestational age interval, for the same presentation at delivery were calculated. Two hundred and thirty-eight twin pregnancies met inclusion criteria. A total of 896 ultrasounds were reviewed. The positive predictive value of cephalic presentation of twin A as determined by ultrasound for the persistence of cephalic presentation at delivery reached 95% after 28 weeks gestation. The positive predictive value for noncephalic presentation as established by sonogram for noncephalic at delivery was>90% after 32 weeks gestation.
+
+CLASSIFICATION:

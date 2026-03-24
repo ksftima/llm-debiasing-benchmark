@@ -51,6 +51,10 @@ DATASETS = {
     "pubmedqa (llama)":               Path("thesis/datasets/annotated/pubmedqa/pubmedqa_llama_annotated.csv"),
     "cuad (llama)":                   Path("thesis/datasets/annotated/cuad/cuad_llama_annotated.csv"),
     "misogynistic (llama)":           Path("thesis/datasets/annotated/misogynistic/misogynistic_llama_annotated.csv"),
+    "fomc (anthropic)":               Path("thesis/datasets/annotated/fomc/anthropic/fomc_anthropic.csv"),
+    "pubmedqa (anthropic)":           Path("thesis/datasets/annotated/pubmedqa/anthropic/pubmedqa_anthropic.csv"),
+    "cuad (anthropic)":               Path("thesis/datasets/annotated/cuad/anthropic/cuad_anthropic.csv"),
+    "misogynistic (anthropic)":       Path("thesis/datasets/annotated/misogynistic/anthropic/misogynistic_anthropic.csv"),
 }
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)

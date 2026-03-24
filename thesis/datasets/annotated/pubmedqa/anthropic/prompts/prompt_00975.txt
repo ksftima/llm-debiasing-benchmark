@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Does glomerular hyperfiltration in pregnancy damage the kidney in women with more parities? We aimed to investigate the glomerular hyperfiltration due to pregnancy in women with more parities. Five hundred women aged 52.57 +/- 8.08 years, without a history of hypertension, diabetes mellitus or complicated pregnancy were involved in the study. They were divided into three groups. Group 1: women with no or one parity (n = 76); group 2: women with two or three parities (n = 333); group 3: women with four or more parities (n = 91). Laboratory parameters and demographical data were compared between the three groups. Mean age, serum urea and serum creatinine were similar between three groups. Patients in group 3 had significantly higher GFR values compared to groups 1 and 2 (109.44 +/- 30.99, 110.76 +/- 30.22 and 121.92 +/- 34.73 mL/min/1.73 m(2) for groups 1, 2 and 3, respectively; P = 0.008 for group 1 vs group 3; P = 0.002 for group 2 vs group 3).
+
+CLASSIFICATION:

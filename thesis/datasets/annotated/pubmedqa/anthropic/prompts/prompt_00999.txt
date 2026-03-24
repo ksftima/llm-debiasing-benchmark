@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are sugars-free medicines more erosive than sugars-containing medicines? The reduced use of sugars-containing (SC) liquid medicines has increased the use of other dose forms, potentially resulting in more widespread dental effects, including tooth wear. The aim of this study was to assess the erosive potential of 97 paediatric medicines in vitro. The study took the form of in vitro measurement of endogenous pH and titratable acidity (mmol). Endogenous pH was measured using a pH meter, followed by titration to pH 7.0 with 0.1-M NaOH. Overall, 55 (57%) formulations had an endogenous pH of<5.5. The mean (+/- SD) endogenous pH and titratable acidity for 41 SC formulations were 5.26 +/- 1.30 and 0.139 +/- 0.133 mmol, respectively; for 56 sugars-free (SF) formulations, these figures were 5.73 +/- 1.53 and 0.413 +/- 1.50 mmol (P>0.05). Compared with their SC bioequivalents, eight SF medicines showed no significant differences for pH or titratable acidity, while 15 higher-strength medicines showed lower pH (P = 0.035) and greater titratable acidity (P = 0.016) than their lower-strength equivalents. Chewable and dispersible tablets (P<0.001), gastrointestinal medicines (P = 0.002) and antibiotics (P = 0.007) were significant predictors of higher pH. In contrast, effervescent tablets (P<0.001), and nutrition and blood preparations (P = 0.021) were significant predictors of higher titratable acidity.
+
+CLASSIFICATION:

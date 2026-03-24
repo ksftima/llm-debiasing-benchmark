@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+The FOOTSTEP self-management foot care programme: are rheumatoid arthritis patients physically able to participate? The FOOTSTEP self-management foot care programme is a clinical and cost-effective programme for basic foot care in the elderly. The aim of this study was to determine if patients with rheumatoid arthritis (RA) would be physically able to participate. A consecutive cohort of RA patients undergoing podiatry care underwent tests for sight, reach and grip strength to determine their physical ability to undertake self-managed foot care. Thirty RA patients (10 male, 20 female), with a median age of 61 years (range 42 to 84) and disease duration of 10 years (range one to 40), were recruited. All patients passed the sight test, whereas the reach and grip tests were passed by 77% and 67% of patients, respectively. Only 57% of patients passed all the physical tests. Patients who failed the physical tests were older, and had longer disease duration and higher physical disability, pain and general health scores but these were not statistically different.
+
+CLASSIFICATION:

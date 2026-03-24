@@ -1,0 +1,17 @@
+
+You will be given a biomedical research question followed by an abstract.
+Classify what answer the abstract gives to the question:
+
+    - 0 if the abstract answers NO to the question
+    - 1 if the abstract answers YES to the question
+    - 2 if the abstract does not give a clear yes or no answer
+
+Give no other explanation for your classification, only output the label.
+
+
+
+Here's the text I would like you to classify:
+
+Are lower fasting plasma glucose levels at diagnosis of type 2 diabetes associated with improved outcomes? Type 2 diabetes may be present for several years before diagnosis, by which time many patients have already developed diabetic complications. Earlier detection and treatment may reduce this burden, but evidence to support this approach is lacking. Glycemic control and clinical and surrogate outcomes were compared for 5,088 of 5,102 U.K. Diabetes Prospective Study participants according to whether they had low (<140 mg/dl [<7.8 mmol/l]), intermediate (140 to<180 mg/dl [7.8 to<10.0 mmol/l]), or high (>or =180 mg/dl [>or =10 mmol/l]) fasting plasma glucose (FPG) levels at diagnosis. Individuals who presented with and without diabetic symptoms were also compared. Fewer people with FPG in the lowest category had retinopathy, abnormal biothesiometer measurements, or reported erectile dysfunction. The rate of increase in FPG and HbA(1c) during the study was identical in all three groups, although absolute differences persisted. Individuals in the low FPG group had a significantly reduced risk for each predefined clinical outcome except stroke, whereas those in the intermediate group had significantly reduced risk for each outcome except stroke and myocardial infarction. The low and intermediate FPG groups had a significantly reduced risk for progression of retinopathy, reduction in vibration sensory threshold, or development of microalbuminuria.
+
+CLASSIFICATION:
