@@ -1,0 +1,2 @@
+# Ignore raw prompt/response text files — only keep annotated CSVs
+**/*.txt
