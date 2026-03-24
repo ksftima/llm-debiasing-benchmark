@@ -13,7 +13,7 @@ DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
 CONTAINER_PATH="$HOME/benchmarking.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
-for LLM in llama deepseek gpt54 mistral; do
+for LLM in llama deepseek gpt54 mistral claude; do
     RESULTS_DIR="/code/thesis/results/vary-expert-prevalence/${DATASET}/${LLM}"
     OUTPUT_CSV="/code/thesis/results/summaries/${DATASET}_${LLM}_prevalence.csv"
 
