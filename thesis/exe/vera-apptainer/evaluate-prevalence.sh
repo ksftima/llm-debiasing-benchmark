@@ -10,7 +10,7 @@ set -eo pipefail
 
 DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
 
-CONTAINER_PATH="$HOME/benchmarking.sif"
+CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
 for LLM in llama deepseek gpt54 mistral claude; do
@@ -23,7 +23,7 @@ for LLM in llama deepseek gpt54 mistral claude; do
         --bind ${CODE_DIR}:/code \
         --pwd /code \
         ${CONTAINER_PATH} \
-        python3 /code/thesis/lib/experiments/experiment_vary_experts/evaluate_prevalence.py \
+        python3 /code/thesis/lib/experiments/experiment_vary_experts/phase_1/evaluate_prevalence.py \
             "${RESULTS_DIR}" \
             --dataset "${DATASET}" \
             --llm    "${LLM}" \
