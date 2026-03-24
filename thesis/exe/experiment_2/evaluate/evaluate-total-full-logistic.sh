@@ -6,7 +6,7 @@ DATASET=$1
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 
-for LLM in llama deepseek gpt54 mistral; do
+for LLM in llama deepseek gpt54 mistral claude; do
     for N_EXPERT in 50 100 200; do
         RESULTS_DIR="/code/thesis/results/vary-total-full-logistic/${DATASET}/${LLM}/n_${N_EXPERT}"
         OUTPUT="/code/thesis/results/summaries/${DATASET}_${LLM}_n${N_EXPERT}_full_logistic_total.csv"
