@@ -195,7 +195,6 @@ if __name__ == "__main__":
         help="L2 regularization strength (default: 0.01)")
     args = parser.parse_args()
 
-    global LAM_L2
     LAM_L2 = args.lam
 
     feature = get_feature(args.dataset, args.phase)
