@@ -22,6 +22,16 @@ DATASET_N: dict[tuple[str, str], int] = {
     ("misogynistic", "gpt54"):   1000,
     ("misogynistic", "mistral"): 997,
     ("misogynistic", "claude"):  1000,
+    ("fomc", "llama"):           1184,
+    ("fomc", "deepseek"):        1184,
+    ("fomc", "gpt54"):           1184,
+    ("fomc", "mistral"):         1184,
+    ("fomc", "claude"):          1184,
+    ("pubmedqa", "llama"):       1000,
+    ("pubmedqa", "deepseek"):    1000,
+    ("pubmedqa", "gpt54"):       1000,
+    ("pubmedqa", "mistral"):     1000,
+    ("pubmedqa", "claude"):      1000,
 }
 
 # Method display order and labels
