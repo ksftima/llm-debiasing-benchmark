@@ -28,7 +28,6 @@ LAM=${3:-0.01}
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
-# Include lam in output dir only when non-default
 LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
 
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"

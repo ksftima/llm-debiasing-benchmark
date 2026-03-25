@@ -3,19 +3,23 @@
 # Evaluate full logistic regression (Phase 4) results for all LLMs.
 # Loops over the 4 LLMs, loads all 300 rep_*.npz files, and writes one summary CSV each.
 #
-# Usage: bash evaluate-full-logistic.sh <dataset>
+# Usage: bash evaluate-full-logistic.sh <dataset> [lam]
 # Example: bash evaluate-full-logistic.sh cuad
+#          bash evaluate-full-logistic.sh misogynistic 0.1
 
 set -eo pipefail
 
 DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
+LAM=${2:-0.01}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
+LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
+
 for LLM in llama deepseek gpt54 mistral claude; do
-    RESULTS_DIR="/code/thesis/results/vary-expert-full-logistic/${DATASET}/${LLM}"
-    OUTPUT_CSV="/code/thesis/results/summaries/${DATASET}_${LLM}_full_logistic.csv"
+    RESULTS_DIR="/code/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
+    OUTPUT_CSV="/code/thesis/results/summaries/${DATASET}_${LLM}_full_logistic${LAM_SUFFIX}.csv"
 
     echo "=== Evaluating ${DATASET} / ${LLM} ==="
 

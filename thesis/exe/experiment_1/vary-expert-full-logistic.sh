@@ -18,21 +18,25 @@
 
 set -eo pipefail
 
-# Usage: sbatch vary-expert-full-logistic.sh <dataset> <llm>
+# Usage: sbatch vary-expert-full-logistic.sh <dataset> <llm> [lam]
 # Example: sbatch vary-expert-full-logistic.sh cuad llama
+#          sbatch vary-expert-full-logistic.sh misogynistic llama 0.1
 DATASET=$1
 LLM=$2
+LAM=${3:-0.01}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
+LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
+
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"
-OUTPUT_DIR="/code/thesis/results/vary-expert-full-logistic/${DATASET}/${LLM}"
+OUTPUT_DIR="/code/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
 
 mkdir -p "${CODE_DIR}/thesis/logs/vary-expert-full-logistic"
-mkdir -p "${CODE_DIR}/thesis/results/vary-expert-full-logistic/${DATASET}/${LLM}"
+mkdir -p "${CODE_DIR}/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
 
-echo "Dataset: ${DATASET} | LLM: ${LLM} | Rep: ${SLURM_ARRAY_TASK_ID}"
+echo "Dataset: ${DATASET} | LLM: ${LLM} | lam: ${LAM} | Rep: ${SLURM_ARRAY_TASK_ID}"
 
 apptainer exec \
     --bind ${CODE_DIR}:/code \
@@ -41,4 +45,5 @@ apptainer exec \
     python3 /code/thesis/lib/experiments/experiment_vary_experts/phase_4/expert_full_logistic.py \
         "${ANNOTATED_CSV}" \
         "${OUTPUT_DIR}/rep_${SLURM_ARRAY_TASK_ID}.npz" \
-        --seed "${SLURM_ARRAY_TASK_ID}"
+        --seed "${SLURM_ARRAY_TASK_ID}" \
+        --lam  "${LAM}"

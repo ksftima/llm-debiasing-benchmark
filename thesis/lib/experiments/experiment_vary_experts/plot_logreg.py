@@ -57,7 +57,7 @@ METHOD_LABELS = {
 # Data loading
 # ---------------------------------------------------------------------------
 
-def load_summaries(summaries_dir: Path, dataset: str, phase: str) -> pd.DataFrame:
+def load_summaries(summaries_dir: Path, dataset: str, phase: str, extra_suffix: str = "") -> pd.DataFrame:
     """Load per-LLM summary CSVs for the given phase.
 
     phase: "low" → *_low_variance.csv
@@ -67,7 +67,7 @@ def load_summaries(summaries_dir: Path, dataset: str, phase: str) -> pd.DataFram
     suffix = {"low": "low_variance", "high": "high_variance", "full": "full_logistic"}[phase]
     frames = []
     for llm in LLM_ORDER:
-        path = summaries_dir / f"{dataset}_{llm}_{suffix}.csv"
+        path = summaries_dir / f"{dataset}_{llm}_{suffix}{extra_suffix}.csv"
         if not path.exists():
             print(f"  WARNING: {path} not found, skipping.")
             continue
@@ -364,13 +364,15 @@ if __name__ == "__main__":
     parser.add_argument("--phase", type=str, choices=["low", "high", "full"],
         default="low",
         help="'low' = Phase 2, 'high' = Phase 3, 'full' = Phase 4")
+    parser.add_argument("--tag", type=str, default="",
+        help="Extra suffix on CSV filenames, e.g. '_lam01'")
     args = parser.parse_args()
 
     fig_dir = Path("thesis/results/figures")
     ds      = args.dataset
     ph      = args.phase
 
-    df = load_summaries(args.summaries_dir, ds, ph)
+    df = load_summaries(args.summaries_dir, ds, ph, extra_suffix=args.tag)
 
     # Exclude small n to see trends more clearly — keep only n > 50
     df = df[df["n_expert"].isna() | (df["n_expert"])]
