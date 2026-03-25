@@ -89,16 +89,12 @@ def fit_ppi_full(Y, Y_hat, X, selected_mask):
         return np.full(N_COEF, np.nan)
 
 
-def fit_dsl_full(Y, Y_hat, X_df, selected_mask):
+def fit_dsl_full(Y, Y_hat, X_df, selected_mask, ro):
     """
     DSL estimate for full logistic regression with all 5 features.
     formula = Y ~ x1 + x2 + x3 + x4 + x5
+    Accepts a pre-initialized rpy2 robjects module to avoid R startup overhead.
     """
-    import rpy2.robjects as ro
-    import rpy2.rinterface_lib.callbacks as rcb
-    import logging
-    rcb.logger.setLevel(logging.ERROR)
-
     Y_true_sel = Y.copy().astype(object)
     Y_true_sel[~selected_mask] = None
 
@@ -116,7 +112,6 @@ def fit_dsl_full(Y, Y_hat, X_df, selected_mask):
         try:
             ro.r(f"""
                 sink("/dev/null")
-                suppressWarnings(library("dsl"))
                 data <- read.csv("{data_file}")
                 out <- suppressWarnings(dsl(
                     model         = "logit",
@@ -138,17 +133,18 @@ def fit_dsl_full(Y, Y_hat, X_df, selected_mask):
     return np.atleast_1d(coeffs)
 
 
-def compute_one_n(Y, Y_hat, X, X_df, n, seed):
+def compute_one_n(Y, Y_hat, X, X_df, n, seed, ro):
     """
     For one expert sample size n: select n rows, compute θ for each method.
     Returns three 6-element arrays.
+    ro: pre-initialized rpy2 robjects module (persistent R session).
     """
     rng = np.random.default_rng(seed)
     selected_mask = np.zeros(len(Y), dtype=bool)
     selected_mask[rng.choice(len(Y), size=n, replace=False)] = True
 
     beta_exp = fit_logistic_full(Y[selected_mask], X[selected_mask])
-    beta_dsl = fit_dsl_full(Y, Y_hat, X_df, selected_mask)
+    beta_dsl = fit_dsl_full(Y, Y_hat, X_df, selected_mask, ro)
     beta_ppi = fit_ppi_full(Y, Y_hat, X, selected_mask)
 
     return beta_exp, beta_dsl, beta_ppi
@@ -194,6 +190,14 @@ if __name__ == "__main__":
         )
     print(f"n values: {n_values.tolist()}")
 
+    # Initialize R once — load dsl library a single time to avoid per-call startup overhead
+    import rpy2.robjects as ro
+    import rpy2.rinterface_lib.callbacks as rcb
+    import logging
+    rcb.logger.setLevel(logging.ERROR)
+    ro.r('suppressWarnings(library("dsl"))')
+    print("R session initialized.")
+
     num_n      = len(n_values)
     thetas_exp = np.zeros((num_n, N_COEF))
     thetas_dsl = np.zeros((num_n, N_COEF))
@@ -201,7 +205,7 @@ if __name__ == "__main__":
 
     for i, n in enumerate(n_values):
         n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi = compute_one_n(Y, Y_hat, X, X_df, n, n_seed)
+        exp, dsl, ppi = compute_one_n(Y, Y_hat, X, X_df, n, n_seed, ro)
         thetas_exp[i] = exp
         thetas_dsl[i] = dsl
         thetas_ppi[i] = ppi
