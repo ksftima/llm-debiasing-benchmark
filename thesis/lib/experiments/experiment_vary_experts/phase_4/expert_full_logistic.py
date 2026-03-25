@@ -30,7 +30,7 @@ from sklearn.linear_model import LogisticRegression
 FEATURES = ["x1", "x2", "x3", "x4", "x5"]
 N_COEF   = len(FEATURES) + 1  # intercept + 5 features = 6
 
-LAM_L2 = 0.01  # L2 regularization strength — applied consistently to all methods
+LAM_L2 = 0.01  # default — overridden at runtime by --lam argument
 
 
 def fit_logistic_full(Y, X):
@@ -163,7 +163,12 @@ if __name__ == "__main__":
         help="Where to save the .npz result for this repetition")
     parser.add_argument("--seed", type=int, required=True,
         help="Random seed = SLURM array task ID")
+    parser.add_argument("--lam", type=float, default=0.01,
+        help="L2 regularization strength (default: 0.01)")
     args = parser.parse_args()
+
+    global LAM_L2
+    LAM_L2 = args.lam
 
     print(f"Seed: {args.seed} | CSV: {args.annotated_csv}")
 

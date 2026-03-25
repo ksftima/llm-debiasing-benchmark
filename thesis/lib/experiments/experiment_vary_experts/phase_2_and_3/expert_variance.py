@@ -49,7 +49,7 @@ def get_feature(dataset: str, phase: str) -> str:
     return feature
 
 
-LAM_L2 = 0.01  # L2 regularization strength — applied consistently to all methods
+LAM_L2 = 0.01  # default — overridden at runtime by --lam argument
 
 
 def fit_logistic_x2(Y, x2):
@@ -191,7 +191,12 @@ if __name__ == "__main__":
         help="Dataset name, e.g. cuad — used to look up feature from dataset_config.json")
     parser.add_argument("--phase", type=str, choices=["low", "high"], default="low",
         help="'low' for Phase 2 (low-variance feature), 'high' for Phase 3 (high-variance feature)")
+    parser.add_argument("--lam", type=float, default=0.01,
+        help="L2 regularization strength (default: 0.01)")
     args = parser.parse_args()
+
+    global LAM_L2
+    LAM_L2 = args.lam
 
     feature = get_feature(args.dataset, args.phase)
     print(f"Seed: {args.seed} | CSV: {args.annotated_csv} | Feature: {feature}")

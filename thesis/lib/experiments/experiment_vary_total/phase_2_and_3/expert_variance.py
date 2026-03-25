@@ -34,7 +34,7 @@ from ppi_py import ppi_logistic_pointestimate
 CONFIG_PATH = Path(__file__).parent.parent.parent / "dataset_config.json"
 
 N_MAX   = 1000
-LAM_L2  = 0.01
+LAM_L2  = 0.01  # default — overridden at runtime by --lam argument
 
 
 def get_feature(dataset: str, phase: str) -> str:
@@ -163,7 +163,12 @@ if __name__ == "__main__":
     parser.add_argument("--phase",    type=str, choices=["low", "high"], default="low")
     parser.add_argument("--n-expert", type=int, required=True,
         help="Fixed number of expert annotations (e.g. 50, 100, 200)")
+    parser.add_argument("--lam", type=float, default=0.01,
+        help="L2 regularization strength (default: 0.01)")
     args = parser.parse_args()
+
+    global LAM_L2
+    LAM_L2 = args.lam
 
     feature = get_feature(args.dataset, args.phase)
     print(f"Seed: {args.seed} | CSV: {args.annotated_csv} | Feature: {feature} | n_expert: {args.n_expert}")

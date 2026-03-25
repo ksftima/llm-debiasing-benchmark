@@ -18,21 +18,26 @@
 
 set -eo pipefail
 
-# Usage: sbatch vary-expert-low-variance.sh <dataset> <llm>
+# Usage: sbatch vary-expert-low-variance.sh <dataset> <llm> [lam]
 # Example: sbatch vary-expert-low-variance.sh cuad llama
+#          sbatch vary-expert-low-variance.sh misogynistic llama 0.1
 DATASET=$1
 LLM=$2
+LAM=${3:-0.01}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
 
+# Include lam in output dir only when non-default
+LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
+
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"
-OUTPUT_DIR="/code/thesis/results/vary-expert-low-variance/${DATASET}/${LLM}"
+OUTPUT_DIR="/code/thesis/results/vary-expert-low-variance${LAM_SUFFIX}/${DATASET}/${LLM}"
 
 mkdir -p "${CODE_DIR}/thesis/logs/vary-expert-low-variance"
-mkdir -p "${CODE_DIR}/thesis/results/vary-expert-low-variance/${DATASET}/${LLM}"
+mkdir -p "${CODE_DIR}/thesis/results/vary-expert-low-variance${LAM_SUFFIX}/${DATASET}/${LLM}"
 
-echo "Dataset: ${DATASET} | LLM: ${LLM} | Rep: ${SLURM_ARRAY_TASK_ID}"
+echo "Dataset: ${DATASET} | LLM: ${LLM} | lam: ${LAM} | Rep: ${SLURM_ARRAY_TASK_ID}"
 
 apptainer exec \
     --bind ${CODE_DIR}:/code \
@@ -43,4 +48,5 @@ apptainer exec \
         "${OUTPUT_DIR}/rep_${SLURM_ARRAY_TASK_ID}.npz" \
         --seed    "${SLURM_ARRAY_TASK_ID}" \
         --dataset "${DATASET}" \
-        --phase   "low"
+        --phase   "low" \
+        --lam     "${LAM}"
