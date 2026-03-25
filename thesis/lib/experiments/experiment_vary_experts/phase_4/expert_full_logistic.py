@@ -165,6 +165,8 @@ if __name__ == "__main__":
         help="Random seed = SLURM array task ID")
     parser.add_argument("--lam", type=float, default=0.01,
         help="L2 regularization strength (default: 0.01)")
+    parser.add_argument("--n-select", type=int, nargs="+", default=None,
+        help="Run only at these n values instead of the full log-spaced grid, e.g. --n-select 26 72 200")
     args = parser.parse_args()
 
     LAM_L2 = args.lam
@@ -184,9 +186,12 @@ if __name__ == "__main__":
     print(f"theta* {theta_star}")
     print(f"theta_llm {theta_llm}")
 
-    n_values = np.unique(
-        np.round(np.logspace(np.log10(20), np.log10(200), num=10)).astype(int)
-    )
+    if args.n_select is not None:
+        n_values = np.array(sorted(args.n_select))
+    else:
+        n_values = np.unique(
+            np.round(np.logspace(np.log10(20), np.log10(200), num=10)).astype(int)
+        )
     print(f"n values: {n_values.tolist()}")
 
     num_n      = len(n_values)

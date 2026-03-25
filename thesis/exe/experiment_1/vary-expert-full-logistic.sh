@@ -18,12 +18,13 @@
 
 set -eo pipefail
 
-# Usage: sbatch vary-expert-full-logistic.sh <dataset> <llm> [lam]
+# Usage: sbatch vary-expert-full-logistic.sh <dataset> <llm> [lam] [n_select]
 # Example: sbatch vary-expert-full-logistic.sh cuad llama
-#          sbatch vary-expert-full-logistic.sh misogynistic llama 0.1
+#          sbatch vary-expert-full-logistic.sh misogynistic llama 0.1 "26 72 200"
 DATASET=$1
 LLM=$2
 LAM=${3:-0.01}
+N_SELECT=${4:-""}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
@@ -36,7 +37,9 @@ OUTPUT_DIR="/code/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASE
 mkdir -p "${CODE_DIR}/thesis/logs/vary-expert-full-logistic"
 mkdir -p "${CODE_DIR}/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
 
-echo "Dataset: ${DATASET} | LLM: ${LLM} | lam: ${LAM} | Rep: ${SLURM_ARRAY_TASK_ID}"
+echo "Dataset: ${DATASET} | LLM: ${LLM} | lam: ${LAM} | n_select: ${N_SELECT:-full} | Rep: ${SLURM_ARRAY_TASK_ID}"
+
+N_SELECT_ARG=$([ -z "$N_SELECT" ] && echo "" || echo "--n-select ${N_SELECT}")
 
 apptainer exec \
     --bind ${CODE_DIR}:/code \
@@ -46,4 +49,5 @@ apptainer exec \
         "${ANNOTATED_CSV}" \
         "${OUTPUT_DIR}/rep_${SLURM_ARRAY_TASK_ID}.npz" \
         --seed "${SLURM_ARRAY_TASK_ID}" \
-        --lam  "${LAM}"
+        --lam  "${LAM}" \
+        ${N_SELECT_ARG}
