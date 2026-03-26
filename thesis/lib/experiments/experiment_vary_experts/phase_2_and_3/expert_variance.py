@@ -64,6 +64,18 @@ def fit_logistic_x2(Y, x2):
     return np.array([clf.intercept_[0], clf.coef_[0, 0]])
 
 
+def fit_logistic_x2_unregularized(Y, x2):
+    """
+    Unregularized logistic regression with a single feature.
+    Used only for θ* and θ_llm (population-level reference estimates).
+    Returns [β₀, β₂] as a 2-element array.
+    """
+    X   = x2.reshape(-1, 1)
+    clf = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
+    clf.fit(X, Y.astype(int))
+    return np.array([clf.intercept_[0], clf.coef_[0, 0]])
+
+
 def fit_ppi_x2(Y, Y_hat, x2, selected_mask):
     """
     PPI logistic regression with L2 regularization (lam_l2 = LAM_L2).
@@ -205,9 +217,9 @@ if __name__ == "__main__":
     Y_hat = data["y_hat"].to_numpy().astype(float)
     x2    = data[feature].to_numpy().astype(float)
 
-    # Reference: fit on ALL expert labels
-    theta_star = fit_logistic_x2(Y, x2)
-    theta_llm  = fit_logistic_x2(Y_hat, x2)
+    # Reference: unregularized fit on ALL expert labels (population-level ground truth)
+    theta_star = fit_logistic_x2_unregularized(Y, x2)
+    theta_llm  = fit_logistic_x2_unregularized(Y_hat, x2)
 
     print(f"theta* [β₀, β₂]: {theta_star}")
     print(f"theta_llm:        {theta_llm}")

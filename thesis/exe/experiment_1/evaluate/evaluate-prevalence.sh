@@ -11,7 +11,7 @@ set -eo pipefail
 DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 for LLM in llama deepseek gpt54 mistral claude; do
     RESULTS_DIR="/code/thesis/results/vary-expert-prevalence/${DATASET}/${LLM}"

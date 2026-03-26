@@ -10,10 +10,10 @@
 #SBATCH --array=1-300            # 300 repetitions, seed = SLURM_ARRAY_TASK_ID
 #SBATCH --time=0-00:15:00        # prevalence is just means, each job finishes in seconds
 
-#SBATCH --output=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.log
-#SBATCH --error=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.err
+#SBATCH --output=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.log
+#SBATCH --error=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.err
 
-#SBATCH --mail-user=gusfatike@student.gu.se
+#SBATCH --mail-user=theat@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail
@@ -26,7 +26,7 @@ LLM=$2
 
 # --- Paths ---
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 # Input CSV: the annotated file for this dataset + LLM combination
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"

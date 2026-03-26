@@ -10,10 +10,10 @@
 #SBATCH --array=1-300            # 300 repetitions, seed = SLURM_ARRAY_TASK_ID
 #SBATCH --time=0-00:45:00
 
-#SBATCH --output=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-high-variance/%x_%A_%a.log
-#SBATCH --error=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-high-variance/%x_%A_%a.err
+#SBATCH --output=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-high-variance/%x_%A_%a.log
+#SBATCH --error=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-high-variance/%x_%A_%a.err
 
-#SBATCH --mail-user=gusfatike@student.gu.se
+#SBATCH --mail-user=theat@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail
@@ -26,7 +26,7 @@ LLM=$2
 LAM=${3:-0.01}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
 

@@ -44,6 +44,17 @@ def fit_logistic_full(Y, X):
     return np.concatenate([[clf.intercept_[0]], clf.coef_[0]])
 
 
+def fit_logistic_full_unregularized(Y, X):
+    """
+    Unregularized full logistic regression with all 5 features.
+    Used only for θ* and θ_llm (population-level reference estimates).
+    Returns [β₀, β₁, β₂, β₃, β₄, β₅] as a 6-element array.
+    """
+    clf = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
+    clf.fit(X, Y.astype(int))
+    return np.concatenate([[clf.intercept_[0]], clf.coef_[0]])
+
+
 def fit_ppi_full(Y, Y_hat, X, selected_mask):
     """
     PPI logistic regression with L2 regularization over all features.
@@ -175,9 +186,9 @@ if __name__ == "__main__":
     X     = data[FEATURES].to_numpy().astype(float)
     X_df  = data[FEATURES].copy()
 
-    # Reference: fit on ALL expert labels
-    theta_star = fit_logistic_full(Y, X)
-    theta_llm  = fit_logistic_full(Y_hat, X)
+    # Reference: unregularized fit on ALL expert labels (population-level ground truth)
+    theta_star = fit_logistic_full_unregularized(Y, X)
+    theta_llm  = fit_logistic_full_unregularized(Y_hat, X)
 
     print(f"theta* {theta_star}")
     print(f"theta_llm {theta_llm}")

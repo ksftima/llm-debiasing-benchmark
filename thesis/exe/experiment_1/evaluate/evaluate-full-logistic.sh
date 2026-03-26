@@ -13,7 +13,7 @@ DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
 LAM=${2:-0.01}
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
 
