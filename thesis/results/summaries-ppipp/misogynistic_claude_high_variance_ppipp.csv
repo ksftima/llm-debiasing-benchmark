@@ -1,0 +1,11 @@
+dataset,llm,method,n_expert,sRMSE_beta2,sRMSE_beta2_se,bias_beta2,bias_beta2_se,sRMSE_eucl,sRMSE_eucl_se,n_reps,n_valid,phase
+misogynistic,claude,ppipp,20,0.956824,0.05496,-0.096659,0.05496,1.089401,0.034374,300,300,high_variance
+misogynistic,claude,ppipp,26,0.86436,0.049854,0.038523,0.049854,0.971004,0.032175,300,300,high_variance
+misogynistic,claude,ppipp,33,0.679056,0.038933,-0.079914,0.038933,0.796102,0.024739,300,300,high_variance
+misogynistic,claude,ppipp,43,0.600232,0.034359,-0.078218,0.034359,0.710956,0.020785,300,300,high_variance
+misogynistic,claude,ppipp,56,0.605754,0.034384,-0.110773,0.034384,0.672076,0.019694,300,300,high_variance
+misogynistic,claude,ppipp,72,0.607585,0.035079,-0.001628,0.035079,0.670351,0.02024,300,300,high_variance
+misogynistic,claude,ppipp,93,0.494776,0.027919,-0.104668,0.027919,0.542688,0.016346,300,300,high_variance
+misogynistic,claude,ppipp,120,0.452875,0.024455,-0.160242,0.024455,0.499202,0.014317,300,300,high_variance
+misogynistic,claude,ppipp,155,0.436532,0.023468,-0.159177,0.023468,0.473765,0.013896,300,300,high_variance
+misogynistic,claude,ppipp,200,0.360927,0.018734,-0.158061,0.018734,0.392874,0.011413,300,300,high_variance

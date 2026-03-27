@@ -30,3 +30,13 @@ misogynistic,claude,ppi,93.0,1.149558,0.035448,4.937376,0.759536,300,300,full_lo
 misogynistic,claude,ppi,120.0,0.930962,0.022269,4.079886,0.615509,300,300,full_logistic
 misogynistic,claude,ppi,155.0,0.861877,0.017757,2.960833,0.474242,300,300,full_logistic
 misogynistic,claude,ppi,200.0,0.792933,0.014394,2.903956,0.380482,300,300,full_logistic
+misogynistic,claude,ppipp,20.0,0.860132,0.004767,0.846882,0.237522,300,300,full_logistic
+misogynistic,claude,ppipp,26.0,0.84033,0.004432,1.529555,0.210712,300,300,full_logistic
+misogynistic,claude,ppipp,33.0,0.822419,0.003783,0.85652,0.183504,300,300,full_logistic
+misogynistic,claude,ppipp,43.0,0.811086,0.003166,1.015138,0.161682,300,300,full_logistic
+misogynistic,claude,ppipp,56.0,0.796375,0.002969,0.942011,0.148541,300,300,full_logistic
+misogynistic,claude,ppipp,72.0,0.786416,0.002648,1.337312,0.139608,300,300,full_logistic
+misogynistic,claude,ppipp,93.0,0.785156,0.002371,0.955731,0.120573,300,300,full_logistic
+misogynistic,claude,ppipp,120.0,0.777242,0.002105,0.702523,0.10828,300,300,full_logistic
+misogynistic,claude,ppipp,155.0,0.773305,0.001765,0.649699,0.093994,300,300,full_logistic
+misogynistic,claude,ppipp,200.0,0.768825,0.001454,0.660541,0.077424,300,300,full_logistic

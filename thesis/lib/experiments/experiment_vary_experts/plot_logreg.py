@@ -44,11 +44,12 @@ DATASET_N: dict[tuple[str, str], int] = {
     ("pubmedqa", "claude"):       1000,
 }
 
-METHODS = ["expert_only", "dsl", "ppi", "llm_only"]
+METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
 METHOD_LABELS = {
     "expert_only": r"$\theta_\dagger$",
     "dsl":         "DSL",
     "ppi":         "PPI",
+    "ppipp":       "PPI++",
     "llm_only":    "LLM only",
 }
 
@@ -272,7 +273,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE of β ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_srmse_beta2.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_figure(
@@ -281,7 +282,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"Standardised Bias ($\beta$)",
         suptitle=f"{label} Feature — Standardised Bias of β ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_bias_beta2.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_figure(
@@ -290,7 +291,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β with LLM baseline ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_full.png",
-        methods=["expert_only", "dsl", "ppi", "llm_only"],
+        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
     )
 
     make_averaged_figure(
@@ -299,7 +300,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_avg.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
 
@@ -312,7 +313,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_srmse_eucl.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_figure(
@@ -321,7 +322,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE with LLM baseline ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_full.png",
-        methods=["expert_only", "dsl", "ppi", "llm_only"],
+        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
     )
 
     make_averaged_figure(
@@ -330,7 +331,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_avg.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_figure(
@@ -339,7 +340,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="Standardised Bias",
         suptitle=f"Full Logistic — Standardised Bias ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_bias.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_averaged_figure(
@@ -348,7 +349,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="Standardised Bias",
         suptitle=f"Full Logistic — Standardised Bias averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_bias_avg.png",
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
 
@@ -359,7 +360,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--summaries-dir", type=Path,
-        default=Path("thesis/results/summaries"))
+        default=Path("thesis/results/summaries/original"))
     parser.add_argument("--dataset", type=str, default="cuad")
     parser.add_argument("--phase", type=str, choices=["low", "high", "full"],
         default="low",
@@ -367,7 +368,7 @@ if __name__ == "__main__":
     parser.add_argument("--tag", type=str, default="",
         help="Extra suffix on CSV filenames, e.g. '_lam01'")
     parser.add_argument("--fig-dir", type=Path,
-        default=Path("thesis/results/figures"),
+        default=Path("thesis/results/figures/ppipp"),
         help="Output directory for figures")
     args = parser.parse_args()
 
