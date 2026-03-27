@@ -13,7 +13,7 @@
 #SBATCH --output=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-low-variance-ppipp/%x_%A_%a.log
 #SBATCH --error=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-low-variance-ppipp/%x_%A_%a.err
 
-#SBATCH --mail-user=theat@chalmers.se
+#SBATCH --mail-user=kesaf@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail
