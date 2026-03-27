@@ -260,9 +260,12 @@ if __name__ == "__main__":
     parser.add_argument("--output-bias",      type=Path, default=None)
     parser.add_argument("--output-debiasing", type=Path, default=None)
     parser.add_argument("--output-avg",       type=Path, default=None)
+    parser.add_argument("--fig-dir", type=Path,
+        default=Path("thesis/results/figures"),
+        help="Output directory for figures")
     args = parser.parse_args()
 
-    fig_dir = Path("thesis/results/figures")
+    fig_dir = args.fig_dir
     ds = args.dataset
     if args.output_srmse     is None: args.output_srmse     = fig_dir / f"{ds}_prevalence_srmse.png"
     if args.output_bias      is None: args.output_bias      = fig_dir / f"{ds}_prevalence_bias.png"

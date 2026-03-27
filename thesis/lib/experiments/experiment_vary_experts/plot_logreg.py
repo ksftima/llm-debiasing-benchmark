@@ -366,9 +366,12 @@ if __name__ == "__main__":
         help="'low' = Phase 2, 'high' = Phase 3, 'full' = Phase 4")
     parser.add_argument("--tag", type=str, default="",
         help="Extra suffix on CSV filenames, e.g. '_lam01'")
+    parser.add_argument("--fig-dir", type=Path,
+        default=Path("thesis/results/figures"),
+        help="Output directory for figures")
     args = parser.parse_args()
 
-    fig_dir = Path("thesis/results/figures")
+    fig_dir = args.fig_dir
     ds      = args.dataset
     ph      = args.phase
 

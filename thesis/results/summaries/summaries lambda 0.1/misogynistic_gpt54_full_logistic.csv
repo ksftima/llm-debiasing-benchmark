@@ -1,0 +1,11 @@
+dataset,llm,method,n_expert,sRMSE_eucl,sRMSE_eucl_se,bias_eucl,bias_eucl_se,n_reps,n_valid,phase
+misogynistic,gpt54,llm_only,,0.900502,0.0,-2.088661,0.0,300,300,full_logistic
+misogynistic,gpt54,expert_only,26.0,1.409589,0.038302,6.265789,1.101262,300,300,full_logistic
+misogynistic,gpt54,expert_only,72.0,0.677647,0.019682,2.931654,0.445336,300,300,full_logistic
+misogynistic,gpt54,expert_only,200.0,0.286303,0.006085,0.584021,0.152163,300,300,full_logistic
+misogynistic,gpt54,dsl,26.0,0.892635,0.005394,1.097779,0.14268,300,300,full_logistic
+misogynistic,gpt54,dsl,72.0,0.853004,0.003144,0.946978,0.080807,300,300,full_logistic
+misogynistic,gpt54,dsl,200.0,0.846036,0.001963,0.815914,0.046147,300,300,full_logistic
+misogynistic,gpt54,ppi,26.0,3.2618,0.146261,15.336779,2.546256,300,300,full_logistic
+misogynistic,gpt54,ppi,72.0,1.65301,0.059436,9.548826,1.227424,300,300,full_logistic
+misogynistic,gpt54,ppi,200.0,0.840299,0.016226,3.06313,0.413945,300,300,full_logistic
