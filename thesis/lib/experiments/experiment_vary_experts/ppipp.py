@@ -91,10 +91,11 @@ def estimate_lambda_star(Y_lab, Yhat_lab, X_lab, X_unlab, theta, lam_l2):
     return float(np.clip(numerator / denominator, 0.0, 1.0))
 
 
-def fit_ppipp_full(Y, Y_hat, X, selected_mask, lam_l2):
+def fit_ppipp(Y, Y_hat, X, selected_mask, lam_l2):
     """
-    PPI++ estimate for full logistic regression with L2 regularization.
-    Returns [β₀, β₁, β₂, β₃, β₄, β₅] as a 6-element array.
+    PPI++ estimate for logistic regression with L2 regularization.
+    X: feature matrix of shape (N, p) — intercept is added internally.
+    Returns theta of shape (p+1,): [β₀, β₁, ..., βₚ].
     """
     X_lab, X_unlab, Y_lab, _, Yhat_lab, Yhat_unlab = _split(Y, Y_hat, X, selected_mask)
 
