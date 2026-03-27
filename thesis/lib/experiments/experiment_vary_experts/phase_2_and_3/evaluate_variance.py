@@ -97,6 +97,9 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--llm",     type=str, required=True)
     parser.add_argument("--output",  type=Path, required=True)
+    parser.add_argument("--phase",   type=str, default="low_variance",
+        choices=["low_variance", "high_variance"],
+        help="Phase label written to output CSV (default: low_variance)")
     args = parser.parse_args()
 
     data     = load_all_reps(args.results_dir)
@@ -133,7 +136,7 @@ if __name__ == "__main__":
         "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
         "n_reps":         num_reps,
         "n_valid":        n_valid,
-        "phase":          "low_variance",
+        "phase":          args.phase,
     })
 
     # --- Expert-only, DSL, PPI per n ---
@@ -167,7 +170,7 @@ if __name__ == "__main__":
                 "sRMSE_eucl_se":  round(srmse_eucl_se, 6),
                 "n_reps":         num_reps,
                 "n_valid":        n_valid,
-                "phase":          "low_variance",
+                "phase":          args.phase,
             })
 
     df = pd.DataFrame(rows)

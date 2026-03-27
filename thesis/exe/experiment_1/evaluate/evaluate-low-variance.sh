@@ -31,7 +31,8 @@ for LLM in llama deepseek gpt54 mistral claude; do
             "${RESULTS_DIR}" \
             --dataset "${DATASET}" \
             --llm    "${LLM}" \
-            --output "${OUTPUT_CSV}"
+            --output "${OUTPUT_CSV}" \
+            --phase  "low_variance"
 
     echo "Done → ${OUTPUT_CSV}"
     echo ""
