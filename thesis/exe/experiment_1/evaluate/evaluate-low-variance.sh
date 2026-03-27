@@ -3,19 +3,23 @@
 # Evaluate low-variance (Phase 2) results for all LLMs.
 # Loops over the 4 LLMs, loads all 300 rep_*.npz files, and writes one summary CSV each.
 #
-# Usage: bash evaluate-low-variance.sh <dataset>
+# Usage: bash evaluate-low-variance.sh <dataset> [lam]
 # Example: bash evaluate-low-variance.sh cuad
+#          bash evaluate-low-variance.sh cuad 0.1
 
 set -eo pipefail
 
 DATASET=${1:?"Usage: $0 <dataset>  (e.g. cuad)"}
+LAM=${2:-0.01}
 
-CONTAINER_PATH="$HOME/benchmarking.sif"
+CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
+LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.')")
+
 for LLM in llama deepseek gpt54 mistral claude; do
-    RESULTS_DIR="/code/thesis/results/vary-expert-low-variance/${DATASET}/${LLM}"
-    OUTPUT_CSV="/code/thesis/results/summaries/${DATASET}_${LLM}_low_variance.csv"
+    RESULTS_DIR="/code/thesis/results/vary-expert-low-variance${LAM_SUFFIX}/${DATASET}/${LLM}"
+    OUTPUT_CSV="/code/thesis/results/summaries/${DATASET}_${LLM}_low_variance${LAM_SUFFIX}.csv"
 
     echo "=== Evaluating ${DATASET} / ${LLM} ==="
 
