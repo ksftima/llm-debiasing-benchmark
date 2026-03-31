@@ -142,7 +142,7 @@ if __name__ == "__main__":
     theta_star = fit_logit_intercept_only(Y_full)
     theta_llm  = fit_logit_intercept_only(Y_hat_full)
 
-    # N values: log-spaced from n_expert to N_MAX
+    # N values: log-spaced from n_expert to N_MAX, excluding N==n_expert (empty unlabeled set)
     N_values = np.unique(
         np.round(np.logspace(
             np.log10(args.n_expert),
@@ -150,6 +150,7 @@ if __name__ == "__main__":
             num=10,
         )).astype(int)
     )
+    N_values = N_values[N_values > args.n_expert]
     print(f"N values: {N_values.tolist()}")
 
     num_N        = len(N_values)

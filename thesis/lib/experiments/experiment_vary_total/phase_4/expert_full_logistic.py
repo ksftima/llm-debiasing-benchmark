@@ -195,6 +195,7 @@ if __name__ == "__main__":
             num=10,
         )).astype(int)
     )
+    N_values = N_values[N_values > args.n_expert]
     print(f"N values: {N_values.tolist()}")
 
     num_N        = len(N_values)
