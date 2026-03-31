@@ -17,6 +17,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 
 import sys
 sys.path.insert(0, "/code/original/lib")
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 
 import numpy as np
 import pandas as pd
@@ -26,6 +27,7 @@ from argparse import ArgumentParser
 from scipy.optimize import minimize
 from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
+from ppipp import fit_ppipp
 
 FEATURES = ["x1", "x2", "x3", "x4", "x5"]
 N_COEF   = len(FEATURES) + 1  # intercept + 5 features = 6
@@ -154,11 +156,12 @@ def compute_one_n(Y, Y_hat, X, X_df, n, seed, ro):
     selected_mask = np.zeros(len(Y), dtype=bool)
     selected_mask[rng.choice(len(Y), size=n, replace=False)] = True
 
-    beta_exp = fit_logistic_full(Y[selected_mask], X[selected_mask])
-    beta_dsl = fit_dsl_full(Y, Y_hat, X_df, selected_mask, ro)
-    beta_ppi = fit_ppi_full(Y, Y_hat, X, selected_mask)
+    beta_exp   = fit_logistic_full(Y[selected_mask], X[selected_mask])
+    beta_dsl   = fit_dsl_full(Y, Y_hat, X_df, selected_mask, ro)
+    beta_ppi   = fit_ppi_full(Y, Y_hat, X, selected_mask)
+    beta_ppipp = fit_ppipp(Y, Y_hat, X, selected_mask, LAM_L2)
 
-    return beta_exp, beta_dsl, beta_ppi
+    return beta_exp, beta_dsl, beta_ppi, beta_ppipp
 
 
 if __name__ == "__main__":
@@ -209,27 +212,30 @@ if __name__ == "__main__":
     ro.r('suppressWarnings(library("dsl"))')
     print("R session initialized.")
 
-    num_n      = len(n_values)
-    thetas_exp = np.zeros((num_n, N_COEF))
-    thetas_dsl = np.zeros((num_n, N_COEF))
-    thetas_ppi = np.zeros((num_n, N_COEF))
+    num_n        = len(n_values)
+    thetas_exp   = np.zeros((num_n, N_COEF))
+    thetas_dsl   = np.zeros((num_n, N_COEF))
+    thetas_ppi   = np.zeros((num_n, N_COEF))
+    thetas_ppipp = np.zeros((num_n, N_COEF))
 
     for i, n in enumerate(n_values):
         n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi = compute_one_n(Y, Y_hat, X, X_df, n, n_seed, ro)
-        thetas_exp[i] = exp
-        thetas_dsl[i] = dsl
-        thetas_ppi[i] = ppi
-        print(f"  n={n:3d} | exp={exp} | dsl={dsl} | ppi={ppi}")
+        exp, dsl, ppi, ppipp = compute_one_n(Y, Y_hat, X, X_df, n, n_seed, ro)
+        thetas_exp[i]   = exp
+        thetas_dsl[i]   = dsl
+        thetas_ppi[i]   = ppi
+        thetas_ppipp[i] = ppipp
+        print(f"  n={n:3d} | exp={exp} | dsl={dsl} | ppi={ppi} | ppipp={ppipp}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(
         args.results_path,
-        theta_star  = theta_star,   # shape (6,)
-        theta_llm   = theta_llm,    # shape (6,)
-        n_values    = n_values,     # shape (num_n,)
-        thetas_exp  = thetas_exp,   # shape (num_n, 6)
-        thetas_dsl  = thetas_dsl,   # shape (num_n, 6)
-        thetas_ppi  = thetas_ppi,   # shape (num_n, 6)
+        theta_star   = theta_star,    # shape (6,)
+        theta_llm    = theta_llm,     # shape (6,)
+        n_values     = n_values,      # shape (num_n,)
+        thetas_exp   = thetas_exp,    # shape (num_n, 6)
+        thetas_dsl   = thetas_dsl,    # shape (num_n, 6)
+        thetas_ppi   = thetas_ppi,    # shape (num_n, 6)
+        thetas_ppipp = thetas_ppipp,  # shape (num_n, 6)
     )
     print(f"Saved to {args.results_path}")

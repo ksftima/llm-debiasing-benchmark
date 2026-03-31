@@ -22,6 +22,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 
 import sys
 sys.path.insert(0, "/code/original/lib")  # find fitting.py inside the container
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 
 import numpy as np
 import pandas as pd
@@ -30,6 +31,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 from scipy.special import logit  # logit(p) = log(p / (1-p)), the log-odds transform
 from ppi_py import ppi_logistic_pointestimate
+from ppipp import fit_ppipp
 
 
 def fit_logit_intercept_only(Y):
@@ -125,11 +127,13 @@ def compute_one_n(Y, Y_hat, n, seed):
     selected_mask = np.zeros(len(Y), dtype=bool)
     selected_mask[rng.choice(len(Y), size=n, replace=False)] = True
 
-    beta_exp = fit_logit_intercept_only(Y[selected_mask])
-    beta_dsl = fit_dsl_intercept_only(Y, Y_hat, selected_mask)
-    beta_ppi = fit_ppi_intercept_only(Y, Y_hat, selected_mask)
+    beta_exp   = fit_logit_intercept_only(Y[selected_mask])
+    beta_dsl   = fit_dsl_intercept_only(Y, Y_hat, selected_mask)
+    beta_ppi   = fit_ppi_intercept_only(Y, Y_hat, selected_mask)
+    # intercept-only: pass empty feature matrix, no L2 on coefficients
+    beta_ppipp = fit_ppipp(Y, Y_hat, np.empty((len(Y), 0)), selected_mask, lam_l2=0.0)
 
-    return beta_exp, beta_dsl, beta_ppi
+    return beta_exp, beta_dsl, beta_ppi, beta_ppipp
 
 
 if __name__ == "__main__":
@@ -161,27 +165,30 @@ if __name__ == "__main__":
     )
     print(f"n values: {n_values.tolist()}")
 
-    num_n = len(n_values)
-    thetas_exp = np.zeros(num_n)
-    thetas_dsl = np.zeros(num_n)
-    thetas_ppi = np.zeros(num_n)
+    num_n        = len(n_values)
+    thetas_exp   = np.zeros(num_n)
+    thetas_dsl   = np.zeros(num_n)
+    thetas_ppi   = np.zeros(num_n)
+    thetas_ppipp = np.zeros(num_n)
 
     for i, n in enumerate(n_values):
         n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi = compute_one_n(Y, Y_hat, n, n_seed)
-        thetas_exp[i] = float(exp)
-        thetas_dsl[i] = float(dsl)
-        thetas_ppi[i] = float(ppi)
-        print(f"  n={n:3d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f}")
+        exp, dsl, ppi, ppipp = compute_one_n(Y, Y_hat, n, n_seed)
+        thetas_exp[i]   = float(exp)
+        thetas_dsl[i]   = float(dsl)
+        thetas_ppi[i]   = float(ppi)
+        thetas_ppipp[i] = float(ppipp[0])  # ppipp returns [β₀], extract scalar
+        print(f"  n={n:3d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f} | ppipp={float(ppipp[0]):.4f}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(
         args.results_path,
-        theta_star  = theta_star,   # shape (1,) — reference log-odds
-        theta_llm   = theta_llm,    # shape (1,) — LLM-only log-odds
-        n_values    = n_values,     # shape (num_n,)
-        thetas_exp  = thetas_exp,   # shape (num_n,) — expert-only per n
-        thetas_dsl  = thetas_dsl,   # shape (num_n,) — DSL per n
-        thetas_ppi  = thetas_ppi,   # shape (num_n,) — PPI per n
+        theta_star   = theta_star,    # shape (1,) — reference log-odds
+        theta_llm    = theta_llm,     # shape (1,) — LLM-only log-odds
+        n_values     = n_values,      # shape (num_n,)
+        thetas_exp   = thetas_exp,    # shape (num_n,) — expert-only per n
+        thetas_dsl   = thetas_dsl,    # shape (num_n,) — DSL per n
+        thetas_ppi   = thetas_ppi,    # shape (num_n,) — PPI per n
+        thetas_ppipp = thetas_ppipp,  # shape (num_n,) — PPI++ per n
     )
     print(f"Saved to {args.results_path}")

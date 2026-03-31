@@ -19,7 +19,10 @@ def _safe_log1pexp(z):
 
 def _split(Y, Y_hat, X, selected_mask):
     """Augment X with intercept column and split into labeled/unlabeled sets."""
-    X_aug = np.column_stack([np.ones(len(Y)), X])
+    if X.shape[1] > 0:
+        X_aug = np.column_stack([np.ones(len(Y)), X])
+    else:
+        X_aug = np.ones((len(Y), 1))  # intercept-only (phase 1)
     return (
         X_aug[selected_mask],           X_aug[~selected_mask],
         Y[selected_mask].astype(float), Y[~selected_mask].astype(float),
