@@ -10,8 +10,8 @@
 #SBATCH --array=1-300
 #SBATCH --time=0-01:30:00        # full logistic with 5 features is slower
 
-#SBATCH --output=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-full-logistic/%x_%A_%a.log
-#SBATCH --error=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-full-logistic/%x_%A_%a.err
+#SBATCH --output=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-full-logistic/%x_%A_%a.log
+#SBATCH --error=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-full-logistic/%x_%A_%a.err
 
 #SBATCH --mail-user=${USER}@chalmers.se
 #SBATCH --mail-type=END,FAIL
@@ -34,7 +34,7 @@ LAM_SUFFIX=$([ "$LAM" = "0.01" ] && echo "" || echo "_lam$(echo $LAM | tr -d '.'
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"
 OUTPUT_DIR="/code/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
 
-mkdir -p "${CODE_DIR}/thesis/logs/vary-expert-full-logistic"
+mkdir -p /mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-full-logistic
 mkdir -p "${CODE_DIR}/thesis/results/vary-expert-full-logistic${LAM_SUFFIX}/${DATASET}/${LLM}"
 
 echo "Dataset: ${DATASET} | LLM: ${LLM} | lam: ${LAM} | n_select: ${N_SELECT:-full} | Rep: ${SLURM_ARRAY_TASK_ID}"

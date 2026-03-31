@@ -10,8 +10,8 @@
 #SBATCH --array=1-300            # 300 repetitions, seed = SLURM_ARRAY_TASK_ID
 #SBATCH --time=0-00:15:00        # prevalence is just means, each job finishes in seconds
 
-#SBATCH --output=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.log
-#SBATCH --error=/cephyr/users/%u/Vera/llm-debiasing-benchmark/thesis/logs/vary-expert-prevalence/%x_%A_%a.err
+#SBATCH --output=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-prevalence/%x_%A_%a.log
+#SBATCH --error=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-prevalence/%x_%A_%a.err
 
 #SBATCH --mail-user=${USER}@chalmers.se
 #SBATCH --mail-type=END,FAIL
@@ -35,7 +35,7 @@ ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_anno
 OUTPUT_DIR="/code/thesis/results/vary-expert-prevalence/${DATASET}/${LLM}"
 
 # Create log and output directories (outside container, using real path)
-mkdir -p "${CODE_DIR}/thesis/logs/vary-expert-prevalence"
+mkdir -p /mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-prevalence
 mkdir -p "${CODE_DIR}/thesis/results/vary-expert-prevalence/${DATASET}/${LLM}"
 
 echo "Dataset: ${DATASET} | LLM: ${LLM} | Rep: ${SLURM_ARRAY_TASK_ID}"
