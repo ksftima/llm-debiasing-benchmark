@@ -20,11 +20,12 @@ def load_all_reps(results_dir: Path):
 
     print(f"Loading {len(files)} repetitions from {results_dir}")
 
-    all_theta_star = []
-    all_theta_llm  = []
-    all_thetas_exp = []
-    all_thetas_dsl = []
-    all_thetas_ppi = []
+    all_theta_star   = []
+    all_theta_llm    = []
+    all_thetas_exp   = []
+    all_thetas_dsl   = []
+    all_thetas_ppi   = []
+    all_thetas_ppipp = []
 
     for f in files:
         d = np.load(f)
@@ -33,19 +34,21 @@ def load_all_reps(results_dir: Path):
         all_thetas_exp.append(d["thetas_exp"])
         all_thetas_dsl.append(d["thetas_dsl"])
         all_thetas_ppi.append(d["thetas_ppi"])
+        all_thetas_ppipp.append(d["thetas_ppipp"])
 
     d0       = np.load(files[0])
     N_values = d0["N_values"]
     n_expert = int(d0["n_expert"][0])
 
     return {
-        "N_values":   N_values,
-        "n_expert":   n_expert,
-        "theta_star": np.stack(all_theta_star),  # (num_reps, 6)
-        "theta_llm":  np.stack(all_theta_llm),   # (num_reps, 6)
-        "thetas_exp": np.stack(all_thetas_exp),  # (num_reps, num_N, 6)
-        "thetas_dsl": np.stack(all_thetas_dsl),
-        "thetas_ppi": np.stack(all_thetas_ppi),
+        "N_values":    N_values,
+        "n_expert":    n_expert,
+        "theta_star":  np.stack(all_theta_star),   # (num_reps, 6)
+        "theta_llm":   np.stack(all_theta_llm),    # (num_reps, 6)
+        "thetas_exp":  np.stack(all_thetas_exp),   # (num_reps, num_N, 6)
+        "thetas_dsl":  np.stack(all_thetas_dsl),
+        "thetas_ppi":  np.stack(all_thetas_ppi),
+        "thetas_ppipp":np.stack(all_thetas_ppipp),
     }
 
 
@@ -117,6 +120,7 @@ if __name__ == "__main__":
         "expert_only": data["thetas_exp"],
         "dsl":         data["thetas_dsl"],
         "ppi":         data["thetas_ppi"],
+        "ppipp":       data["thetas_ppipp"],
     }
 
     for method_name, all_thetas in methods.items():

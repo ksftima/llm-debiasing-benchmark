@@ -10,10 +10,10 @@
 #SBATCH --array=1-300
 #SBATCH --time=0-00:45:00
 
-#SBATCH --output=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-total-low-variance/%x_%A_%a.log
-#SBATCH --error=/cephyr/users/kesaf/Vera/llm-debiasing-benchmark/thesis/logs/vary-total-low-variance/%x_%A_%a.err
+#SBATCH --output=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-total-low-variance/%x_%A_%a.log
+#SBATCH --error=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-total-low-variance/%x_%A_%a.err
 
-#SBATCH --mail-user=gusfatike@student.gu.se
+#SBATCH --mail-user=${USER}@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail
@@ -25,12 +25,12 @@ LLM=$2
 N_EXPERT=$3
 
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 
 ANNOTATED_CSV="/code/thesis/datasets/annotated/${DATASET}/${DATASET}_${LLM}_annotated.csv"
 OUTPUT_DIR="/code/thesis/results/vary-total-low-variance/${DATASET}/${LLM}/n_${N_EXPERT}"
 
-mkdir -p "${CODE_DIR}/thesis/logs/vary-total-low-variance"
+mkdir -p /mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-total-low-variance
 mkdir -p "${CODE_DIR}/thesis/results/vary-total-low-variance/${DATASET}/${LLM}/n_${N_EXPERT}"
 
 echo "Dataset: ${DATASET} | LLM: ${LLM} | n_expert: ${N_EXPERT} | Rep: ${SLURM_ARRAY_TASK_ID}"

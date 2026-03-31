@@ -20,6 +20,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 
 import sys
 sys.path.insert(0, "/code/original/lib")
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent.parent / "experiment_vary_experts"))
 
 import numpy as np
 import pandas as pd
@@ -28,6 +29,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 from scipy.special import logit
 from ppi_py import ppi_logistic_pointestimate
+from ppipp import fit_ppipp
 
 N_MAX = 1000  # cap total dataset size
 
@@ -92,7 +94,7 @@ def fit_dsl_intercept_only(Y, Y_hat, selected_mask):
 def compute_one_N(Y_full, Y_hat_full, N, n_expert, seed):
     """
     Subsample N rows from full dataset, select n_expert as expert-labeled.
-    Returns three 1-element arrays (log-odds).
+    Returns four 1-element arrays (log-odds).
     """
     rng = np.random.default_rng(seed)
 
@@ -105,11 +107,12 @@ def compute_one_N(Y_full, Y_hat_full, N, n_expert, seed):
     selected_mask = np.zeros(N, dtype=bool)
     selected_mask[rng.choice(N, size=n_expert, replace=False)] = True
 
-    beta_exp = fit_logit_intercept_only(Y[selected_mask])
-    beta_dsl = fit_dsl_intercept_only(Y, Y_hat, selected_mask)
-    beta_ppi = fit_ppi_intercept_only(Y, Y_hat, selected_mask)
+    beta_exp   = fit_logit_intercept_only(Y[selected_mask])
+    beta_dsl   = fit_dsl_intercept_only(Y, Y_hat, selected_mask)
+    beta_ppi   = fit_ppi_intercept_only(Y, Y_hat, selected_mask)
+    beta_ppipp = fit_ppipp(Y, Y_hat, np.empty((len(Y), 0)), selected_mask, lam_l2=0.0)
 
-    return beta_exp, beta_dsl, beta_ppi
+    return beta_exp, beta_dsl, beta_ppi, beta_ppipp
 
 
 if __name__ == "__main__":
@@ -149,28 +152,31 @@ if __name__ == "__main__":
     )
     print(f"N values: {N_values.tolist()}")
 
-    num_N      = len(N_values)
-    thetas_exp = np.zeros(num_N)
-    thetas_dsl = np.zeros(num_N)
-    thetas_ppi = np.zeros(num_N)
+    num_N        = len(N_values)
+    thetas_exp   = np.zeros(num_N)
+    thetas_dsl   = np.zeros(num_N)
+    thetas_ppi   = np.zeros(num_N)
+    thetas_ppipp = np.zeros(num_N)
 
     for i, N in enumerate(N_values):
         N_seed = args.seed * 100000 + int(N)
-        exp, dsl, ppi = compute_one_N(Y_full, Y_hat_full, N, args.n_expert, N_seed)
-        thetas_exp[i] = float(exp)
-        thetas_dsl[i] = float(dsl)
-        thetas_ppi[i] = float(ppi)
-        print(f"  N={N:4d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f}")
+        exp, dsl, ppi, ppipp = compute_one_N(Y_full, Y_hat_full, N, args.n_expert, N_seed)
+        thetas_exp[i]   = float(exp)
+        thetas_dsl[i]   = float(dsl)
+        thetas_ppi[i]   = float(ppi)
+        thetas_ppipp[i] = float(ppipp[0])
+        print(f"  N={N:4d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f} | ppipp={float(ppipp[0]):.4f}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(
         args.results_path,
-        theta_star  = theta_star,
-        theta_llm   = theta_llm,
-        N_values    = N_values,
-        n_expert    = np.array([args.n_expert]),
-        thetas_exp  = thetas_exp,
-        thetas_dsl  = thetas_dsl,
-        thetas_ppi  = thetas_ppi,
+        theta_star   = theta_star,
+        theta_llm    = theta_llm,
+        N_values     = N_values,
+        n_expert     = np.array([args.n_expert]),
+        thetas_exp   = thetas_exp,
+        thetas_dsl   = thetas_dsl,
+        thetas_ppi   = thetas_ppi,
+        thetas_ppipp = thetas_ppipp,
     )
     print(f"Saved to {args.results_path}")

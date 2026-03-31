@@ -17,6 +17,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 
 import sys
 sys.path.insert(0, "/code/original/lib")
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent.parent / "experiment_vary_experts"))
 
 import numpy as np
 import pandas as pd
@@ -26,6 +27,7 @@ from argparse import ArgumentParser
 from scipy.optimize import minimize
 from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
+from ppipp import fit_ppipp
 
 FEATURES = ["x1", "x2", "x3", "x4", "x5"]
 N_COEF   = len(FEATURES) + 1
@@ -36,6 +38,12 @@ LAM_L2  = 0.01  # default — overridden at runtime by --lam argument
 
 def fit_logistic_full(Y, X):
     clf = LogisticRegression(penalty="l2", C=1.0/LAM_L2, solver="lbfgs", max_iter=1000)
+    clf.fit(X, Y.astype(int))
+    return np.concatenate([[clf.intercept_[0]], clf.coef_[0]])
+
+
+def fit_logistic_full_unreg(Y, X):
+    clf = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
     clf.fit(X, Y.astype(int))
     return np.concatenate([[clf.intercept_[0]], clf.coef_[0]])
 
@@ -134,11 +142,12 @@ def compute_one_N(Y_full, Y_hat_full, X_full, X_df_full, N, n_expert, seed):
     selected_mask = np.zeros(N, dtype=bool)
     selected_mask[rng.choice(N, size=n_expert, replace=False)] = True
 
-    beta_exp = fit_logistic_full(Y[selected_mask], X[selected_mask])
-    beta_dsl = fit_dsl_full(Y, Y_hat, X_df, selected_mask)
-    beta_ppi = fit_ppi_full(Y, Y_hat, X, selected_mask)
+    beta_exp   = fit_logistic_full(Y[selected_mask], X[selected_mask])
+    beta_dsl   = fit_dsl_full(Y, Y_hat, X_df, selected_mask)
+    beta_ppi   = fit_ppi_full(Y, Y_hat, X, selected_mask)
+    beta_ppipp = fit_ppipp(Y, Y_hat, X, selected_mask, LAM_L2)
 
-    return beta_exp, beta_dsl, beta_ppi
+    return beta_exp, beta_dsl, beta_ppi, beta_ppipp
 
 
 if __name__ == "__main__":
@@ -172,9 +181,9 @@ if __name__ == "__main__":
         X_full     = X_full[idx0]
         X_df_full  = X_df_full.iloc[idx0].reset_index(drop=True)
 
-    # Reference on full (capped) dataset
-    theta_star = fit_logistic_full(Y_full, X_full)
-    theta_llm  = fit_logistic_full(Y_hat_full, X_full)
+    # Reference on full (capped) dataset — unregularized to avoid bias in target
+    theta_star = fit_logistic_full_unreg(Y_full, X_full)
+    theta_llm  = fit_logistic_full_unreg(Y_hat_full, X_full)
 
     print(f"theta* {theta_star}")
     print(f"theta_llm {theta_llm}")
@@ -188,28 +197,31 @@ if __name__ == "__main__":
     )
     print(f"N values: {N_values.tolist()}")
 
-    num_N      = len(N_values)
-    thetas_exp = np.zeros((num_N, N_COEF))
-    thetas_dsl = np.zeros((num_N, N_COEF))
-    thetas_ppi = np.zeros((num_N, N_COEF))
+    num_N        = len(N_values)
+    thetas_exp   = np.zeros((num_N, N_COEF))
+    thetas_dsl   = np.zeros((num_N, N_COEF))
+    thetas_ppi   = np.zeros((num_N, N_COEF))
+    thetas_ppipp = np.zeros((num_N, N_COEF))
 
     for i, N in enumerate(N_values):
         N_seed = args.seed * 100000 + int(N)
-        exp, dsl, ppi = compute_one_N(Y_full, Y_hat_full, X_full, X_df_full, N, args.n_expert, N_seed)
-        thetas_exp[i] = exp
-        thetas_dsl[i] = dsl
-        thetas_ppi[i] = ppi
-        print(f"  N={N:4d} | exp={exp} | dsl={dsl} | ppi={ppi}")
+        exp, dsl, ppi, ppipp = compute_one_N(Y_full, Y_hat_full, X_full, X_df_full, N, args.n_expert, N_seed)
+        thetas_exp[i]   = exp
+        thetas_dsl[i]   = dsl
+        thetas_ppi[i]   = ppi
+        thetas_ppipp[i] = ppipp
+        print(f"  N={N:4d} | exp={exp} | dsl={dsl} | ppi={ppi} | ppipp={ppipp}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(
         args.results_path,
-        theta_star  = theta_star,
-        theta_llm   = theta_llm,
-        N_values    = N_values,
-        n_expert    = np.array([args.n_expert]),
-        thetas_exp  = thetas_exp,
-        thetas_dsl  = thetas_dsl,
-        thetas_ppi  = thetas_ppi,
+        theta_star   = theta_star,
+        theta_llm    = theta_llm,
+        N_values     = N_values,
+        n_expert     = np.array([args.n_expert]),
+        thetas_exp   = thetas_exp,
+        thetas_dsl   = thetas_dsl,
+        thetas_ppi   = thetas_ppi,
+        thetas_ppipp = thetas_ppipp,
     )
     print(f"Saved to {args.results_path}")

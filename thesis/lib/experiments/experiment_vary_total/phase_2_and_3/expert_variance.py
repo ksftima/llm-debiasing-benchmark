@@ -19,6 +19,7 @@ For each repetition (controlled by --seed = SLURM array task ID):
 
 import sys
 sys.path.insert(0, "/code/original/lib")
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent.parent / "experiment_vary_experts"))
 
 import json
 import numpy as np
@@ -30,6 +31,7 @@ from scipy.optimize import minimize
 from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
 from ppi_py import ppi_logistic_pointestimate
+from ppipp import fit_ppipp
 
 CONFIG_PATH = Path(__file__).parent.parent.parent / "dataset_config.json"
 
@@ -50,6 +52,13 @@ def get_feature(dataset: str, phase: str) -> str:
 def fit_logistic_x2(Y, x2):
     X   = x2.reshape(-1, 1)
     clf = LogisticRegression(penalty="l2", C=1.0/LAM_L2, solver="lbfgs", max_iter=1000)
+    clf.fit(X, Y.astype(int))
+    return np.array([clf.intercept_[0], clf.coef_[0, 0]])
+
+
+def fit_logistic_x2_unreg(Y, x2):
+    X   = x2.reshape(-1, 1)
+    clf = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
     clf.fit(X, Y.astype(int))
     return np.array([clf.intercept_[0], clf.coef_[0, 0]])
 
@@ -146,11 +155,12 @@ def compute_one_N(Y_full, Y_hat_full, x2_full, N, n_expert, seed, feature):
     selected_mask = np.zeros(N, dtype=bool)
     selected_mask[rng.choice(N, size=n_expert, replace=False)] = True
 
-    beta_exp = fit_logistic_x2(Y[selected_mask], x2[selected_mask])
-    beta_dsl = fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature)
-    beta_ppi = fit_ppi_x2(Y, Y_hat, x2, selected_mask)
+    beta_exp   = fit_logistic_x2(Y[selected_mask], x2[selected_mask])
+    beta_dsl   = fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature)
+    beta_ppi   = fit_ppi_x2(Y, Y_hat, x2, selected_mask)
+    beta_ppipp = fit_ppipp(Y, Y_hat, x2.reshape(-1, 1), selected_mask, LAM_L2)
 
-    return beta_exp, beta_dsl, beta_ppi
+    return beta_exp, beta_dsl, beta_ppi, beta_ppipp
 
 
 if __name__ == "__main__":
@@ -185,9 +195,9 @@ if __name__ == "__main__":
         Y_hat_full = Y_hat_full[idx0]
         x2_full    = x2_full[idx0]
 
-    # Reference on full (capped) dataset
-    theta_star = fit_logistic_x2(Y_full, x2_full)
-    theta_llm  = fit_logistic_x2(Y_hat_full, x2_full)
+    # Reference on full (capped) dataset — unregularized to avoid bias in target
+    theta_star = fit_logistic_x2_unreg(Y_full, x2_full)
+    theta_llm  = fit_logistic_x2_unreg(Y_hat_full, x2_full)
 
     print(f"theta* [β₀, β_feat]: {theta_star}")
     print(f"theta_llm:           {theta_llm}")
@@ -201,31 +211,34 @@ if __name__ == "__main__":
     )
     print(f"N values: {N_values.tolist()}")
 
-    num_N      = len(N_values)
-    thetas_exp = np.zeros((num_N, 2))
-    thetas_dsl = np.zeros((num_N, 2))
-    thetas_ppi = np.zeros((num_N, 2))
+    num_N        = len(N_values)
+    thetas_exp   = np.zeros((num_N, 2))
+    thetas_dsl   = np.zeros((num_N, 2))
+    thetas_ppi   = np.zeros((num_N, 2))
+    thetas_ppipp = np.zeros((num_N, 2))
 
     for i, N in enumerate(N_values):
         N_seed = args.seed * 100000 + int(N)
-        exp, dsl, ppi = compute_one_N(Y_full, Y_hat_full, x2_full, N, args.n_expert, N_seed, feature)
-        thetas_exp[i] = exp
-        thetas_dsl[i] = dsl
-        thetas_ppi[i] = ppi
-        print(f"  N={N:4d} | exp={exp} | dsl={dsl} | ppi={ppi}")
+        exp, dsl, ppi, ppipp = compute_one_N(Y_full, Y_hat_full, x2_full, N, args.n_expert, N_seed, feature)
+        thetas_exp[i]   = exp
+        thetas_dsl[i]   = dsl
+        thetas_ppi[i]   = ppi
+        thetas_ppipp[i] = ppipp
+        print(f"  N={N:4d} | exp={exp} | dsl={dsl} | ppi={ppi} | ppipp={ppipp}")
 
     phase_label = "low_variance" if args.phase == "low" else "high_variance"
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)
     np.savez(
         args.results_path,
-        theta_star  = theta_star,
-        theta_llm   = theta_llm,
-        N_values    = N_values,
-        n_expert    = np.array([args.n_expert]),
-        thetas_exp  = thetas_exp,
-        thetas_dsl  = thetas_dsl,
-        thetas_ppi  = thetas_ppi,
-        phase       = np.array([phase_label]),
+        theta_star   = theta_star,
+        theta_llm    = theta_llm,
+        N_values     = N_values,
+        n_expert     = np.array([args.n_expert]),
+        thetas_exp   = thetas_exp,
+        thetas_dsl   = thetas_dsl,
+        thetas_ppi   = thetas_ppi,
+        thetas_ppipp = thetas_ppipp,
+        phase        = np.array([phase_label]),
     )
     print(f"Saved to {args.results_path}")
