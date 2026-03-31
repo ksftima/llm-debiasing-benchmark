@@ -35,11 +35,12 @@ DATASET_N: dict[tuple[str, str], int] = {
 }
 
 # Method display order and labels
-METHODS = ["expert_only", "dsl", "ppi", "llm_only"]
+METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
 METHOD_LABELS = {
     "expert_only": r"$\theta_\dagger$",
     "dsl":         "DSL",
     "ppi":         "PPI",
+    "ppipp":       "PPI++",
     "llm_only":    "LLM only",
 }
 
@@ -276,14 +277,14 @@ if __name__ == "__main__":
     df = df[df["n_expert"].isna() | (df["n_expert"])]
     print(f"Loaded {len(df)} rows  |  dataset={args.dataset}")
 
-    # Main figure: θ†, DSL, PPI — matching paper Figure 3 style
+    # Main figure: θ†, DSL, PPI, PPI++ — matching paper Figure 3 style
     make_figure(
         df, args.dataset,
         metric="sRMSE", se_col="sRMSE_se",
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE ({args.dataset.upper()})",
         output=args.output_srmse,
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     make_figure(
@@ -292,7 +293,7 @@ if __name__ == "__main__":
         ylabel="Standardised Bias",
         suptitle=f"Class Prevalence — Standardised Bias ({args.dataset.upper()})",
         output=args.output_bias,
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
 
     # Extra: include LLM-only horizontal reference
@@ -302,7 +303,7 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE with LLM baseline ({args.dataset.upper()})",
         output=args.output_debiasing,
-        methods=["expert_only", "dsl", "ppi", "llm_only"],
+        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
     )
 
     # Averaged over LLMs — single panel matching paper Figure 3
@@ -312,5 +313,5 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE averaged over LLMs ({args.dataset.upper()})",
         output=args.output_avg,
-        methods=["expert_only", "dsl", "ppi"],
+        methods=["expert_only", "dsl", "ppi", "ppipp"],
     )
