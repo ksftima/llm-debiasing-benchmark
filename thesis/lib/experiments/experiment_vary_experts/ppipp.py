@@ -102,10 +102,13 @@ def fit_ppipp(Y, Y_hat, X, selected_mask, lam_l2):
     """
     X_lab, X_unlab, Y_lab, _, Yhat_lab, Yhat_unlab = _split(Y, Y_hat, X, selected_mask)
 
-    clf = LogisticRegression(penalty="l2", C=1.0/lam_l2, solver="lbfgs",
-                             max_iter=1000, fit_intercept=False)
-    clf.fit(X_lab, Y_lab.astype(int))
-    theta_init = clf.coef_.squeeze()
+    if lam_l2 > 0:
+        clf = LogisticRegression(penalty="l2", C=1.0/lam_l2, solver="lbfgs",
+                                 max_iter=1000, fit_intercept=False)
+        clf.fit(X_lab, Y_lab.astype(int))
+        theta_init = clf.coef_.squeeze()
+    else:
+        theta_init = np.zeros(X_lab.shape[1])
 
     lam_star = estimate_lambda_star(Y_lab, Yhat_lab, X_lab, X_unlab, theta_init, lam_l2)
     print(f"    λ* = {lam_star:.4f}")
