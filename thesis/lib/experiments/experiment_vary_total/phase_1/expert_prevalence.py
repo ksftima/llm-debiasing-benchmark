@@ -148,11 +148,12 @@ if __name__ == "__main__":
     theta_star = fit_logit_intercept_only(Y_full)
     theta_llm  = fit_logit_intercept_only(Y_hat_full)
 
-    # N values: log-spaced from n_expert to N_MAX, excluding N==n_expert (empty unlabeled set)
+    # N values: log-spaced from n_expert to min(N_MAX, dataset size)
+    effective_N_max = min(N_MAX, len(Y_full))
     N_values = np.unique(
         np.round(np.logspace(
             np.log10(args.n_expert),
-            np.log10(N_MAX),
+            np.log10(effective_N_max),
             num=10,
         )).astype(int)
     )
