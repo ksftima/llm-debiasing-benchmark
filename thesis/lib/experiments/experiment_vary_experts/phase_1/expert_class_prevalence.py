@@ -24,6 +24,11 @@ import sys
 sys.path.insert(0, "/code/original/lib")  # find fitting.py inside the container
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 
+import multiprocessing as mp
+mp.set_start_method("spawn", force=True)
+import os
+from concurrent.futures import ProcessPoolExecutor
+
 import numpy as np
 import pandas as pd
 import tempfile
@@ -114,13 +119,14 @@ def fit_dsl_intercept_only(Y, Y_hat, selected_mask):
     return np.atleast_1d(coeffs)  # always return 1-element array [β₀]
 
 
-def compute_one_n(Y, Y_hat, n, seed):
+def compute_one_n(packed_args):
     """
     For one expert sample size n:
       - randomly select n rows as expert-labeled
       - compute θ for expert-only, DSL, PPI
     Returns three 1-element arrays (log-odds).
     """
+    Y, Y_hat, n, seed = packed_args
     rng = np.random.default_rng(seed)
 
     # Boolean mask is needed for PPI (~selected_mask = unlabeled rows)
@@ -171,13 +177,22 @@ if __name__ == "__main__":
     thetas_ppi   = np.zeros(num_n)
     thetas_ppipp = np.zeros(num_n)
 
-    for i, n in enumerate(n_values):
-        n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi, ppipp = compute_one_n(Y, Y_hat, n, n_seed)
+    num_cores = int(os.environ.get("SLURM_CPUS_PER_TASK", 1))
+    print(f"Using {num_cores} cores")
+
+    worker_args = [
+        (Y, Y_hat, int(n), args.seed * 10000 + int(n))
+        for n in n_values
+    ]
+    with ProcessPoolExecutor(max_workers=num_cores) as executor:
+        all_results = list(executor.map(compute_one_n, worker_args))
+
+    for i, (exp, dsl, ppi, ppipp) in enumerate(all_results):
         thetas_exp[i]   = float(exp)
         thetas_dsl[i]   = float(dsl)
         thetas_ppi[i]   = float(ppi)
         thetas_ppipp[i] = float(ppipp[0])  # ppipp returns [β₀], extract scalar
+        n = n_values[i]
         print(f"  n={n:3d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f} | ppipp={float(ppipp[0]):.4f}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)

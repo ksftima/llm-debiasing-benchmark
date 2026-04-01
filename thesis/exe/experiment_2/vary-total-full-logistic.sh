@@ -6,14 +6,14 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=8
 #SBATCH --array=1-300
 #SBATCH --time=0-01:30:00
 
 #SBATCH --output=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-total-full-logistic/%x_%A_%a.log
 #SBATCH --error=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-total-full-logistic/%x_%A_%a.err
 
-#SBATCH --mail-user=${USER}@chalmers.se
+#SBATCH --mail-user=theat@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail

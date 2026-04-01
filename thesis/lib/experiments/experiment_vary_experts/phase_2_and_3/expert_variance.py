@@ -25,6 +25,11 @@ import sys
 sys.path.insert(0, "/code/original/lib")  # find fitting.py inside the container
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 
+import multiprocessing as mp
+mp.set_start_method("spawn", force=True)
+import os
+from concurrent.futures import ProcessPoolExecutor
+
 import json
 import numpy as np
 import pandas as pd
@@ -176,11 +181,14 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature: str):
     return np.atleast_1d(coeffs)
 
 
-def compute_one_n(Y, Y_hat, x2, n, seed, feature: str):
+def compute_one_n(packed_args):
     """
     For one expert sample size n: select n rows, compute θ for each method.
     Returns three 2-element arrays [β₀, β_feature].
     """
+    global LAM_L2
+    Y, Y_hat, x2, n, seed, feature, lam_l2 = packed_args
+    LAM_L2 = lam_l2
     rng = np.random.default_rng(seed)
     selected_mask = np.zeros(len(Y), dtype=bool)
     selected_mask[rng.choice(len(Y), size=n, replace=False)] = True
@@ -239,13 +247,22 @@ if __name__ == "__main__":
     thetas_ppi   = np.zeros((num_n, 2))
     thetas_ppipp = np.zeros((num_n, 2))
 
-    for i, n in enumerate(n_values):
-        n_seed = args.seed * 10000 + int(n)
-        exp, dsl, ppi, ppipp = compute_one_n(Y, Y_hat, x2, n, n_seed, feature)
+    num_cores = int(os.environ.get("SLURM_CPUS_PER_TASK", 1))
+    print(f"Using {num_cores} cores")
+
+    worker_args = [
+        (Y, Y_hat, x2, int(n), args.seed * 10000 + int(n), feature, LAM_L2)
+        for n in n_values
+    ]
+    with ProcessPoolExecutor(max_workers=num_cores) as executor:
+        all_results = list(executor.map(compute_one_n, worker_args))
+
+    for i, (exp, dsl, ppi, ppipp) in enumerate(all_results):
         thetas_exp[i]   = exp
         thetas_dsl[i]   = dsl
         thetas_ppi[i]   = ppi
         thetas_ppipp[i] = ppipp
+        n = n_values[i]
         print(f"  n={n:3d} | exp={exp} | dsl={dsl} | ppi={ppi} | ppipp={ppipp}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)

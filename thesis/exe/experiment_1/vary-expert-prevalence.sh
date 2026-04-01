@@ -6,14 +6,14 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=2        # only numpy, no GPU or R needed — 2 CPUs is enough
+#SBATCH --cpus-per-task=8
 #SBATCH --array=1-300            # 300 repetitions, seed = SLURM_ARRAY_TASK_ID
 #SBATCH --time=0-00:15:00        # prevalence is just means, each job finishes in seconds
 
 #SBATCH --output=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-prevalence/%x_%A_%a.log
 #SBATCH --error=/mimer/NOBACKUP/groups/ci-nlp-alvis/logs/vary-expert-prevalence/%x_%A_%a.err
 
-#SBATCH --mail-user=${USER}@chalmers.se
+#SBATCH --mail-user=theat@chalmers.se
 #SBATCH --mail-type=END,FAIL
 
 set -eo pipefail
