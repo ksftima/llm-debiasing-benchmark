@@ -1,7 +1,7 @@
 """
 Evaluation script: Vary Total Dataset Size — Phase 4: Full Logistic Regression
 
-Metric: sRMSE_eucl — Euclidean-norm standardized RMSE over full 6-vector.
+Metric: sRMSE_eucl — per-coefficient standardized RMSE, averaged over reps and coefficients.
         bias_eucl  — mean standardized bias (averaged over coefficients).
 
 Output: CSV with one row per (method, N_total) combination.
@@ -54,19 +54,23 @@ def load_all_reps(results_dir: Path):
 
 def compute_metrics_euclidean(betas, beta_star):
     """
-    sRMSE_eucl = sqrt( mean( ||β - β*||² / ||β*||² ) ) over reps.
+    sRMSE_eucl = sqrt( mean over reps AND coefficients of ((β - β*) / β*)² ).
     bias_eucl  = mean( mean_coeff( (β - β*) / β* ) ) over reps.
+
+    Matches original paper's per-coefficient normalization (vary_total_plot.py).
     """
     valid     = ~np.isnan(betas).any(axis=1)
     betas_v   = betas[valid]
     beta_s_v  = beta_star[valid]
     n         = int(valid.sum())
 
-    sq_error  = np.sum((betas_v - beta_s_v) ** 2, axis=1)
-    ref_norm  = np.sum(beta_s_v ** 2, axis=1)
-    ratio     = sq_error / ref_norm
-    srmse     = float(np.sqrt(np.mean(ratio)))
-    srmse_se  = float(np.std(np.sqrt(ratio)) / np.sqrt(n)) if n > 1 else np.nan
+    # per-coefficient normalized error: shape (reps, n_coef)
+    norm_err  = (betas_v - beta_s_v) / beta_s_v
+
+    # sRMSE: sqrt of mean squared error over reps AND coefficients
+    per_rep_mse = np.mean(norm_err ** 2, axis=1)          # (reps,)
+    srmse       = float(np.sqrt(np.mean(per_rep_mse)))
+    srmse_se    = float(np.std(np.sqrt(per_rep_mse)) / np.sqrt(n)) if n > 1 else np.nan
 
     # bias: mean over coefficients, then mean over reps
     norm_diff  = (betas_v - beta_s_v) / beta_s_v
