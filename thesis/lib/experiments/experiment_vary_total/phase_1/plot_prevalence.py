@@ -206,18 +206,19 @@ def make_averaged_figure(df: pd.DataFrame, dataset: str,
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--summaries-dir", type=Path,
-        default=Path("thesis/results/experiment_2/summaries"))
+        default=Path("thesis/results/experiment2/summaries"))
     parser.add_argument("--dataset",  type=str, default="misogynistic")
     parser.add_argument("--n-expert", type=int, default=50,
         help="Fixed number of expert annotations (50, 100, or 200)")
     parser.add_argument("--fig-dir",  type=Path,
-        default=Path("thesis/results/experiment_2/figures"))
+        default=None,
+        help="Override output directory. Default: thesis/results/experiment2/figures/n{N}/{dataset}/phase_1/")
     args = parser.parse_args()
 
-    fig_dir  = args.fig_dir
-    ds       = args.dataset
-    n        = args.n_expert
-    tag      = f"{ds}_n{n}"
+    ds      = args.dataset
+    n       = args.n_expert
+    tag     = f"{ds}_n{n}"
+    fig_dir = args.fig_dir or Path(f"thesis/results/experiment2/figures/n{n}/{ds}/phase_1")
 
     df = load_summaries(args.summaries_dir, ds, n)
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}")

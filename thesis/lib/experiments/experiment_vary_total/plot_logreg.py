@@ -296,7 +296,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, n: int, fig_dir: Path):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--summaries-dir", type=Path,
-        default=Path("thesis/results/experiment_2/summaries"))
+        default=Path("thesis/results/experiment2/summaries"))
     parser.add_argument("--dataset",  type=str, default="misogynistic")
     parser.add_argument("--n-expert", type=int, default=50,
         help="Fixed number of expert annotations (50, 100, or 200)")
@@ -304,13 +304,16 @@ if __name__ == "__main__":
         default="low",
         help="'low' = Phase 2, 'high' = Phase 3, 'full' = Phase 4")
     parser.add_argument("--fig-dir",  type=Path,
-        default=Path("thesis/results/experiment_2/figures"))
+        default=None,
+        help="Override output directory. Default: thesis/results/experiment2/figures/n{N}/{dataset}/phase_{X}/")
     args = parser.parse_args()
 
-    fig_dir = args.fig_dir
-    ds      = args.dataset
-    n       = args.n_expert
-    ph      = args.phase
+    ds = args.dataset
+    n  = args.n_expert
+    ph = args.phase
+
+    phase_num = {"low": 2, "high": 3, "full": 4}[ph]
+    fig_dir   = args.fig_dir or Path(f"thesis/results/experiment2/figures/n{n}/{ds}/phase_{phase_num}")
 
     df = load_summaries(args.summaries_dir, ds, n, ph)
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}  |  phase={ph}")
