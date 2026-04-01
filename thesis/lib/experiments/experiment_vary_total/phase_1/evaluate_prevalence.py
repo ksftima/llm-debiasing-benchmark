@@ -12,6 +12,10 @@ from pathlib import Path
 from argparse import ArgumentParser
 
 
+def sigmoid(x):
+    return 1.0 / (1.0 + np.exp(-x))
+
+
 def load_all_reps(results_dir: Path):
     files = sorted(results_dir.glob("rep_*.npz"))
     if not files:
@@ -78,16 +82,16 @@ if __name__ == "__main__":
     n_expert = data["n_expert"]
     num_reps = data["theta_star"].shape[0]
 
-    beta_star = data["theta_star"][:, 0]  # (num_reps,)
+    beta_star = sigmoid(data["theta_star"][:, 0])  # convert log-odds → probability
 
     print(f"\nDataset: {args.dataset} | LLM: {args.llm} | n_expert: {n_expert} | Reps: {num_reps}")
-    print(f"β*₀ mean: {beta_star.mean():.4f}")
+    print(f"p*₀ mean: {beta_star.mean():.4f}")
     print(f"N values: {N_values.tolist()}\n")
 
     rows = []
 
     # LLM-only baseline (constant — no N dependence)
-    llm_betas = data["theta_llm"][:, 0]
+    llm_betas = sigmoid(data["theta_llm"][:, 0])
     srmse, bias, se, n_valid = compute_metrics(llm_betas, beta_star)
     rows.append({
         "dataset":   args.dataset,
@@ -113,7 +117,7 @@ if __name__ == "__main__":
 
     for method_name, all_thetas in methods.items():
         for i, N in enumerate(N_values):
-            betas_at_N = all_thetas[:, i]  # (num_reps,)
+            betas_at_N = sigmoid(all_thetas[:, i])  # convert log-odds → probability
             srmse, bias, se, n_valid = compute_metrics(betas_at_N, beta_star)
             rows.append({
                 "dataset":   args.dataset,
