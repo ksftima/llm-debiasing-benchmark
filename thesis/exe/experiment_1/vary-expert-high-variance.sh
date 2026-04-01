@@ -6,7 +6,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=1
 #SBATCH --array=1-300            # 300 repetitions, seed = SLURM_ARRAY_TASK_ID
 #SBATCH --time=0-00:45:00
 

@@ -21,11 +21,6 @@ import sys
 sys.path.insert(0, "/code/original/lib")
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent.parent / "experiment_vary_experts"))
 
-import multiprocessing as mp
-mp.set_start_method("spawn", force=True)
-import os
-from concurrent.futures import ProcessPoolExecutor
-
 import json
 import numpy as np
 import pandas as pd
@@ -146,13 +141,10 @@ def fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature: str):
     return np.atleast_1d(coeffs)
 
 
-def compute_one_N(packed_args):
+def compute_one_N(Y_full, Y_hat_full, x2_full, N, n_expert, seed, feature):
     """
     Subsample N rows, select n_expert as expert-labeled, fit all methods.
     """
-    global LAM_L2
-    Y_full, Y_hat_full, x2_full, N, n_expert, seed, feature, lam_l2 = packed_args
-    LAM_L2 = lam_l2
     rng = np.random.default_rng(seed)
 
     idx   = rng.choice(len(Y_full), size=N, replace=False)
@@ -227,22 +219,13 @@ if __name__ == "__main__":
     thetas_ppi   = np.zeros((num_N, 2))
     thetas_ppipp = np.zeros((num_N, 2))
 
-    num_cores = int(os.environ.get("SLURM_CPUS_PER_TASK", 1))
-    print(f"Using {num_cores} cores")
-
-    worker_args = [
-        (Y_full, Y_hat_full, x2_full, int(N), args.n_expert, args.seed * 100000 + int(N), feature, LAM_L2)
-        for N in N_values
-    ]
-    with ProcessPoolExecutor(max_workers=num_cores) as executor:
-        all_results = list(executor.map(compute_one_N, worker_args))
-
-    for i, (exp, dsl, ppi, ppipp) in enumerate(all_results):
+    for i, N in enumerate(N_values):
+        N_seed = args.seed * 100000 + int(N)
+        exp, dsl, ppi, ppipp = compute_one_N(Y_full, Y_hat_full, x2_full, N, args.n_expert, N_seed, feature)
         thetas_exp[i]   = exp
         thetas_dsl[i]   = dsl
         thetas_ppi[i]   = ppi
         thetas_ppipp[i] = ppipp
-        N = N_values[i]
         print(f"  N={N:4d} | exp={exp} | dsl={dsl} | ppi={ppi} | ppipp={ppipp}")
 
     phase_label = "low_variance" if args.phase == "low" else "high_variance"

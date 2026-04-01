@@ -6,7 +6,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=1
 #SBATCH --array=1-300
 #SBATCH --time=0-00:10:00        # PPI++ only — no DSL/R overhead
 

@@ -22,11 +22,6 @@ import sys
 sys.path.insert(0, "/code/original/lib")
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent.parent / "experiment_vary_experts"))
 
-import multiprocessing as mp
-mp.set_start_method("spawn", force=True)
-import os
-from concurrent.futures import ProcessPoolExecutor
-
 import numpy as np
 import pandas as pd
 import tempfile
@@ -96,12 +91,11 @@ def fit_dsl_intercept_only(Y, Y_hat, selected_mask):
     return np.atleast_1d(coeffs)
 
 
-def compute_one_N(packed_args):
+def compute_one_N(Y_full, Y_hat_full, N, n_expert, seed):
     """
     Subsample N rows from full dataset, select n_expert as expert-labeled.
     Returns four 1-element arrays (log-odds).
     """
-    Y_full, Y_hat_full, N, n_expert, seed = packed_args
     rng = np.random.default_rng(seed)
 
     # Subsample N rows
@@ -166,22 +160,13 @@ if __name__ == "__main__":
     thetas_ppi   = np.zeros(num_N)
     thetas_ppipp = np.zeros(num_N)
 
-    num_cores = int(os.environ.get("SLURM_CPUS_PER_TASK", 1))
-    print(f"Using {num_cores} cores")
-
-    worker_args = [
-        (Y_full, Y_hat_full, int(N), args.n_expert, args.seed * 100000 + int(N))
-        for N in N_values
-    ]
-    with ProcessPoolExecutor(max_workers=num_cores) as executor:
-        all_results = list(executor.map(compute_one_N, worker_args))
-
-    for i, (exp, dsl, ppi, ppipp) in enumerate(all_results):
+    for i, N in enumerate(N_values):
+        N_seed = args.seed * 100000 + int(N)
+        exp, dsl, ppi, ppipp = compute_one_N(Y_full, Y_hat_full, N, args.n_expert, N_seed)
         thetas_exp[i]   = float(exp)
         thetas_dsl[i]   = float(dsl)
         thetas_ppi[i]   = float(ppi)
         thetas_ppipp[i] = float(ppipp[0])
-        N = N_values[i]
         print(f"  N={N:4d} | exp={float(exp):.4f} | dsl={float(dsl):.4f} | ppi={float(ppi):.4f} | ppipp={float(ppipp[0]):.4f}")
 
     args.results_path.parent.mkdir(parents=True, exist_ok=True)

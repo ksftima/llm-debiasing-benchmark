@@ -6,8 +6,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=32G
+#SBATCH --cpus-per-task=1
 #SBATCH --array=1-300
 #SBATCH --time=0-01:30:00
 
