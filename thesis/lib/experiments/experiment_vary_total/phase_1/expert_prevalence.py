@@ -31,7 +31,7 @@ from scipy.special import logit
 from ppi_py import ppi_logistic_pointestimate
 from ppipp import fit_ppipp
 
-N_MAX = 1000  # cap total dataset size
+N_MAX = 997  # cap total dataset size — fixed to smallest annotated dataset
 
 
 def fit_logit_intercept_only(Y):
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     theta_star = fit_logit_intercept_only(Y_full)
     theta_llm  = fit_logit_intercept_only(Y_hat_full)
 
-    # N values: log-spaced from n_expert to min(N_MAX, dataset size)
+    # N values: log-spaced from n_expert to N_MAX (capped at actual dataset size as safety)
     effective_N_max = min(N_MAX, len(Y_full))
     N_values = np.unique(
         np.round(np.logspace(

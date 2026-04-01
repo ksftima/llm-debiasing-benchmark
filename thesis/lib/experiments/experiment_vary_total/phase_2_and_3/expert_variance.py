@@ -35,7 +35,7 @@ from ppipp import fit_ppipp
 
 CONFIG_PATH = Path(__file__).parent.parent.parent / "dataset_config.json"
 
-N_MAX   = 1000
+N_MAX   = 997  # fixed to smallest annotated dataset
 LAM_L2  = 0.01  # default — overridden at runtime by --lam argument
 
 

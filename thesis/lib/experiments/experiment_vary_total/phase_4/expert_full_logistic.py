@@ -32,7 +32,7 @@ from ppipp import fit_ppipp
 FEATURES = ["x1", "x2", "x3", "x4", "x5"]
 N_COEF   = len(FEATURES) + 1
 
-N_MAX   = 1000
+N_MAX   = 997  # fixed to smallest annotated dataset
 LAM_L2  = 0.01  # default — overridden at runtime by --lam argument
 
 
