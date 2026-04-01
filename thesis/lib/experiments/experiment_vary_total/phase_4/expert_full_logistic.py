@@ -196,10 +196,11 @@ if __name__ == "__main__":
     print(f"theta* {theta_star}")
     print(f"theta_llm {theta_llm}")
 
+    effective_N_max = min(N_MAX, len(Y_full))
     N_values = np.unique(
         np.round(np.logspace(
             np.log10(args.n_expert),
-            np.log10(N_MAX),
+            np.log10(effective_N_max),
             num=10,
         )).astype(int)
     )
