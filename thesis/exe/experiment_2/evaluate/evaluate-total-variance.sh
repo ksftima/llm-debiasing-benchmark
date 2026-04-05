@@ -4,7 +4,7 @@
 # Evaluates both low-variance (phase 2) and high-variance (phase 3)
 
 DATASET=$1
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 
 for PHASE in low high; do

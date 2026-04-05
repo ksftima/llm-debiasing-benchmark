@@ -3,7 +3,7 @@
 # Example: bash evaluate-total-full-logistic.sh cuad
 
 DATASET=$1
-CODE_DIR="/cephyr/users/kesaf/Vera/llm-debiasing-benchmark"
+CODE_DIR="/cephyr/users/$USER/Vera/llm-debiasing-benchmark"
 CONTAINER_PATH="$HOME/benchmarking_reg.sif"
 
 for LLM in llama deepseek gpt54 mistral claude; do
