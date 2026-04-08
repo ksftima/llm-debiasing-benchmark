@@ -26,12 +26,11 @@ from sklearn.metrics import (
 )
 
 OUTPUT_FILE = Path("thesis/datasets/annotated/evaluation_results.txt")
+CSV_FILE    = Path("thesis/datasets/annotated/evaluation_results.csv")
 
 DATASETS = {
     "fomc (deepseek)":                Path("thesis/datasets/annotated/fomc/fomc_deepseek_annotated.csv"),
-    "fomc (gpt4omini)":               Path("thesis/datasets/annotated/fomc/fomc_gpt4omini_annotated.csv"),
     "fomc (gpt54)":                   Path("thesis/datasets/annotated/fomc/fomc_gpt54_annotated.csv"),
-    "fomc (fewshot-gpt54)":           Path("thesis/datasets/annotated/fomc/fomc_fewshot_gpt54_annotated.csv"),
     "pubmedqa (deepseek)":            Path("thesis/datasets/annotated/pubmedqa/pubmedqa_deepseek_annotated.csv"),
     "pubmedqa (gpt4omini)":           Path("thesis/datasets/annotated/pubmedqa/pubmedqa_gpt4omini_annotated.csv"),
     "pubmedqa (gpt54)":               Path("thesis/datasets/annotated/pubmedqa/pubmedqa_gpt54_annotated.csv"),
@@ -51,10 +50,10 @@ DATASETS = {
     "pubmedqa (llama)":               Path("thesis/datasets/annotated/pubmedqa/pubmedqa_llama_annotated.csv"),
     "cuad (llama)":                   Path("thesis/datasets/annotated/cuad/cuad_llama_annotated.csv"),
     "misogynistic (llama)":           Path("thesis/datasets/annotated/misogynistic/misogynistic_llama_annotated.csv"),
-    "fomc (anthropic)":               Path("thesis/datasets/annotated/fomc/anthropic/fomc_anthropic.csv"),
-    "pubmedqa (anthropic)":           Path("thesis/datasets/annotated/pubmedqa/anthropic/pubmedqa_anthropic.csv"),
-    "cuad (anthropic)":               Path("thesis/datasets/annotated/cuad/anthropic/cuad_anthropic.csv"),
-    "misogynistic (anthropic)":       Path("thesis/datasets/annotated/misogynistic/anthropic/misogynistic_anthropic.csv"),
+    "fomc (claude)":                  Path("thesis/datasets/annotated/fomc/fomc_claude_annotated.csv"),
+    "pubmedqa (claude)":              Path("thesis/datasets/annotated/pubmedqa/pubmedqa_claude_annotated.csv"),
+    "cuad (claude)":                  Path("thesis/datasets/annotated/cuad/cuad_claude_annotated.csv"),
+    "misogynistic (claude)":          Path("thesis/datasets/annotated/misogynistic/misogynistic_claude_annotated.csv"),
 }
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -62,6 +61,8 @@ OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 def p(*args, **kwargs):
     print(*args, **kwargs)
     print(*args, **kwargs, file=output)
+
+csv_rows = []
 
 with open(OUTPUT_FILE, "w") as output:
     for dataset, path in DATASETS.items():
@@ -78,9 +79,13 @@ with open(OUTPUT_FILE, "w") as output:
         y_hat = data["y_hat"].astype(int)
         labels = sorted(y.unique())
 
+        accuracy = accuracy_score(y, y_hat)
+        kappa    = cohen_kappa_score(y, y_hat)
+        shift    = y_hat.mean() - y.mean()
+
         p(f"Rows:          {len(data)}")
-        p(f"Accuracy:      {accuracy_score(y, y_hat):.4f}")
-        p(f"Cohen's kappa: {cohen_kappa_score(y, y_hat):.4f}")
+        p(f"Accuracy:      {accuracy:.4f}")
+        p(f"Cohen's kappa: {kappa:.4f}")
 
         p("\nClass distribution (count):")
         dist = pd.DataFrame({
@@ -93,7 +98,7 @@ with open(OUTPUT_FILE, "w") as output:
 
         p(f"\nMean y (expert):  {y.mean():.4f}")
         p(f"Mean y_hat (LLM): {y_hat.mean():.4f}")
-        p(f"Shift:            {y_hat.mean() - y.mean():+.4f}")
+        p(f"Shift:            {shift:+.4f}")
 
         p("\nConfusion matrix (rows=true, cols=predicted):")
         cm = confusion_matrix(y, y_hat, labels=labels)
@@ -104,4 +109,16 @@ with open(OUTPUT_FILE, "w") as output:
         p("\nPer-class metrics:")
         p(classification_report(y, y_hat, digits=4))
 
+        csv_rows.append({
+            "dataset":  dataset,
+            "rows":     len(data),
+            "accuracy": round(accuracy, 4),
+            "kappa":    round(kappa, 4),
+            "mean_y":   round(y.mean(), 4),
+            "mean_yhat": round(y_hat.mean(), 4),
+            "shift":    round(shift, 4),
+        })
+
+pd.DataFrame(csv_rows).to_csv(CSV_FILE, index=False)
 print(f"\nResults saved to: {OUTPUT_FILE}")
+print(f"CSV summary saved to: {CSV_FILE}")
