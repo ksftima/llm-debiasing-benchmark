@@ -60,15 +60,14 @@ def punctuation_density(text):
 
 data["x3"] = data["text"].map(punctuation_density)
 
-# x4: proportion of long words (words > 6 characters)
-# Abstract concepts common in metaphorical language tend to be polysyllabic
-def long_word_ratio(text):
-    words = re.findall(r"\b\w+\b", text)
-    if not words:
-        return 0.0
-    return sum(1 for w in words if len(w) > 6) / len(words)
+# x4: copula count (is, was, are, were, be, been, being)
+# Metaphors often use copular constructions ("X is Y")
+copula_words = {"is", "was", "are", "were", "be", "been", "being"}
+def copula_count(text):
+    words = re.findall(r"\b\w+\b", text.lower())
+    return sum(1 for w in words if w in copula_words)
 
-data["x4"] = data["text"].map(long_word_ratio)
+data["x4"] = data["text"].map(copula_count)
 
 # x5: capital letter ratio (uppercase letters / total letters)
 def cap_ratio(text):
