@@ -14,5 +14,9 @@
     "pubmedqa": {
         "low_variance_feature":  "x5",
         "high_variance_feature": "x2"
+    },
+    "vuamc": {
+        "low_variance_feature":  "x4",
+        "high_variance_feature": "x1"
     }
 }
