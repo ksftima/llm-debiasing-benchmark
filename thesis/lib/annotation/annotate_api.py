@@ -141,9 +141,20 @@ def annotate_deepseek(system_prompt, user_prompts, annotation_dir):
 ##########
 # OpenAI #
 ##########
-# OpenAI's Batch API charges 50% of the standard per-token price.
-# We upload a JSONL file of requests, create a batch job, then poll until done.
-# The batch can take up to 24h but typically finishes in minutes to hours.
+# OpenAI real-time: parallel thread pool, same approach as DeepSeek.
+
+def _call_openai_single(client, system_prompt, user_prompt):
+    """Make a single OpenAI chat completion call. Returns the response text."""
+    response = client.chat.completions.create(
+        model="gpt-5.4",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        max_tokens=10,
+    )
+    return response.choices[0].message.content
+
 
 def annotate_openai(system_prompt, user_prompts, annotation_dir):
     """

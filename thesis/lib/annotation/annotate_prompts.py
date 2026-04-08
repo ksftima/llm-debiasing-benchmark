@@ -3,6 +3,7 @@ system_prompts = {
     "pubmedqa": "You are a perfect biomedical question answering classification system",
     "cuad": "You are a perfect legal license grant clause classification system",
     "misogynistic": "You are a perfect misogyny detection classification system",
+    "vuamc": "You are a perfect figurative language detection classification system",
 }
 
 dataset_labels = {
@@ -10,6 +11,7 @@ dataset_labels = {
     "pubmedqa": ["0", "1", "2"],
     "cuad": ["0", "1"],
     "misogynistic": ["0", "1"],
+    "vuamc": ["0", "1"],
 }
 
 def make_examples(examples):
@@ -116,6 +118,29 @@ CLASSIFICATION:
 
 """
 
+def vuamc_prompt(text, examples):
+    return f"""
+Evaluate whether the following sentence contains metaphorical language.
+A word is metaphorical when its meaning in context differs from its basic, concrete, or
+physical sense — for example "keep the case alive" (alive = not dead → used non-literally),
+"a strong argument" (strong = physical force → used non-literally). This includes
+conventional everyday metaphors, not just vivid or literary ones.
+
+Classify the text as one of the following:
+    - 0 if the sentence is LITERAL (words are used in their basic, concrete, physical sense)
+    - 1 if the sentence contains a METAPHOR (any word is used in a non-literal sense)
+
+Give no other explanation for your classification, only output the label.
+
+{make_examples(examples)}
+
+Here's the sentence I would like you to classify:
+
+{text}
+
+CLASSIFICATION:
+"""
+
 def make_user_prompt(dataset, text, examples):
     if dataset == "fomc":
         return fomc_prompt(text, examples)
@@ -125,6 +150,8 @@ def make_user_prompt(dataset, text, examples):
         return cuad_prompt(text, examples)
     elif dataset == "misogynistic":
         return misogynistic_prompt(text, examples)
+    elif dataset == "vuamc":
+        return vuamc_prompt(text, examples)
     else:
         raise ValueError(f"'{dataset}' is not one of the known datasets.")
 
