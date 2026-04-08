@@ -151,9 +151,39 @@ def _call_openai_single(client, system_prompt, user_prompt):
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
-        max_tokens=10,
+        max_completion_tokens=10,
     )
     return response.choices[0].message.content
+
+
+def annotate_openai_realtime(system_prompt, user_prompts, annotation_dir):
+    """
+    Annotate a dict of {index: prompt} using OpenAI real-time calls in parallel.
+    Same approach as DeepSeek — up to 200 concurrent requests per batch.
+    """
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+    for batch_indices in batched(user_prompts.keys(), 200):
+        batch_indices = list(batch_indices)
+        print(f"Sending batch rows {batch_indices[0]:05} – {batch_indices[-1]:05}")
+
+        futures = {}
+        with ThreadPoolExecutor(max_workers=len(batch_indices)) as executor:
+            for index in batch_indices:
+                future = executor.submit(
+                    _call_openai_single, client, system_prompt, user_prompts[index]
+                )
+                futures[future] = index
+
+            for future in as_completed(futures):
+                index = futures[future]
+                try:
+                    response = future.result()
+                    save_prompt(annotation_dir, user_prompts[index], index)
+                    save_response(annotation_dir, response, index)
+                except Exception as e:
+                    save_error(annotation_dir, str(e), index)
+                    print(f"  Row {index:05} failed: {e}")
 
 
 def annotate_openai(system_prompt, user_prompts, annotation_dir):
@@ -316,6 +346,8 @@ if __name__ == "__main__":
                         help="Row index to start from (default: 0)")
     parser.add_argument("--num_examples", type=int, default=0,
                         help="Number of few-shot examples to include (default: 0)")
+    parser.add_argument("--realtime", action="store_true",
+                        help="Use real-time calls instead of the batch API (OpenAI only)")
     args = parser.parse_args()
 
     # Load data — only the "text" and "y" columns are read.
@@ -361,7 +393,10 @@ if __name__ == "__main__":
     if args.api == "deepseek":
         annotate_deepseek(system_prompt, user_prompts, args.annotation_dir)
     elif args.api == "openai":
-        annotate_openai(system_prompt, user_prompts, args.annotation_dir)
+        if args.realtime:
+            annotate_openai_realtime(system_prompt, user_prompts, args.annotation_dir)
+        else:
+            annotate_openai(system_prompt, user_prompts, args.annotation_dir)
     elif args.api == "anthropic":
         annotate_anthropic(system_prompt, user_prompts, args.annotation_dir)
 
