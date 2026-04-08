@@ -63,7 +63,7 @@ def count_uncertainty(text):
     return sum(len(re.findall(r"\b" + word + r"\b", text_lower)) for word in uncertainty_words)
 data["x5"] = data["sentence"].map(count_uncertainty)
 
-# label (dovish=0, neutral=1, hawkish=2)
+# label (dovish=0, hawkish=1)
 data["y"] = data["label"]
 
 #############

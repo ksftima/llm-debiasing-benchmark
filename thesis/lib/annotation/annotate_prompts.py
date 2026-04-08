@@ -6,7 +6,7 @@ system_prompts = {
 }
 
 dataset_labels = {
-    "fomc": ["0", "1", "2"],
+    "fomc": ["0", "1"],
     "pubmedqa": ["0", "1", "2"],
     "cuad": ["0", "1"],
     "misogynistic": ["0", "1"],
@@ -42,9 +42,6 @@ such as lower interest rates, concerns about slow growth, or desire to raise inf
 
     - 1 if the statement is HAWKISH (suggests or indicates future monetary policy tightening,
 such as higher interest rates, concerns about inflation, or strong economic growth)
-
-    - 2 if the statement is NEUTRAL (contains neither stance, presents mixed tones,
-or is purely descriptive without clear policy implications)
 
 Give no other explanation for your classification, only output the label.
 
