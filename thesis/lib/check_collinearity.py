@@ -9,7 +9,8 @@ datasets = {
     'CUAD': 'thesis/datasets/parsed/parsed_scaled_datasets/cuad.csv',
     'FOMC': 'thesis/datasets/parsed/parsed_scaled_datasets/fomc.csv',
     'Misogynistic': 'thesis/datasets/parsed/parsed_scaled_datasets/misogynistic.csv',
-    'PubMedQA': 'thesis/datasets/parsed/parsed_scaled_datasets/pubmedqa.csv'
+    'PubMedQA': 'thesis/datasets/parsed/parsed_scaled_datasets/pubmedqa.csv',
+    'VUAMC': 'thesis/datasets/parsed/parsed_scaled_datasets/vuamc.csv'
 }
 
 # Feature columns

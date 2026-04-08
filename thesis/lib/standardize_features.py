@@ -8,6 +8,7 @@ datasets = {
     'FOMC': ('thesis/datasets/parsed/parsed_csv/parsed_fomc.csv', 'thesis/datasets/parsed/parsed_scaled_datasets/fomc.csv'),
     'Misogynistic': ('thesis/datasets/parsed/parsed_csv/parsed_misogynistic.csv', 'thesis/datasets/parsed/parsed_scaled_datasets/misogynistic.csv'),
     'PubMedQA': ('thesis/datasets/parsed/parsed_csv/parsed_pubmedqa.csv', 'thesis/datasets/parsed/parsed_scaled_datasets/pubmedqa.csv'),
+    'VUAMC': ('thesis/datasets/parsed/parsed_csv/parsed_vuamc.csv', 'thesis/datasets/parsed/parsed_scaled_datasets/vuamc.csv'),
 }
 
 # Feature columns to standardize
