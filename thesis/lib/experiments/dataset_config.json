@@ -16,7 +16,7 @@
         "high_variance_feature": "x2"
     },
     "vuamc": {
-        "low_variance_feature":  "x4",
+        "low_variance_feature":  "x3",
         "high_variance_feature": "x1"
     }
 }
