@@ -372,14 +372,14 @@ if __name__ == "__main__":
         help="'low' = Phase 2, 'high' = Phase 3, 'full' = Phase 4")
     parser.add_argument("--tag", type=str, default="",
         help="Extra suffix on CSV filenames, e.g. '_lam01'")
-    parser.add_argument("--fig-dir", type=Path,
-        default=Path("thesis/results/figures/ppipp"),
-        help="Output directory for figures")
+    parser.add_argument("--fig-dir", type=Path, default=None,
+        help="Output directory for figures. Default: thesis/results/experiment 1/figures/phase_N/<dataset>")
     args = parser.parse_args()
 
-    fig_dir = args.fig_dir
     ds      = args.dataset
     ph      = args.phase
+    phase_num = {"low": 2, "high": 3, "full": 4}[ph]
+    fig_dir = args.fig_dir or Path(f"thesis/results/experiment 1/figures/phase_{phase_num}/{ds}")
 
     df = load_summaries(args.summaries_dir, ds, ph, extra_suffix=args.tag)
 
