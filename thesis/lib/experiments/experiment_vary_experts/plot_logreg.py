@@ -42,6 +42,11 @@ DATASET_N: dict[tuple[str, str], int] = {
     ("pubmedqa", "gpt54"):        1000,
     ("pubmedqa", "mistral"):      1000,
     ("pubmedqa", "claude"):       1000,
+    ("vuamc", "llama"):           1198,
+    ("vuamc", "deepseek"):        1198,
+    ("vuamc", "gpt54"):           1198,
+    ("vuamc", "mistral"):         1197,
+    ("vuamc", "claude"):          1198,
 }
 
 METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]

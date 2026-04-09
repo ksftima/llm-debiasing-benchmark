@@ -1,0 +1,11 @@
+dataset,llm,method,n_expert,sRMSE_beta2,sRMSE_beta2_se,bias_beta2,bias_beta2_se,sRMSE_eucl,sRMSE_eucl_se,n_reps,n_valid,phase
+vuamc,mistral,ppipp,20,0.31451,0.009722,-0.265634,0.009722,0.344951,0.009016,300,300,high_variance
+vuamc,mistral,ppipp,26,0.319342,0.009039,-0.278331,0.009039,0.34052,0.008573,300,300,high_variance
+vuamc,mistral,ppipp,33,0.307978,0.008452,-0.270962,0.008452,0.326682,0.007937,300,300,high_variance
+vuamc,mistral,ppipp,43,0.311795,0.007898,-0.28018,0.007898,0.326744,0.007543,300,300,high_variance
+vuamc,mistral,ppipp,56,0.307305,0.006617,-0.285131,0.006617,0.318467,0.006307,300,300,high_variance
+vuamc,mistral,ppipp,72,0.300663,0.006178,-0.280978,0.006178,0.308696,0.006034,300,300,high_variance
+vuamc,mistral,ppipp,93,0.300639,0.005348,-0.286015,0.005348,0.306471,0.005203,300,300,high_variance
+vuamc,mistral,ppipp,120,0.314828,0.004984,-0.302759,0.004984,0.319692,0.004928,300,300,high_variance
+vuamc,mistral,ppipp,155,0.307798,0.004484,-0.297839,0.004484,0.3112,0.004416,300,300,high_variance
+vuamc,mistral,ppipp,200,0.300184,0.003602,-0.293631,0.003602,0.302538,0.003577,300,300,high_variance
