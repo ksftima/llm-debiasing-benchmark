@@ -183,7 +183,9 @@ if __name__ == "__main__":
 
     print(f"Seed: {args.seed} | CSV: {args.annotated_csv}")
 
-    data  = pd.read_csv(args.annotated_csv).sample(frac=1, random_state=42).reset_index(drop=True)
+    data  = pd.read_csv(args.annotated_csv)
+    if len(data) > 997:
+        data = data.sample(n=997, random_state=42).reset_index(drop=True)
     Y     = data["y"].to_numpy().astype(float)
     Y_hat = data["y_hat"].to_numpy().astype(float)
     X     = data[FEATURES].to_numpy().astype(float)

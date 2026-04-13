@@ -11,32 +11,12 @@ LLM_TITLES = {"llama": "Llama", "deepseek": "DeepSeek",
                "gpt54": "GPT-5.4", "mistral": "Mistral", "claude": "Claude"}
 
 # Total dataset size N per (dataset, llm) — used to convert n → proportion
+N_MAX = 997  # all datasets capped at 997 rows
+
 DATASET_N: dict[tuple[str, str], int] = {
-    ("cuad", "llama"):           1395,
-    ("cuad", "deepseek"):        1396,
-    ("cuad", "gpt54"):           1396,
-    ("cuad", "mistral"):         1391,
-    ("cuad", "claude"):          1396,
-    ("misogynistic", "llama"):   997,
-    ("misogynistic", "deepseek"): 1000,
-    ("misogynistic", "gpt54"):   1000,
-    ("misogynistic", "mistral"): 997,
-    ("misogynistic", "claude"):  1000,
-    ("fomc", "llama"):           1184,
-    ("fomc", "deepseek"):        1184,
-    ("fomc", "gpt54"):           1184,
-    ("fomc", "mistral"):         1184,
-    ("fomc", "claude"):          1184,
-    ("pubmedqa", "llama"):       1000,
-    ("pubmedqa", "deepseek"):    1000,
-    ("pubmedqa", "gpt54"):       1000,
-    ("pubmedqa", "mistral"):     1000,
-    ("pubmedqa", "claude"):      1000,
-    ("vuamc", "llama"):          1198,
-    ("vuamc", "deepseek"):       1198,
-    ("vuamc", "gpt54"):          1198,
-    ("vuamc", "mistral"):        1197,
-    ("vuamc", "claude"):         1198,
+    (ds, llm): N_MAX
+    for ds in ["cuad", "misogynistic", "fomc", "pubmedqa", "vuamc"]
+    for llm in ["llama", "deepseek", "gpt54", "mistral", "claude"]
 }
 
 # Method display order and labels

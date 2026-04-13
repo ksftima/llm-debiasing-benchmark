@@ -215,7 +215,9 @@ if __name__ == "__main__":
     feature = get_feature(args.dataset, args.phase)
     print(f"Seed: {args.seed} | CSV: {args.annotated_csv} | Feature: {feature}")
 
-    data  = pd.read_csv(args.annotated_csv).sample(frac=1, random_state=42).reset_index(drop=True)
+    data  = pd.read_csv(args.annotated_csv)
+    if len(data) > 997:
+        data = data.sample(n=997, random_state=42).reset_index(drop=True)
     Y     = data["y"].to_numpy().astype(float)
     Y_hat = data["y_hat"].to_numpy().astype(float)
     x2    = data[feature].to_numpy().astype(float)
