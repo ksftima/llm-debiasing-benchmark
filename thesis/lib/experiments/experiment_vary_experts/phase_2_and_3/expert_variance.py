@@ -34,7 +34,6 @@ from argparse import ArgumentParser
 from scipy.optimize import minimize
 from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
-from ppi_py import ppi_logistic_pointestimate
 from ppipp import fit_ppipp
 
 CONFIG_PATH = Path(__file__).parent.parent.parent / "dataset_config.json"
