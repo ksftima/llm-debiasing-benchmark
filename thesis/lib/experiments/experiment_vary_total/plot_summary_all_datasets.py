@@ -345,7 +345,13 @@ if __name__ == "__main__":
     parser.add_argument("--fig-dir", type=Path,
         default=Path("thesis/results/experiment2/figures/summary"),
         help="Output directory for figures.")
+    parser.add_argument("--no-ppi", action="store_true",
+        help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
     args = parser.parse_args()
+
+    if args.no_ppi:
+        DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
+        args.fig_dir = args.fig_dir / "minus PPI"
 
     phases = (["prevalence", "low", "high", "full"]
               if args.phase == "all" else [args.phase])

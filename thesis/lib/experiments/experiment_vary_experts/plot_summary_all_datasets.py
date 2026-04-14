@@ -83,14 +83,7 @@ PHASE_FILE_SUFFIX = {
 # ── summaries directory lookup ─────────────────────────────────────────────────
 
 def _summaries_dir_for(base: Path, dataset: str) -> Path:
-    """Return the subdirectory where this dataset's summaries live."""
-    mapping = {
-        "cuad":         base / "the_summaries",
-        "misogynistic": base / "the_summaries",
-        "fomc":         base / "fomc_binary",
-        "vuamc":        base / "vuamc",
-    }
-    return mapping.get(dataset, base / "the_summaries")
+    return base / dataset
 
 
 # ── data loading ───────────────────────────────────────────────────────────────
@@ -204,27 +197,31 @@ def make_grid_by_dataset(summaries_base: Path, phase: str, fig_dir: Path,
         print(f"No data for phase={phase}.")
         return
 
-    nrows = len(available)
-    fig, axes = plt.subplots(nrows, 1, figsize=(8, 4.5 * nrows), squeeze=False)
+    ncols = 2
+    nrows = (len(available) + 1) // 2
+    fig, axes = plt.subplots(nrows, ncols, figsize=(8 * ncols, 4.5 * nrows), squeeze=False)
     colors    = plt.rcParams["axes.prop_cycle"].by_key()["color"]
     color_map = {m: colors[i] for i, m in enumerate(METHODS)}
     active    = DEBIASING + (["llm_only"] if which == "srmse" else [])
     n_llms    = len(LLM_ORDER)
 
-    for r, ds in enumerate(available):
-        ax = axes[r][0]
+    for i, ds in enumerate(available):
+        ax = axes[i // ncols][i % ncols]
         df = load_phase(summaries_base, ds, phase)
         _draw_panel(ax, df, metric, se_c, ylabel,
                     title=DATASET_TITLES[ds],
                     n_avg=n_llms,
                     include_llm_only=(which == "srmse"))
 
+    for i in range(len(available), nrows * ncols):
+        axes[i // ncols][i % ncols].set_visible(False)
+
     _add_legend(fig, active, color_map)
     metric_label = ylabel_srmse if which == "srmse" else "Standardised Bias"
     fig.suptitle(f"{PHASE_LABELS[phase]} — {metric_label} (averaged over LLMs)", fontsize=13)
     fig.tight_layout(rect=(0, 0.05, 1, 0.97))
 
-    out = fig_dir / f"all_datasets_{PHASE_FILE_SUFFIX[phase]}_{which}_avg_llms.png"
+    out = (fig_dir / "Dataset" / f"all_datasets_{PHASE_FILE_SUFFIX[phase]}_{which}_avg_llms.png")
     out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(str(out), bbox_inches="tight", dpi=300)
     print(f"Saved → {out}")
@@ -252,11 +249,12 @@ def make_grid_by_llm(summaries_base: Path, phase: str, fig_dir: Path,
     color_map = {m: colors[i] for i, m in enumerate(METHODS)}
     active    = DEBIASING + (["llm_only"] if which == "srmse" else [])
 
-    nrows = len(LLM_ORDER)
-    fig, axes = plt.subplots(nrows, 1, figsize=(8, 4.5 * nrows), squeeze=False)
+    ncols = 2
+    nrows = (len(LLM_ORDER) + 1) // 2
+    fig, axes = plt.subplots(nrows, ncols, figsize=(8 * ncols, 4.5 * nrows), squeeze=False)
 
     for r, llm in enumerate(LLM_ORDER):
-        ax = axes[r][0]
+        ax = axes[r // ncols][r % ncols]
         frames = []
         for ds in available_ds:
             df_ds = load_phase(summaries_base, ds, phase)
@@ -271,6 +269,9 @@ def make_grid_by_llm(summaries_base: Path, phase: str, fig_dir: Path,
                     n_avg=n_ds,
                     include_llm_only=(which == "srmse"))
 
+    for i in range(len(LLM_ORDER), nrows * ncols):
+        axes[i // ncols][i % ncols].set_visible(False)
+
     _add_legend(fig, active, color_map)
     ds_str       = ", ".join(DATASET_TITLES[d] for d in available_ds)
     metric_label = ylabel_srmse if which == "srmse" else "Standardised Bias"
@@ -279,7 +280,122 @@ def make_grid_by_llm(summaries_base: Path, phase: str, fig_dir: Path,
         fontsize=12)
     fig.tight_layout(rect=(0, 0.05, 1, 0.97))
 
-    out = fig_dir / f"all_llms_{PHASE_FILE_SUFFIX[phase]}_{which}_avg_datasets.png"
+    out = (fig_dir / "LLMs" / f"all_llms_{PHASE_FILE_SUFFIX[phase]}_{which}_avg_datasets.png")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(str(out), bbox_inches="tight", dpi=300)
+    print(f"Saved → {out}")
+    plt.close(fig)
+
+
+# ── helper: load all phases for a dataset/llm, normalise metric to common col ─
+
+def load_all_phases(summaries_base: Path, dataset: str,
+                    which: str = "srmse") -> pd.DataFrame | None:
+    """
+    Load all 4 phases for a dataset, rename the relevant sRMSE (or bias) column
+    to 'metric' so they can be pooled and averaged across phases.
+    """
+    frames = []
+    for phase in ["prevalence", "low", "high", "full"]:
+        df = load_phase(summaries_base, dataset, phase)
+        if df is None:
+            continue
+        metric_col, _, _, bias_col, _ = PHASE_METRIC[phase]
+        col = metric_col if which == "srmse" else bias_col
+        if col not in df.columns:
+            continue
+        sub = df.copy()
+        sub["metric"] = sub[col]
+        sub["phase"]  = phase
+        frames.append(sub[["dataset", "llm", "method", "n_expert", "n_prop",
+                            "metric", "phase"]])
+    if not frames:
+        return None
+    return pd.concat(frames, ignore_index=True)
+
+
+# ── grid: averaged over phases (and LLMs) — rows=datasets ─────────────────────
+
+def make_phase_avg_by_dataset(summaries_base: Path, fig_dir: Path,
+                               which: str = "srmse"):
+    ylabel      = "sRMSE (avg. over phases)" if which == "srmse" else "Std. Bias (avg. over phases)"
+    available   = [ds for ds in DATASETS
+                   if load_all_phases(summaries_base, ds, which) is not None]
+    if not available:
+        return
+
+    ncols = 2
+    nrows = (len(available) + 1) // 2
+    fig, axes = plt.subplots(nrows, ncols, figsize=(8 * ncols, 4.5 * nrows), squeeze=False)
+    colors    = plt.rcParams["axes.prop_cycle"].by_key()["color"]
+    color_map = {m: colors[i] for i, m in enumerate(METHODS)}
+    active    = DEBIASING + (["llm_only"] if which == "srmse" else [])
+    n_avg     = len(LLM_ORDER) * 4  # averaging over LLMs × phases
+
+    for i, ds in enumerate(available):
+        ax = axes[i // ncols][i % ncols]
+        df = load_all_phases(summaries_base, ds, which)
+        _draw_panel(ax, df, "metric", "metric", ylabel,
+                    title=DATASET_TITLES[ds], n_avg=n_avg,
+                    include_llm_only=(which == "srmse"))
+
+    for i in range(len(available), nrows * ncols):
+        axes[i // ncols][i % ncols].set_visible(False)
+
+    _add_legend(fig, active, color_map)
+    fig.suptitle(f"All Phases Combined — {ylabel} (averaged over LLMs)", fontsize=13)
+    fig.tight_layout(rect=(0, 0.05, 1, 0.97))
+
+    out = fig_dir / "Dataset" / f"all_datasets_all_phases_{which}_avg_llms.png"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(str(out), bbox_inches="tight", dpi=300)
+    print(f"Saved → {out}")
+    plt.close(fig)
+
+
+# ── grid: averaged over phases (and datasets) — rows=LLMs ─────────────────────
+
+def make_phase_avg_by_llm(summaries_base: Path, fig_dir: Path,
+                           which: str = "srmse"):
+    ylabel       = "sRMSE (avg. over phases)" if which == "srmse" else "Std. Bias (avg. over phases)"
+    available_ds = [ds for ds in DATASETS
+                    if load_all_phases(summaries_base, ds, which) is not None]
+    if not available_ds:
+        return
+    n_avg = len(available_ds) * 4  # averaging over datasets × phases
+
+    ncols = 2
+    nrows = (len(LLM_ORDER) + 1) // 2
+    fig, axes = plt.subplots(nrows, ncols, figsize=(8 * ncols, 4.5 * nrows), squeeze=False)
+    colors    = plt.rcParams["axes.prop_cycle"].by_key()["color"]
+    color_map = {m: colors[i] for i, m in enumerate(METHODS)}
+    active    = DEBIASING + (["llm_only"] if which == "srmse" else [])
+
+    for r, llm in enumerate(LLM_ORDER):
+        ax = axes[r // ncols][r % ncols]
+        frames = []
+        for ds in available_ds:
+            df_ds = load_all_phases(summaries_base, ds, which)
+            if df_ds is not None:
+                frames.append(df_ds[df_ds["llm"] == llm].copy())
+        if not frames:
+            ax.set_visible(False)
+            continue
+        df = pd.concat(frames, ignore_index=True)
+        _draw_panel(ax, df, "metric", "metric", ylabel,
+                    title=LLM_TITLES[llm], n_avg=n_avg,
+                    include_llm_only=(which == "srmse"))
+
+    for i in range(len(LLM_ORDER), nrows * ncols):
+        axes[i // ncols][i % ncols].set_visible(False)
+
+    _add_legend(fig, active, color_map)
+    ds_str = ", ".join(DATASET_TITLES[d] for d in available_ds)
+    fig.suptitle(f"All Phases Combined — {ylabel}\n(averaged over datasets: {ds_str})",
+                 fontsize=12)
+    fig.tight_layout(rect=(0, 0.05, 1, 0.97))
+
+    out = fig_dir / "LLMs" / f"all_llms_all_phases_{which}_avg_datasets.png"
     out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(str(out), bbox_inches="tight", dpi=300)
     print(f"Saved → {out}")
@@ -296,8 +412,14 @@ if __name__ == "__main__":
         choices=["prevalence", "low", "high", "full", "all"],
         default="all")
     parser.add_argument("--fig-dir", type=Path,
-        default=Path("thesis/results/experiment 1/figures/summary"))
+        default=Path("thesis/results/experiment 1/figures/Aggregated plots"))
+    parser.add_argument("--no-ppi", action="store_true",
+        help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
     args = parser.parse_args()
+
+    if args.no_ppi:
+        DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
+        args.fig_dir = args.fig_dir / "minus PPI"
 
     phases = (["prevalence", "low", "high", "full"]
               if args.phase == "all" else [args.phase])
@@ -307,3 +429,8 @@ if __name__ == "__main__":
         for which in ("srmse", "bias"):
             make_grid_by_dataset(args.summaries_dir, ph, args.fig_dir, which=which)
             make_grid_by_llm(args.summaries_dir, ph, args.fig_dir, which=which)
+
+    print("\n── All phases combined ──")
+    for which in ("srmse", "bias"):
+        make_phase_avg_by_dataset(args.summaries_dir, args.fig_dir, which=which)
+        make_phase_avg_by_llm(args.summaries_dir, args.fig_dir, which=which)

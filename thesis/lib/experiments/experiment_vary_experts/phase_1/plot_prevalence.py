@@ -20,7 +20,8 @@ DATASET_N: dict[tuple[str, str], int] = {
 }
 
 # Method display order and labels
-METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+METHODS   = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+DEBIASING = ["expert_only", "dsl", "ppi", "ppipp"]
 METHOD_LABELS = {
     "expert_only": r"$\theta_\dagger$",
     "dsl":         "DSL",
@@ -249,9 +250,13 @@ if __name__ == "__main__":
     parser.add_argument("--fig-dir", type=Path,
         default=Path("thesis/results/figures"),
         help="Output directory for figures")
+    parser.add_argument("--no-ppi", action="store_true",
+        help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
     args = parser.parse_args()
 
-    fig_dir = args.fig_dir
+    if args.no_ppi:
+        DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
+    fig_dir = args.fig_dir / "minus PPI" if args.no_ppi else args.fig_dir
     ds = args.dataset
     if args.output_srmse     is None: args.output_srmse     = fig_dir / f"{ds}_prevalence_srmse.png"
     if args.output_bias      is None: args.output_bias      = fig_dir / f"{ds}_prevalence_bias.png"
@@ -269,7 +274,7 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE ({args.dataset.upper()})",
         output=args.output_srmse,
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -278,7 +283,7 @@ if __name__ == "__main__":
         ylabel="Standardised Bias",
         suptitle=f"Class Prevalence — Standardised Bias ({args.dataset.upper()})",
         output=args.output_bias,
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     # Extra: include LLM-only horizontal reference
@@ -288,7 +293,7 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE with LLM baseline ({args.dataset.upper()})",
         output=args.output_debiasing,
-        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
+        methods=list(DEBIASING) + ["llm_only"],
     )
 
     # Averaged over LLMs — single panel matching paper Figure 3
@@ -298,5 +303,5 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE averaged over LLMs ({args.dataset.upper()})",
         output=args.output_avg,
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )

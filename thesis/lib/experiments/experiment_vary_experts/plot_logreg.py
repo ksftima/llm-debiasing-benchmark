@@ -29,7 +29,8 @@ DATASET_N: dict[tuple[str, str], int] = {
     for llm in ["llama", "deepseek", "gpt54", "mistral", "claude"]
 }
 
-METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+METHODS   = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+DEBIASING = ["expert_only", "dsl", "ppi", "ppipp"]
 METHOD_LABELS = {
     "expert_only": r"$\theta_\dagger$",
     "dsl":         "DSL",
@@ -258,7 +259,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE of β ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_srmse_beta2.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -267,7 +268,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"Standardised Bias ($\beta$)",
         suptitle=f"{label} Feature — Standardised Bias of β ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_bias_beta2.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -276,7 +277,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β with LLM baseline ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_full.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
+        methods=list(DEBIASING) + ["llm_only"],
     )
 
     make_averaged_figure(
@@ -285,7 +286,7 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, fig_dir: Path):
         ylabel=r"sRMSE ($\beta$)",
         suptitle=f"{label} Feature — sRMSE β averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_{ph}_variance_avg.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
 
@@ -298,7 +299,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_srmse_eucl.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -307,7 +308,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE with LLM baseline ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_full.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
+        methods=list(DEBIASING) + ["llm_only"],
     )
 
     make_averaged_figure(
@@ -316,7 +317,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="sRMSE (Euclidean)",
         suptitle=f"Full Logistic — Euclidean sRMSE averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_avg.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -325,7 +326,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="Standardised Bias",
         suptitle=f"Full Logistic — Standardised Bias ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_bias.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_averaged_figure(
@@ -334,7 +335,7 @@ def plots_phase4(df: pd.DataFrame, ds: str, fig_dir: Path):
         ylabel="Standardised Bias",
         suptitle=f"Full Logistic — Standardised Bias averaged over LLMs ({ds.upper()})",
         output=fig_dir / f"{ds}_full_logistic_bias_avg.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
 
@@ -354,12 +355,17 @@ if __name__ == "__main__":
         help="Extra suffix on CSV filenames, e.g. '_lam01'")
     parser.add_argument("--fig-dir", type=Path, default=None,
         help="Output directory for figures. Default: thesis/results/experiment 1/figures/phase_N/<dataset>")
+    parser.add_argument("--no-ppi", action="store_true",
+        help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
     args = parser.parse_args()
 
     ds      = args.dataset
     ph      = args.phase
     phase_num = {"low": 2, "high": 3, "full": 4}[ph]
     fig_dir = args.fig_dir or Path(f"thesis/results/experiment 1/figures/phase_{phase_num}/{ds}")
+    if args.no_ppi:
+        DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
+        fig_dir = fig_dir / "minus PPI"
 
     df = load_summaries(args.summaries_dir, ds, ph, extra_suffix=args.tag)
 

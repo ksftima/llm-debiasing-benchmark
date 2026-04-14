@@ -20,7 +20,8 @@ LLM_ORDER  = ["llama", "deepseek", "gpt54", "mistral", "claude"]
 LLM_TITLES = {"llama": "Llama", "deepseek": "DeepSeek",
                "gpt54": "GPT-5.4", "mistral": "Mistral", "claude": "Claude"}
 
-METHODS = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+METHODS   = ["expert_only", "dsl", "ppi", "ppipp", "llm_only"]
+DEBIASING = ["expert_only", "dsl", "ppi", "ppipp"]
 METHOD_LABELS = {
     "expert_only": r"$\theta_\dagger$",
     "dsl":         "DSL",
@@ -213,12 +214,17 @@ if __name__ == "__main__":
     parser.add_argument("--fig-dir",  type=Path,
         default=None,
         help="Override output directory. Default: thesis/results/experiment2/figures/n{N}/{dataset}/phase_1/")
+    parser.add_argument("--no-ppi", action="store_true",
+        help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
     args = parser.parse_args()
 
     ds      = args.dataset
     n       = args.n_expert
     tag     = f"{ds}_n{n}"
     fig_dir = args.fig_dir or Path(f"thesis/results/experiment2/figures/n{n}/{ds}/phase_1")
+    if args.no_ppi:
+        DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
+        fig_dir = fig_dir / "minus PPI"
 
     df = load_summaries(args.summaries_dir, ds, n)
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}")
@@ -229,7 +235,7 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE ({ds.upper()}, n_expert={n})",
         output=fig_dir / f"{tag}_prevalence_srmse.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -238,7 +244,7 @@ if __name__ == "__main__":
         ylabel="Standardised Bias",
         suptitle=f"Class Prevalence — Standardised Bias ({ds.upper()}, n_expert={n})",
         output=fig_dir / f"{tag}_prevalence_bias.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
 
     make_figure(
@@ -247,7 +253,7 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE with LLM baseline ({ds.upper()}, n_expert={n})",
         output=fig_dir / f"{tag}_prevalence_full.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp", "llm_only"],
+        methods=list(DEBIASING) + ["llm_only"],
     )
 
     make_averaged_figure(
@@ -256,5 +262,5 @@ if __name__ == "__main__":
         ylabel="sRMSE",
         suptitle=f"Class Prevalence — sRMSE averaged over LLMs ({ds.upper()}, n_expert={n})",
         output=fig_dir / f"{tag}_prevalence_avg.png",
-        methods=["expert_only", "dsl", "ppi", "ppipp"],
+        methods=list(DEBIASING),
     )
