@@ -89,40 +89,6 @@ def fit_ppi_x2(Y, Y_hat, x2, selected_mask):
     where ℓ(y, Xθ) = -y*Xθ + log(1 + exp(Xθ)) is the logistic loss.
     L2 penalty is applied to all coefficients except the intercept (index 0).
     """
-    ones = np.ones(len(Y))
-    X    = np.column_stack([ones, x2])  # shape (N, 2)
-
-    X_lab     = X[selected_mask]
-    Y_lab     = Y[selected_mask].astype(float)
-    Yhat_lab  = Y_hat[selected_mask].astype(float)
-    X_unlab   = X[~selected_mask]
-    Yhat_unlab = Y_hat[~selected_mask].astype(float)
-
-    def safe_log1pexp(z):
-        return np.log1p(np.exp(-np.abs(z))) + np.maximum(z, 0.0)
-
-    def objective(theta):
-        loss_unlab  = np.mean(-Yhat_unlab  * (X_unlab @ theta) + safe_log1pexp(X_unlab @ theta))
-        loss_lab_y  = np.mean(-Y_lab       * (X_lab   @ theta) + safe_log1pexp(X_lab   @ theta))
-        loss_lab_yh = np.mean(-Yhat_lab    * (X_lab   @ theta) + safe_log1pexp(X_lab   @ theta))
-        l2 = LAM_L2 / 2.0 * np.sum(theta[1:] ** 2)
-        return loss_unlab - loss_lab_yh + loss_lab_y + l2
-
-    def gradient(theta):
-        grad_unlab  = X_unlab.T @ (expit(X_unlab @ theta) - Yhat_unlab)  / len(Yhat_unlab)
-        grad_lab_y  = X_lab.T   @ (expit(X_lab   @ theta) - Y_lab)       / len(Y_lab)
-        grad_lab_yh = X_lab.T   @ (expit(X_lab   @ theta) - Yhat_lab)    / len(Y_lab)
-        grad_l2 = LAM_L2 * np.concatenate([[0.0], theta[1:]])
-        return grad_unlab - grad_lab_yh + grad_lab_y + grad_l2
-
-    try:
-        result = minimize(objective, np.zeros(2), jac=gradient, method="L-BFGS-B")
-        if not result.success:
-            print(f"    PPI optimisation did not converge: {result.message}")
-        return result.x
-    except Exception as e:
-        print(f"    PPI failed: {e}")
-        return np.array([np.nan, np.nan])
 
 
 def fit_dsl_x2(Y, Y_hat, x2, selected_mask, feature: str):
