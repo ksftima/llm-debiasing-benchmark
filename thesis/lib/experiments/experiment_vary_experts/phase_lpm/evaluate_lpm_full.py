@@ -62,6 +62,17 @@ def compute_metrics_euclidean(betas, beta_star):
     return srmse, srmse_se, n
 
 
+def compute_bias_euclidean(betas, beta_star):
+    valid   = ~np.isnan(betas).any(axis=1)
+    betas_v = betas[valid]
+    bstar_v = beta_star[valid]
+    n       = int(valid.sum())
+    per_rep = np.mean((betas_v - bstar_v) / bstar_v, axis=1)
+    bias    = float(np.mean(per_rep))
+    bias_se = float(np.std(per_rep) / np.sqrt(n)) if n > 1 else np.nan
+    return bias, bias_se, n
+
+
 if __name__ == "__main__":
 
     parser = ArgumentParser()
@@ -84,10 +95,12 @@ if __name__ == "__main__":
     # LLM-only baseline
     llm_betas = data["theta_llm"]
     srmse_eucl, srmse_eucl_se, n_valid = compute_metrics_euclidean(llm_betas, beta_star)
+    bias_eucl, bias_eucl_se, _         = compute_bias_euclidean(llm_betas, beta_star)
     rows.append({
         "dataset": args.dataset, "llm": args.llm, "method": "llm_only",
         "n_expert": None,
         "sRMSE_eucl": round(srmse_eucl, 6), "sRMSE_eucl_se": round(srmse_eucl_se, 6),
+        "bias_eucl":  round(bias_eucl, 6),   "bias_eucl_se":  round(bias_eucl_se, 6),
         "n_reps": num_reps, "n_valid": n_valid,
     })
 
@@ -101,13 +114,13 @@ if __name__ == "__main__":
     for method_name, all_thetas in methods.items():
         for i, n in enumerate(n_values):
             betas_at_n = all_thetas[:, i, :]
-            srmse_eucl, srmse_eucl_se, n_valid = compute_metrics_euclidean(
-                betas_at_n, beta_star
-            )
+            srmse_eucl, srmse_eucl_se, n_valid = compute_metrics_euclidean(betas_at_n, beta_star)
+            bias_eucl, bias_eucl_se, _         = compute_bias_euclidean(betas_at_n, beta_star)
             rows.append({
                 "dataset": args.dataset, "llm": args.llm, "method": method_name,
                 "n_expert": int(n),
                 "sRMSE_eucl": round(srmse_eucl, 6), "sRMSE_eucl_se": round(srmse_eucl_se, 6),
+                "bias_eucl":  round(bias_eucl, 6),   "bias_eucl_se":  round(bias_eucl_se, 6),
                 "n_reps": num_reps, "n_valid": n_valid,
             })
 

@@ -70,7 +70,8 @@ def fit_ppi_ols(Y, Y_hat, x2, selected_mask):
     y_lab = Y[selected_mask].astype(float)
     yhat_lab = Y_hat[selected_mask].astype(float)
 
-    rhs = X.T @ Y_hat - X_lab.T @ yhat_lab + X_lab.T @ y_lab
+    N, n = len(Y), int(selected_mask.sum())
+    rhs = X.T @ Y_hat + (N / n) * X_lab.T @ (y_lab - yhat_lab)
     try:
         return np.linalg.solve(X.T @ X, rhs)
     except np.linalg.LinAlgError:
@@ -109,7 +110,7 @@ def fit_dsl_ols(Y, Y_hat, x2, selected_mask, feature: str):
                 suppressWarnings(library("dsl"))
                 data <- read.csv("{data_file}")
                 out <- suppressWarnings(dsl(
-                    model         = "linear",
+                    model         = "lm",
                     formula       = Y ~ {feature},
                     predicted_var = "Y",
                     prediction    = "Y_hat",

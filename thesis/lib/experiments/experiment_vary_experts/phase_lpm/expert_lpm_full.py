@@ -55,7 +55,8 @@ def fit_ppi_ols_full(Y, Y_hat, X, selected_mask):
     y_lab = Y[selected_mask].astype(float)
     yhat_lab = Y_hat[selected_mask].astype(float)
 
-    rhs = X_aug.T @ Y_hat - X_lab.T @ yhat_lab + X_lab.T @ y_lab
+    N, n = len(Y), int(selected_mask.sum())
+    rhs = X_aug.T @ Y_hat + (N / n) * X_lab.T @ (y_lab - yhat_lab)
     try:
         return np.linalg.solve(X_aug.T @ X_aug, rhs)
     except np.linalg.LinAlgError:
@@ -88,7 +89,7 @@ def fit_dsl_ols_full(Y, Y_hat, X_df, selected_mask, ro):
                 sink("/dev/null")
                 data <- read.csv("{data_file}")
                 out <- suppressWarnings(dsl(
-                    model         = "linear",
+                    model         = "lm",
                     formula       = {formula},
                     predicted_var = "Y",
                     prediction    = "Y_hat",
