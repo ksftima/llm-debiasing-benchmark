@@ -31,11 +31,11 @@ METHOD_LABELS = {
 }
 
 
-def load_summaries(summaries_dir: Path, dataset: str, n_expert: int, phase: str) -> pd.DataFrame:
+def load_summaries(summaries_dir: Path, dataset: str, n_expert: int, phase: str, extra_suffix: str = "") -> pd.DataFrame:
     suffix = {"low": "low_variance", "high": "high_variance", "full": "full_logistic"}[phase]
     frames = []
     for llm in LLM_ORDER:
-        path = summaries_dir / f"{dataset}_{llm}_n{n_expert}_{suffix}_total.csv"
+        path = summaries_dir / f"{dataset}_{llm}_n{n_expert}_{suffix}_total{extra_suffix}.csv"
         if not path.exists():
             print(f"  WARNING: {path} not found, skipping.")
             continue
@@ -309,6 +309,8 @@ if __name__ == "__main__":
         help="Override output directory. Default: thesis/results/experiment2/figures/n{N}/{dataset}/phase_{X}/")
     parser.add_argument("--no-ppi", action="store_true",
         help="Exclude PPI from plots; outputs go to a 'minus PPI' subfolder.")
+    parser.add_argument("--tag", type=str, default="",
+        help="Extra filename suffix, e.g. '_lpm' to load *_total_lpm.csv files.")
     args = parser.parse_args()
 
     ds = args.dataset
@@ -321,7 +323,7 @@ if __name__ == "__main__":
         DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
         fig_dir = fig_dir / "minus PPI"
 
-    df = load_summaries(args.summaries_dir, ds, n, ph)
+    df = load_summaries(args.summaries_dir, ds, n, ph, extra_suffix=args.tag)
     print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}  |  phase={ph}")
 
     if ph in ("low", "high"):
