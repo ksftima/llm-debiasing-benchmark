@@ -17,6 +17,7 @@ from argparse import ArgumentParser
 
 
 LLM_ORDER  = ["llama", "deepseek", "gpt54", "mistral", "claude"]
+DATASETS   = ["cuad", "fomc", "misogynistic", "vuamc"]
 LLM_TITLES = {"llama": "Llama", "deepseek": "DeepSeek",
                "gpt54": "GPT-5.4", "mistral": "Mistral", "claude": "Claude"}
 
@@ -146,7 +147,8 @@ def make_figure(df: pd.DataFrame, dataset: str,
 def make_averaged_figure(df: pd.DataFrame, dataset: str,
                          metric: str, se_col: str, ylabel: str,
                          suptitle: str, output: Path,
-                         methods: list[str] | None = None):
+                         methods: list[str] | None = None,
+                         n_groups: int | None = None):
     active_methods = methods if methods is not None else ["expert_only", "dsl", "ppi", "ppipp"]
     colors         = plt.rcParams["axes.prop_cycle"].by_key()["color"]
     color_map      = {m: colors[i] for i, m in enumerate(METHODS)}
@@ -155,7 +157,7 @@ def make_averaged_figure(df: pd.DataFrame, dataset: str,
 
     ref_method  = next(m for m in active_methods if m != "llm_only")
     N_values    = np.sort(df[df["method"] == ref_method]["N_total"].dropna().unique())
-    n_llms      = df["llm"].nunique()
+    n_llms      = n_groups if n_groups is not None else df["llm"].nunique()
 
     for method in active_methods:
         color = color_map[method]
@@ -244,6 +246,15 @@ def plots_phase2_or_3(df: pd.DataFrame, ds: str, ph: str, n: int, fig_dir: Path)
         methods=list(DEBIASING),
     )
 
+    make_averaged_figure(
+        df, ds,
+        metric="sRMSE_beta2", se_col="sRMSE_beta2_se",
+        ylabel=r"sRMSE ($\beta$)",
+        suptitle=f"{label} Feature — sRMSE β averaged over LLMs with baseline ({ds.upper()}, n_expert={n})",
+        output=fig_dir / f"{tag}_{ph}_variance_avg_baseline.png",
+        methods=list(DEBIASING) + ["llm_only"],
+    )
+
 
 def plots_phase4(df: pd.DataFrame, ds: str, n: int, fig_dir: Path):
     tag = f"{ds}_n{n}"
@@ -275,6 +286,15 @@ def plots_phase4(df: pd.DataFrame, ds: str, n: int, fig_dir: Path):
         methods=list(DEBIASING),
     )
 
+    make_averaged_figure(
+        df, ds,
+        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
+        ylabel="sRMSE (Euclidean)",
+        suptitle=f"Full Logistic — Euclidean sRMSE averaged over LLMs with baseline ({ds.upper()}, n_expert={n})",
+        output=fig_dir / f"{tag}_full_logistic_avg_baseline.png",
+        methods=list(DEBIASING) + ["llm_only"],
+    )
+
     make_figure(
         df, ds,
         metric="bias_eucl", se_col="bias_eucl_se",
@@ -293,12 +313,58 @@ def plots_phase4(df: pd.DataFrame, ds: str, n: int, fig_dir: Path):
         methods=list(DEBIASING),
     )
 
+    make_averaged_figure(
+        df, ds,
+        metric="bias_eucl", se_col="bias_eucl_se",
+        ylabel="Standardised Bias",
+        suptitle=f"Full Logistic — Standardised Bias averaged over LLMs with baseline ({ds.upper()}, n_expert={n})",
+        output=fig_dir / f"{tag}_full_logistic_bias_avg_baseline.png",
+        methods=list(DEBIASING) + ["llm_only"],
+    )
+
+
+def plots_all_datasets_phase4(summaries_base: Path, n_expert: int, fig_dir: Path, tag: str = ""):
+    """Phase 4 aggregated over all datasets and all LLMs."""
+    frames = []
+    for ds in DATASETS:
+        phase_dir = summaries_base / ds / f"n{n_expert}" / "phase_4"
+        for llm in LLM_ORDER:
+            path = phase_dir / f"{ds}_{llm}_n{n_expert}_full_logistic_total{tag}.csv"
+            if path.exists():
+                frames.append(pd.read_csv(path))
+            else:
+                print(f"  WARNING: {path} not found, skipping.")
+    if not frames:
+        raise FileNotFoundError(f"No phase_4 CSVs found under {summaries_base}")
+    df = pd.concat(frames, ignore_index=True)
+    n_groups = df["llm"].nunique() * len(DATASETS)
+
+    make_averaged_figure(
+        df, "all",
+        metric="sRMSE_eucl", se_col="sRMSE_eucl_se",
+        ylabel="sRMSE (Euclidean)",
+        suptitle=f"Full Logistic — Euclidean sRMSE averaged over all LLMs & datasets (n_expert={n_expert})",
+        output=fig_dir / f"all_datasets_n{n_expert}{tag}_avg_baseline.png",
+        methods=list(DEBIASING) + ["llm_only"],
+        n_groups=n_groups,
+    )
+    make_averaged_figure(
+        df, "all",
+        metric="bias_eucl", se_col="bias_eucl_se",
+        ylabel="Standardised Bias",
+        suptitle=f"Full Logistic — Standardised Bias averaged over all LLMs & datasets (n_expert={n_expert})",
+        output=fig_dir / f"all_datasets_n{n_expert}{tag}_bias_avg_baseline.png",
+        methods=list(DEBIASING) + ["llm_only"],
+        n_groups=n_groups,
+    )
+
 
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--summaries-dir", type=Path,
         default=Path("thesis/results/experiment2/summaries"))
-    parser.add_argument("--dataset",  type=str, default="misogynistic")
+    parser.add_argument("--dataset",  type=str, default="misogynistic",
+        help="Dataset name, or 'all' for aggregated plot over all datasets (phase full only).")
     parser.add_argument("--n-expert", type=int, default=50,
         help="Fixed number of expert annotations (50, 100, or 200)")
     parser.add_argument("--phase",    type=str, choices=["low", "high", "full"],
@@ -318,15 +384,24 @@ if __name__ == "__main__":
     ph = args.phase
 
     phase_num = {"low": 2, "high": 3, "full": 4}[ph]
-    fig_dir   = args.fig_dir or Path(f"thesis/results/experiment2/figures/n{n}/{ds}/phase_{phase_num}")
+
     if args.no_ppi:
         DEBIASING[:] = [m for m in DEBIASING if m != "ppi"]
-        fig_dir = fig_dir / "minus PPI"
 
-    df = load_summaries(args.summaries_dir, ds, n, ph, extra_suffix=args.tag)
-    print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}  |  phase={ph}")
-
-    if ph in ("low", "high"):
-        plots_phase2_or_3(df, ds, ph, n, fig_dir)
+    if ds == "all":
+        fig_dir = args.fig_dir or Path(f"thesis/results/experiment2/figures/all_datasets/phase_{phase_num}")
+        if args.no_ppi:
+            fig_dir = fig_dir / "minus PPI"
+        plots_all_datasets_phase4(args.summaries_dir, n, fig_dir, tag=args.tag)
     else:
-        plots_phase4(df, ds, n, fig_dir)
+        fig_dir = args.fig_dir or Path(f"thesis/results/experiment2/figures/n{n}/{ds}/phase_{phase_num}")
+        if args.no_ppi:
+            fig_dir = fig_dir / "minus PPI"
+
+        df = load_summaries(args.summaries_dir, ds, n, ph, extra_suffix=args.tag)
+        print(f"Loaded {len(df)} rows  |  dataset={ds}  |  n_expert={n}  |  phase={ph}")
+
+        if ph in ("low", "high"):
+            plots_phase2_or_3(df, ds, ph, n, fig_dir)
+        else:
+            plots_phase4(df, ds, n, fig_dir)
